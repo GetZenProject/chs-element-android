@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.widgets
+package dev.getzen.element.features.widgets
 
 import android.Manifest
 import android.webkit.PermissionRequest
-import im.vector.app.features.widgets.webview.WebviewPermissionUtils
-import im.vector.app.test.fakes.FakeVectorPreferences
+import dev.getzen.element.features.widgets.webview.WebviewPermissionUtils
+import dev.getzen.element.test.fakes.FakeVectorPreferences
 import org.amshove.kluent.shouldBeEqualTo
 import org.junit.FixMethodOrder
 import org.junit.Test

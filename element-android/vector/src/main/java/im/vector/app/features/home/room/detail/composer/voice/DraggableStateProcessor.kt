@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.composer.voice
+package dev.getzen.element.features.home.room.detail.composer.voice
 
 import android.content.res.Resources
 import android.view.MotionEvent
-import im.vector.app.R
-import im.vector.app.core.utils.DimensionConverter
-import im.vector.app.features.home.room.detail.composer.voice.VoiceMessageRecorderView.DraggingState
+import dev.getzen.element.R
+import dev.getzen.element.core.utils.DimensionConverter
+import dev.getzen.element.features.home.room.detail.composer.voice.VoiceMessageRecorderView.DraggingState
 import kotlin.math.absoluteValue
 
 class DraggableStateProcessor(

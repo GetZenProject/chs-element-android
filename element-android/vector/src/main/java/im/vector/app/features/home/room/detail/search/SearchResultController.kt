@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.search
+package dev.getzen.element.features.home.room.detail.search
 
 import android.graphics.Typeface
 import android.text.Spannable
@@ -23,16 +23,16 @@ import android.text.style.StyleSpan
 import com.airbnb.epoxy.EpoxyModel
 import com.airbnb.epoxy.TypedEpoxyController
 import com.airbnb.epoxy.VisibilityState
-import im.vector.app.R
-import im.vector.app.core.date.DateFormatKind
-import im.vector.app.core.date.VectorDateFormatter
-import im.vector.app.core.epoxy.loadingItem
-import im.vector.app.core.epoxy.noResultItem
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.resources.UserPreferencesProvider
-import im.vector.app.core.ui.list.GenericHeaderItem_
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.home.room.detail.timeline.format.DisplayableEventFormatter
+import dev.getzen.element.R
+import dev.getzen.element.core.date.DateFormatKind
+import dev.getzen.element.core.date.VectorDateFormatter
+import dev.getzen.element.core.epoxy.loadingItem
+import dev.getzen.element.core.epoxy.noResultItem
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.core.resources.UserPreferencesProvider
+import dev.getzen.element.core.ui.list.GenericHeaderItem_
+import dev.getzen.element.features.home.AvatarRenderer
+import dev.getzen.element.features.home.room.detail.timeline.format.DisplayableEventFormatter
 import im.vector.lib.core.utils.epoxy.charsequence.toEpoxyCharSequence
 import im.vector.lib.core.utils.timer.Clock
 import org.matrix.android.sdk.api.session.Session

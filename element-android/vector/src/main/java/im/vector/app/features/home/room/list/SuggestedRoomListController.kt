@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.list
+package dev.getzen.element.features.home.room.list
 
 class SuggestedRoomListController(
         private val roomSummaryItemFactory: RoomSummaryItemFactory

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.list.actions
+package dev.getzen.element.features.home.room.list.actions
 
-import im.vector.app.core.platform.VectorSharedAction
+import dev.getzen.element.core.platform.VectorSharedAction
 
 sealed class RoomListSharedAction : VectorSharedAction {
 

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomdirectory
+package dev.getzen.element.features.roomdirectory
 
-import im.vector.app.core.platform.VectorViewEvents
+import dev.getzen.element.core.platform.VectorViewEvents
 
 /**
  * Transient events for room directory screen.

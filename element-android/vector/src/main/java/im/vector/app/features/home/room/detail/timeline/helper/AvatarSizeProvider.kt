@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.helper
+package dev.getzen.element.features.home.room.detail.timeline.helper
 
-import im.vector.app.core.utils.DimensionConverter
-import im.vector.app.features.home.room.detail.timeline.style.TimelineLayoutSettings
-import im.vector.app.features.home.room.detail.timeline.style.TimelineLayoutSettingsProvider
+import dev.getzen.element.core.utils.DimensionConverter
+import dev.getzen.element.features.home.room.detail.timeline.style.TimelineLayoutSettings
+import dev.getzen.element.features.home.room.detail.timeline.style.TimelineLayoutSettingsProvider
 import javax.inject.Inject
 
 class AvatarSizeProvider @Inject constructor(

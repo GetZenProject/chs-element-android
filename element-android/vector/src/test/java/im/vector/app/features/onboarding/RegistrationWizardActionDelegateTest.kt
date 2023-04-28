@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.onboarding
+package dev.getzen.element.features.onboarding
 
-import im.vector.app.test.fakes.FakeAuthenticationService
-import im.vector.app.test.fakes.FakeRegistrationWizard
-import im.vector.app.test.fakes.FakeSession
-import im.vector.app.test.fixtures.a401ServerError
+import dev.getzen.element.test.fakes.FakeAuthenticationService
+import dev.getzen.element.test.fakes.FakeRegistrationWizard
+import dev.getzen.element.test.fakes.FakeSession
+import dev.getzen.element.test.fixtures.a401ServerError
 import io.mockk.coVerifyAll
 import kotlinx.coroutines.test.runTest
 import org.amshove.kluent.shouldBeEqualTo

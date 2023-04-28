@@ -1,4 +1,4 @@
-package im.vector.app.core.utils
+package dev.getzen.element.core.utils
 
 import android.content.Context
 import android.util.AttributeSet

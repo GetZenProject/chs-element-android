@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.pushers.model
+package dev.getzen.element.core.pushers.model
 
 /**
  * Represent parsed data that the app has received from a Push content.

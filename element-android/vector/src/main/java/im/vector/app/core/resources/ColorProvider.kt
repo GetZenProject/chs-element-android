@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.resources
+package dev.getzen.element.core.resources
 
 import android.content.Context
 import androidx.annotation.AttrRes
 import androidx.annotation.ColorInt
 import androidx.annotation.ColorRes
 import androidx.core.content.ContextCompat
-import im.vector.app.features.themes.ThemeUtils
+import dev.getzen.element.features.themes.ThemeUtils
 import javax.inject.Inject
 
 class ColorProvider @Inject constructor(private val context: Context) {

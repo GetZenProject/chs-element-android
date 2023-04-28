@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.crypto.keysbackup.restore
+package dev.getzen.element.features.crypto.keysbackup.restore
 
 import android.app.Activity
 import android.content.Context
@@ -21,15 +21,15 @@ import android.content.Intent
 import com.airbnb.mvrx.viewModel
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.addFragmentToBackstack
-import im.vector.app.core.extensions.observeEvent
-import im.vector.app.core.extensions.registerStartForActivityResult
-import im.vector.app.core.extensions.replaceFragment
-import im.vector.app.core.platform.SimpleFragmentActivity
-import im.vector.app.features.crypto.quads.SharedSecureStorageActivity
-import im.vector.app.features.workers.signout.ServerBackupStatusAction
-import im.vector.app.features.workers.signout.ServerBackupStatusViewModel
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.addFragmentToBackstack
+import dev.getzen.element.core.extensions.observeEvent
+import dev.getzen.element.core.extensions.registerStartForActivityResult
+import dev.getzen.element.core.extensions.replaceFragment
+import dev.getzen.element.core.platform.SimpleFragmentActivity
+import dev.getzen.element.features.crypto.quads.SharedSecureStorageActivity
+import dev.getzen.element.features.workers.signout.ServerBackupStatusAction
+import dev.getzen.element.features.workers.signout.ServerBackupStatusViewModel
 import org.matrix.android.sdk.api.session.crypto.crosssigning.KEYBACKUP_SECRET_SSSS_NAME
 
 @AndroidEntryPoint

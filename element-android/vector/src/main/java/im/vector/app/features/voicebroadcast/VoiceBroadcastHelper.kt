@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.voicebroadcast
+package dev.getzen.element.features.voicebroadcast
 
-import im.vector.app.features.voicebroadcast.listening.VoiceBroadcastPlayer
-import im.vector.app.features.voicebroadcast.model.VoiceBroadcast
-import im.vector.app.features.voicebroadcast.recording.usecase.PauseVoiceBroadcastUseCase
-import im.vector.app.features.voicebroadcast.recording.usecase.ResumeVoiceBroadcastUseCase
-import im.vector.app.features.voicebroadcast.recording.usecase.StartVoiceBroadcastUseCase
-import im.vector.app.features.voicebroadcast.recording.usecase.StopVoiceBroadcastUseCase
+import dev.getzen.element.features.voicebroadcast.listening.VoiceBroadcastPlayer
+import dev.getzen.element.features.voicebroadcast.model.VoiceBroadcast
+import dev.getzen.element.features.voicebroadcast.recording.usecase.PauseVoiceBroadcastUseCase
+import dev.getzen.element.features.voicebroadcast.recording.usecase.ResumeVoiceBroadcastUseCase
+import dev.getzen.element.features.voicebroadcast.recording.usecase.StartVoiceBroadcastUseCase
+import dev.getzen.element.features.voicebroadcast.recording.usecase.StopVoiceBroadcastUseCase
 import javax.inject.Inject
 
 /**

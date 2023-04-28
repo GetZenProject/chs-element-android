@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2.notification
+package dev.getzen.element.features.settings.devices.v2.notification
 
-import im.vector.app.core.pushers.UnifiedPushHelper
-import im.vector.app.features.settings.VectorPreferences
+import dev.getzen.element.core.pushers.UnifiedPushHelper
+import dev.getzen.element.features.settings.VectorPreferences
 import org.matrix.android.sdk.api.account.LocalNotificationSettingsContent
 import org.matrix.android.sdk.api.session.Session
 import javax.inject.Inject

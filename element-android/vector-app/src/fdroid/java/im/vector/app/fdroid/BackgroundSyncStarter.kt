@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.fdroid
+package dev.getzen.element.fdroid
 
 import android.content.Context
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.fdroid.receiver.AlarmSyncBroadcastReceiver
-import im.vector.app.features.settings.BackgroundSyncMode
-import im.vector.app.features.settings.VectorPreferences
+import dev.getzen.element.core.di.ActiveSessionHolder
+import dev.getzen.element.fdroid.receiver.AlarmSyncBroadcastReceiver
+import dev.getzen.element.features.settings.BackgroundSyncMode
+import dev.getzen.element.features.settings.VectorPreferences
 import im.vector.lib.core.utils.timer.Clock
 import timber.log.Timber
 import javax.inject.Inject

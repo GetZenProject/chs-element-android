@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces
+package dev.getzen.element.features.spaces
 
 import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
-import im.vector.app.R
-import im.vector.app.core.epoxy.ClickListener
-import im.vector.app.core.epoxy.VectorEpoxyHolder
-import im.vector.app.core.epoxy.VectorEpoxyModel
-import im.vector.app.core.epoxy.onClick
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.ClickListener
+import dev.getzen.element.core.epoxy.VectorEpoxyHolder
+import dev.getzen.element.core.epoxy.VectorEpoxyModel
+import dev.getzen.element.core.epoxy.onClick
 
 @EpoxyModelClass
 abstract class SpaceAddItem : VectorEpoxyModel<SpaceAddItem.Holder>(R.layout.item_space_add) {

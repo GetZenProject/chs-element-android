@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.explore
+package dev.getzen.element.features.spaces.explore
 
 import com.airbnb.mvrx.Fail
 import com.airbnb.mvrx.Loading
@@ -24,13 +24,13 @@ import com.airbnb.mvrx.Uninitialized
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
-import im.vector.app.core.di.MavericksAssistedViewModelFactory
-import im.vector.app.core.di.hiltMavericksViewModelFactory
-import im.vector.app.core.platform.VectorViewModel
-import im.vector.app.features.analytics.AnalyticsTracker
-import im.vector.app.features.analytics.extensions.toAnalyticsJoinedRoom
-import im.vector.app.features.analytics.plan.JoinedRoom
-import im.vector.app.features.powerlevel.PowerLevelsFlowFactory
+import dev.getzen.element.core.di.MavericksAssistedViewModelFactory
+import dev.getzen.element.core.di.hiltMavericksViewModelFactory
+import dev.getzen.element.core.platform.VectorViewModel
+import dev.getzen.element.features.analytics.AnalyticsTracker
+import dev.getzen.element.features.analytics.extensions.toAnalyticsJoinedRoom
+import dev.getzen.element.features.analytics.plan.JoinedRoom
+import dev.getzen.element.features.powerlevel.PowerLevelsFlowFactory
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.map

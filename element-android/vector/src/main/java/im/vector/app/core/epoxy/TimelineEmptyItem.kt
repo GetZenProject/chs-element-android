@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.epoxy
+package dev.getzen.element.core.epoxy
 
 import androidx.core.view.updateLayoutParams
 import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
-import im.vector.app.R
-import im.vector.app.features.home.room.detail.timeline.item.ItemWithEvents
+import dev.getzen.element.R
+import dev.getzen.element.features.home.room.detail.timeline.item.ItemWithEvents
 
 @EpoxyModelClass
 abstract class TimelineEmptyItem : VectorEpoxyModel<TimelineEmptyItem.Holder>(R.layout.item_timeline_empty), ItemWithEvents {

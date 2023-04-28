@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.list
+package dev.getzen.element.features.home.room.list
 
 import com.airbnb.epoxy.EpoxyModel
 import com.airbnb.epoxy.paging.PagedListEpoxyController
-import im.vector.app.core.utils.createUIHandler
-import im.vector.app.features.home.RoomListDisplayMode
-import im.vector.app.features.settings.FontScalePreferences
+import dev.getzen.element.core.utils.createUIHandler
+import dev.getzen.element.features.home.RoomListDisplayMode
+import dev.getzen.element.features.settings.FontScalePreferences
 import org.matrix.android.sdk.api.session.room.members.ChangeMembershipState
 import org.matrix.android.sdk.api.session.room.model.RoomSummary
 

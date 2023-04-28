@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.home.room.detail.timeline.item
+package dev.getzen.element.features.home.room.detail.timeline.item
 
 import android.annotation.SuppressLint
 import android.graphics.Typeface
@@ -26,11 +26,11 @@ import androidx.core.content.ContextCompat
 import androidx.core.view.updateLayoutParams
 import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
-import im.vector.app.R
-import im.vector.app.core.epoxy.ClickListener
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.home.room.detail.timeline.MessageColorProvider
-import im.vector.app.features.home.room.detail.timeline.TimelineEventController
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.ClickListener
+import dev.getzen.element.features.home.AvatarRenderer
+import dev.getzen.element.features.home.room.detail.timeline.MessageColorProvider
+import dev.getzen.element.features.home.room.detail.timeline.TimelineEventController
 
 @EpoxyModelClass
 abstract class WidgetTileTimelineItem : AbsBaseMessageItem<WidgetTileTimelineItem.Holder>(R.layout.item_timeline_event_base_state) {

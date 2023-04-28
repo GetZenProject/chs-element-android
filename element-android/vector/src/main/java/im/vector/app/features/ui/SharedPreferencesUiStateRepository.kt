@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.ui
+package dev.getzen.element.features.ui
 
 import android.content.SharedPreferences
 import androidx.core.content.edit
-import im.vector.app.features.home.RoomListDisplayMode
-import im.vector.app.features.settings.VectorPreferences
+import dev.getzen.element.features.home.RoomListDisplayMode
+import dev.getzen.element.features.settings.VectorPreferences
 import javax.inject.Inject
 
 /**

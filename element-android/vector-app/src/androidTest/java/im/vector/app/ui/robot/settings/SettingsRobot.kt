@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.ui.robot.settings
+package dev.getzen.element.ui.robot.settings
 
 import com.adevinta.android.barista.interaction.BaristaClickInteractions.clickOn
-import im.vector.app.R
-import im.vector.app.clickOnAndGoBack
+import dev.getzen.element.R
+import dev.getzen.element.clickOnAndGoBack
 
 class SettingsRobot {
 

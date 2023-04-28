@@ -28,7 +28,7 @@ In all cases, if there are other distributors available, the user will have to o
 
 ### Enabling and disabling the feature
 
-Allowing the user to use an alternative distributor can be changed in [Config](../vector-config/src/main/java/im/vector/app/config/Config.kt). The flag is named `ALLOW_EXTERNAL_UNIFIED_PUSH_DISTRIBUTORS`. Default value is `true`.
+Allowing the user to use an alternative distributor can be changed in [Config](../vector-config/src/main/java/dev.getzen.element/config/Config.kt). The flag is named `ALLOW_EXTERNAL_UNIFIED_PUSH_DISTRIBUTORS`. Default value is `true`.
 
 #### Override the configuration at runtime
 

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.debug.jitsi
+package dev.getzen.element.features.debug.jitsi
 
 import android.annotation.SuppressLint
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.application.databinding.ActivityDebugJitsiBinding
+import dev.getzen.element.core.platform.VectorBaseActivity
+import dev.getzen.elementlication.databinding.ActivityDebugJitsiBinding
 import org.jitsi.meet.sdk.JitsiMeet
 
 @AndroidEntryPoint

@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call.dialpad
+package dev.getzen.element.features.call.dialpad
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.addChildFragment
-import im.vector.app.core.platform.VectorBaseBottomSheetDialogFragment
-import im.vector.app.databinding.BottomSheetCallDialPadBinding
-import im.vector.app.features.settings.VectorLocaleProvider
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.addChildFragment
+import dev.getzen.element.core.platform.VectorBaseBottomSheetDialogFragment
+import dev.getzen.element.databinding.BottomSheetCallDialPadBinding
+import dev.getzen.element.features.settings.VectorLocaleProvider
 import javax.inject.Inject
 
 @AndroidEntryPoint

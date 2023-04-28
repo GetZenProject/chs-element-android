@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call.conference
+package dev.getzen.element.features.call.conference
 
 import androidx.lifecycle.asFlow
 import com.airbnb.mvrx.Fail
@@ -24,9 +24,9 @@ import com.airbnb.mvrx.Uninitialized
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
-import im.vector.app.core.di.MavericksAssistedViewModelFactory
-import im.vector.app.core.di.hiltMavericksViewModelFactory
-import im.vector.app.core.platform.VectorViewModel
+import dev.getzen.element.core.di.MavericksAssistedViewModelFactory
+import dev.getzen.element.core.di.hiltMavericksViewModelFactory
+import dev.getzen.element.core.platform.VectorViewModel
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.distinctUntilChanged

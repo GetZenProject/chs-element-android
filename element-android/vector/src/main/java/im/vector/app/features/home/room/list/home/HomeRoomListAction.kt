@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.list.home
+package dev.getzen.element.features.home.room.list.home
 
-import im.vector.app.core.platform.VectorViewModelAction
-import im.vector.app.features.home.room.list.home.header.HomeRoomFilter
+import dev.getzen.element.core.platform.VectorViewModelAction
+import dev.getzen.element.features.home.room.list.home.header.HomeRoomFilter
 import org.matrix.android.sdk.api.session.room.model.RoomSummary
 import org.matrix.android.sdk.api.session.room.notification.RoomNotificationState
 

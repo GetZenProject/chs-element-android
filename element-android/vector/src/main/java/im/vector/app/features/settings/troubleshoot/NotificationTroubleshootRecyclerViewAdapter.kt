@@ -13,16 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.settings.troubleshoot
+package dev.getzen.element.features.settings.troubleshoot
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
-import im.vector.app.R
-import im.vector.app.databinding.ItemNotificationTroubleshootBinding
-import im.vector.app.features.themes.ThemeUtils
+import dev.getzen.element.R
+import dev.getzen.element.databinding.ItemNotificationTroubleshootBinding
+import dev.getzen.element.features.themes.ThemeUtils
 
 class NotificationTroubleshootRecyclerViewAdapter(val tests: ArrayList<TroubleshootTest>) :
         RecyclerView.Adapter<NotificationTroubleshootRecyclerViewAdapter.ViewHolder>() {

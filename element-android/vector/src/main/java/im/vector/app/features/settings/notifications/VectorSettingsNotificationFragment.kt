@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.notifications
+package dev.getzen.element.features.settings.notifications
 
 import android.app.Activity
 import android.content.Context
@@ -32,32 +32,32 @@ import androidx.preference.Preference
 import androidx.preference.SwitchPreference
 import com.airbnb.mvrx.fragmentViewModel
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.extensions.registerStartForActivityResult
-import im.vector.app.core.preference.VectorEditTextPreference
-import im.vector.app.core.preference.VectorPreference
-import im.vector.app.core.preference.VectorPreferenceCategory
-import im.vector.app.core.preference.VectorSwitchPreference
-import im.vector.app.core.pushers.EnsureFcmTokenIsRetrievedUseCase
-import im.vector.app.core.pushers.FcmHelper
-import im.vector.app.core.pushers.PushersManager
-import im.vector.app.core.pushers.UnifiedPushHelper
-import im.vector.app.core.services.GuardServiceStarter
-import im.vector.app.core.utils.combineLatest
-import im.vector.app.core.utils.isIgnoringBatteryOptimizations
-import im.vector.app.core.utils.registerForPermissionsResult
-import im.vector.app.core.utils.requestDisablingBatteryOptimization
-import im.vector.app.core.utils.startNotificationSettingsIntent
-import im.vector.app.features.VectorFeatures
-import im.vector.app.features.analytics.plan.MobileScreen
-import im.vector.app.features.home.NotificationPermissionManager
-import im.vector.app.features.notifications.NotificationUtils
-import im.vector.app.features.settings.BackgroundSyncMode
-import im.vector.app.features.settings.BackgroundSyncModeChooserDialog
-import im.vector.app.features.settings.VectorPreferences
-import im.vector.app.features.settings.VectorSettingsBaseFragment
-import im.vector.app.features.settings.VectorSettingsFragmentInteractionListener
+import dev.getzen.element.R
+import dev.getzen.element.core.di.ActiveSessionHolder
+import dev.getzen.element.core.extensions.registerStartForActivityResult
+import dev.getzen.element.core.preference.VectorEditTextPreference
+import dev.getzen.element.core.preference.VectorPreference
+import dev.getzen.element.core.preference.VectorPreferenceCategory
+import dev.getzen.element.core.preference.VectorSwitchPreference
+import dev.getzen.element.core.pushers.EnsureFcmTokenIsRetrievedUseCase
+import dev.getzen.element.core.pushers.FcmHelper
+import dev.getzen.element.core.pushers.PushersManager
+import dev.getzen.element.core.pushers.UnifiedPushHelper
+import dev.getzen.element.core.services.GuardServiceStarter
+import dev.getzen.element.core.utils.combineLatest
+import dev.getzen.element.core.utils.isIgnoringBatteryOptimizations
+import dev.getzen.element.core.utils.registerForPermissionsResult
+import dev.getzen.element.core.utils.requestDisablingBatteryOptimization
+import dev.getzen.element.core.utils.startNotificationSettingsIntent
+import dev.getzen.element.features.VectorFeatures
+import dev.getzen.element.features.analytics.plan.MobileScreen
+import dev.getzen.element.features.home.NotificationPermissionManager
+import dev.getzen.element.features.notifications.NotificationUtils
+import dev.getzen.element.features.settings.BackgroundSyncMode
+import dev.getzen.element.features.settings.BackgroundSyncModeChooserDialog
+import dev.getzen.element.features.settings.VectorPreferences
+import dev.getzen.element.features.settings.VectorSettingsBaseFragment
+import dev.getzen.element.features.settings.VectorSettingsFragmentInteractionListener
 import im.vector.lib.core.utils.compat.getParcelableExtraCompat
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch

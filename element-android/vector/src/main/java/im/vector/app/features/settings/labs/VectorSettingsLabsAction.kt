@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.labs
+package dev.getzen.element.features.settings.labs
 
-import im.vector.app.core.platform.VectorViewModelAction
+import dev.getzen.element.core.platform.VectorViewModelAction
 
 sealed class VectorSettingsLabsAction : VectorViewModelAction {
     object UpdateClientInfo : VectorSettingsLabsAction()

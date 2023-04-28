@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.helper
+package dev.getzen.element.features.home.room.detail.timeline.helper
 
-import im.vector.app.core.extensions.localDateTime
-import im.vector.app.core.resources.UserPreferencesProvider
-import im.vector.app.features.voicebroadcast.VoiceBroadcastConstants
-import im.vector.app.features.voicebroadcast.isVoiceBroadcast
-import im.vector.app.features.voicebroadcast.model.VoiceBroadcastState
-import im.vector.app.features.voicebroadcast.model.asVoiceBroadcastEvent
+import dev.getzen.element.core.extensions.localDateTime
+import dev.getzen.element.core.resources.UserPreferencesProvider
+import dev.getzen.element.features.voicebroadcast.VoiceBroadcastConstants
+import dev.getzen.element.features.voicebroadcast.isVoiceBroadcast
+import dev.getzen.element.features.voicebroadcast.model.VoiceBroadcastState
+import dev.getzen.element.features.voicebroadcast.model.asVoiceBroadcastEvent
 import org.matrix.android.sdk.api.session.events.model.Event
 import org.matrix.android.sdk.api.session.events.model.EventType
 import org.matrix.android.sdk.api.session.events.model.RelationType

@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.consent
+package dev.getzen.element.features.consent
 
 import android.app.Activity
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.core.dialogs.DialogLocker
-import im.vector.app.core.platform.Restorable
-import im.vector.app.features.webview.VectorWebViewActivity
-import im.vector.app.features.webview.WebViewMode
+import dev.getzen.element.R
+import dev.getzen.element.core.dialogs.DialogLocker
+import dev.getzen.element.core.platform.Restorable
+import dev.getzen.element.features.webview.VectorWebViewActivity
+import dev.getzen.element.features.webview.WebViewMode
 
 class ConsentNotGivenHelper(
         private val activity: Activity,

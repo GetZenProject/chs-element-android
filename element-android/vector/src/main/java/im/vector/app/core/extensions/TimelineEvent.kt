@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.extensions
+package dev.getzen.element.core.extensions
 
-import im.vector.app.features.voicebroadcast.VoiceBroadcastConstants
-import im.vector.app.features.voicebroadcast.model.MessageVoiceBroadcastInfoContent
-import im.vector.app.features.voicebroadcast.model.VoiceBroadcastState
-import im.vector.app.features.voicebroadcast.model.asVoiceBroadcastEvent
-import im.vector.app.features.voicebroadcast.model.isVoiceBroadcast
+import dev.getzen.element.features.voicebroadcast.VoiceBroadcastConstants
+import dev.getzen.element.features.voicebroadcast.model.MessageVoiceBroadcastInfoContent
+import dev.getzen.element.features.voicebroadcast.model.VoiceBroadcastState
+import dev.getzen.element.features.voicebroadcast.model.asVoiceBroadcastEvent
+import dev.getzen.element.features.voicebroadcast.model.isVoiceBroadcast
 import org.matrix.android.sdk.api.session.events.model.EventType
 import org.matrix.android.sdk.api.session.events.model.toModel
 import org.matrix.android.sdk.api.session.room.model.message.MessageContent

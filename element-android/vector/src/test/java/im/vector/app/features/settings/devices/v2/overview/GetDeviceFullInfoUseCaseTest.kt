@@ -14,23 +14,23 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2.overview
+package dev.getzen.element.features.settings.devices.v2.overview
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.asFlow
-import im.vector.app.core.session.clientinfo.GetMatrixClientInfoUseCase
-import im.vector.app.core.session.clientinfo.MatrixClientInfoContent
-import im.vector.app.features.settings.devices.v2.DeviceFullInfo
-import im.vector.app.features.settings.devices.v2.ParseDeviceUserAgentUseCase
-import im.vector.app.features.settings.devices.v2.details.extended.DeviceExtendedInfo
-import im.vector.app.features.settings.devices.v2.list.CheckIfSessionIsInactiveUseCase
-import im.vector.app.features.settings.devices.v2.list.DeviceType
-import im.vector.app.features.settings.devices.v2.verification.CurrentSessionCrossSigningInfo
-import im.vector.app.features.settings.devices.v2.verification.GetCurrentSessionCrossSigningInfoUseCase
-import im.vector.app.features.settings.devices.v2.verification.GetEncryptionTrustLevelForDeviceUseCase
-import im.vector.app.test.fakes.FakeActiveSessionHolder
-import im.vector.app.test.fakes.FakeFlowLiveDataConversions
-import im.vector.app.test.fakes.givenAsFlow
+import dev.getzen.element.core.session.clientinfo.GetMatrixClientInfoUseCase
+import dev.getzen.element.core.session.clientinfo.MatrixClientInfoContent
+import dev.getzen.element.features.settings.devices.v2.DeviceFullInfo
+import dev.getzen.element.features.settings.devices.v2.ParseDeviceUserAgentUseCase
+import dev.getzen.element.features.settings.devices.v2.details.extended.DeviceExtendedInfo
+import dev.getzen.element.features.settings.devices.v2.list.CheckIfSessionIsInactiveUseCase
+import dev.getzen.element.features.settings.devices.v2.list.DeviceType
+import dev.getzen.element.features.settings.devices.v2.verification.CurrentSessionCrossSigningInfo
+import dev.getzen.element.features.settings.devices.v2.verification.GetCurrentSessionCrossSigningInfoUseCase
+import dev.getzen.element.features.settings.devices.v2.verification.GetEncryptionTrustLevelForDeviceUseCase
+import dev.getzen.element.test.fakes.FakeActiveSessionHolder
+import dev.getzen.element.test.fakes.FakeFlowLiveDataConversions
+import dev.getzen.element.test.fakes.givenAsFlow
 import io.mockk.every
 import io.mockk.mockk
 import io.mockk.unmockkAll

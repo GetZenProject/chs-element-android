@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.list
+package dev.getzen.element.features.home.room.list
 
 import com.airbnb.epoxy.TypedEpoxyController
-import im.vector.app.R
-import im.vector.app.core.epoxy.helpFooterItem
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.resources.UserPreferencesProvider
-import im.vector.app.features.home.RoomListDisplayMode
-import im.vector.app.features.home.room.filtered.FilteredRoomFooterItem
-import im.vector.app.features.home.room.filtered.filteredRoomFooterItem
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.helpFooterItem
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.core.resources.UserPreferencesProvider
+import dev.getzen.element.features.home.RoomListDisplayMode
+import dev.getzen.element.features.home.room.filtered.FilteredRoomFooterItem
+import dev.getzen.element.features.home.room.filtered.filteredRoomFooterItem
 import javax.inject.Inject
 
 class RoomListFooterController @Inject constructor(

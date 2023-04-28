@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.location.live
+package dev.getzen.element.features.location.live
 
-import im.vector.app.test.fakes.FakeFlowLiveDataConversions
-import im.vector.app.test.fakes.FakeSession
-import im.vector.app.test.fakes.givenAsFlow
+import dev.getzen.element.test.fakes.FakeFlowLiveDataConversions
+import dev.getzen.element.test.fakes.FakeSession
+import dev.getzen.element.test.fakes.givenAsFlow
 import io.mockk.unmockkAll
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.test.runTest

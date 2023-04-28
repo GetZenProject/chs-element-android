@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.settings.crosssigning
+package dev.getzen.element.features.settings.crosssigning
 
 import android.app.Activity
 import android.os.Bundle
@@ -26,14 +26,14 @@ import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.extensions.registerStartForActivityResult
-import im.vector.app.core.extensions.setTextOrHide
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.databinding.FragmentGenericRecyclerBinding
-import im.vector.app.features.auth.ReAuthActivity
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.cleanup
+import dev.getzen.element.core.extensions.configureWith
+import dev.getzen.element.core.extensions.registerStartForActivityResult
+import dev.getzen.element.core.extensions.setTextOrHide
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.databinding.FragmentGenericRecyclerBinding
+import dev.getzen.element.features.auth.ReAuthActivity
 import org.matrix.android.sdk.api.auth.data.LoginFlowTypes
 import javax.inject.Inject
 

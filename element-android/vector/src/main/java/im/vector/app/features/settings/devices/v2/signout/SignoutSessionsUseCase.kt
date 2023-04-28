@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2.signout
+package dev.getzen.element.features.settings.devices.v2.signout
 
 import androidx.annotation.Size
-import im.vector.app.core.di.ActiveSessionHolder
+import dev.getzen.element.core.di.ActiveSessionHolder
 import org.matrix.android.sdk.api.auth.UIABaseAuth
 import org.matrix.android.sdk.api.auth.UserInteractiveAuthInterceptor
 import org.matrix.android.sdk.api.auth.registration.RegistrationFlowResponse

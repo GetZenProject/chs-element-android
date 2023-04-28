@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.voicebroadcast.recording
+package dev.getzen.element.features.voicebroadcast.recording
 
 import android.content.Context
 import android.media.MediaRecorder
 import android.os.Build
 import androidx.annotation.RequiresApi
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.features.session.coroutineScope
-import im.vector.app.features.voice.AbstractVoiceRecorderQ
-import im.vector.app.features.voicebroadcast.model.VoiceBroadcast
-import im.vector.app.features.voicebroadcast.model.VoiceBroadcastEvent
-import im.vector.app.features.voicebroadcast.model.VoiceBroadcastState
-import im.vector.app.features.voicebroadcast.usecase.GetVoiceBroadcastStateEventLiveUseCase
+import dev.getzen.element.core.di.ActiveSessionHolder
+import dev.getzen.element.features.session.coroutineScope
+import dev.getzen.element.features.voice.AbstractVoiceRecorderQ
+import dev.getzen.element.features.voicebroadcast.model.VoiceBroadcast
+import dev.getzen.element.features.voicebroadcast.model.VoiceBroadcastEvent
+import dev.getzen.element.features.voicebroadcast.model.VoiceBroadcastState
+import dev.getzen.element.features.voicebroadcast.usecase.GetVoiceBroadcastStateEventLiveUseCase
 import im.vector.lib.core.utils.timer.CountUpTimer
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.distinctUntilChanged

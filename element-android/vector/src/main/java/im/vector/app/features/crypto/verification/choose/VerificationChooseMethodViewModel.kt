@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.crypto.verification.choose
+package dev.getzen.element.features.crypto.verification.choose
 
 import com.airbnb.mvrx.MavericksState
 import com.airbnb.mvrx.MavericksViewModelFactory
@@ -22,13 +22,13 @@ import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
 import dagger.hilt.EntryPoints
-import im.vector.app.core.di.MavericksAssistedViewModelFactory
-import im.vector.app.core.di.SingletonEntryPoint
-import im.vector.app.core.di.hiltMavericksViewModelFactory
-import im.vector.app.core.platform.EmptyAction
-import im.vector.app.core.platform.EmptyViewEvents
-import im.vector.app.core.platform.VectorViewModel
-import im.vector.app.features.crypto.verification.VerificationBottomSheet
+import dev.getzen.element.core.di.MavericksAssistedViewModelFactory
+import dev.getzen.element.core.di.SingletonEntryPoint
+import dev.getzen.element.core.di.hiltMavericksViewModelFactory
+import dev.getzen.element.core.platform.EmptyAction
+import dev.getzen.element.core.platform.EmptyViewEvents
+import dev.getzen.element.core.platform.VectorViewModel
+import dev.getzen.element.features.crypto.verification.VerificationBottomSheet
 import org.matrix.android.sdk.api.extensions.orFalse
 import org.matrix.android.sdk.api.session.Session
 import org.matrix.android.sdk.api.session.crypto.verification.PendingVerificationRequest

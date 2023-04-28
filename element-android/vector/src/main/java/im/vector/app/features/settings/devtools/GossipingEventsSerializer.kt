@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devtools
+package dev.getzen.element.features.settings.devtools
 
-import im.vector.app.core.resources.DateProvider
+import dev.getzen.element.core.resources.DateProvider
 import org.matrix.android.sdk.api.session.crypto.model.AuditTrail
 import org.matrix.android.sdk.api.session.crypto.model.ForwardInfo
 import org.matrix.android.sdk.api.session.crypto.model.TrailType

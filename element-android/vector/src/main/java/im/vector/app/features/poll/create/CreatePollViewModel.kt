@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.poll.create
+package dev.getzen.element.features.poll.create
 
 import com.airbnb.mvrx.MavericksViewModelFactory
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
-import im.vector.app.core.di.MavericksAssistedViewModelFactory
-import im.vector.app.core.di.hiltMavericksViewModelFactory
-import im.vector.app.core.extensions.getVectorLastMessageContent
-import im.vector.app.core.platform.VectorViewModel
-import im.vector.app.features.poll.PollMode
+import dev.getzen.element.core.di.MavericksAssistedViewModelFactory
+import dev.getzen.element.core.di.hiltMavericksViewModelFactory
+import dev.getzen.element.core.extensions.getVectorLastMessageContent
+import dev.getzen.element.core.platform.VectorViewModel
+import dev.getzen.element.features.poll.PollMode
 import org.matrix.android.sdk.api.session.Session
 import org.matrix.android.sdk.api.session.getRoom
 import org.matrix.android.sdk.api.session.room.getTimelineEvent

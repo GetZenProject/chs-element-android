@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.notifications.usecase
+package dev.getzen.element.features.settings.notifications.usecase
 
-import im.vector.app.core.pushers.EnsureFcmTokenIsRetrievedUseCase
-import im.vector.app.core.pushers.RegisterUnifiedPushUseCase
-import im.vector.app.test.fakes.FakePushersManager
+import dev.getzen.element.core.pushers.EnsureFcmTokenIsRetrievedUseCase
+import dev.getzen.element.core.pushers.RegisterUnifiedPushUseCase
+import dev.getzen.element.test.fakes.FakePushersManager
 import io.mockk.coJustRun
 import io.mockk.coVerify
 import io.mockk.every

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.test.fakes
+package dev.getzen.element.test.fakes
 
 import android.os.Looper
 import com.posthog.android.PostHog
 import com.posthog.android.Properties
-import im.vector.app.features.analytics.plan.UserProperties
+import dev.getzen.element.features.analytics.plan.UserProperties
 import io.mockk.every
 import io.mockk.mockk
 import io.mockk.mockkStatic

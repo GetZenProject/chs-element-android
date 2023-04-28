@@ -15,7 +15,7 @@
  */
 @file:Suppress("DEPRECATION")
 
-package im.vector.app.features.call.audio
+package dev.getzen.element.features.call.audio
 
 import android.bluetooth.BluetoothAdapter
 import android.bluetooth.BluetoothManager
@@ -23,8 +23,8 @@ import android.bluetooth.BluetoothProfile
 import android.content.Context
 import android.media.AudioManager
 import androidx.core.content.getSystemService
-import im.vector.app.core.services.BluetoothHeadsetReceiver
-import im.vector.app.core.services.WiredHeadsetStateReceiver
+import dev.getzen.element.core.services.BluetoothHeadsetReceiver
+import dev.getzen.element.core.services.WiredHeadsetStateReceiver
 import org.matrix.android.sdk.api.logger.LoggerTag
 import timber.log.Timber
 

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.polls.detail.domain
+package dev.getzen.element.features.roomprofile.polls.detail.domain
 
-import im.vector.app.test.fakes.FakeActiveSessionHolder
+import dev.getzen.element.test.fakes.FakeActiveSessionHolder
 import io.mockk.every
 import io.mockk.mockk
 import io.mockk.mockkStatic

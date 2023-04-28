@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.onboarding.ftueauth
+package dev.getzen.element.features.onboarding.ftueauth
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -22,15 +22,15 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.core.view.isVisible
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.core.extensions.associateContentStateWith
-import im.vector.app.core.extensions.clearErrorOnChange
-import im.vector.app.core.extensions.content
-import im.vector.app.core.extensions.editText
-import im.vector.app.core.extensions.hidePassword
-import im.vector.app.core.extensions.setOnImeDoneListener
-import im.vector.app.databinding.FragmentFtueResetPasswordInputBinding
-import im.vector.app.features.onboarding.OnboardingAction
-import im.vector.app.features.onboarding.OnboardingViewState
+import dev.getzen.element.core.extensions.associateContentStateWith
+import dev.getzen.element.core.extensions.clearErrorOnChange
+import dev.getzen.element.core.extensions.content
+import dev.getzen.element.core.extensions.editText
+import dev.getzen.element.core.extensions.hidePassword
+import dev.getzen.element.core.extensions.setOnImeDoneListener
+import dev.getzen.element.databinding.FragmentFtueResetPasswordInputBinding
+import dev.getzen.element.features.onboarding.OnboardingAction
+import dev.getzen.element.features.onboarding.OnboardingViewState
 import org.matrix.android.sdk.api.failure.isMissingEmailVerification
 
 @AndroidEntryPoint

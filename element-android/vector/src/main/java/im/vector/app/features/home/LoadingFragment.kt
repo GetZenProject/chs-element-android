@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home
+package dev.getzen.element.features.home
 
 import android.graphics.drawable.AnimationDrawable
 import android.os.Bundle
@@ -22,8 +22,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.databinding.FragmentLoadingBinding
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.databinding.FragmentLoadingBinding
 
 @AndroidEntryPoint
 class LoadingFragment : VectorBaseFragment<FragmentLoadingBinding>() {

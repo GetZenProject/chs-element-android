@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.crosssigning
+package dev.getzen.element.features.settings.crosssigning
 
-import im.vector.app.core.platform.VectorViewModelAction
+import dev.getzen.element.core.platform.VectorViewModelAction
 
 sealed class CrossSigningSettingsAction : VectorViewModelAction {
     object InitializeCrossSigning : CrossSigningSettingsAction()

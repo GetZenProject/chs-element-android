@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.ui.views
+package dev.getzen.element.core.ui.views
 
 import android.content.Context
 import android.util.AttributeSet
 import androidx.constraintlayout.widget.ConstraintLayout
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.databinding.TypingMessageLayoutBinding
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.home.room.typing.TypingHelper
+import dev.getzen.element.R
+import dev.getzen.element.databinding.TypingMessageLayoutBinding
+import dev.getzen.element.features.home.AvatarRenderer
+import dev.getzen.element.features.home.room.typing.TypingHelper
 import org.matrix.android.sdk.api.session.room.sender.SenderInfo
 import javax.inject.Inject
 

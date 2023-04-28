@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.polls.detail.ui
+package dev.getzen.element.features.roomprofile.polls.detail.ui
 
-import im.vector.app.features.home.room.detail.timeline.factory.PollItemViewStateFactory
-import im.vector.app.features.home.room.detail.timeline.helper.PollResponseDataFactory
-import im.vector.app.features.poll.PollItemViewState
-import im.vector.app.features.roomprofile.polls.detail.domain.GetEndedPollEventIdUseCase
-import im.vector.app.test.fixtures.RoomPollFixture
+import dev.getzen.element.features.home.room.detail.timeline.factory.PollItemViewStateFactory
+import dev.getzen.element.features.home.room.detail.timeline.helper.PollResponseDataFactory
+import dev.getzen.element.features.poll.PollItemViewState
+import dev.getzen.element.features.roomprofile.polls.detail.domain.GetEndedPollEventIdUseCase
+import dev.getzen.element.test.fixtures.RoomPollFixture
 import io.mockk.every
 import io.mockk.mockk
 import io.mockk.mockkStatic
@@ -51,7 +51,7 @@ internal class RoomPollDetailMapperTest {
 
     @Before
     fun setup() {
-        mockkStatic("im.vector.app.core.extensions.TimelineEventKt")
+        mockkStatic("dev.getzen.element.core.extensions.TimelineEventKt")
     }
 
     @After

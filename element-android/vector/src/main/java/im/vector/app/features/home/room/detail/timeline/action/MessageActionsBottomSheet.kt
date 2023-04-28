@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.home.room.detail.timeline.action
+package dev.getzen.element.features.home.room.detail.timeline.action
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -22,11 +22,11 @@ import android.view.ViewGroup
 import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.platform.VectorBaseBottomSheetDialogFragment
-import im.vector.app.databinding.BottomSheetGenericListBinding
-import im.vector.app.features.home.room.detail.timeline.item.MessageInformationData
+import dev.getzen.element.core.extensions.cleanup
+import dev.getzen.element.core.extensions.configureWith
+import dev.getzen.element.core.platform.VectorBaseBottomSheetDialogFragment
+import dev.getzen.element.databinding.BottomSheetGenericListBinding
+import dev.getzen.element.features.home.room.detail.timeline.item.MessageInformationData
 import javax.inject.Inject
 
 /**

@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.voice
+package dev.getzen.element.features.voice
 
-import im.vector.app.core.utils.waitUntil
-import im.vector.app.test.fakes.FakeOggOpusEncoder
+import dev.getzen.element.core.utils.waitUntil
+import dev.getzen.element.test.fakes.FakeOggOpusEncoder
 import org.amshove.kluent.shouldExist
 import org.amshove.kluent.shouldNotBeNull
 import java.io.File

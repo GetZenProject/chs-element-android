@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.discovery
+package dev.getzen.element.features.discovery
 
-import im.vector.app.core.utils.ensureProtocol
+import dev.getzen.element.core.utils.ensureProtocol
 import org.matrix.android.sdk.api.session.Session
 import org.matrix.android.sdk.api.session.terms.TermsResponse
 import org.matrix.android.sdk.api.session.terms.TermsService

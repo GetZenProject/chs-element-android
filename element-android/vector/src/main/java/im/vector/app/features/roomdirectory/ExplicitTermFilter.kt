@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomdirectory
+package dev.getzen.element.features.roomdirectory
 
-import im.vector.app.core.utils.AssetReader
+import dev.getzen.element.core.utils.AssetReader
 import javax.inject.Inject
 
 class ExplicitTermFilter @Inject constructor(

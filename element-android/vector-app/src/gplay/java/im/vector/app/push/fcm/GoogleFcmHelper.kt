@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.push.fcm
+package dev.getzen.element.push.fcm
 
 import android.content.Context
 import android.content.SharedPreferences
@@ -23,11 +23,11 @@ import com.google.android.gms.common.ConnectionResult
 import com.google.android.gms.common.GoogleApiAvailability
 import com.google.firebase.messaging.FirebaseMessaging
 import dagger.hilt.android.qualifiers.ApplicationContext
-import im.vector.app.R
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.di.DefaultPreferences
-import im.vector.app.core.pushers.FcmHelper
-import im.vector.app.core.pushers.PushersManager
+import dev.getzen.element.R
+import dev.getzen.element.core.di.ActiveSessionHolder
+import dev.getzen.element.core.di.DefaultPreferences
+import dev.getzen.element.core.pushers.FcmHelper
+import dev.getzen.element.core.pushers.PushersManager
 import timber.log.Timber
 import javax.inject.Inject
 

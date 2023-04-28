@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.terms
+package dev.getzen.element.features.terms
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -26,13 +26,13 @@ import com.airbnb.mvrx.Success
 import com.airbnb.mvrx.activityViewModel
 import com.airbnb.mvrx.withState
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.epoxy.onClick
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.utils.openUrlInChromeCustomTab
-import im.vector.app.databinding.FragmentReviewTermsBinding
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.onClick
+import dev.getzen.element.core.extensions.cleanup
+import dev.getzen.element.core.extensions.configureWith
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.core.utils.openUrlInChromeCustomTab
+import dev.getzen.element.databinding.FragmentReviewTermsBinding
 import org.matrix.android.sdk.api.session.terms.TermsService
 import javax.inject.Inject
 

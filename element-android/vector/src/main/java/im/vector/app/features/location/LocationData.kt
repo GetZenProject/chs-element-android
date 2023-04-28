@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.location
+package dev.getzen.element.features.location
 
 import android.os.Parcelable
 import androidx.annotation.VisibleForTesting

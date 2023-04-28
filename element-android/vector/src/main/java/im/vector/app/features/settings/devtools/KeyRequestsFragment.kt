@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devtools
+package dev.getzen.element.features.settings.devtools
 
 import android.app.Activity
 import android.os.Bundle
@@ -31,13 +31,13 @@ import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
 import com.google.android.material.tabs.TabLayoutMediator
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.registerStartForActivityResult
-import im.vector.app.core.extensions.safeOpenOutputStream
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.platform.VectorMenuProvider
-import im.vector.app.core.utils.selectTxtFileToWrite
-import im.vector.app.databinding.FragmentDevtoolKeyrequestsBinding
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.registerStartForActivityResult
+import dev.getzen.element.core.extensions.safeOpenOutputStream
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.core.platform.VectorMenuProvider
+import dev.getzen.element.core.utils.selectTxtFileToWrite
+import dev.getzen.element.databinding.FragmentDevtoolKeyrequestsBinding
 import im.vector.lib.core.utils.timer.Clock
 import org.matrix.android.sdk.api.extensions.tryOrNull
 import javax.inject.Inject

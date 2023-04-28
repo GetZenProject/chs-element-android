@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call.utils
+package dev.getzen.element.features.call.utils
 
-import im.vector.app.features.call.webrtc.SdpObserverAdapter
+import dev.getzen.element.features.call.webrtc.SdpObserverAdapter
 import org.webrtc.MediaConstraints
 import org.webrtc.PeerConnection
 import org.webrtc.SessionDescription

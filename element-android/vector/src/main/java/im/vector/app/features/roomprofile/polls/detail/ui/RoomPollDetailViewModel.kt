@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.polls.detail.ui
+package dev.getzen.element.features.roomprofile.polls.detail.ui
 
 import com.airbnb.mvrx.MavericksViewModelFactory
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
-import im.vector.app.core.di.MavericksAssistedViewModelFactory
-import im.vector.app.core.di.hiltMavericksViewModelFactory
-import im.vector.app.core.event.GetTimelineEventUseCase
-import im.vector.app.core.platform.EmptyViewEvents
-import im.vector.app.core.platform.VectorViewModel
-import im.vector.app.features.home.room.detail.poll.VoteToPollUseCase
+import dev.getzen.element.core.di.MavericksAssistedViewModelFactory
+import dev.getzen.element.core.di.hiltMavericksViewModelFactory
+import dev.getzen.element.core.event.GetTimelineEventUseCase
+import dev.getzen.element.core.platform.EmptyViewEvents
+import dev.getzen.element.core.platform.VectorViewModel
+import dev.getzen.element.features.home.room.detail.poll.VoteToPollUseCase
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.onEach

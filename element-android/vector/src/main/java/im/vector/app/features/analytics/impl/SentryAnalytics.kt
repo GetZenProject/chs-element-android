@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.analytics.impl
+package dev.getzen.element.features.analytics.impl
 
 import android.content.Context
-import im.vector.app.features.analytics.AnalyticsConfig
-import im.vector.app.features.analytics.errors.ErrorTracker
-import im.vector.app.features.analytics.log.analyticsTag
+import dev.getzen.element.features.analytics.AnalyticsConfig
+import dev.getzen.element.features.analytics.errors.ErrorTracker
+import dev.getzen.element.features.analytics.log.analyticsTag
 import io.sentry.Sentry
 import io.sentry.SentryOptions
 import io.sentry.android.core.SentryAndroid

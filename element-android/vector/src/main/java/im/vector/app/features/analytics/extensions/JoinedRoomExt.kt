@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.analytics.extensions
+package dev.getzen.element.features.analytics.extensions
 
-import im.vector.app.features.analytics.plan.JoinedRoom
+import dev.getzen.element.features.analytics.plan.JoinedRoom
 import org.matrix.android.sdk.api.extensions.orFalse
 import org.matrix.android.sdk.api.session.room.model.RoomSummary
 import org.matrix.android.sdk.api.session.room.model.RoomType

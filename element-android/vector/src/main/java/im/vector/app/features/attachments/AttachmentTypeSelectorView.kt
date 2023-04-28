@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.attachments
+package dev.getzen.element.features.attachments
 
 import android.animation.Animator
 import android.animation.AnimatorListenerAdapter
@@ -33,10 +33,10 @@ import android.widget.PopupWindow
 import androidx.appcompat.widget.TooltipCompat
 import androidx.core.view.doOnNextLayout
 import androidx.core.view.isVisible
-import im.vector.app.R
-import im.vector.app.core.epoxy.onClick
-import im.vector.app.databinding.ViewAttachmentTypeSelectorBinding
-import im.vector.app.features.attachments.AttachmentTypeSelectorView.Callback
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.onClick
+import dev.getzen.element.databinding.ViewAttachmentTypeSelectorBinding
+import dev.getzen.element.features.attachments.AttachmentTypeSelectorView.Callback
 import kotlin.math.max
 
 private const val ANIMATION_DURATION = 250

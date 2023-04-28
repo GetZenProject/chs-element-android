@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.uploads.media
+package dev.getzen.element.features.roomprofile.uploads.media
 
 import android.view.View
 import com.airbnb.epoxy.TypedEpoxyController
 import com.airbnb.epoxy.VisibilityState
-import im.vector.app.core.epoxy.squareLoadingItem
-import im.vector.app.core.error.ErrorFormatter
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.utils.DimensionConverter
-import im.vector.app.features.media.ImageContentRenderer
-import im.vector.app.features.media.VideoContentRenderer
-import im.vector.app.features.roomprofile.uploads.RoomUploadsViewState
+import dev.getzen.element.core.epoxy.squareLoadingItem
+import dev.getzen.element.core.error.ErrorFormatter
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.core.utils.DimensionConverter
+import dev.getzen.element.features.media.ImageContentRenderer
+import dev.getzen.element.features.media.VideoContentRenderer
+import dev.getzen.element.features.roomprofile.uploads.RoomUploadsViewState
 import org.matrix.android.sdk.api.session.crypto.attachments.toElementToDecrypt
 import org.matrix.android.sdk.api.session.room.model.message.MessageImageContent
 import org.matrix.android.sdk.api.session.room.model.message.MessageType

@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.share
+package dev.getzen.element.features.share
 
 import com.airbnb.mvrx.MavericksViewModelFactory
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
-import im.vector.app.core.di.MavericksAssistedViewModelFactory
-import im.vector.app.core.di.hiltMavericksViewModelFactory
-import im.vector.app.core.extensions.toggle
-import im.vector.app.core.platform.VectorViewModel
-import im.vector.app.features.attachments.isPreviewable
-import im.vector.app.features.attachments.toGroupedContentAttachmentData
-import im.vector.app.features.home.room.list.BreadcrumbsRoomComparator
+import dev.getzen.element.core.di.MavericksAssistedViewModelFactory
+import dev.getzen.element.core.di.hiltMavericksViewModelFactory
+import dev.getzen.element.core.extensions.toggle
+import dev.getzen.element.core.platform.VectorViewModel
+import dev.getzen.element.features.attachments.isPreviewable
+import dev.getzen.element.features.attachments.toGroupedContentAttachmentData
+import dev.getzen.element.features.home.room.list.BreadcrumbsRoomComparator
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.flatMapLatest
 import kotlinx.coroutines.flow.map

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.extensions
+package dev.getzen.element.core.extensions
 
 import org.amshove.kluent.shouldBeEqualTo
 import org.junit.Test

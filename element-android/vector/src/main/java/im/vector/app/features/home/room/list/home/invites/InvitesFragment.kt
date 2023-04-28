@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.list.home.invites
+package dev.getzen.element.features.home.room.list.home.invites
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -23,14 +23,14 @@ import android.view.ViewGroup
 import androidx.lifecycle.lifecycleScope
 import com.airbnb.mvrx.fragmentViewModel
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.platform.StateView
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.databinding.FragmentInvitesBinding
-import im.vector.app.features.analytics.plan.MobileScreen
-import im.vector.app.features.analytics.plan.ViewRoom
-import im.vector.app.features.home.room.list.RoomListListener
-import im.vector.app.features.notifications.NotificationDrawerManager
+import dev.getzen.element.core.extensions.configureWith
+import dev.getzen.element.core.platform.StateView
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.databinding.FragmentInvitesBinding
+import dev.getzen.element.features.analytics.plan.MobileScreen
+import dev.getzen.element.features.analytics.plan.ViewRoom
+import dev.getzen.element.features.home.room.list.RoomListListener
+import dev.getzen.element.features.notifications.NotificationDrawerManager
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import org.matrix.android.sdk.api.session.room.model.RoomSummary

@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.preview
+package dev.getzen.element.features.spaces.preview
 
 import android.widget.ImageView
 import android.widget.TextView
 import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
-import im.vector.app.R
-import im.vector.app.core.epoxy.VectorEpoxyHolder
-import im.vector.app.core.epoxy.VectorEpoxyModel
-import im.vector.app.features.home.AvatarRenderer
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.VectorEpoxyHolder
+import dev.getzen.element.core.epoxy.VectorEpoxyModel
+import dev.getzen.element.features.home.AvatarRenderer
 import org.matrix.android.sdk.api.util.MatrixItem
 
 @EpoxyModelClass

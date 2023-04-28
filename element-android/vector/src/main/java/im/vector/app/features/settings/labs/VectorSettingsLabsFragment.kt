@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.labs
+package dev.getzen.element.features.settings.labs
 
 import android.os.Build
 import android.os.Bundle
@@ -26,15 +26,15 @@ import androidx.preference.SwitchPreference
 import com.airbnb.mvrx.fragmentViewModel
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.preference.VectorSwitchPreference
-import im.vector.app.features.MainActivity
-import im.vector.app.features.MainActivityArgs
-import im.vector.app.features.VectorFeatures
-import im.vector.app.features.analytics.plan.MobileScreen
-import im.vector.app.features.home.room.threads.ThreadsManager
-import im.vector.app.features.settings.VectorPreferences
-import im.vector.app.features.settings.VectorSettingsBaseFragment
+import dev.getzen.element.R
+import dev.getzen.element.core.preference.VectorSwitchPreference
+import dev.getzen.element.features.MainActivity
+import dev.getzen.element.features.MainActivityArgs
+import dev.getzen.element.features.VectorFeatures
+import dev.getzen.element.features.analytics.plan.MobileScreen
+import dev.getzen.element.features.home.room.threads.ThreadsManager
+import dev.getzen.element.features.settings.VectorPreferences
+import dev.getzen.element.features.settings.VectorSettingsBaseFragment
 import org.matrix.android.sdk.api.settings.LightweightSettingsStorage
 import javax.inject.Inject
 

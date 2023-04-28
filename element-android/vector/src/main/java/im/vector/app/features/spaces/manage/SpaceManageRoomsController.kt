@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.manage
+package dev.getzen.element.features.spaces.manage
 
 import com.airbnb.epoxy.TypedEpoxyController
 import com.airbnb.epoxy.VisibilityState
 import com.airbnb.mvrx.Fail
 import com.airbnb.mvrx.Incomplete
-import im.vector.app.R
-import im.vector.app.core.epoxy.errorWithRetryItem
-import im.vector.app.core.epoxy.loadingItem
-import im.vector.app.core.error.ErrorFormatter
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.ui.list.genericFooterItem
-import im.vector.app.features.home.AvatarRenderer
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.errorWithRetryItem
+import dev.getzen.element.core.epoxy.loadingItem
+import dev.getzen.element.core.error.ErrorFormatter
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.core.ui.list.genericFooterItem
+import dev.getzen.element.features.home.AvatarRenderer
 import im.vector.lib.core.utils.epoxy.charsequence.toEpoxyCharSequence
 import org.matrix.android.sdk.api.session.room.model.SpaceChildInfo
 import org.matrix.android.sdk.api.util.toMatrixItem

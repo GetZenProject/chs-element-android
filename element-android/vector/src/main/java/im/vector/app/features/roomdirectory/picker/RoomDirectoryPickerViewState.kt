@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomdirectory.picker
+package dev.getzen.element.features.roomdirectory.picker
 
 import com.airbnb.mvrx.Async
 import com.airbnb.mvrx.MavericksState
 import com.airbnb.mvrx.Uninitialized
-import im.vector.app.features.roomdirectory.RoomDirectoryServer
+import dev.getzen.element.features.roomdirectory.RoomDirectoryServer
 import org.matrix.android.sdk.api.session.room.model.thirdparty.ThirdPartyProtocol
 
 data class RoomDirectoryPickerViewState(

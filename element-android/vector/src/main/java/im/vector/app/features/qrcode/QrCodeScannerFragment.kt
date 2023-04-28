@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.qrcode
+package dev.getzen.element.features.qrcode
 
 import android.app.Activity
 import android.os.Bundle
@@ -31,16 +31,16 @@ import com.google.zxing.BarcodeFormat
 import com.google.zxing.Result
 import com.google.zxing.ResultMetadataType
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.hideKeyboard
-import im.vector.app.core.extensions.registerStartForActivityResult
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.utils.PERMISSIONS_FOR_TAKING_PHOTO
-import im.vector.app.core.utils.checkPermissions
-import im.vector.app.core.utils.onPermissionDeniedDialog
-import im.vector.app.core.utils.registerForPermissionsResult
-import im.vector.app.databinding.FragmentQrCodeScannerBinding
-import im.vector.app.features.usercode.QRCodeBitmapDecodeHelper
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.hideKeyboard
+import dev.getzen.element.core.extensions.registerStartForActivityResult
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.core.utils.PERMISSIONS_FOR_TAKING_PHOTO
+import dev.getzen.element.core.utils.checkPermissions
+import dev.getzen.element.core.utils.onPermissionDeniedDialog
+import dev.getzen.element.core.utils.registerForPermissionsResult
+import dev.getzen.element.databinding.FragmentQrCodeScannerBinding
+import dev.getzen.element.features.usercode.QRCodeBitmapDecodeHelper
 import im.vector.lib.multipicker.MultiPicker
 import im.vector.lib.multipicker.utils.ImageUtils
 import kotlinx.parcelize.Parcelize

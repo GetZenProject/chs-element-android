@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.list.home.release
+package dev.getzen.element.features.home.room.list.home.release
 
 import com.airbnb.epoxy.TypedEpoxyController
 import javax.inject.Inject

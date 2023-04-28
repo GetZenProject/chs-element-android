@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.list.actions
+package dev.getzen.element.features.home.room.list.actions
 
-import im.vector.app.features.roomprofile.notifications.RoomNotificationSettingsViewState
+import dev.getzen.element.features.roomprofile.notifications.RoomNotificationSettingsViewState
 
 data class RoomListQuickActionViewState(
         val roomListActionsArgs: RoomListActionsArgs,

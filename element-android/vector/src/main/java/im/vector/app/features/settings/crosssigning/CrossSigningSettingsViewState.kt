@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.crosssigning
+package dev.getzen.element.features.settings.crosssigning
 
 import com.airbnb.mvrx.MavericksState
 import org.matrix.android.sdk.api.session.crypto.crosssigning.MXCrossSigningInfo

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.onboarding.ftueauth
+package dev.getzen.element.features.onboarding.ftueauth
 
 import android.graphics.Color
 import android.graphics.drawable.Drawable
@@ -30,17 +30,17 @@ import androidx.annotation.StringRes
 import androidx.core.content.ContextCompat
 import androidx.core.view.isGone
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.getResTintedDrawable
-import im.vector.app.core.extensions.getTintedDrawable
-import im.vector.app.core.extensions.setLeftDrawable
-import im.vector.app.core.extensions.setTextWithColoredPart
-import im.vector.app.databinding.FragmentFtueAuthUseCaseBinding
-import im.vector.app.features.VectorFeatures
-import im.vector.app.features.login.ServerType
-import im.vector.app.features.onboarding.FtueUseCase
-import im.vector.app.features.onboarding.OnboardingAction
-import im.vector.app.features.themes.ThemeProvider
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.getResTintedDrawable
+import dev.getzen.element.core.extensions.getTintedDrawable
+import dev.getzen.element.core.extensions.setLeftDrawable
+import dev.getzen.element.core.extensions.setTextWithColoredPart
+import dev.getzen.element.databinding.FragmentFtueAuthUseCaseBinding
+import dev.getzen.element.features.VectorFeatures
+import dev.getzen.element.features.login.ServerType
+import dev.getzen.element.features.onboarding.FtueUseCase
+import dev.getzen.element.features.onboarding.OnboardingAction
+import dev.getzen.element.features.themes.ThemeProvider
 import javax.inject.Inject
 
 private const val DARK_MODE_ICON_BACKGROUND_ALPHA = 0.30f

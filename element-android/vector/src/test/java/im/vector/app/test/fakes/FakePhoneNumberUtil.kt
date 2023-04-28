@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.test.fakes
+package dev.getzen.element.test.fakes
 
 import com.google.i18n.phonenumbers.NumberParseException
 import com.google.i18n.phonenumbers.PhoneNumberUtil

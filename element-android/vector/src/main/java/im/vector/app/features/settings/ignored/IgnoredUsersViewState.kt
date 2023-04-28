@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.ignored
+package dev.getzen.element.features.settings.ignored
 
 import com.airbnb.mvrx.MavericksState
 import org.matrix.android.sdk.api.session.user.model.User

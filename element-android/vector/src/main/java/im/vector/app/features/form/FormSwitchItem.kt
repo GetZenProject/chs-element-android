@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.form
+package dev.getzen.element.features.form
 
 import android.widget.TextView
 import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
 import com.google.android.material.switchmaterial.SwitchMaterial
-import im.vector.app.R
-import im.vector.app.core.epoxy.VectorEpoxyHolder
-import im.vector.app.core.epoxy.VectorEpoxyModel
-import im.vector.app.core.epoxy.setValueOnce
-import im.vector.app.core.extensions.setTextOrHide
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.VectorEpoxyHolder
+import dev.getzen.element.core.epoxy.VectorEpoxyModel
+import dev.getzen.element.core.epoxy.setValueOnce
+import dev.getzen.element.core.extensions.setTextOrHide
 
 @EpoxyModelClass
 abstract class FormSwitchItem : VectorEpoxyModel<FormSwitchItem.Holder>(R.layout.item_form_switch) {

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.crypto.verification
+package dev.getzen.element.features.crypto.verification
 
-import im.vector.app.core.platform.VectorViewModelAction
+import dev.getzen.element.core.platform.VectorViewModelAction
 
 // TODO Remove otherUserId and transactionId when it's not necessary. Should be known by the ViewModel, no?
 sealed class VerificationAction : VectorViewModelAction {

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.attachments
+package dev.getzen.element.features.attachments
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -26,10 +26,10 @@ import androidx.fragment.app.viewModels
 import com.airbnb.mvrx.parentFragmentViewModel
 import com.airbnb.mvrx.withState
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.platform.VectorBaseBottomSheetDialogFragment
-import im.vector.app.databinding.BottomSheetAttachmentTypeSelectorBinding
-import im.vector.app.features.home.room.detail.TimelineViewModel
+import dev.getzen.element.R
+import dev.getzen.element.core.platform.VectorBaseBottomSheetDialogFragment
+import dev.getzen.element.databinding.BottomSheetAttachmentTypeSelectorBinding
+import dev.getzen.element.features.home.room.detail.TimelineViewModel
 
 @AndroidEntryPoint
 class AttachmentTypeSelectorBottomSheet : VectorBaseBottomSheetDialogFragment<BottomSheetAttachmentTypeSelectorBinding>() {

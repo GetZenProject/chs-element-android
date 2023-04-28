@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.voicebroadcast.usecase
+package dev.getzen.element.features.voicebroadcast.usecase
 
-import im.vector.app.features.voicebroadcast.model.VoiceBroadcast
-import im.vector.app.features.voicebroadcast.model.VoiceBroadcastEvent
-import im.vector.app.features.voicebroadcast.model.asVoiceBroadcastEvent
-import im.vector.app.features.voicebroadcast.voiceBroadcastId
+import dev.getzen.element.features.voicebroadcast.model.VoiceBroadcast
+import dev.getzen.element.features.voicebroadcast.model.VoiceBroadcastEvent
+import dev.getzen.element.features.voicebroadcast.model.asVoiceBroadcastEvent
+import dev.getzen.element.features.voicebroadcast.voiceBroadcastId
 import org.matrix.android.sdk.api.extensions.orTrue
 import org.matrix.android.sdk.api.session.Session
 import org.matrix.android.sdk.api.session.events.model.RelationType

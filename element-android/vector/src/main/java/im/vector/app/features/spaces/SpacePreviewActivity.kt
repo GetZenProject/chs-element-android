@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces
+package dev.getzen.element.features.spaces
 
 import android.content.Context
 import android.content.Intent
@@ -22,11 +22,11 @@ import android.os.Bundle
 import androidx.lifecycle.lifecycleScope
 import com.airbnb.mvrx.Mavericks
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.core.extensions.replaceFragment
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.databinding.ActivitySimpleBinding
-import im.vector.app.features.spaces.preview.SpacePreviewArgs
-import im.vector.app.features.spaces.preview.SpacePreviewFragment
+import dev.getzen.element.core.extensions.replaceFragment
+import dev.getzen.element.core.platform.VectorBaseActivity
+import dev.getzen.element.databinding.ActivitySimpleBinding
+import dev.getzen.element.features.spaces.preview.SpacePreviewArgs
+import dev.getzen.element.features.spaces.preview.SpacePreviewFragment
 import im.vector.lib.core.utils.compat.getParcelableExtraCompat
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach

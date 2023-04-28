@@ -15,7 +15,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <im.vector.app.features.location.live.LiveLocationEndedBannerView
+    <dev.getzen.element.features.location.live.LiveLocationEndedBannerView
         android:id="@+id/liveLocationEndedBanner"
         android:layout_width="0dp"
         android:layout_height="48dp"

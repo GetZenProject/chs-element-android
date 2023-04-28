@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.di
+package dev.getzen.element.core.di
 
 import android.content.Context
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
-import im.vector.app.core.debug.DebugNavigator
-import im.vector.app.core.debug.DebugReceiver
-import im.vector.app.core.debug.FlipperProxy
-import im.vector.app.core.debug.LeakDetector
+import dev.getzen.element.core.debug.DebugNavigator
+import dev.getzen.element.core.debug.DebugReceiver
+import dev.getzen.element.core.debug.FlipperProxy
+import dev.getzen.element.core.debug.LeakDetector
 import okhttp3.Interceptor
 import org.matrix.android.sdk.api.Matrix
 

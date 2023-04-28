@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces
+package dev.getzen.element.features.spaces
 
 import androidx.lifecycle.asFlow
 import com.airbnb.mvrx.Loading
@@ -23,15 +23,15 @@ import com.airbnb.mvrx.Success
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
-import im.vector.app.SpaceStateHandler
-import im.vector.app.core.di.MavericksAssistedViewModelFactory
-import im.vector.app.core.di.hiltMavericksViewModelFactory
-import im.vector.app.core.platform.VectorViewModel
-import im.vector.app.features.analytics.AnalyticsTracker
-import im.vector.app.features.analytics.plan.Interaction
-import im.vector.app.features.session.coroutineScope
-import im.vector.app.features.settings.VectorPreferences
-import im.vector.app.features.spaces.notification.GetNotificationCountForSpacesUseCase
+import dev.getzen.element.SpaceStateHandler
+import dev.getzen.element.core.di.MavericksAssistedViewModelFactory
+import dev.getzen.element.core.di.hiltMavericksViewModelFactory
+import dev.getzen.element.core.platform.VectorViewModel
+import dev.getzen.element.features.analytics.AnalyticsTracker
+import dev.getzen.element.features.analytics.plan.Interaction
+import dev.getzen.element.features.session.coroutineScope
+import dev.getzen.element.features.settings.VectorPreferences
+import dev.getzen.element.features.spaces.notification.GetNotificationCountForSpacesUseCase
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.launchIn

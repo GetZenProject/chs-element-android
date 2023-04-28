@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.extensions
+package dev.getzen.element.core.extensions
 
 import android.animation.Animator
 import android.animation.TimeInterpolator
@@ -22,7 +22,7 @@ import android.animation.ValueAnimator
 import android.view.View
 import android.view.animation.AccelerateDecelerateInterpolator
 import androidx.viewpager2.widget.ViewPager2
-import im.vector.app.core.animations.SimpleAnimatorListener
+import dev.getzen.element.core.animations.SimpleAnimatorListener
 
 fun ViewPager2.setCurrentItem(
         item: Int,

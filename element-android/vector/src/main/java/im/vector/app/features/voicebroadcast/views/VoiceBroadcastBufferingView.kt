@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.voicebroadcast.views
+package dev.getzen.element.features.voicebroadcast.views
 
 import android.content.Context
 import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.widget.LinearLayout
-import im.vector.app.databinding.ViewVoiceBroadcastBufferingBinding
+import dev.getzen.element.databinding.ViewVoiceBroadcastBufferingBinding
 
 class VoiceBroadcastBufferingView @JvmOverloads constructor(
         context: Context,

@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package im.vector.app.ui.robot.space
+package dev.getzen.element.ui.robot.space
 
 import androidx.recyclerview.widget.RecyclerView
 import androidx.test.espresso.Espresso
 import androidx.test.espresso.action.ViewActions
 import androidx.test.espresso.contrib.RecyclerViewActions
 import androidx.test.espresso.matcher.ViewMatchers
-import im.vector.app.R
-import im.vector.app.espresso.tools.waitUntilActivityVisible
-import im.vector.app.espresso.tools.waitUntilViewVisible
-import im.vector.app.features.roomprofile.settings.joinrule.RoomJoinRuleActivity
+import dev.getzen.element.R
+import dev.getzen.element.espresso.tools.waitUntilActivityVisible
+import dev.getzen.element.espresso.tools.waitUntilViewVisible
+import dev.getzen.element.features.roomprofile.settings.joinrule.RoomJoinRuleActivity
 
 class SpaceSettingsRobot {
     fun crawl() {

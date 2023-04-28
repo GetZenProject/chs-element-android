@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.epoxy
+package dev.getzen.element.core.epoxy
 
 import android.widget.Button
 import android.widget.TextView
 import androidx.core.view.isVisible
 import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
-import im.vector.app.R
+import dev.getzen.element.R
 
 @EpoxyModelClass
 abstract class ErrorWithRetryItem : VectorEpoxyModel<ErrorWithRetryItem.Holder>(R.layout.item_error_retry) {

@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.test.fixtures
+package dev.getzen.element.test.fixtures
 
-import im.vector.app.features.analytics.itf.VectorAnalyticsEvent
-import im.vector.app.features.analytics.itf.VectorAnalyticsScreen
+import dev.getzen.element.features.analytics.itf.VectorAnalyticsEvent
+import dev.getzen.element.features.analytics.itf.VectorAnalyticsScreen
 
 fun aVectorAnalyticsScreen(
         name: String = "a-screen-name",

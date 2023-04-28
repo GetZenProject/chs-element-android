@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.ui.views
+package dev.getzen.element.core.ui.views
 
 import android.content.Context
 import android.os.Build

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home
+package dev.getzen.element.features.home
 
-import im.vector.app.features.home.room.list.UnreadCounterBadgeView
-import im.vector.app.features.spaces.GetSpacesUseCase
-import im.vector.app.features.spaces.notification.GetNotificationCountForSpacesUseCase
-import im.vector.app.test.test
+import dev.getzen.element.features.home.room.list.UnreadCounterBadgeView
+import dev.getzen.element.features.spaces.GetSpacesUseCase
+import dev.getzen.element.features.spaces.notification.GetNotificationCountForSpacesUseCase
+import dev.getzen.element.test.test
 import io.mockk.every
 import io.mockk.mockk
 import io.mockk.verify

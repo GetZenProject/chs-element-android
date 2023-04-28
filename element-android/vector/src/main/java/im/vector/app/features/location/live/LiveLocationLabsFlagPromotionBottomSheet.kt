@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.location.live
+package dev.getzen.element.features.location.live
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.setFragmentResult
-import im.vector.app.core.platform.VectorBaseBottomSheetDialogFragment
-import im.vector.app.databinding.BottomSheetLiveLocationLabsFlagPromotionBinding
+import dev.getzen.element.core.platform.VectorBaseBottomSheetDialogFragment
+import dev.getzen.element.databinding.BottomSheetLiveLocationLabsFlagPromotionBinding
 
 /**
  * Bottom sheet to warn users that feature is still in active development. Users are able to enable labs flag by using the switch in this bottom sheet.

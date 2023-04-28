@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomdirectory.roompreview
+package dev.getzen.element.features.roomdirectory.roompreview
 
-import im.vector.app.core.platform.VectorViewModelAction
+import dev.getzen.element.core.platform.VectorViewModelAction
 
 sealed class RoomPreviewAction : VectorViewModelAction {
     object Join : RoomPreviewAction()

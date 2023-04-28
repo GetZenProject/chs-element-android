@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.html
+package dev.getzen.element.features.html
 
 import android.content.Context
 import android.text.Spannable
@@ -22,10 +22,10 @@ import android.text.Spanned
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
-import im.vector.app.R
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.glide.GlideApp
-import im.vector.app.features.home.AvatarRenderer
+import dev.getzen.element.R
+import dev.getzen.element.core.di.ActiveSessionHolder
+import dev.getzen.element.core.glide.GlideApp
+import dev.getzen.element.features.home.AvatarRenderer
 import io.noties.markwon.core.spans.LinkSpan
 import org.matrix.android.sdk.api.extensions.orFalse
 import org.matrix.android.sdk.api.session.getRoomSummary

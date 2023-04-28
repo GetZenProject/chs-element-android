@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.settings.threepids
+package dev.getzen.element.features.settings.threepids
 
 import android.view.View
 import android.widget.ImageView
@@ -22,11 +22,11 @@ import androidx.annotation.DrawableRes
 import androidx.core.view.isVisible
 import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
-import im.vector.app.R
-import im.vector.app.core.epoxy.ClickListener
-import im.vector.app.core.epoxy.VectorEpoxyHolder
-import im.vector.app.core.epoxy.VectorEpoxyModel
-import im.vector.app.core.epoxy.onClick
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.ClickListener
+import dev.getzen.element.core.epoxy.VectorEpoxyHolder
+import dev.getzen.element.core.epoxy.VectorEpoxyModel
+import dev.getzen.element.core.epoxy.onClick
 
 @EpoxyModelClass
 abstract class ThreePidItem : VectorEpoxyModel<ThreePidItem.Holder>(R.layout.item_settings_three_pid) {

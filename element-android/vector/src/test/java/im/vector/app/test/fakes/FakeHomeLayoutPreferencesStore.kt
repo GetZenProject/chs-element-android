@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.test.fakes
+package dev.getzen.element.test.fakes
 
-import im.vector.app.features.home.room.list.home.HomeLayoutPreferencesStore
+import dev.getzen.element.features.home.room.list.home.HomeLayoutPreferencesStore
 import io.mockk.every
 import io.mockk.mockk
 import kotlinx.coroutines.flow.MutableSharedFlow

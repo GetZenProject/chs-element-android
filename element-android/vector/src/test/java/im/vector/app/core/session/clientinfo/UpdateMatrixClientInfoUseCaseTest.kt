@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.session.clientinfo
+package dev.getzen.element.core.session.clientinfo
 
-import im.vector.app.core.resources.BuildMeta
-import im.vector.app.test.fakes.FakeAppNameProvider
-import im.vector.app.test.fakes.FakeSession
+import dev.getzen.element.core.resources.BuildMeta
+import dev.getzen.element.test.fakes.FakeAppNameProvider
+import dev.getzen.element.test.fakes.FakeSession
 import io.mockk.coEvery
 import io.mockk.coVerify
 import io.mockk.every

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.widgets.webview
+package dev.getzen.element.features.widgets.webview
 
 import android.app.Activity
 import android.view.ViewGroup
@@ -22,11 +22,11 @@ import android.webkit.CookieManager
 import android.webkit.PermissionRequest
 import android.webkit.WebChromeClient
 import android.webkit.WebView
-import im.vector.app.R
-import im.vector.app.core.utils.CheckWebViewPermissionsUseCase
-import im.vector.app.features.themes.ThemeUtils
-import im.vector.app.features.webview.VectorWebViewClient
-import im.vector.app.features.webview.WebEventListener
+import dev.getzen.element.R
+import dev.getzen.element.core.utils.CheckWebViewPermissionsUseCase
+import dev.getzen.element.features.themes.ThemeUtils
+import dev.getzen.element.features.webview.VectorWebViewClient
+import dev.getzen.element.features.webview.WebEventListener
 
 fun WebView.setupForWidget(activity: Activity,
                            checkWebViewPermissionsUseCase: CheckWebViewPermissionsUseCase,

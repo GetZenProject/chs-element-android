@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.ui.robot.space
+package dev.getzen.element.ui.robot.space
 
 import androidx.recyclerview.widget.RecyclerView
 import androidx.test.espresso.Espresso
@@ -25,12 +25,12 @@ import androidx.test.espresso.matcher.ViewMatchers
 import com.adevinta.android.barista.interaction.BaristaClickInteractions.clickOn
 import com.adevinta.android.barista.interaction.BaristaDrawerInteractions.openDrawer
 import com.adevinta.android.barista.internal.viewaction.ClickChildAction
-import im.vector.app.R
-import im.vector.app.espresso.tools.waitUntilDialogVisible
-import im.vector.app.espresso.tools.waitUntilViewVisible
-import im.vector.app.features.DefaultVectorFeatures
-import im.vector.app.features.VectorFeatures
-import im.vector.app.ui.robot.settings.labs.LabFeaturesPreferences
+import dev.getzen.element.R
+import dev.getzen.element.espresso.tools.waitUntilDialogVisible
+import dev.getzen.element.espresso.tools.waitUntilViewVisible
+import dev.getzen.element.features.DefaultVectorFeatures
+import dev.getzen.element.features.VectorFeatures
+import dev.getzen.element.ui.robot.settings.labs.LabFeaturesPreferences
 import org.hamcrest.Matchers
 
 class SpaceRobot(private val labsPreferences: LabFeaturesPreferences) {

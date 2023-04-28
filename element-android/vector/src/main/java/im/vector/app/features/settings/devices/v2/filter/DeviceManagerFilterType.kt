@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2.filter
+package dev.getzen.element.features.settings.devices.v2.filter
 
 enum class DeviceManagerFilterType {
     ALL_SESSIONS,

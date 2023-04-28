@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail
+package dev.getzen.element.features.home.room.detail
 
 import androidx.activity.result.ActivityResultLauncher
 import androidx.fragment.app.Fragment
 import com.airbnb.mvrx.withState
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.core.utils.PERMISSIONS_FOR_AUDIO_IP_CALL
-import im.vector.app.core.utils.PERMISSIONS_FOR_VIDEO_IP_CALL
-import im.vector.app.core.utils.checkPermissions
-import im.vector.app.features.call.webrtc.WebRtcCallManager
-import im.vector.app.features.settings.VectorPreferences
+import dev.getzen.element.R
+import dev.getzen.element.core.utils.PERMISSIONS_FOR_AUDIO_IP_CALL
+import dev.getzen.element.core.utils.PERMISSIONS_FOR_VIDEO_IP_CALL
+import dev.getzen.element.core.utils.checkPermissions
+import dev.getzen.element.features.call.webrtc.WebRtcCallManager
+import dev.getzen.element.features.settings.VectorPreferences
 
 class StartCallActionsHandler(
         private val roomId: String,

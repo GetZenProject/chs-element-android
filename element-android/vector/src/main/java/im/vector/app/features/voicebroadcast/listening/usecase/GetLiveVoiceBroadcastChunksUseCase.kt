@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.voicebroadcast.listening.usecase
+package dev.getzen.element.features.voicebroadcast.listening.usecase
 
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.features.voicebroadcast.getVoiceBroadcastEventId
-import im.vector.app.features.voicebroadcast.isVoiceBroadcast
-import im.vector.app.features.voicebroadcast.model.VoiceBroadcast
-import im.vector.app.features.voicebroadcast.model.VoiceBroadcastEvent
-import im.vector.app.features.voicebroadcast.model.VoiceBroadcastState
-import im.vector.app.features.voicebroadcast.model.asVoiceBroadcastEvent
-import im.vector.app.features.voicebroadcast.sequence
-import im.vector.app.features.voicebroadcast.usecase.GetVoiceBroadcastStateEventUseCase
-import im.vector.app.features.voicebroadcast.voiceBroadcastId
+import dev.getzen.element.core.di.ActiveSessionHolder
+import dev.getzen.element.features.voicebroadcast.getVoiceBroadcastEventId
+import dev.getzen.element.features.voicebroadcast.isVoiceBroadcast
+import dev.getzen.element.features.voicebroadcast.model.VoiceBroadcast
+import dev.getzen.element.features.voicebroadcast.model.VoiceBroadcastEvent
+import dev.getzen.element.features.voicebroadcast.model.VoiceBroadcastState
+import dev.getzen.element.features.voicebroadcast.model.asVoiceBroadcastEvent
+import dev.getzen.element.features.voicebroadcast.sequence
+import dev.getzen.element.features.voicebroadcast.usecase.GetVoiceBroadcastStateEventUseCase
+import dev.getzen.element.features.voicebroadcast.voiceBroadcastId
 import kotlinx.coroutines.channels.awaitClose
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.callbackFlow

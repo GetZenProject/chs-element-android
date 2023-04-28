@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.session
+package dev.getzen.element.core.session
 
 import android.content.Context
 import dagger.hilt.android.qualifiers.ApplicationContext
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.extensions.startSyncing
+import dev.getzen.element.core.di.ActiveSessionHolder
+import dev.getzen.element.core.extensions.startSyncing
 import org.matrix.android.sdk.api.session.sync.SyncState
 import timber.log.Timber
 import javax.inject.Inject

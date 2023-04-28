@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.extensions
+package dev.getzen.element.core.extensions
 
 import android.graphics.drawable.Drawable
 import android.text.Spannable
@@ -32,10 +32,10 @@ import androidx.annotation.StringRes
 import androidx.core.content.ContextCompat
 import androidx.core.graphics.drawable.DrawableCompat
 import androidx.core.view.isVisible
-import im.vector.app.R
-import im.vector.app.core.platform.showOptimizedSnackbar
-import im.vector.app.core.utils.copyToClipboard
-import im.vector.app.features.themes.ThemeUtils
+import dev.getzen.element.R
+import dev.getzen.element.core.platform.showOptimizedSnackbar
+import dev.getzen.element.core.utils.copyToClipboard
+import dev.getzen.element.features.themes.ThemeUtils
 
 /**
  * Set a text in the TextView, or set visibility to GONE if the text is null.

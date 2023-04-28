@@ -15,9 +15,9 @@
  *
  */
 
-package im.vector.app.features.roommemberprofile
+package dev.getzen.element.features.roommemberprofile
 
-import im.vector.app.core.platform.VectorViewModelAction
+import dev.getzen.element.core.platform.VectorViewModelAction
 
 sealed class RoomMemberProfileAction : VectorViewModelAction {
     object RetryFetchingInfo : RoomMemberProfileAction()

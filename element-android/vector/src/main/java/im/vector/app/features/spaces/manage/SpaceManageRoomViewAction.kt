@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.manage
+package dev.getzen.element.features.spaces.manage
 
-import im.vector.app.core.platform.VectorViewModelAction
+import dev.getzen.element.core.platform.VectorViewModelAction
 
 sealed class SpaceManageRoomViewAction : VectorViewModelAction {
     data class ToggleSelection(val roomId: String) : SpaceManageRoomViewAction()

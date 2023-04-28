@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.rageshake
+package dev.getzen.element.features.rageshake
 
 import android.content.Context
 import android.content.Intent
@@ -26,10 +26,10 @@ import androidx.core.widget.doOnTextChanged
 import com.airbnb.mvrx.viewModel
 import com.airbnb.mvrx.withState
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.core.platform.VectorMenuProvider
-import im.vector.app.databinding.ActivityBugReportBinding
+import dev.getzen.element.R
+import dev.getzen.element.core.platform.VectorBaseActivity
+import dev.getzen.element.core.platform.VectorMenuProvider
+import dev.getzen.element.databinding.ActivityBugReportBinding
 import org.matrix.android.sdk.api.extensions.tryOrNull
 import timber.log.Timber
 

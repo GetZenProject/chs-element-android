@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.login
+package dev.getzen.element.features.login
 
-import im.vector.app.core.utils.TemporaryStore
+import dev.getzen.element.core.utils.TemporaryStore
 import javax.inject.Inject
 import javax.inject.Singleton
 import kotlin.time.Duration.Companion.minutes

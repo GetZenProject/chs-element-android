@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.signout.soft
+package dev.getzen.element.features.signout.soft
 
 import com.airbnb.mvrx.Async
 import com.airbnb.mvrx.Loading
 import com.airbnb.mvrx.MavericksState
 import com.airbnb.mvrx.Success
 import com.airbnb.mvrx.Uninitialized
-import im.vector.app.features.login.LoginMode
+import dev.getzen.element.features.login.LoginMode
 import org.matrix.android.sdk.api.auth.LoginType
 
 data class SoftLogoutViewState(

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.signout.soft
+package dev.getzen.element.features.signout.soft
 
 import com.airbnb.mvrx.Fail
 import com.airbnb.mvrx.Loading
@@ -26,15 +26,15 @@ import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
 import dagger.hilt.EntryPoints
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.di.MavericksAssistedViewModelFactory
-import im.vector.app.core.di.SingletonEntryPoint
-import im.vector.app.core.di.hiltMavericksViewModelFactory
-import im.vector.app.core.extensions.hasUnsavedKeys
-import im.vector.app.core.platform.VectorViewModel
-import im.vector.app.features.displayname.getBestName
-import im.vector.app.features.login.LoginMode
-import im.vector.app.features.login.toSsoState
+import dev.getzen.element.core.di.ActiveSessionHolder
+import dev.getzen.element.core.di.MavericksAssistedViewModelFactory
+import dev.getzen.element.core.di.SingletonEntryPoint
+import dev.getzen.element.core.di.hiltMavericksViewModelFactory
+import dev.getzen.element.core.extensions.hasUnsavedKeys
+import dev.getzen.element.core.platform.VectorViewModel
+import dev.getzen.element.features.displayname.getBestName
+import dev.getzen.element.features.login.LoginMode
+import dev.getzen.element.features.login.toSsoState
 import kotlinx.coroutines.launch
 import org.matrix.android.sdk.api.auth.AuthenticationService
 import org.matrix.android.sdk.api.auth.LoginType

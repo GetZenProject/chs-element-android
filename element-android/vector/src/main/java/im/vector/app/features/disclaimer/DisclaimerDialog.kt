@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.disclaimer
+package dev.getzen.element.features.disclaimer
 
 import android.app.Activity
 import android.content.SharedPreferences
 import androidx.core.content.edit
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.core.di.DefaultPreferences
-import im.vector.app.core.utils.openUrlInChromeCustomTab
-import im.vector.app.features.settings.VectorSettingsUrls
+import dev.getzen.element.R
+import dev.getzen.element.core.di.DefaultPreferences
+import dev.getzen.element.core.utils.openUrlInChromeCustomTab
+import dev.getzen.element.features.settings.VectorSettingsUrls
 import javax.inject.Inject
 
 // Increase this value to show again the disclaimer dialog after an upgrade of the application

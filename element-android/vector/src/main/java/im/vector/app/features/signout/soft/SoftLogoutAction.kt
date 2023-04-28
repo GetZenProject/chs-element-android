@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.signout.soft
+package dev.getzen.element.features.signout.soft
 
-import im.vector.app.core.platform.VectorViewModelAction
+import dev.getzen.element.core.platform.VectorViewModelAction
 import org.matrix.android.sdk.api.auth.data.Credentials
 
 sealed class SoftLogoutAction : VectorViewModelAction {

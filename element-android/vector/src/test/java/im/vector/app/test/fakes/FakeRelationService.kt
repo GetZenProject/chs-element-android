@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.test.fakes
+package dev.getzen.element.test.fakes
 
 import io.mockk.mockk
 import org.matrix.android.sdk.api.session.room.model.message.PollType

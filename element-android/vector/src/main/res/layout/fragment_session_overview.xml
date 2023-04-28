@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <im.vector.app.features.settings.devices.v2.list.SessionInfoView
+        <dev.getzen.element.features.settings.devices.v2.list.SessionInfoView
             android:id="@+id/sessionOverviewInfo"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -21,7 +21,7 @@
             app:layout_constraintTop_toTopOf="parent"
             tools:visibility="visible" />
 
-        <im.vector.app.features.settings.devices.v2.overview.SessionOverviewEntryView
+        <dev.getzen.element.features.settings.devices.v2.overview.SessionOverviewEntryView
             android:id="@+id/sessionOverviewEntryDetails"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -31,7 +31,7 @@
             app:sessionOverviewEntryDescription="@string/device_manager_session_details_description"
             app:sessionOverviewEntryTitle="@string/device_manager_session_details_title" />
 
-        <im.vector.app.features.settings.devices.v2.overview.SessionOverviewEntrySwitchView
+        <dev.getzen.element.features.settings.devices.v2.overview.SessionOverviewEntrySwitchView
             android:id="@+id/sessionOverviewPushNotifications"
             android:layout_width="0dp"
             android:layout_height="wrap_content"

@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.pin.lockscreen.crypto.migrations
+package dev.getzen.element.features.pin.lockscreen.crypto.migrations
 
 import android.os.Build
 import android.util.Base64
 import androidx.annotation.VisibleForTesting
-import im.vector.app.features.pin.PinCodeStore
-import im.vector.app.features.pin.lockscreen.crypto.LockScreenCryptoConstants.LEGACY_PIN_CODE_KEY_ALIAS
-import im.vector.app.features.pin.lockscreen.di.PinCodeKeyAlias
+import dev.getzen.element.features.pin.PinCodeStore
+import dev.getzen.element.features.pin.lockscreen.crypto.LockScreenCryptoConstants.LEGACY_PIN_CODE_KEY_ALIAS
+import dev.getzen.element.features.pin.lockscreen.di.PinCodeKeyAlias
 import org.matrix.android.sdk.api.securestorage.SecretStoringUtils
 import org.matrix.android.sdk.api.util.BuildVersionSdkIntProvider
 import java.security.Key

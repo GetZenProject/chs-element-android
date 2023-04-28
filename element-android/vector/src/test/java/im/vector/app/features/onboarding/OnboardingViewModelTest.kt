@@ -14,43 +14,43 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.onboarding
+package dev.getzen.element.features.onboarding
 
 import android.net.Uri
 import android.os.Build
 import com.airbnb.mvrx.test.MavericksTestRule
-import im.vector.app.R
-import im.vector.app.core.session.ConfigureAndStartSessionUseCase
-import im.vector.app.features.login.LoginConfig
-import im.vector.app.features.login.LoginMode
-import im.vector.app.features.login.ReAuthHelper
-import im.vector.app.features.login.ServerType
-import im.vector.app.features.login.SignMode
-import im.vector.app.features.onboarding.RegistrationStateFixture.aRegistrationState
-import im.vector.app.features.onboarding.StartAuthenticationFlowUseCase.StartAuthenticationResult
-import im.vector.app.test.TestBuildVersionSdkIntProvider
-import im.vector.app.test.fakes.FakeActiveSessionHolder
-import im.vector.app.test.fakes.FakeAnalyticsTracker
-import im.vector.app.test.fakes.FakeAuthenticationService
-import im.vector.app.test.fakes.FakeContext
-import im.vector.app.test.fakes.FakeDirectLoginUseCase
-import im.vector.app.test.fakes.FakeHomeServerConnectionConfigFactory
-import im.vector.app.test.fakes.FakeHomeServerHistoryService
-import im.vector.app.test.fakes.FakeLoginWizard
-import im.vector.app.test.fakes.FakeRegistrationActionHandler
-import im.vector.app.test.fakes.FakeRegistrationWizard
-import im.vector.app.test.fakes.FakeSession
-import im.vector.app.test.fakes.FakeStartAuthenticationFlowUseCase
-import im.vector.app.test.fakes.FakeStringProvider
-import im.vector.app.test.fakes.FakeUri
-import im.vector.app.test.fakes.FakeUriFilenameResolver
-import im.vector.app.test.fakes.FakeVectorFeatures
-import im.vector.app.test.fakes.FakeVectorOverrides
-import im.vector.app.test.fakes.toTestString
-import im.vector.app.test.fixtures.a401ServerError
-import im.vector.app.test.fixtures.aHomeServerCapabilities
-import im.vector.app.test.fixtures.anUnrecognisedCertificateError
-import im.vector.app.test.test
+import dev.getzen.element.R
+import dev.getzen.element.core.session.ConfigureAndStartSessionUseCase
+import dev.getzen.element.features.login.LoginConfig
+import dev.getzen.element.features.login.LoginMode
+import dev.getzen.element.features.login.ReAuthHelper
+import dev.getzen.element.features.login.ServerType
+import dev.getzen.element.features.login.SignMode
+import dev.getzen.element.features.onboarding.RegistrationStateFixture.aRegistrationState
+import dev.getzen.element.features.onboarding.StartAuthenticationFlowUseCase.StartAuthenticationResult
+import dev.getzen.element.test.TestBuildVersionSdkIntProvider
+import dev.getzen.element.test.fakes.FakeActiveSessionHolder
+import dev.getzen.element.test.fakes.FakeAnalyticsTracker
+import dev.getzen.element.test.fakes.FakeAuthenticationService
+import dev.getzen.element.test.fakes.FakeContext
+import dev.getzen.element.test.fakes.FakeDirectLoginUseCase
+import dev.getzen.element.test.fakes.FakeHomeServerConnectionConfigFactory
+import dev.getzen.element.test.fakes.FakeHomeServerHistoryService
+import dev.getzen.element.test.fakes.FakeLoginWizard
+import dev.getzen.element.test.fakes.FakeRegistrationActionHandler
+import dev.getzen.element.test.fakes.FakeRegistrationWizard
+import dev.getzen.element.test.fakes.FakeSession
+import dev.getzen.element.test.fakes.FakeStartAuthenticationFlowUseCase
+import dev.getzen.element.test.fakes.FakeStringProvider
+import dev.getzen.element.test.fakes.FakeUri
+import dev.getzen.element.test.fakes.FakeUriFilenameResolver
+import dev.getzen.element.test.fakes.FakeVectorFeatures
+import dev.getzen.element.test.fakes.FakeVectorOverrides
+import dev.getzen.element.test.fakes.toTestString
+import dev.getzen.element.test.fixtures.a401ServerError
+import dev.getzen.element.test.fixtures.aHomeServerCapabilities
+import dev.getzen.element.test.fixtures.anUnrecognisedCertificateError
+import dev.getzen.element.test.test
 import io.mockk.mockk
 import kotlinx.coroutines.test.runTest
 import org.amshove.kluent.shouldBeEqualTo
@@ -79,7 +79,7 @@ private val A_FINGERPRINT = Fingerprint(ByteArray(1), Fingerprint.HashType.SHA1)
 private val ANY_CONTINUING_REGISTRATION_RESULT = RegistrationActionHandler.Result.NextStage(Stage.Dummy(mandatory = true))
 private val A_DIRECT_LOGIN = OnboardingAction.AuthenticateAction.LoginDirect("@a-user:id.org", "a-password", "a-device-name")
 private const val A_HOMESERVER_URL = "https://edited-homeserver.org"
-private val A_DEFAULT_HOMESERVER_URL = "${R.string.matrix_org_server_url.toTestString()}/"
+private val A_DEFAULT_HOMESERVER_URL = "${R.string.homeserver_url.toTestString()}/"
 private val A_HOMESERVER_CONFIG = HomeServerConnectionConfig(FakeUri().instance)
 private val SELECTED_HOMESERVER_STATE = SelectedHomeserverState(preferredLoginMode = LoginMode.Password, userFacingUrl = A_HOMESERVER_URL)
 private val SELECTED_HOMESERVER_STATE_SUPPORTED_LOGOUT_DEVICES = SelectedHomeserverState(isLogoutDevicesSupported = true)

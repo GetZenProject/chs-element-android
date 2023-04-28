@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.location.preview
+package dev.getzen.element.features.location.preview
 
-import im.vector.app.core.platform.VectorViewEvents
-import im.vector.app.features.location.LocationData
+import dev.getzen.element.core.platform.VectorViewEvents
+import dev.getzen.element.features.location.LocationData
 
 sealed class LocationPreviewViewEvents : VectorViewEvents {
     data class ZoomToUserLocation(val userLocation: LocationData) : LocationPreviewViewEvents()

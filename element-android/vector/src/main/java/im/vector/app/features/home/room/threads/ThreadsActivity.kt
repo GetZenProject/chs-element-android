@@ -14,27 +14,27 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.threads
+package dev.getzen.element.features.home.room.threads
 
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.FragmentTransaction
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.addFragmentToBackstack
-import im.vector.app.core.extensions.replaceFragment
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.databinding.ActivityThreadsBinding
-import im.vector.app.features.MainActivity
-import im.vector.app.features.analytics.extensions.toAnalyticsInteraction
-import im.vector.app.features.analytics.plan.Interaction
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.home.room.detail.TimelineFragment
-import im.vector.app.features.home.room.detail.arguments.TimelineArgs
-import im.vector.app.features.home.room.threads.arguments.ThreadListArgs
-import im.vector.app.features.home.room.threads.arguments.ThreadTimelineArgs
-import im.vector.app.features.home.room.threads.list.views.ThreadListFragment
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.addFragmentToBackstack
+import dev.getzen.element.core.extensions.replaceFragment
+import dev.getzen.element.core.platform.VectorBaseActivity
+import dev.getzen.element.databinding.ActivityThreadsBinding
+import dev.getzen.element.features.MainActivity
+import dev.getzen.element.features.analytics.extensions.toAnalyticsInteraction
+import dev.getzen.element.features.analytics.plan.Interaction
+import dev.getzen.element.features.home.AvatarRenderer
+import dev.getzen.element.features.home.room.detail.TimelineFragment
+import dev.getzen.element.features.home.room.detail.arguments.TimelineArgs
+import dev.getzen.element.features.home.room.threads.arguments.ThreadListArgs
+import dev.getzen.element.features.home.room.threads.arguments.ThreadTimelineArgs
+import dev.getzen.element.features.home.room.threads.list.views.ThreadListFragment
 import im.vector.lib.core.utils.compat.getParcelableCompat
 import javax.inject.Inject
 

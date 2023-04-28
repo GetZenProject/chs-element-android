@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces
+package dev.getzen.element.features.spaces
 
-import im.vector.app.test.fakes.FakeActiveSessionHolder
-import im.vector.app.test.fakes.FakeFlowLiveDataConversions
-import im.vector.app.test.fakes.givenAsFlow
-import im.vector.app.test.test
+import dev.getzen.element.test.fakes.FakeActiveSessionHolder
+import dev.getzen.element.test.fakes.FakeFlowLiveDataConversions
+import dev.getzen.element.test.fakes.givenAsFlow
+import dev.getzen.element.test.test
 import io.mockk.mockk
 import io.mockk.unmockkAll
 import io.mockk.verify

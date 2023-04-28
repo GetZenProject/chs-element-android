@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.notification
+package dev.getzen.element.core.notification
 
-import im.vector.app.features.session.coroutineScope
-import im.vector.app.features.settings.notifications.usecase.UpdatePushRulesIfNeededUseCase
+import dev.getzen.element.features.session.coroutineScope
+import dev.getzen.element.features.settings.notifications.usecase.UpdatePushRulesIfNeededUseCase
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.flow.onEach

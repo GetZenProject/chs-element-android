@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.settings.devices
+package dev.getzen.element.features.settings.devices
 
 import android.os.Bundle
 import android.os.Parcelable
@@ -25,10 +25,10 @@ import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.parentFragmentViewModel
 import com.airbnb.mvrx.withState
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.platform.VectorBaseBottomSheetDialogFragment
-import im.vector.app.databinding.BottomSheetGenericListWithTitleBinding
+import dev.getzen.element.core.extensions.cleanup
+import dev.getzen.element.core.extensions.configureWith
+import dev.getzen.element.core.platform.VectorBaseBottomSheetDialogFragment
+import dev.getzen.element.databinding.BottomSheetGenericListWithTitleBinding
 import kotlinx.parcelize.Parcelize
 import javax.inject.Inject
 

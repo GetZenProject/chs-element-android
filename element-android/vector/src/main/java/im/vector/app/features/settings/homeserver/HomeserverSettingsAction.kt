@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.homeserver
+package dev.getzen.element.features.settings.homeserver
 
-import im.vector.app.core.platform.VectorViewModelAction
+import dev.getzen.element.core.platform.VectorViewModelAction
 
 sealed class HomeserverSettingsAction : VectorViewModelAction {
     object Refresh : HomeserverSettingsAction()

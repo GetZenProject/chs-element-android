@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.pin.lockscreen.tests
+package dev.getzen.element.features.pin.lockscreen.tests
 
 import androidx.fragment.app.FragmentActivity
 

@@ -15,13 +15,13 @@
  *
  */
 
-package im.vector.app.core.epoxy.profiles
+package dev.getzen.element.core.epoxy.profiles
 
 import android.widget.ProgressBar
 import androidx.core.view.isVisible
 import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
-import im.vector.app.R
+import dev.getzen.element.R
 
 @EpoxyModelClass
 abstract class ProfileMatrixItemWithProgress : BaseProfileMatrixItem<ProfileMatrixItemWithProgress.Holder>(R.layout.item_profile_matrix_item_progress) {

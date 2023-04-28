@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.crypto.recover
+package dev.getzen.element.features.crypto.recover
 
 fun String.formatRecoveryKey(): String {
     return this.replace(" ", "")

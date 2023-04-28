@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.ui.views
+package dev.getzen.element.core.ui.views
 
 import androidx.core.view.isVisible
-import im.vector.app.features.call.webrtc.WebRtcCall
+import dev.getzen.element.features.call.webrtc.WebRtcCall
 
 class CurrentCallsViewPresenter {
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call.conference
+package dev.getzen.element.features.call.conference
 
 import android.content.Context
 import android.content.Intent
@@ -37,9 +37,9 @@ import com.airbnb.mvrx.viewModel
 import com.facebook.react.modules.core.PermissionListener
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.databinding.ActivityJitsiBinding
+import dev.getzen.element.R
+import dev.getzen.element.core.platform.VectorBaseActivity
+import dev.getzen.element.databinding.ActivityJitsiBinding
 import im.vector.lib.core.utils.compat.getParcelableExtraCompat
 import kotlinx.parcelize.Parcelize
 import org.jitsi.meet.sdk.BroadcastIntentHelper

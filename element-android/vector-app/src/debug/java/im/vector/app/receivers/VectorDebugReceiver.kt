@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.receivers
+package dev.getzen.element.receivers
 
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -22,9 +22,9 @@ import android.content.Intent
 import android.content.IntentFilter
 import android.content.SharedPreferences
 import androidx.core.content.edit
-import im.vector.app.core.debug.DebugReceiver
-import im.vector.app.core.di.DefaultPreferences
-import im.vector.app.core.utils.lsFiles
+import dev.getzen.element.core.debug.DebugReceiver
+import dev.getzen.element.core.di.DefaultPreferences
+import dev.getzen.element.core.utils.lsFiles
 import timber.log.Timber
 import javax.inject.Inject
 

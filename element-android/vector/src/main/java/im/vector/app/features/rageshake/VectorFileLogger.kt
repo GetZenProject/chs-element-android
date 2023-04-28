@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.rageshake
+package dev.getzen.element.features.rageshake
 
 import android.content.Context
 import android.util.Log
-import im.vector.app.features.settings.VectorPreferences
+import dev.getzen.element.features.settings.VectorPreferences
 import kotlinx.coroutines.DelicateCoroutinesApi
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope

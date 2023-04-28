@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.list.home.invites
+package dev.getzen.element.features.home.room.list.home.invites
 
 import androidx.lifecycle.asFlow
 import androidx.paging.PagedList
@@ -22,12 +22,12 @@ import com.airbnb.mvrx.MavericksViewModelFactory
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
-import im.vector.app.R
-import im.vector.app.core.di.MavericksAssistedViewModelFactory
-import im.vector.app.core.di.hiltMavericksViewModelFactory
-import im.vector.app.core.platform.VectorViewModel
-import im.vector.app.core.resources.DrawableProvider
-import im.vector.app.core.resources.StringProvider
+import dev.getzen.element.R
+import dev.getzen.element.core.di.MavericksAssistedViewModelFactory
+import dev.getzen.element.core.di.hiltMavericksViewModelFactory
+import dev.getzen.element.core.platform.VectorViewModel
+import dev.getzen.element.core.resources.DrawableProvider
+import dev.getzen.element.core.resources.StringProvider
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.asSharedFlow
 import kotlinx.coroutines.flow.catch

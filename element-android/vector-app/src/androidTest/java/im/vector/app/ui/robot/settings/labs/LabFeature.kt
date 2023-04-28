@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.ui.robot.settings.labs
+package dev.getzen.element.ui.robot.settings.labs
 
 enum class LabFeature {
     SWIPE_TO_REPLY,

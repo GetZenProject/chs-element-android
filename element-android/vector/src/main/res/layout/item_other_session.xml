@@ -39,7 +39,7 @@
         app:layout_constraintTop_toTopOf="@id/otherSessionItemBackground"
         tools:src="@drawable/ic_device_type_mobile" />
 
-    <im.vector.app.core.ui.views.ShieldImageView
+    <dev.getzen.element.core.ui.views.ShieldImageView
         android:id="@+id/otherSessionVerificationStatusImageView"
         android:layout_width="24dp"
         android:layout_height="24dp"

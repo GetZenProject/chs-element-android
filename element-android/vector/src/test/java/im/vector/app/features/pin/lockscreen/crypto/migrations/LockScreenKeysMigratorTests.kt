@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.pin.lockscreen.crypto.migrations
+package dev.getzen.element.features.pin.lockscreen.crypto.migrations
 
 import android.os.Build
-import im.vector.app.features.pin.lockscreen.crypto.LockScreenKeysMigrator
-import im.vector.app.test.TestBuildVersionSdkIntProvider
+import dev.getzen.element.features.pin.lockscreen.crypto.LockScreenKeysMigrator
+import dev.getzen.element.test.TestBuildVersionSdkIntProvider
 import io.mockk.coVerify
 import io.mockk.every
 import io.mockk.mockk

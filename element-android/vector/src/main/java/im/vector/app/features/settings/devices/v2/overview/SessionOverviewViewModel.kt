@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2.overview
+package dev.getzen.element.features.settings.devices.v2.overview
 
 import android.content.SharedPreferences
 import com.airbnb.mvrx.MavericksViewModelFactory
@@ -22,19 +22,19 @@ import com.airbnb.mvrx.Success
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.di.MavericksAssistedViewModelFactory
-import im.vector.app.core.di.hiltMavericksViewModelFactory
-import im.vector.app.features.auth.PendingAuthHandler
-import im.vector.app.features.settings.VectorPreferences
-import im.vector.app.features.settings.devices.v2.RefreshDevicesUseCase
-import im.vector.app.features.settings.devices.v2.ToggleIpAddressVisibilityUseCase
-import im.vector.app.features.settings.devices.v2.VectorSessionsListViewModel
-import im.vector.app.features.settings.devices.v2.notification.GetNotificationsStatusUseCase
-import im.vector.app.features.settings.devices.v2.notification.ToggleNotificationsUseCase
-import im.vector.app.features.settings.devices.v2.signout.SignoutSessionsReAuthNeeded
-import im.vector.app.features.settings.devices.v2.signout.SignoutSessionsUseCase
-import im.vector.app.features.settings.devices.v2.verification.CheckIfCurrentSessionCanBeVerifiedUseCase
+import dev.getzen.element.core.di.ActiveSessionHolder
+import dev.getzen.element.core.di.MavericksAssistedViewModelFactory
+import dev.getzen.element.core.di.hiltMavericksViewModelFactory
+import dev.getzen.element.features.auth.PendingAuthHandler
+import dev.getzen.element.features.settings.VectorPreferences
+import dev.getzen.element.features.settings.devices.v2.RefreshDevicesUseCase
+import dev.getzen.element.features.settings.devices.v2.ToggleIpAddressVisibilityUseCase
+import dev.getzen.element.features.settings.devices.v2.VectorSessionsListViewModel
+import dev.getzen.element.features.settings.devices.v2.notification.GetNotificationsStatusUseCase
+import dev.getzen.element.features.settings.devices.v2.notification.ToggleNotificationsUseCase
+import dev.getzen.element.features.settings.devices.v2.signout.SignoutSessionsReAuthNeeded
+import dev.getzen.element.features.settings.devices.v2.signout.SignoutSessionsUseCase
+import dev.getzen.element.features.settings.devices.v2.verification.CheckIfCurrentSessionCanBeVerifiedUseCase
 import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.map

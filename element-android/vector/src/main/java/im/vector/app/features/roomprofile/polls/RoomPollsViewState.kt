@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.polls
+package dev.getzen.element.features.roomprofile.polls
 
 import com.airbnb.mvrx.MavericksState
-import im.vector.app.features.roomprofile.RoomProfileArgs
-import im.vector.app.features.roomprofile.polls.list.ui.PollSummary
+import dev.getzen.element.features.roomprofile.RoomProfileArgs
+import dev.getzen.element.features.roomprofile.polls.list.ui.PollSummary
 
 data class RoomPollsViewState(
         val roomId: String,

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call.telecom;
+package dev.getzen.element.features.call.telecom;
 
 import android.os.Build;
 

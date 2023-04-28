@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.settings.joinrule.advanced
+package dev.getzen.element.features.roomprofile.settings.joinrule.advanced
 
-import im.vector.app.core.platform.VectorViewEvents
+import dev.getzen.element.core.platform.VectorViewEvents
 
 sealed class RoomJoinRuleChooseRestrictedEvents : VectorViewEvents {
     object NavigateToChooseRestricted : RoomJoinRuleChooseRestrictedEvents()

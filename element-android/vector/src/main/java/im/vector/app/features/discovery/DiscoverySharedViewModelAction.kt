@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.discovery
+package dev.getzen.element.features.discovery
 
 sealed class DiscoverySharedViewModelAction {
     data class ChangeIdentityServer(val newUrl: String) : DiscoverySharedViewModelAction()

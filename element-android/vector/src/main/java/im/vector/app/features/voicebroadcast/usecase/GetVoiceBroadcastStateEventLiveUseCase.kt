@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.voicebroadcast.usecase
+package dev.getzen.element.features.voicebroadcast.usecase
 
-import im.vector.app.features.voicebroadcast.VoiceBroadcastConstants
-import im.vector.app.features.voicebroadcast.model.VoiceBroadcast
-import im.vector.app.features.voicebroadcast.model.VoiceBroadcastEvent
-import im.vector.app.features.voicebroadcast.model.asVoiceBroadcastEvent
-import im.vector.app.features.voicebroadcast.voiceBroadcastId
+import dev.getzen.element.features.voicebroadcast.VoiceBroadcastConstants
+import dev.getzen.element.features.voicebroadcast.model.VoiceBroadcast
+import dev.getzen.element.features.voicebroadcast.model.VoiceBroadcastEvent
+import dev.getzen.element.features.voicebroadcast.model.asVoiceBroadcastEvent
+import dev.getzen.element.features.voicebroadcast.voiceBroadcastId
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.distinctUntilChangedBy
 import kotlinx.coroutines.flow.drop

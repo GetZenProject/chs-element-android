@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.voice
+package dev.getzen.element.features.voice
 
 sealed class VoiceFailure(cause: Throwable? = null) : Throwable(cause = cause) {
     data class UnableToPlay(val throwable: Throwable) : VoiceFailure(throwable)

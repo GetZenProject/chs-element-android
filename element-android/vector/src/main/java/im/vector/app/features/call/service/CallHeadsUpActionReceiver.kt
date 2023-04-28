@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call.service
+package dev.getzen.element.features.call.service
 
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
-import im.vector.app.core.extensions.singletonEntryPoint
-import im.vector.app.features.call.webrtc.WebRtcCallManager
+import dev.getzen.element.core.extensions.singletonEntryPoint
+import dev.getzen.element.features.call.webrtc.WebRtcCallManager
 import timber.log.Timber
 
 class CallHeadsUpActionReceiver : BroadcastReceiver() {

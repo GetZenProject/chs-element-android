@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call.conference
+package dev.getzen.element.features.call.conference
 
-import im.vector.app.R
-import im.vector.app.core.network.await
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.utils.ensureProtocol
-import im.vector.app.core.utils.toBase32String
-import im.vector.app.features.call.conference.jwt.JitsiJWTFactory
-import im.vector.app.features.displayname.getBestName
-import im.vector.app.features.raw.wellknown.getElementWellknown
-import im.vector.app.features.settings.VectorLocaleProvider
-import im.vector.app.features.themes.ThemeProvider
+import dev.getzen.element.R
+import dev.getzen.element.core.network.await
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.core.utils.ensureProtocol
+import dev.getzen.element.core.utils.toBase32String
+import dev.getzen.element.features.call.conference.jwt.JitsiJWTFactory
+import dev.getzen.element.features.displayname.getBestName
+import dev.getzen.element.features.raw.wellknown.getElementWellknown
+import dev.getzen.element.features.settings.VectorLocaleProvider
+import dev.getzen.element.features.themes.ThemeProvider
 import im.vector.lib.core.utils.timer.Clock
 import okhttp3.Request
 import org.jitsi.meet.sdk.JitsiMeetUserInfo

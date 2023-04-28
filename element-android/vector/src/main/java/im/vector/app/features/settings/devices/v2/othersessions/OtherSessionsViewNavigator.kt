@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2.othersessions
+package dev.getzen.element.features.settings.devices.v2.othersessions
 
 import android.content.Context
-import im.vector.app.features.settings.devices.v2.overview.SessionOverviewActivity
+import dev.getzen.element.features.settings.devices.v2.overview.SessionOverviewActivity
 import javax.inject.Inject
 
 class OtherSessionsViewNavigator @Inject constructor() {

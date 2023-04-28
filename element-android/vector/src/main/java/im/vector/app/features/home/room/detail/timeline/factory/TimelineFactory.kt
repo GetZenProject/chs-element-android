@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.factory
+package dev.getzen.element.features.home.room.detail.timeline.factory
 
-import im.vector.app.features.call.vectorCallService
-import im.vector.app.features.home.room.detail.timeline.helper.TimelineSettingsFactory
-import im.vector.app.features.home.room.detail.timeline.merged.MergedTimelines
+import dev.getzen.element.features.call.vectorCallService
+import dev.getzen.element.features.home.room.detail.timeline.helper.TimelineSettingsFactory
+import dev.getzen.element.features.home.room.detail.timeline.merged.MergedTimelines
 import kotlinx.coroutines.CoroutineScope
 import org.matrix.android.sdk.api.session.Session
 import org.matrix.android.sdk.api.session.events.model.EventType

@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.date
+package dev.getzen.element.core.date
 
 import android.content.Context
 import android.text.format.DateFormat
 import android.text.format.DateUtils
-import im.vector.app.core.resources.DateProvider
-import im.vector.app.core.resources.LocaleProvider
-import im.vector.app.core.resources.toTimestamp
+import dev.getzen.element.core.resources.DateProvider
+import dev.getzen.element.core.resources.LocaleProvider
+import dev.getzen.element.core.resources.toTimestamp
 import im.vector.lib.core.utils.timer.Clock
 import org.threeten.bp.LocalDateTime
 import org.threeten.bp.Period

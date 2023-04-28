@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.notifications
+package dev.getzen.element.features.notifications
 
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import androidx.core.app.RemoteInput
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.features.analytics.AnalyticsTracker
-import im.vector.app.features.analytics.extensions.toAnalyticsJoinedRoom
-import im.vector.app.features.analytics.plan.JoinedRoom
-import im.vector.app.features.session.coroutineScope
+import dev.getzen.element.R
+import dev.getzen.element.core.di.ActiveSessionHolder
+import dev.getzen.element.features.analytics.AnalyticsTracker
+import dev.getzen.element.features.analytics.extensions.toAnalyticsJoinedRoom
+import dev.getzen.element.features.analytics.plan.JoinedRoom
+import dev.getzen.element.features.session.coroutineScope
 import im.vector.lib.core.utils.timer.Clock
 import kotlinx.coroutines.launch
 import org.matrix.android.sdk.api.extensions.tryOrNull

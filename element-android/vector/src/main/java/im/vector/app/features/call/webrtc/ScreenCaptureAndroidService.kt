@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call.webrtc
+package dev.getzen.element.features.call.webrtc
 
 import android.content.Intent
 import android.os.Binder
 import android.os.IBinder
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.core.extensions.startForegroundCompat
-import im.vector.app.core.services.VectorAndroidService
-import im.vector.app.features.notifications.NotificationUtils
+import dev.getzen.element.core.extensions.startForegroundCompat
+import dev.getzen.element.core.services.VectorAndroidService
+import dev.getzen.element.features.notifications.NotificationUtils
 import im.vector.lib.core.utils.timer.Clock
 import javax.inject.Inject
 

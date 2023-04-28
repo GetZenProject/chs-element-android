@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home
+package dev.getzen.element.features.home
 
-import im.vector.app.config.Config
-import im.vector.app.test.fakes.FakeClock
-import im.vector.app.test.fakes.FakeVectorFeatures
-import im.vector.app.test.fakes.FakeVectorPreferences
+import dev.getzen.element.config.Config
+import dev.getzen.element.test.fakes.FakeClock
+import dev.getzen.element.test.fakes.FakeVectorFeatures
+import dev.getzen.element.test.fakes.FakeVectorPreferences
 import org.amshove.kluent.shouldBe
 import org.junit.Test
 

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.reactions.data
+package dev.getzen.element.features.reactions.data
 
-import im.vector.app.InstrumentedTest
+import dev.getzen.element.InstrumentedTest
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob

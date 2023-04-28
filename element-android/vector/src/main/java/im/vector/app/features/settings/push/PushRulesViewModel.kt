@@ -13,16 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.settings.push
+package dev.getzen.element.features.settings.push
 
 import com.airbnb.mvrx.MavericksState
 import com.airbnb.mvrx.MavericksViewModelFactory
 import com.airbnb.mvrx.ViewModelContext
 import dagger.hilt.EntryPoints
-import im.vector.app.core.di.SingletonEntryPoint
-import im.vector.app.core.platform.EmptyAction
-import im.vector.app.core.platform.EmptyViewEvents
-import im.vector.app.core.platform.VectorViewModel
+import dev.getzen.element.core.di.SingletonEntryPoint
+import dev.getzen.element.core.platform.EmptyAction
+import dev.getzen.element.core.platform.EmptyViewEvents
+import dev.getzen.element.core.platform.VectorViewModel
 import org.matrix.android.sdk.api.session.pushrules.rest.PushRule
 
 data class PushRulesViewState(

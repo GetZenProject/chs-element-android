@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.error
+package dev.getzen.element.core.error
 
 import android.content.ActivityNotFoundException
-import im.vector.app.R
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.call.dialpad.DialPadLookup
-import im.vector.app.features.roomprofile.polls.RoomPollsLoadingError
-import im.vector.app.features.voice.VoiceFailure
-import im.vector.app.features.voicebroadcast.VoiceBroadcastFailure
-import im.vector.app.features.voicebroadcast.VoiceBroadcastFailure.RecordingError
+import dev.getzen.element.R
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.features.call.dialpad.DialPadLookup
+import dev.getzen.element.features.roomprofile.polls.RoomPollsLoadingError
+import dev.getzen.element.features.voice.VoiceFailure
+import dev.getzen.element.features.voicebroadcast.VoiceBroadcastFailure
+import dev.getzen.element.features.voicebroadcast.VoiceBroadcastFailure.RecordingError
 import org.matrix.android.sdk.api.failure.Failure
 import org.matrix.android.sdk.api.failure.MatrixError
 import org.matrix.android.sdk.api.failure.MatrixIdFailure

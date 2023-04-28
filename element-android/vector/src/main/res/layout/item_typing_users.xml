@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<im.vector.app.core.ui.views.TypingMessageView
+<dev.getzen.element.core.ui.views.TypingMessageView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/typingMessageView"
     android:layout_width="match_parent"

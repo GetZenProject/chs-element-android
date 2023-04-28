@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.epoxy
+package dev.getzen.element.core.epoxy
 
 import androidx.annotation.CallSuper
 import androidx.annotation.LayoutRes

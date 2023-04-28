@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.pin.lockscreen.ui
+package dev.getzen.element.features.pin.lockscreen.ui
 
-import im.vector.app.core.platform.VectorViewEvents
+import dev.getzen.element.core.platform.VectorViewEvents
 
 sealed class LockScreenViewEvent : VectorViewEvents {
     data class ClearPinCode(val confirmationFailed: Boolean) : LockScreenViewEvent()

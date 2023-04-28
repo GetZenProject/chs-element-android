@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.settings.historyvisibility
+package dev.getzen.element.features.roomprofile.settings.historyvisibility
 
-import im.vector.app.core.ui.bottomsheet.BottomSheetGenericViewModel
+import dev.getzen.element.core.ui.bottomsheet.BottomSheetGenericViewModel
 
 class RoomHistoryVisibilityViewModel(initialState: RoomHistoryVisibilityState) :
         BottomSheetGenericViewModel<RoomHistoryVisibilityState>(initialState)

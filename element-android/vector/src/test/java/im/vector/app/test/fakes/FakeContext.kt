@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.test.fakes
+package dev.getzen.element.test.fakes
 
 import android.content.ClipboardManager
 import android.content.ContentResolver

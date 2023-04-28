@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.login.qr
+package dev.getzen.element.features.login.qr
 
-import im.vector.app.core.platform.VectorViewEvents
+import dev.getzen.element.core.platform.VectorViewEvents
 
 sealed class QrCodeLoginViewEvents : VectorViewEvents {
     object NavigateToStatusScreen : QrCodeLoginViewEvents()

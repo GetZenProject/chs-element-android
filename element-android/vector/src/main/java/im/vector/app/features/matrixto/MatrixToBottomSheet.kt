@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.matrixto
+package dev.getzen.element.features.matrixto
 
 import android.os.Bundle
 import android.os.Parcelable
@@ -28,12 +28,12 @@ import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.commitTransaction
-import im.vector.app.core.platform.VectorBaseBottomSheetDialogFragment
-import im.vector.app.databinding.BottomSheetMatrixToCardBinding
-import im.vector.app.features.analytics.plan.ViewRoom
-import im.vector.app.features.home.AvatarRenderer
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.commitTransaction
+import dev.getzen.element.core.platform.VectorBaseBottomSheetDialogFragment
+import dev.getzen.element.databinding.BottomSheetMatrixToCardBinding
+import dev.getzen.element.features.analytics.plan.ViewRoom
+import dev.getzen.element.features.home.AvatarRenderer
 import kotlinx.parcelize.Parcelize
 import org.matrix.android.sdk.api.session.permalinks.PermalinkData
 import javax.inject.Inject

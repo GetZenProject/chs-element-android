@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2
+package dev.getzen.element.features.settings.devices.v2
 
-import im.vector.app.features.settings.VectorPreferences
+import dev.getzen.element.features.settings.VectorPreferences
 import javax.inject.Inject
 
 class ToggleIpAddressVisibilityUseCase @Inject constructor(

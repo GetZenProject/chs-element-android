@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.analytics
+package dev.getzen.element.features.analytics
 
-import im.vector.app.features.analytics.itf.VectorAnalyticsEvent
-import im.vector.app.features.analytics.itf.VectorAnalyticsScreen
-import im.vector.app.features.analytics.plan.UserProperties
+import dev.getzen.element.features.analytics.itf.VectorAnalyticsEvent
+import dev.getzen.element.features.analytics.itf.VectorAnalyticsScreen
+import dev.getzen.element.features.analytics.plan.UserProperties
 
 interface AnalyticsTracker {
     /**

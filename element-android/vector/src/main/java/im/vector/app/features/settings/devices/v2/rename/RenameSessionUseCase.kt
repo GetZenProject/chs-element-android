@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2.rename
+package dev.getzen.element.features.settings.devices.v2.rename
 
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.extensions.andThen
-import im.vector.app.features.settings.devices.v2.RefreshDevicesUseCase
+import dev.getzen.element.core.di.ActiveSessionHolder
+import dev.getzen.element.core.extensions.andThen
+import dev.getzen.element.features.settings.devices.v2.RefreshDevicesUseCase
 import org.matrix.android.sdk.api.util.awaitCallback
 import javax.inject.Inject
 

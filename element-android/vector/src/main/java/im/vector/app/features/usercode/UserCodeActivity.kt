@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.usercode
+package dev.getzen.element.features.usercode
 
 import android.content.Context
 import android.content.Intent
@@ -29,18 +29,18 @@ import com.airbnb.mvrx.Mavericks
 import com.airbnb.mvrx.viewModel
 import com.airbnb.mvrx.withState
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.replaceFragment
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.core.utils.onPermissionDeniedSnackbar
-import im.vector.app.databinding.ActivitySimpleBinding
-import im.vector.app.features.analytics.plan.ViewRoom
-import im.vector.app.features.matrixto.MatrixToBottomSheet
-import im.vector.app.features.matrixto.OriginOfMatrixTo
-import im.vector.app.features.qrcode.QrCodeScannerEvents
-import im.vector.app.features.qrcode.QrCodeScannerFragment
-import im.vector.app.features.qrcode.QrCodeScannerViewModel
-import im.vector.app.features.qrcode.QrScannerArgs
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.replaceFragment
+import dev.getzen.element.core.platform.VectorBaseActivity
+import dev.getzen.element.core.utils.onPermissionDeniedSnackbar
+import dev.getzen.element.databinding.ActivitySimpleBinding
+import dev.getzen.element.features.analytics.plan.ViewRoom
+import dev.getzen.element.features.matrixto.MatrixToBottomSheet
+import dev.getzen.element.features.matrixto.OriginOfMatrixTo
+import dev.getzen.element.features.qrcode.QrCodeScannerEvents
+import dev.getzen.element.features.qrcode.QrCodeScannerFragment
+import dev.getzen.element.features.qrcode.QrCodeScannerViewModel
+import dev.getzen.element.features.qrcode.QrScannerArgs
 import kotlinx.parcelize.Parcelize
 import kotlin.reflect.KClass
 

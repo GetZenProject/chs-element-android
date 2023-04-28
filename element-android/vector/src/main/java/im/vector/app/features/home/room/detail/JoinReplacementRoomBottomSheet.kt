@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail
+package dev.getzen.element.features.home.room.detail
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -26,12 +26,12 @@ import com.airbnb.mvrx.Success
 import com.airbnb.mvrx.Uninitialized
 import com.airbnb.mvrx.parentFragmentViewModel
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.epoxy.ClickListener
-import im.vector.app.core.error.ErrorFormatter
-import im.vector.app.core.platform.ButtonStateView
-import im.vector.app.core.platform.VectorBaseBottomSheetDialogFragment
-import im.vector.app.databinding.BottomSheetTombstoneJoinBinding
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.ClickListener
+import dev.getzen.element.core.error.ErrorFormatter
+import dev.getzen.element.core.platform.ButtonStateView
+import dev.getzen.element.core.platform.VectorBaseBottomSheetDialogFragment
+import dev.getzen.element.databinding.BottomSheetTombstoneJoinBinding
 import javax.inject.Inject
 
 @AndroidEntryPoint

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home
+package dev.getzen.element.features.home
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -25,15 +25,15 @@ import androidx.core.content.edit
 import androidx.core.content.getSystemService
 import androidx.core.content.pm.ShortcutInfoCompat
 import androidx.core.content.pm.ShortcutManagerCompat
-import im.vector.app.R
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.di.DefaultPreferences
-import im.vector.app.core.dispatchers.CoroutineDispatchers
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.MainActivity
-import im.vector.app.features.home.room.detail.RoomDetailActivity
-import im.vector.app.features.pin.PinCodeStore
-import im.vector.app.features.pin.PinCodeStoreListener
+import dev.getzen.element.R
+import dev.getzen.element.core.di.ActiveSessionHolder
+import dev.getzen.element.core.di.DefaultPreferences
+import dev.getzen.element.core.dispatchers.CoroutineDispatchers
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.features.MainActivity
+import dev.getzen.element.features.home.room.detail.RoomDetailActivity
+import dev.getzen.element.features.pin.PinCodeStore
+import dev.getzen.element.features.pin.PinCodeStoreListener
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.flowOn

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.helper
+package dev.getzen.element.features.home.room.detail.timeline.helper
 
-import im.vector.app.core.resources.UserPreferencesProvider
+import dev.getzen.element.core.resources.UserPreferencesProvider
 import org.matrix.android.sdk.api.session.room.timeline.TimelineSettings
 import javax.inject.Inject
 

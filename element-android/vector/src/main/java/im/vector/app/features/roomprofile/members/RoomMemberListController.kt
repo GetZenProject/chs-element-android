@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.members
+package dev.getzen.element.features.roomprofile.members
 
 import com.airbnb.epoxy.TypedEpoxyController
-import im.vector.app.R
-import im.vector.app.core.epoxy.dividerItem
-import im.vector.app.core.epoxy.profiles.buildProfileSection
-import im.vector.app.core.epoxy.profiles.profileMatrixItem
-import im.vector.app.core.epoxy.profiles.profileMatrixItemWithPowerLevelWithPresence
-import im.vector.app.core.extensions.join
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.home.AvatarRenderer
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.dividerItem
+import dev.getzen.element.core.epoxy.profiles.buildProfileSection
+import dev.getzen.element.core.epoxy.profiles.profileMatrixItem
+import dev.getzen.element.core.epoxy.profiles.profileMatrixItemWithPowerLevelWithPresence
+import dev.getzen.element.core.extensions.join
+import dev.getzen.element.core.resources.ColorProvider
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.features.home.AvatarRenderer
 import me.gujun.android.span.span
 import org.matrix.android.sdk.api.session.events.model.Event
 import org.matrix.android.sdk.api.session.events.model.toModel

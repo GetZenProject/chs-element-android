@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home
+package dev.getzen.element.features.home
 
 import com.airbnb.mvrx.test.MavericksTestRule
-import im.vector.app.features.home.room.list.home.invites.InvitesAction
-import im.vector.app.features.home.room.list.home.invites.InvitesViewEvents
-import im.vector.app.features.home.room.list.home.invites.InvitesViewModel
-import im.vector.app.features.home.room.list.home.invites.InvitesViewState
-import im.vector.app.test.fakes.FakeDrawableProvider
-import im.vector.app.test.fakes.FakeSession
-import im.vector.app.test.fakes.FakeStringProvider
-import im.vector.app.test.fixtures.RoomSummaryFixture
-import im.vector.app.test.test
+import dev.getzen.element.features.home.room.list.home.invites.InvitesAction
+import dev.getzen.element.features.home.room.list.home.invites.InvitesViewEvents
+import dev.getzen.element.features.home.room.list.home.invites.InvitesViewModel
+import dev.getzen.element.features.home.room.list.home.invites.InvitesViewState
+import dev.getzen.element.test.fakes.FakeDrawableProvider
+import dev.getzen.element.test.fakes.FakeSession
+import dev.getzen.element.test.fakes.FakeStringProvider
+import dev.getzen.element.test.fixtures.RoomSummaryFixture
+import dev.getzen.element.test.test
 import io.mockk.coEvery
 import io.mockk.coVerify
 import io.mockk.every

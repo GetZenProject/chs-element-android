@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.command
+package dev.getzen.element.features.command
 
-import im.vector.app.test.fakes.FakeVectorPreferences
+import dev.getzen.element.test.fakes.FakeVectorPreferences
 import org.amshove.kluent.shouldBeEqualTo
 import org.junit.Test
 

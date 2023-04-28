@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.location
+package dev.getzen.element.features.location
 
 import android.graphics.drawable.Drawable
 import androidx.annotation.StringRes
 import com.airbnb.mvrx.MavericksState
-import im.vector.app.R
+import dev.getzen.element.R
 import org.matrix.android.sdk.api.extensions.orTrue
 import org.matrix.android.sdk.api.util.MatrixItem
 

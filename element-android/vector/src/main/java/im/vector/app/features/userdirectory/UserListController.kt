@@ -14,24 +14,24 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.userdirectory
+package dev.getzen.element.features.userdirectory
 
 import com.airbnb.epoxy.EpoxyController
 import com.airbnb.mvrx.Fail
 import com.airbnb.mvrx.Loading
 import com.airbnb.mvrx.Success
 import com.airbnb.mvrx.Uninitialized
-import im.vector.app.R
-import im.vector.app.core.epoxy.errorWithRetryItem
-import im.vector.app.core.epoxy.loadingItem
-import im.vector.app.core.epoxy.noResultItem
-import im.vector.app.core.epoxy.profiles.notifications.textHeaderItem
-import im.vector.app.core.error.ErrorFormatter
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.ui.list.genericPillItem
-import im.vector.app.features.displayname.getBestName
-import im.vector.app.features.home.AvatarRenderer
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.errorWithRetryItem
+import dev.getzen.element.core.epoxy.loadingItem
+import dev.getzen.element.core.epoxy.noResultItem
+import dev.getzen.element.core.epoxy.profiles.notifications.textHeaderItem
+import dev.getzen.element.core.error.ErrorFormatter
+import dev.getzen.element.core.resources.ColorProvider
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.core.ui.list.genericPillItem
+import dev.getzen.element.features.displayname.getBestName
+import dev.getzen.element.features.home.AvatarRenderer
 import im.vector.lib.core.utils.epoxy.charsequence.toEpoxyCharSequence
 import me.gujun.android.span.span
 import org.matrix.android.sdk.api.session.Session

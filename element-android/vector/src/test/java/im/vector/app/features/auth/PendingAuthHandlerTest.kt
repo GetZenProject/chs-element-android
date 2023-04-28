@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.auth
+package dev.getzen.element.features.auth
 
 import android.util.Base64
-import im.vector.app.test.fakes.FakeActiveSessionHolder
-import im.vector.app.test.fakes.FakeMatrix
+import dev.getzen.element.test.fakes.FakeActiveSessionHolder
+import dev.getzen.element.test.fakes.FakeMatrix
 import io.mockk.every
 import io.mockk.just
 import io.mockk.mockk

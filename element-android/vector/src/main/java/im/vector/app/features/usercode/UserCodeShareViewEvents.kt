@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.usercode
+package dev.getzen.element.features.usercode
 
-import im.vector.app.core.platform.VectorViewEvents
+import dev.getzen.element.core.platform.VectorViewEvents
 
 sealed class UserCodeShareViewEvents : VectorViewEvents {
     object Dismiss : UserCodeShareViewEvents()

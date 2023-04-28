@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.attachments
+package dev.getzen.element.features.attachments
 
 /**
  * Data class holding values of a picked contact

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.debug.analytics
+package dev.getzen.element.features.debug.analytics
 
-import im.vector.app.core.platform.VectorViewModelAction
+import dev.getzen.element.core.platform.VectorViewModelAction
 
 sealed interface DebugAnalyticsViewActions : VectorViewModelAction {
     object ResetAnalyticsOptInDisplayed : DebugAnalyticsViewActions

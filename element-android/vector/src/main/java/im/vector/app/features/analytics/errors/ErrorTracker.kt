@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.analytics.errors
+package dev.getzen.element.features.analytics.errors
 
 interface ErrorTracker {
     fun trackError(throwable: Throwable)

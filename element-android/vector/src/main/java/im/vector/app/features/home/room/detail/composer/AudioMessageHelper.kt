@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.composer
+package dev.getzen.element.features.home.room.detail.composer
 
 import android.content.Context
 import android.media.AudioAttributes
 import android.media.MediaPlayer
 import androidx.core.content.FileProvider
-import im.vector.app.core.resources.BuildMeta
-import im.vector.app.features.home.room.detail.timeline.helper.AudioMessagePlaybackTracker
-import im.vector.app.features.voice.VoiceFailure
-import im.vector.app.features.voice.VoiceRecorder
-import im.vector.app.features.voice.VoiceRecorderProvider
+import dev.getzen.element.core.resources.BuildMeta
+import dev.getzen.element.features.home.room.detail.timeline.helper.AudioMessagePlaybackTracker
+import dev.getzen.element.features.voice.VoiceFailure
+import dev.getzen.element.features.voice.VoiceRecorder
+import dev.getzen.element.features.voice.VoiceRecorderProvider
 import im.vector.lib.core.utils.timer.CountUpTimer
 import im.vector.lib.multipicker.entity.MultiPickerAudioType
 import im.vector.lib.multipicker.utils.toMultiPickerAudioType

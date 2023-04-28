@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.location.preview
+package dev.getzen.element.features.location.preview
 
 import android.graphics.drawable.Drawable
 import com.airbnb.mvrx.MavericksState
-import im.vector.app.features.location.LocationData
-import im.vector.app.features.location.LocationSharingArgs
+import dev.getzen.element.features.location.LocationData
+import dev.getzen.element.features.location.LocationSharingArgs
 
 data class LocationPreviewViewState(
         val pinLocationData: LocationData? = null,

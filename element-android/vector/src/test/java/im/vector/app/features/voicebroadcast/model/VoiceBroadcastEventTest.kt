@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.voicebroadcast.model
+package dev.getzen.element.features.voicebroadcast.model
 
-import im.vector.app.features.voicebroadcast.VoiceBroadcastConstants
+import dev.getzen.element.features.voicebroadcast.VoiceBroadcastConstants
 import org.amshove.kluent.shouldBeEqualTo
 import org.amshove.kluent.shouldBeNull
 import org.amshove.kluent.shouldNotBeNull

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.test.fixtures
+package dev.getzen.element.test.fixtures
 
-import im.vector.app.test.fixtures.CredentialsFixture.aCredentials
+import dev.getzen.element.test.fixtures.CredentialsFixture.aCredentials
 import io.mockk.mockk
 import org.matrix.android.sdk.api.auth.LoginType
 import org.matrix.android.sdk.api.auth.data.Credentials

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomdirectory
+package dev.getzen.element.features.roomdirectory
 
 /**
  * This class describes a rooms directory server protocol.

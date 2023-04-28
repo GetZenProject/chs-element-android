@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.test.fakes
+package dev.getzen.element.test.fakes
 
 import im.vector.lib.core.utils.timer.Clock
 import io.mockk.every

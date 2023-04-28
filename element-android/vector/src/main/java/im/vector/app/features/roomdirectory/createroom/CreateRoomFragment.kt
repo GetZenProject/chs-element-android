@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomdirectory.createroom
+package dev.getzen.element.features.roomdirectory.createroom
 
 import android.net.Uri
 import android.os.Bundle
@@ -31,21 +31,21 @@ import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.dialogs.GalleryOrCameraDialogHelper
-import im.vector.app.core.dialogs.GalleryOrCameraDialogHelperFactory
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.platform.OnBackPressed
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.databinding.FragmentCreateRoomBinding
-import im.vector.app.features.analytics.plan.ViewRoom
-import im.vector.app.features.navigation.Navigator
-import im.vector.app.features.roomdirectory.RoomDirectorySharedAction
-import im.vector.app.features.roomdirectory.RoomDirectorySharedActionViewModel
-import im.vector.app.features.roomprofile.settings.joinrule.RoomJoinRuleBottomSheet
-import im.vector.app.features.roomprofile.settings.joinrule.RoomJoinRuleSharedActionViewModel
-import im.vector.app.features.roomprofile.settings.joinrule.toOption
+import dev.getzen.element.R
+import dev.getzen.element.core.dialogs.GalleryOrCameraDialogHelper
+import dev.getzen.element.core.dialogs.GalleryOrCameraDialogHelperFactory
+import dev.getzen.element.core.extensions.cleanup
+import dev.getzen.element.core.extensions.configureWith
+import dev.getzen.element.core.platform.OnBackPressed
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.databinding.FragmentCreateRoomBinding
+import dev.getzen.element.features.analytics.plan.ViewRoom
+import dev.getzen.element.features.navigation.Navigator
+import dev.getzen.element.features.roomdirectory.RoomDirectorySharedAction
+import dev.getzen.element.features.roomdirectory.RoomDirectorySharedActionViewModel
+import dev.getzen.element.features.roomprofile.settings.joinrule.RoomJoinRuleBottomSheet
+import dev.getzen.element.features.roomprofile.settings.joinrule.RoomJoinRuleSharedActionViewModel
+import dev.getzen.element.features.roomprofile.settings.joinrule.toOption
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import kotlinx.parcelize.Parcelize

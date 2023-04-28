@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.pin
+package dev.getzen.element.features.pin
 
 import android.content.SharedPreferences
 import androidx.core.content.edit
-import im.vector.app.features.pin.lockscreen.pincode.EncryptedPinCodeStorage
+import dev.getzen.element.features.pin.lockscreen.pincode.EncryptedPinCodeStorage
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import javax.inject.Inject

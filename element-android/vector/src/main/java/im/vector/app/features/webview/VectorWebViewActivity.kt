@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.webview
+package dev.getzen.element.features.webview
 
 import android.content.Context
 import android.content.Intent
 import android.webkit.WebChromeClient
 import android.webkit.WebView
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.databinding.ActivityVectorWebViewBinding
+import dev.getzen.element.core.platform.VectorBaseActivity
+import dev.getzen.element.databinding.ActivityVectorWebViewBinding
 import im.vector.lib.core.utils.compat.getSerializableCompat
 import org.matrix.android.sdk.api.session.Session
 

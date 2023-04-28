@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:src="@sample/room_round_avatars" />
 
-    <im.vector.app.core.ui.views.PresenceStateImageView
+    <dev.getzen.element.core.ui.views.PresenceStateImageView
         android:id="@+id/roomProfilePresenceImageView"
         android:layout_width="26dp"
         android:layout_height="26dp"
@@ -50,7 +50,7 @@
         tools:ignore="MissingConstraints"
         tools:visibility="visible" />
 
-    <im.vector.app.core.ui.views.ShieldImageView
+    <dev.getzen.element.core.ui.views.ShieldImageView
         android:id="@+id/roomProfileDecorationImageView"
         android:layout_width="30dp"
         android:layout_height="30dp"

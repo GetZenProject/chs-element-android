@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.permissions
+package dev.getzen.element.features.roomprofile.permissions
 
 import androidx.annotation.StringRes
-import im.vector.app.R
+import dev.getzen.element.R
 import org.matrix.android.sdk.api.session.events.model.EventType
 
 /**

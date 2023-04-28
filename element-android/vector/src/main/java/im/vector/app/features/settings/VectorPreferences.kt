@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.settings
+package dev.getzen.element.features.settings
 
 import android.content.Context
 import android.content.SharedPreferences
@@ -23,15 +23,15 @@ import android.provider.MediaStore
 import androidx.annotation.BoolRes
 import androidx.core.content.edit
 import com.squareup.seismic.ShakeDetector
-import im.vector.app.R
-import im.vector.app.core.di.DefaultPreferences
-import im.vector.app.core.resources.BuildMeta
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.VectorFeatures
-import im.vector.app.features.disclaimer.SHARED_PREF_KEY
-import im.vector.app.features.home.ShortcutsHandler
-import im.vector.app.features.homeserver.ServerUrlsRepository
-import im.vector.app.features.themes.ThemeUtils
+import dev.getzen.element.R
+import dev.getzen.element.core.di.DefaultPreferences
+import dev.getzen.element.core.resources.BuildMeta
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.features.VectorFeatures
+import dev.getzen.element.features.disclaimer.SHARED_PREF_KEY
+import dev.getzen.element.features.home.ShortcutsHandler
+import dev.getzen.element.features.homeserver.ServerUrlsRepository
+import dev.getzen.element.features.themes.ThemeUtils
 import im.vector.lib.core.utils.timer.Clock
 import org.matrix.android.sdk.api.extensions.tryOrNull
 import timber.log.Timber

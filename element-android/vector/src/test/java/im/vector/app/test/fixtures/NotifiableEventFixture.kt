@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.test.fixtures
+package dev.getzen.element.test.fixtures
 
-import im.vector.app.features.notifications.InviteNotifiableEvent
-import im.vector.app.features.notifications.NotifiableMessageEvent
-import im.vector.app.features.notifications.SimpleNotifiableEvent
+import dev.getzen.element.features.notifications.InviteNotifiableEvent
+import dev.getzen.element.features.notifications.NotifiableMessageEvent
+import dev.getzen.element.features.notifications.SimpleNotifiableEvent
 
 fun aSimpleNotifiableEvent(
         eventId: String = "simple-event-id",

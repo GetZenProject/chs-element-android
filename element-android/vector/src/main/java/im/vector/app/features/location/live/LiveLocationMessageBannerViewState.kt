@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.location.live
+package dev.getzen.element.features.location.live
 
 sealed class LiveLocationMessageBannerViewState(
         open val bottomStartCornerRadiusInDp: Float,

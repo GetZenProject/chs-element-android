@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.platform
+package dev.getzen.element.core.platform
 
 import android.annotation.SuppressLint
 import android.content.pm.ActivityInfo
 import android.content.res.Resources
 import androidx.appcompat.app.AppCompatActivity
-import im.vector.app.R
+import dev.getzen.element.R
 import javax.inject.Inject
 
 class ScreenOrientationLocker @Inject constructor(

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.login
+package dev.getzen.element.features.login
 
 import android.content.ComponentName
 import android.net.Uri
@@ -23,7 +23,7 @@ import androidx.browser.customtabs.CustomTabsServiceConnection
 import androidx.browser.customtabs.CustomTabsSession
 import androidx.viewbinding.ViewBinding
 import com.airbnb.mvrx.withState
-import im.vector.app.core.utils.openUrlInChromeCustomTab
+import dev.getzen.element.core.utils.openUrlInChromeCustomTab
 import org.matrix.android.sdk.api.auth.SSOAction
 
 abstract class AbstractSSOLoginFragment<VB : ViewBinding> : AbstractLoginFragment<VB>() {

@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces
+package dev.getzen.element.features.spaces
 
 import com.airbnb.epoxy.EpoxyController
-import im.vector.app.R
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.grouplist.homeSpaceSummaryItem
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.home.room.list.UnreadCounterBadgeView
+import dev.getzen.element.R
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.features.grouplist.homeSpaceSummaryItem
+import dev.getzen.element.features.home.AvatarRenderer
+import dev.getzen.element.features.home.room.list.UnreadCounterBadgeView
 import org.matrix.android.sdk.api.extensions.orFalse
 import org.matrix.android.sdk.api.session.room.model.Membership
 import org.matrix.android.sdk.api.session.room.model.RoomSummary

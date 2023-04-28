@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2
+package dev.getzen.element.features.settings.devices.v2
 
 import com.airbnb.mvrx.MavericksState
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.platform.VectorViewEvents
-import im.vector.app.core.platform.VectorViewModel
-import im.vector.app.core.platform.VectorViewModelAction
-import im.vector.app.core.utils.PublishDataSource
+import dev.getzen.element.core.di.ActiveSessionHolder
+import dev.getzen.element.core.platform.VectorViewEvents
+import dev.getzen.element.core.platform.VectorViewModel
+import dev.getzen.element.core.platform.VectorViewModelAction
+import dev.getzen.element.core.utils.PublishDataSource
 import im.vector.lib.core.utils.flow.throttleFirst
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach

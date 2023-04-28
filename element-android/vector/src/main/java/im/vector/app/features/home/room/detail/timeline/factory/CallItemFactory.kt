@@ -13,20 +13,20 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.home.room.detail.timeline.factory
+package dev.getzen.element.features.home.room.detail.timeline.factory
 
-import im.vector.app.core.epoxy.VectorEpoxyModel
-import im.vector.app.core.resources.UserPreferencesProvider
-import im.vector.app.features.home.room.detail.timeline.MessageColorProvider
-import im.vector.app.features.home.room.detail.timeline.TimelineEventController
-import im.vector.app.features.home.room.detail.timeline.helper.AvatarSizeProvider
-import im.vector.app.features.home.room.detail.timeline.helper.CallSignalingEventsGroup
-import im.vector.app.features.home.room.detail.timeline.helper.MessageInformationDataFactory
-import im.vector.app.features.home.room.detail.timeline.helper.MessageItemAttributesFactory
-import im.vector.app.features.home.room.detail.timeline.item.CallTileTimelineItem
-import im.vector.app.features.home.room.detail.timeline.item.CallTileTimelineItem_
-import im.vector.app.features.home.room.detail.timeline.item.MessageInformationData
-import im.vector.app.features.home.room.detail.timeline.item.ReactionsSummaryEvents
+import dev.getzen.element.core.epoxy.VectorEpoxyModel
+import dev.getzen.element.core.resources.UserPreferencesProvider
+import dev.getzen.element.features.home.room.detail.timeline.MessageColorProvider
+import dev.getzen.element.features.home.room.detail.timeline.TimelineEventController
+import dev.getzen.element.features.home.room.detail.timeline.helper.AvatarSizeProvider
+import dev.getzen.element.features.home.room.detail.timeline.helper.CallSignalingEventsGroup
+import dev.getzen.element.features.home.room.detail.timeline.helper.MessageInformationDataFactory
+import dev.getzen.element.features.home.room.detail.timeline.helper.MessageItemAttributesFactory
+import dev.getzen.element.features.home.room.detail.timeline.item.CallTileTimelineItem
+import dev.getzen.element.features.home.room.detail.timeline.item.CallTileTimelineItem_
+import dev.getzen.element.features.home.room.detail.timeline.item.MessageInformationData
+import dev.getzen.element.features.home.room.detail.timeline.item.ReactionsSummaryEvents
 import org.matrix.android.sdk.api.session.Session
 import org.matrix.android.sdk.api.session.events.model.EventType
 import org.matrix.android.sdk.api.session.room.model.RoomSummary

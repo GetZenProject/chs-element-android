@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.poll.create
+package dev.getzen.element.features.poll.create
 
 import android.os.Bundle
 import android.os.Parcelable
@@ -26,12 +26,12 @@ import com.airbnb.mvrx.activityViewModel
 import com.airbnb.mvrx.args
 import com.airbnb.mvrx.withState
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.databinding.FragmentCreatePollBinding
-import im.vector.app.features.poll.PollMode
-import im.vector.app.features.poll.create.CreatePollViewModel.Companion.MAX_OPTIONS_COUNT
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.configureWith
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.databinding.FragmentCreatePollBinding
+import dev.getzen.element.features.poll.PollMode
+import dev.getzen.element.features.poll.create.CreatePollViewModel.Companion.MAX_OPTIONS_COUNT
 import kotlinx.parcelize.Parcelize
 import org.matrix.android.sdk.api.session.room.model.message.PollType
 import javax.inject.Inject

@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.list.home
+package dev.getzen.element.features.home.room.list.home
 
 import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
-import im.vector.app.R
-import im.vector.app.core.epoxy.VectorEpoxyHolder
-import im.vector.app.core.epoxy.VectorEpoxyModel
-import im.vector.app.core.platform.StateView
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.VectorEpoxyHolder
+import dev.getzen.element.core.epoxy.VectorEpoxyModel
+import dev.getzen.element.core.platform.StateView
 
 @EpoxyModelClass
 abstract class RoomListEmptyItem : VectorEpoxyModel<RoomListEmptyItem.Holder>(R.layout.item_state_view) {

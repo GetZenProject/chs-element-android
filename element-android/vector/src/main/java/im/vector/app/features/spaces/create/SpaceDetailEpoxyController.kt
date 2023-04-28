@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.create
+package dev.getzen.element.features.spaces.create
 
 import com.airbnb.epoxy.TypedEpoxyController
 import com.airbnb.mvrx.Fail
-import im.vector.app.R
-import im.vector.app.core.epoxy.TextListener
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.ui.list.genericFooterItem
-import im.vector.app.features.form.formEditTextItem
-import im.vector.app.features.form.formEditableSquareAvatarItem
-import im.vector.app.features.form.formMultiLineEditTextItem
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.roomdirectory.createroom.RoomAliasErrorFormatter
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.TextListener
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.core.ui.list.genericFooterItem
+import dev.getzen.element.features.form.formEditTextItem
+import dev.getzen.element.features.form.formEditableSquareAvatarItem
+import dev.getzen.element.features.form.formMultiLineEditTextItem
+import dev.getzen.element.features.home.AvatarRenderer
+import dev.getzen.element.features.roomdirectory.createroom.RoomAliasErrorFormatter
 import im.vector.lib.core.utils.epoxy.charsequence.toEpoxyCharSequence
 import org.matrix.android.sdk.api.MatrixConstants
 import org.matrix.android.sdk.api.session.room.alias.RoomAliasError

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2.overview
+package dev.getzen.element.features.settings.devices.v2.overview
 
 import android.app.Activity
 import android.os.Bundle
@@ -31,22 +31,22 @@ import com.airbnb.mvrx.Success
 import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.date.VectorDateFormatter
-import im.vector.app.core.extensions.registerStartForActivityResult
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.platform.VectorMenuProvider
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.resources.DrawableProvider
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.databinding.FragmentSessionOverviewBinding
-import im.vector.app.features.auth.ReAuthActivity
-import im.vector.app.features.crypto.recover.SetupMode
-import im.vector.app.features.settings.devices.v2.list.SessionInfoViewState
-import im.vector.app.features.settings.devices.v2.more.SessionLearnMoreBottomSheet
-import im.vector.app.features.settings.devices.v2.notification.NotificationsStatus
-import im.vector.app.features.settings.devices.v2.signout.BuildConfirmSignoutDialogUseCase
-import im.vector.app.features.workers.signout.SignOutUiWorker
+import dev.getzen.element.R
+import dev.getzen.element.core.date.VectorDateFormatter
+import dev.getzen.element.core.extensions.registerStartForActivityResult
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.core.platform.VectorMenuProvider
+import dev.getzen.element.core.resources.ColorProvider
+import dev.getzen.element.core.resources.DrawableProvider
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.databinding.FragmentSessionOverviewBinding
+import dev.getzen.element.features.auth.ReAuthActivity
+import dev.getzen.element.features.crypto.recover.SetupMode
+import dev.getzen.element.features.settings.devices.v2.list.SessionInfoViewState
+import dev.getzen.element.features.settings.devices.v2.more.SessionLearnMoreBottomSheet
+import dev.getzen.element.features.settings.devices.v2.notification.NotificationsStatus
+import dev.getzen.element.features.settings.devices.v2.signout.BuildConfirmSignoutDialogUseCase
+import dev.getzen.element.features.workers.signout.SignOutUiWorker
 import org.matrix.android.sdk.api.auth.data.LoginFlowTypes
 import org.matrix.android.sdk.api.extensions.orFalse
 import org.matrix.android.sdk.api.session.crypto.model.RoomEncryptionTrustLevel

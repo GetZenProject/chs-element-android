@@ -14,27 +14,27 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call.webrtc
+package dev.getzen.element.features.call.webrtc
 
 import android.content.Context
 import android.hardware.camera2.CameraManager
 import androidx.core.content.getSystemService
-import im.vector.app.core.services.CallAndroidService
-import im.vector.app.core.utils.PublishDataSource
-import im.vector.app.core.utils.TextUtils.formatDuration
-import im.vector.app.features.call.CameraEventsHandlerAdapter
-import im.vector.app.features.call.CameraProxy
-import im.vector.app.features.call.CameraType
-import im.vector.app.features.call.CaptureFormat
-import im.vector.app.features.call.VectorCallActivity
-import im.vector.app.features.call.lookup.sipNativeLookup
-import im.vector.app.features.call.utils.asWebRTC
-import im.vector.app.features.call.utils.awaitCreateAnswer
-import im.vector.app.features.call.utils.awaitCreateOffer
-import im.vector.app.features.call.utils.awaitSetLocalDescription
-import im.vector.app.features.call.utils.awaitSetRemoteDescription
-import im.vector.app.features.call.utils.mapToCallCandidate
-import im.vector.app.features.session.coroutineScope
+import dev.getzen.element.core.services.CallAndroidService
+import dev.getzen.element.core.utils.PublishDataSource
+import dev.getzen.element.core.utils.TextUtils.formatDuration
+import dev.getzen.element.features.call.CameraEventsHandlerAdapter
+import dev.getzen.element.features.call.CameraProxy
+import dev.getzen.element.features.call.CameraType
+import dev.getzen.element.features.call.CaptureFormat
+import dev.getzen.element.features.call.VectorCallActivity
+import dev.getzen.element.features.call.lookup.sipNativeLookup
+import dev.getzen.element.features.call.utils.asWebRTC
+import dev.getzen.element.features.call.utils.awaitCreateAnswer
+import dev.getzen.element.features.call.utils.awaitCreateOffer
+import dev.getzen.element.features.call.utils.awaitSetLocalDescription
+import dev.getzen.element.features.call.utils.awaitSetRemoteDescription
+import dev.getzen.element.features.call.utils.mapToCallCandidate
+import dev.getzen.element.features.session.coroutineScope
 import im.vector.lib.core.utils.flow.chunk
 import im.vector.lib.core.utils.timer.CountUpTimer
 import kotlinx.coroutines.CoroutineScope

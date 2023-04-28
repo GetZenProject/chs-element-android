@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2.list
+package dev.getzen.element.features.settings.devices.v2.list
 
 import android.widget.ImageView
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
-import im.vector.app.R
-import im.vector.app.test.fakes.FakeStringProvider
+import dev.getzen.element.R
+import dev.getzen.element.test.fakes.FakeStringProvider
 import io.mockk.mockk
 import io.mockk.verifyAll
 import org.junit.Test

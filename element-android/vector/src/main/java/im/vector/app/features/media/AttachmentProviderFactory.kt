@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.media
+package dev.getzen.element.features.media
 
-import im.vector.app.core.date.VectorDateFormatter
-import im.vector.app.core.resources.StringProvider
+import dev.getzen.element.core.date.VectorDateFormatter
+import dev.getzen.element.core.resources.StringProvider
 import kotlinx.coroutines.CoroutineScope
 import org.matrix.android.sdk.api.session.Session
 import org.matrix.android.sdk.api.session.room.Room

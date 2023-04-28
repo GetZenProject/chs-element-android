@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomdirectory.createroom
+package dev.getzen.element.features.roomdirectory.createroom
 
 import com.airbnb.epoxy.TypedEpoxyController
 import com.airbnb.mvrx.Fail
 import com.airbnb.mvrx.Loading
-import im.vector.app.R
-import im.vector.app.core.epoxy.dividerItem
-import im.vector.app.core.epoxy.profiles.buildProfileAction
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.discovery.settingsSectionTitleItem
-import im.vector.app.features.form.formAdvancedToggleItem
-import im.vector.app.features.form.formEditTextItem
-import im.vector.app.features.form.formEditableAvatarItem
-import im.vector.app.features.form.formSubmitButtonItem
-import im.vector.app.features.form.formSwitchItem
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.dividerItem
+import dev.getzen.element.core.epoxy.profiles.buildProfileAction
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.features.discovery.settingsSectionTitleItem
+import dev.getzen.element.features.form.formAdvancedToggleItem
+import dev.getzen.element.features.form.formEditTextItem
+import dev.getzen.element.features.form.formEditableAvatarItem
+import dev.getzen.element.features.form.formSubmitButtonItem
+import dev.getzen.element.features.form.formSwitchItem
 import org.matrix.android.sdk.api.MatrixConstants
 import org.matrix.android.sdk.api.extensions.orFalse
 import org.matrix.android.sdk.api.session.room.failure.CreateRoomFailure

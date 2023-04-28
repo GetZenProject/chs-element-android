@@ -15,8 +15,8 @@
  *
  */
 
-package im.vector.app.features.attachments.preview
+package dev.getzen.element.features.attachments.preview
 
-import im.vector.app.core.platform.VectorViewEvents
+import dev.getzen.element.core.platform.VectorViewEvents
 
 sealed class AttachmentsPreviewViewEvents : VectorViewEvents

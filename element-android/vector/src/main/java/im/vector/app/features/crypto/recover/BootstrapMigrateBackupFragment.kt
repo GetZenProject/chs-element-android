@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.crypto.recover
+package dev.getzen.element.features.crypto.recover
 
 import android.app.Activity
 import android.os.Bundle
@@ -31,14 +31,14 @@ import androidx.lifecycle.lifecycleScope
 import com.airbnb.mvrx.parentFragmentViewModel
 import com.airbnb.mvrx.withState
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.hideKeyboard
-import im.vector.app.core.extensions.registerStartForActivityResult
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.utils.colorizeMatchingText
-import im.vector.app.core.utils.startImportTextFromFileIntent
-import im.vector.app.databinding.FragmentBootstrapMigrateBackupBinding
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.hideKeyboard
+import dev.getzen.element.core.extensions.registerStartForActivityResult
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.core.resources.ColorProvider
+import dev.getzen.element.core.utils.colorizeMatchingText
+import dev.getzen.element.core.utils.startImportTextFromFileIntent
+import dev.getzen.element.databinding.FragmentBootstrapMigrateBackupBinding
 import im.vector.lib.core.utils.flow.throttleFirst
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach

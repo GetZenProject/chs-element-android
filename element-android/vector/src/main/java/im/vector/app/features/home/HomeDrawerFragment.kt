@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home
+package dev.getzen.element.features.home
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -24,20 +24,20 @@ import androidx.core.app.ActivityOptionsCompat
 import androidx.core.view.ViewCompat
 import androidx.core.view.isVisible
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.observeK
-import im.vector.app.core.extensions.replaceChildFragment
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.resources.BuildMeta
-import im.vector.app.core.utils.startSharePlainTextIntent
-import im.vector.app.databinding.FragmentHomeDrawerBinding
-import im.vector.app.features.analytics.plan.MobileScreen
-import im.vector.app.features.permalink.PermalinkFactory
-import im.vector.app.features.settings.VectorPreferences
-import im.vector.app.features.settings.VectorSettingsActivity
-import im.vector.app.features.spaces.SpaceListFragment
-import im.vector.app.features.usercode.UserCodeActivity
-import im.vector.app.features.workers.signout.SignOutUiWorker
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.observeK
+import dev.getzen.element.core.extensions.replaceChildFragment
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.core.resources.BuildMeta
+import dev.getzen.element.core.utils.startSharePlainTextIntent
+import dev.getzen.element.databinding.FragmentHomeDrawerBinding
+import dev.getzen.element.features.analytics.plan.MobileScreen
+import dev.getzen.element.features.permalink.PermalinkFactory
+import dev.getzen.element.features.settings.VectorPreferences
+import dev.getzen.element.features.settings.VectorSettingsActivity
+import dev.getzen.element.features.spaces.SpaceListFragment
+import dev.getzen.element.features.usercode.UserCodeActivity
+import dev.getzen.element.features.workers.signout.SignOutUiWorker
 import org.matrix.android.sdk.api.session.Session
 import org.matrix.android.sdk.api.util.toMatrixItem
 import javax.inject.Inject

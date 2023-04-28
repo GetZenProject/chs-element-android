@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.polls.detail.ui
+package dev.getzen.element.features.roomprofile.polls.detail.ui
 
 import android.content.Context
-import im.vector.app.features.navigation.Navigator
+import dev.getzen.element.features.navigation.Navigator
 import javax.inject.Inject
 
 class RoomPollDetailNavigator @Inject constructor(

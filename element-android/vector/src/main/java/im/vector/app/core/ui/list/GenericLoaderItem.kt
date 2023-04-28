@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.ui.list
+package dev.getzen.element.core.ui.list
 
 import com.airbnb.epoxy.EpoxyModelClass
-import im.vector.app.R
-import im.vector.app.core.epoxy.VectorEpoxyHolder
-import im.vector.app.core.epoxy.VectorEpoxyModel
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.VectorEpoxyHolder
+import dev.getzen.element.core.epoxy.VectorEpoxyModel
 
 /**
  * A generic list item header left aligned with notice color.

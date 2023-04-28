@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.login
+package dev.getzen.element.features.login
 
 import android.annotation.SuppressLint
 import android.content.DialogInterface
@@ -34,9 +34,9 @@ import androidx.core.view.isVisible
 import com.airbnb.mvrx.args
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.utils.AssetReader
-import im.vector.app.databinding.FragmentLoginCaptchaBinding
+import dev.getzen.element.R
+import dev.getzen.element.core.utils.AssetReader
+import dev.getzen.element.databinding.FragmentLoginCaptchaBinding
 import kotlinx.parcelize.Parcelize
 import org.matrix.android.sdk.api.util.MatrixJsonParser
 import timber.log.Timber

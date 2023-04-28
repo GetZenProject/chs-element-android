@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.crypto.keysbackup.restore
+package dev.getzen.element.features.crypto.keysbackup.restore
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -21,10 +21,10 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.core.view.isVisible
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.utils.LiveEvent
-import im.vector.app.databinding.FragmentKeysBackupRestoreSuccessBinding
+import dev.getzen.element.R
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.core.utils.LiveEvent
+import dev.getzen.element.databinding.FragmentKeysBackupRestoreSuccessBinding
 
 @AndroidEntryPoint
 class KeysBackupRestoreSuccessFragment :

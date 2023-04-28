@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.pushers.model
+package dev.getzen.element.core.pushers.model
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass

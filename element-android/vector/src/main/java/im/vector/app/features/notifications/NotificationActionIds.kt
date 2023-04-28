@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.notifications
+package dev.getzen.element.features.notifications
 
-import im.vector.app.core.resources.BuildMeta
+import dev.getzen.element.core.resources.BuildMeta
 import javax.inject.Inject
 
 /**

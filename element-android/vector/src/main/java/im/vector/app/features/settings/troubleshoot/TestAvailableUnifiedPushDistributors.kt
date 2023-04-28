@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.troubleshoot
+package dev.getzen.element.features.settings.troubleshoot
 
-import im.vector.app.R
-import im.vector.app.core.pushers.FcmHelper
-import im.vector.app.core.pushers.UnifiedPushHelper
-import im.vector.app.core.resources.StringProvider
+import dev.getzen.element.R
+import dev.getzen.element.core.pushers.FcmHelper
+import dev.getzen.element.core.pushers.UnifiedPushHelper
+import dev.getzen.element.core.resources.StringProvider
 import javax.inject.Inject
 
 class TestAvailableUnifiedPushDistributors @Inject constructor(

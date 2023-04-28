@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.list.home
+package dev.getzen.element.features.home.room.list.home
 
-import im.vector.app.core.platform.VectorViewEvents
+import dev.getzen.element.core.platform.VectorViewEvents
 import org.matrix.android.sdk.api.session.room.model.RoomSummary
 
 sealed class HomeRoomListViewEvents : VectorViewEvents {

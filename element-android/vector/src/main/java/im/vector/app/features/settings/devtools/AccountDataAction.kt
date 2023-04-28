@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devtools
+package dev.getzen.element.features.settings.devtools
 
-import im.vector.app.core.platform.VectorViewModelAction
+import dev.getzen.element.core.platform.VectorViewModelAction
 
 sealed class AccountDataAction : VectorViewModelAction {
     data class DeleteAccountData(val type: String) : AccountDataAction()

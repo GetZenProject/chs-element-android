@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.widgets.permissions
+package dev.getzen.element.features.widgets.permissions
 
 import com.airbnb.mvrx.Async
 import com.airbnb.mvrx.MavericksState
 import com.airbnb.mvrx.Uninitialized
-import im.vector.app.features.widgets.WidgetArgs
+import dev.getzen.element.features.widgets.WidgetArgs
 import org.matrix.android.sdk.api.session.widgets.model.Widget
 
 data class RoomWidgetPermissionViewState(

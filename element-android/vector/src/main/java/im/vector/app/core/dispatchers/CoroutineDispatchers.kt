@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.dispatchers
+package dev.getzen.element.core.dispatchers
 
 import kotlinx.coroutines.CoroutineDispatcher
 import javax.inject.Inject

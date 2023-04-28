@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2.othersessions
+package dev.getzen.element.features.settings.devices.v2.othersessions
 
 import com.airbnb.mvrx.Async
 import com.airbnb.mvrx.MavericksState
 import com.airbnb.mvrx.Uninitialized
-import im.vector.app.features.settings.devices.v2.DeviceFullInfo
-import im.vector.app.features.settings.devices.v2.filter.DeviceManagerFilterType
+import dev.getzen.element.features.settings.devices.v2.DeviceFullInfo
+import dev.getzen.element.features.settings.devices.v2.filter.DeviceManagerFilterType
 
 data class OtherSessionsViewState(
         val devices: Async<List<DeviceFullInfo>> = Uninitialized,

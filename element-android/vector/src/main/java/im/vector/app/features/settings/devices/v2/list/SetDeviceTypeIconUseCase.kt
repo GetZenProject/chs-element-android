@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2.list
+package dev.getzen.element.features.settings.devices.v2.list
 
 import android.widget.ImageView
-import im.vector.app.R
-import im.vector.app.core.resources.StringProvider
+import dev.getzen.element.R
+import dev.getzen.element.core.resources.StringProvider
 
 class SetDeviceTypeIconUseCase {
 

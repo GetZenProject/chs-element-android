@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.pin.lockscreen.pincode
+package dev.getzen.element.features.pin.lockscreen.pincode
 
-import im.vector.app.features.pin.lockscreen.crypto.LockScreenKeyRepository
+import dev.getzen.element.features.pin.lockscreen.crypto.LockScreenKeyRepository
 import io.mockk.clearAllMocks
 import io.mockk.coEvery
 import io.mockk.coVerify

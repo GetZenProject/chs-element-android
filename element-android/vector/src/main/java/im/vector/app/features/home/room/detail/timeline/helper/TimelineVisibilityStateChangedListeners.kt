@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.helper
+package dev.getzen.element.features.home.room.detail.timeline.helper
 
 import com.airbnb.epoxy.VisibilityState
-import im.vector.app.core.epoxy.VectorEpoxyModel
-import im.vector.app.features.home.room.detail.timeline.TimelineEventController
+import dev.getzen.element.core.epoxy.VectorEpoxyModel
+import dev.getzen.element.features.home.room.detail.timeline.TimelineEventController
 import org.matrix.android.sdk.api.session.room.timeline.TimelineEvent
 
 class ReadMarkerVisibilityStateChangedListener(private val callback: TimelineEventController.Callback?) :

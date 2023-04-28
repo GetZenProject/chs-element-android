@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.composer
+package dev.getzen.element.features.home.room.detail.composer
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -42,13 +42,13 @@ import androidx.core.view.isInvisible
 import androidx.core.view.isVisible
 import androidx.core.view.updateLayoutParams
 import com.google.android.material.shape.MaterialShapeDrawable
-import im.vector.app.R
-import im.vector.app.core.extensions.setTextIfDifferent
-import im.vector.app.core.extensions.showKeyboard
-import im.vector.app.core.utils.DimensionConverter
-import im.vector.app.databinding.ComposerRichTextLayoutBinding
-import im.vector.app.databinding.ViewRichTextMenuButtonBinding
-import im.vector.app.features.home.room.detail.composer.images.UriContentListener
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.setTextIfDifferent
+import dev.getzen.element.core.extensions.showKeyboard
+import dev.getzen.element.core.utils.DimensionConverter
+import dev.getzen.element.databinding.ComposerRichTextLayoutBinding
+import dev.getzen.element.databinding.ViewRichTextMenuButtonBinding
+import dev.getzen.element.features.home.room.detail.composer.images.UriContentListener
 import io.element.android.wysiwyg.EditorEditText
 import io.element.android.wysiwyg.inputhandlers.models.InlineFormat
 import io.element.android.wysiwyg.inputhandlers.models.LinkAction

@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces
+package dev.getzen.element.features.spaces
 
 import android.app.Dialog
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import im.vector.app.R
-import im.vector.app.core.extensions.replaceChildFragment
-import im.vector.app.core.platform.VectorBaseBottomSheetDialogFragment
-import im.vector.app.databinding.FragmentSpacesBottomSheetBinding
-import im.vector.app.features.analytics.plan.MobileScreen
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.replaceChildFragment
+import dev.getzen.element.core.platform.VectorBaseBottomSheetDialogFragment
+import dev.getzen.element.databinding.FragmentSpacesBottomSheetBinding
+import dev.getzen.element.features.analytics.plan.MobileScreen
 
 class SpaceListBottomSheet : VectorBaseBottomSheetDialogFragment<FragmentSpacesBottomSheetBinding>() {
 

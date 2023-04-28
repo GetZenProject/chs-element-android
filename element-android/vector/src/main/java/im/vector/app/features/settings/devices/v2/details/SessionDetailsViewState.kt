@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2.details
+package dev.getzen.element.features.settings.devices.v2.details
 
 import com.airbnb.mvrx.Async
 import com.airbnb.mvrx.MavericksState
 import com.airbnb.mvrx.Uninitialized
-import im.vector.app.features.settings.devices.v2.DeviceFullInfo
+import dev.getzen.element.features.settings.devices.v2.DeviceFullInfo
 
 data class SessionDetailsViewState(
         val deviceId: String,

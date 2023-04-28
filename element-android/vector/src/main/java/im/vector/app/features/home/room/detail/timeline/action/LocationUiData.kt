@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.action
+package dev.getzen.element.features.home.room.detail.timeline.action
 
-import im.vector.app.features.home.room.detail.timeline.helper.LocationPinProvider
+import dev.getzen.element.features.home.room.detail.timeline.helper.LocationPinProvider
 
 /**
  * Data used to display Location data in the message bottom sheet.

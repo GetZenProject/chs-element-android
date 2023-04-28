@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.location.live.map
+package dev.getzen.element.features.location.live.map
 
 import android.graphics.drawable.Drawable
 import com.airbnb.mvrx.MavericksState
-import im.vector.app.features.location.LocationData
+import dev.getzen.element.features.location.LocationData
 import org.matrix.android.sdk.api.util.MatrixItem
 
 data class LiveLocationMapViewState(

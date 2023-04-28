@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.popup
+package dev.getzen.element.features.popup
 
 import android.app.Activity
 import android.view.View
 import androidx.annotation.DrawableRes
-import im.vector.app.R
-import im.vector.app.core.glide.GlideApp
-import im.vector.app.databinding.AlerterVerificationLayoutBinding
-import im.vector.app.features.home.AvatarRenderer
+import dev.getzen.element.R
+import dev.getzen.element.core.glide.GlideApp
+import dev.getzen.element.databinding.AlerterVerificationLayoutBinding
+import dev.getzen.element.features.home.AvatarRenderer
 import org.matrix.android.sdk.api.util.MatrixItem
 
 class VerificationVectorAlert(

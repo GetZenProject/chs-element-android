@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.uploads.files
+package dev.getzen.element.features.roomprofile.uploads.files
 
 import com.airbnb.epoxy.TypedEpoxyController
 import com.airbnb.epoxy.VisibilityState
-import im.vector.app.R
-import im.vector.app.core.date.DateFormatKind
-import im.vector.app.core.date.VectorDateFormatter
-import im.vector.app.core.epoxy.loadingItem
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.roomprofile.uploads.RoomUploadsViewState
+import dev.getzen.element.R
+import dev.getzen.element.core.date.DateFormatKind
+import dev.getzen.element.core.date.VectorDateFormatter
+import dev.getzen.element.core.epoxy.loadingItem
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.features.roomprofile.uploads.RoomUploadsViewState
 import org.matrix.android.sdk.api.session.room.uploads.UploadEvent
 import javax.inject.Inject
 

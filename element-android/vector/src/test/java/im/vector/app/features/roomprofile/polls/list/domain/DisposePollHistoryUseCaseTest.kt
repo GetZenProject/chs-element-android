@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.polls.list.domain
+package dev.getzen.element.features.roomprofile.polls.list.domain
 
-import im.vector.app.features.roomprofile.polls.list.data.RoomPollRepository
+import dev.getzen.element.features.roomprofile.polls.list.data.RoomPollRepository
 import io.mockk.coVerify
 import io.mockk.justRun
 import io.mockk.mockk

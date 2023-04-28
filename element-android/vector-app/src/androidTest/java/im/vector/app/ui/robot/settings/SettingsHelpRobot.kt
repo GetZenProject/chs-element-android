@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.ui.robot.settings
+package dev.getzen.element.ui.robot.settings
 
 class SettingsHelpRobot {
 

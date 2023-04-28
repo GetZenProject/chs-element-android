@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.extensions
+package dev.getzen.element.core.extensions
 
 import android.content.Context
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.ProcessLifecycleOwner
-import im.vector.app.core.services.VectorSyncAndroidService
-import im.vector.app.features.session.VectorSessionStore
+import dev.getzen.element.core.services.VectorSyncAndroidService
+import dev.getzen.element.features.session.VectorSessionStore
 import org.matrix.android.sdk.api.session.Session
 import org.matrix.android.sdk.api.session.crypto.keysbackup.KeysBackupState
 import timber.log.Timber

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app
+package dev.getzen.element
 
 import android.content.Context
 import android.content.Intent
 import com.google.android.gms.oss.licenses.OssLicensesMenuActivity
-import im.vector.app.features.settings.legals.FlavorLegals
+import dev.getzen.element.features.settings.legals.FlavorLegals
 import javax.inject.Inject
 
 class GoogleFlavorLegals @Inject constructor() : FlavorLegals {

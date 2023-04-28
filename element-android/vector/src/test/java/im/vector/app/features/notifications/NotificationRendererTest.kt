@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.notifications
+package dev.getzen.element.features.notifications
 
 import android.app.Notification
-import im.vector.app.test.fakes.FakeContext
-import im.vector.app.test.fakes.FakeNotificationDisplayer
-import im.vector.app.test.fakes.FakeNotificationFactory
+import dev.getzen.element.test.fakes.FakeContext
+import dev.getzen.element.test.fakes.FakeNotificationDisplayer
+import dev.getzen.element.test.fakes.FakeNotificationFactory
 import io.mockk.mockk
 import org.junit.Test
 

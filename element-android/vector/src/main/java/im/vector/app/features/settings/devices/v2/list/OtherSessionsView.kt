@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2.list
+package dev.getzen.element.features.settings.devices.v2.list
 
 import android.content.Context
 import android.util.AttributeSet
@@ -24,12 +24,12 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.airbnb.epoxy.OnModelBuildFinishedListener
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.epoxy.LayoutManagerStateRestorer
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.databinding.ViewOtherSessionsBinding
-import im.vector.app.features.settings.devices.v2.DeviceFullInfo
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.LayoutManagerStateRestorer
+import dev.getzen.element.core.extensions.cleanup
+import dev.getzen.element.core.extensions.configureWith
+import dev.getzen.element.databinding.ViewOtherSessionsBinding
+import dev.getzen.element.features.settings.devices.v2.DeviceFullInfo
 import javax.inject.Inject
 
 @AndroidEntryPoint

@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.ui.views
+package dev.getzen.element.core.ui.views
 
 import android.content.Context
 import android.util.AttributeSet
 import androidx.annotation.DrawableRes
 import androidx.appcompat.widget.AppCompatImageView
 import androidx.core.view.isVisible
-import im.vector.app.R
-import im.vector.app.features.home.room.detail.timeline.item.E2EDecoration
+import dev.getzen.element.R
+import dev.getzen.element.features.home.room.detail.timeline.item.E2EDecoration
 import org.matrix.android.sdk.api.session.crypto.model.RoomEncryptionTrustLevel
 import org.matrix.android.sdk.api.session.crypto.model.UserVerificationLevel
 
@@ -40,7 +40,7 @@ class ShieldImageView @JvmOverloads constructor(
 
     /**
      * Renders device shield with the support of unknown shields instead of black shields which is used for rooms.
-     * @param roomEncryptionTrustLevel trust level that is usually calculated with [im.vector.app.features.settings.devices.TrustUtils.shieldForTrust]
+     * @param roomEncryptionTrustLevel trust level that is usually calculated with [dev.getzen.element.features.settings.devices.TrustUtils.shieldForTrust]
      * @param borderLess if true then the shield icon with border around is used
      */
     fun renderDeviceShield(roomEncryptionTrustLevel: RoomEncryptionTrustLevel?, borderLess: Boolean = false) {

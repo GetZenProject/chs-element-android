@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.crypto.recover
+package dev.getzen.element.features.crypto.recover
 
 import com.airbnb.mvrx.Async
 import com.airbnb.mvrx.MavericksState
 import com.airbnb.mvrx.Uninitialized
 import com.nulabinc.zxcvbn.Strength
-import im.vector.app.core.platform.WaitingViewData
-import im.vector.app.features.raw.wellknown.SecureBackupMethod
+import dev.getzen.element.core.platform.WaitingViewData
+import dev.getzen.element.features.raw.wellknown.SecureBackupMethod
 import org.matrix.android.sdk.api.session.securestorage.SsssKeyCreationInfo
 
 data class BootstrapViewState(

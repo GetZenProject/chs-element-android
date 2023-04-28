@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.pin.lockscreen.views
+package dev.getzen.element.features.pin.lockscreen.views
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -26,7 +26,7 @@ import android.view.LayoutInflater
 import android.widget.CheckBox
 import android.widget.LinearLayout
 import androidx.core.view.setMargins
-import im.vector.app.R
+import dev.getzen.element.R
 
 /**
  * Custom view representing the entered digits of a PIN code screen.

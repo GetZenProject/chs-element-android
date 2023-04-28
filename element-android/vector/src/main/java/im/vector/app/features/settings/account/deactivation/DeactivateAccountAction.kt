@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.account.deactivation
+package dev.getzen.element.features.settings.account.deactivation
 
-import im.vector.app.core.platform.VectorViewModelAction
+import dev.getzen.element.core.platform.VectorViewModelAction
 
 sealed class DeactivateAccountAction : VectorViewModelAction {
     data class DeactivateAccount(val eraseAllData: Boolean) : DeactivateAccountAction()

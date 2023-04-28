@@ -14,7 +14,7 @@
  * limitations under the License.
  *
  */
-package im.vector.app.features.crypto.verification.epoxy
+package dev.getzen.element.features.crypto.verification.epoxy
 
 import android.content.Context
 import android.view.ViewGroup
@@ -22,10 +22,10 @@ import androidx.core.content.ContextCompat
 import androidx.core.view.isVisible
 import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
-import im.vector.app.R
-import im.vector.app.core.epoxy.VectorEpoxyHolder
-import im.vector.app.core.epoxy.VectorEpoxyModel
-import im.vector.app.databinding.ItemEmojiVerifBinding
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.VectorEpoxyHolder
+import dev.getzen.element.core.epoxy.VectorEpoxyModel
+import dev.getzen.element.databinding.ItemEmojiVerifBinding
 import me.gujun.android.span.Span
 import me.gujun.android.span.image
 import me.gujun.android.span.span

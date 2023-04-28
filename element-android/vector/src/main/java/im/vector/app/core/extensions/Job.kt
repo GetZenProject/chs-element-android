@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.extensions
+package dev.getzen.element.core.extensions
 
 import kotlinx.coroutines.Job
 import kotlin.properties.ReadWriteProperty

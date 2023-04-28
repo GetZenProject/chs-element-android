@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call
+package dev.getzen.element.features.call
 
 import org.webrtc.CameraVideoCapturer
 import timber.log.Timber

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.onboarding.ftueauth
+package dev.getzen.element.features.onboarding.ftueauth
 
 import com.airbnb.epoxy.TypedEpoxyController
 import javax.inject.Inject

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home
+package dev.getzen.element.features.home
 
 import android.content.Context
 import android.content.pm.ShortcutInfo
@@ -25,11 +25,11 @@ import androidx.annotation.WorkerThread
 import androidx.core.content.pm.ShortcutInfoCompat
 import androidx.core.content.pm.ShortcutManagerCompat
 import androidx.core.graphics.drawable.IconCompat
-import im.vector.app.core.glide.GlideApp
-import im.vector.app.core.resources.BuildMeta
-import im.vector.app.core.utils.DimensionConverter
-import im.vector.app.features.MainActivity
-import im.vector.app.features.settings.VectorPreferences
+import dev.getzen.element.core.glide.GlideApp
+import dev.getzen.element.core.resources.BuildMeta
+import dev.getzen.element.core.utils.DimensionConverter
+import dev.getzen.element.features.MainActivity
+import dev.getzen.element.features.settings.VectorPreferences
 import org.matrix.android.sdk.api.session.room.model.RoomSummary
 import org.matrix.android.sdk.api.util.toMatrixItem
 import javax.inject.Inject

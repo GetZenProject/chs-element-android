@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call
+package dev.getzen.element.features.call
 
 import android.app.Activity
 import android.app.KeyguardManager
@@ -47,28 +47,28 @@ import com.airbnb.mvrx.withState
 import com.google.android.material.card.MaterialCardView
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.registerStartForActivityResult
-import im.vector.app.core.extensions.setTextOrHide
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.core.platform.VectorMenuProvider
-import im.vector.app.core.utils.PERMISSIONS_FOR_AUDIO_IP_CALL
-import im.vector.app.core.utils.PERMISSIONS_FOR_VIDEO_IP_CALL
-import im.vector.app.core.utils.checkPermissions
-import im.vector.app.core.utils.registerForPermissionsResult
-import im.vector.app.databinding.ActivityCallBinding
-import im.vector.app.features.call.dialpad.CallDialPadBottomSheet
-import im.vector.app.features.call.dialpad.DialPadFragment
-import im.vector.app.features.call.transfer.CallTransferActivity
-import im.vector.app.features.call.utils.EglUtils
-import im.vector.app.features.call.webrtc.ScreenCaptureAndroidService
-import im.vector.app.features.call.webrtc.ScreenCaptureServiceConnection
-import im.vector.app.features.call.webrtc.WebRtcCall
-import im.vector.app.features.call.webrtc.WebRtcCallManager
-import im.vector.app.features.displayname.getBestName
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.home.room.detail.RoomDetailActivity
-import im.vector.app.features.home.room.detail.arguments.TimelineArgs
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.registerStartForActivityResult
+import dev.getzen.element.core.extensions.setTextOrHide
+import dev.getzen.element.core.platform.VectorBaseActivity
+import dev.getzen.element.core.platform.VectorMenuProvider
+import dev.getzen.element.core.utils.PERMISSIONS_FOR_AUDIO_IP_CALL
+import dev.getzen.element.core.utils.PERMISSIONS_FOR_VIDEO_IP_CALL
+import dev.getzen.element.core.utils.checkPermissions
+import dev.getzen.element.core.utils.registerForPermissionsResult
+import dev.getzen.element.databinding.ActivityCallBinding
+import dev.getzen.element.features.call.dialpad.CallDialPadBottomSheet
+import dev.getzen.element.features.call.dialpad.DialPadFragment
+import dev.getzen.element.features.call.transfer.CallTransferActivity
+import dev.getzen.element.features.call.utils.EglUtils
+import dev.getzen.element.features.call.webrtc.ScreenCaptureAndroidService
+import dev.getzen.element.features.call.webrtc.ScreenCaptureServiceConnection
+import dev.getzen.element.features.call.webrtc.WebRtcCall
+import dev.getzen.element.features.call.webrtc.WebRtcCallManager
+import dev.getzen.element.features.displayname.getBestName
+import dev.getzen.element.features.home.AvatarRenderer
+import dev.getzen.element.features.home.room.detail.RoomDetailActivity
+import dev.getzen.element.features.home.room.detail.arguments.TimelineArgs
 import im.vector.lib.core.utils.compat.getParcelableExtraCompat
 import io.github.hyuwah.draggableviewlib.DraggableView
 import io.github.hyuwah.draggableviewlib.setupDraggable

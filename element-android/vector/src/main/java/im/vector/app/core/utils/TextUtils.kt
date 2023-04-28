@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.utils
+package dev.getzen.element.core.utils
 
 import android.content.Context
 import android.os.Build
 import android.text.format.Formatter
-import im.vector.app.R
-import im.vector.app.core.resources.StringProvider
+import dev.getzen.element.R
+import dev.getzen.element.core.resources.StringProvider
 import org.threeten.bp.Duration
 import java.util.TreeMap
 

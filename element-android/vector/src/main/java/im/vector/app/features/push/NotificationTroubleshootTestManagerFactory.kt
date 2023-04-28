@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.push
+package dev.getzen.element.features.push
 
 import androidx.fragment.app.Fragment
-import im.vector.app.features.settings.troubleshoot.NotificationTroubleshootTestManager
+import dev.getzen.element.features.settings.troubleshoot.NotificationTroubleshootTestManager
 
 interface NotificationTroubleshootTestManagerFactory {
     fun create(fragment: Fragment): NotificationTroubleshootTestManager

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.test.fakes
+package dev.getzen.element.test.fakes
 
-import im.vector.app.features.configuration.VectorConfiguration
+import dev.getzen.element.features.configuration.VectorConfiguration
 import io.mockk.every
 import io.mockk.mockk
 

@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.voicebroadcast.usecase
+package dev.getzen.element.features.voicebroadcast.usecase
 
-import im.vector.app.features.voicebroadcast.VoiceBroadcastConstants
-import im.vector.app.features.voicebroadcast.model.MessageVoiceBroadcastInfoContent
-import im.vector.app.features.voicebroadcast.model.VoiceBroadcastState
-import im.vector.app.features.voicebroadcast.model.asVoiceBroadcastEvent
-import im.vector.app.features.voicebroadcast.recording.VoiceBroadcastRecorder
-import im.vector.app.features.voicebroadcast.recording.usecase.StartVoiceBroadcastUseCase
-import im.vector.app.test.fakes.FakeContext
-import im.vector.app.test.fakes.FakeRoom
-import im.vector.app.test.fakes.FakeRoomService
-import im.vector.app.test.fakes.FakeSession
+import dev.getzen.element.features.voicebroadcast.VoiceBroadcastConstants
+import dev.getzen.element.features.voicebroadcast.model.MessageVoiceBroadcastInfoContent
+import dev.getzen.element.features.voicebroadcast.model.VoiceBroadcastState
+import dev.getzen.element.features.voicebroadcast.model.asVoiceBroadcastEvent
+import dev.getzen.element.features.voicebroadcast.recording.VoiceBroadcastRecorder
+import dev.getzen.element.features.voicebroadcast.recording.usecase.StartVoiceBroadcastUseCase
+import dev.getzen.element.test.fakes.FakeContext
+import dev.getzen.element.test.fakes.FakeRoom
+import dev.getzen.element.test.fakes.FakeRoomService
+import dev.getzen.element.test.fakes.FakeSession
 import io.mockk.coEvery
 import io.mockk.coVerify
 import io.mockk.every

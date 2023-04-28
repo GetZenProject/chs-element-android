@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.ui.views
+package dev.getzen.element.core.ui.views
 
 import android.content.Context
 import android.graphics.Color
@@ -24,12 +24,12 @@ import android.view.View
 import android.widget.LinearLayout
 import androidx.core.content.ContextCompat
 import androidx.core.text.italic
-import im.vector.app.R
-import im.vector.app.core.epoxy.onClick
-import im.vector.app.core.error.ResourceLimitErrorFormatter
-import im.vector.app.core.utils.DimensionConverter
-import im.vector.app.databinding.ViewNotificationAreaBinding
-import im.vector.app.features.themes.ThemeUtils
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.onClick
+import dev.getzen.element.core.error.ResourceLimitErrorFormatter
+import dev.getzen.element.core.utils.DimensionConverter
+import dev.getzen.element.databinding.ViewNotificationAreaBinding
+import dev.getzen.element.features.themes.ThemeUtils
 import me.gujun.android.span.span
 import me.saket.bettermovementmethod.BetterLinkMovementMethod
 import org.matrix.android.sdk.api.failure.MatrixError

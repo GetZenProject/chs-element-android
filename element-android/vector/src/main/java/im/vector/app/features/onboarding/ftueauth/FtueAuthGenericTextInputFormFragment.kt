@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.onboarding.ftueauth
+package dev.getzen.element.features.onboarding.ftueauth
 
 import android.os.Build
 import android.os.Bundle
@@ -30,14 +30,14 @@ import com.airbnb.mvrx.args
 import com.google.i18n.phonenumbers.NumberParseException
 import com.google.i18n.phonenumbers.PhoneNumberUtil
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.hideKeyboard
-import im.vector.app.core.extensions.isEmail
-import im.vector.app.core.extensions.setTextOrHide
-import im.vector.app.databinding.FragmentLoginGenericTextInputFormBinding
-import im.vector.app.features.login.TextInputFormFragmentMode
-import im.vector.app.features.onboarding.OnboardingAction
-import im.vector.app.features.onboarding.RegisterAction
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.hideKeyboard
+import dev.getzen.element.core.extensions.isEmail
+import dev.getzen.element.core.extensions.setTextOrHide
+import dev.getzen.element.databinding.FragmentLoginGenericTextInputFormBinding
+import dev.getzen.element.features.login.TextInputFormFragmentMode
+import dev.getzen.element.features.onboarding.OnboardingAction
+import dev.getzen.element.features.onboarding.RegisterAction
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import kotlinx.parcelize.Parcelize

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.alias.detail
+package dev.getzen.element.features.roomprofile.alias.detail
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
-import im.vector.app.R
-import im.vector.app.core.platform.VectorSharedAction
+import dev.getzen.element.R
+import dev.getzen.element.core.platform.VectorSharedAction
 
 sealed class RoomAliasBottomSheetSharedAction(
         @StringRes val titleRes: Int,

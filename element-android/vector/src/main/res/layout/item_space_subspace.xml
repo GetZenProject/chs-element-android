@@ -12,7 +12,7 @@
     android:orientation="horizontal"
     tools:viewBindingIgnore="true">
 
-    <im.vector.app.features.spaces.preview.SpaceTabView
+    <dev.getzen.element.features.spaces.preview.SpaceTabView
         android:id="@+id/childSpaceTab"
         android:layout_width="3dp"
         android:layout_height="2dp"

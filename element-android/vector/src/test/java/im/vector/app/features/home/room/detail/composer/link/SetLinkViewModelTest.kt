@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.composer.link
+package dev.getzen.element.features.home.room.detail.composer.link
 
 import com.airbnb.mvrx.test.MavericksTestRule
-import im.vector.app.test.test
-import im.vector.app.test.testDispatcher
+import dev.getzen.element.test.test
+import dev.getzen.element.test.testDispatcher
 import org.junit.Rule
 import org.junit.Test
 

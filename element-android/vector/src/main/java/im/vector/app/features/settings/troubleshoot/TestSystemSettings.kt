@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.settings.troubleshoot
+package dev.getzen.element.features.settings.troubleshoot
 
 import android.os.Build
 import androidx.core.app.NotificationManagerCompat
 import androidx.fragment.app.FragmentActivity
-import im.vector.app.R
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.utils.startNotificationSettingsIntent
-import im.vector.app.features.home.NotificationPermissionManager
+import dev.getzen.element.R
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.core.utils.startNotificationSettingsIntent
+import dev.getzen.element.features.home.NotificationPermissionManager
 import org.matrix.android.sdk.api.util.BuildVersionSdkIntProvider
 import javax.inject.Inject
 

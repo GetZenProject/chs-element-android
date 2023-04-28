@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.utils
+package dev.getzen.element.core.utils
 
 import android.Manifest
 import android.app.Activity
@@ -28,8 +28,8 @@ import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.core.platform.VectorBaseActivity
+import dev.getzen.element.R
+import dev.getzen.element.core.platform.VectorBaseActivity
 
 // Permissions sets
 val PERMISSIONS_EMPTY = emptyList<String>()

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.crypto.keys
+package dev.getzen.element.features.crypto.keys
 
 import android.content.Context
 import android.net.Uri
-import im.vector.app.core.intent.getMimeTypeFromUri
-import im.vector.app.core.resources.openResource
+import dev.getzen.element.core.intent.getMimeTypeFromUri
+import dev.getzen.element.core.resources.openResource
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import org.matrix.android.sdk.api.session.Session

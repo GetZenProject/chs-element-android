@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.onboarding.ftueauth
+package dev.getzen.element.features.onboarding.ftueauth
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -22,10 +22,10 @@ import android.view.View
 import android.view.ViewGroup
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.databinding.FragmentLoginResetPasswordMailConfirmationBinding
-import im.vector.app.features.onboarding.OnboardingAction
-import im.vector.app.features.onboarding.OnboardingViewState
+import dev.getzen.element.R
+import dev.getzen.element.databinding.FragmentLoginResetPasswordMailConfirmationBinding
+import dev.getzen.element.features.onboarding.OnboardingAction
+import dev.getzen.element.features.onboarding.OnboardingViewState
 import org.matrix.android.sdk.api.failure.is401
 
 /**

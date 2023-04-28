@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.rageshake
+package dev.getzen.element.features.rageshake
 
 import android.content.Context
 import android.hardware.Sensor
@@ -23,12 +23,12 @@ import androidx.core.content.getSystemService
 import androidx.fragment.app.FragmentActivity
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.squareup.seismic.ShakeDetector
-import im.vector.app.R
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.hardware.vibrate
-import im.vector.app.features.navigation.Navigator
-import im.vector.app.features.settings.VectorPreferences
-import im.vector.app.features.settings.VectorSettingsActivity
+import dev.getzen.element.R
+import dev.getzen.element.core.di.ActiveSessionHolder
+import dev.getzen.element.core.hardware.vibrate
+import dev.getzen.element.features.navigation.Navigator
+import dev.getzen.element.features.settings.VectorPreferences
+import dev.getzen.element.features.settings.VectorSettingsActivity
 import javax.inject.Inject
 
 class RageShake @Inject constructor(

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.pin.lockscreen.ui
+package dev.getzen.element.features.pin.lockscreen.ui
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -26,13 +26,13 @@ import androidx.core.view.isVisible
 import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.hardware.vibrate
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.databinding.FragmentLockScreenBinding
-import im.vector.app.features.pin.lockscreen.configuration.LockScreenConfiguration
-import im.vector.app.features.pin.lockscreen.configuration.LockScreenMode
-import im.vector.app.features.pin.lockscreen.views.LockScreenCodeView
+import dev.getzen.element.R
+import dev.getzen.element.core.hardware.vibrate
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.databinding.FragmentLockScreenBinding
+import dev.getzen.element.features.pin.lockscreen.configuration.LockScreenConfiguration
+import dev.getzen.element.features.pin.lockscreen.configuration.LockScreenMode
+import dev.getzen.element.features.pin.lockscreen.views.LockScreenCodeView
 
 @AndroidEntryPoint
 class LockScreenFragment :

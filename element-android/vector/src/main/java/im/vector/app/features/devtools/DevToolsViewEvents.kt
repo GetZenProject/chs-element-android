@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.devtools
+package dev.getzen.element.features.devtools
 
-import im.vector.app.core.platform.VectorViewEvents
+import dev.getzen.element.core.platform.VectorViewEvents
 
 sealed class DevToolsViewEvents : VectorViewEvents {
     object Dismiss : DevToolsViewEvents()

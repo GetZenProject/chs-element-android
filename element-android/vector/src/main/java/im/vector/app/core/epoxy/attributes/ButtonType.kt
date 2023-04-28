@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.epoxy.attributes
+package dev.getzen.element.core.epoxy.attributes
 
 enum class ButtonType {
     NO_BUTTON,

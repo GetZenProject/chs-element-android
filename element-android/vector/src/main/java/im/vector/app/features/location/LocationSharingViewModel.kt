@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.location
+package dev.getzen.element.features.location
 
 import android.graphics.drawable.Drawable
 import com.airbnb.mvrx.MavericksViewModelFactory
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
-import im.vector.app.core.di.MavericksAssistedViewModelFactory
-import im.vector.app.core.di.hiltMavericksViewModelFactory
-import im.vector.app.core.platform.VectorViewModel
-import im.vector.app.features.home.room.detail.timeline.helper.LocationPinProvider
-import im.vector.app.features.location.domain.usecase.CompareLocationsUseCase
-import im.vector.app.features.powerlevel.PowerLevelsFlowFactory
-import im.vector.app.features.settings.VectorPreferences
+import dev.getzen.element.core.di.MavericksAssistedViewModelFactory
+import dev.getzen.element.core.di.hiltMavericksViewModelFactory
+import dev.getzen.element.core.platform.VectorViewModel
+import dev.getzen.element.features.home.room.detail.timeline.helper.LocationPinProvider
+import dev.getzen.element.features.location.domain.usecase.CompareLocationsUseCase
+import dev.getzen.element.features.powerlevel.PowerLevelsFlowFactory
+import dev.getzen.element.features.settings.VectorPreferences
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.lastOrNull

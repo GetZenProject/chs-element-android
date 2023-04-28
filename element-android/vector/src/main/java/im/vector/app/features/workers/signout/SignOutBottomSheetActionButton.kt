@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.workers.signout
+package dev.getzen.element.features.workers.signout
 
 import android.content.Context
 import android.content.res.ColorStateList
@@ -23,10 +23,10 @@ import android.util.AttributeSet
 import android.widget.FrameLayout
 import androidx.core.content.withStyledAttributes
 import androidx.core.view.isVisible
-import im.vector.app.R
-import im.vector.app.core.extensions.setTextOrHide
-import im.vector.app.databinding.ViewSignOutBottomSheetActionButtonBinding
-import im.vector.app.features.themes.ThemeUtils
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.setTextOrHide
+import dev.getzen.element.databinding.ViewSignOutBottomSheetActionButtonBinding
+import dev.getzen.element.features.themes.ThemeUtils
 
 class SignOutBottomSheetActionButton @JvmOverloads constructor(
         context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0

@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.reactions.data
+package dev.getzen.element.features.reactions.data
 
 import android.content.res.Resources
 import android.graphics.Paint
 import androidx.core.graphics.PaintCompat
 import com.squareup.moshi.Moshi
-import im.vector.app.R
+import dev.getzen.element.R
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.CoroutineStart
 import kotlinx.coroutines.Dispatchers

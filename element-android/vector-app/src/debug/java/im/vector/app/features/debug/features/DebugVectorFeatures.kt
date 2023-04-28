@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.debug.features
+package dev.getzen.element.features.debug.features
 
 import android.content.Context
 import androidx.datastore.core.DataStore
@@ -24,9 +24,9 @@ import androidx.datastore.preferences.core.booleanPreferencesKey
 import androidx.datastore.preferences.core.edit
 import androidx.datastore.preferences.core.stringPreferencesKey
 import androidx.datastore.preferences.preferencesDataStore
-import im.vector.app.config.OnboardingVariant
-import im.vector.app.features.DefaultVectorFeatures
-import im.vector.app.features.VectorFeatures
+import dev.getzen.element.config.OnboardingVariant
+import dev.getzen.element.features.DefaultVectorFeatures
+import dev.getzen.element.features.VectorFeatures
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.runBlocking
 import kotlin.reflect.KClass

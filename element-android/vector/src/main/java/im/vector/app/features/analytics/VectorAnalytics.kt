@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.analytics
+package dev.getzen.element.features.analytics
 
-import im.vector.app.features.analytics.errors.ErrorTracker
+import dev.getzen.element.features.analytics.errors.ErrorTracker
 import kotlinx.coroutines.flow.Flow
 
 interface VectorAnalytics : AnalyticsTracker, ErrorTracker {

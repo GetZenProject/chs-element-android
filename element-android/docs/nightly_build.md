@@ -10,7 +10,7 @@
 
 ## Configuration
 
-The nightly build will contain what's on develop, in release mode, for Gplay variant. It is signed using a dedicated signature, and has a dedicated appId (`im.vector.app.nightly`), so it can be installed along with the production version of Element Android. The only other difference compared to Element Android is a different app icon background. We do not want to change the app name since it will also affect some strings in the app, and we do want to do that.
+The nightly build will contain what's on develop, in release mode, for Gplay variant. It is signed using a dedicated signature, and has a dedicated appId (`dev.getzen.element.nightly`), so it can be installed along with the production version of Element Android. The only other difference compared to Element Android is a different app icon background. We do not want to change the app name since it will also affect some strings in the app, and we do want to do that.
 
 Nightly builds are built and released to Firebase every days, and automatically.
 

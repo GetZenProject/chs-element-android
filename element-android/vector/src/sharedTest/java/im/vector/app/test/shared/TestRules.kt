@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.test.shared
+package dev.getzen.element.test.shared
 
 import net.lachlanmckee.timberjunit.TimberTestRule
 

@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.test.fixtures
+package dev.getzen.element.test.fixtures
 
-import im.vector.app.features.settings.devices.v2.DeviceFullInfo
-import im.vector.app.features.settings.devices.v2.details.extended.DeviceExtendedInfo
-import im.vector.app.features.settings.devices.v2.list.DeviceType
+import dev.getzen.element.features.settings.devices.v2.DeviceFullInfo
+import dev.getzen.element.features.settings.devices.v2.details.extended.DeviceExtendedInfo
+import dev.getzen.element.features.settings.devices.v2.list.DeviceType
 import org.matrix.android.sdk.api.session.crypto.model.DeviceInfo
 import org.matrix.android.sdk.api.session.crypto.model.RoomEncryptionTrustLevel
 

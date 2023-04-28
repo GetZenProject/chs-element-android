@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.navigation
+package dev.getzen.element.features.navigation
 
-import im.vector.app.test.fakes.FakeActiveSessionHolder
-import im.vector.app.test.fakes.FakeAnalyticsTracker
-import im.vector.app.test.fakes.FakeContext
-import im.vector.app.test.fakes.FakeDebugNavigator
-import im.vector.app.test.fakes.FakeSpaceStateHandler
-import im.vector.app.test.fakes.FakeSupportedVerificationMethodsProvider
-import im.vector.app.test.fakes.FakeVectorFeatures
-import im.vector.app.test.fakes.FakeVectorPreferences
-import im.vector.app.test.fakes.FakeWidgetArgsBuilder
-import im.vector.app.test.fixtures.RoomSummaryFixture.aRoomSummary
+import dev.getzen.element.test.fakes.FakeActiveSessionHolder
+import dev.getzen.element.test.fakes.FakeAnalyticsTracker
+import dev.getzen.element.test.fakes.FakeContext
+import dev.getzen.element.test.fakes.FakeDebugNavigator
+import dev.getzen.element.test.fakes.FakeSpaceStateHandler
+import dev.getzen.element.test.fakes.FakeSupportedVerificationMethodsProvider
+import dev.getzen.element.test.fakes.FakeVectorFeatures
+import dev.getzen.element.test.fakes.FakeVectorPreferences
+import dev.getzen.element.test.fakes.FakeWidgetArgsBuilder
+import dev.getzen.element.test.fixtures.RoomSummaryFixture.aRoomSummary
 import org.junit.Test
 
 internal class DefaultNavigatorTest {

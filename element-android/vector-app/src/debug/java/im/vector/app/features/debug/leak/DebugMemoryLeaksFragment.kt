@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.debug.leak
+package dev.getzen.element.features.debug.leak
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -23,9 +23,9 @@ import android.view.ViewGroup
 import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.core.epoxy.onClick
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.application.databinding.FragmentDebugMemoryLeaksBinding
+import dev.getzen.element.core.epoxy.onClick
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.elementlication.databinding.FragmentDebugMemoryLeaksBinding
 
 @AndroidEntryPoint
 class DebugMemoryLeaksFragment :

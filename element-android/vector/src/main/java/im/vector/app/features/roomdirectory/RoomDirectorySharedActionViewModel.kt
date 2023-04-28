@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomdirectory
+package dev.getzen.element.features.roomdirectory
 
-import im.vector.app.core.platform.VectorSharedActionViewModel
+import dev.getzen.element.core.platform.VectorSharedActionViewModel
 import javax.inject.Inject
 
 class RoomDirectorySharedActionViewModel @Inject constructor() : VectorSharedActionViewModel<RoomDirectorySharedAction>()

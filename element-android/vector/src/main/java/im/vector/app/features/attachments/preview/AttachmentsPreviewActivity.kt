@@ -15,15 +15,15 @@
  *
  */
 
-package im.vector.app.features.attachments.preview
+package dev.getzen.element.features.attachments.preview
 
 import android.content.Context
 import android.content.Intent
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.core.extensions.addFragment
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.databinding.ActivitySimpleBinding
-import im.vector.app.features.themes.ActivityOtherThemes
+import dev.getzen.element.core.extensions.addFragment
+import dev.getzen.element.core.platform.VectorBaseActivity
+import dev.getzen.element.databinding.ActivitySimpleBinding
+import dev.getzen.element.features.themes.ActivityOtherThemes
 import im.vector.lib.core.utils.compat.getParcelableArrayListExtraCompat
 import im.vector.lib.core.utils.compat.getParcelableCompat
 import org.matrix.android.sdk.api.session.content.ContentAttachmentData

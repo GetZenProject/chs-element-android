@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.manage
+package dev.getzen.element.features.spaces.manage
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -33,12 +33,12 @@ import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.platform.OnBackPressed
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.platform.VectorMenuProvider
-import im.vector.app.databinding.FragmentSpaceAddRoomsBinding
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.cleanup
+import dev.getzen.element.core.platform.OnBackPressed
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.core.platform.VectorMenuProvider
+import dev.getzen.element.databinding.FragmentSpaceAddRoomsBinding
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.debounce
 import kotlinx.coroutines.flow.launchIn

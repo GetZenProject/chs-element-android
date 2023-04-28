@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.webview
+package dev.getzen.element.features.webview
 
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.core.utils.weak
+import dev.getzen.element.core.platform.VectorBaseActivity
+import dev.getzen.element.core.utils.weak
 import org.matrix.android.sdk.api.MatrixCallback
 import org.matrix.android.sdk.api.session.Session
 import timber.log.Timber

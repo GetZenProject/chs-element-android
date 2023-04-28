@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.resources
+package dev.getzen.element.core.resources
 
 import android.content.Context
-import im.vector.app.core.utils.getApplicationLabel
+import dev.getzen.element.core.utils.getApplicationLabel
 import timber.log.Timber
 import javax.inject.Inject
 

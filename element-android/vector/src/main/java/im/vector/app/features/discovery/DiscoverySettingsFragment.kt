@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.discovery
+package dev.getzen.element.features.discovery
 
 import android.app.Activity
 import android.os.Bundle
@@ -26,19 +26,19 @@ import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.extensions.observeEvent
-import im.vector.app.core.extensions.registerStartForActivityResult
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.utils.ensureProtocol
-import im.vector.app.core.utils.openUrlInChromeCustomTab
-import im.vector.app.core.utils.showIdentityServerConsentDialog
-import im.vector.app.databinding.FragmentGenericRecyclerBinding
-import im.vector.app.features.discovery.change.SetIdentityServerFragment
-import im.vector.app.features.navigation.SettingsActivityPayload
-import im.vector.app.features.settings.VectorSettingsActivity
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.cleanup
+import dev.getzen.element.core.extensions.configureWith
+import dev.getzen.element.core.extensions.observeEvent
+import dev.getzen.element.core.extensions.registerStartForActivityResult
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.core.utils.ensureProtocol
+import dev.getzen.element.core.utils.openUrlInChromeCustomTab
+import dev.getzen.element.core.utils.showIdentityServerConsentDialog
+import dev.getzen.element.databinding.FragmentGenericRecyclerBinding
+import dev.getzen.element.features.discovery.change.SetIdentityServerFragment
+import dev.getzen.element.features.navigation.SettingsActivityPayload
+import dev.getzen.element.features.settings.VectorSettingsActivity
 import org.matrix.android.sdk.api.session.identity.SharedState
 import org.matrix.android.sdk.api.session.identity.ThreePid
 import org.matrix.android.sdk.api.session.terms.TermsService

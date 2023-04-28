@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.autocomplete.member
+package dev.getzen.element.features.autocomplete.member
 
 import android.content.Context
 import com.airbnb.epoxy.TypedEpoxyController
-import im.vector.app.R
-import im.vector.app.features.autocomplete.AutocompleteClickListener
-import im.vector.app.features.autocomplete.autocompleteHeaderItem
-import im.vector.app.features.autocomplete.autocompleteMatrixItem
-import im.vector.app.features.home.AvatarRenderer
+import dev.getzen.element.R
+import dev.getzen.element.features.autocomplete.AutocompleteClickListener
+import dev.getzen.element.features.autocomplete.autocompleteHeaderItem
+import dev.getzen.element.features.autocomplete.autocompleteMatrixItem
+import dev.getzen.element.features.home.AvatarRenderer
 import org.matrix.android.sdk.api.util.toEveryoneInRoomMatrixItem
 import org.matrix.android.sdk.api.util.toMatrixItem
 import javax.inject.Inject

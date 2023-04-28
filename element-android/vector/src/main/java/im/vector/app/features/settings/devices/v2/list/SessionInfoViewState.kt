@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2.list
+package dev.getzen.element.features.settings.devices.v2.list
 
-import im.vector.app.features.settings.devices.v2.DeviceFullInfo
+import dev.getzen.element.features.settings.devices.v2.DeviceFullInfo
 
 data class SessionInfoViewState(
         val isCurrentSession: Boolean,

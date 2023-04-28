@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.extensions
+package dev.getzen.element.core.extensions
 
 fun Int.incrementByOneAndWrap(max: Int, min: Int = 0): Int {
     val incrementedValue = this + 1

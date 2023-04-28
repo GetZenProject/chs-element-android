@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.onboarding.ftueauth
+package dev.getzen.element.features.onboarding.ftueauth
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -23,14 +23,14 @@ import android.view.ViewGroup
 import androidx.lifecycle.lifecycleScope
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.hideKeyboard
-import im.vector.app.core.extensions.hidePassword
-import im.vector.app.core.extensions.isEmail
-import im.vector.app.core.extensions.toReducedUrl
-import im.vector.app.databinding.FragmentLoginResetPasswordBinding
-import im.vector.app.features.onboarding.OnboardingAction
-import im.vector.app.features.onboarding.OnboardingViewState
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.hideKeyboard
+import dev.getzen.element.core.extensions.hidePassword
+import dev.getzen.element.core.extensions.isEmail
+import dev.getzen.element.core.extensions.toReducedUrl
+import dev.getzen.element.databinding.FragmentLoginResetPasswordBinding
+import dev.getzen.element.features.onboarding.OnboardingAction
+import dev.getzen.element.features.onboarding.OnboardingViewState
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.map

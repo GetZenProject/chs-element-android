@@ -62,7 +62,7 @@
         tools:ignore="MissingConstraints" />
 
     <!-- Note: this is always gone now -->
-    <im.vector.app.core.ui.views.ShieldImageView
+    <dev.getzen.element.core.ui.views.ShieldImageView
         android:id="@+id/roomAvatarDecorationImageView"
         android:layout_width="24dp"
         android:layout_height="24dp"
@@ -87,7 +87,7 @@
         tools:ignore="MissingConstraints"
         tools:visibility="visible" />
 
-    <im.vector.app.core.ui.views.PresenceStateImageView
+    <dev.getzen.element.core.ui.views.PresenceStateImageView
         android:id="@+id/roomAvatarPresenceImageView"
         android:layout_width="16dp"
         android:layout_height="16dp"
@@ -150,7 +150,7 @@
         tools:ignore="MissingPrefix"
         tools:visibility="visible" />
 
-    <im.vector.app.features.home.room.list.UnreadCounterBadgeView
+    <dev.getzen.element.features.home.room.list.UnreadCounterBadgeView
         android:id="@+id/roomUnreadCounterBadgeView"
         style="@style/Widget.Vector.TextView.Micro"
         android:layout_width="wrap_content"

@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.composer.link
+package dev.getzen.element.features.home.room.detail.composer.link
 
 import com.airbnb.mvrx.MavericksViewModelFactory
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
-import im.vector.app.core.di.MavericksAssistedViewModelFactory
-import im.vector.app.core.di.hiltMavericksViewModelFactory
-import im.vector.app.core.platform.VectorViewModel
+import dev.getzen.element.core.di.MavericksAssistedViewModelFactory
+import dev.getzen.element.core.di.hiltMavericksViewModelFactory
+import dev.getzen.element.core.platform.VectorViewModel
 
 class SetLinkViewModel @AssistedInject constructor(
         @Assisted private val initialState: SetLinkViewState,

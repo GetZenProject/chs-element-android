@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.composer.voice
+package dev.getzen.element.features.home.room.detail.composer.voice
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -24,22 +24,22 @@ import androidx.core.view.isVisible
 import com.airbnb.mvrx.parentFragmentViewModel
 import com.airbnb.mvrx.withState
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.hardware.vibrate
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.utils.PERMISSIONS_FOR_VOICE_MESSAGE
-import im.vector.app.core.utils.checkPermissions
-import im.vector.app.core.utils.onPermissionDeniedSnackbar
-import im.vector.app.core.utils.registerForPermissionsResult
-import im.vector.app.databinding.FragmentVoiceRecorderBinding
-import im.vector.app.features.home.room.detail.TimelineViewModel
-import im.vector.app.features.home.room.detail.composer.MessageComposerAction
-import im.vector.app.features.home.room.detail.composer.MessageComposerViewEvents
-import im.vector.app.features.home.room.detail.composer.MessageComposerViewModel
-import im.vector.app.features.home.room.detail.composer.MessageComposerViewState
-import im.vector.app.features.home.room.detail.composer.SendMode
-import im.vector.app.features.home.room.detail.composer.boolean
-import im.vector.app.features.home.room.detail.timeline.helper.AudioMessagePlaybackTracker
+import dev.getzen.element.R
+import dev.getzen.element.core.hardware.vibrate
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.core.utils.PERMISSIONS_FOR_VOICE_MESSAGE
+import dev.getzen.element.core.utils.checkPermissions
+import dev.getzen.element.core.utils.onPermissionDeniedSnackbar
+import dev.getzen.element.core.utils.registerForPermissionsResult
+import dev.getzen.element.databinding.FragmentVoiceRecorderBinding
+import dev.getzen.element.features.home.room.detail.TimelineViewModel
+import dev.getzen.element.features.home.room.detail.composer.MessageComposerAction
+import dev.getzen.element.features.home.room.detail.composer.MessageComposerViewEvents
+import dev.getzen.element.features.home.room.detail.composer.MessageComposerViewModel
+import dev.getzen.element.features.home.room.detail.composer.MessageComposerViewState
+import dev.getzen.element.features.home.room.detail.composer.SendMode
+import dev.getzen.element.features.home.room.detail.composer.boolean
+import dev.getzen.element.features.home.room.detail.timeline.helper.AudioMessagePlaybackTracker
 import im.vector.lib.core.utils.timer.Clock
 import javax.inject.Inject
 

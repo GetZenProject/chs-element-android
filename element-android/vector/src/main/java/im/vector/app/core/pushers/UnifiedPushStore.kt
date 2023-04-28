@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.pushers
+package dev.getzen.element.core.pushers
 
 import android.content.Context
 import android.content.SharedPreferences
 import androidx.core.content.edit
-import im.vector.app.core.di.DefaultPreferences
+import dev.getzen.element.core.di.DefaultPreferences
 import javax.inject.Inject
 
 class UnifiedPushStore @Inject constructor(

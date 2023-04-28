@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.screenshot
+package dev.getzen.element.screenshot
 
 import android.os.Build
 import app.cash.paparazzi.DeviceConfig.Companion.PIXEL_3

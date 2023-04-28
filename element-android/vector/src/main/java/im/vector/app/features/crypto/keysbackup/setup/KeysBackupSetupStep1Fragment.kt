@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.crypto.keysbackup.setup
+package dev.getzen.element.features.crypto.keysbackup.setup
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.utils.LiveEvent
-import im.vector.app.databinding.FragmentKeysBackupSetupStep1Binding
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.core.utils.LiveEvent
+import dev.getzen.element.databinding.FragmentKeysBackupSetupStep1Binding
 
 @AndroidEntryPoint
 class KeysBackupSetupStep1Fragment :

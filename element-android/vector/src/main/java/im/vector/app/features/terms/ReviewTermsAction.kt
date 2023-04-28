@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.terms
+package dev.getzen.element.features.terms
 
-import im.vector.app.core.platform.VectorViewModelAction
+import dev.getzen.element.core.platform.VectorViewModelAction
 
 sealed class ReviewTermsAction : VectorViewModelAction {
     data class LoadTerms(val preferredLanguageCode: String) : ReviewTermsAction()

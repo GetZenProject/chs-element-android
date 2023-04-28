@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.composer.voice
+package dev.getzen.element.features.home.room.detail.composer.voice
 
 import android.content.Context
 import android.util.AttributeSet
 import android.view.View
 import androidx.constraintlayout.widget.ConstraintLayout
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.hardware.vibrate
-import im.vector.app.core.utils.DimensionConverter
-import im.vector.app.databinding.ViewVoiceMessageRecorderBinding
-import im.vector.app.features.home.room.detail.timeline.helper.AudioMessagePlaybackTracker
+import dev.getzen.element.R
+import dev.getzen.element.core.hardware.vibrate
+import dev.getzen.element.core.utils.DimensionConverter
+import dev.getzen.element.databinding.ViewVoiceMessageRecorderBinding
+import dev.getzen.element.features.home.room.detail.timeline.helper.AudioMessagePlaybackTracker
 import im.vector.lib.core.utils.timer.Clock
 import im.vector.lib.core.utils.timer.CountUpTimer
 import javax.inject.Inject

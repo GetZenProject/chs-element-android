@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.html
+package dev.getzen.element.features.html
 
 import android.graphics.Canvas
 import android.graphics.Paint

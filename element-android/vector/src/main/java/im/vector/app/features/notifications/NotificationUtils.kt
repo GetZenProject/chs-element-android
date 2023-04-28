@@ -16,7 +16,7 @@
 
 @file:Suppress("UNUSED_PARAMETER")
 
-package im.vector.app.features.notifications
+package dev.getzen.element.features.notifications
 
 import android.annotation.SuppressLint
 import android.app.Notification
@@ -45,25 +45,25 @@ import androidx.core.content.getSystemService
 import androidx.core.content.res.ResourcesCompat
 import androidx.core.graphics.drawable.IconCompat
 import androidx.fragment.app.Fragment
-import im.vector.app.R
-import im.vector.app.core.extensions.createIgnoredUri
-import im.vector.app.core.platform.PendingIntentCompat
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.services.CallAndroidService
-import im.vector.app.core.utils.startNotificationChannelSettingsIntent
-import im.vector.app.features.MainActivity
-import im.vector.app.features.call.VectorCallActivity
-import im.vector.app.features.call.service.CallHeadsUpActionReceiver
-import im.vector.app.features.call.webrtc.WebRtcCall
-import im.vector.app.features.displayname.getBestName
-import im.vector.app.features.home.HomeActivity
-import im.vector.app.features.home.room.detail.RoomDetailActivity
-import im.vector.app.features.home.room.detail.arguments.TimelineArgs
-import im.vector.app.features.home.room.threads.ThreadsActivity
-import im.vector.app.features.home.room.threads.arguments.ThreadTimelineArgs
-import im.vector.app.features.settings.VectorPreferences
-import im.vector.app.features.settings.troubleshoot.TestNotificationReceiver
-import im.vector.app.features.themes.ThemeUtils
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.createIgnoredUri
+import dev.getzen.element.core.platform.PendingIntentCompat
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.core.services.CallAndroidService
+import dev.getzen.element.core.utils.startNotificationChannelSettingsIntent
+import dev.getzen.element.features.MainActivity
+import dev.getzen.element.features.call.VectorCallActivity
+import dev.getzen.element.features.call.service.CallHeadsUpActionReceiver
+import dev.getzen.element.features.call.webrtc.WebRtcCall
+import dev.getzen.element.features.displayname.getBestName
+import dev.getzen.element.features.home.HomeActivity
+import dev.getzen.element.features.home.room.detail.RoomDetailActivity
+import dev.getzen.element.features.home.room.detail.arguments.TimelineArgs
+import dev.getzen.element.features.home.room.threads.ThreadsActivity
+import dev.getzen.element.features.home.room.threads.arguments.ThreadTimelineArgs
+import dev.getzen.element.features.settings.VectorPreferences
+import dev.getzen.element.features.settings.troubleshoot.TestNotificationReceiver
+import dev.getzen.element.features.themes.ThemeUtils
 import im.vector.lib.core.utils.timer.Clock
 import timber.log.Timber
 import javax.inject.Inject

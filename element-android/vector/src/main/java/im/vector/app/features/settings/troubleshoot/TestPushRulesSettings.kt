@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.settings.troubleshoot
+package dev.getzen.element.features.settings.troubleshoot
 
-import im.vector.app.R
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.notifications.toNotificationAction
+import dev.getzen.element.R
+import dev.getzen.element.core.di.ActiveSessionHolder
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.features.notifications.toNotificationAction
 import org.matrix.android.sdk.api.session.pushrules.RuleIds
 import org.matrix.android.sdk.api.session.pushrules.getActions
 import javax.inject.Inject

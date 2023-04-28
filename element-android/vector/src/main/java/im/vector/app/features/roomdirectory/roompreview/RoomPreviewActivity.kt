@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomdirectory.roompreview
+package dev.getzen.element.features.roomdirectory.roompreview
 
 import android.content.Context
 import android.content.Intent
 import android.os.Parcelable
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.core.extensions.addFragment
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.databinding.ActivitySimpleBinding
-import im.vector.app.features.roomdirectory.RoomDirectoryData
+import dev.getzen.element.core.extensions.addFragment
+import dev.getzen.element.core.platform.VectorBaseActivity
+import dev.getzen.element.databinding.ActivitySimpleBinding
+import dev.getzen.element.features.roomdirectory.RoomDirectoryData
 import im.vector.lib.core.utils.compat.getParcelableExtraCompat
 import kotlinx.parcelize.Parcelize
 import org.matrix.android.sdk.api.session.permalinks.PermalinkData

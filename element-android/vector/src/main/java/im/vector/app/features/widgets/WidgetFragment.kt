@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.widgets
+package dev.getzen.element.features.widgets
 
 import android.app.Activity
 import android.content.Intent
@@ -39,19 +39,19 @@ import com.airbnb.mvrx.args
 import com.airbnb.mvrx.withState
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.registerStartForActivityResult
-import im.vector.app.core.platform.OnBackPressed
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.platform.VectorMenuProvider
-import im.vector.app.core.utils.CheckWebViewPermissionsUseCase
-import im.vector.app.core.utils.openUrlInExternalBrowser
-import im.vector.app.databinding.FragmentRoomWidgetBinding
-import im.vector.app.features.settings.VectorPreferences
-import im.vector.app.features.webview.WebEventListener
-import im.vector.app.features.widgets.webview.WebviewPermissionUtils
-import im.vector.app.features.widgets.webview.clearAfterWidget
-import im.vector.app.features.widgets.webview.setupForWidget
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.registerStartForActivityResult
+import dev.getzen.element.core.platform.OnBackPressed
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.core.platform.VectorMenuProvider
+import dev.getzen.element.core.utils.CheckWebViewPermissionsUseCase
+import dev.getzen.element.core.utils.openUrlInExternalBrowser
+import dev.getzen.element.databinding.FragmentRoomWidgetBinding
+import dev.getzen.element.features.settings.VectorPreferences
+import dev.getzen.element.features.webview.WebEventListener
+import dev.getzen.element.features.widgets.webview.WebviewPermissionUtils
+import dev.getzen.element.features.widgets.webview.clearAfterWidget
+import dev.getzen.element.features.widgets.webview.setupForWidget
 import im.vector.lib.core.utils.compat.resolveActivityCompat
 import kotlinx.parcelize.Parcelize
 import org.matrix.android.sdk.api.session.terms.TermsService

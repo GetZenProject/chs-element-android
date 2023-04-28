@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2.details.extended
+package dev.getzen.element.features.settings.devices.v2.details.extended
 
-import im.vector.app.features.settings.devices.v2.list.DeviceType
+import dev.getzen.element.features.settings.devices.v2.list.DeviceType
 
 data class DeviceExtendedInfo(
         /**

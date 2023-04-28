@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.glide
+package dev.getzen.element.core.glide
 
 import android.content.Context
 import com.bumptech.glide.Priority
@@ -25,10 +25,10 @@ import com.bumptech.glide.load.model.ModelLoader
 import com.bumptech.glide.load.model.ModelLoaderFactory
 import com.bumptech.glide.load.model.MultiModelLoaderFactory
 import com.bumptech.glide.signature.ObjectKey
-import im.vector.app.core.extensions.singletonEntryPoint
-import im.vector.app.core.files.LocalFilesHelper
-import im.vector.app.features.media.ImageContentRenderer
-import im.vector.app.features.session.coroutineScope
+import dev.getzen.element.core.extensions.singletonEntryPoint
+import dev.getzen.element.core.files.LocalFilesHelper
+import dev.getzen.element.features.media.ImageContentRenderer
+import dev.getzen.element.features.session.coroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

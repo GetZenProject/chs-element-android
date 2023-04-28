@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.ui.robot
+package dev.getzen.element.ui.robot
 
 import androidx.recyclerview.widget.RecyclerView
 import androidx.test.espresso.Espresso.closeSoftKeyboard
@@ -32,13 +32,13 @@ import com.adevinta.android.barista.interaction.BaristaEditTextInteractions.writ
 import com.adevinta.android.barista.interaction.BaristaMenuClickInteractions.clickMenu
 import com.adevinta.android.barista.interaction.BaristaMenuClickInteractions.openMenu
 import com.google.android.material.bottomsheet.BottomSheetBehavior
-import im.vector.app.R
-import im.vector.app.espresso.tools.waitUntilViewVisible
-import im.vector.app.features.home.room.detail.timeline.action.MessageActionsBottomSheet
-import im.vector.app.features.home.room.detail.timeline.reactions.ViewReactionsBottomSheet
-import im.vector.app.features.reactions.data.EmojiDataSource
-import im.vector.app.interactWithSheet
-import im.vector.app.withRetry
+import dev.getzen.element.R
+import dev.getzen.element.espresso.tools.waitUntilViewVisible
+import dev.getzen.element.features.home.room.detail.timeline.action.MessageActionsBottomSheet
+import dev.getzen.element.features.home.room.detail.timeline.reactions.ViewReactionsBottomSheet
+import dev.getzen.element.features.reactions.data.EmojiDataSource
+import dev.getzen.element.interactWithSheet
+import dev.getzen.element.withRetry
 import java.lang.Thread.sleep
 
 class RoomDetailRobot {

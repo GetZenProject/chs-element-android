@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.utils
+package dev.getzen.element.core.utils
 
-import im.vector.app.R
-import im.vector.app.core.resources.ColorProvider
+import dev.getzen.element.R
+import dev.getzen.element.core.resources.ColorProvider
 import org.billcarsonfr.jsonviewer.JSonViewerStyleProvider
 
 fun createJSonViewerStyleProvider(colorProvider: ColorProvider): JSonViewerStyleProvider {

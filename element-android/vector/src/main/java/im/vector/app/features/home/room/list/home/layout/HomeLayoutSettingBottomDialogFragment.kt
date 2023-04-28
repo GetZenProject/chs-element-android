@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.list.home.layout
+package dev.getzen.element.features.home.room.list.home.layout
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -22,11 +22,11 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.lifecycle.lifecycleScope
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.platform.VectorBaseBottomSheetDialogFragment
-import im.vector.app.databinding.BottomSheetHomeLayoutSettingsBinding
-import im.vector.app.features.analytics.plan.Interaction
-import im.vector.app.features.home.room.list.home.HomeLayoutPreferencesStore
+import dev.getzen.element.R
+import dev.getzen.element.core.platform.VectorBaseBottomSheetDialogFragment
+import dev.getzen.element.databinding.BottomSheetHomeLayoutSettingsBinding
+import dev.getzen.element.features.analytics.plan.Interaction
+import dev.getzen.element.features.home.room.list.home.HomeLayoutPreferencesStore
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch
 import javax.inject.Inject

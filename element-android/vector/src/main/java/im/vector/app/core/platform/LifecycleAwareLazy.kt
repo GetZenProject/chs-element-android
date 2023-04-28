@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.platform
+package dev.getzen.element.core.platform
 
 import androidx.annotation.MainThread
 import androidx.fragment.app.Fragment

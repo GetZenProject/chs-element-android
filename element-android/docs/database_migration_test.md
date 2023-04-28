@@ -26,7 +26,7 @@ RealmKeysUtils  W  Database key for alias `crypto_module_fe9f212a611ccf6dea11417
 
 Use the [Device File Explorer](https://developer.android.com/studio/debug/device-file-explorer) to extrat the database file from the emulator.
 
-Go to `data/data/im.vector.app.debug/files/<hash>/`
+Go to `data/data/dev.getzen.element.debug/files/<hash>/`
 Pick the database you want to test (name can be found in SessionRealmConfigurationFactory):
  - crypto_store.realm for crypto
  - disk_store.realm for session

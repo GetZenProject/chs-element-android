@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.widget
+package dev.getzen.element.features.home.room.detail.widget
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -23,16 +23,16 @@ import android.view.ViewGroup
 import com.airbnb.mvrx.parentFragmentViewModel
 import com.airbnb.mvrx.withState
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.platform.VectorBaseBottomSheetDialogFragment
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.databinding.BottomSheetGenericListWithTitleBinding
-import im.vector.app.features.home.room.detail.RoomDetailAction
-import im.vector.app.features.home.room.detail.RoomDetailViewState
-import im.vector.app.features.home.room.detail.TimelineViewModel
-import im.vector.app.features.navigation.Navigator
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.cleanup
+import dev.getzen.element.core.extensions.configureWith
+import dev.getzen.element.core.platform.VectorBaseBottomSheetDialogFragment
+import dev.getzen.element.core.resources.ColorProvider
+import dev.getzen.element.databinding.BottomSheetGenericListWithTitleBinding
+import dev.getzen.element.features.home.room.detail.RoomDetailAction
+import dev.getzen.element.features.home.room.detail.RoomDetailViewState
+import dev.getzen.element.features.home.room.detail.TimelineViewModel
+import dev.getzen.element.features.navigation.Navigator
 import org.matrix.android.sdk.api.session.widgets.model.Widget
 import javax.inject.Inject
 

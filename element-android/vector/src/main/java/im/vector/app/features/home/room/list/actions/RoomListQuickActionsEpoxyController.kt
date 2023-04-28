@@ -13,20 +13,20 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.home.room.list.actions
+package dev.getzen.element.features.home.room.list.actions
 
 import androidx.annotation.StringRes
 import com.airbnb.epoxy.TypedEpoxyController
-import im.vector.app.R
-import im.vector.app.core.epoxy.bottomSheetDividerItem
-import im.vector.app.core.epoxy.bottomsheet.bottomSheetActionItem
-import im.vector.app.core.epoxy.bottomsheet.bottomSheetRoomPreviewItem
-import im.vector.app.core.epoxy.profiles.notifications.radioButtonItem
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.roomprofile.notifications.notificationOptions
-import im.vector.app.features.roomprofile.notifications.notificationStateMapped
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.bottomSheetDividerItem
+import dev.getzen.element.core.epoxy.bottomsheet.bottomSheetActionItem
+import dev.getzen.element.core.epoxy.bottomsheet.bottomSheetRoomPreviewItem
+import dev.getzen.element.core.epoxy.profiles.notifications.radioButtonItem
+import dev.getzen.element.core.resources.ColorProvider
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.features.home.AvatarRenderer
+import dev.getzen.element.features.roomprofile.notifications.notificationOptions
+import dev.getzen.element.features.roomprofile.notifications.notificationStateMapped
 import org.matrix.android.sdk.api.session.room.notification.RoomNotificationState
 import org.matrix.android.sdk.api.util.toMatrixItem
 import javax.inject.Inject

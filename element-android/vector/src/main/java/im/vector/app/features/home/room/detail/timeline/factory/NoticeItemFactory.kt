@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.factory
+package dev.getzen.element.features.home.room.detail.timeline.factory
 
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.home.room.detail.timeline.format.NoticeEventFormatter
-import im.vector.app.features.home.room.detail.timeline.helper.AvatarSizeProvider
-import im.vector.app.features.home.room.detail.timeline.helper.MessageInformationDataFactory
-import im.vector.app.features.home.room.detail.timeline.item.NoticeItem
-import im.vector.app.features.home.room.detail.timeline.item.NoticeItem_
+import dev.getzen.element.features.home.AvatarRenderer
+import dev.getzen.element.features.home.room.detail.timeline.format.NoticeEventFormatter
+import dev.getzen.element.features.home.room.detail.timeline.helper.AvatarSizeProvider
+import dev.getzen.element.features.home.room.detail.timeline.helper.MessageInformationDataFactory
+import dev.getzen.element.features.home.room.detail.timeline.item.NoticeItem
+import dev.getzen.element.features.home.room.detail.timeline.item.NoticeItem_
 import im.vector.lib.core.utils.epoxy.charsequence.EpoxyCharSequence
 import org.matrix.android.sdk.api.extensions.orFalse
 import javax.inject.Inject

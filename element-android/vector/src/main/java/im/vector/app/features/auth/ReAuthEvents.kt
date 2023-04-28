@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.auth
+package dev.getzen.element.features.auth
 
-import im.vector.app.core.platform.VectorViewEvents
+import dev.getzen.element.core.platform.VectorViewEvents
 
 sealed class ReAuthEvents : VectorViewEvents {
     data class OpenSsoURl(val url: String) : ReAuthEvents()

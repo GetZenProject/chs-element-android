@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.pushers
+package dev.getzen.element.core.pushers
 
-import im.vector.app.core.di.ActiveSessionHolder
+import dev.getzen.element.core.di.ActiveSessionHolder
 
 interface FcmHelper {
     fun isFirebaseAvailable(): Boolean

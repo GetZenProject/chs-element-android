@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.pin.lockscreen.ui
+package dev.getzen.element.features.pin.lockscreen.ui
 
 import com.airbnb.mvrx.MavericksState
-import im.vector.app.features.pin.lockscreen.configuration.LockScreenConfiguration
+import dev.getzen.element.features.pin.lockscreen.configuration.LockScreenConfiguration
 
 data class LockScreenViewState(
         val lockScreenConfiguration: LockScreenConfiguration,

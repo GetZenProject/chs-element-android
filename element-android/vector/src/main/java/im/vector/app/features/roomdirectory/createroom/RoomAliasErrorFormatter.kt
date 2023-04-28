@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomdirectory.createroom
+package dev.getzen.element.features.roomdirectory.createroom
 
-import im.vector.app.R
-import im.vector.app.core.resources.StringProvider
+import dev.getzen.element.R
+import dev.getzen.element.core.resources.StringProvider
 import org.matrix.android.sdk.api.session.room.alias.RoomAliasError
 import javax.inject.Inject
 

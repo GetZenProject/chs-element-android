@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.ui
+package dev.getzen.element.features.ui
 
-import im.vector.app.features.home.RoomListDisplayMode
+import dev.getzen.element.features.home.RoomListDisplayMode
 
 /**
  * This interface is used to persist UI state across application restart.

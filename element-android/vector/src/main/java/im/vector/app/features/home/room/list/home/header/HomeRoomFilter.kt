@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.list.home.header
+package dev.getzen.element.features.home.room.list.home.header
 
 import androidx.annotation.StringRes
-import im.vector.app.R
+import dev.getzen.element.R
 
 enum class HomeRoomFilter(@StringRes val titleRes: Int) {
     ALL(R.string.room_list_filter_all),

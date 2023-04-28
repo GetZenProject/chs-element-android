@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.onboarding
+package dev.getzen.element.features.onboarding
 
-import im.vector.app.core.extensions.containsAllItems
-import im.vector.app.features.login.LoginMode
-import im.vector.app.features.login.toSsoState
+import dev.getzen.element.core.extensions.containsAllItems
+import dev.getzen.element.features.login.LoginMode
+import dev.getzen.element.features.login.toSsoState
 import org.matrix.android.sdk.api.auth.AuthenticationService
 import org.matrix.android.sdk.api.auth.data.HomeServerConnectionConfig
 import org.matrix.android.sdk.api.auth.data.LoginFlowResult

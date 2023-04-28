@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.roomprofile.alias.detail
+package dev.getzen.element.features.roomprofile.alias.detail
 
 import com.airbnb.epoxy.TypedEpoxyController
-import im.vector.app.core.epoxy.bottomSheetDividerItem
-import im.vector.app.core.epoxy.bottomsheet.bottomSheetActionItem
-import im.vector.app.core.ui.bottomsheet.bottomSheetTitleItem
+import dev.getzen.element.core.epoxy.bottomSheetDividerItem
+import dev.getzen.element.core.epoxy.bottomsheet.bottomSheetActionItem
+import dev.getzen.element.core.ui.bottomsheet.bottomSheetTitleItem
 import javax.inject.Inject
 
 /**

@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.location.live.tracking
+package dev.getzen.element.features.location.live.tracking
 
 import android.content.Intent
 import android.os.IBinder
 import android.os.Parcelable
 import androidx.core.app.NotificationManagerCompat
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.extensions.startForegroundCompat
-import im.vector.app.core.services.VectorAndroidService
-import im.vector.app.features.location.LocationData
-import im.vector.app.features.location.LocationTracker
-import im.vector.app.features.location.live.GetLiveLocationShareSummaryUseCase
-import im.vector.app.features.redaction.CheckIfEventIsRedactedUseCase
-import im.vector.app.features.session.coroutineScope
+import dev.getzen.element.core.di.ActiveSessionHolder
+import dev.getzen.element.core.extensions.startForegroundCompat
+import dev.getzen.element.core.services.VectorAndroidService
+import dev.getzen.element.features.location.LocationData
+import dev.getzen.element.features.location.LocationTracker
+import dev.getzen.element.features.location.live.GetLiveLocationShareSummaryUseCase
+import dev.getzen.element.features.redaction.CheckIfEventIsRedactedUseCase
+import dev.getzen.element.features.session.coroutineScope
 import im.vector.lib.core.utils.compat.getParcelableExtraCompat
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Job

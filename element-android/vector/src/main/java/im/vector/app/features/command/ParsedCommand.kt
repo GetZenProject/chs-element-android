@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.command
+package dev.getzen.element.features.command
 
-import im.vector.app.features.home.room.detail.ChatEffect
+import dev.getzen.element.features.home.room.detail.ChatEffect
 import org.matrix.android.sdk.api.session.identity.ThreePid
 
 /**

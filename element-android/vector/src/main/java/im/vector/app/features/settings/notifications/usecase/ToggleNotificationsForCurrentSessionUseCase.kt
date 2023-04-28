@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.notifications.usecase
+package dev.getzen.element.features.settings.notifications.usecase
 
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.pushers.UnifiedPushHelper
-import im.vector.app.features.settings.devices.v2.notification.CheckIfCanToggleNotificationsViaPusherUseCase
-import im.vector.app.features.settings.devices.v2.notification.DeleteNotificationSettingsAccountDataUseCase
-import im.vector.app.features.settings.devices.v2.notification.SetNotificationSettingsAccountDataUseCase
+import dev.getzen.element.core.di.ActiveSessionHolder
+import dev.getzen.element.core.pushers.UnifiedPushHelper
+import dev.getzen.element.features.settings.devices.v2.notification.CheckIfCanToggleNotificationsViaPusherUseCase
+import dev.getzen.element.features.settings.devices.v2.notification.DeleteNotificationSettingsAccountDataUseCase
+import dev.getzen.element.features.settings.devices.v2.notification.SetNotificationSettingsAccountDataUseCase
 import org.matrix.android.sdk.api.account.LocalNotificationSettingsContent
 import timber.log.Timber
 import javax.inject.Inject

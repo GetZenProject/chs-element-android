@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.ui.robot
+package dev.getzen.element.ui.robot
 
 import androidx.recyclerview.widget.RecyclerView
 import androidx.test.espresso.Espresso.onView
@@ -26,16 +26,16 @@ import androidx.test.espresso.matcher.ViewMatchers.withId
 import androidx.test.espresso.matcher.ViewMatchers.withText
 import com.adevinta.android.barista.assertion.BaristaVisibilityAssertions
 import com.adevinta.android.barista.interaction.BaristaClickInteractions.clickOn
-import im.vector.app.R
-import im.vector.app.espresso.tools.selectTabAtPosition
-import im.vector.app.espresso.tools.waitUntilActivityVisible
-import im.vector.app.espresso.tools.waitUntilDialogVisible
-import im.vector.app.espresso.tools.waitUntilViewVisible
-import im.vector.app.features.home.HomeActivity
-import im.vector.app.features.home.room.list.home.header.HomeRoomFilter
-import im.vector.app.features.roomdirectory.RoomDirectoryActivity
-import im.vector.app.ui.robot.settings.labs.LabFeaturesPreferences
-import im.vector.app.waitForView
+import dev.getzen.element.R
+import dev.getzen.element.espresso.tools.selectTabAtPosition
+import dev.getzen.element.espresso.tools.waitUntilActivityVisible
+import dev.getzen.element.espresso.tools.waitUntilDialogVisible
+import dev.getzen.element.espresso.tools.waitUntilViewVisible
+import dev.getzen.element.features.home.HomeActivity
+import dev.getzen.element.features.home.room.list.home.header.HomeRoomFilter
+import dev.getzen.element.features.roomdirectory.RoomDirectoryActivity
+import dev.getzen.element.ui.robot.settings.labs.LabFeaturesPreferences
+import dev.getzen.element.waitForView
 
 class RoomListRobot(private val labsPreferences: LabFeaturesPreferences) {
 

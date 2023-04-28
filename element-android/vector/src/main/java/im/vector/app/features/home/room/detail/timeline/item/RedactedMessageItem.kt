@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.item
+package dev.getzen.element.features.home.room.detail.timeline.item
 
 import com.airbnb.epoxy.EpoxyModelClass
-import im.vector.app.R
+import dev.getzen.element.R
 
 @EpoxyModelClass
 abstract class RedactedMessageItem : AbsMessageItem<RedactedMessageItem.Holder>() {

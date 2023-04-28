@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.crypto.recover
+package dev.getzen.element.features.crypto.recover
 
-import im.vector.app.features.raw.wellknown.SecureBackupMethod
+import dev.getzen.element.features.raw.wellknown.SecureBackupMethod
 
 /**
  * TODO The schema is not up to date

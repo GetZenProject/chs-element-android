@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.composer
+package dev.getzen.element.features.home.room.detail.composer
 
-import im.vector.app.core.platform.VectorViewEvents
-import im.vector.app.features.command.Command
-import im.vector.app.features.command.ParsedCommand
+import dev.getzen.element.core.platform.VectorViewEvents
+import dev.getzen.element.features.command.Command
+import dev.getzen.element.features.command.ParsedCommand
 
 sealed class MessageComposerViewEvents : VectorViewEvents {
 

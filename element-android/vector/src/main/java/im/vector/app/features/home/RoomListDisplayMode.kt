@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home
+package dev.getzen.element.features.home
 
 import androidx.annotation.StringRes
-import im.vector.app.R
+import dev.getzen.element.R
 
 enum class RoomListDisplayMode(@StringRes val titleRes: Int) {
     NOTIFICATIONS(R.string.bottom_action_notification),

@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.debug.features
+package dev.getzen.element.features.debug.features
 
 import androidx.datastore.preferences.core.Preferences
-import im.vector.app.features.DefaultVectorFeatures
-import im.vector.app.features.VectorFeatures
+import dev.getzen.element.features.DefaultVectorFeatures
+import dev.getzen.element.features.VectorFeatures
 import javax.inject.Inject
 import kotlin.reflect.KFunction1
 

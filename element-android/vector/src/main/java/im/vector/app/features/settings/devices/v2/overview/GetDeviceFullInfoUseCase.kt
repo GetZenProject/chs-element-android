@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2.overview
+package dev.getzen.element.features.settings.devices.v2.overview
 
 import androidx.lifecycle.asFlow
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.session.clientinfo.GetMatrixClientInfoUseCase
-import im.vector.app.features.settings.devices.v2.DeviceFullInfo
-import im.vector.app.features.settings.devices.v2.ParseDeviceUserAgentUseCase
-import im.vector.app.features.settings.devices.v2.list.CheckIfSessionIsInactiveUseCase
-import im.vector.app.features.settings.devices.v2.verification.GetCurrentSessionCrossSigningInfoUseCase
-import im.vector.app.features.settings.devices.v2.verification.GetEncryptionTrustLevelForDeviceUseCase
+import dev.getzen.element.core.di.ActiveSessionHolder
+import dev.getzen.element.core.session.clientinfo.GetMatrixClientInfoUseCase
+import dev.getzen.element.features.settings.devices.v2.DeviceFullInfo
+import dev.getzen.element.features.settings.devices.v2.ParseDeviceUserAgentUseCase
+import dev.getzen.element.features.settings.devices.v2.list.CheckIfSessionIsInactiveUseCase
+import dev.getzen.element.features.settings.devices.v2.verification.GetCurrentSessionCrossSigningInfoUseCase
+import dev.getzen.element.features.settings.devices.v2.verification.GetEncryptionTrustLevelForDeviceUseCase
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.emptyFlow

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.auth
+package dev.getzen.element.features.auth
 
-import im.vector.app.core.di.ActiveSessionHolder
+import dev.getzen.element.core.di.ActiveSessionHolder
 import org.matrix.android.sdk.api.Matrix
 import org.matrix.android.sdk.api.auth.UIABaseAuth
 import org.matrix.android.sdk.api.auth.UserPasswordAuth

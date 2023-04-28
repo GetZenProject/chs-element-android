@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.configuration
+package dev.getzen.element.features.configuration
 
 import android.content.Context
 import android.content.res.Configuration
 import android.os.Build
 import android.os.LocaleList
 import androidx.annotation.RequiresApi
-import im.vector.app.features.settings.FontScalePreferences
-import im.vector.app.features.settings.VectorLocaleProvider
-import im.vector.app.features.themes.ThemeUtils
+import dev.getzen.element.features.settings.FontScalePreferences
+import dev.getzen.element.features.settings.VectorLocaleProvider
+import dev.getzen.element.features.themes.ThemeUtils
 import timber.log.Timber
 import java.util.Locale
 import javax.inject.Inject

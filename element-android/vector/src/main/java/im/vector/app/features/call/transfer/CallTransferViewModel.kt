@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call.transfer
+package dev.getzen.element.features.call.transfer
 
 import com.airbnb.mvrx.MavericksViewModelFactory
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
-import im.vector.app.core.di.MavericksAssistedViewModelFactory
-import im.vector.app.core.di.hiltMavericksViewModelFactory
-import im.vector.app.core.platform.EmptyAction
-import im.vector.app.core.platform.VectorViewModel
-import im.vector.app.features.call.webrtc.WebRtcCall
-import im.vector.app.features.call.webrtc.WebRtcCallManager
+import dev.getzen.element.core.di.MavericksAssistedViewModelFactory
+import dev.getzen.element.core.di.hiltMavericksViewModelFactory
+import dev.getzen.element.core.platform.EmptyAction
+import dev.getzen.element.core.platform.VectorViewModel
+import dev.getzen.element.features.call.webrtc.WebRtcCall
+import dev.getzen.element.features.call.webrtc.WebRtcCallManager
 import org.matrix.android.sdk.api.session.call.CallState
 import org.matrix.android.sdk.api.session.call.MxCall
 

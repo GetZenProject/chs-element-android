@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.pushers
+package dev.getzen.element.core.pushers
 
-import im.vector.app.R
-import im.vector.app.test.fakes.FakeActiveSessionHolder
-import im.vector.app.test.fakes.FakeAppNameProvider
-import im.vector.app.test.fakes.FakeGetDeviceInfoUseCase
-import im.vector.app.test.fakes.FakeLocaleProvider
-import im.vector.app.test.fakes.FakePushersService
-import im.vector.app.test.fakes.FakeSession
-import im.vector.app.test.fakes.FakeStringProvider
-import im.vector.app.test.fixtures.CredentialsFixture
-import im.vector.app.test.fixtures.CryptoDeviceInfoFixture.aCryptoDeviceInfo
-import im.vector.app.test.fixtures.PusherFixture
-import im.vector.app.test.fixtures.SessionParamsFixture
+import dev.getzen.element.R
+import dev.getzen.element.test.fakes.FakeActiveSessionHolder
+import dev.getzen.element.test.fakes.FakeAppNameProvider
+import dev.getzen.element.test.fakes.FakeGetDeviceInfoUseCase
+import dev.getzen.element.test.fakes.FakeLocaleProvider
+import dev.getzen.element.test.fakes.FakePushersService
+import dev.getzen.element.test.fakes.FakeSession
+import dev.getzen.element.test.fakes.FakeStringProvider
+import dev.getzen.element.test.fixtures.CredentialsFixture
+import dev.getzen.element.test.fixtures.CryptoDeviceInfoFixture.aCryptoDeviceInfo
+import dev.getzen.element.test.fixtures.PusherFixture
+import dev.getzen.element.test.fixtures.SessionParamsFixture
 import io.mockk.mockk
 import org.amshove.kluent.shouldBeEqualTo
 import org.junit.Test

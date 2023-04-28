@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2.notification
+package dev.getzen.element.features.settings.devices.v2.notification
 
-import im.vector.app.test.fakes.FakeActiveSessionHolder
-import im.vector.app.test.fixtures.PusherFixture
+import dev.getzen.element.test.fakes.FakeActiveSessionHolder
+import dev.getzen.element.test.fixtures.PusherFixture
 import io.mockk.coJustRun
 import io.mockk.coVerify
 import io.mockk.every

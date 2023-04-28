@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2.notification
+package dev.getzen.element.features.settings.devices.v2.notification
 
-import im.vector.app.test.fakes.FakeFlowLiveDataConversions
-import im.vector.app.test.fakes.FakeSession
-import im.vector.app.test.fakes.givenAsFlow
-import im.vector.app.test.fixtures.aHomeServerCapabilities
+import dev.getzen.element.test.fakes.FakeFlowLiveDataConversions
+import dev.getzen.element.test.fakes.FakeSession
+import dev.getzen.element.test.fakes.givenAsFlow
+import dev.getzen.element.test.fixtures.aHomeServerCapabilities
 import io.mockk.unmockkAll
 import kotlinx.coroutines.flow.firstOrNull
 import kotlinx.coroutines.test.runTest

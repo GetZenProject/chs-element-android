@@ -15,10 +15,10 @@
  *
  */
 
-package im.vector.app.features.attachments.preview
+package dev.getzen.element.features.attachments.preview
 
 import android.net.Uri
-import im.vector.app.core.platform.VectorViewModelAction
+import dev.getzen.element.core.platform.VectorViewModelAction
 
 sealed class AttachmentsPreviewAction : VectorViewModelAction {
     object RemoveCurrentAttachment : AttachmentsPreviewAction()

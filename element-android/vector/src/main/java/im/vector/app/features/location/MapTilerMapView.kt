@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.location
+package dev.getzen.element.features.location
 
 import android.content.Context
 import android.content.res.TypedArray
@@ -35,8 +35,8 @@ import com.mapbox.mapboxsdk.maps.Style
 import com.mapbox.mapboxsdk.plugins.annotation.SymbolManager
 import com.mapbox.mapboxsdk.plugins.annotation.SymbolOptions
 import com.mapbox.mapboxsdk.style.layers.Property
-import im.vector.app.R
-import im.vector.app.core.utils.DimensionConverter
+import dev.getzen.element.R
+import dev.getzen.element.core.utils.DimensionConverter
 import timber.log.Timber
 
 private const val USER_PIN_ID = "user-pin-id"

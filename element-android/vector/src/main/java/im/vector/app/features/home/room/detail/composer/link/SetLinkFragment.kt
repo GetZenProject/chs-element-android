@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.composer.link
+package dev.getzen.element.features.home.room.detail.composer.link
 
 import android.os.Bundle
 import android.os.Parcelable
@@ -29,9 +29,9 @@ import com.airbnb.mvrx.args
 import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.platform.VectorBaseDialogFragment
-import im.vector.app.databinding.FragmentSetLinkBinding
+import dev.getzen.element.R
+import dev.getzen.element.core.platform.VectorBaseDialogFragment
+import dev.getzen.element.databinding.FragmentSetLinkBinding
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import kotlinx.parcelize.Parcelize

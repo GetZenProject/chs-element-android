@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.voice
+package dev.getzen.element.features.voice
 
 import android.net.Uri
 import androidx.test.platform.app.InstrumentationRegistry

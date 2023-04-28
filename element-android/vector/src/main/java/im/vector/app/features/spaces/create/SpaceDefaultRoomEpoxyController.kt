@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.create
+package dev.getzen.element.features.spaces.create
 
 import com.airbnb.epoxy.TypedEpoxyController
 import com.google.android.material.textfield.TextInputLayout
-import im.vector.app.R
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.ui.list.ItemStyle
-import im.vector.app.core.ui.list.genericFooterItem
-import im.vector.app.features.form.formEditTextItem
+import dev.getzen.element.R
+import dev.getzen.element.core.resources.ColorProvider
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.core.ui.list.ItemStyle
+import dev.getzen.element.core.ui.list.genericFooterItem
+import dev.getzen.element.features.form.formEditTextItem
 import im.vector.lib.core.utils.epoxy.charsequence.toEpoxyCharSequence
 import javax.inject.Inject
 

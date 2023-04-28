@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.resources
+package dev.getzen.element.core.resources
 
 import org.threeten.bp.Instant
 import org.threeten.bp.LocalDateTime

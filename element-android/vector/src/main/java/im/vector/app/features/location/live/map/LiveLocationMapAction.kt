@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.location.live.map
+package dev.getzen.element.features.location.live.map
 
-import im.vector.app.core.platform.VectorViewModelAction
+import dev.getzen.element.core.platform.VectorViewModelAction
 
 sealed class LiveLocationMapAction : VectorViewModelAction {
     data class AddMapSymbol(val key: String, val value: Long) : LiveLocationMapAction()

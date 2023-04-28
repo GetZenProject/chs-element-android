@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.userdirectory
+package dev.getzen.element.features.userdirectory
 
-import im.vector.app.core.platform.VectorViewEvents
-import im.vector.app.features.discovery.ServerAndPolicies
+import dev.getzen.element.core.platform.VectorViewEvents
+import dev.getzen.element.features.discovery.ServerAndPolicies
 
 /**
  * Transient events for invite users to room screen.

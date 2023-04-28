@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.pin.lockscreen.crypto
+package dev.getzen.element.features.pin.lockscreen.crypto
 
 import android.os.Build
-import im.vector.app.features.pin.lockscreen.crypto.migrations.LegacyPinCodeMigrator
-import im.vector.app.features.pin.lockscreen.crypto.migrations.MissingSystemKeyMigrator
-import im.vector.app.features.pin.lockscreen.crypto.migrations.SystemKeyV1Migrator
+import dev.getzen.element.features.pin.lockscreen.crypto.migrations.LegacyPinCodeMigrator
+import dev.getzen.element.features.pin.lockscreen.crypto.migrations.MissingSystemKeyMigrator
+import dev.getzen.element.features.pin.lockscreen.crypto.migrations.SystemKeyV1Migrator
 import org.matrix.android.sdk.api.util.BuildVersionSdkIntProvider
 import javax.inject.Inject
 

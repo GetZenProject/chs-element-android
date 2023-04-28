@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.onboarding.ftueauth
+package dev.getzen.element.features.onboarding.ftueauth
 
-import im.vector.app.test.fixtures.aDummyStage
-import im.vector.app.test.fixtures.aMsisdnStage
-import im.vector.app.test.fixtures.aRecaptchaStage
-import im.vector.app.test.fixtures.aTermsStage
-import im.vector.app.test.fixtures.anEmailStage
-import im.vector.app.test.fixtures.anOtherStage
+import dev.getzen.element.test.fixtures.aDummyStage
+import dev.getzen.element.test.fixtures.aMsisdnStage
+import dev.getzen.element.test.fixtures.aRecaptchaStage
+import dev.getzen.element.test.fixtures.aTermsStage
+import dev.getzen.element.test.fixtures.anEmailStage
+import dev.getzen.element.test.fixtures.anOtherStage
 import org.amshove.kluent.shouldBeEqualTo
 import org.junit.Test
 

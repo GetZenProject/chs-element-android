@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.notification
+package dev.getzen.element.core.notification
 
-import im.vector.app.features.settings.VectorPreferences
-import im.vector.app.features.settings.devices.v2.notification.GetNotificationsStatusUseCase
-import im.vector.app.features.settings.devices.v2.notification.NotificationsStatus
+import dev.getzen.element.features.settings.VectorPreferences
+import dev.getzen.element.features.settings.devices.v2.notification.GetNotificationsStatusUseCase
+import dev.getzen.element.features.settings.devices.v2.notification.NotificationsStatus
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.flow.onEach
 import org.matrix.android.sdk.api.session.Session

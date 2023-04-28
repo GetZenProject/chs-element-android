@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.composer
+package dev.getzen.element.features.home.room.detail.composer
 
 import com.airbnb.mvrx.MavericksState
-import im.vector.app.features.home.room.detail.arguments.TimelineArgs
-import im.vector.app.features.home.room.detail.composer.voice.VoiceMessageRecorderView
-import im.vector.app.features.voicebroadcast.model.VoiceBroadcastState
+import dev.getzen.element.features.home.room.detail.arguments.TimelineArgs
+import dev.getzen.element.features.home.room.detail.composer.voice.VoiceMessageRecorderView
+import dev.getzen.element.features.voicebroadcast.model.VoiceBroadcastState
 import org.matrix.android.sdk.api.extensions.orFalse
 import org.matrix.android.sdk.api.session.room.timeline.TimelineEvent
 import kotlin.random.Random

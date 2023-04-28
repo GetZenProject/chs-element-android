@@ -14,7 +14,7 @@
     <application>
 
         <receiver
-            android:name="im.vector.app.fdroid.receiver.OnApplicationUpgradeOrRebootReceiver"
+            android:name="dev.getzen.element.fdroid.receiver.OnApplicationUpgradeOrRebootReceiver"
             android:exported="false">
             <intent-filter>
                 <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
@@ -23,12 +23,12 @@
         </receiver>
 
         <receiver
-            android:name="im.vector.app.fdroid.receiver.AlarmSyncBroadcastReceiver"
+            android:name="dev.getzen.element.fdroid.receiver.AlarmSyncBroadcastReceiver"
             android:enabled="true"
             android:exported="false" />
 
         <service
-            android:name="im.vector.app.fdroid.service.GuardAndroidService"
+            android:name="dev.getzen.element.fdroid.service.GuardAndroidService"
             android:exported="false"
             tools:ignore="Instantiatable" />
 

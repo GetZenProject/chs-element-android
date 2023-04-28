@@ -10,7 +10,7 @@
     card_view:cardElevation="0dp"
     tools:viewBindingIgnore="true">
 
-    <im.vector.app.core.platform.CheckableImageView
+    <dev.getzen.element.core.platform.CheckableImageView
         android:id="@+id/attachmentMiniatureImageView"
         android:layout_width="64dp"
         android:layout_height="64dp"

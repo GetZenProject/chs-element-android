@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2.details
+package dev.getzen.element.features.settings.devices.v2.details
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize

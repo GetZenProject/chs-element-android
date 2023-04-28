@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.notifications
+package dev.getzen.element.features.roomprofile.notifications
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -24,14 +24,14 @@ import androidx.core.view.isVisible
 import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.databinding.FragmentRoomSettingGenericBinding
-import im.vector.app.features.analytics.plan.MobileScreen
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.settings.VectorSettingsActivity
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.cleanup
+import dev.getzen.element.core.extensions.configureWith
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.databinding.FragmentRoomSettingGenericBinding
+import dev.getzen.element.features.analytics.plan.MobileScreen
+import dev.getzen.element.features.home.AvatarRenderer
+import dev.getzen.element.features.settings.VectorSettingsActivity
 import org.matrix.android.sdk.api.session.room.notification.RoomNotificationState
 import org.matrix.android.sdk.api.util.toMatrixItem
 import javax.inject.Inject

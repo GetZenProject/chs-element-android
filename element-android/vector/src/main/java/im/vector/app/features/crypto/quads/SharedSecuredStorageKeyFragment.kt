@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.crypto.quads
+package dev.getzen.element.features.crypto.quads
 
 import android.app.Activity
 import android.os.Bundle
@@ -25,11 +25,11 @@ import android.view.inputmethod.EditorInfo
 import androidx.lifecycle.lifecycleScope
 import com.airbnb.mvrx.activityViewModel
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.registerStartForActivityResult
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.utils.startImportTextFromFileIntent
-import im.vector.app.databinding.FragmentSsssAccessFromKeyBinding
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.registerStartForActivityResult
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.core.utils.startImportTextFromFileIntent
+import dev.getzen.element.databinding.FragmentSsssAccessFromKeyBinding
 import im.vector.lib.core.utils.flow.throttleFirst
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach

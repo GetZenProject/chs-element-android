@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.usercode
+package dev.getzen.element.features.usercode
 
 import com.airbnb.mvrx.MavericksState
 import org.matrix.android.sdk.api.util.MatrixItem

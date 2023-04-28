@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.test.fakes
+package dev.getzen.element.test.fakes
 
-import im.vector.app.core.error.ErrorFormatter
+import dev.getzen.element.core.error.ErrorFormatter
 import io.mockk.every
 import io.mockk.mockk
 

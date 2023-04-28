@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.onboarding
+package dev.getzen.element.features.onboarding
 
-import im.vector.app.features.login.LoginMode
-import im.vector.app.features.login.SsoState
-import im.vector.app.features.onboarding.StartAuthenticationFlowUseCase.StartAuthenticationResult
-import im.vector.app.test.fakes.FakeAuthenticationService
-import im.vector.app.test.fakes.FakeUri
+import dev.getzen.element.features.login.LoginMode
+import dev.getzen.element.features.login.SsoState
+import dev.getzen.element.features.onboarding.StartAuthenticationFlowUseCase.StartAuthenticationResult
+import dev.getzen.element.test.fakes.FakeAuthenticationService
+import dev.getzen.element.test.fakes.FakeUri
 import io.mockk.coVerifyOrder
 import kotlinx.coroutines.test.runTest
 import org.amshove.kluent.shouldBeEqualTo

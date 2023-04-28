@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2.notification
+package dev.getzen.element.features.settings.devices.v2.notification
 
-import im.vector.app.test.fakes.FakeSession
-import im.vector.app.test.fakes.FakeUnifiedPushHelper
-import im.vector.app.test.fakes.FakeVectorPreferences
+import dev.getzen.element.test.fakes.FakeSession
+import dev.getzen.element.test.fakes.FakeUnifiedPushHelper
+import dev.getzen.element.test.fakes.FakeVectorPreferences
 import io.mockk.coJustRun
 import io.mockk.coVerify
 import io.mockk.every

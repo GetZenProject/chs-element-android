@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.reactions
+package dev.getzen.element.features.reactions
 
 import android.graphics.Typeface
 import androidx.recyclerview.widget.RecyclerView
 import com.airbnb.epoxy.TypedEpoxyController
-import im.vector.app.EmojiCompatFontProvider
-import im.vector.app.R
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.ui.list.genericFooterItem
+import dev.getzen.element.EmojiCompatFontProvider
+import dev.getzen.element.R
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.core.ui.list.genericFooterItem
 import im.vector.lib.core.utils.epoxy.charsequence.toEpoxyCharSequence
 import javax.inject.Inject
 

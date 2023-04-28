@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application>
-        <activity android:name="im.vector.app.features.pin.lockscreen.tests.LockScreenTestActivity" />
+        <activity android:name="dev.getzen.element.features.pin.lockscreen.tests.LockScreenTestActivity" />
     </application>
 
 </manifest>

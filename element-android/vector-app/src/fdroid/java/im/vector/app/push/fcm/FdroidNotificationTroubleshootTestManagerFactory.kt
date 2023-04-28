@@ -13,27 +13,27 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.push.fcm
+package dev.getzen.element.push.fcm
 
 import androidx.fragment.app.Fragment
-import im.vector.app.core.pushers.UnifiedPushHelper
-import im.vector.app.fdroid.features.settings.troubleshoot.TestAutoStartBoot
-import im.vector.app.fdroid.features.settings.troubleshoot.TestBackgroundRestrictions
-import im.vector.app.fdroid.features.settings.troubleshoot.TestBatteryOptimization
-import im.vector.app.features.VectorFeatures
-import im.vector.app.features.push.NotificationTroubleshootTestManagerFactory
-import im.vector.app.features.settings.troubleshoot.NotificationTroubleshootTestManager
-import im.vector.app.features.settings.troubleshoot.TestAccountSettings
-import im.vector.app.features.settings.troubleshoot.TestAvailableUnifiedPushDistributors
-import im.vector.app.features.settings.troubleshoot.TestCurrentUnifiedPushDistributor
-import im.vector.app.features.settings.troubleshoot.TestDeviceSettings
-import im.vector.app.features.settings.troubleshoot.TestEndpointAsTokenRegistration
-import im.vector.app.features.settings.troubleshoot.TestNotification
-import im.vector.app.features.settings.troubleshoot.TestPushFromPushGateway
-import im.vector.app.features.settings.troubleshoot.TestPushRulesSettings
-import im.vector.app.features.settings.troubleshoot.TestSystemSettings
-import im.vector.app.features.settings.troubleshoot.TestUnifiedPushEndpoint
-import im.vector.app.features.settings.troubleshoot.TestUnifiedPushGateway
+import dev.getzen.element.core.pushers.UnifiedPushHelper
+import dev.getzen.element.fdroid.features.settings.troubleshoot.TestAutoStartBoot
+import dev.getzen.element.fdroid.features.settings.troubleshoot.TestBackgroundRestrictions
+import dev.getzen.element.fdroid.features.settings.troubleshoot.TestBatteryOptimization
+import dev.getzen.element.features.VectorFeatures
+import dev.getzen.element.features.push.NotificationTroubleshootTestManagerFactory
+import dev.getzen.element.features.settings.troubleshoot.NotificationTroubleshootTestManager
+import dev.getzen.element.features.settings.troubleshoot.TestAccountSettings
+import dev.getzen.element.features.settings.troubleshoot.TestAvailableUnifiedPushDistributors
+import dev.getzen.element.features.settings.troubleshoot.TestCurrentUnifiedPushDistributor
+import dev.getzen.element.features.settings.troubleshoot.TestDeviceSettings
+import dev.getzen.element.features.settings.troubleshoot.TestEndpointAsTokenRegistration
+import dev.getzen.element.features.settings.troubleshoot.TestNotification
+import dev.getzen.element.features.settings.troubleshoot.TestPushFromPushGateway
+import dev.getzen.element.features.settings.troubleshoot.TestPushRulesSettings
+import dev.getzen.element.features.settings.troubleshoot.TestSystemSettings
+import dev.getzen.element.features.settings.troubleshoot.TestUnifiedPushEndpoint
+import dev.getzen.element.features.settings.troubleshoot.TestUnifiedPushGateway
 import javax.inject.Inject
 
 class FdroidNotificationTroubleshootTestManagerFactory @Inject constructor(

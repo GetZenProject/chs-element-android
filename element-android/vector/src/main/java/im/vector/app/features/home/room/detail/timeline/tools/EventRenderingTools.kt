@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.tools
+package dev.getzen.element.features.home.room.detail.timeline.tools
 
 import android.text.SpannableStringBuilder
 import android.text.style.ClickableSpan
 import android.view.MotionEvent
 import android.widget.TextView
 import androidx.core.text.toSpannable
-import im.vector.app.core.linkify.VectorLinkify
-import im.vector.app.core.utils.EvenBetterLinkMovementMethod
-import im.vector.app.core.utils.isValidUrl
-import im.vector.app.features.home.room.detail.timeline.TimelineEventController
-import im.vector.app.features.html.PillImageSpan
+import dev.getzen.element.core.linkify.VectorLinkify
+import dev.getzen.element.core.utils.EvenBetterLinkMovementMethod
+import dev.getzen.element.core.utils.isValidUrl
+import dev.getzen.element.features.home.room.detail.timeline.TimelineEventController
+import dev.getzen.element.features.html.PillImageSpan
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

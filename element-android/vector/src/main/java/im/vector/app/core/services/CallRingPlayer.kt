@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.services
+package dev.getzen.element.core.services
 
 import android.app.NotificationChannel
 import android.content.Context
@@ -27,10 +27,10 @@ import android.os.Build
 import android.os.VibrationEffect
 import android.os.Vibrator
 import androidx.core.content.getSystemService
-import im.vector.app.R
-import im.vector.app.features.call.audio.CallAudioManager.Mode
-import im.vector.app.features.call.webrtc.WebRtcCallManager
-import im.vector.app.features.notifications.NotificationUtils
+import dev.getzen.element.R
+import dev.getzen.element.features.call.audio.CallAudioManager.Mode
+import dev.getzen.element.features.call.webrtc.WebRtcCallManager
+import dev.getzen.element.features.notifications.NotificationUtils
 import org.matrix.android.sdk.api.extensions.orFalse
 import timber.log.Timber
 

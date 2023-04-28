@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.espresso.tools
+package dev.getzen.element.espresso.tools
 
 import android.app.Activity
 import android.view.View
@@ -22,9 +22,9 @@ import androidx.test.espresso.Espresso.onView
 import androidx.test.espresso.assertion.ViewAssertions
 import androidx.test.espresso.matcher.RootMatchers.isDialog
 import androidx.test.espresso.matcher.ViewMatchers
-import im.vector.app.activityIdlingResource
-import im.vector.app.waitForView
-import im.vector.app.withIdlingResource
+import dev.getzen.element.activityIdlingResource
+import dev.getzen.element.waitForView
+import dev.getzen.element.withIdlingResource
 import org.hamcrest.Matcher
 
 inline fun <reified T : Activity> waitUntilActivityVisible(noinline block: (() -> Unit) = {}) {

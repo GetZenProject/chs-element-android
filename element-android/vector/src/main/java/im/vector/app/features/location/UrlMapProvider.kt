@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.location
+package dev.getzen.element.features.location
 
-import im.vector.app.features.raw.wellknown.getElementWellknown
+import dev.getzen.element.features.raw.wellknown.getElementWellknown
 import org.matrix.android.sdk.api.extensions.tryOrNull
 import org.matrix.android.sdk.api.raw.RawService
 import org.matrix.android.sdk.api.session.Session

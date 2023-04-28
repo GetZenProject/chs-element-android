@@ -15,7 +15,7 @@
  *
  */
 
-package im.vector.app.core.epoxy.profiles
+package dev.getzen.element.core.epoxy.profiles
 
 import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass

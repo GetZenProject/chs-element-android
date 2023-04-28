@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.settings.troubleshoot
+package dev.getzen.element.features.settings.troubleshoot
 
-import im.vector.app.R
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.error.ErrorFormatter
-import im.vector.app.core.pushers.PushersManager
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.session.coroutineScope
+import dev.getzen.element.R
+import dev.getzen.element.core.di.ActiveSessionHolder
+import dev.getzen.element.core.error.ErrorFormatter
+import dev.getzen.element.core.pushers.PushersManager
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.features.session.coroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch

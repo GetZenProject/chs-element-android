@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.readreceipts
+package dev.getzen.element.features.home.room.detail.timeline.readreceipts
 
 import android.os.Bundle
 import android.os.Parcelable
@@ -23,14 +23,14 @@ import android.view.View
 import android.view.ViewGroup
 import com.airbnb.mvrx.args
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.platform.VectorBaseBottomSheetDialogFragment
-import im.vector.app.databinding.BottomSheetGenericListWithTitleBinding
-import im.vector.app.features.home.room.detail.timeline.action.EventSharedAction
-import im.vector.app.features.home.room.detail.timeline.action.MessageSharedActionViewModel
-import im.vector.app.features.home.room.detail.timeline.item.ReadReceiptData
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.cleanup
+import dev.getzen.element.core.extensions.configureWith
+import dev.getzen.element.core.platform.VectorBaseBottomSheetDialogFragment
+import dev.getzen.element.databinding.BottomSheetGenericListWithTitleBinding
+import dev.getzen.element.features.home.room.detail.timeline.action.EventSharedAction
+import dev.getzen.element.features.home.room.detail.timeline.action.MessageSharedActionViewModel
+import dev.getzen.element.features.home.room.detail.timeline.item.ReadReceiptData
 import kotlinx.parcelize.Parcelize
 import javax.inject.Inject
 

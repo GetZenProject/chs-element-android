@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.preview
+package dev.getzen.element.features.spaces.preview
 
 import com.airbnb.epoxy.TypedEpoxyController
 import com.airbnb.mvrx.Loading
 import com.airbnb.mvrx.Success
-import im.vector.app.R
-import im.vector.app.core.epoxy.loadingItem
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.ui.list.genericHeaderItem
-import im.vector.app.core.utils.TextUtils
-import im.vector.app.features.home.AvatarRenderer
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.loadingItem
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.core.ui.list.genericHeaderItem
+import dev.getzen.element.core.utils.TextUtils
+import dev.getzen.element.features.home.AvatarRenderer
 import javax.inject.Inject
 
 class SpacePreviewController @Inject constructor(

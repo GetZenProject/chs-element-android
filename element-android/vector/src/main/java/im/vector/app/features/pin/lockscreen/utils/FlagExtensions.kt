@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.pin.lockscreen.utils
+package dev.getzen.element.features.pin.lockscreen.utils
 
 /**
  * Returns true if the [Int] value contains the provided bit [flag].

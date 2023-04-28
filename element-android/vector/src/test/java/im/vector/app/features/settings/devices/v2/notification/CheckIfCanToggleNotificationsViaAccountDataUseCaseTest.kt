@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2.notification
+package dev.getzen.element.features.settings.devices.v2.notification
 
-import im.vector.app.test.fakes.FakeSession
+import dev.getzen.element.test.fakes.FakeSession
 import io.mockk.every
 import io.mockk.mockk
 import org.amshove.kluent.shouldBeEqualTo

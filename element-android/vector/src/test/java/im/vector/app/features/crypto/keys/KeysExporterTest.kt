@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.crypto.keys
+package dev.getzen.element.features.crypto.keys
 
 import android.net.Uri
-import im.vector.app.core.dispatchers.CoroutineDispatchers
-import im.vector.app.test.fakes.FakeContext
-import im.vector.app.test.fakes.FakeCryptoService
-import im.vector.app.test.fakes.FakeSession
+import dev.getzen.element.core.dispatchers.CoroutineDispatchers
+import dev.getzen.element.test.fakes.FakeContext
+import dev.getzen.element.test.fakes.FakeCryptoService
+import dev.getzen.element.test.fakes.FakeSession
 import io.mockk.every
 import io.mockk.justRun
 import io.mockk.mockk

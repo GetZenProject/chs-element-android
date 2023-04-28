@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.pushers
+package dev.getzen.element.core.pushers
 
 import android.content.Context
 import dagger.hilt.android.qualifiers.ApplicationContext
-import im.vector.app.features.VectorFeatures
+import dev.getzen.element.features.VectorFeatures
 import org.unifiedpush.android.connector.UnifiedPush
 import javax.inject.Inject
 

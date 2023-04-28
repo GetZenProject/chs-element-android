@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail
+package dev.getzen.element.features.home.room.detail
 
 import android.graphics.drawable.ColorDrawable
 import android.graphics.drawable.Drawable
@@ -27,19 +27,19 @@ import com.otaliastudios.autocomplete.CharPolicy
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
-import im.vector.app.core.glide.GlideApp
-import im.vector.app.core.glide.GlideRequests
-import im.vector.app.features.autocomplete.command.AutocompleteCommandPresenter
-import im.vector.app.features.autocomplete.command.CommandAutocompletePolicy
-import im.vector.app.features.autocomplete.emoji.AutocompleteEmojiPresenter
-import im.vector.app.features.autocomplete.member.AutocompleteMemberItem
-import im.vector.app.features.autocomplete.member.AutocompleteMemberPresenter
-import im.vector.app.features.autocomplete.room.AutocompleteRoomPresenter
-import im.vector.app.features.command.Command
-import im.vector.app.features.displayname.getBestName
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.html.PillImageSpan
-import im.vector.app.features.themes.ThemeUtils
+import dev.getzen.element.core.glide.GlideApp
+import dev.getzen.element.core.glide.GlideRequests
+import dev.getzen.element.features.autocomplete.command.AutocompleteCommandPresenter
+import dev.getzen.element.features.autocomplete.command.CommandAutocompletePolicy
+import dev.getzen.element.features.autocomplete.emoji.AutocompleteEmojiPresenter
+import dev.getzen.element.features.autocomplete.member.AutocompleteMemberItem
+import dev.getzen.element.features.autocomplete.member.AutocompleteMemberPresenter
+import dev.getzen.element.features.autocomplete.room.AutocompleteRoomPresenter
+import dev.getzen.element.features.command.Command
+import dev.getzen.element.features.displayname.getBestName
+import dev.getzen.element.features.home.AvatarRenderer
+import dev.getzen.element.features.html.PillImageSpan
+import dev.getzen.element.features.themes.ThemeUtils
 import org.matrix.android.sdk.api.session.room.model.RoomSummary
 import org.matrix.android.sdk.api.util.MatrixItem
 import org.matrix.android.sdk.api.util.toEveryoneInRoomMatrixItem

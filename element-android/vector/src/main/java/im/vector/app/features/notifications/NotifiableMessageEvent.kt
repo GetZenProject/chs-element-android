@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.notifications
+package dev.getzen.element.features.notifications
 
 import android.net.Uri
 import org.matrix.android.sdk.api.session.events.model.EventType

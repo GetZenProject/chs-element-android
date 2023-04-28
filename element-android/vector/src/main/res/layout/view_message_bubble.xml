@@ -6,7 +6,7 @@
     android:layout_height="wrap_content"
     tools:parentTag="android.widget.RelativeLayout">
 
-    <im.vector.app.core.platform.CheckableView
+    <dev.getzen.element.core.platform.CheckableView
         android:id="@+id/messageSelectedBackground"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -68,7 +68,7 @@
         android:layout_height="8dp"
         android:layout_toEndOf="@id/messageStartGuideline" />
 
-    <im.vector.app.core.ui.views.ShieldImageView
+    <dev.getzen.element.core.ui.views.ShieldImageView
         android:id="@+id/messageE2EDecoration"
         android:layout_width="16dp"
         android:layout_height="16dp"
@@ -90,7 +90,7 @@
         android:clipChildren="false"
         android:clipToPadding="false">
 
-        <im.vector.app.features.home.room.detail.timeline.view.MessageBubbleContentLayout
+        <dev.getzen.element.features.home.room.detail.timeline.view.MessageBubbleContentLayout
             android:id="@+id/bubbleView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -136,10 +136,10 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 tools:text="@tools:sample/date/hhmm" />
 
-        </im.vector.app.features.home.room.detail.timeline.view.MessageBubbleContentLayout>
+        </dev.getzen.element.features.home.room.detail.timeline.view.MessageBubbleContentLayout>
     </FrameLayout>
 
-    <im.vector.app.core.ui.views.SendStateImageView
+    <dev.getzen.element.core.ui.views.SendStateImageView
         android:id="@+id/messageSendStateImageView"
         android:layout_width="@dimen/item_event_message_state_size"
         android:layout_height="@dimen/item_event_message_state_size"
@@ -193,7 +193,7 @@
             tools:layout_height="40dp">
 
             <!-- ReactionButtons will be added here in the code -->
-            <!--im.vector.app.features.reactions.widget.ReactionButton
+            <!--dev.getzen.element.features.reactions.widget.ReactionButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" /-->
 

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.home.room.detail.timeline.item
+package dev.getzen.element.features.home.room.detail.timeline.item
 
 import android.content.res.Resources
 import android.view.View
@@ -28,15 +28,15 @@ import androidx.core.view.isVisible
 import androidx.core.view.updateLayoutParams
 import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
-import im.vector.app.R
-import im.vector.app.core.epoxy.ClickListener
-import im.vector.app.core.epoxy.onClick
-import im.vector.app.core.extensions.setLeftDrawable
-import im.vector.app.features.displayname.getBestName
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.home.room.detail.RoomDetailAction
-import im.vector.app.features.home.room.detail.timeline.MessageColorProvider
-import im.vector.app.features.home.room.detail.timeline.TimelineEventController
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.ClickListener
+import dev.getzen.element.core.epoxy.onClick
+import dev.getzen.element.core.extensions.setLeftDrawable
+import dev.getzen.element.features.displayname.getBestName
+import dev.getzen.element.features.home.AvatarRenderer
+import dev.getzen.element.features.home.room.detail.RoomDetailAction
+import dev.getzen.element.features.home.room.detail.timeline.MessageColorProvider
+import dev.getzen.element.features.home.room.detail.timeline.TimelineEventController
 import org.matrix.android.sdk.api.util.MatrixItem
 
 @EpoxyModelClass

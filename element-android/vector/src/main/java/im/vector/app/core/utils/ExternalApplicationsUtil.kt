@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.utils
+package dev.getzen.element.core.utils
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -40,9 +40,9 @@ import androidx.browser.customtabs.CustomTabsSession
 import androidx.core.app.ShareCompat
 import androidx.core.content.FileProvider
 import androidx.core.content.getSystemService
-import im.vector.app.R
-import im.vector.app.features.notifications.NotificationUtils
-import im.vector.app.features.themes.ThemeUtils
+import dev.getzen.element.R
+import dev.getzen.element.features.notifications.NotificationUtils
+import dev.getzen.element.features.themes.ThemeUtils
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import okio.buffer

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.qrcode
+package dev.getzen.element.features.qrcode
 
-import im.vector.app.core.platform.VectorViewEvents
+import dev.getzen.element.core.platform.VectorViewEvents
 
 sealed class QrCodeScannerEvents : VectorViewEvents {
     data class CodeParsed(val result: String, val isQrCode: Boolean) : QrCodeScannerEvents()

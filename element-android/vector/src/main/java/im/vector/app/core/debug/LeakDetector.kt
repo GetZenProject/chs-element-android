@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.debug
+package dev.getzen.element.core.debug
 
 /**
  * Used for memory leak analysis control.

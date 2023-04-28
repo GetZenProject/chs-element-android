@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.autocomplete
+package dev.getzen.element.features.autocomplete
 
 /**
  * Simple generic listener interface.

@@ -42,7 +42,7 @@ The configuration of the Flipper application has to be updated. The issue has be
 Flipper comes with a Diagnostic Activity that you can start from command line using:
 
 ```shell
-adb shell am start -n im.vector.app.debug/com.facebook.flipper.android.diagnostics.FlipperDiagnosticActivity
+adb shell am start -n dev.getzen.element.debug/com.facebook.flipper.android.diagnostics.FlipperDiagnosticActivity
 ```
 
 It provides some log which can help to figure out what's going on client side.

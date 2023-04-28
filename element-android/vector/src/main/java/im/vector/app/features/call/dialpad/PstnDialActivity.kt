@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call.dialpad
+package dev.getzen.element.features.call.dialpad
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatDialog
@@ -22,11 +22,11 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.addFragment
-import im.vector.app.core.platform.SimpleFragmentActivity
-import im.vector.app.features.call.webrtc.WebRtcCallManager
-import im.vector.app.features.createdirect.DirectRoomHelper
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.addFragment
+import dev.getzen.element.core.platform.SimpleFragmentActivity
+import dev.getzen.element.features.call.webrtc.WebRtcCallManager
+import dev.getzen.element.features.createdirect.DirectRoomHelper
 import im.vector.lib.ui.styles.dialogs.MaterialProgressDialog
 import kotlinx.coroutines.launch
 import org.matrix.android.sdk.api.session.Session

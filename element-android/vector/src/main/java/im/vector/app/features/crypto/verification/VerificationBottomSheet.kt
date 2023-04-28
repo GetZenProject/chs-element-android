@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.crypto.verification
+package dev.getzen.element.features.crypto.verification
 
 import android.app.Activity
 import android.app.Dialog
@@ -29,25 +29,25 @@ import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.commitTransaction
-import im.vector.app.core.extensions.registerStartForActivityResult
-import im.vector.app.core.extensions.toMvRxBundle
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.core.platform.VectorBaseBottomSheetDialogFragment
-import im.vector.app.databinding.BottomSheetVerificationBinding
-import im.vector.app.features.crypto.quads.SharedSecureStorageActivity
-import im.vector.app.features.crypto.verification.cancel.VerificationCancelFragment
-import im.vector.app.features.crypto.verification.cancel.VerificationNotMeFragment
-import im.vector.app.features.crypto.verification.choose.VerificationChooseMethodFragment
-import im.vector.app.features.crypto.verification.conclusion.VerificationConclusionFragment
-import im.vector.app.features.crypto.verification.emoji.VerificationEmojiCodeFragment
-import im.vector.app.features.crypto.verification.qrconfirmation.VerificationQRWaitingFragment
-import im.vector.app.features.crypto.verification.qrconfirmation.VerificationQrScannedByOtherFragment
-import im.vector.app.features.crypto.verification.request.VerificationRequestFragment
-import im.vector.app.features.displayname.getBestName
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.settings.VectorSettingsActivity
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.commitTransaction
+import dev.getzen.element.core.extensions.registerStartForActivityResult
+import dev.getzen.element.core.extensions.toMvRxBundle
+import dev.getzen.element.core.platform.VectorBaseActivity
+import dev.getzen.element.core.platform.VectorBaseBottomSheetDialogFragment
+import dev.getzen.element.databinding.BottomSheetVerificationBinding
+import dev.getzen.element.features.crypto.quads.SharedSecureStorageActivity
+import dev.getzen.element.features.crypto.verification.cancel.VerificationCancelFragment
+import dev.getzen.element.features.crypto.verification.cancel.VerificationNotMeFragment
+import dev.getzen.element.features.crypto.verification.choose.VerificationChooseMethodFragment
+import dev.getzen.element.features.crypto.verification.conclusion.VerificationConclusionFragment
+import dev.getzen.element.features.crypto.verification.emoji.VerificationEmojiCodeFragment
+import dev.getzen.element.features.crypto.verification.qrconfirmation.VerificationQRWaitingFragment
+import dev.getzen.element.features.crypto.verification.qrconfirmation.VerificationQrScannedByOtherFragment
+import dev.getzen.element.features.crypto.verification.request.VerificationRequestFragment
+import dev.getzen.element.features.displayname.getBestName
+import dev.getzen.element.features.home.AvatarRenderer
+import dev.getzen.element.features.settings.VectorSettingsActivity
 import kotlinx.parcelize.Parcelize
 import org.matrix.android.sdk.api.session.Session
 import org.matrix.android.sdk.api.session.crypto.crosssigning.KEYBACKUP_SECRET_SSSS_NAME

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.crypto.keys
+package dev.getzen.element.features.crypto.keys
 
 import android.content.Context
 import android.net.Uri
-import im.vector.app.core.dispatchers.CoroutineDispatchers
-import im.vector.app.core.extensions.safeOpenOutputStream
+import dev.getzen.element.core.dispatchers.CoroutineDispatchers
+import dev.getzen.element.core.extensions.safeOpenOutputStream
 import kotlinx.coroutines.withContext
 import org.matrix.android.sdk.api.session.Session
 import javax.inject.Inject

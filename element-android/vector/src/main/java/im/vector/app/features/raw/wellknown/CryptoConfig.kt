@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.raw.wellknown
+package dev.getzen.element.features.raw.wellknown
 
-import im.vector.app.features.crypto.keysrequest.OutboundSessionKeySharingStrategy
+import dev.getzen.element.features.crypto.keysrequest.OutboundSessionKeySharingStrategy
 
 data class CryptoConfig(
         val fallbackKeySharingStrategy: OutboundSessionKeySharingStrategy

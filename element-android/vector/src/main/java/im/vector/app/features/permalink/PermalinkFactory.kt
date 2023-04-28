@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.permalink
+package dev.getzen.element.features.permalink
 
 import org.matrix.android.sdk.api.session.Session
 import javax.inject.Inject

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.pin.lockscreen.ui.fallbackprompt
+package dev.getzen.element.features.pin.lockscreen.ui.fallbackprompt
 
 import android.content.DialogInterface
 import android.os.Bundle
@@ -28,9 +28,9 @@ import androidx.fragment.app.DialogFragment
 import androidx.lifecycle.lifecycleScope
 import com.airbnb.mvrx.Mavericks
 import com.airbnb.mvrx.args
-import im.vector.app.R
-import im.vector.app.databinding.FragmentBiometricDialogContainerBinding
-import im.vector.app.databinding.ViewBiometricDialogContentBinding
+import dev.getzen.element.R
+import dev.getzen.element.databinding.FragmentBiometricDialogContainerBinding
+import dev.getzen.element.databinding.ViewBiometricDialogContentBinding
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.catch

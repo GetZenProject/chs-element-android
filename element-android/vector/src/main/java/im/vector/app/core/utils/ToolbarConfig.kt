@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.utils
+package dev.getzen.element.core.utils
 
 import androidx.annotation.StringRes
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.content.res.AppCompatResources
 import com.google.android.material.appbar.MaterialToolbar
-import im.vector.app.R
+import dev.getzen.element.R
 
 /**
  * Helper class to configure toolbar.

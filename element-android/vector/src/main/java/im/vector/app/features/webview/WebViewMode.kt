@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.webview
+package dev.getzen.element.features.webview
 
-import im.vector.app.core.platform.VectorBaseActivity
+import dev.getzen.element.core.platform.VectorBaseActivity
 import org.matrix.android.sdk.api.session.Session
 
 /**

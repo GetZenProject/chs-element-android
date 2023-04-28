@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.render
+package dev.getzen.element.features.home.room.detail.timeline.render
 
 import android.content.Context
 import android.text.Spannable
@@ -24,11 +24,11 @@ import android.util.Patterns
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
-import im.vector.app.R
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.glide.GlideApp
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.html.PillImageSpan
+import dev.getzen.element.R
+import dev.getzen.element.core.di.ActiveSessionHolder
+import dev.getzen.element.core.glide.GlideApp
+import dev.getzen.element.features.home.AvatarRenderer
+import dev.getzen.element.features.html.PillImageSpan
 import org.matrix.android.sdk.api.extensions.orFalse
 import org.matrix.android.sdk.api.session.getRoomSummary
 import org.matrix.android.sdk.api.session.getUserOrDefault

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.item
+package dev.getzen.element.features.home.room.detail.timeline.item
 
 import android.widget.ImageView
 import android.widget.LinearLayout
@@ -23,10 +23,10 @@ import androidx.core.view.children
 import androidx.core.view.isVisible
 import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
-import im.vector.app.R
-import im.vector.app.core.extensions.setTextOrHide
-import im.vector.app.features.home.room.detail.RoomDetailAction
-import im.vector.app.features.home.room.detail.timeline.TimelineEventController
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.setTextOrHide
+import dev.getzen.element.features.home.room.detail.RoomDetailAction
+import dev.getzen.element.features.home.room.detail.timeline.TimelineEventController
 import im.vector.lib.core.utils.epoxy.charsequence.EpoxyCharSequence
 
 @EpoxyModelClass

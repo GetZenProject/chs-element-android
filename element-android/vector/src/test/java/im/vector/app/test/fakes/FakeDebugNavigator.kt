@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.test.fakes
+package dev.getzen.element.test.fakes
 
-import im.vector.app.core.debug.DebugNavigator
+import dev.getzen.element.core.debug.DebugNavigator
 import io.mockk.mockk
 
 class FakeDebugNavigator : DebugNavigator by mockk()

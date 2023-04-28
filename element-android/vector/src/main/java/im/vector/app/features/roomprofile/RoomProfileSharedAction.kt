@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile
+package dev.getzen.element.features.roomprofile
 
-import im.vector.app.core.platform.VectorSharedAction
+import dev.getzen.element.core.platform.VectorSharedAction
 
 /**
  * Supported navigation actions for [RoomProfileActivity].

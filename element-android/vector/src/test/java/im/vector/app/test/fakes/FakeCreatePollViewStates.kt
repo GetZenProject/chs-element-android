@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.test.fakes
+package dev.getzen.element.test.fakes
 
-import im.vector.app.features.poll.PollMode
-import im.vector.app.features.poll.create.CreatePollArgs
-import im.vector.app.features.poll.create.CreatePollViewModel
-import im.vector.app.features.poll.create.CreatePollViewState
+import dev.getzen.element.features.poll.PollMode
+import dev.getzen.element.features.poll.create.CreatePollArgs
+import dev.getzen.element.features.poll.create.CreatePollViewModel
+import dev.getzen.element.features.poll.create.CreatePollViewState
 import org.matrix.android.sdk.api.session.events.model.Event
 import org.matrix.android.sdk.api.session.events.model.EventType
 import org.matrix.android.sdk.api.session.events.model.toContent

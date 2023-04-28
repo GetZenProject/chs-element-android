@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2.othersessions
+package dev.getzen.element.features.settings.devices.v2.othersessions
 
 import android.os.Parcelable
-import im.vector.app.features.settings.devices.v2.filter.DeviceManagerFilterType
+import dev.getzen.element.features.settings.devices.v2.filter.DeviceManagerFilterType
 import kotlinx.parcelize.Parcelize
 
 @Parcelize

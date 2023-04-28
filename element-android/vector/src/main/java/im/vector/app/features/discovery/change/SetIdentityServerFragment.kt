@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.discovery.change
+package dev.getzen.element.features.discovery.change
 
 import android.app.Activity
 import android.os.Bundle
@@ -29,14 +29,14 @@ import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.registerStartForActivityResult
-import im.vector.app.core.extensions.toReducedUrl
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.utils.colorizeMatchingText
-import im.vector.app.databinding.FragmentSetIdentityServerBinding
-import im.vector.app.features.discovery.DiscoverySharedViewModel
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.registerStartForActivityResult
+import dev.getzen.element.core.extensions.toReducedUrl
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.core.resources.ColorProvider
+import dev.getzen.element.core.utils.colorizeMatchingText
+import dev.getzen.element.databinding.FragmentSetIdentityServerBinding
+import dev.getzen.element.features.discovery.DiscoverySharedViewModel
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import org.matrix.android.sdk.api.session.terms.TermsService

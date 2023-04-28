@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.test.fixtures
+package dev.getzen.element.test.fixtures
 
-import im.vector.app.test.fakes.FakeUri
+import dev.getzen.element.test.fakes.FakeUri
 import org.matrix.android.sdk.api.session.content.ContentAttachmentData
 
 object ContentAttachmentDataFixture {

@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.notifications
+package dev.getzen.element.features.roomprofile.notifications
 
 import androidx.annotation.StringRes
 import com.airbnb.epoxy.TypedEpoxyController
-import im.vector.app.R
-import im.vector.app.core.epoxy.profiles.notifications.notificationSettingsFooterItem
-import im.vector.app.core.epoxy.profiles.notifications.radioButtonItem
-import im.vector.app.core.epoxy.profiles.notifications.textHeaderItem
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.profiles.notifications.notificationSettingsFooterItem
+import dev.getzen.element.core.epoxy.profiles.notifications.radioButtonItem
+import dev.getzen.element.core.epoxy.profiles.notifications.textHeaderItem
 import org.matrix.android.sdk.api.session.room.notification.RoomNotificationState
 import javax.inject.Inject
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.login.qr
+package dev.getzen.element.features.login.qr
 
 import android.content.Context
 import android.content.Intent
@@ -23,10 +23,10 @@ import android.view.View
 import com.airbnb.mvrx.Mavericks
 import com.airbnb.mvrx.viewModel
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.core.extensions.addFragment
-import im.vector.app.core.extensions.replaceFragment
-import im.vector.app.core.platform.SimpleFragmentActivity
-import im.vector.app.features.home.HomeActivity
+import dev.getzen.element.core.extensions.addFragment
+import dev.getzen.element.core.extensions.replaceFragment
+import dev.getzen.element.core.platform.SimpleFragmentActivity
+import dev.getzen.element.features.home.HomeActivity
 import im.vector.lib.core.utils.compat.getParcelableCompat
 import timber.log.Timber
 

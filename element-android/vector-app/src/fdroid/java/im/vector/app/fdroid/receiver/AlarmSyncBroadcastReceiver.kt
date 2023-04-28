@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.fdroid.receiver
+package dev.getzen.element.fdroid.receiver
 
 import android.annotation.SuppressLint
 import android.app.AlarmManager
@@ -25,9 +25,9 @@ import android.content.Intent
 import android.os.Build
 import androidx.core.content.ContextCompat
 import androidx.core.content.getSystemService
-import im.vector.app.core.extensions.singletonEntryPoint
-import im.vector.app.core.platform.PendingIntentCompat
-import im.vector.app.core.services.VectorSyncAndroidService
+import dev.getzen.element.core.extensions.singletonEntryPoint
+import dev.getzen.element.core.platform.PendingIntentCompat
+import dev.getzen.element.core.services.VectorSyncAndroidService
 import im.vector.lib.core.utils.timer.Clock
 import org.matrix.android.sdk.api.session.sync.job.SyncAndroidService
 import timber.log.Timber

@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.widgets
+package dev.getzen.element.features.widgets
 
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.features.themes.ThemeProvider
+import dev.getzen.element.core.di.ActiveSessionHolder
+import dev.getzen.element.features.themes.ThemeProvider
 import org.matrix.android.sdk.api.session.widgets.model.Widget
 import javax.inject.Inject
 

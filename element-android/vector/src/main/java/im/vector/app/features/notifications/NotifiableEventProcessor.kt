@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.notifications
+package dev.getzen.element.features.notifications
 
-import im.vector.app.features.invite.AutoAcceptInvites
-import im.vector.app.features.notifications.ProcessedEvent.Type.KEEP
-import im.vector.app.features.notifications.ProcessedEvent.Type.REMOVE
+import dev.getzen.element.features.invite.AutoAcceptInvites
+import dev.getzen.element.features.notifications.ProcessedEvent.Type.KEEP
+import dev.getzen.element.features.notifications.ProcessedEvent.Type.REMOVE
 import org.matrix.android.sdk.api.session.events.model.EventType
 import timber.log.Timber
 import javax.inject.Inject

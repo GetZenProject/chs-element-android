@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.manage
+package dev.getzen.element.features.spaces.manage
 
 import android.net.Uri
 import android.os.Bundle
@@ -31,25 +31,25 @@ import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.dialogs.GalleryOrCameraDialogHelper
-import im.vector.app.core.dialogs.GalleryOrCameraDialogHelperFactory
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.intent.getFilenameFromUri
-import im.vector.app.core.platform.OnBackPressed
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.platform.VectorMenuProvider
-import im.vector.app.core.utils.toast
-import im.vector.app.databinding.FragmentRoomSettingGenericBinding
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.roomprofile.RoomProfileArgs
-import im.vector.app.features.roomprofile.settings.RoomSettingsAction
-import im.vector.app.features.roomprofile.settings.RoomSettingsViewEvents
-import im.vector.app.features.roomprofile.settings.RoomSettingsViewModel
-import im.vector.app.features.roomprofile.settings.RoomSettingsViewState
-import im.vector.app.features.roomprofile.settings.joinrule.RoomJoinRuleActivity
-import im.vector.app.features.roomprofile.settings.joinrule.RoomJoinRuleSharedActionViewModel
+import dev.getzen.element.R
+import dev.getzen.element.core.dialogs.GalleryOrCameraDialogHelper
+import dev.getzen.element.core.dialogs.GalleryOrCameraDialogHelperFactory
+import dev.getzen.element.core.extensions.cleanup
+import dev.getzen.element.core.extensions.configureWith
+import dev.getzen.element.core.intent.getFilenameFromUri
+import dev.getzen.element.core.platform.OnBackPressed
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.core.platform.VectorMenuProvider
+import dev.getzen.element.core.utils.toast
+import dev.getzen.element.databinding.FragmentRoomSettingGenericBinding
+import dev.getzen.element.features.home.AvatarRenderer
+import dev.getzen.element.features.roomprofile.RoomProfileArgs
+import dev.getzen.element.features.roomprofile.settings.RoomSettingsAction
+import dev.getzen.element.features.roomprofile.settings.RoomSettingsViewEvents
+import dev.getzen.element.features.roomprofile.settings.RoomSettingsViewModel
+import dev.getzen.element.features.roomprofile.settings.RoomSettingsViewState
+import dev.getzen.element.features.roomprofile.settings.joinrule.RoomJoinRuleActivity
+import dev.getzen.element.features.roomprofile.settings.joinrule.RoomJoinRuleSharedActionViewModel
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import org.matrix.android.sdk.api.session.room.model.GuestAccess

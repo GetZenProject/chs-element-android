@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.notifications.usecase
+package dev.getzen.element.features.settings.notifications.usecase
 
-import im.vector.app.features.settings.notifications.getParentRule
+import dev.getzen.element.features.settings.notifications.getParentRule
 import org.matrix.android.sdk.api.session.Session
 import org.matrix.android.sdk.api.session.pushrules.RuleIds
 import org.matrix.android.sdk.api.session.pushrules.getActions

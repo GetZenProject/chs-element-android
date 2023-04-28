@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.login
+package dev.getzen.element.features.login
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -28,12 +28,12 @@ import androidx.core.view.isVisible
 import androidx.lifecycle.lifecycleScope
 import com.google.android.material.textfield.TextInputLayout
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.hideKeyboard
-import im.vector.app.core.resources.BuildMeta
-import im.vector.app.core.utils.ensureProtocol
-import im.vector.app.core.utils.openUrlInChromeCustomTab
-import im.vector.app.databinding.FragmentLoginServerUrlFormBinding
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.hideKeyboard
+import dev.getzen.element.core.resources.BuildMeta
+import dev.getzen.element.core.utils.ensureProtocol
+import dev.getzen.element.core.utils.openUrlInChromeCustomTab
+import dev.getzen.element.databinding.FragmentLoginServerUrlFormBinding
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import org.matrix.android.sdk.api.failure.Failure

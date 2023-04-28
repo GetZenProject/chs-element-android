@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.location.live
+package dev.getzen.element.features.location.live
 
 import androidx.lifecycle.asFlow
 import kotlinx.coroutines.flow.Flow

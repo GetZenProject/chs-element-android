@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.views
+package dev.getzen.element.features.home.room.detail.views
 
 import android.view.View
 import android.view.ViewStub
-import im.vector.app.core.ui.views.FailedMessagesWarningView
-import im.vector.app.databinding.FragmentTimelineBinding
-import im.vector.app.features.invite.VectorInviteView
+import dev.getzen.element.core.ui.views.FailedMessagesWarningView
+import dev.getzen.element.databinding.FragmentTimelineBinding
+import dev.getzen.element.features.invite.VectorInviteView
 import kotlin.reflect.KMutableProperty0
 
 /**

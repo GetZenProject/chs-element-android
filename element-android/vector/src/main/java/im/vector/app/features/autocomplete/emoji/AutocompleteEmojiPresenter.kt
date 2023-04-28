@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.autocomplete.emoji
+package dev.getzen.element.features.autocomplete.emoji
 
 import android.content.Context
 import androidx.recyclerview.widget.RecyclerView
-import im.vector.app.features.autocomplete.AutocompleteClickListener
-import im.vector.app.features.autocomplete.RecyclerViewPresenter
-import im.vector.app.features.reactions.data.EmojiDataSource
+import dev.getzen.element.features.autocomplete.AutocompleteClickListener
+import dev.getzen.element.features.autocomplete.RecyclerViewPresenter
+import dev.getzen.element.features.reactions.data.EmojiDataSource
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob

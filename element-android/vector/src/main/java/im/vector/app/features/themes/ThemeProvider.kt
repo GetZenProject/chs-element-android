@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.themes
+package dev.getzen.element.features.themes
 
 import android.content.Context
 import javax.inject.Inject

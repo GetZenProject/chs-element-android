@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.crypto.keysbackup.settings
+package dev.getzen.element.features.crypto.keysbackup.settings
 
-import im.vector.app.core.platform.VectorViewModelAction
+import dev.getzen.element.core.platform.VectorViewModelAction
 
 sealed class KeyBackupSettingsAction : VectorViewModelAction {
     object Init : KeyBackupSettingsAction()

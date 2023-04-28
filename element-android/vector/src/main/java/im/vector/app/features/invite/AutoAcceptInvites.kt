@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.invite
+package dev.getzen.element.features.invite
 
 import javax.inject.Inject
 

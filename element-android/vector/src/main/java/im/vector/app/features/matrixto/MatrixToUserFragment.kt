@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.matrixto
+package dev.getzen.element.features.matrixto
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -29,10 +29,10 @@ import com.airbnb.mvrx.Uninitialized
 import com.airbnb.mvrx.parentFragmentViewModel
 import com.airbnb.mvrx.withState
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.core.extensions.setTextOrHide
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.databinding.FragmentMatrixToUserCardBinding
-import im.vector.app.features.home.AvatarRenderer
+import dev.getzen.element.core.extensions.setTextOrHide
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.databinding.FragmentMatrixToUserCardBinding
+import dev.getzen.element.features.home.AvatarRenderer
 import javax.inject.Inject
 
 @AndroidEntryPoint

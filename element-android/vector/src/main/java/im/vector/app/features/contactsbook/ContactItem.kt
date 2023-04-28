@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.contactsbook
+package dev.getzen.element.features.contactsbook
 
 import android.widget.ImageView
 import android.widget.TextView
 import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
-import im.vector.app.R
-import im.vector.app.core.contacts.MappedContact
-import im.vector.app.core.epoxy.VectorEpoxyHolder
-import im.vector.app.core.epoxy.VectorEpoxyModel
-import im.vector.app.features.home.AvatarRenderer
+import dev.getzen.element.R
+import dev.getzen.element.core.contacts.MappedContact
+import dev.getzen.element.core.epoxy.VectorEpoxyHolder
+import dev.getzen.element.core.epoxy.VectorEpoxyModel
+import dev.getzen.element.features.home.AvatarRenderer
 
 @EpoxyModelClass
 abstract class ContactItem : VectorEpoxyModel<ContactItem.Holder>(R.layout.item_contact_main) {

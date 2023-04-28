@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.uploads.media
+package dev.getzen.element.features.roomprofile.uploads.media
 
 import android.os.Build
 import android.os.Bundle
@@ -33,20 +33,20 @@ import com.airbnb.mvrx.parentFragmentViewModel
 import com.airbnb.mvrx.withState
 import com.google.android.material.appbar.AppBarLayout
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.trackItemsVisibilityChange
-import im.vector.app.core.platform.StateView
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.utils.DimensionConverter
-import im.vector.app.databinding.FragmentGenericStateViewRecyclerBinding
-import im.vector.app.features.media.AttachmentData
-import im.vector.app.features.media.ImageContentRenderer
-import im.vector.app.features.media.VideoContentRenderer
-import im.vector.app.features.roomprofile.uploads.RoomUploadsAction
-import im.vector.app.features.roomprofile.uploads.RoomUploadsFragment
-import im.vector.app.features.roomprofile.uploads.RoomUploadsViewModel
-import im.vector.app.features.roomprofile.uploads.RoomUploadsViewState
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.cleanup
+import dev.getzen.element.core.extensions.trackItemsVisibilityChange
+import dev.getzen.element.core.platform.StateView
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.core.utils.DimensionConverter
+import dev.getzen.element.databinding.FragmentGenericStateViewRecyclerBinding
+import dev.getzen.element.features.media.AttachmentData
+import dev.getzen.element.features.media.ImageContentRenderer
+import dev.getzen.element.features.media.VideoContentRenderer
+import dev.getzen.element.features.roomprofile.uploads.RoomUploadsAction
+import dev.getzen.element.features.roomprofile.uploads.RoomUploadsFragment
+import dev.getzen.element.features.roomprofile.uploads.RoomUploadsViewModel
+import dev.getzen.element.features.roomprofile.uploads.RoomUploadsViewState
 import org.matrix.android.sdk.api.session.crypto.attachments.toElementToDecrypt
 import org.matrix.android.sdk.api.session.room.model.message.MessageImageContent
 import org.matrix.android.sdk.api.session.room.model.message.MessageVideoContent

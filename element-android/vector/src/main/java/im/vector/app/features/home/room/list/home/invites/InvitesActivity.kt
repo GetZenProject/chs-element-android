@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.list.home.invites
+package dev.getzen.element.features.home.room.list.home.invites
 
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.core.extensions.addFragment
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.databinding.ActivitySimpleBinding
+import dev.getzen.element.core.extensions.addFragment
+import dev.getzen.element.core.platform.VectorBaseActivity
+import dev.getzen.element.databinding.ActivitySimpleBinding
 
 @AndroidEntryPoint
 class InvitesActivity : VectorBaseActivity<ActivitySimpleBinding>() {

@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.polls.list.ui
+package dev.getzen.element.features.roomprofile.polls.list.ui
 
 import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.core.view.isVisible
 import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
-import im.vector.app.R
-import im.vector.app.core.epoxy.ClickListener
-import im.vector.app.core.epoxy.VectorEpoxyHolder
-import im.vector.app.core.epoxy.VectorEpoxyModel
-import im.vector.app.core.epoxy.onClick
-import im.vector.app.core.extensions.setTextOrHide
-import im.vector.app.features.home.room.detail.timeline.item.PollOptionView
-import im.vector.app.features.home.room.detail.timeline.item.PollOptionViewState
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.ClickListener
+import dev.getzen.element.core.epoxy.VectorEpoxyHolder
+import dev.getzen.element.core.epoxy.VectorEpoxyModel
+import dev.getzen.element.core.epoxy.onClick
+import dev.getzen.element.core.extensions.setTextOrHide
+import dev.getzen.element.features.home.room.detail.timeline.item.PollOptionView
+import dev.getzen.element.features.home.room.detail.timeline.item.PollOptionViewState
 
 @EpoxyModelClass
 abstract class RoomPollItem : VectorEpoxyModel<RoomPollItem.Holder>(R.layout.item_poll) {

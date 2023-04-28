@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.attachments
+package dev.getzen.element.features.attachments
 
 import com.airbnb.mvrx.test.MavericksTestRule
-import im.vector.app.test.fakes.FakeVectorFeatures
-import im.vector.app.test.fakes.FakeVectorPreferences
-import im.vector.app.test.test
+import dev.getzen.element.test.fakes.FakeVectorFeatures
+import dev.getzen.element.test.fakes.FakeVectorPreferences
+import dev.getzen.element.test.test
 import io.mockk.verifyOrder
 import org.junit.Before
 import org.junit.Rule

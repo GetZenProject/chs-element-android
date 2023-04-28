@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.item
+package dev.getzen.element.features.home.room.detail.timeline.item
 
 import android.widget.ImageButton
 import android.widget.TextView
 import androidx.constraintlayout.widget.Group
 import androidx.core.view.isVisible
 import com.airbnb.epoxy.EpoxyModelClass
-import im.vector.app.R
-import im.vector.app.core.epoxy.onClick
-import im.vector.app.core.utils.TextUtils
-import im.vector.app.features.home.room.detail.RoomDetailAction.VoiceBroadcastAction
-import im.vector.app.features.voicebroadcast.model.VoiceBroadcastState
-import im.vector.app.features.voicebroadcast.recording.VoiceBroadcastRecorder
-import im.vector.app.features.voicebroadcast.views.VoiceBroadcastMetadataView
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.onClick
+import dev.getzen.element.core.utils.TextUtils
+import dev.getzen.element.features.home.room.detail.RoomDetailAction.VoiceBroadcastAction
+import dev.getzen.element.features.voicebroadcast.model.VoiceBroadcastState
+import dev.getzen.element.features.voicebroadcast.recording.VoiceBroadcastRecorder
+import dev.getzen.element.features.voicebroadcast.views.VoiceBroadcastMetadataView
 import org.threeten.bp.Duration
 
 @EpoxyModelClass

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.epoxy
+package dev.getzen.element.core.epoxy
 
 import android.widget.TextView
 import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
-import im.vector.app.R
+import dev.getzen.element.R
 
 @EpoxyModelClass
 abstract class FontScaleSectionItem : VectorEpoxyModel<FontScaleSectionItem.Holder>(R.layout.item_font_scale_section) {

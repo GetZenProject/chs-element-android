@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.ui.robot.settings
+package dev.getzen.element.ui.robot.settings
 
 import androidx.test.espresso.Espresso.pressBack
 import com.adevinta.android.barista.assertion.BaristaVisibilityAssertions.assertDisplayed
 import com.adevinta.android.barista.interaction.BaristaClickInteractions.clickOn
-import im.vector.app.R
-import im.vector.app.espresso.tools.clickOnPreference
+import dev.getzen.element.R
+import dev.getzen.element.espresso.tools.clickOnPreference
 
 class SettingsNotificationsRobot {
 

@@ -14,23 +14,23 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.voicebroadcast.listening
+package dev.getzen.element.features.voicebroadcast.listening
 
 import android.media.AudioAttributes
 import android.media.MediaPlayer
 import androidx.annotation.MainThread
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.extensions.onFirst
-import im.vector.app.features.home.room.detail.timeline.helper.AudioMessagePlaybackTracker
-import im.vector.app.features.session.coroutineScope
-import im.vector.app.features.voicebroadcast.VoiceBroadcastFailure
-import im.vector.app.features.voicebroadcast.isLive
-import im.vector.app.features.voicebroadcast.listening.VoiceBroadcastPlayer.Listener
-import im.vector.app.features.voicebroadcast.listening.VoiceBroadcastPlayer.State
-import im.vector.app.features.voicebroadcast.listening.usecase.GetLiveVoiceBroadcastChunksUseCase
-import im.vector.app.features.voicebroadcast.model.VoiceBroadcast
-import im.vector.app.features.voicebroadcast.model.VoiceBroadcastEvent
-import im.vector.app.features.voicebroadcast.usecase.GetVoiceBroadcastStateEventLiveUseCase
+import dev.getzen.element.core.di.ActiveSessionHolder
+import dev.getzen.element.core.extensions.onFirst
+import dev.getzen.element.features.home.room.detail.timeline.helper.AudioMessagePlaybackTracker
+import dev.getzen.element.features.session.coroutineScope
+import dev.getzen.element.features.voicebroadcast.VoiceBroadcastFailure
+import dev.getzen.element.features.voicebroadcast.isLive
+import dev.getzen.element.features.voicebroadcast.listening.VoiceBroadcastPlayer.Listener
+import dev.getzen.element.features.voicebroadcast.listening.VoiceBroadcastPlayer.State
+import dev.getzen.element.features.voicebroadcast.listening.usecase.GetLiveVoiceBroadcastChunksUseCase
+import dev.getzen.element.features.voicebroadcast.model.VoiceBroadcast
+import dev.getzen.element.features.voicebroadcast.model.VoiceBroadcastEvent
+import dev.getzen.element.features.voicebroadcast.usecase.GetVoiceBroadcastStateEventLiveUseCase
 import im.vector.lib.core.utils.timer.CountUpTimer
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.CompletableDeferred

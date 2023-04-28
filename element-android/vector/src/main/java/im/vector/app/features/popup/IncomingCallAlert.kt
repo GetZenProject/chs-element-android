@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.popup
+package dev.getzen.element.features.popup
 
 import android.app.Activity
 import android.view.View
-import im.vector.app.R
-import im.vector.app.core.extensions.setLeftDrawable
-import im.vector.app.core.glide.GlideApp
-import im.vector.app.databinding.AlerterIncomingCallLayoutBinding
-import im.vector.app.features.displayname.getBestName
-import im.vector.app.features.home.AvatarRenderer
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.setLeftDrawable
+import dev.getzen.element.core.glide.GlideApp
+import dev.getzen.element.databinding.AlerterIncomingCallLayoutBinding
+import dev.getzen.element.features.displayname.getBestName
+import dev.getzen.element.features.home.AvatarRenderer
 import org.matrix.android.sdk.api.util.MatrixItem
 
 class IncomingCallAlert(

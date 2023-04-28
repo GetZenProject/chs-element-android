@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.test.fakes
+package dev.getzen.element.test.fakes
 
-import im.vector.app.features.onboarding.RegisterAction
-import im.vector.app.features.onboarding.RegistrationActionHandler
+import dev.getzen.element.features.onboarding.RegisterAction
+import dev.getzen.element.features.onboarding.RegistrationActionHandler
 import io.mockk.coEvery
 import io.mockk.mockk
 

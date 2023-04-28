@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.room
+package dev.getzen.element.features.room
 
 import android.content.Context
-import im.vector.app.R
+import dev.getzen.element.R
 import org.matrix.android.sdk.api.provider.RoomDisplayNameFallbackProvider
 import javax.inject.Inject
 

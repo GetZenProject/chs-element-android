@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.polls
+package dev.getzen.element.features.roomprofile.polls
 
-import im.vector.app.core.platform.VectorViewEvents
+import dev.getzen.element.core.platform.VectorViewEvents
 
 sealed class RoomPollsViewEvent : VectorViewEvents {
     object LoadingError : RoomPollsViewEvent()

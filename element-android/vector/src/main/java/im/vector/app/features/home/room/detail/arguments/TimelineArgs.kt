@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.arguments
+package dev.getzen.element.features.home.room.detail.arguments
 
 import android.os.Parcelable
-import im.vector.app.features.home.room.threads.arguments.ThreadTimelineArgs
-import im.vector.app.features.share.SharedData
+import dev.getzen.element.features.home.room.threads.arguments.ThreadTimelineArgs
+import dev.getzen.element.features.share.SharedData
 import kotlinx.parcelize.Parcelize
 
 @Parcelize

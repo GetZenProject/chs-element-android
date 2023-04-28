@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2.othersessions
+package dev.getzen.element.features.settings.devices.v2.othersessions
 
-import im.vector.app.core.platform.VectorViewModelAction
-import im.vector.app.features.settings.devices.v2.filter.DeviceManagerFilterType
+import dev.getzen.element.core.platform.VectorViewModelAction
+import dev.getzen.element.features.settings.devices.v2.filter.DeviceManagerFilterType
 
 sealed class OtherSessionsAction : VectorViewModelAction {
     // ReAuth

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.onboarding.ftueauth
+package dev.getzen.element.features.onboarding.ftueauth
 
 import android.os.Build
 import android.os.Bundle
@@ -29,20 +29,20 @@ import androidx.lifecycle.lifecycleScope
 import com.airbnb.mvrx.withState
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.hideKeyboard
-import im.vector.app.core.extensions.hidePassword
-import im.vector.app.core.extensions.toReducedUrl
-import im.vector.app.databinding.FragmentLoginBinding
-import im.vector.app.features.login.LoginMode
-import im.vector.app.features.login.SSORedirectRouterActivity
-import im.vector.app.features.login.ServerType
-import im.vector.app.features.login.SignMode
-import im.vector.app.features.login.SocialLoginButtonsView.Mode
-import im.vector.app.features.login.render
-import im.vector.app.features.onboarding.OnboardingAction
-import im.vector.app.features.onboarding.OnboardingViewEvents
-import im.vector.app.features.onboarding.OnboardingViewState
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.hideKeyboard
+import dev.getzen.element.core.extensions.hidePassword
+import dev.getzen.element.core.extensions.toReducedUrl
+import dev.getzen.element.databinding.FragmentLoginBinding
+import dev.getzen.element.features.login.LoginMode
+import dev.getzen.element.features.login.SSORedirectRouterActivity
+import dev.getzen.element.features.login.ServerType
+import dev.getzen.element.features.login.SignMode
+import dev.getzen.element.features.login.SocialLoginButtonsView.Mode
+import dev.getzen.element.features.login.render
+import dev.getzen.element.features.onboarding.OnboardingAction
+import dev.getzen.element.features.onboarding.OnboardingViewEvents
+import dev.getzen.element.features.onboarding.OnboardingViewState
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.map

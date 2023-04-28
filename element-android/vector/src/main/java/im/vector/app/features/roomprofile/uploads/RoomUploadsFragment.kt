@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.uploads
+package dev.getzen.element.features.roomprofile.uploads
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -28,16 +28,16 @@ import com.airbnb.mvrx.withState
 import com.google.android.material.appbar.AppBarLayout
 import com.google.android.material.tabs.TabLayoutMediator
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.intent.getMimeTypeFromUri
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.utils.saveMedia
-import im.vector.app.core.utils.shareMedia
-import im.vector.app.databinding.FragmentRoomUploadsBinding
-import im.vector.app.features.analytics.plan.MobileScreen
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.notifications.NotificationUtils
-import im.vector.app.features.roomprofile.RoomProfileArgs
+import dev.getzen.element.R
+import dev.getzen.element.core.intent.getMimeTypeFromUri
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.core.utils.saveMedia
+import dev.getzen.element.core.utils.shareMedia
+import dev.getzen.element.databinding.FragmentRoomUploadsBinding
+import dev.getzen.element.features.analytics.plan.MobileScreen
+import dev.getzen.element.features.home.AvatarRenderer
+import dev.getzen.element.features.notifications.NotificationUtils
+import dev.getzen.element.features.roomprofile.RoomProfileArgs
 import im.vector.lib.core.utils.timer.Clock
 import kotlinx.coroutines.launch
 import org.matrix.android.sdk.api.util.toMatrixItem

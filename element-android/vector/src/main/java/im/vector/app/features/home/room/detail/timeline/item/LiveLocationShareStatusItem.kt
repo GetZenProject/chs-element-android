@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.item
+package dev.getzen.element.features.home.room.detail.timeline.item
 
 import android.widget.ImageView
-import im.vector.app.features.home.room.detail.timeline.style.TimelineMessageLayout
+import dev.getzen.element.features.home.room.detail.timeline.style.TimelineMessageLayout
 
 interface LiveLocationShareStatusItem {
     fun bindMap(

@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.sync.widget
+package dev.getzen.element.features.sync.widget
 
 import android.annotation.SuppressLint
 import android.content.Context
 import android.util.AttributeSet
 import android.widget.LinearLayout
 import androidx.core.view.isVisible
-import im.vector.app.R
-import im.vector.app.core.utils.isAirplaneModeOn
-import im.vector.app.databinding.ViewSyncStateBinding
+import dev.getzen.element.R
+import dev.getzen.element.core.utils.isAirplaneModeOn
+import dev.getzen.element.databinding.ViewSyncStateBinding
 import org.matrix.android.sdk.api.session.sync.SyncRequestState
 import org.matrix.android.sdk.api.session.sync.SyncState
 

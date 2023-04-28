@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.qrcode
+package dev.getzen.element.features.qrcode
 
-import im.vector.app.core.platform.VectorViewModelAction
+import dev.getzen.element.core.platform.VectorViewModelAction
 
 sealed class QrCodeScannerAction : VectorViewModelAction {
     data class CodeDecoded(

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.pin.lockscreen.ui.fallbackprompt
+package dev.getzen.element.features.pin.lockscreen.ui.fallbackprompt
 
 import android.view.View
 import android.widget.Button
@@ -25,7 +25,7 @@ import androidx.fragment.app.testing.launchFragment
 import androidx.lifecycle.Lifecycle
 import androidx.test.platform.app.InstrumentationRegistry
 import com.airbnb.mvrx.Mavericks
-import im.vector.app.R
+import dev.getzen.element.R
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.receiveAsFlow

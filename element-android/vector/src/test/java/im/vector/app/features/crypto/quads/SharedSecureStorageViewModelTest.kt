@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.crypto.quads
+package dev.getzen.element.features.crypto.quads
 
 import com.airbnb.mvrx.Uninitialized
 import com.airbnb.mvrx.test.MavericksTestRule
-import im.vector.app.test.fakes.FakeSession
-import im.vector.app.test.fakes.FakeStringProvider
-import im.vector.app.test.test
+import dev.getzen.element.test.fakes.FakeSession
+import dev.getzen.element.test.fakes.FakeStringProvider
+import dev.getzen.element.test.test
 import io.mockk.mockk
 import kotlinx.coroutines.test.runTest
 import org.junit.Rule

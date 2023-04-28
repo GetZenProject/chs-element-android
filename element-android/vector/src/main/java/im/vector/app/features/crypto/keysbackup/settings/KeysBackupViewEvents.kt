@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.crypto.keysbackup.settings
+package dev.getzen.element.features.crypto.keysbackup.settings
 
-import im.vector.app.core.platform.VectorViewEvents
+import dev.getzen.element.core.platform.VectorViewEvents
 
 sealed class KeysBackupViewEvents : VectorViewEvents {
     object OpenLegacyCreateBackup : KeysBackupViewEvents()

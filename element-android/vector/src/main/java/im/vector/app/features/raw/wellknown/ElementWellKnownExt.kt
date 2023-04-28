@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.raw.wellknown
+package dev.getzen.element.features.raw.wellknown
 
-import im.vector.app.features.crypto.keysrequest.OutboundSessionKeySharingStrategy
+import dev.getzen.element.features.crypto.keysrequest.OutboundSessionKeySharingStrategy
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

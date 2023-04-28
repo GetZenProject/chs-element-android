@@ -14,23 +14,23 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2
+package dev.getzen.element.features.settings.devices.v2
 
 import android.content.SharedPreferences
 import com.airbnb.mvrx.MavericksViewModelFactory
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.di.MavericksAssistedViewModelFactory
-import im.vector.app.core.di.hiltMavericksViewModelFactory
-import im.vector.app.features.auth.PendingAuthHandler
-import im.vector.app.features.settings.VectorPreferences
-import im.vector.app.features.settings.devices.v2.filter.DeviceManagerFilterType
-import im.vector.app.features.settings.devices.v2.signout.SignoutSessionsReAuthNeeded
-import im.vector.app.features.settings.devices.v2.signout.SignoutSessionsUseCase
-import im.vector.app.features.settings.devices.v2.verification.CheckIfCurrentSessionCanBeVerifiedUseCase
-import im.vector.app.features.settings.devices.v2.verification.GetCurrentSessionCrossSigningInfoUseCase
+import dev.getzen.element.core.di.ActiveSessionHolder
+import dev.getzen.element.core.di.MavericksAssistedViewModelFactory
+import dev.getzen.element.core.di.hiltMavericksViewModelFactory
+import dev.getzen.element.features.auth.PendingAuthHandler
+import dev.getzen.element.features.settings.VectorPreferences
+import dev.getzen.element.features.settings.devices.v2.filter.DeviceManagerFilterType
+import dev.getzen.element.features.settings.devices.v2.signout.SignoutSessionsReAuthNeeded
+import dev.getzen.element.features.settings.devices.v2.signout.SignoutSessionsUseCase
+import dev.getzen.element.features.settings.devices.v2.verification.CheckIfCurrentSessionCanBeVerifiedUseCase
+import dev.getzen.element.features.settings.devices.v2.verification.GetCurrentSessionCrossSigningInfoUseCase
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach

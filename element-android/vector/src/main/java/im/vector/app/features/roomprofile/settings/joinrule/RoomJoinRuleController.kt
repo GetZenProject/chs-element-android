@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.settings.joinrule
+package dev.getzen.element.features.roomprofile.settings.joinrule
 
-import im.vector.app.R
-import im.vector.app.core.resources.DrawableProvider
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.ui.bottomsheet.BottomSheetGenericController
+import dev.getzen.element.R
+import dev.getzen.element.core.resources.DrawableProvider
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.core.ui.bottomsheet.BottomSheetGenericController
 import org.matrix.android.sdk.api.session.room.model.RoomJoinRules
 import javax.inject.Inject
 

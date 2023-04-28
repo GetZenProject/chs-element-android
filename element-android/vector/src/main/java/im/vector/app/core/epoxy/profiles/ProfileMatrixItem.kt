@@ -15,16 +15,16 @@
  *
  */
 
-package im.vector.app.core.epoxy.profiles
+package dev.getzen.element.core.epoxy.profiles
 
 import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
 import com.airbnb.epoxy.EpoxyModelClass
-import im.vector.app.R
-import im.vector.app.core.epoxy.VectorEpoxyHolder
-import im.vector.app.core.ui.views.PresenceStateImageView
-import im.vector.app.core.ui.views.ShieldImageView
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.VectorEpoxyHolder
+import dev.getzen.element.core.ui.views.PresenceStateImageView
+import dev.getzen.element.core.ui.views.ShieldImageView
 
 @EpoxyModelClass
 abstract class ProfileMatrixItem : BaseProfileMatrixItem<ProfileMatrixItem.Holder>(R.layout.item_profile_matrix_item) {

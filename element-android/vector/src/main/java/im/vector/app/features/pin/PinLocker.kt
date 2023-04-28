@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.pin
+package dev.getzen.element.features.pin
 
 import android.os.SystemClock
 import androidx.lifecycle.DefaultLifecycleObserver
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import im.vector.app.features.settings.VectorPreferences
+import dev.getzen.element.features.settings.VectorPreferences
 import kotlinx.coroutines.DelicateCoroutinesApi
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch

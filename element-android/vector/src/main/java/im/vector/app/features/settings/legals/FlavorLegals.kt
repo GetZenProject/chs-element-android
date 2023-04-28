@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.legals
+package dev.getzen.element.features.settings.legals
 
 import android.content.Context
 

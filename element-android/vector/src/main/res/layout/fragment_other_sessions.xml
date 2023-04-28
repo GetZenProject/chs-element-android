@@ -41,7 +41,7 @@
 
         </LinearLayout>
 
-        <im.vector.app.features.settings.devices.v2.list.OtherSessionsView
+        <dev.getzen.element.features.settings.devices.v2.list.OtherSessionsView
             android:id="@+id/deviceListOtherSessions"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -64,7 +64,7 @@
             app:titleEnabled="false"
             app:toolbarId="@id/otherSessionsToolbar">
 
-            <im.vector.app.features.settings.devices.v2.list.SessionsListHeaderView
+            <dev.getzen.element.features.settings.devices.v2.list.SessionsListHeaderView
                 android:id="@+id/deviceListHeaderOtherSessions"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -75,7 +75,7 @@
                 app:sessionsListHeaderHasLearnMoreLink="false"
                 app:sessionsListHeaderTitle="" />
 
-            <im.vector.app.features.settings.devices.v2.othersessions.OtherSessionsSecurityRecommendationView
+            <dev.getzen.element.features.settings.devices.v2.othersessions.OtherSessionsSecurityRecommendationView
                 android:id="@+id/otherSessionsSecurityRecommendationView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

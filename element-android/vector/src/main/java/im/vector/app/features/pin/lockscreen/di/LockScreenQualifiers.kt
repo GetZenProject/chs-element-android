@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.pin.lockscreen.di
+package dev.getzen.element.features.pin.lockscreen.di
 
 import javax.inject.Qualifier
 

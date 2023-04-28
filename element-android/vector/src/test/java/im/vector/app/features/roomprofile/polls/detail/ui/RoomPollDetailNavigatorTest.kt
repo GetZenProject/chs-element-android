@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.polls.detail.ui
+package dev.getzen.element.features.roomprofile.polls.detail.ui
 
 import android.content.Context
-import im.vector.app.test.fakes.FakeNavigator
+import dev.getzen.element.test.fakes.FakeNavigator
 import io.mockk.mockk
 import org.junit.Test
 

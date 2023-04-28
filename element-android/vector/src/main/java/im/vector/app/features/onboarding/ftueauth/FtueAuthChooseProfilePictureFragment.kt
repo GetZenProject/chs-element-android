@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.onboarding.ftueauth
+package dev.getzen.element.features.onboarding.ftueauth
 
 import android.net.Uri
 import android.os.Bundle
@@ -25,14 +25,14 @@ import android.widget.Toast
 import androidx.core.view.isInvisible
 import com.airbnb.mvrx.withState
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.dialogs.GalleryOrCameraDialogHelper
-import im.vector.app.core.dialogs.GalleryOrCameraDialogHelperFactory
-import im.vector.app.databinding.FragmentFtueProfilePictureBinding
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.onboarding.OnboardingAction
-import im.vector.app.features.onboarding.OnboardingViewEvents
-import im.vector.app.features.onboarding.OnboardingViewState
+import dev.getzen.element.R
+import dev.getzen.element.core.dialogs.GalleryOrCameraDialogHelper
+import dev.getzen.element.core.dialogs.GalleryOrCameraDialogHelperFactory
+import dev.getzen.element.databinding.FragmentFtueProfilePictureBinding
+import dev.getzen.element.features.home.AvatarRenderer
+import dev.getzen.element.features.onboarding.OnboardingAction
+import dev.getzen.element.features.onboarding.OnboardingViewEvents
+import dev.getzen.element.features.onboarding.OnboardingViewState
 import org.matrix.android.sdk.api.util.MatrixItem
 import javax.inject.Inject
 

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.analytics.extensions
+package dev.getzen.element.features.analytics.extensions
 
-import im.vector.app.features.analytics.plan.Interaction
+import dev.getzen.element.features.analytics.plan.Interaction
 
 fun Interaction.Name.toAnalyticsInteraction(interactionType: Interaction.InteractionType = Interaction.InteractionType.Touch) =
         Interaction(

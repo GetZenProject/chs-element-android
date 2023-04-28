@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.test.fakes
+package dev.getzen.element.test.fakes
 
-import im.vector.app.features.settings.devices.v2.notification.GetNotificationsStatusUseCase
-import im.vector.app.features.settings.devices.v2.notification.NotificationsStatus
+import dev.getzen.element.features.settings.devices.v2.notification.GetNotificationsStatusUseCase
+import dev.getzen.element.features.settings.devices.v2.notification.NotificationsStatus
 import io.mockk.every
 import io.mockk.mockk
 import kotlinx.coroutines.flow.flowOf

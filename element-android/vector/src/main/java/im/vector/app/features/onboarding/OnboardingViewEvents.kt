@@ -15,11 +15,11 @@
  *
  */
 
-package im.vector.app.features.onboarding
+package dev.getzen.element.features.onboarding
 
-import im.vector.app.core.platform.VectorViewEvents
-import im.vector.app.features.login.ServerType
-import im.vector.app.features.login.SignMode
+import dev.getzen.element.core.platform.VectorViewEvents
+import dev.getzen.element.features.login.ServerType
+import dev.getzen.element.features.login.SignMode
 import org.matrix.android.sdk.api.auth.registration.Stage
 import org.matrix.android.sdk.api.failure.Failure as SdkFailure
 

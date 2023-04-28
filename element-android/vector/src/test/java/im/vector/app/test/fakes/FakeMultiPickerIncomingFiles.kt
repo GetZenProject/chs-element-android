@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.test.fakes
+package dev.getzen.element.test.fakes
 
 import android.content.Intent
-import im.vector.app.features.attachments.MultiPickerIncomingFiles
+import dev.getzen.element.features.attachments.MultiPickerIncomingFiles
 import io.mockk.every
 import io.mockk.mockk
 import org.matrix.android.sdk.api.session.content.ContentAttachmentData

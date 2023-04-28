@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.raw.wellknown
+package dev.getzen.element.features.raw.wellknown
 
 enum class SecureBackupMethod {
     KEY,

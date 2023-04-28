@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.notifications
+package dev.getzen.element.features.settings.notifications
 
-import im.vector.app.core.platform.VectorViewModelAction
+import dev.getzen.element.core.platform.VectorViewModelAction
 
 sealed interface VectorSettingsNotificationViewAction : VectorViewModelAction {
     data class EnableNotificationsForDevice(val pushDistributor: String) : VectorSettingsNotificationViewAction

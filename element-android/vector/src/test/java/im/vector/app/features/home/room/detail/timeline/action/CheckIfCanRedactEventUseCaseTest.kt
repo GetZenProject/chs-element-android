@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.action
+package dev.getzen.element.features.home.room.detail.timeline.action
 
-import im.vector.app.features.voicebroadcast.VoiceBroadcastConstants
-import im.vector.app.test.fakes.FakeActiveSessionHolder
+import dev.getzen.element.features.voicebroadcast.VoiceBroadcastConstants
+import dev.getzen.element.test.fakes.FakeActiveSessionHolder
 import io.mockk.mockk
 import org.amshove.kluent.shouldBe
 import org.junit.Test

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.ui.robot
+package dev.getzen.element.ui.robot
 
 import com.adevinta.android.barista.interaction.BaristaDialogInteractions.clickDialogNegativeButton
 

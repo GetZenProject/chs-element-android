@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.push
+package dev.getzen.element.features.settings.push
 
 import android.view.View
 import android.widget.TextView
 import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
-import im.vector.app.R
-import im.vector.app.core.epoxy.VectorEpoxyHolder
-import im.vector.app.core.epoxy.VectorEpoxyModel
-import im.vector.app.core.extensions.setTextOrHide
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.VectorEpoxyHolder
+import dev.getzen.element.core.epoxy.VectorEpoxyModel
+import dev.getzen.element.core.extensions.setTextOrHide
 import org.matrix.android.sdk.api.session.pushers.Pusher
 
 @EpoxyModelClass

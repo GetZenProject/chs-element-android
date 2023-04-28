@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.onboarding
+package dev.getzen.element.features.onboarding
 
-import im.vector.app.R
-import im.vector.app.core.extensions.andThen
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.onboarding.OnboardingAction.AuthenticateAction.LoginDirect
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.andThen
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.features.onboarding.OnboardingAction.AuthenticateAction.LoginDirect
 import org.matrix.android.sdk.api.MatrixPatterns.getServerName
 import org.matrix.android.sdk.api.auth.AuthenticationService
 import org.matrix.android.sdk.api.auth.data.HomeServerConnectionConfig

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.location
+package dev.getzen.element.features.location
 
 import org.amshove.kluent.shouldBeEqualTo
 import org.amshove.kluent.shouldBeNull

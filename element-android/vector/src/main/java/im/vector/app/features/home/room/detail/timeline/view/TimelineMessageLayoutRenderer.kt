@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.view
+package dev.getzen.element.features.home.room.detail.timeline.view
 
-import im.vector.app.features.home.room.detail.timeline.style.TimelineMessageLayout
+import dev.getzen.element.features.home.room.detail.timeline.style.TimelineMessageLayout
 
 interface TimelineMessageLayoutRenderer {
     fun renderMessageLayout(messageLayout: TimelineMessageLayout)

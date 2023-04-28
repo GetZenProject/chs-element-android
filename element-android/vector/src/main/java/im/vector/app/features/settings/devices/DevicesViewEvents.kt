@@ -15,9 +15,9 @@
  *
  */
 
-package im.vector.app.features.settings.devices
+package dev.getzen.element.features.settings.devices
 
-import im.vector.app.core.platform.VectorViewEvents
+import dev.getzen.element.core.platform.VectorViewEvents
 import org.matrix.android.sdk.api.auth.registration.RegistrationFlowResponse
 import org.matrix.android.sdk.api.session.Session
 import org.matrix.android.sdk.api.session.crypto.model.CryptoDeviceInfo

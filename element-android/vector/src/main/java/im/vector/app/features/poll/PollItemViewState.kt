@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.poll
+package dev.getzen.element.features.poll
 
-import im.vector.app.features.home.room.detail.timeline.item.PollOptionViewState
+import dev.getzen.element.features.home.room.detail.timeline.item.PollOptionViewState
 
 data class PollItemViewState(
         val question: String,

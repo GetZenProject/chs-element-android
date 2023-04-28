@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.workers.signout
+package dev.getzen.element.features.workers.signout
 
 import android.app.Activity
 import android.app.Dialog
@@ -32,15 +32,15 @@ import com.google.android.material.bottomsheet.BottomSheetBehavior
 import com.google.android.material.bottomsheet.BottomSheetDialog
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.dialogs.ExportKeysDialog
-import im.vector.app.core.extensions.queryExportKeys
-import im.vector.app.core.extensions.registerStartForActivityResult
-import im.vector.app.core.platform.VectorBaseBottomSheetDialogFragment
-import im.vector.app.databinding.BottomSheetLogoutAndBackupBinding
-import im.vector.app.features.crypto.keysbackup.setup.KeysBackupSetupActivity
-import im.vector.app.features.crypto.recover.BootstrapBottomSheet
-import im.vector.app.features.crypto.recover.SetupMode
+import dev.getzen.element.R
+import dev.getzen.element.core.dialogs.ExportKeysDialog
+import dev.getzen.element.core.extensions.queryExportKeys
+import dev.getzen.element.core.extensions.registerStartForActivityResult
+import dev.getzen.element.core.platform.VectorBaseBottomSheetDialogFragment
+import dev.getzen.element.databinding.BottomSheetLogoutAndBackupBinding
+import dev.getzen.element.features.crypto.keysbackup.setup.KeysBackupSetupActivity
+import dev.getzen.element.features.crypto.recover.BootstrapBottomSheet
+import dev.getzen.element.features.crypto.recover.SetupMode
 import org.matrix.android.sdk.api.session.crypto.keysbackup.KeysBackupState
 
 // TODO this needs to be refactored to current standard and remove legacy

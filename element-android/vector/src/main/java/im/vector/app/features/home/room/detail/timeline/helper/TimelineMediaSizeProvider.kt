@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.helper
+package dev.getzen.element.features.home.room.detail.timeline.helper
 
 import android.content.res.Resources
 import androidx.recyclerview.widget.RecyclerView
 import dagger.hilt.android.scopes.ActivityScoped
-import im.vector.app.R
-import im.vector.app.features.settings.VectorPreferences
+import dev.getzen.element.R
+import dev.getzen.element.features.settings.VectorPreferences
 import javax.inject.Inject
 import kotlin.math.roundToInt
 

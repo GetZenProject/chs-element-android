@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.terms
+package dev.getzen.element.features.terms
 
 data class Term(
         val url: String,

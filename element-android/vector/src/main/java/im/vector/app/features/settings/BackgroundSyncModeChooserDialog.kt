@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings
+package dev.getzen.element.features.settings
 
 import android.app.Dialog
 import android.os.Bundle
 import androidx.fragment.app.DialogFragment
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.databinding.DialogBackgroundSyncModeBinding
+import dev.getzen.element.R
+import dev.getzen.element.databinding.DialogBackgroundSyncModeBinding
 
 class BackgroundSyncModeChooserDialog : DialogFragment() {
 

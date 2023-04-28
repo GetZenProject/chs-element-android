@@ -20,7 +20,7 @@
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
 
--keep class im.vector.app.features.** { *; }
+-keep class dev.getzen.element.features.** { *; }
 
 ## print all the rules in a file
 # -printconfiguration ../proguard_files/full-r8-config.txt

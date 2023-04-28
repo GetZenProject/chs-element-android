@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.crypto.verification
+package dev.getzen.element.features.crypto.verification
 
-import im.vector.app.core.hardware.HardwareInfo
+import dev.getzen.element.core.hardware.HardwareInfo
 import org.matrix.android.sdk.api.session.crypto.verification.VerificationMethod
 import timber.log.Timber
 import javax.inject.Inject

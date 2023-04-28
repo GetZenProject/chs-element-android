@@ -15,9 +15,9 @@
  *
  */
 
-package im.vector.app.features.signout.soft
+package dev.getzen.element.features.signout.soft
 
-import im.vector.app.core.platform.VectorViewEvents
+import dev.getzen.element.core.platform.VectorViewEvents
 
 /**
  * Transient events for SoftLogout.

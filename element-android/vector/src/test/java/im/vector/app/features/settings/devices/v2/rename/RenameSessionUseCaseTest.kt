@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2.rename
+package dev.getzen.element.features.settings.devices.v2.rename
 
-import im.vector.app.features.settings.devices.v2.RefreshDevicesUseCase
-import im.vector.app.test.fakes.FakeActiveSessionHolder
+import dev.getzen.element.features.settings.devices.v2.RefreshDevicesUseCase
+import dev.getzen.element.test.fakes.FakeActiveSessionHolder
 import io.mockk.every
 import io.mockk.just
 import io.mockk.mockk

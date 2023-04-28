@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.di
+package dev.getzen.element.core.di
 
 import com.airbnb.mvrx.MavericksState
 import com.airbnb.mvrx.MavericksViewModel

@@ -14,10 +14,10 @@
  * limitations under the License.
  *
  */
-package im.vector.app.features.home.room.detail.composer.link
+package dev.getzen.element.features.home.room.detail.composer.link
 
-import im.vector.app.core.platform.VectorSharedAction
-import im.vector.app.core.platform.VectorSharedActionViewModel
+import dev.getzen.element.core.platform.VectorSharedAction
+import dev.getzen.element.core.platform.VectorSharedActionViewModel
 import javax.inject.Inject
 
 class SetLinkSharedActionViewModel @Inject constructor() :

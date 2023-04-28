@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2.list
+package dev.getzen.element.features.settings.devices.v2.list
 
 import android.content.Context
 import android.content.res.ColorStateList
@@ -22,8 +22,8 @@ import android.content.res.TypedArray
 import android.util.AttributeSet
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.res.use
-import im.vector.app.R
-import im.vector.app.databinding.ViewSecurityRecommendationBinding
+import dev.getzen.element.R
+import dev.getzen.element.databinding.ViewSecurityRecommendationBinding
 
 class SecurityRecommendationView @JvmOverloads constructor(
         context: Context,

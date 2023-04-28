@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.onboarding.ftueauth
+package dev.getzen.element.features.onboarding.ftueauth
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.databinding.FragmentFtuePersonalizationCompleteBinding
-import im.vector.app.features.onboarding.OnboardingAction
-import im.vector.app.features.onboarding.OnboardingViewEvents
+import dev.getzen.element.databinding.FragmentFtuePersonalizationCompleteBinding
+import dev.getzen.element.features.onboarding.OnboardingAction
+import dev.getzen.element.features.onboarding.OnboardingViewEvents
 
 @AndroidEntryPoint
 class FtueAuthPersonalizationCompleteFragment :

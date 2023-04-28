@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call
+package dev.getzen.element.features.call
 
 import android.content.Context
 import android.util.AttributeSet
 import android.widget.FrameLayout
 import androidx.core.view.isVisible
-import im.vector.app.R
-import im.vector.app.databinding.ViewCallControlsBinding
+import dev.getzen.element.R
+import dev.getzen.element.databinding.ViewCallControlsBinding
 import org.matrix.android.sdk.api.session.call.CallState
 import org.matrix.android.sdk.api.session.call.MxPeerConnectionState
 

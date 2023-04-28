@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.composer
+package dev.getzen.element.features.home.room.detail.composer
 
 import org.matrix.android.sdk.api.session.room.timeline.TimelineEvent
 

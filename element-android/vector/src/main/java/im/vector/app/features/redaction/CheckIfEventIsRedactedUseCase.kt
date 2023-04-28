@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.redaction
+package dev.getzen.element.features.redaction
 
 import org.matrix.android.sdk.api.session.Session
 import timber.log.Timber

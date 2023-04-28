@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.pushers
+package dev.getzen.element.core.pushers
 
 import android.content.Context
 import androidx.annotation.MainThread
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
-import im.vector.app.R
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.utils.getApplicationLabel
+import dev.getzen.element.R
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.core.utils.getApplicationLabel
 import org.matrix.android.sdk.api.Matrix
 import org.matrix.android.sdk.api.cache.CacheStrategy
 import org.matrix.android.sdk.api.util.MatrixJsonParser

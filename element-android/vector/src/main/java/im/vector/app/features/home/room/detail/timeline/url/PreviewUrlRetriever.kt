@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.url
+package dev.getzen.element.features.home.room.detail.timeline.url
 
-import im.vector.app.core.resources.BuildMeta
+import dev.getzen.element.core.resources.BuildMeta
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

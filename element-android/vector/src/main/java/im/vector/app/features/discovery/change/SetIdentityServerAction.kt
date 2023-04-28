@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.discovery.change
+package dev.getzen.element.features.discovery.change
 
-import im.vector.app.core.platform.VectorViewModelAction
+import dev.getzen.element.core.platform.VectorViewModelAction
 
 sealed class SetIdentityServerAction : VectorViewModelAction {
     object UseDefaultIdentityServer : SetIdentityServerAction()

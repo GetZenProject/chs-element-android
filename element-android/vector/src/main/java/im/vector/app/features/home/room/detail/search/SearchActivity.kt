@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.search
+package dev.getzen.element.features.home.room.detail.search
 
 import android.content.Context
 import android.content.Intent
@@ -22,9 +22,9 @@ import android.os.Bundle
 import androidx.appcompat.widget.SearchView
 import com.airbnb.mvrx.Mavericks
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.core.extensions.addFragment
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.databinding.ActivitySearchBinding
+import dev.getzen.element.core.extensions.addFragment
+import dev.getzen.element.core.platform.VectorBaseActivity
+import dev.getzen.element.databinding.ActivitySearchBinding
 import im.vector.lib.core.utils.compat.getParcelableCompat
 
 @AndroidEntryPoint

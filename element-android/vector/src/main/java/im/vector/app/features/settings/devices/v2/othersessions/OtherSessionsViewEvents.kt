@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2.othersessions
+package dev.getzen.element.features.settings.devices.v2.othersessions
 
-import im.vector.app.core.platform.VectorViewEvents
+import dev.getzen.element.core.platform.VectorViewEvents
 import org.matrix.android.sdk.api.auth.registration.RegistrationFlowResponse
 
 sealed class OtherSessionsViewEvents : VectorViewEvents {

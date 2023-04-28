@@ -16,7 +16,7 @@
 
 @file:Suppress("DEPRECATION")
 
-package im.vector.app.features.webview
+package dev.getzen.element.features.webview
 
 import android.annotation.TargetApi
 import android.graphics.Bitmap

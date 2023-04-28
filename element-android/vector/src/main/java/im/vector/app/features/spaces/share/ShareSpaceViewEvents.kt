@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.share
+package dev.getzen.element.features.spaces.share
 
-import im.vector.app.core.platform.VectorViewEvents
+import dev.getzen.element.core.platform.VectorViewEvents
 
 sealed class ShareSpaceViewEvents : VectorViewEvents {
     data class NavigateToInviteUser(val spaceId: String) : ShareSpaceViewEvents()

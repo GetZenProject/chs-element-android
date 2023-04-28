@@ -46,7 +46,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/sessionInfoNameTextView">
 
-        <im.vector.app.core.ui.views.ShieldImageView
+        <dev.getzen.element.core.ui.views.ShieldImageView
             android:id="@+id/sessionInfoVerificationStatusImageView"
             android:layout_width="16dp"
             android:layout_height="16dp"

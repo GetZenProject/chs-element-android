@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.analytics.accountdata
+package dev.getzen.element.features.analytics.accountdata
 
 import com.airbnb.mvrx.MavericksViewModelFactory
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
-import im.vector.app.core.di.MavericksAssistedViewModelFactory
-import im.vector.app.core.di.hiltMavericksViewModelFactory
-import im.vector.app.core.platform.EmptyAction
-import im.vector.app.core.platform.EmptyViewEvents
-import im.vector.app.core.platform.VectorDummyViewState
-import im.vector.app.core.platform.VectorViewModel
-import im.vector.app.features.analytics.VectorAnalytics
-import im.vector.app.features.analytics.log.analyticsTag
+import dev.getzen.element.core.di.MavericksAssistedViewModelFactory
+import dev.getzen.element.core.di.hiltMavericksViewModelFactory
+import dev.getzen.element.core.platform.EmptyAction
+import dev.getzen.element.core.platform.EmptyViewEvents
+import dev.getzen.element.core.platform.VectorDummyViewState
+import dev.getzen.element.core.platform.VectorViewModel
+import dev.getzen.element.features.analytics.VectorAnalytics
+import dev.getzen.element.features.analytics.log.analyticsTag
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.mapNotNull

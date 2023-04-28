@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2.signout
+package dev.getzen.element.features.settings.devices.v2.signout
 
-import im.vector.app.test.fakes.FakeActiveSessionHolder
-import im.vector.app.test.fakes.FakeReAuthHelper
+import dev.getzen.element.test.fakes.FakeActiveSessionHolder
+import dev.getzen.element.test.fakes.FakeReAuthHelper
 import io.mockk.every
 import io.mockk.just
 import io.mockk.mockk

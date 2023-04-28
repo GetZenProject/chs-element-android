@@ -15,7 +15,7 @@
  *
  */
 
-package im.vector.app.features.roomprofile
+package dev.getzen.element.features.roomprofile
 
 import android.content.Context
 import android.content.Intent
@@ -24,21 +24,21 @@ import androidx.lifecycle.lifecycleScope
 import com.airbnb.mvrx.Mavericks
 import com.airbnb.mvrx.viewModel
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.core.extensions.addFragment
-import im.vector.app.core.extensions.addFragmentToBackstack
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.databinding.ActivitySimpleBinding
-import im.vector.app.features.home.room.detail.RoomDetailPendingActionStore
-import im.vector.app.features.room.RequireActiveMembershipViewEvents
-import im.vector.app.features.room.RequireActiveMembershipViewModel
-import im.vector.app.features.roomprofile.alias.RoomAliasFragment
-import im.vector.app.features.roomprofile.banned.RoomBannedMemberListFragment
-import im.vector.app.features.roomprofile.members.RoomMemberListFragment
-import im.vector.app.features.roomprofile.notifications.RoomNotificationSettingsFragment
-import im.vector.app.features.roomprofile.permissions.RoomPermissionsFragment
-import im.vector.app.features.roomprofile.polls.RoomPollsFragment
-import im.vector.app.features.roomprofile.settings.RoomSettingsFragment
-import im.vector.app.features.roomprofile.uploads.RoomUploadsFragment
+import dev.getzen.element.core.extensions.addFragment
+import dev.getzen.element.core.extensions.addFragmentToBackstack
+import dev.getzen.element.core.platform.VectorBaseActivity
+import dev.getzen.element.databinding.ActivitySimpleBinding
+import dev.getzen.element.features.home.room.detail.RoomDetailPendingActionStore
+import dev.getzen.element.features.room.RequireActiveMembershipViewEvents
+import dev.getzen.element.features.room.RequireActiveMembershipViewModel
+import dev.getzen.element.features.roomprofile.alias.RoomAliasFragment
+import dev.getzen.element.features.roomprofile.banned.RoomBannedMemberListFragment
+import dev.getzen.element.features.roomprofile.members.RoomMemberListFragment
+import dev.getzen.element.features.roomprofile.notifications.RoomNotificationSettingsFragment
+import dev.getzen.element.features.roomprofile.permissions.RoomPermissionsFragment
+import dev.getzen.element.features.roomprofile.polls.RoomPollsFragment
+import dev.getzen.element.features.roomprofile.settings.RoomSettingsFragment
+import dev.getzen.element.features.roomprofile.uploads.RoomUploadsFragment
 import im.vector.lib.core.utils.compat.getParcelableCompat
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach

@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.location
+package dev.getzen.element.features.location
 
 import android.content.Context
 import android.location.Location
 import android.location.LocationManager
-import im.vector.app.features.session.coroutineScope
-import im.vector.app.test.fakes.FakeActiveSessionHolder
-import im.vector.app.test.fakes.FakeContext
-import im.vector.app.test.fakes.FakeLocationManager
-import im.vector.app.test.fixtures.aBuildMeta
-import im.vector.app.test.test
+import dev.getzen.element.features.session.coroutineScope
+import dev.getzen.element.test.fakes.FakeActiveSessionHolder
+import dev.getzen.element.test.fakes.FakeContext
+import dev.getzen.element.test.fakes.FakeLocationManager
+import dev.getzen.element.test.fixtures.aBuildMeta
+import dev.getzen.element.test.test
 import io.mockk.every
 import io.mockk.just
 import io.mockk.mockk
@@ -56,7 +56,7 @@ class LocationTrackerTest {
 
     @Before
     fun setUp() {
-        mockkStatic("im.vector.app.features.session.SessionCoroutineScopesKt")
+        mockkStatic("dev.getzen.element.features.session.SessionCoroutineScopesKt")
         locationTracker = LocationTracker(fakeContext.instance, fakeActiveSessionHolder.instance, aBuildMeta())
         fakeLocationManager.givenRemoveUpdates(locationTracker)
     }

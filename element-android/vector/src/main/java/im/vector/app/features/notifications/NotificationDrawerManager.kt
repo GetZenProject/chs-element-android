@@ -13,18 +13,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.notifications
+package dev.getzen.element.features.notifications
 
 import android.content.Context
 import android.os.Handler
 import android.os.HandlerThread
 import androidx.annotation.WorkerThread
-import im.vector.app.ActiveSessionDataSource
-import im.vector.app.R
-import im.vector.app.core.resources.BuildMeta
-import im.vector.app.core.utils.FirstThrottler
-import im.vector.app.features.displayname.getBestName
-import im.vector.app.features.settings.VectorPreferences
+import dev.getzen.element.ActiveSessionDataSource
+import dev.getzen.element.R
+import dev.getzen.element.core.resources.BuildMeta
+import dev.getzen.element.core.utils.FirstThrottler
+import dev.getzen.element.features.displayname.getBestName
+import dev.getzen.element.features.settings.VectorPreferences
 import org.matrix.android.sdk.api.session.Session
 import org.matrix.android.sdk.api.session.content.ContentUrlResolver
 import org.matrix.android.sdk.api.session.getUserOrDefault

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.extensions
+package dev.getzen.element.core.extensions
 
 private const val RTL_OVERRIDE_CHAR = '\u202E'
 private const val LTR_OVERRIDE_CHAR = '\u202D'

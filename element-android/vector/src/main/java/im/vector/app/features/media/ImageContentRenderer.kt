@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.media
+package dev.getzen.element.features.media
 
 import android.graphics.Bitmap
 import android.graphics.drawable.Drawable
@@ -30,14 +30,14 @@ import com.bumptech.glide.load.resource.bitmap.RoundedCorners
 import com.bumptech.glide.request.RequestListener
 import com.bumptech.glide.request.target.CustomViewTarget
 import com.bumptech.glide.request.target.Target
-import im.vector.app.R
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.files.LocalFilesHelper
-import im.vector.app.core.glide.GlideApp
-import im.vector.app.core.glide.GlideRequest
-import im.vector.app.core.glide.GlideRequests
-import im.vector.app.core.ui.model.Size
-import im.vector.app.core.utils.DimensionConverter
+import dev.getzen.element.R
+import dev.getzen.element.core.di.ActiveSessionHolder
+import dev.getzen.element.core.files.LocalFilesHelper
+import dev.getzen.element.core.glide.GlideApp
+import dev.getzen.element.core.glide.GlideRequest
+import dev.getzen.element.core.glide.GlideRequests
+import dev.getzen.element.core.ui.model.Size
+import dev.getzen.element.core.utils.DimensionConverter
 import kotlinx.parcelize.Parcelize
 import org.matrix.android.sdk.api.extensions.tryOrNull
 import org.matrix.android.sdk.api.session.content.ContentUrlResolver

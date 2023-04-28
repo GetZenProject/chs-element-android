@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2
+package dev.getzen.element.features.settings.devices.v2
 
-import im.vector.app.features.settings.devices.v2.details.extended.DeviceExtendedInfo
-import im.vector.app.features.settings.devices.v2.list.DeviceType
+import dev.getzen.element.features.settings.devices.v2.details.extended.DeviceExtendedInfo
+import dev.getzen.element.features.settings.devices.v2.list.DeviceType
 import org.amshove.kluent.shouldBeEqualTo
 import org.junit.Test
 

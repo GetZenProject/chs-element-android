@@ -14,6 +14,6 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.polls
+package dev.getzen.element.features.roomprofile.polls
 
 class RoomPollsLoadingError : Throwable()

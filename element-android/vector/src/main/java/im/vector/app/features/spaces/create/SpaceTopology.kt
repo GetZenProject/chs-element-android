@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.create
+package dev.getzen.element.features.spaces.create
 
 enum class SpaceTopology {
     JustMe,

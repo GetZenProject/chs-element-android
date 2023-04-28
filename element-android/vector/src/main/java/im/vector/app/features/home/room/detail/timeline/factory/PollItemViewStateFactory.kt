@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.factory
+package dev.getzen.element.features.home.room.detail.timeline.factory
 
-import im.vector.app.R
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.home.room.detail.timeline.item.PollResponseData
-import im.vector.app.features.poll.PollItemViewState
+import dev.getzen.element.R
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.features.home.room.detail.timeline.item.PollResponseData
+import dev.getzen.element.features.poll.PollItemViewState
 import org.matrix.android.sdk.api.extensions.orFalse
 import org.matrix.android.sdk.api.session.room.model.message.MessagePollContent
 import org.matrix.android.sdk.api.session.room.model.message.PollCreationInfo

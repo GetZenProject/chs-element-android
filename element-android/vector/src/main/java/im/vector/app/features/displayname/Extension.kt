@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.displayname
+package dev.getzen.element.features.displayname
 
 import org.matrix.android.sdk.api.util.MatrixItem
 

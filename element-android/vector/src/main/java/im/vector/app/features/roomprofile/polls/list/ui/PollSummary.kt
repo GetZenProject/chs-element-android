@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.polls.list.ui
+package dev.getzen.element.features.roomprofile.polls.list.ui
 
-import im.vector.app.features.home.room.detail.timeline.item.PollOptionViewState
+import dev.getzen.element.features.home.room.detail.timeline.item.PollOptionViewState
 
 sealed interface PollSummary {
     val id: String

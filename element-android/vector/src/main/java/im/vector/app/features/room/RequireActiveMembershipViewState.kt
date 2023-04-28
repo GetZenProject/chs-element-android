@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.room
+package dev.getzen.element.features.room
 
 import com.airbnb.mvrx.MavericksState
-import im.vector.app.features.home.room.detail.arguments.TimelineArgs
-import im.vector.app.features.roommemberprofile.RoomMemberProfileArgs
-import im.vector.app.features.roomprofile.RoomProfileArgs
+import dev.getzen.element.features.home.room.detail.arguments.TimelineArgs
+import dev.getzen.element.features.roommemberprofile.RoomMemberProfileArgs
+import dev.getzen.element.features.roomprofile.RoomProfileArgs
 
 data class RequireActiveMembershipViewState(
         val roomId: String? = null

@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.settings.joinrule.advanced
+package dev.getzen.element.features.roomprofile.settings.joinrule.advanced
 
 import com.airbnb.mvrx.Async
 import com.airbnb.mvrx.MavericksState
 import com.airbnb.mvrx.Uninitialized
-import im.vector.app.features.roomprofile.RoomProfileArgs
-import im.vector.app.features.roomprofile.settings.joinrule.JoinRulesOptionSupport
+import dev.getzen.element.features.roomprofile.RoomProfileArgs
+import dev.getzen.element.features.roomprofile.settings.joinrule.JoinRulesOptionSupport
 import org.matrix.android.sdk.api.session.room.model.RoomJoinRules
 import org.matrix.android.sdk.api.session.room.model.RoomJoinRulesAllowEntry
 import org.matrix.android.sdk.api.session.room.model.RoomSummary

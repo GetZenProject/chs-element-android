@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.test.fakes
+package dev.getzen.element.test.fakes
 
-import im.vector.app.features.settings.BackgroundSyncMode
-import im.vector.app.features.settings.VectorPreferences
+import dev.getzen.element.features.settings.BackgroundSyncMode
+import dev.getzen.element.features.settings.VectorPreferences
 import io.mockk.every
 import io.mockk.justRun
 import io.mockk.mockk

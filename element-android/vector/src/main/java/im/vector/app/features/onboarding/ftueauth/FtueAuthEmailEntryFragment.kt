@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.onboarding.ftueauth
+package dev.getzen.element.features.onboarding.ftueauth
 
 import android.os.Bundle
 import android.os.Parcelable
@@ -23,20 +23,20 @@ import android.view.View
 import android.view.ViewGroup
 import com.airbnb.mvrx.args
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.associateContentStateWith
-import im.vector.app.core.extensions.autofillEmail
-import im.vector.app.core.extensions.clearErrorOnChange
-import im.vector.app.core.extensions.content
-import im.vector.app.core.extensions.editText
-import im.vector.app.core.extensions.hasContent
-import im.vector.app.core.extensions.isEmail
-import im.vector.app.core.extensions.setOnImeDoneListener
-import im.vector.app.core.extensions.toReducedUrl
-import im.vector.app.databinding.FragmentFtueEmailInputBinding
-import im.vector.app.features.onboarding.OnboardingAction
-import im.vector.app.features.onboarding.OnboardingViewState
-import im.vector.app.features.onboarding.RegisterAction
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.associateContentStateWith
+import dev.getzen.element.core.extensions.autofillEmail
+import dev.getzen.element.core.extensions.clearErrorOnChange
+import dev.getzen.element.core.extensions.content
+import dev.getzen.element.core.extensions.editText
+import dev.getzen.element.core.extensions.hasContent
+import dev.getzen.element.core.extensions.isEmail
+import dev.getzen.element.core.extensions.setOnImeDoneListener
+import dev.getzen.element.core.extensions.toReducedUrl
+import dev.getzen.element.databinding.FragmentFtueEmailInputBinding
+import dev.getzen.element.features.onboarding.OnboardingAction
+import dev.getzen.element.features.onboarding.OnboardingViewState
+import dev.getzen.element.features.onboarding.RegisterAction
 import kotlinx.parcelize.Parcelize
 import org.matrix.android.sdk.api.auth.registration.RegisterThreePid
 

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.pushers
+package dev.getzen.element.core.pushers
 
 import android.content.Context
 import dagger.hilt.android.qualifiers.ApplicationContext
-import im.vector.app.features.settings.BackgroundSyncMode
-import im.vector.app.features.settings.VectorPreferences
+import dev.getzen.element.features.settings.BackgroundSyncMode
+import dev.getzen.element.features.settings.VectorPreferences
 import org.unifiedpush.android.connector.UnifiedPush
 import timber.log.Timber
 import javax.inject.Inject

@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.notifications
+package dev.getzen.element.features.settings.notifications
 
 import com.airbnb.mvrx.test.MavericksTestRule
-import im.vector.app.features.settings.notifications.usecase.GetPushRulesOnInvalidStateUseCase
-import im.vector.app.test.fakes.FakeSession
-import im.vector.app.test.fixtures.PushRuleFixture
-import im.vector.app.test.test
-import im.vector.app.test.testDispatcher
+import dev.getzen.element.features.settings.notifications.usecase.GetPushRulesOnInvalidStateUseCase
+import dev.getzen.element.test.fakes.FakeSession
+import dev.getzen.element.test.fixtures.PushRuleFixture
+import dev.getzen.element.test.test
+import dev.getzen.element.test.testDispatcher
 import io.mockk.coVerifyOrder
 import io.mockk.every
 import io.mockk.mockk
@@ -53,7 +53,7 @@ internal class VectorSettingsPushRuleNotificationViewModelTest {
 
     @Before
     fun setup() {
-        mockkStatic("im.vector.app.features.settings.notifications.NotificationIndexKt")
+        mockkStatic("dev.getzen.element.features.settings.notifications.NotificationIndexKt")
         every { fakeGetPushRulesOnInvalidStateUseCase.execute(any()) } returns emptyList()
     }
 

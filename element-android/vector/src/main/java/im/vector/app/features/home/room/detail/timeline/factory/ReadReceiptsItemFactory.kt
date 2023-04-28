@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.factory
+package dev.getzen.element.features.home.room.detail.timeline.factory
 
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.home.room.detail.timeline.TimelineEventController
-import im.vector.app.features.home.room.detail.timeline.item.ReadReceiptData
-import im.vector.app.features.home.room.detail.timeline.item.ReadReceiptsItem
-import im.vector.app.features.home.room.detail.timeline.item.ReadReceiptsItem_
+import dev.getzen.element.features.home.AvatarRenderer
+import dev.getzen.element.features.home.room.detail.timeline.TimelineEventController
+import dev.getzen.element.features.home.room.detail.timeline.item.ReadReceiptData
+import dev.getzen.element.features.home.room.detail.timeline.item.ReadReceiptsItem
+import dev.getzen.element.features.home.room.detail.timeline.item.ReadReceiptsItem_
 import org.matrix.android.sdk.api.session.Session
 import org.matrix.android.sdk.api.session.room.model.ReadReceipt
 import javax.inject.Inject

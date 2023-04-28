@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings
+package dev.getzen.element.features.settings
 
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.combine

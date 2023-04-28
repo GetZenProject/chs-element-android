@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.homeserver
+package dev.getzen.element.features.homeserver
 
 import android.content.SharedPreferences
 import androidx.core.content.edit
-import im.vector.app.R
-import im.vector.app.core.di.DefaultPreferences
-import im.vector.app.core.resources.StringProvider
+import dev.getzen.element.R
+import dev.getzen.element.core.di.DefaultPreferences
+import dev.getzen.element.core.resources.StringProvider
 import javax.inject.Inject
 
 /**
@@ -89,5 +89,5 @@ class ServerUrlsRepository @Inject constructor(
     /**
      * Return default homeserver url from resources.
      */
-    fun getDefaultHomeServerUrl() = stringProvider.getString(R.string.matrix_org_server_url)
+    fun getDefaultHomeServerUrl() = stringProvider.getString(R.string.homeserver_url)
 }

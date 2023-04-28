@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.login.qr
+package dev.getzen.element.features.login.qr
 
 import android.app.Activity
 import android.os.Bundle
@@ -24,11 +24,11 @@ import android.view.ViewGroup
 import com.airbnb.mvrx.activityViewModel
 import com.airbnb.mvrx.withState
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.registerStartForActivityResult
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.databinding.FragmentQrCodeLoginInstructionsBinding
-import im.vector.app.features.qrcode.QrCodeScannerActivity
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.registerStartForActivityResult
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.databinding.FragmentQrCodeLoginInstructionsBinding
+import dev.getzen.element.features.qrcode.QrCodeScannerActivity
 import timber.log.Timber
 
 @AndroidEntryPoint

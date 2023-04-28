@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2
+package dev.getzen.element.features.settings.devices.v2
 
-import im.vector.app.core.di.ActiveSessionHolder
+import dev.getzen.element.core.di.ActiveSessionHolder
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.map

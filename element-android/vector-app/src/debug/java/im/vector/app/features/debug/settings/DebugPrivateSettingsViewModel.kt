@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.debug.settings
+package dev.getzen.element.features.debug.settings
 
 import com.airbnb.mvrx.MavericksViewModelFactory
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
-import im.vector.app.core.di.MavericksAssistedViewModelFactory
-import im.vector.app.core.di.hiltMavericksViewModelFactory
-import im.vector.app.core.platform.EmptyViewEvents
-import im.vector.app.core.platform.VectorViewModel
-import im.vector.app.features.debug.features.DebugVectorOverrides
-import im.vector.app.features.debug.settings.DebugPrivateSettingsViewActions.SetAvatarCapabilityOverride
-import im.vector.app.features.debug.settings.DebugPrivateSettingsViewActions.SetDisplayNameCapabilityOverride
-import im.vector.app.features.home.room.list.home.release.ReleaseNotesPreferencesStore
+import dev.getzen.element.core.di.MavericksAssistedViewModelFactory
+import dev.getzen.element.core.di.hiltMavericksViewModelFactory
+import dev.getzen.element.core.platform.EmptyViewEvents
+import dev.getzen.element.core.platform.VectorViewModel
+import dev.getzen.element.features.debug.features.DebugVectorOverrides
+import dev.getzen.element.features.debug.settings.DebugPrivateSettingsViewActions.SetAvatarCapabilityOverride
+import dev.getzen.element.features.debug.settings.DebugPrivateSettingsViewActions.SetDisplayNameCapabilityOverride
+import dev.getzen.element.features.home.room.list.home.release.ReleaseNotesPreferencesStore
 import kotlinx.coroutines.launch
 
 class DebugPrivateSettingsViewModel @AssistedInject constructor(

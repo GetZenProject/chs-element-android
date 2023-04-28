@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.crypto.verification.qrconfirmation
+package dev.getzen.element.features.crypto.verification.qrconfirmation
 
 import android.os.Bundle
 import android.os.Parcelable
@@ -23,10 +23,10 @@ import android.view.View
 import android.view.ViewGroup
 import com.airbnb.mvrx.Mavericks
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.databinding.BottomSheetVerificationChildFragmentBinding
+import dev.getzen.element.core.extensions.cleanup
+import dev.getzen.element.core.extensions.configureWith
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.databinding.BottomSheetVerificationChildFragmentBinding
 import im.vector.lib.core.utils.compat.getParcelableCompat
 import kotlinx.parcelize.Parcelize
 import javax.inject.Inject

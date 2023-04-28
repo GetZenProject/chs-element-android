@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.composer.rainbow
+package dev.getzen.element.features.home.room.detail.composer.rainbow
 
-import im.vector.app.test.trimIndentOneLine
+import dev.getzen.element.test.trimIndentOneLine
 import org.junit.Assert.assertEquals
 import org.junit.Test
 

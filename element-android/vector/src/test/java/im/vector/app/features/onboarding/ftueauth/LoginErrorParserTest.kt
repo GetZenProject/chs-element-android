@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.onboarding.ftueauth
+package dev.getzen.element.features.onboarding.ftueauth
 
-import im.vector.app.R
-import im.vector.app.test.fakes.FakeErrorFormatter
-import im.vector.app.test.fakes.FakeStringProvider
-import im.vector.app.test.fakes.toTestString
-import im.vector.app.test.fixtures.aHomeserverUnavailableError
-import im.vector.app.test.fixtures.aLoginEmailUnknownError
-import im.vector.app.test.fixtures.anInvalidPasswordError
-import im.vector.app.test.fixtures.anInvalidUserNameError
+import dev.getzen.element.R
+import dev.getzen.element.test.fakes.FakeErrorFormatter
+import dev.getzen.element.test.fakes.FakeStringProvider
+import dev.getzen.element.test.fakes.toTestString
+import dev.getzen.element.test.fixtures.aHomeserverUnavailableError
+import dev.getzen.element.test.fixtures.aLoginEmailUnknownError
+import dev.getzen.element.test.fixtures.anInvalidPasswordError
+import dev.getzen.element.test.fixtures.anInvalidUserNameError
 import org.amshove.kluent.shouldBeEqualTo
 import org.junit.Test
 

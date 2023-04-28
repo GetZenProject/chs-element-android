@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.preference
+package dev.getzen.element.core.preference
 
 import android.animation.Animator
 import android.animation.ArgbEvaluator
@@ -31,8 +31,8 @@ import androidx.core.animation.doOnEnd
 import androidx.core.widget.ImageViewCompat
 import androidx.preference.Preference
 import androidx.preference.PreferenceViewHolder
-import im.vector.app.R
-import im.vector.app.features.themes.ThemeUtils
+import dev.getzen.element.R
+import dev.getzen.element.features.themes.ThemeUtils
 import org.matrix.android.sdk.api.extensions.orFalse
 import timber.log.Timber
 

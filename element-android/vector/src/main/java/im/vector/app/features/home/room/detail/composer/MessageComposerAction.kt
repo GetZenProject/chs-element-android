@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.composer
+package dev.getzen.element.features.home.room.detail.composer
 
-import im.vector.app.core.platform.VectorViewModelAction
-import im.vector.app.features.command.ParsedCommand
-import im.vector.app.features.home.room.detail.composer.voice.VoiceMessageRecorderView
+import dev.getzen.element.core.platform.VectorViewModelAction
+import dev.getzen.element.features.command.ParsedCommand
+import dev.getzen.element.features.home.room.detail.composer.voice.VoiceMessageRecorderView
 import org.matrix.android.sdk.api.session.content.ContentAttachmentData
 import org.matrix.android.sdk.api.session.room.model.message.MessageAudioContent
 

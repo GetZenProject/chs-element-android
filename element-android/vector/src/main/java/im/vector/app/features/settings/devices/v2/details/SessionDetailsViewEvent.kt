@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2.details
+package dev.getzen.element.features.settings.devices.v2.details
 
-import im.vector.app.core.platform.VectorViewEvents
+import dev.getzen.element.core.platform.VectorViewEvents
 
 sealed class SessionDetailsViewEvent : VectorViewEvents {
     object ContentCopiedToClipboard : SessionDetailsViewEvent()

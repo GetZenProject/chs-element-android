@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.permalink
+package dev.getzen.element.features.permalink
 
 import android.content.Context
 import android.net.Uri
 import androidx.fragment.app.FragmentActivity
-import im.vector.app.R
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.extensions.isIgnored
-import im.vector.app.core.resources.UserPreferencesProvider
-import im.vector.app.core.utils.toast
-import im.vector.app.features.home.room.threads.arguments.ThreadTimelineArgs
-import im.vector.app.features.matrixto.OriginOfMatrixTo
-import im.vector.app.features.navigation.Navigator
-import im.vector.app.features.roomdirectory.roompreview.RoomPreviewData
+import dev.getzen.element.R
+import dev.getzen.element.core.di.ActiveSessionHolder
+import dev.getzen.element.core.extensions.isIgnored
+import dev.getzen.element.core.resources.UserPreferencesProvider
+import dev.getzen.element.core.utils.toast
+import dev.getzen.element.features.home.room.threads.arguments.ThreadTimelineArgs
+import dev.getzen.element.features.matrixto.OriginOfMatrixTo
+import dev.getzen.element.features.navigation.Navigator
+import dev.getzen.element.features.roomdirectory.roompreview.RoomPreviewData
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import org.matrix.android.sdk.api.extensions.orFalse

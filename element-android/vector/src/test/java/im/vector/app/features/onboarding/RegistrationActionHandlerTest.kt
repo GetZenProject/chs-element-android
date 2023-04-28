@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.onboarding
+package dev.getzen.element.features.onboarding
 
-import im.vector.app.R
-import im.vector.app.test.fakes.FakeAuthenticationService
-import im.vector.app.test.fakes.FakeRegistrationWizardActionDelegate
-import im.vector.app.test.fakes.FakeSession
-import im.vector.app.test.fakes.FakeStringProvider
-import im.vector.app.test.fakes.FakeVectorFeatures
-import im.vector.app.test.fakes.FakeVectorOverrides
-import im.vector.app.test.fixtures.SelectedHomeserverStateFixture.aSelectedHomeserverState
+import dev.getzen.element.R
+import dev.getzen.element.test.fakes.FakeAuthenticationService
+import dev.getzen.element.test.fakes.FakeRegistrationWizardActionDelegate
+import dev.getzen.element.test.fakes.FakeSession
+import dev.getzen.element.test.fakes.FakeStringProvider
+import dev.getzen.element.test.fakes.FakeVectorFeatures
+import dev.getzen.element.test.fakes.FakeVectorOverrides
+import dev.getzen.element.test.fixtures.SelectedHomeserverStateFixture.aSelectedHomeserverState
 import kotlinx.coroutines.test.runTest
 import org.amshove.kluent.shouldBeEqualTo
 import org.junit.Test
@@ -39,7 +39,7 @@ class RegistrationActionHandlerTest {
     private val vectorOverrides = FakeVectorOverrides()
     private val vectorFeatures = FakeVectorFeatures()
     private val fakeStringProvider = FakeStringProvider().also {
-        it.given(R.string.matrix_org_server_url, "https://matrix.org")
+        it.given(R.string.homeserver_url, "https://matrix.org")
     }
 
     private val registrationActionHandler = RegistrationActionHandler(

@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.font
+package dev.getzen.element.features.settings.font
 
-import im.vector.app.features.settings.FontScalePreferencesImpl
-import im.vector.app.test.fakes.FakeSharedPreferences
-import im.vector.app.test.fakes.FakeSystemSettingsProvider
+import dev.getzen.element.features.settings.FontScalePreferencesImpl
+import dev.getzen.element.test.fakes.FakeSharedPreferences
+import dev.getzen.element.test.fakes.FakeSystemSettingsProvider
 import org.amshove.kluent.shouldBeEqualTo
 import org.junit.Test
 

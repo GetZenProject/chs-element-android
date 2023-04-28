@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.list.home.header
+package dev.getzen.element.features.home.room.list.home.header
 
 import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
 import com.google.android.material.tabs.TabLayout
-import im.vector.app.R
-import im.vector.app.core.epoxy.VectorEpoxyHolder
-import im.vector.app.core.epoxy.VectorEpoxyModel
-import im.vector.app.features.analytics.AnalyticsTracker
-import im.vector.app.features.analytics.plan.Interaction
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.VectorEpoxyHolder
+import dev.getzen.element.core.epoxy.VectorEpoxyModel
+import dev.getzen.element.features.analytics.AnalyticsTracker
+import dev.getzen.element.features.analytics.plan.Interaction
 
 @EpoxyModelClass
 abstract class RoomFilterHeaderItem : VectorEpoxyModel<RoomFilterHeaderItem.Holder>(R.layout.item_home_filter_tabs) {

@@ -10,7 +10,7 @@
             android:value="true" />
 
         <!-- Add tools:ignore="Instantiatable" for the error reported only by the CI :/ -->
-        <service android:name="im.vector.app.push.fcm.VectorFirebaseMessagingService"
+        <service android:name="dev.getzen.element.push.fcm.VectorFirebaseMessagingService"
             android:exported="false"
             tools:ignore="Instantiatable">
             <intent-filter>

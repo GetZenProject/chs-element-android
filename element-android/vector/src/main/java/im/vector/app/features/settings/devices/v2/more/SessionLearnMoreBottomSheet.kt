@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2.more
+package dev.getzen.element.features.settings.devices.v2.more
 
 import android.content.DialogInterface
 import android.os.Bundle
@@ -26,8 +26,8 @@ import androidx.fragment.app.FragmentManager
 import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.core.platform.VectorBaseBottomSheetDialogFragment
-import im.vector.app.databinding.BottomSheetSessionLearnMoreBinding
+import dev.getzen.element.core.platform.VectorBaseBottomSheetDialogFragment
+import dev.getzen.element.databinding.BottomSheetSessionLearnMoreBinding
 import kotlinx.parcelize.Parcelize
 
 @AndroidEntryPoint

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.voicebroadcast.model
+package dev.getzen.element.features.voicebroadcast.model
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass

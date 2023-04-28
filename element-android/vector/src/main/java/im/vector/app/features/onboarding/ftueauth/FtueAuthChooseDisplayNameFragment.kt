@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.onboarding.ftueauth
+package dev.getzen.element.features.onboarding.ftueauth
 
 import android.os.Bundle
 import android.text.Editable
@@ -23,12 +23,12 @@ import android.view.View
 import android.view.ViewGroup
 import android.view.inputmethod.EditorInfo
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.core.extensions.hasContent
-import im.vector.app.core.platform.SimpleTextWatcher
-import im.vector.app.databinding.FragmentFtueDisplayNameBinding
-import im.vector.app.features.onboarding.OnboardingAction
-import im.vector.app.features.onboarding.OnboardingViewEvents
-import im.vector.app.features.onboarding.OnboardingViewState
+import dev.getzen.element.core.extensions.hasContent
+import dev.getzen.element.core.platform.SimpleTextWatcher
+import dev.getzen.element.databinding.FragmentFtueDisplayNameBinding
+import dev.getzen.element.features.onboarding.OnboardingAction
+import dev.getzen.element.features.onboarding.OnboardingViewEvents
+import dev.getzen.element.features.onboarding.OnboardingViewState
 
 @AndroidEntryPoint
 class FtueAuthChooseDisplayNameFragment :

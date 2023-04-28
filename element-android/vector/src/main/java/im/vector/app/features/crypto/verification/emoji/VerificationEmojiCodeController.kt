@@ -14,23 +14,23 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.crypto.verification.emoji
+package dev.getzen.element.features.crypto.verification.emoji
 
 import com.airbnb.epoxy.EpoxyController
 import com.airbnb.mvrx.Fail
 import com.airbnb.mvrx.Success
-import im.vector.app.R
-import im.vector.app.core.epoxy.bottomSheetDividerItem
-import im.vector.app.core.epoxy.errorWithRetryItem
-import im.vector.app.core.error.ErrorFormatter
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.crypto.verification.epoxy.bottomSheetVerificationActionItem
-import im.vector.app.features.crypto.verification.epoxy.bottomSheetVerificationDecimalCodeItem
-import im.vector.app.features.crypto.verification.epoxy.bottomSheetVerificationEmojisItem
-import im.vector.app.features.crypto.verification.epoxy.bottomSheetVerificationNoticeItem
-import im.vector.app.features.crypto.verification.epoxy.bottomSheetVerificationWaitingItem
-import im.vector.app.features.displayname.getBestName
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.bottomSheetDividerItem
+import dev.getzen.element.core.epoxy.errorWithRetryItem
+import dev.getzen.element.core.error.ErrorFormatter
+import dev.getzen.element.core.resources.ColorProvider
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.features.crypto.verification.epoxy.bottomSheetVerificationActionItem
+import dev.getzen.element.features.crypto.verification.epoxy.bottomSheetVerificationDecimalCodeItem
+import dev.getzen.element.features.crypto.verification.epoxy.bottomSheetVerificationEmojisItem
+import dev.getzen.element.features.crypto.verification.epoxy.bottomSheetVerificationNoticeItem
+import dev.getzen.element.features.crypto.verification.epoxy.bottomSheetVerificationWaitingItem
+import dev.getzen.element.features.displayname.getBestName
 import im.vector.lib.core.utils.epoxy.charsequence.toEpoxyCharSequence
 import javax.inject.Inject
 

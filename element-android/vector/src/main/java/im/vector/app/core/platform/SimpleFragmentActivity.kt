@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.core.platform
+package dev.getzen.element.core.platform
 
 import androidx.core.view.isGone
 import androidx.core.view.isVisible
-import im.vector.app.core.extensions.hideKeyboard
-import im.vector.app.databinding.ActivityBinding
+import dev.getzen.element.core.extensions.hideKeyboard
+import dev.getzen.element.databinding.ActivityBinding
 
 /**
  * Simple activity with a toolbar, a waiting overlay, and a fragment container and a session.

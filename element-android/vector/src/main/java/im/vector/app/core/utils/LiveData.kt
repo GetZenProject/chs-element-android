@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.utils
+package dev.getzen.element.core.utils
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MediatorLiveData

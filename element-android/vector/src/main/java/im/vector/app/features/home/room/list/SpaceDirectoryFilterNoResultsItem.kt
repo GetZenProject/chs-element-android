@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.list
+package dev.getzen.element.features.home.room.list
 
 import com.airbnb.epoxy.EpoxyModelClass
-import im.vector.app.R
-import im.vector.app.core.epoxy.VectorEpoxyHolder
-import im.vector.app.core.epoxy.VectorEpoxyModel
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.VectorEpoxyHolder
+import dev.getzen.element.core.epoxy.VectorEpoxyModel
 
 @EpoxyModelClass
 abstract class SpaceDirectoryFilterNoResultsItem : VectorEpoxyModel<SpaceDirectoryFilterNoResultsItem.Holder>(R.layout.item_space_directory_filter_no_results) {

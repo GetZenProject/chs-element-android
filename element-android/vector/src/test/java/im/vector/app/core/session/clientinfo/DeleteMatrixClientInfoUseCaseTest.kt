@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.session.clientinfo
+package dev.getzen.element.core.session.clientinfo
 
-import im.vector.app.test.fakes.FakeActiveSessionHolder
+import dev.getzen.element.test.fakes.FakeActiveSessionHolder
 import io.mockk.coEvery
 import io.mockk.coVerify
 import io.mockk.mockk

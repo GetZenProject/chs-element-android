@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.pin
+package dev.getzen.element.features.pin
 
 enum class PinMode {
     CREATE,

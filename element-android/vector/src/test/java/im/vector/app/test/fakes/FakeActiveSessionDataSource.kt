@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.test.fakes
+package dev.getzen.element.test.fakes
 
-import im.vector.app.ActiveSessionDataSource
+import dev.getzen.element.ActiveSessionDataSource
 import org.matrix.android.sdk.api.session.Session
 import org.matrix.android.sdk.api.util.toOptional
 

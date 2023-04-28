@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.command
+package dev.getzen.element.features.command
 
-import im.vector.app.core.extensions.isEmail
-import im.vector.app.core.extensions.isMsisdn
-import im.vector.app.core.extensions.orEmpty
-import im.vector.app.features.home.room.detail.ChatEffect
-import im.vector.app.features.settings.VectorPreferences
+import dev.getzen.element.core.extensions.isEmail
+import dev.getzen.element.core.extensions.isMsisdn
+import dev.getzen.element.core.extensions.orEmpty
+import dev.getzen.element.features.home.room.detail.ChatEffect
+import dev.getzen.element.features.settings.VectorPreferences
 import org.matrix.android.sdk.api.MatrixPatterns
 import org.matrix.android.sdk.api.MatrixUrls.isMxcUrl
 import org.matrix.android.sdk.api.session.identity.ThreePid

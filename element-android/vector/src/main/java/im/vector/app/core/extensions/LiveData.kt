@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.extensions
+package dev.getzen.element.core.extensions
 
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import im.vector.app.core.utils.EventObserver
-import im.vector.app.core.utils.FirstThrottler
-import im.vector.app.core.utils.LiveEvent
+import dev.getzen.element.core.utils.EventObserver
+import dev.getzen.element.core.utils.FirstThrottler
+import dev.getzen.element.core.utils.LiveEvent
 
 inline fun <T> LiveData<T>.observeK(owner: LifecycleOwner, crossinline observer: (T?) -> Unit) {
     this.observe(owner, { observer(it) })

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.voicebroadcast.views
+package dev.getzen.element.features.voicebroadcast.views
 
 import android.content.Context
 import android.content.res.TypedArray
@@ -22,8 +22,8 @@ import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.widget.LinearLayout
 import androidx.core.content.res.use
-import im.vector.app.R
-import im.vector.app.databinding.ViewVoiceBroadcastMetadataBinding
+import dev.getzen.element.R
+import dev.getzen.element.databinding.ViewVoiceBroadcastMetadataBinding
 
 class VoiceBroadcastMetadataView @JvmOverloads constructor(
         context: Context,

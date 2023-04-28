@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.html
+package dev.getzen.element.features.html
 
 import io.noties.markwon.AbstractMarkwonPlugin
 
 /**
  * A root node enables post-processing of optionally nested tags.
- * See: [im.vector.app.features.html.CodePostProcessorTagHandler]
+ * See: [dev.getzen.element.features.html.CodePostProcessorTagHandler]
  */
 internal class HtmlRootTagPlugin : AbstractMarkwonPlugin() {
     companion object {

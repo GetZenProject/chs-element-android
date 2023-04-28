@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.analytics.extensions
+package dev.getzen.element.features.analytics.extensions
 
-import im.vector.app.features.analytics.plan.Signup
-import im.vector.app.features.onboarding.AuthenticationDescription
+import dev.getzen.element.features.analytics.plan.Signup
+import dev.getzen.element.features.onboarding.AuthenticationDescription
 
 fun AuthenticationDescription.AuthenticationType.toAnalyticsType() = when (this) {
     AuthenticationDescription.AuthenticationType.Password -> Signup.AuthenticationType.Password

@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2.rename
+package dev.getzen.element.features.settings.devices.v2.rename
 
 import androidx.annotation.VisibleForTesting
 import com.airbnb.mvrx.MavericksViewModelFactory
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
-import im.vector.app.core.di.MavericksAssistedViewModelFactory
-import im.vector.app.core.di.hiltMavericksViewModelFactory
-import im.vector.app.core.platform.VectorViewModel
-import im.vector.app.features.settings.devices.v2.overview.GetDeviceFullInfoUseCase
+import dev.getzen.element.core.di.MavericksAssistedViewModelFactory
+import dev.getzen.element.core.di.hiltMavericksViewModelFactory
+import dev.getzen.element.core.platform.VectorViewModel
+import dev.getzen.element.features.settings.devices.v2.overview.GetDeviceFullInfoUseCase
 import kotlinx.coroutines.flow.firstOrNull
 import kotlinx.coroutines.launch
 

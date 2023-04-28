@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.settings.joinrule.advanced
+package dev.getzen.element.features.roomprofile.settings.joinrule.advanced
 
 import android.graphics.Typeface
 import androidx.core.text.toSpannable
@@ -26,15 +26,15 @@ import com.airbnb.mvrx.Uninitialized
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
-import im.vector.app.R
-import im.vector.app.core.di.MavericksAssistedViewModelFactory
-import im.vector.app.core.di.hiltMavericksViewModelFactory
-import im.vector.app.core.platform.VectorViewModel
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.utils.styleMatchingText
-import im.vector.app.features.displayname.getBestName
-import im.vector.app.features.roomprofile.settings.joinrule.toOption
-import im.vector.app.features.settings.VectorPreferences
+import dev.getzen.element.R
+import dev.getzen.element.core.di.MavericksAssistedViewModelFactory
+import dev.getzen.element.core.di.hiltMavericksViewModelFactory
+import dev.getzen.element.core.platform.VectorViewModel
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.core.utils.styleMatchingText
+import dev.getzen.element.features.displayname.getBestName
+import dev.getzen.element.features.roomprofile.settings.joinrule.toOption
+import dev.getzen.element.features.settings.VectorPreferences
 import kotlinx.coroutines.launch
 import org.matrix.android.sdk.api.query.QueryStringValue
 import org.matrix.android.sdk.api.session.Session

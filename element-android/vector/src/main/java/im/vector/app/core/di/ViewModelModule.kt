@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.di
+package dev.getzen.element.core.di
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
@@ -23,27 +23,27 @@ import dagger.Module
 import dagger.hilt.InstallIn
 import dagger.hilt.android.components.ActivityComponent
 import dagger.multibindings.IntoMap
-import im.vector.app.core.platform.ConfigurationViewModel
-import im.vector.app.features.call.SharedKnownCallsViewModel
-import im.vector.app.features.crypto.keysbackup.restore.KeysBackupRestoreFromKeyViewModel
-import im.vector.app.features.crypto.keysbackup.restore.KeysBackupRestoreFromPassphraseViewModel
-import im.vector.app.features.crypto.keysbackup.restore.KeysBackupRestoreSharedViewModel
-import im.vector.app.features.crypto.keysbackup.setup.KeysBackupSetupSharedViewModel
-import im.vector.app.features.discovery.DiscoverySharedViewModel
-import im.vector.app.features.home.HomeSharedActionViewModel
-import im.vector.app.features.home.room.detail.RoomDetailSharedActionViewModel
-import im.vector.app.features.home.room.detail.timeline.action.MessageSharedActionViewModel
-import im.vector.app.features.home.room.list.actions.RoomListQuickActionsSharedActionViewModel
-import im.vector.app.features.home.room.list.actions.RoomListSharedActionViewModel
-import im.vector.app.features.reactions.EmojiChooserViewModel
-import im.vector.app.features.roomdirectory.RoomDirectorySharedActionViewModel
-import im.vector.app.features.roomprofile.RoomProfileSharedActionViewModel
-import im.vector.app.features.roomprofile.alias.detail.RoomAliasBottomSheetSharedActionViewModel
-import im.vector.app.features.roomprofile.settings.historyvisibility.RoomHistoryVisibilitySharedActionViewModel
-import im.vector.app.features.roomprofile.settings.joinrule.RoomJoinRuleSharedActionViewModel
-import im.vector.app.features.spaces.SpacePreviewSharedActionViewModel
-import im.vector.app.features.spaces.people.SpacePeopleSharedActionViewModel
-import im.vector.app.features.userdirectory.UserListSharedActionViewModel
+import dev.getzen.element.core.platform.ConfigurationViewModel
+import dev.getzen.element.features.call.SharedKnownCallsViewModel
+import dev.getzen.element.features.crypto.keysbackup.restore.KeysBackupRestoreFromKeyViewModel
+import dev.getzen.element.features.crypto.keysbackup.restore.KeysBackupRestoreFromPassphraseViewModel
+import dev.getzen.element.features.crypto.keysbackup.restore.KeysBackupRestoreSharedViewModel
+import dev.getzen.element.features.crypto.keysbackup.setup.KeysBackupSetupSharedViewModel
+import dev.getzen.element.features.discovery.DiscoverySharedViewModel
+import dev.getzen.element.features.home.HomeSharedActionViewModel
+import dev.getzen.element.features.home.room.detail.RoomDetailSharedActionViewModel
+import dev.getzen.element.features.home.room.detail.timeline.action.MessageSharedActionViewModel
+import dev.getzen.element.features.home.room.list.actions.RoomListQuickActionsSharedActionViewModel
+import dev.getzen.element.features.home.room.list.actions.RoomListSharedActionViewModel
+import dev.getzen.element.features.reactions.EmojiChooserViewModel
+import dev.getzen.element.features.roomdirectory.RoomDirectorySharedActionViewModel
+import dev.getzen.element.features.roomprofile.RoomProfileSharedActionViewModel
+import dev.getzen.element.features.roomprofile.alias.detail.RoomAliasBottomSheetSharedActionViewModel
+import dev.getzen.element.features.roomprofile.settings.historyvisibility.RoomHistoryVisibilitySharedActionViewModel
+import dev.getzen.element.features.roomprofile.settings.joinrule.RoomJoinRuleSharedActionViewModel
+import dev.getzen.element.features.spaces.SpacePreviewSharedActionViewModel
+import dev.getzen.element.features.spaces.people.SpacePeopleSharedActionViewModel
+import dev.getzen.element.features.userdirectory.UserListSharedActionViewModel
 
 @InstallIn(ActivityComponent::class)
 @Module

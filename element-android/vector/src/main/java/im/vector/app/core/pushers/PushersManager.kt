@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.pushers
+package dev.getzen.element.core.pushers
 
-import im.vector.app.R
-import im.vector.app.core.device.GetDeviceInfoUseCase
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.resources.AppNameProvider
-import im.vector.app.core.resources.LocaleProvider
-import im.vector.app.core.resources.StringProvider
+import dev.getzen.element.R
+import dev.getzen.element.core.device.GetDeviceInfoUseCase
+import dev.getzen.element.core.di.ActiveSessionHolder
+import dev.getzen.element.core.resources.AppNameProvider
+import dev.getzen.element.core.resources.LocaleProvider
+import dev.getzen.element.core.resources.StringProvider
 import org.matrix.android.sdk.api.session.pushers.HttpPusher
 import org.matrix.android.sdk.api.session.pushers.Pusher
 import java.util.UUID

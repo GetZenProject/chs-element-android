@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.onboarding.ftueauth
+package dev.getzen.element.features.onboarding.ftueauth
 
 import android.os.Parcelable
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import com.airbnb.mvrx.args
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.databinding.FragmentLoginCaptchaBinding
-import im.vector.app.features.onboarding.OnboardingAction
-import im.vector.app.features.onboarding.OnboardingViewState
-import im.vector.app.features.onboarding.RegisterAction
+import dev.getzen.element.databinding.FragmentLoginCaptchaBinding
+import dev.getzen.element.features.onboarding.OnboardingAction
+import dev.getzen.element.features.onboarding.OnboardingViewState
+import dev.getzen.element.features.onboarding.RegisterAction
 import kotlinx.parcelize.Parcelize
 import javax.inject.Inject
 

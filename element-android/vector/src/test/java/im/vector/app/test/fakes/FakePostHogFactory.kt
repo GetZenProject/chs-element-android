@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.test.fakes
+package dev.getzen.element.test.fakes
 
 import com.posthog.android.PostHog
-import im.vector.app.features.analytics.impl.PostHogFactory
+import dev.getzen.element.features.analytics.impl.PostHogFactory
 import io.mockk.every
 import io.mockk.mockk
 

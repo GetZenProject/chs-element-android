@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.login
+package dev.getzen.element.features.login
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -24,11 +24,11 @@ import android.view.ViewGroup
 import androidx.core.view.isVisible
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.resources.BuildMeta
-import im.vector.app.databinding.FragmentLoginSplashBinding
-import im.vector.app.features.analytics.plan.MobileScreen
-import im.vector.app.features.settings.VectorPreferences
+import dev.getzen.element.R
+import dev.getzen.element.core.resources.BuildMeta
+import dev.getzen.element.databinding.FragmentLoginSplashBinding
+import dev.getzen.element.features.analytics.plan.MobileScreen
+import dev.getzen.element.features.settings.VectorPreferences
 import org.matrix.android.sdk.api.failure.Failure
 import java.net.UnknownHostException
 import javax.inject.Inject

@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.crypto.quads
+package dev.getzen.element.features.crypto.quads
 
-import im.vector.app.core.platform.VectorViewEvents
-import im.vector.app.core.platform.VectorViewModelAction
-import im.vector.app.core.platform.WaitingViewData
+import dev.getzen.element.core.platform.VectorViewEvents
+import dev.getzen.element.core.platform.VectorViewModelAction
+import dev.getzen.element.core.platform.WaitingViewData
 
 sealed class SharedSecureStorageAction : VectorViewModelAction {
     object UseKey : SharedSecureStorageAction()

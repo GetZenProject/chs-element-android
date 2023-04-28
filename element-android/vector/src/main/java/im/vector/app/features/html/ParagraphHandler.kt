@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.html
+package dev.getzen.element.features.html
 
-import im.vector.app.core.utils.DimensionConverter
+import dev.getzen.element.core.utils.DimensionConverter
 import io.noties.markwon.MarkwonVisitor
 import io.noties.markwon.SpannableBuilder
 import io.noties.markwon.html.HtmlTag

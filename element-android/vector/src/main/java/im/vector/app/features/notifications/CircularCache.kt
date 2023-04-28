@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.notifications
+package dev.getzen.element.features.notifications
 
 /**
  * A FIFO circular buffer of T.

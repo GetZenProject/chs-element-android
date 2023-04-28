@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.event
+package dev.getzen.element.core.event
 
-import im.vector.app.test.fakes.FakeActiveSessionHolder
-import im.vector.app.test.fakes.FakeFlowLiveDataConversions
-import im.vector.app.test.fakes.givenAsFlow
-import im.vector.app.test.test
+import dev.getzen.element.test.fakes.FakeActiveSessionHolder
+import dev.getzen.element.test.fakes.FakeFlowLiveDataConversions
+import dev.getzen.element.test.fakes.givenAsFlow
+import dev.getzen.element.test.test
 import io.mockk.every
 import io.mockk.mockk
 import io.mockk.unmockkAll

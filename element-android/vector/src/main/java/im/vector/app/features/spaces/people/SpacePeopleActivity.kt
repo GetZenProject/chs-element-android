@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.people
+package dev.getzen.element.features.spaces.people
 
 import android.content.Context
 import android.content.Intent
@@ -24,14 +24,14 @@ import androidx.core.view.isVisible
 import androidx.lifecycle.lifecycleScope
 import com.airbnb.mvrx.Mavericks
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.hideKeyboard
-import im.vector.app.core.extensions.replaceFragment
-import im.vector.app.core.platform.GenericIdArgs
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.databinding.ActivitySimpleLoadingBinding
-import im.vector.app.features.analytics.plan.ViewRoom
-import im.vector.app.features.spaces.share.ShareSpaceBottomSheet
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.hideKeyboard
+import dev.getzen.element.core.extensions.replaceFragment
+import dev.getzen.element.core.platform.GenericIdArgs
+import dev.getzen.element.core.platform.VectorBaseActivity
+import dev.getzen.element.databinding.ActivitySimpleLoadingBinding
+import dev.getzen.element.features.analytics.plan.ViewRoom
+import dev.getzen.element.features.spaces.share.ShareSpaceBottomSheet
 import im.vector.lib.core.utils.compat.getParcelableExtraCompat
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach

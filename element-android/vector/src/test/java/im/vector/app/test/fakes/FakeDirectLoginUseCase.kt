@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.test.fakes
+package dev.getzen.element.test.fakes
 
-import im.vector.app.features.onboarding.DirectLoginUseCase
-import im.vector.app.features.onboarding.OnboardingAction.AuthenticateAction
+import dev.getzen.element.features.onboarding.DirectLoginUseCase
+import dev.getzen.element.features.onboarding.OnboardingAction.AuthenticateAction
 import io.mockk.coEvery
 import io.mockk.mockk
 import org.matrix.android.sdk.api.auth.data.HomeServerConnectionConfig

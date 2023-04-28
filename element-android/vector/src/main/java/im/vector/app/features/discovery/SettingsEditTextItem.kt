@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.discovery
+package dev.getzen.element.features.discovery
 
 import android.view.KeyEvent
 import android.view.inputmethod.EditorInfo
@@ -23,11 +23,11 @@ import androidx.core.widget.doOnTextChanged
 import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
 import com.google.android.material.textfield.TextInputLayout
-import im.vector.app.R
-import im.vector.app.core.epoxy.VectorEpoxyHolder
-import im.vector.app.core.epoxy.VectorEpoxyModel
-import im.vector.app.core.extensions.setTextOrHide
-import im.vector.app.core.extensions.showKeyboard
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.VectorEpoxyHolder
+import dev.getzen.element.core.epoxy.VectorEpoxyModel
+import dev.getzen.element.core.extensions.setTextOrHide
+import dev.getzen.element.core.extensions.showKeyboard
 
 @EpoxyModelClass
 abstract class SettingsEditTextItem : VectorEpoxyModel<SettingsEditTextItem.Holder>(R.layout.item_settings_edit_text) {

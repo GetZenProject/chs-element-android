@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.debug.features
+package dev.getzen.element.features.debug.features
 
 import android.os.Bundle
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.databinding.FragmentGenericRecyclerBinding
+import dev.getzen.element.core.extensions.cleanup
+import dev.getzen.element.core.extensions.configureWith
+import dev.getzen.element.core.platform.VectorBaseActivity
+import dev.getzen.element.databinding.FragmentGenericRecyclerBinding
 import javax.inject.Inject
 
 @AndroidEntryPoint

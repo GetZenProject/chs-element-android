@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.glide
+package dev.getzen.element.core.glide
 
 import android.content.Context
 import android.graphics.drawable.Drawable
@@ -24,7 +24,7 @@ import com.bumptech.glide.GlideBuilder
 import com.bumptech.glide.Registry
 import com.bumptech.glide.annotation.GlideModule
 import com.bumptech.glide.module.AppGlideModule
-import im.vector.app.features.media.ImageContentRenderer
+import dev.getzen.element.features.media.ImageContentRenderer
 import java.io.InputStream
 
 @GlideModule

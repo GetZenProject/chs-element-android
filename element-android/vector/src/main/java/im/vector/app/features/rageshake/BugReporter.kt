@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.rageshake
+package dev.getzen.element.features.rageshake
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -25,18 +25,18 @@ import android.view.View
 import androidx.fragment.app.DialogFragment
 import androidx.fragment.app.FragmentActivity
 import com.squareup.moshi.Types
-import im.vector.app.BuildConfig
-import im.vector.app.R
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.extensions.getAllChildFragments
-import im.vector.app.core.extensions.toOnOff
-import im.vector.app.core.resources.BuildMeta
-import im.vector.app.features.settings.VectorLocaleProvider
-import im.vector.app.features.settings.VectorPreferences
-import im.vector.app.features.settings.devtools.GossipingEventsSerializer
-import im.vector.app.features.settings.locale.SystemLocaleProvider
-import im.vector.app.features.themes.ThemeUtils
-import im.vector.app.features.version.VersionProvider
+import dev.getzen.element.BuildConfig
+import dev.getzen.element.R
+import dev.getzen.element.core.di.ActiveSessionHolder
+import dev.getzen.element.core.extensions.getAllChildFragments
+import dev.getzen.element.core.extensions.toOnOff
+import dev.getzen.element.core.resources.BuildMeta
+import dev.getzen.element.features.settings.VectorLocaleProvider
+import dev.getzen.element.features.settings.VectorPreferences
+import dev.getzen.element.features.settings.devtools.GossipingEventsSerializer
+import dev.getzen.element.features.settings.locale.SystemLocaleProvider
+import dev.getzen.element.features.themes.ThemeUtils
+import dev.getzen.element.features.version.VersionProvider
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob

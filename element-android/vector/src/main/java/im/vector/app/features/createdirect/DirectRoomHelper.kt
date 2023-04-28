@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.createdirect
+package dev.getzen.element.features.createdirect
 
-import im.vector.app.features.analytics.AnalyticsTracker
-import im.vector.app.features.analytics.plan.CreatedRoom
-import im.vector.app.features.raw.wellknown.getElementWellknown
-import im.vector.app.features.raw.wellknown.isE2EByDefault
-import im.vector.app.features.settings.VectorPreferences
+import dev.getzen.element.features.analytics.AnalyticsTracker
+import dev.getzen.element.features.analytics.plan.CreatedRoom
+import dev.getzen.element.features.raw.wellknown.getElementWellknown
+import dev.getzen.element.features.raw.wellknown.isE2EByDefault
+import dev.getzen.element.features.settings.VectorPreferences
 import org.matrix.android.sdk.api.extensions.orFalse
 import org.matrix.android.sdk.api.extensions.tryOrNull
 import org.matrix.android.sdk.api.raw.RawService

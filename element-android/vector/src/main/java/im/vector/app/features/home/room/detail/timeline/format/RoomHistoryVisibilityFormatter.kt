@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.format
+package dev.getzen.element.features.home.room.detail.timeline.format
 
-import im.vector.app.R
-import im.vector.app.core.resources.StringProvider
+import dev.getzen.element.R
+import dev.getzen.element.core.resources.StringProvider
 import org.matrix.android.sdk.api.session.room.model.RoomHistoryVisibility
 import javax.inject.Inject
 

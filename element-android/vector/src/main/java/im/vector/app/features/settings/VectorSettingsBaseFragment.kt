@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings
+package dev.getzen.element.features.settings
 
 import android.content.Context
 import android.os.Bundle
@@ -26,15 +26,15 @@ import androidx.lifecycle.repeatOnLifecycle
 import androidx.preference.PreferenceFragmentCompat
 import com.airbnb.mvrx.MavericksView
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.core.error.ErrorFormatter
-import im.vector.app.core.extensions.singletonEntryPoint
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.core.platform.VectorViewEvents
-import im.vector.app.core.platform.VectorViewModel
-import im.vector.app.core.utils.toast
-import im.vector.app.features.analytics.AnalyticsTracker
-import im.vector.app.features.analytics.plan.MobileScreen
+import dev.getzen.element.R
+import dev.getzen.element.core.error.ErrorFormatter
+import dev.getzen.element.core.extensions.singletonEntryPoint
+import dev.getzen.element.core.platform.VectorBaseActivity
+import dev.getzen.element.core.platform.VectorViewEvents
+import dev.getzen.element.core.platform.VectorViewModel
+import dev.getzen.element.core.utils.toast
+import dev.getzen.element.features.analytics.AnalyticsTracker
+import dev.getzen.element.features.analytics.plan.MobileScreen
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.launch

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.debug.settings
+package dev.getzen.element.features.debug.settings
 
-import im.vector.app.core.platform.VectorViewModelAction
+import dev.getzen.element.core.platform.VectorViewModelAction
 
 sealed interface DebugPrivateSettingsViewActions : VectorViewModelAction {
     data class SetDialPadVisibility(val force: Boolean) : DebugPrivateSettingsViewActions

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.configuration
+package dev.getzen.element.features.configuration
 
-import im.vector.app.features.voicebroadcast.VoiceBroadcastConstants
+import dev.getzen.element.features.voicebroadcast.VoiceBroadcastConstants
 import org.matrix.android.sdk.api.provider.CustomEventTypesProvider
 import javax.inject.Inject
 

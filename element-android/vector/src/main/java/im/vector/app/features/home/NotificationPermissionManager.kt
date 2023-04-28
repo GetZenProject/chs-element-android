@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home
+package dev.getzen.element.features.home
 
 import android.Manifest
 import android.app.Activity
@@ -23,9 +23,9 @@ import android.os.Build
 import androidx.activity.result.ActivityResultLauncher
 import androidx.annotation.RequiresApi
 import androidx.core.content.ContextCompat
-import im.vector.app.R
-import im.vector.app.core.utils.checkPermissions
-import im.vector.app.features.settings.VectorPreferences
+import dev.getzen.element.R
+import dev.getzen.element.core.utils.checkPermissions
+import dev.getzen.element.features.settings.VectorPreferences
 import org.matrix.android.sdk.api.util.BuildVersionSdkIntProvider
 import javax.inject.Inject
 

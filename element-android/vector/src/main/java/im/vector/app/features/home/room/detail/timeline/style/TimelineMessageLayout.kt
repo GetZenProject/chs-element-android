@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.style
+package dev.getzen.element.features.home.room.detail.timeline.style
 
 import android.os.Parcelable
-import im.vector.app.R
+import dev.getzen.element.R
 import kotlinx.parcelize.Parcelize
 
 sealed interface TimelineMessageLayout : Parcelable {

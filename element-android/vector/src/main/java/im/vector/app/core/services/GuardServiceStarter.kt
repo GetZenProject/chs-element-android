@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.services
+package dev.getzen.element.core.services
 
 interface GuardServiceStarter {
     fun start() {}

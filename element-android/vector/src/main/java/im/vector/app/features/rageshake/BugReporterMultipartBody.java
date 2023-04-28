@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.rageshake;
+package dev.getzen.element.features.rageshake;
 
 import java.io.IOException;
 import java.util.ArrayList;

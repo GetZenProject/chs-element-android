@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2.filter
+package dev.getzen.element.features.settings.devices.v2.filter
 
 import android.os.Bundle
 import android.os.Parcelable
@@ -23,11 +23,11 @@ import android.view.View
 import android.view.ViewGroup
 import com.airbnb.mvrx.args
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.platform.VectorBaseBottomSheetDialogFragment
-import im.vector.app.core.platform.VectorBaseBottomSheetDialogFragment.ResultListener.Companion.RESULT_OK
-import im.vector.app.databinding.BottomSheetDeviceManagerFilterBinding
-import im.vector.app.features.settings.devices.v2.list.SESSION_IS_MARKED_AS_INACTIVE_AFTER_DAYS
+import dev.getzen.element.R
+import dev.getzen.element.core.platform.VectorBaseBottomSheetDialogFragment
+import dev.getzen.element.core.platform.VectorBaseBottomSheetDialogFragment.ResultListener.Companion.RESULT_OK
+import dev.getzen.element.databinding.BottomSheetDeviceManagerFilterBinding
+import dev.getzen.element.features.settings.devices.v2.list.SESSION_IS_MARKED_AS_INACTIVE_AFTER_DAYS
 import kotlinx.parcelize.Parcelize
 
 @Parcelize

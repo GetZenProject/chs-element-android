@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.list.home.release
+package dev.getzen.element.features.home.room.list.home.release
 
 import androidx.lifecycle.lifecycleScope
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.core.extensions.addFragment
-import im.vector.app.core.platform.ScreenOrientationLocker
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.databinding.ActivitySimpleBinding
+import dev.getzen.element.core.extensions.addFragment
+import dev.getzen.element.core.platform.ScreenOrientationLocker
+import dev.getzen.element.core.platform.VectorBaseActivity
+import dev.getzen.element.databinding.ActivitySimpleBinding
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 

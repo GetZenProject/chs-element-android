@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.list.home
+package dev.getzen.element.features.home.room.list.home
 
 import android.app.Dialog
 import android.os.Bundle
@@ -22,9 +22,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.core.platform.VectorBaseBottomSheetDialogFragment
-import im.vector.app.databinding.FragmentNewChatBottomSheetBinding
-import im.vector.app.features.navigation.Navigator
+import dev.getzen.element.core.platform.VectorBaseBottomSheetDialogFragment
+import dev.getzen.element.databinding.FragmentNewChatBottomSheetBinding
+import dev.getzen.element.features.navigation.Navigator
 import javax.inject.Inject
 
 @AndroidEntryPoint

@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.platform
+package dev.getzen.element.core.platform
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import im.vector.app.core.extensions.postLiveEvent
-import im.vector.app.core.utils.LiveEvent
-import im.vector.app.features.configuration.VectorConfiguration
+import dev.getzen.element.core.extensions.postLiveEvent
+import dev.getzen.element.core.utils.LiveEvent
+import dev.getzen.element.features.configuration.VectorConfiguration
 import timber.log.Timber
 import javax.inject.Inject
 

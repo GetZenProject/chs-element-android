@@ -13,19 +13,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.settings.devices
+package dev.getzen.element.features.settings.devices
 
 import com.airbnb.epoxy.TypedEpoxyController
-import im.vector.app.R
-import im.vector.app.core.epoxy.bottomSheetDividerItem
-import im.vector.app.core.epoxy.loadingItem
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.ui.list.ItemStyle
-import im.vector.app.core.ui.list.genericFooterItem
-import im.vector.app.core.ui.list.genericItem
-import im.vector.app.core.ui.views.toDrawableRes
-import im.vector.app.features.crypto.verification.epoxy.bottomSheetVerificationActionItem
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.bottomSheetDividerItem
+import dev.getzen.element.core.epoxy.loadingItem
+import dev.getzen.element.core.resources.ColorProvider
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.core.ui.list.ItemStyle
+import dev.getzen.element.core.ui.list.genericFooterItem
+import dev.getzen.element.core.ui.list.genericItem
+import dev.getzen.element.core.ui.views.toDrawableRes
+import dev.getzen.element.features.crypto.verification.epoxy.bottomSheetVerificationActionItem
 import im.vector.lib.core.utils.epoxy.charsequence.toEpoxyCharSequence
 import org.matrix.android.sdk.api.extensions.orFalse
 import org.matrix.android.sdk.api.session.crypto.model.CryptoDeviceInfo

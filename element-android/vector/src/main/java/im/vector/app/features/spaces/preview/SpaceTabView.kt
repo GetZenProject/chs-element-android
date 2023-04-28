@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.preview
+package dev.getzen.element.features.spaces.preview
 
 import android.content.Context
 import android.util.AttributeSet
 import android.widget.LinearLayout
-import im.vector.app.R
+import dev.getzen.element.R
 
 class SpaceTabView constructor(
         context: Context,

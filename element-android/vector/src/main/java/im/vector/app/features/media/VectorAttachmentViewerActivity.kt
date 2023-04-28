@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.media
+package dev.getzen.element.features.media
 
 import android.content.Context
 import android.content.Intent
@@ -35,18 +35,18 @@ import androidx.lifecycle.repeatOnLifecycle
 import androidx.transition.Transition
 import com.airbnb.mvrx.viewModel
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.extensions.singletonEntryPoint
-import im.vector.app.core.intent.getMimeTypeFromUri
-import im.vector.app.core.platform.showOptimizedSnackbar
-import im.vector.app.core.utils.PERMISSIONS_FOR_WRITING_FILES
-import im.vector.app.core.utils.checkPermissions
-import im.vector.app.core.utils.onPermissionDeniedDialog
-import im.vector.app.core.utils.registerForPermissionsResult
-import im.vector.app.core.utils.shareMedia
-import im.vector.app.features.themes.ActivityOtherThemes
-import im.vector.app.features.themes.ThemeUtils
+import dev.getzen.element.R
+import dev.getzen.element.core.di.ActiveSessionHolder
+import dev.getzen.element.core.extensions.singletonEntryPoint
+import dev.getzen.element.core.intent.getMimeTypeFromUri
+import dev.getzen.element.core.platform.showOptimizedSnackbar
+import dev.getzen.element.core.utils.PERMISSIONS_FOR_WRITING_FILES
+import dev.getzen.element.core.utils.checkPermissions
+import dev.getzen.element.core.utils.onPermissionDeniedDialog
+import dev.getzen.element.core.utils.registerForPermissionsResult
+import dev.getzen.element.core.utils.shareMedia
+import dev.getzen.element.features.themes.ActivityOtherThemes
+import dev.getzen.element.features.themes.ThemeUtils
 import im.vector.lib.attachmentviewer.AttachmentCommands
 import im.vector.lib.attachmentviewer.AttachmentViewerActivity
 import im.vector.lib.core.utils.compat.getParcelableArrayListExtraCompat

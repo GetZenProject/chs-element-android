@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.createdirect
+package dev.getzen.element.features.createdirect
 
 import com.airbnb.mvrx.Loading
 import com.airbnb.mvrx.MavericksViewModelFactory
@@ -22,16 +22,16 @@ import com.airbnb.mvrx.Success
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
-import im.vector.app.core.di.MavericksAssistedViewModelFactory
-import im.vector.app.core.di.hiltMavericksViewModelFactory
-import im.vector.app.core.mvrx.runCatchingToAsync
-import im.vector.app.core.platform.VectorViewModel
-import im.vector.app.features.analytics.AnalyticsTracker
-import im.vector.app.features.analytics.plan.CreatedRoom
-import im.vector.app.features.raw.wellknown.getElementWellknown
-import im.vector.app.features.raw.wellknown.isE2EByDefault
-import im.vector.app.features.settings.VectorPreferences
-import im.vector.app.features.userdirectory.PendingSelection
+import dev.getzen.element.core.di.MavericksAssistedViewModelFactory
+import dev.getzen.element.core.di.hiltMavericksViewModelFactory
+import dev.getzen.element.core.mvrx.runCatchingToAsync
+import dev.getzen.element.core.platform.VectorViewModel
+import dev.getzen.element.features.analytics.AnalyticsTracker
+import dev.getzen.element.features.analytics.plan.CreatedRoom
+import dev.getzen.element.features.raw.wellknown.getElementWellknown
+import dev.getzen.element.features.raw.wellknown.isE2EByDefault
+import dev.getzen.element.features.settings.VectorPreferences
+import dev.getzen.element.features.userdirectory.PendingSelection
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import org.matrix.android.sdk.api.extensions.orFalse

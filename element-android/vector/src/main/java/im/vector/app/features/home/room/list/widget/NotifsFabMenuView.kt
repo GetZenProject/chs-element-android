@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.list.widget
+package dev.getzen.element.features.home.room.list.widget
 
 import android.content.Context
 import android.util.AttributeSet
 import androidx.constraintlayout.motion.widget.MotionLayout
 import androidx.core.view.isVisible
 import com.google.android.material.floatingactionbutton.FloatingActionButton
-import im.vector.app.R
-import im.vector.app.databinding.MotionNotifsFabMenuMergeBinding
+import dev.getzen.element.R
+import dev.getzen.element.databinding.MotionNotifsFabMenuMergeBinding
 
 class NotifsFabMenuView @JvmOverloads constructor(
         context: Context, attrs: AttributeSet? = null,

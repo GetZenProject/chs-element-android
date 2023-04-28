@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace "im.vector.app.config"
+    namespace "dev.getzen.element.config"
 
     compileSdk versions.compileSdk
 

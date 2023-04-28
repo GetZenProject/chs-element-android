@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.location
+package dev.getzen.element.features.location
 
 const val MAP_BASE_URL = "https://api.maptiler.com/maps/streets/style.json"
 const val STATIC_MAP_BASE_URL = "https://api.maptiler.com/maps/basic/static/"

@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.notifications
+package dev.getzen.element.features.notifications
 
 import android.graphics.Bitmap
 import androidx.core.app.NotificationCompat
 import androidx.core.app.Person
-import im.vector.app.R
-import im.vector.app.core.resources.StringProvider
+import dev.getzen.element.R
+import dev.getzen.element.core.resources.StringProvider
 import me.gujun.android.span.Span
 import me.gujun.android.span.span
 import timber.log.Timber

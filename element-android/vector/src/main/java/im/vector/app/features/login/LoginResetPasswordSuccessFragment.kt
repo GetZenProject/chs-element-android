@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.login
+package dev.getzen.element.features.login
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.databinding.FragmentLoginResetPasswordSuccessBinding
+import dev.getzen.element.databinding.FragmentLoginResetPasswordSuccessBinding
 
 /**
  * In this screen, we confirm to the user that his password has been reset.

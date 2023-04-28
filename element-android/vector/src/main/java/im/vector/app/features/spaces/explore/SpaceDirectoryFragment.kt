@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.explore
+package dev.getzen.element.features.spaces.explore
 
 import android.os.Bundle
 import android.os.Parcelable
@@ -33,24 +33,24 @@ import com.airbnb.mvrx.activityViewModel
 import com.airbnb.mvrx.withState
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.extensions.registerStartForActivityResult
-import im.vector.app.core.platform.OnBackPressed
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.platform.VectorMenuProvider
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.utils.colorizeMatchingText
-import im.vector.app.core.utils.isValidUrl
-import im.vector.app.core.utils.openUrlInExternalBrowser
-import im.vector.app.databinding.FragmentSpaceDirectoryBinding
-import im.vector.app.features.analytics.plan.MobileScreen
-import im.vector.app.features.home.room.detail.timeline.TimelineEventController
-import im.vector.app.features.permalink.PermalinkHandler
-import im.vector.app.features.spaces.manage.ManageType
-import im.vector.app.features.spaces.manage.SpaceAddRoomSpaceChooserBottomSheet
-import im.vector.app.features.spaces.manage.SpaceManageActivity
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.cleanup
+import dev.getzen.element.core.extensions.configureWith
+import dev.getzen.element.core.extensions.registerStartForActivityResult
+import dev.getzen.element.core.platform.OnBackPressed
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.core.platform.VectorMenuProvider
+import dev.getzen.element.core.resources.ColorProvider
+import dev.getzen.element.core.utils.colorizeMatchingText
+import dev.getzen.element.core.utils.isValidUrl
+import dev.getzen.element.core.utils.openUrlInExternalBrowser
+import dev.getzen.element.databinding.FragmentSpaceDirectoryBinding
+import dev.getzen.element.features.analytics.plan.MobileScreen
+import dev.getzen.element.features.home.room.detail.timeline.TimelineEventController
+import dev.getzen.element.features.permalink.PermalinkHandler
+import dev.getzen.element.features.spaces.manage.ManageType
+import dev.getzen.element.features.spaces.manage.SpaceAddRoomSpaceChooserBottomSheet
+import dev.getzen.element.features.spaces.manage.SpaceManageActivity
 import kotlinx.coroutines.launch
 import kotlinx.parcelize.Parcelize
 import org.matrix.android.sdk.api.session.room.model.SpaceChildInfo

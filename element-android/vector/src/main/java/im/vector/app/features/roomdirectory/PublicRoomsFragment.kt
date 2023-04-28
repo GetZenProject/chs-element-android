@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomdirectory
+package dev.getzen.element.features.roomdirectory
 
 import android.net.Uri
 import android.os.Bundle
@@ -26,19 +26,19 @@ import androidx.lifecycle.lifecycleScope
 import com.airbnb.mvrx.activityViewModel
 import com.airbnb.mvrx.withState
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.extensions.trackItemsVisibilityChange
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.platform.VectorMenuProvider
-import im.vector.app.core.platform.showOptimizedSnackbar
-import im.vector.app.core.utils.toast
-import im.vector.app.databinding.FragmentPublicRoomsBinding
-import im.vector.app.features.analytics.plan.ViewRoom
-import im.vector.app.features.permalink.NavigationInterceptor
-import im.vector.app.features.permalink.PermalinkFactory
-import im.vector.app.features.permalink.PermalinkHandler
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.cleanup
+import dev.getzen.element.core.extensions.configureWith
+import dev.getzen.element.core.extensions.trackItemsVisibilityChange
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.core.platform.VectorMenuProvider
+import dev.getzen.element.core.platform.showOptimizedSnackbar
+import dev.getzen.element.core.utils.toast
+import dev.getzen.element.databinding.FragmentPublicRoomsBinding
+import dev.getzen.element.features.analytics.plan.ViewRoom
+import dev.getzen.element.features.permalink.NavigationInterceptor
+import dev.getzen.element.features.permalink.PermalinkFactory
+import dev.getzen.element.features.permalink.PermalinkHandler
 import kotlinx.coroutines.flow.debounce
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach

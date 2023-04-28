@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.notification
+package dev.getzen.element.core.notification
 
-import im.vector.app.features.session.coroutineScope
-import im.vector.app.test.fakes.FakeSession
+import dev.getzen.element.features.session.coroutineScope
+import dev.getzen.element.test.fakes.FakeSession
 import io.mockk.coJustRun
 import io.mockk.coVerify
 import io.mockk.every
@@ -40,7 +40,7 @@ class NotificationsSettingUpdaterTest {
 
     @Before
     fun setup() {
-        mockkStatic("im.vector.app.features.session.SessionCoroutineScopesKt")
+        mockkStatic("dev.getzen.element.features.session.SessionCoroutineScopesKt")
     }
 
     @After

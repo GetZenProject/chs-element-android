@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.core.services
+package dev.getzen.element.core.services
 
 import android.app.AlarmManager
 import android.app.NotificationManager
@@ -31,11 +31,11 @@ import androidx.work.WorkRequest
 import androidx.work.Worker
 import androidx.work.WorkerParameters
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.startForegroundCompat
-import im.vector.app.core.platform.PendingIntentCompat
-import im.vector.app.features.notifications.NotificationUtils
-import im.vector.app.features.settings.BackgroundSyncMode
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.startForegroundCompat
+import dev.getzen.element.core.platform.PendingIntentCompat
+import dev.getzen.element.features.notifications.NotificationUtils
+import dev.getzen.element.features.settings.BackgroundSyncMode
 import im.vector.lib.core.utils.timer.Clock
 import im.vector.lib.core.utils.timer.DefaultClock
 import org.matrix.android.sdk.api.Matrix

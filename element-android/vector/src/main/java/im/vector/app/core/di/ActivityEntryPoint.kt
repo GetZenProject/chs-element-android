@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.di
+package dev.getzen.element.core.di
 
 import androidx.lifecycle.ViewModelProvider
 import dagger.hilt.EntryPoint

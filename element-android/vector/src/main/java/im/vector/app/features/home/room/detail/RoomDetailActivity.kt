@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail
+package dev.getzen.element.features.home.room.detail
 
 import android.content.Context
 import android.content.Intent
@@ -31,23 +31,23 @@ import androidx.lifecycle.lifecycleScope
 import com.airbnb.mvrx.Mavericks
 import com.airbnb.mvrx.viewModel
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.core.extensions.endKeepScreenOn
-import im.vector.app.core.extensions.hideKeyboard
-import im.vector.app.core.extensions.keepScreenOn
-import im.vector.app.core.extensions.replaceFragment
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.databinding.ActivityRoomDetailBinding
-import im.vector.app.features.MainActivity
-import im.vector.app.features.analytics.plan.MobileScreen
-import im.vector.app.features.analytics.plan.ViewRoom
-import im.vector.app.features.home.room.breadcrumbs.BreadcrumbsFragment
-import im.vector.app.features.home.room.detail.arguments.TimelineArgs
-import im.vector.app.features.home.room.detail.timeline.helper.AudioMessagePlaybackTracker
-import im.vector.app.features.matrixto.MatrixToBottomSheet
-import im.vector.app.features.navigation.Navigator
-import im.vector.app.features.room.RequireActiveMembershipAction
-import im.vector.app.features.room.RequireActiveMembershipViewEvents
-import im.vector.app.features.room.RequireActiveMembershipViewModel
+import dev.getzen.element.core.extensions.endKeepScreenOn
+import dev.getzen.element.core.extensions.hideKeyboard
+import dev.getzen.element.core.extensions.keepScreenOn
+import dev.getzen.element.core.extensions.replaceFragment
+import dev.getzen.element.core.platform.VectorBaseActivity
+import dev.getzen.element.databinding.ActivityRoomDetailBinding
+import dev.getzen.element.features.MainActivity
+import dev.getzen.element.features.analytics.plan.MobileScreen
+import dev.getzen.element.features.analytics.plan.ViewRoom
+import dev.getzen.element.features.home.room.breadcrumbs.BreadcrumbsFragment
+import dev.getzen.element.features.home.room.detail.arguments.TimelineArgs
+import dev.getzen.element.features.home.room.detail.timeline.helper.AudioMessagePlaybackTracker
+import dev.getzen.element.features.matrixto.MatrixToBottomSheet
+import dev.getzen.element.features.navigation.Navigator
+import dev.getzen.element.features.room.RequireActiveMembershipAction
+import dev.getzen.element.features.room.RequireActiveMembershipViewEvents
+import dev.getzen.element.features.room.RequireActiveMembershipViewModel
 import im.vector.lib.core.utils.compat.getParcelableCompat
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach

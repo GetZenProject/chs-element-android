@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.test
+package dev.getzen.element.test
 
 import org.matrix.android.sdk.api.util.BuildVersionSdkIntProvider
 

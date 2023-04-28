@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.font
+package dev.getzen.element.features.settings.font
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -23,11 +23,11 @@ import android.view.ViewGroup
 import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.extensions.restart
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.databinding.FragmentSettingsFontScalingBinding
-import im.vector.app.features.settings.FontScaleValue
+import dev.getzen.element.core.extensions.configureWith
+import dev.getzen.element.core.extensions.restart
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.databinding.FragmentSettingsFontScalingBinding
+import dev.getzen.element.features.settings.FontScaleValue
 import javax.inject.Inject
 
 @AndroidEntryPoint

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.manage
+package dev.getzen.element.features.spaces.manage
 
 import android.content.Context
 import android.content.Intent
@@ -27,19 +27,19 @@ import com.airbnb.mvrx.Mavericks
 import com.airbnb.mvrx.viewModel
 import com.airbnb.mvrx.withState
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.addFragmentToBackstack
-import im.vector.app.core.extensions.hideKeyboard
-import im.vector.app.core.extensions.replaceFragment
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.databinding.ActivitySimpleLoadingBinding
-import im.vector.app.features.roomdirectory.RoomDirectorySharedAction
-import im.vector.app.features.roomdirectory.RoomDirectorySharedActionViewModel
-import im.vector.app.features.roomdirectory.createroom.CreateRoomArgs
-import im.vector.app.features.roomdirectory.createroom.CreateRoomFragment
-import im.vector.app.features.roomprofile.RoomProfileArgs
-import im.vector.app.features.roomprofile.alias.RoomAliasFragment
-import im.vector.app.features.roomprofile.permissions.RoomPermissionsFragment
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.addFragmentToBackstack
+import dev.getzen.element.core.extensions.hideKeyboard
+import dev.getzen.element.core.extensions.replaceFragment
+import dev.getzen.element.core.platform.VectorBaseActivity
+import dev.getzen.element.databinding.ActivitySimpleLoadingBinding
+import dev.getzen.element.features.roomdirectory.RoomDirectorySharedAction
+import dev.getzen.element.features.roomdirectory.RoomDirectorySharedActionViewModel
+import dev.getzen.element.features.roomdirectory.createroom.CreateRoomArgs
+import dev.getzen.element.features.roomdirectory.createroom.CreateRoomFragment
+import dev.getzen.element.features.roomprofile.RoomProfileArgs
+import dev.getzen.element.features.roomprofile.alias.RoomAliasFragment
+import dev.getzen.element.features.roomprofile.permissions.RoomPermissionsFragment
 import im.vector.lib.core.utils.compat.getParcelableExtraCompat
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach

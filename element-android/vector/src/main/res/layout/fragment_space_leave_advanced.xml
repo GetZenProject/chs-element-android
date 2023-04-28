@@ -19,7 +19,7 @@
         android:id="@+id/appBarLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_behavior="im.vector.app.core.utils.ToggleableAppBarLayoutBehavior">
+        app:layout_behavior="dev.getzen.element.core.utils.ToggleableAppBarLayoutBehavior">
 
         <com.google.android.material.appbar.CollapsingToolbarLayout
             android:id="@+id/spaceExploreCollapsingToolbarLayout"

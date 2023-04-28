@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.pin
+package dev.getzen.element.features.pin
 
 import android.app.Activity
 import android.os.Bundle
@@ -27,20 +27,20 @@ import com.airbnb.mvrx.args
 import com.airbnb.mvrx.asMavericksArgs
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.replaceFragment
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.utils.toast
-import im.vector.app.databinding.FragmentPinBinding
-import im.vector.app.features.MainActivity
-import im.vector.app.features.MainActivityArgs
-import im.vector.app.features.pin.lockscreen.biometrics.BiometricAuthError
-import im.vector.app.features.pin.lockscreen.configuration.LockScreenConfiguration
-import im.vector.app.features.pin.lockscreen.configuration.LockScreenMode
-import im.vector.app.features.pin.lockscreen.ui.AuthMethod
-import im.vector.app.features.pin.lockscreen.ui.LockScreenFragment
-import im.vector.app.features.pin.lockscreen.ui.LockScreenListener
-import im.vector.app.features.settings.VectorPreferences
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.replaceFragment
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.core.utils.toast
+import dev.getzen.element.databinding.FragmentPinBinding
+import dev.getzen.element.features.MainActivity
+import dev.getzen.element.features.MainActivityArgs
+import dev.getzen.element.features.pin.lockscreen.biometrics.BiometricAuthError
+import dev.getzen.element.features.pin.lockscreen.configuration.LockScreenConfiguration
+import dev.getzen.element.features.pin.lockscreen.configuration.LockScreenMode
+import dev.getzen.element.features.pin.lockscreen.ui.AuthMethod
+import dev.getzen.element.features.pin.lockscreen.ui.LockScreenFragment
+import dev.getzen.element.features.pin.lockscreen.ui.LockScreenListener
+import dev.getzen.element.features.settings.VectorPreferences
 import kotlinx.parcelize.Parcelize
 import timber.log.Timber
 import javax.inject.Inject

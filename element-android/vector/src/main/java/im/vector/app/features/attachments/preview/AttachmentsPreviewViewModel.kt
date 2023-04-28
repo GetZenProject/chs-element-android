@@ -15,9 +15,9 @@
  *
  */
 
-package im.vector.app.features.attachments.preview
+package dev.getzen.element.features.attachments.preview
 
-import im.vector.app.core.platform.VectorViewModel
+import dev.getzen.element.core.platform.VectorViewModel
 
 class AttachmentsPreviewViewModel(initialState: AttachmentsPreviewViewState) :
         VectorViewModel<AttachmentsPreviewViewState, AttachmentsPreviewAction, AttachmentsPreviewViewEvents>(initialState) {

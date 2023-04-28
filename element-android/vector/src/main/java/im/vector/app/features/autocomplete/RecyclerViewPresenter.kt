@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.autocomplete
+package dev.getzen.element.features.autocomplete
 
 import android.content.Context
 import android.database.DataSetObserver

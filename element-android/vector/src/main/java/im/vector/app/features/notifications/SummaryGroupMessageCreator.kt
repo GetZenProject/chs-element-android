@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.notifications
+package dev.getzen.element.features.notifications
 
 import android.app.Notification
 import androidx.core.app.NotificationCompat
-import im.vector.app.R
-import im.vector.app.core.resources.StringProvider
+import dev.getzen.element.R
+import dev.getzen.element.core.resources.StringProvider
 import javax.inject.Inject
 
 /**

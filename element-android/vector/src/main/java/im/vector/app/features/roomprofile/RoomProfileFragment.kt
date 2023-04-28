@@ -15,7 +15,7 @@
  *
  */
 
-package im.vector.app.features.roomprofile
+package dev.getzen.element.features.roomprofile
 
 import android.os.Bundle
 import android.os.Parcelable
@@ -32,28 +32,28 @@ import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.animations.AppBarStateChangeListener
-import im.vector.app.core.animations.MatrixItemAppBarStateChangeListener
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.extensions.copyOnLongClick
-import im.vector.app.core.extensions.setTextOrHide
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.platform.VectorMenuProvider
-import im.vector.app.core.utils.copyToClipboard
-import im.vector.app.core.utils.startSharePlainTextIntent
-import im.vector.app.databinding.FragmentMatrixProfileBinding
-import im.vector.app.databinding.ViewStubRoomProfileHeaderBinding
-import im.vector.app.features.analytics.plan.Interaction
-import im.vector.app.features.analytics.plan.MobileScreen
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.home.room.detail.RoomDetailPendingAction
-import im.vector.app.features.home.room.detail.RoomDetailPendingActionStore
-import im.vector.app.features.home.room.detail.upgrade.MigrateRoomBottomSheet
-import im.vector.app.features.home.room.list.actions.RoomListQuickActionsSharedAction
-import im.vector.app.features.home.room.list.actions.RoomListQuickActionsSharedActionViewModel
-import im.vector.app.features.navigation.SettingsActivityPayload
+import dev.getzen.element.R
+import dev.getzen.element.core.animations.AppBarStateChangeListener
+import dev.getzen.element.core.animations.MatrixItemAppBarStateChangeListener
+import dev.getzen.element.core.extensions.cleanup
+import dev.getzen.element.core.extensions.configureWith
+import dev.getzen.element.core.extensions.copyOnLongClick
+import dev.getzen.element.core.extensions.setTextOrHide
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.core.platform.VectorMenuProvider
+import dev.getzen.element.core.utils.copyToClipboard
+import dev.getzen.element.core.utils.startSharePlainTextIntent
+import dev.getzen.element.databinding.FragmentMatrixProfileBinding
+import dev.getzen.element.databinding.ViewStubRoomProfileHeaderBinding
+import dev.getzen.element.features.analytics.plan.Interaction
+import dev.getzen.element.features.analytics.plan.MobileScreen
+import dev.getzen.element.features.home.AvatarRenderer
+import dev.getzen.element.features.home.room.detail.RoomDetailPendingAction
+import dev.getzen.element.features.home.room.detail.RoomDetailPendingActionStore
+import dev.getzen.element.features.home.room.detail.upgrade.MigrateRoomBottomSheet
+import dev.getzen.element.features.home.room.list.actions.RoomListQuickActionsSharedAction
+import dev.getzen.element.features.home.room.list.actions.RoomListQuickActionsSharedActionViewModel
+import dev.getzen.element.features.navigation.SettingsActivityPayload
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import kotlinx.parcelize.Parcelize

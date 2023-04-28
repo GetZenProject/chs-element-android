@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.onboarding.ftueauth
+package dev.getzen.element.features.onboarding.ftueauth
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -28,16 +28,16 @@ import androidx.core.view.isVisible
 import androidx.lifecycle.lifecycleScope
 import com.google.android.material.textfield.TextInputLayout
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.hideKeyboard
-import im.vector.app.core.resources.BuildMeta
-import im.vector.app.core.utils.ensureProtocol
-import im.vector.app.core.utils.openUrlInChromeCustomTab
-import im.vector.app.databinding.FragmentLoginServerUrlFormBinding
-import im.vector.app.features.login.EMS_LINK
-import im.vector.app.features.login.ServerType
-import im.vector.app.features.onboarding.OnboardingAction
-import im.vector.app.features.onboarding.OnboardingViewState
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.hideKeyboard
+import dev.getzen.element.core.resources.BuildMeta
+import dev.getzen.element.core.utils.ensureProtocol
+import dev.getzen.element.core.utils.openUrlInChromeCustomTab
+import dev.getzen.element.databinding.FragmentLoginServerUrlFormBinding
+import dev.getzen.element.features.login.EMS_LINK
+import dev.getzen.element.features.login.ServerType
+import dev.getzen.element.features.onboarding.OnboardingAction
+import dev.getzen.element.features.onboarding.OnboardingViewState
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import org.matrix.android.sdk.api.failure.Failure

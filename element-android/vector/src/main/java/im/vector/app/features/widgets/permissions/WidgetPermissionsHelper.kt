@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.widgets.permissions
+package dev.getzen.element.features.widgets.permissions
 
 import org.matrix.android.sdk.api.query.QueryStringValue
 import org.matrix.android.sdk.api.session.integrationmanager.IntegrationManagerService

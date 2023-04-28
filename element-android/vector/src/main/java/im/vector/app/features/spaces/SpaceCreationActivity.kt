@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces
+package dev.getzen.element.features.spaces
 
 import android.content.Context
 import android.content.Intent
@@ -25,19 +25,19 @@ import com.airbnb.mvrx.viewModel
 import com.airbnb.mvrx.withState
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.platform.SimpleFragmentActivity
-import im.vector.app.features.spaces.create.ChoosePrivateSpaceTypeFragment
-import im.vector.app.features.spaces.create.ChooseSpaceTypeFragment
-import im.vector.app.features.spaces.create.CreateSpaceAction
-import im.vector.app.features.spaces.create.CreateSpaceAdd3pidInvitesFragment
-import im.vector.app.features.spaces.create.CreateSpaceDefaultRoomsFragment
-import im.vector.app.features.spaces.create.CreateSpaceDetailsFragment
-import im.vector.app.features.spaces.create.CreateSpaceEvents
-import im.vector.app.features.spaces.create.CreateSpaceState
-import im.vector.app.features.spaces.create.CreateSpaceViewModel
-import im.vector.app.features.spaces.create.SpaceTopology
-import im.vector.app.features.spaces.create.SpaceType
+import dev.getzen.element.R
+import dev.getzen.element.core.platform.SimpleFragmentActivity
+import dev.getzen.element.features.spaces.create.ChoosePrivateSpaceTypeFragment
+import dev.getzen.element.features.spaces.create.ChooseSpaceTypeFragment
+import dev.getzen.element.features.spaces.create.CreateSpaceAction
+import dev.getzen.element.features.spaces.create.CreateSpaceAdd3pidInvitesFragment
+import dev.getzen.element.features.spaces.create.CreateSpaceDefaultRoomsFragment
+import dev.getzen.element.features.spaces.create.CreateSpaceDetailsFragment
+import dev.getzen.element.features.spaces.create.CreateSpaceEvents
+import dev.getzen.element.features.spaces.create.CreateSpaceState
+import dev.getzen.element.features.spaces.create.CreateSpaceViewModel
+import dev.getzen.element.features.spaces.create.SpaceTopology
+import dev.getzen.element.features.spaces.create.SpaceType
 
 @AndroidEntryPoint
 class SpaceCreationActivity : SimpleFragmentActivity() {

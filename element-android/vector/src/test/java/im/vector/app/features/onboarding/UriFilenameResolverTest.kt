@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.onboarding
+package dev.getzen.element.features.onboarding
 
 import android.provider.OpenableColumns
-import im.vector.app.test.fakes.FakeContentResolver
-import im.vector.app.test.fakes.FakeContext
-import im.vector.app.test.fakes.FakeCursor
-import im.vector.app.test.fakes.FakeUri
+import dev.getzen.element.test.fakes.FakeContentResolver
+import dev.getzen.element.test.fakes.FakeContext
+import dev.getzen.element.test.fakes.FakeCursor
+import dev.getzen.element.test.fakes.FakeUri
 import org.amshove.kluent.shouldBeEqualTo
 import org.junit.Test
 

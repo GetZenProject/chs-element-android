@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline
+package dev.getzen.element.features.home.room.detail.timeline
 
 import androidx.annotation.ColorInt
-import im.vector.app.R
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.features.home.room.detail.timeline.helper.MatrixItemColorProvider
-import im.vector.app.features.settings.VectorPreferences
+import dev.getzen.element.R
+import dev.getzen.element.core.resources.ColorProvider
+import dev.getzen.element.features.home.room.detail.timeline.helper.MatrixItemColorProvider
+import dev.getzen.element.features.settings.VectorPreferences
 import org.matrix.android.sdk.api.session.room.send.SendState
 import org.matrix.android.sdk.api.util.MatrixItem
 import javax.inject.Inject

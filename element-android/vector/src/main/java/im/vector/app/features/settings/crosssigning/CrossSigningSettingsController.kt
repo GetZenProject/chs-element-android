@@ -13,17 +13,17 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.settings.crosssigning
+package dev.getzen.element.features.settings.crosssigning
 
 import com.airbnb.epoxy.TypedEpoxyController
-import im.vector.app.R
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.ui.list.genericButtonItem
-import im.vector.app.core.ui.list.genericItem
-import im.vector.app.core.ui.list.genericPositiveButtonItem
-import im.vector.app.core.ui.list.genericWithValueItem
-import im.vector.app.core.utils.DimensionConverter
+import dev.getzen.element.R
+import dev.getzen.element.core.resources.ColorProvider
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.core.ui.list.genericButtonItem
+import dev.getzen.element.core.ui.list.genericItem
+import dev.getzen.element.core.ui.list.genericPositiveButtonItem
+import dev.getzen.element.core.ui.list.genericWithValueItem
+import dev.getzen.element.core.utils.DimensionConverter
 import im.vector.lib.core.utils.epoxy.charsequence.toEpoxyCharSequence
 import me.gujun.android.span.span
 import javax.inject.Inject

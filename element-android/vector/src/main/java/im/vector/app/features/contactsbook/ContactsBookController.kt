@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.contactsbook
+package dev.getzen.element.features.contactsbook
 
 import com.airbnb.epoxy.EpoxyController
 import com.airbnb.mvrx.Fail
 import com.airbnb.mvrx.Loading
 import com.airbnb.mvrx.Success
 import com.airbnb.mvrx.Uninitialized
-import im.vector.app.R
-import im.vector.app.core.contacts.MappedContact
-import im.vector.app.core.epoxy.errorWithRetryItem
-import im.vector.app.core.epoxy.loadingItem
-import im.vector.app.core.epoxy.noResultItem
-import im.vector.app.core.error.ErrorFormatter
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.home.AvatarRenderer
+import dev.getzen.element.R
+import dev.getzen.element.core.contacts.MappedContact
+import dev.getzen.element.core.epoxy.errorWithRetryItem
+import dev.getzen.element.core.epoxy.loadingItem
+import dev.getzen.element.core.epoxy.noResultItem
+import dev.getzen.element.core.error.ErrorFormatter
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.features.home.AvatarRenderer
 import org.matrix.android.sdk.api.session.identity.ThreePid
 import javax.inject.Inject
 

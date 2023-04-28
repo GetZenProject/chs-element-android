@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.ui.robot
+package dev.getzen.element.ui.robot
 
 import androidx.test.espresso.Espresso.closeSoftKeyboard
 import androidx.test.espresso.Espresso.pressBack
@@ -23,12 +23,12 @@ import androidx.test.espresso.matcher.ViewMatchers.withText
 import com.adevinta.android.barista.interaction.BaristaClickInteractions.clickOn
 import com.adevinta.android.barista.interaction.BaristaListInteractions.clickListItem
 import com.google.android.material.bottomsheet.BottomSheetBehavior
-import im.vector.app.R
-import im.vector.app.espresso.tools.waitUntilActivityVisible
-import im.vector.app.espresso.tools.waitUntilViewVisible
-import im.vector.app.features.home.room.detail.timeline.edithistory.ViewEditHistoryBottomSheet
-import im.vector.app.features.reactions.EmojiReactionPickerActivity
-import im.vector.app.interactWithSheet
+import dev.getzen.element.R
+import dev.getzen.element.espresso.tools.waitUntilActivityVisible
+import dev.getzen.element.espresso.tools.waitUntilViewVisible
+import dev.getzen.element.features.home.room.detail.timeline.edithistory.ViewEditHistoryBottomSheet
+import dev.getzen.element.features.reactions.EmojiReactionPickerActivity
+import dev.getzen.element.interactWithSheet
 import java.lang.Thread.sleep
 
 class MessageMenuRobot(

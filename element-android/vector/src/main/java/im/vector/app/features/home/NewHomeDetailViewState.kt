@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home
+package dev.getzen.element.features.home
 
 import com.airbnb.mvrx.MavericksState
-import im.vector.app.features.home.room.list.UnreadCounterBadgeView
+import dev.getzen.element.features.home.room.list.UnreadCounterBadgeView
 
 data class NewHomeDetailViewState(
         val spacesNotificationCounterBadgeState: UnreadCounterBadgeView.State = UnreadCounterBadgeView.State.Count(count = 0, highlighted = false),

@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.threads.list.viewmodel
+package dev.getzen.element.features.home.room.threads.list.viewmodel
 
 import com.airbnb.epoxy.EpoxyModel
 import com.airbnb.epoxy.paging.PagedListEpoxyController
-import im.vector.app.core.date.DateFormatKind
-import im.vector.app.core.date.VectorDateFormatter
-import im.vector.app.core.utils.createUIHandler
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.home.room.detail.timeline.format.DisplayableEventFormatter
-import im.vector.app.features.home.room.threads.list.model.ThreadListItem_
+import dev.getzen.element.core.date.DateFormatKind
+import dev.getzen.element.core.date.VectorDateFormatter
+import dev.getzen.element.core.utils.createUIHandler
+import dev.getzen.element.features.home.AvatarRenderer
+import dev.getzen.element.features.home.room.detail.timeline.format.DisplayableEventFormatter
+import dev.getzen.element.features.home.room.threads.list.model.ThreadListItem_
 import org.matrix.android.sdk.api.session.room.threads.model.ThreadSummary
 import org.matrix.android.sdk.api.session.threads.ThreadNotificationState
 import org.matrix.android.sdk.api.util.toMatrixItem

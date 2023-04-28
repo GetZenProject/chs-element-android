@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.poll
+package dev.getzen.element.features.home.room.detail.poll
 
-import im.vector.app.test.fakes.FakeActiveSessionHolder
-import im.vector.app.test.fixtures.RoomPollFixture
+import dev.getzen.element.test.fakes.FakeActiveSessionHolder
+import dev.getzen.element.test.fixtures.RoomPollFixture
 import io.mockk.every
 import io.mockk.verify
 import org.junit.Test

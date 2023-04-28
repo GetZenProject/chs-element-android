@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.glide
+package dev.getzen.element.core.glide
 
 import com.bumptech.glide.load.Option
 import org.matrix.android.sdk.api.session.crypto.attachments.ElementToDecrypt
 
-const val ElementToDecryptOptionKey = "im.vector.app.core.glide.ElementToDecrypt"
+const val ElementToDecryptOptionKey = "dev.getzen.element.core.glide.ElementToDecrypt"
 
 val ELEMENT_TO_DECRYPT = Option.memory(
         ElementToDecryptOptionKey, ElementToDecrypt("", "", "")

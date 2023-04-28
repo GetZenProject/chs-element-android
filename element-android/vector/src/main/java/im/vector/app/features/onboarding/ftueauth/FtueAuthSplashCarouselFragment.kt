@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.onboarding.ftueauth
+package dev.getzen.element.features.onboarding.ftueauth
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -28,15 +28,15 @@ import androidx.lifecycle.lifecycleScope
 import androidx.viewpager2.widget.ViewPager2
 import com.google.android.material.tabs.TabLayoutMediator
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.incrementByOneAndWrap
-import im.vector.app.core.extensions.setCurrentItem
-import im.vector.app.core.resources.BuildMeta
-import im.vector.app.databinding.FragmentFtueSplashCarouselBinding
-import im.vector.app.features.VectorFeatures
-import im.vector.app.features.onboarding.OnboardingAction
-import im.vector.app.features.onboarding.OnboardingFlow
-import im.vector.app.features.settings.VectorPreferences
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.incrementByOneAndWrap
+import dev.getzen.element.core.extensions.setCurrentItem
+import dev.getzen.element.core.resources.BuildMeta
+import dev.getzen.element.databinding.FragmentFtueSplashCarouselBinding
+import dev.getzen.element.features.VectorFeatures
+import dev.getzen.element.features.onboarding.OnboardingAction
+import dev.getzen.element.features.onboarding.OnboardingFlow
+import dev.getzen.element.features.settings.VectorPreferences
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch

@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.poll.create
+package dev.getzen.element.features.poll.create
 
 import com.airbnb.mvrx.MavericksState
-import im.vector.app.features.poll.PollMode
+import dev.getzen.element.features.poll.PollMode
 import org.matrix.android.sdk.api.session.room.model.message.PollType
 
 data class CreatePollViewState(

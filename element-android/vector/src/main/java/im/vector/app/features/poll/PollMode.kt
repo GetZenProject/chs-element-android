@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.poll
+package dev.getzen.element.features.poll
 
 enum class PollMode {
     CREATE,

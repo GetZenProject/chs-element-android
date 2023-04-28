@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.analytics.itf
+package dev.getzen.element.features.analytics.itf
 
 interface VectorAnalyticsScreen {
     fun getName(): String

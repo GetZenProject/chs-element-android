@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.signout.soft.epoxy
+package dev.getzen.element.features.signout.soft.epoxy
 
 import com.airbnb.epoxy.EpoxyModelClass
-import im.vector.app.R
-import im.vector.app.core.epoxy.VectorEpoxyHolder
-import im.vector.app.core.epoxy.VectorEpoxyModel
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.VectorEpoxyHolder
+import dev.getzen.element.core.epoxy.VectorEpoxyModel
 
 @EpoxyModelClass
 abstract class LoginHeaderItem : VectorEpoxyModel<LoginHeaderItem.Holder>(R.layout.item_login_header) {

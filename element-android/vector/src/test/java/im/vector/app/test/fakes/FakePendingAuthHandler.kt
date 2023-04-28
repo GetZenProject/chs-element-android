@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.test.fakes
+package dev.getzen.element.test.fakes
 
-import im.vector.app.features.auth.PendingAuthHandler
+import dev.getzen.element.features.auth.PendingAuthHandler
 import io.mockk.mockk
 import io.mockk.spyk
 

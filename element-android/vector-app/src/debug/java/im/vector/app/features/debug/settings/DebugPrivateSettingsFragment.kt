@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.debug.settings
+package dev.getzen.element.features.debug.settings
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -24,9 +24,9 @@ import android.view.View
 import android.view.ViewGroup
 import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.features.home.room.list.home.release.ReleaseNotesActivity
-import im.vector.application.databinding.FragmentDebugPrivateSettingsBinding
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.features.home.room.list.home.release.ReleaseNotesActivity
+import dev.getzen.elementlication.databinding.FragmentDebugPrivateSettingsBinding
 
 class DebugPrivateSettingsFragment : VectorBaseFragment<FragmentDebugPrivateSettingsBinding>() {
 

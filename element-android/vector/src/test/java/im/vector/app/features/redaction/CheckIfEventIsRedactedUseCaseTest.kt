@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.redaction
+package dev.getzen.element.features.redaction
 
-import im.vector.app.test.fakes.FakeSession
+import dev.getzen.element.test.fakes.FakeSession
 import kotlinx.coroutines.test.runTest
 import org.amshove.kluent.shouldBeEqualTo
 import org.junit.Test

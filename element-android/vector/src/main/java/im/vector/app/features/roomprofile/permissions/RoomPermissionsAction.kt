@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.permissions
+package dev.getzen.element.features.roomprofile.permissions
 
-import im.vector.app.core.platform.VectorViewModelAction
+import dev.getzen.element.core.platform.VectorViewModelAction
 
 sealed class RoomPermissionsAction : VectorViewModelAction {
     object ToggleShowAllPermissions : RoomPermissionsAction()

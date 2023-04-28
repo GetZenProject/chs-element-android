@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call.webrtc
+package dev.getzen.element.features.call.webrtc
 
 data class VoipConfig(
       val handleCallAssertedIdentityEvents: Boolean

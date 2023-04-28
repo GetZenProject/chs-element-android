@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.espresso.tools
+package dev.getzen.element.espresso.tools
 
 import android.view.View
 import androidx.test.espresso.PerformException

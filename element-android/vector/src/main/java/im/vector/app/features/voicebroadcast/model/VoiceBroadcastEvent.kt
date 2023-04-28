@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.voicebroadcast.model
+package dev.getzen.element.features.voicebroadcast.model
 
-import im.vector.app.features.voicebroadcast.VoiceBroadcastConstants
+import dev.getzen.element.features.voicebroadcast.VoiceBroadcastConstants
 import org.matrix.android.sdk.api.session.events.model.Event
 import org.matrix.android.sdk.api.session.events.model.RelationType
 import org.matrix.android.sdk.api.session.events.model.toModel

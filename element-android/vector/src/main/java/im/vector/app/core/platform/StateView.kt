@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.platform
+package dev.getzen.element.core.platform
 
 import android.content.Context
 import android.graphics.drawable.Drawable
@@ -23,9 +23,9 @@ import android.view.View
 import android.widget.FrameLayout
 import android.widget.ImageView
 import androidx.core.view.isVisible
-import im.vector.app.R
-import im.vector.app.core.extensions.updateConstraintSet
-import im.vector.app.databinding.ViewStateBinding
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.updateConstraintSet
+import dev.getzen.element.databinding.ViewStateBinding
 
 class StateView @JvmOverloads constructor(context: Context, attrs: AttributeSet? = null, defStyle: Int = 0) :
         FrameLayout(context, attrs, defStyle) {

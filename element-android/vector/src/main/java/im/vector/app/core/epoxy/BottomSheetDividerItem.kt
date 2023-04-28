@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.core.epoxy
+package dev.getzen.element.core.epoxy
 
 import com.airbnb.epoxy.EpoxyModelClass
-import im.vector.app.R
+import dev.getzen.element.R
 
 @EpoxyModelClass
 abstract class BottomSheetDividerItem : VectorEpoxyModel<BottomSheetDividerItem.Holder>(R.layout.item_divider_on_surface) {

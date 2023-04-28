@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.signout.soft
+package dev.getzen.element.features.signout.soft
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -24,15 +24,15 @@ import com.airbnb.mvrx.activityViewModel
 import com.airbnb.mvrx.withState
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.extensions.hideKeyboard
-import im.vector.app.databinding.FragmentGenericRecyclerBinding
-import im.vector.app.features.login.AbstractLoginFragment
-import im.vector.app.features.login.LoginAction
-import im.vector.app.features.login.LoginMode
-import im.vector.app.features.login.LoginViewEvents
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.cleanup
+import dev.getzen.element.core.extensions.configureWith
+import dev.getzen.element.core.extensions.hideKeyboard
+import dev.getzen.element.databinding.FragmentGenericRecyclerBinding
+import dev.getzen.element.features.login.AbstractLoginFragment
+import dev.getzen.element.features.login.LoginAction
+import dev.getzen.element.features.login.LoginMode
+import dev.getzen.element.features.login.LoginViewEvents
 import javax.inject.Inject
 
 /**

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call.conference
+package dev.getzen.element.features.call.conference
 
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -24,7 +24,7 @@ import androidx.lifecycle.DefaultLifecycleObserver
 import androidx.lifecycle.LifecycleOwner
 import androidx.localbroadcastmanager.content.LocalBroadcastManager
 import com.facebook.react.bridge.JavaOnlyMap
-import im.vector.app.config.Config
+import dev.getzen.element.config.Config
 import org.jitsi.meet.sdk.BroadcastEmitter
 import org.jitsi.meet.sdk.BroadcastEvent
 import org.jitsi.meet.sdk.JitsiMeet

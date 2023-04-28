@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.core.dialogs
+package dev.getzen.element.core.dialogs
 
 import android.app.Activity
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.databinding.DialogSslFingerprintBinding
+import dev.getzen.element.R
+import dev.getzen.element.core.di.ActiveSessionHolder
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.databinding.DialogSslFingerprintBinding
 import org.matrix.android.sdk.api.network.ssl.Fingerprint
 import timber.log.Timber
 import javax.inject.Inject

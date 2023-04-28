@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call
+package dev.getzen.element.features.call
 
 import com.airbnb.mvrx.Fail
 import com.airbnb.mvrx.Loading
@@ -23,16 +23,16 @@ import com.airbnb.mvrx.Success
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
-import im.vector.app.core.di.MavericksAssistedViewModelFactory
-import im.vector.app.core.di.hiltMavericksViewModelFactory
-import im.vector.app.core.platform.VectorViewModel
-import im.vector.app.features.call.audio.CallAudioManager
-import im.vector.app.features.call.dialpad.DialPadLookup
-import im.vector.app.features.call.transfer.CallTransferResult
-import im.vector.app.features.call.webrtc.WebRtcCall
-import im.vector.app.features.call.webrtc.WebRtcCallManager
-import im.vector.app.features.call.webrtc.getOpponentAsMatrixItem
-import im.vector.app.features.createdirect.DirectRoomHelper
+import dev.getzen.element.core.di.MavericksAssistedViewModelFactory
+import dev.getzen.element.core.di.hiltMavericksViewModelFactory
+import dev.getzen.element.core.platform.VectorViewModel
+import dev.getzen.element.features.call.audio.CallAudioManager
+import dev.getzen.element.features.call.dialpad.DialPadLookup
+import dev.getzen.element.features.call.transfer.CallTransferResult
+import dev.getzen.element.features.call.webrtc.WebRtcCall
+import dev.getzen.element.features.call.webrtc.WebRtcCallManager
+import dev.getzen.element.features.call.webrtc.getOpponentAsMatrixItem
+import dev.getzen.element.features.createdirect.DirectRoomHelper
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.pushers
+package dev.getzen.element.core.pushers
 
 import android.content.Context
 import android.content.Intent
@@ -23,16 +23,16 @@ import android.os.Looper
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.ProcessLifecycleOwner
 import androidx.localbroadcastmanager.content.LocalBroadcastManager
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.network.WifiDetector
-import im.vector.app.core.pushers.model.PushData
-import im.vector.app.core.resources.BuildMeta
-import im.vector.app.features.notifications.NotifiableEventResolver
-import im.vector.app.features.notifications.NotifiableMessageEvent
-import im.vector.app.features.notifications.NotificationActionIds
-import im.vector.app.features.notifications.NotificationDrawerManager
-import im.vector.app.features.settings.VectorDataStore
-import im.vector.app.features.settings.VectorPreferences
+import dev.getzen.element.core.di.ActiveSessionHolder
+import dev.getzen.element.core.network.WifiDetector
+import dev.getzen.element.core.pushers.model.PushData
+import dev.getzen.element.core.resources.BuildMeta
+import dev.getzen.element.features.notifications.NotifiableEventResolver
+import dev.getzen.element.features.notifications.NotifiableMessageEvent
+import dev.getzen.element.features.notifications.NotificationActionIds
+import dev.getzen.element.features.notifications.NotificationDrawerManager
+import dev.getzen.element.features.settings.VectorDataStore
+import dev.getzen.element.features.settings.VectorPreferences
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob

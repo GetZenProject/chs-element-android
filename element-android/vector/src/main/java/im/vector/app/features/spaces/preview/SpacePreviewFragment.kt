@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.preview
+package dev.getzen.element.features.spaces.preview
 
 import android.os.Bundle
 import android.os.Parcelable
@@ -30,14 +30,14 @@ import com.airbnb.mvrx.Uninitialized
 import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.databinding.FragmentSpacePreviewBinding
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.spaces.SpacePreviewSharedAction
-import im.vector.app.features.spaces.SpacePreviewSharedActionViewModel
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.cleanup
+import dev.getzen.element.core.extensions.configureWith
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.databinding.FragmentSpacePreviewBinding
+import dev.getzen.element.features.home.AvatarRenderer
+import dev.getzen.element.features.spaces.SpacePreviewSharedAction
+import dev.getzen.element.features.spaces.SpacePreviewSharedActionViewModel
 import im.vector.lib.core.utils.flow.throttleFirst
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach

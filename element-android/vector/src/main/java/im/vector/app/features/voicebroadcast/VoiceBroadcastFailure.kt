@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.voicebroadcast
+package dev.getzen.element.features.voicebroadcast
 
 import android.media.MediaPlayer
 

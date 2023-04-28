@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.font
+package dev.getzen.element.features.settings.font
 
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.core.extensions.addFragment
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.databinding.ActivitySimpleBinding
+import dev.getzen.element.core.extensions.addFragment
+import dev.getzen.element.core.platform.VectorBaseActivity
+import dev.getzen.element.databinding.ActivitySimpleBinding
 
 @AndroidEntryPoint
 class FontScaleSettingActivity : VectorBaseActivity<ActivitySimpleBinding>() {

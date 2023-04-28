@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2.list
+package dev.getzen.element.features.settings.devices.v2.list
 
 import android.view.View
 import com.airbnb.epoxy.TypedEpoxyController
-import im.vector.app.R
-import im.vector.app.core.date.DateFormatKind
-import im.vector.app.core.date.VectorDateFormatter
-import im.vector.app.core.epoxy.noResultItem
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.resources.DrawableProvider
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.settings.devices.v2.DeviceFullInfo
+import dev.getzen.element.R
+import dev.getzen.element.core.date.DateFormatKind
+import dev.getzen.element.core.date.VectorDateFormatter
+import dev.getzen.element.core.epoxy.noResultItem
+import dev.getzen.element.core.resources.ColorProvider
+import dev.getzen.element.core.resources.DrawableProvider
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.features.settings.devices.v2.DeviceFullInfo
 import org.matrix.android.sdk.api.session.crypto.model.RoomEncryptionTrustLevel
 import javax.inject.Inject
 

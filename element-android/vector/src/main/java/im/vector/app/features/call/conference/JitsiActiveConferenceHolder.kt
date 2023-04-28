@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call.conference
+package dev.getzen.element.features.call.conference
 
 import android.content.Context
 import androidx.lifecycle.ProcessLifecycleOwner

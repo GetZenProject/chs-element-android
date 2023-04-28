@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.crypto.recover
+package dev.getzen.element.features.crypto.recover
 
 import android.app.Activity
 import android.content.ActivityNotFoundException
@@ -28,13 +28,13 @@ import androidx.lifecycle.lifecycleScope
 import com.airbnb.mvrx.parentFragmentViewModel
 import com.airbnb.mvrx.withState
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.registerStartForActivityResult
-import im.vector.app.core.extensions.safeOpenOutputStream
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.utils.startSharePlainTextIntent
-import im.vector.app.core.utils.toast
-import im.vector.app.databinding.FragmentBootstrapSaveKeyBinding
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.registerStartForActivityResult
+import dev.getzen.element.core.extensions.safeOpenOutputStream
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.core.utils.startSharePlainTextIntent
+import dev.getzen.element.core.utils.toast
+import dev.getzen.element.databinding.FragmentBootstrapSaveKeyBinding
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 

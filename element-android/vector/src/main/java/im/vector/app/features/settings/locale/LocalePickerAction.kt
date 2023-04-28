@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.locale
+package dev.getzen.element.features.settings.locale
 
-import im.vector.app.core.platform.VectorViewModelAction
+import dev.getzen.element.core.platform.VectorViewModelAction
 import java.util.Locale
 
 sealed class LocalePickerAction : VectorViewModelAction {

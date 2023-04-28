@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.session
+package dev.getzen.element.core.session
 
 import android.content.Context
 import dagger.hilt.android.qualifiers.ApplicationContext
-import im.vector.app.core.extensions.startSyncing
-import im.vector.app.core.notification.NotificationsSettingUpdater
-import im.vector.app.core.notification.PushRulesUpdater
-import im.vector.app.core.session.clientinfo.UpdateMatrixClientInfoUseCase
-import im.vector.app.features.call.webrtc.WebRtcCallManager
-import im.vector.app.features.session.coroutineScope
-import im.vector.app.features.settings.VectorPreferences
-import im.vector.app.features.settings.devices.v2.notification.UpdateNotificationSettingsAccountDataUseCase
+import dev.getzen.element.core.extensions.startSyncing
+import dev.getzen.element.core.notification.NotificationsSettingUpdater
+import dev.getzen.element.core.notification.PushRulesUpdater
+import dev.getzen.element.core.session.clientinfo.UpdateMatrixClientInfoUseCase
+import dev.getzen.element.features.call.webrtc.WebRtcCallManager
+import dev.getzen.element.features.session.coroutineScope
+import dev.getzen.element.features.settings.VectorPreferences
+import dev.getzen.element.features.settings.devices.v2.notification.UpdateNotificationSettingsAccountDataUseCase
 import kotlinx.coroutines.launch
 import org.matrix.android.sdk.api.session.Session
 import timber.log.Timber

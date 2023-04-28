@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<im.vector.app.core.platform.CheckableConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<dev.getzen.element.core.platform.CheckableConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/root"
@@ -57,7 +57,7 @@
         app:layout_constraintTop_toBottomOf="@id/name"
         tools:text="Invited by John Smith" />
 
-    <im.vector.app.features.home.room.list.UnreadCounterBadgeView
+    <dev.getzen.element.features.home.room.list.UnreadCounterBadgeView
         android:id="@+id/notification_badge"
         style="@style/Widget.Vector.TextView.Micro"
         android:layout_width="20dp"
@@ -77,4 +77,4 @@
         tools:text="!"
         tools:visibility="visible" />
 
-</im.vector.app.core.platform.CheckableConstraintLayout>
+</dev.getzen.element.core.platform.CheckableConstraintLayout>

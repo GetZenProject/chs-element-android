@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package im.vector.app.push.fcm
+package dev.getzen.element.push.fcm
 
 import com.google.firebase.messaging.FirebaseMessagingService
 import com.google.firebase.messaging.RemoteMessage
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.pushers.FcmHelper
-import im.vector.app.core.pushers.PushParser
-import im.vector.app.core.pushers.PushersManager
-import im.vector.app.core.pushers.UnifiedPushHelper
-import im.vector.app.core.pushers.VectorPushHandler
-import im.vector.app.features.settings.VectorPreferences
+import dev.getzen.element.R
+import dev.getzen.element.core.di.ActiveSessionHolder
+import dev.getzen.element.core.pushers.FcmHelper
+import dev.getzen.element.core.pushers.PushParser
+import dev.getzen.element.core.pushers.PushersManager
+import dev.getzen.element.core.pushers.UnifiedPushHelper
+import dev.getzen.element.core.pushers.VectorPushHandler
+import dev.getzen.element.features.settings.VectorPreferences
 import org.matrix.android.sdk.api.logger.LoggerTag
 import timber.log.Timber
 import javax.inject.Inject

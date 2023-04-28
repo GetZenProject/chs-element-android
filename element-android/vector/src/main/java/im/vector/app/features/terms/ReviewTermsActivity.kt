@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.terms
+package dev.getzen.element.features.terms
 
 import android.app.Activity
 import android.content.Context
@@ -21,9 +21,9 @@ import android.content.Intent
 import com.airbnb.mvrx.viewModel
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.replaceFragment
-import im.vector.app.core.platform.SimpleFragmentActivity
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.replaceFragment
+import dev.getzen.element.core.platform.SimpleFragmentActivity
 import im.vector.lib.core.utils.compat.getParcelableExtraCompat
 import org.matrix.android.sdk.api.session.terms.TermsService
 

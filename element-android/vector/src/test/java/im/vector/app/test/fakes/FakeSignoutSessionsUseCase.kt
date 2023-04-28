@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.test.fakes
+package dev.getzen.element.test.fakes
 
-import im.vector.app.features.settings.devices.v2.signout.SignoutSessionsReAuthNeeded
-import im.vector.app.features.settings.devices.v2.signout.SignoutSessionsUseCase
+import dev.getzen.element.features.settings.devices.v2.signout.SignoutSessionsReAuthNeeded
+import dev.getzen.element.features.settings.devices.v2.signout.SignoutSessionsUseCase
 import io.mockk.coEvery
 import io.mockk.every
 import io.mockk.mockk

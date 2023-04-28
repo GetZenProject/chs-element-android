@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.widgets
+package dev.getzen.element.features.widgets
 
-import im.vector.app.core.platform.VectorViewModelAction
+import dev.getzen.element.core.platform.VectorViewModelAction
 
 sealed class WidgetAction : VectorViewModelAction {
     data class OnWebViewStartedToLoad(val url: String) : WidgetAction()

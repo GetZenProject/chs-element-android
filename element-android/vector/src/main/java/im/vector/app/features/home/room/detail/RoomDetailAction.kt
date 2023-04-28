@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail
+package dev.getzen.element.features.home.room.detail
 
 import android.net.Uri
 import android.view.View
-import im.vector.app.core.platform.VectorViewModelAction
-import im.vector.app.features.call.conference.ConferenceEvent
-import im.vector.app.features.voicebroadcast.model.VoiceBroadcast
+import dev.getzen.element.core.platform.VectorViewModelAction
+import dev.getzen.element.features.call.conference.ConferenceEvent
+import dev.getzen.element.features.voicebroadcast.model.VoiceBroadcast
 import org.matrix.android.sdk.api.session.content.ContentAttachmentData
 import org.matrix.android.sdk.api.session.room.model.message.MessageStickerContent
 import org.matrix.android.sdk.api.session.room.model.message.MessageWithAttachmentContent

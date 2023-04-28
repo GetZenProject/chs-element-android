@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call
+package dev.getzen.element.features.call
 
-import im.vector.app.core.platform.VectorViewModelAction
-import im.vector.app.features.call.audio.CallAudioManager
-import im.vector.app.features.call.transfer.CallTransferResult
+import dev.getzen.element.core.platform.VectorViewModelAction
+import dev.getzen.element.features.call.audio.CallAudioManager
+import dev.getzen.element.features.call.transfer.CallTransferResult
 import org.webrtc.VideoCapturer
 
 sealed class VectorCallViewActions : VectorViewModelAction {

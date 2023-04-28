@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.test.fixtures
+package dev.getzen.element.test.fixtures
 
-import im.vector.app.features.onboarding.SelectedHomeserverState
+import dev.getzen.element.features.onboarding.SelectedHomeserverState
 
 object SelectedHomeserverStateFixture {
 

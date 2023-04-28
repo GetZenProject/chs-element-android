@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.onboarding.ftueauth
+package dev.getzen.element.features.onboarding.ftueauth
 
 import android.content.ComponentName
 import android.net.Uri
@@ -23,11 +23,11 @@ import androidx.browser.customtabs.CustomTabsServiceConnection
 import androidx.browser.customtabs.CustomTabsSession
 import androidx.viewbinding.ViewBinding
 import com.airbnb.mvrx.withState
-import im.vector.app.core.utils.openUrlInChromeCustomTab
-import im.vector.app.features.login.SSORedirectRouterActivity
-import im.vector.app.features.login.hasSso
-import im.vector.app.features.login.ssoState
-import im.vector.app.features.onboarding.OnboardingFlow
+import dev.getzen.element.core.utils.openUrlInChromeCustomTab
+import dev.getzen.element.features.login.SSORedirectRouterActivity
+import dev.getzen.element.features.login.hasSso
+import dev.getzen.element.features.login.ssoState
+import dev.getzen.element.features.onboarding.OnboardingFlow
 import org.matrix.android.sdk.api.auth.SSOAction
 
 abstract class AbstractSSOFtueAuthFragment<VB : ViewBinding> : AbstractFtueAuthFragment<VB>() {

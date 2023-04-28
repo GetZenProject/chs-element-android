@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.widgets
+package dev.getzen.element.features.widgets
 
 import android.app.Activity
 import android.app.PendingIntent
@@ -35,13 +35,13 @@ import androidx.core.view.isVisible
 import com.airbnb.mvrx.Mavericks
 import com.airbnb.mvrx.viewModel
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.addFragment
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.databinding.ActivityWidgetBinding
-import im.vector.app.features.widgets.permissions.RoomWidgetPermissionBottomSheet
-import im.vector.app.features.widgets.permissions.RoomWidgetPermissionViewEvents
-import im.vector.app.features.widgets.permissions.RoomWidgetPermissionViewModel
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.addFragment
+import dev.getzen.element.core.platform.VectorBaseActivity
+import dev.getzen.element.databinding.ActivityWidgetBinding
+import dev.getzen.element.features.widgets.permissions.RoomWidgetPermissionBottomSheet
+import dev.getzen.element.features.widgets.permissions.RoomWidgetPermissionViewEvents
+import dev.getzen.element.features.widgets.permissions.RoomWidgetPermissionViewModel
 import im.vector.lib.core.utils.compat.getParcelableCompat
 import im.vector.lib.core.utils.compat.getSerializableCompat
 import org.matrix.android.sdk.api.extensions.orFalse

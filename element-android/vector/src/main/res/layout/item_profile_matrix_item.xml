@@ -27,7 +27,7 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:src="@sample/user_round_avatars" />
 
-    <im.vector.app.core.ui.views.ShieldImageView
+    <dev.getzen.element.core.ui.views.ShieldImageView
         android:id="@+id/matrixItemAvatarDecoration"
         android:layout_width="16dp"
         android:layout_height="16dp"
@@ -37,7 +37,7 @@
         app:layout_constraintStart_toEndOf="@id/matrixItemAvatar"
         app:layout_constraintTop_toTopOf="@id/matrixItemTitle" />
 
-    <im.vector.app.core.ui.views.PresenceStateImageView
+    <dev.getzen.element.core.ui.views.PresenceStateImageView
         android:id="@+id/matrixItemPresenceImageView"
         android:layout_width="12dp"
         android:layout_height="12dp"

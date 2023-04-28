@@ -14,6 +14,6 @@
  * limitations under the License.
  */
 
-package im.vector.app.ui.robot.settings.labs
+package dev.getzen.element.ui.robot.settings.labs
 
 data class LabFeaturesPreferences(val isNewAppLayoutEnabled: Boolean)

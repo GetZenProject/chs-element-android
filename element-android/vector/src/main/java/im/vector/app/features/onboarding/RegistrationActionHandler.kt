@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.onboarding
+package dev.getzen.element.features.onboarding
 
-import im.vector.app.R
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.utils.ensureTrailingSlash
-import im.vector.app.features.VectorFeatures
-import im.vector.app.features.VectorOverrides
-import im.vector.app.features.login.isSupported
-import im.vector.app.features.onboarding.ftueauth.MatrixOrgRegistrationStagesComparator
+import dev.getzen.element.R
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.core.utils.ensureTrailingSlash
+import dev.getzen.element.features.VectorFeatures
+import dev.getzen.element.features.VectorOverrides
+import dev.getzen.element.features.login.isSupported
+import dev.getzen.element.features.onboarding.ftueauth.MatrixOrgRegistrationStagesComparator
 import kotlinx.coroutines.flow.first
 import org.matrix.android.sdk.api.auth.AuthenticationService
 import org.matrix.android.sdk.api.auth.registration.FlowResult
@@ -39,7 +39,7 @@ class RegistrationActionHandler @Inject constructor(
         stringProvider: StringProvider
 ) {
 
-    private val matrixOrgUrl = stringProvider.getString(R.string.matrix_org_server_url).ensureTrailingSlash()
+    private val matrixOrgUrl = stringProvider.getString(R.string.homeserver_url).ensureTrailingSlash()
 
     suspend fun processAction(state: SelectedHomeserverState, action: RegisterAction): Result {
         val result = registrationWizardActionDelegate.executeAction(action)

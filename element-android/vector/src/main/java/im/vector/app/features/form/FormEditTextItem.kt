@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.form
+package dev.getzen.element.features.form
 
 import android.text.Editable
 import android.text.InputFilter
@@ -26,13 +26,13 @@ import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
 import com.google.android.material.textfield.TextInputEditText
 import com.google.android.material.textfield.TextInputLayout
-import im.vector.app.R
-import im.vector.app.core.epoxy.TextListener
-import im.vector.app.core.epoxy.VectorEpoxyHolder
-import im.vector.app.core.epoxy.VectorEpoxyModel
-import im.vector.app.core.epoxy.addTextChangedListenerOnce
-import im.vector.app.core.epoxy.setValueOnce
-import im.vector.app.core.platform.SimpleTextWatcher
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.TextListener
+import dev.getzen.element.core.epoxy.VectorEpoxyHolder
+import dev.getzen.element.core.epoxy.VectorEpoxyModel
+import dev.getzen.element.core.epoxy.addTextChangedListenerOnce
+import dev.getzen.element.core.epoxy.setValueOnce
+import dev.getzen.element.core.platform.SimpleTextWatcher
 
 @EpoxyModelClass
 abstract class FormEditTextItem : VectorEpoxyModel<FormEditTextItem.Holder>(R.layout.item_form_text_input) {

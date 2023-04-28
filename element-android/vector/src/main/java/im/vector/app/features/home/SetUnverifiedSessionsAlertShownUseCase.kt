@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home
+package dev.getzen.element.features.home
 
-import im.vector.app.features.settings.VectorPreferences
+import dev.getzen.element.features.settings.VectorPreferences
 import im.vector.lib.core.utils.timer.Clock
 import javax.inject.Inject
 

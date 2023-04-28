@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.font
+package dev.getzen.element.features.settings.font
 
 import com.airbnb.mvrx.MavericksViewModelFactory
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
-import im.vector.app.core.di.MavericksAssistedViewModelFactory
-import im.vector.app.core.di.hiltMavericksViewModelFactory
-import im.vector.app.core.platform.VectorViewModel
-import im.vector.app.features.configuration.VectorConfiguration
-import im.vector.app.features.settings.FontScalePreferences
+import dev.getzen.element.core.di.MavericksAssistedViewModelFactory
+import dev.getzen.element.core.di.hiltMavericksViewModelFactory
+import dev.getzen.element.core.platform.VectorViewModel
+import dev.getzen.element.features.configuration.VectorConfiguration
+import dev.getzen.element.features.settings.FontScalePreferences
 
 class FontScaleSettingViewModel @AssistedInject constructor(
         @Assisted initialState: FontScaleSettingViewState,

@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.pin.lockscreen.crypto.migrations
+package dev.getzen.element.features.pin.lockscreen.crypto.migrations
 
 import android.os.Build
 import androidx.annotation.RequiresApi
-import im.vector.app.features.pin.lockscreen.crypto.KeyStoreCrypto
-import im.vector.app.features.pin.lockscreen.di.BiometricKeyAlias
-import im.vector.app.features.settings.VectorPreferences
+import dev.getzen.element.features.pin.lockscreen.crypto.KeyStoreCrypto
+import dev.getzen.element.features.pin.lockscreen.di.BiometricKeyAlias
+import dev.getzen.element.features.settings.VectorPreferences
 import timber.log.Timber
 import java.security.KeyStore
 import javax.inject.Inject

@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.notifications
+package dev.getzen.element.features.notifications
 
 import android.content.Context
 import androidx.annotation.WorkerThread
-import im.vector.app.features.notifications.NotificationDrawerManager.Companion.ROOM_EVENT_NOTIFICATION_ID
-import im.vector.app.features.notifications.NotificationDrawerManager.Companion.ROOM_INVITATION_NOTIFICATION_ID
-import im.vector.app.features.notifications.NotificationDrawerManager.Companion.ROOM_MESSAGES_NOTIFICATION_ID
-import im.vector.app.features.notifications.NotificationDrawerManager.Companion.SUMMARY_NOTIFICATION_ID
+import dev.getzen.element.features.notifications.NotificationDrawerManager.Companion.ROOM_EVENT_NOTIFICATION_ID
+import dev.getzen.element.features.notifications.NotificationDrawerManager.Companion.ROOM_INVITATION_NOTIFICATION_ID
+import dev.getzen.element.features.notifications.NotificationDrawerManager.Companion.ROOM_MESSAGES_NOTIFICATION_ID
+import dev.getzen.element.features.notifications.NotificationDrawerManager.Companion.SUMMARY_NOTIFICATION_ID
 import timber.log.Timber
 import javax.inject.Inject
 

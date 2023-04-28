@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.pushers
+package dev.getzen.element.core.pushers
 
-import im.vector.app.test.fakes.FakeActiveSessionHolder
-import im.vector.app.test.fakes.FakeFcmHelper
-import im.vector.app.test.fakes.FakePushersManager
-import im.vector.app.test.fakes.FakeUnifiedPushHelper
-import im.vector.app.test.fixtures.PusherFixture
+import dev.getzen.element.test.fakes.FakeActiveSessionHolder
+import dev.getzen.element.test.fakes.FakeFcmHelper
+import dev.getzen.element.test.fakes.FakePushersManager
+import dev.getzen.element.test.fakes.FakeUnifiedPushHelper
+import dev.getzen.element.test.fixtures.PusherFixture
 import org.junit.Test
 
 class EnsureFcmTokenIsRetrievedUseCaseTest {

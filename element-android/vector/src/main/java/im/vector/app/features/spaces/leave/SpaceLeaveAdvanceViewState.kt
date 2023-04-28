@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.leave
+package dev.getzen.element.features.spaces.leave
 
 import com.airbnb.mvrx.Async
 import com.airbnb.mvrx.MavericksState
 import com.airbnb.mvrx.Uninitialized
-import im.vector.app.features.spaces.SpaceBottomSheetSettingsArgs
+import dev.getzen.element.features.spaces.SpaceBottomSheetSettingsArgs
 import org.matrix.android.sdk.api.session.room.model.RoomSummary
 
 data class SpaceLeaveAdvanceViewState(

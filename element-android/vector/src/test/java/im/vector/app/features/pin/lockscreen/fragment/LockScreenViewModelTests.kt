@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.pin.lockscreen.fragment
+package dev.getzen.element.features.pin.lockscreen.fragment
 
 import android.app.KeyguardManager
 import android.os.Build
@@ -23,20 +23,20 @@ import androidx.biometric.BiometricPrompt
 import androidx.fragment.app.FragmentActivity
 import com.airbnb.mvrx.test.MavericksTestRule
 import com.airbnb.mvrx.withState
-import im.vector.app.features.pin.lockscreen.biometrics.BiometricAuthError
-import im.vector.app.features.pin.lockscreen.biometrics.BiometricHelper
-import im.vector.app.features.pin.lockscreen.configuration.LockScreenConfiguration
-import im.vector.app.features.pin.lockscreen.configuration.LockScreenMode
-import im.vector.app.features.pin.lockscreen.crypto.LockScreenKeysMigrator
-import im.vector.app.features.pin.lockscreen.pincode.PinCodeHelper
-import im.vector.app.features.pin.lockscreen.ui.AuthMethod
-import im.vector.app.features.pin.lockscreen.ui.LockScreenAction
-import im.vector.app.features.pin.lockscreen.ui.LockScreenViewEvent
-import im.vector.app.features.pin.lockscreen.ui.LockScreenViewModel
-import im.vector.app.features.pin.lockscreen.ui.LockScreenViewState
-import im.vector.app.features.pin.lockscreen.ui.PinCodeState
-import im.vector.app.test.TestBuildVersionSdkIntProvider
-import im.vector.app.test.test
+import dev.getzen.element.features.pin.lockscreen.biometrics.BiometricAuthError
+import dev.getzen.element.features.pin.lockscreen.biometrics.BiometricHelper
+import dev.getzen.element.features.pin.lockscreen.configuration.LockScreenConfiguration
+import dev.getzen.element.features.pin.lockscreen.configuration.LockScreenMode
+import dev.getzen.element.features.pin.lockscreen.crypto.LockScreenKeysMigrator
+import dev.getzen.element.features.pin.lockscreen.pincode.PinCodeHelper
+import dev.getzen.element.features.pin.lockscreen.ui.AuthMethod
+import dev.getzen.element.features.pin.lockscreen.ui.LockScreenAction
+import dev.getzen.element.features.pin.lockscreen.ui.LockScreenViewEvent
+import dev.getzen.element.features.pin.lockscreen.ui.LockScreenViewModel
+import dev.getzen.element.features.pin.lockscreen.ui.LockScreenViewState
+import dev.getzen.element.features.pin.lockscreen.ui.PinCodeState
+import dev.getzen.element.test.TestBuildVersionSdkIntProvider
+import dev.getzen.element.test.test
 import io.mockk.clearAllMocks
 import io.mockk.coEvery
 import io.mockk.coVerify

@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2
+package dev.getzen.element.features.settings.devices.v2
 
 import android.content.Context
-import im.vector.app.features.settings.devices.v2.filter.DeviceManagerFilterType
-import im.vector.app.features.settings.devices.v2.othersessions.OtherSessionsActivity
-import im.vector.app.features.settings.devices.v2.overview.SessionOverviewActivity
-import im.vector.app.features.settings.devices.v2.rename.RenameSessionActivity
+import dev.getzen.element.features.settings.devices.v2.filter.DeviceManagerFilterType
+import dev.getzen.element.features.settings.devices.v2.othersessions.OtherSessionsActivity
+import dev.getzen.element.features.settings.devices.v2.overview.SessionOverviewActivity
+import dev.getzen.element.features.settings.devices.v2.rename.RenameSessionActivity
 import javax.inject.Inject
 
 class VectorSettingsDevicesViewNavigator @Inject constructor() {

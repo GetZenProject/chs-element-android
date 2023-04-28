@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.animations
+package dev.getzen.element.core.animations
 
 import android.content.Context
 import androidx.annotation.ColorInt
 import androidx.core.content.ContextCompat
-import im.vector.app.R
+import dev.getzen.element.R
 import nl.dionsegijn.konfetti.core.Angle
 import nl.dionsegijn.konfetti.core.Party
 import nl.dionsegijn.konfetti.core.Position

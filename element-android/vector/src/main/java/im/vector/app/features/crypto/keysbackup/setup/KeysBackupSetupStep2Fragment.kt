@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.crypto.keysbackup.setup
+package dev.getzen.element.features.crypto.keysbackup.setup
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -25,11 +25,11 @@ import androidx.lifecycle.viewModelScope
 import androidx.transition.TransitionManager
 import com.nulabinc.zxcvbn.Zxcvbn
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.hidePassword
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.databinding.FragmentKeysBackupSetupStep2Binding
-import im.vector.app.features.settings.VectorLocaleProvider
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.hidePassword
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.databinding.FragmentKeysBackupSetupStep2Binding
+import dev.getzen.element.features.settings.VectorLocaleProvider
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import javax.inject.Inject

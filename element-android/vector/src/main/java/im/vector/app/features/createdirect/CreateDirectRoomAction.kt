@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.createdirect
+package dev.getzen.element.features.createdirect
 
-import im.vector.app.core.platform.VectorViewModelAction
-import im.vector.app.features.userdirectory.PendingSelection
+import dev.getzen.element.core.platform.VectorViewModelAction
+import dev.getzen.element.features.userdirectory.PendingSelection
 
 sealed class CreateDirectRoomAction : VectorViewModelAction {
     data class PrepareRoomWithSelectedUsers(

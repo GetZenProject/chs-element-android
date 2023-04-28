@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.item
+package dev.getzen.element.features.home.room.detail.timeline.item
 
 import android.annotation.SuppressLint
 import android.graphics.Typeface
@@ -28,18 +28,18 @@ import androidx.appcompat.view.ContextThemeWrapper
 import androidx.core.content.ContextCompat.getDrawable
 import androidx.core.view.isVisible
 import androidx.core.widget.TextViewCompat
-import im.vector.app.R
-import im.vector.app.core.epoxy.ClickListener
-import im.vector.app.core.epoxy.onClick
-import im.vector.app.core.extensions.getDrawableAsSpannable
-import im.vector.app.core.ui.views.ShieldImageView
-import im.vector.app.core.utils.DimensionConverter
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.home.room.detail.timeline.MessageColorProvider
-import im.vector.app.features.home.room.detail.timeline.TimelineEventController
-import im.vector.app.features.home.room.detail.timeline.view.TimelineMessageLayoutRenderer
-import im.vector.app.features.reactions.widget.ReactionButton
-import im.vector.app.features.themes.ThemeUtils
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.ClickListener
+import dev.getzen.element.core.epoxy.onClick
+import dev.getzen.element.core.extensions.getDrawableAsSpannable
+import dev.getzen.element.core.ui.views.ShieldImageView
+import dev.getzen.element.core.utils.DimensionConverter
+import dev.getzen.element.features.home.AvatarRenderer
+import dev.getzen.element.features.home.room.detail.timeline.MessageColorProvider
+import dev.getzen.element.features.home.room.detail.timeline.TimelineEventController
+import dev.getzen.element.features.home.room.detail.timeline.view.TimelineMessageLayoutRenderer
+import dev.getzen.element.features.reactions.widget.ReactionButton
+import dev.getzen.element.features.themes.ThemeUtils
 import org.matrix.android.sdk.api.session.room.send.SendState
 
 private const val MAX_REACTIONS_TO_SHOW = 8

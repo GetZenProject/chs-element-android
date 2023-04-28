@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.manage
+package dev.getzen.element.features.spaces.manage
 
 import com.airbnb.epoxy.TypedEpoxyController
-import im.vector.app.R
-import im.vector.app.core.epoxy.dividerItem
-import im.vector.app.core.epoxy.profiles.buildProfileAction
-import im.vector.app.core.epoxy.profiles.buildProfileSection
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.form.formEditTextItem
-import im.vector.app.features.form.formEditableSquareAvatarItem
-import im.vector.app.features.form.formMultiLineEditTextItem
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.roomprofile.settings.RoomSettingsViewState
-import im.vector.app.features.settings.VectorPreferences
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.dividerItem
+import dev.getzen.element.core.epoxy.profiles.buildProfileAction
+import dev.getzen.element.core.epoxy.profiles.buildProfileSection
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.features.form.formEditTextItem
+import dev.getzen.element.features.form.formEditableSquareAvatarItem
+import dev.getzen.element.features.form.formMultiLineEditTextItem
+import dev.getzen.element.features.home.AvatarRenderer
+import dev.getzen.element.features.roomprofile.settings.RoomSettingsViewState
+import dev.getzen.element.features.settings.VectorPreferences
 import org.matrix.android.sdk.api.session.room.model.RoomJoinRules
 import org.matrix.android.sdk.api.util.toMatrixItem
 import javax.inject.Inject

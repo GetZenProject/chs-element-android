@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.notifications
+package dev.getzen.element.features.settings.notifications
 
 import com.airbnb.mvrx.test.MavericksTestRule
-import im.vector.app.core.platform.VectorDummyViewState
-import im.vector.app.core.pushers.EnsureFcmTokenIsRetrievedUseCase
-import im.vector.app.core.pushers.RegisterUnifiedPushUseCase
-import im.vector.app.core.pushers.UnregisterUnifiedPushUseCase
-import im.vector.app.features.settings.VectorPreferences.Companion.SETTINGS_ENABLE_THIS_DEVICE_PREFERENCE_KEY
-import im.vector.app.features.settings.notifications.usecase.DisableNotificationsForCurrentSessionUseCase
-import im.vector.app.features.settings.notifications.usecase.EnableNotificationsForCurrentSessionUseCase
-import im.vector.app.features.settings.notifications.usecase.ToggleNotificationsForCurrentSessionUseCase
-import im.vector.app.test.fakes.FakePushersManager
-import im.vector.app.test.fakes.FakeVectorPreferences
-import im.vector.app.test.test
-import im.vector.app.test.testDispatcher
+import dev.getzen.element.core.platform.VectorDummyViewState
+import dev.getzen.element.core.pushers.EnsureFcmTokenIsRetrievedUseCase
+import dev.getzen.element.core.pushers.RegisterUnifiedPushUseCase
+import dev.getzen.element.core.pushers.UnregisterUnifiedPushUseCase
+import dev.getzen.element.features.settings.VectorPreferences.Companion.SETTINGS_ENABLE_THIS_DEVICE_PREFERENCE_KEY
+import dev.getzen.element.features.settings.notifications.usecase.DisableNotificationsForCurrentSessionUseCase
+import dev.getzen.element.features.settings.notifications.usecase.EnableNotificationsForCurrentSessionUseCase
+import dev.getzen.element.features.settings.notifications.usecase.ToggleNotificationsForCurrentSessionUseCase
+import dev.getzen.element.test.fakes.FakePushersManager
+import dev.getzen.element.test.fakes.FakeVectorPreferences
+import dev.getzen.element.test.test
+import dev.getzen.element.test.testDispatcher
 import io.mockk.coEvery
 import io.mockk.coJustRun
 import io.mockk.coVerify

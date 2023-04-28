@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.login.qr
+package dev.getzen.element.features.login.qr
 
 import android.content.Context
 import android.content.res.ColorStateList
@@ -23,9 +23,9 @@ import android.util.AttributeSet
 import android.view.LayoutInflater
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.res.use
-import im.vector.app.R
-import im.vector.app.core.extensions.setTextOrHide
-import im.vector.app.databinding.ViewQrCodeLoginHeaderBinding
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.setTextOrHide
+import dev.getzen.element.databinding.ViewQrCodeLoginHeaderBinding
 
 class QrCodeLoginHeaderView @JvmOverloads constructor(
         context: Context,

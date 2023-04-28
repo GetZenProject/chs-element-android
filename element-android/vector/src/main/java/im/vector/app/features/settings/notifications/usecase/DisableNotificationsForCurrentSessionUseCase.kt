@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.notifications.usecase
+package dev.getzen.element.features.settings.notifications.usecase
 
-import im.vector.app.core.pushers.PushersManager
-import im.vector.app.core.pushers.UnregisterUnifiedPushUseCase
+import dev.getzen.element.core.pushers.PushersManager
+import dev.getzen.element.core.pushers.UnregisterUnifiedPushUseCase
 import javax.inject.Inject
 
 class DisableNotificationsForCurrentSessionUseCase @Inject constructor(

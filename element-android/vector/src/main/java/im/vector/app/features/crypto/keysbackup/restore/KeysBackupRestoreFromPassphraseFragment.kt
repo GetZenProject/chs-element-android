@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.crypto.keysbackup.restore
+package dev.getzen.element.features.crypto.keysbackup.restore
 
 import android.os.Bundle
 import android.text.SpannableString
@@ -25,9 +25,9 @@ import android.view.inputmethod.EditorInfo
 import androidx.core.text.set
 import androidx.core.widget.doOnTextChanged
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.databinding.FragmentKeysBackupRestoreFromPassphraseBinding
+import dev.getzen.element.R
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.databinding.FragmentKeysBackupRestoreFromPassphraseBinding
 
 @AndroidEntryPoint
 class KeysBackupRestoreFromPassphraseFragment :

@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home
+package dev.getzen.element.features.home
 
 import com.airbnb.mvrx.test.MavericksTestRule
-import im.vector.app.features.home.room.list.UnreadCounterBadgeView
-import im.vector.app.test.test
+import dev.getzen.element.features.home.room.list.UnreadCounterBadgeView
+import dev.getzen.element.test.test
 import io.mockk.every
 import io.mockk.mockk
 import io.mockk.verify

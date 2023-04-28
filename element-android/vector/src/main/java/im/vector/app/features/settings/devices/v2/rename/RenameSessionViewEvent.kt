@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2.rename
+package dev.getzen.element.features.settings.devices.v2.rename
 
-import im.vector.app.core.platform.VectorViewEvents
+import dev.getzen.element.core.platform.VectorViewEvents
 
 sealed class RenameSessionViewEvent : VectorViewEvents {
     data class Initialized(val deviceName: String) : RenameSessionViewEvent()

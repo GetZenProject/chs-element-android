@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.onboarding.ftueauth
+package dev.getzen.element.features.onboarding.ftueauth
 
 import android.os.Bundle
 import android.os.Parcelable
@@ -25,13 +25,13 @@ import android.view.ViewStub
 import com.airbnb.mvrx.args
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.crawlCausesFor
-import im.vector.app.databinding.FragmentFtueLoginCaptchaBinding
-import im.vector.app.databinding.ViewStubWebviewBinding
-import im.vector.app.features.onboarding.OnboardingAction
-import im.vector.app.features.onboarding.OnboardingViewState
-import im.vector.app.features.onboarding.RegisterAction
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.crawlCausesFor
+import dev.getzen.element.databinding.FragmentFtueLoginCaptchaBinding
+import dev.getzen.element.databinding.ViewStubWebviewBinding
+import dev.getzen.element.features.onboarding.OnboardingAction
+import dev.getzen.element.features.onboarding.OnboardingViewState
+import dev.getzen.element.features.onboarding.RegisterAction
 import kotlinx.parcelize.Parcelize
 import org.matrix.android.sdk.api.extensions.orFalse
 import javax.inject.Inject

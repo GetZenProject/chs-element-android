@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.location.live
+package dev.getzen.element.features.location.live
 
 import android.content.Context
 import android.content.res.TypedArray
@@ -23,8 +23,8 @@ import android.view.LayoutInflater
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.res.use
 import androidx.core.view.updateLayoutParams
-import im.vector.app.R
-import im.vector.app.databinding.ViewLiveLocationEndedBannerBinding
+import dev.getzen.element.R
+import dev.getzen.element.databinding.ViewLiveLocationEndedBannerBinding
 
 private const val BACKGROUND_ALPHA = 0.75f
 

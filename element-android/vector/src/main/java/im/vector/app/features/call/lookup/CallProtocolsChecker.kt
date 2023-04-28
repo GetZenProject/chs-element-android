@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call.lookup
+package dev.getzen.element.features.call.lookup
 
-import im.vector.app.features.session.coroutineScope
+import dev.getzen.element.features.session.coroutineScope
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import org.matrix.android.sdk.api.extensions.tryOrNull

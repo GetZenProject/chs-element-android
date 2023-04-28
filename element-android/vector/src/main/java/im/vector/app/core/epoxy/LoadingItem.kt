@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.epoxy
+package dev.getzen.element.core.epoxy
 
 import android.widget.ProgressBar
 import android.widget.TextView
 import androidx.core.view.isVisible
 import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
-import im.vector.app.R
-import im.vector.app.core.extensions.setTextOrHide
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.setTextOrHide
 
 @EpoxyModelClass
 abstract class LoadingItem : VectorEpoxyModel<LoadingItem.Holder>(R.layout.item_loading) {

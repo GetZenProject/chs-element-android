@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home
+package dev.getzen.element.features.home
 
-import im.vector.app.core.platform.VectorSharedActionViewModel
+import dev.getzen.element.core.platform.VectorSharedActionViewModel
 import org.matrix.android.sdk.api.session.Session
 import javax.inject.Inject
 

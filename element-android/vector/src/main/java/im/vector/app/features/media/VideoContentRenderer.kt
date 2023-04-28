@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.media
+package dev.getzen.element.features.media
 
 import android.widget.ImageView
 import android.widget.ProgressBar
 import android.widget.TextView
 import android.widget.VideoView
 import androidx.core.view.isVisible
-import im.vector.app.R
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.error.ErrorFormatter
-import im.vector.app.core.files.LocalFilesHelper
-import im.vector.app.features.session.coroutineScope
+import dev.getzen.element.R
+import dev.getzen.element.core.di.ActiveSessionHolder
+import dev.getzen.element.core.error.ErrorFormatter
+import dev.getzen.element.core.files.LocalFilesHelper
+import dev.getzen.element.features.session.coroutineScope
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

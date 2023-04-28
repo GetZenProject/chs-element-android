@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.pin.lockscreen.views
+package dev.getzen.element.features.pin.lockscreen.views
 
 import androidx.test.platform.app.InstrumentationRegistry
 import org.amshove.kluent.shouldBeEqualTo

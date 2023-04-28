@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.qrcode
+package dev.getzen.element.features.qrcode
 
 import android.app.Activity
 import android.content.Intent
@@ -23,10 +23,10 @@ import android.widget.Toast
 import androidx.activity.result.ActivityResultLauncher
 import com.airbnb.mvrx.viewModel
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.replaceFragment
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.databinding.ActivitySimpleBinding
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.replaceFragment
+import dev.getzen.element.core.platform.VectorBaseActivity
+import dev.getzen.element.databinding.ActivitySimpleBinding
 
 @AndroidEntryPoint
 class QrCodeScannerActivity : VectorBaseActivity<ActivitySimpleBinding>() {

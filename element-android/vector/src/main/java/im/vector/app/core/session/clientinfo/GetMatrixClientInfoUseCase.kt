@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.session.clientinfo
+package dev.getzen.element.core.session.clientinfo
 
 import org.matrix.android.sdk.api.session.Session
 import org.matrix.android.sdk.api.session.events.model.toModel

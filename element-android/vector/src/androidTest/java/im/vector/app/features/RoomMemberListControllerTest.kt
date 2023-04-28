@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features
+package dev.getzen.element.features
 
 import com.airbnb.mvrx.Success
-import im.vector.app.core.epoxy.profiles.ProfileMatrixItemWithPowerLevelWithPresence
-import im.vector.app.features.roomprofile.members.RoomMemberListCategories
-import im.vector.app.features.roomprofile.members.RoomMemberListController
-import im.vector.app.features.roomprofile.members.RoomMemberListViewState
+import dev.getzen.element.core.epoxy.profiles.ProfileMatrixItemWithPowerLevelWithPresence
+import dev.getzen.element.features.roomprofile.members.RoomMemberListCategories
+import dev.getzen.element.features.roomprofile.members.RoomMemberListController
+import dev.getzen.element.features.roomprofile.members.RoomMemberListViewState
 import io.mockk.every
 import io.mockk.mockk
 import kotlinx.coroutines.test.runTest

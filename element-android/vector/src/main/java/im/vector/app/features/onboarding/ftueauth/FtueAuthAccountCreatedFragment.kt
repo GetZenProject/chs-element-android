@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.onboarding.ftueauth
+package dev.getzen.element.features.onboarding.ftueauth
 
 import android.graphics.Typeface
 import android.os.Bundle
@@ -24,14 +24,14 @@ import android.view.ViewGroup
 import androidx.core.text.toSpannable
 import androidx.core.view.isVisible
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.animations.play
-import im.vector.app.core.utils.isAnimationEnabled
-import im.vector.app.core.utils.styleMatchingText
-import im.vector.app.databinding.FragmentFtueAccountCreatedBinding
-import im.vector.app.features.onboarding.OnboardingAction
-import im.vector.app.features.onboarding.OnboardingViewEvents
-import im.vector.app.features.onboarding.OnboardingViewState
+import dev.getzen.element.R
+import dev.getzen.element.core.animations.play
+import dev.getzen.element.core.utils.isAnimationEnabled
+import dev.getzen.element.core.utils.styleMatchingText
+import dev.getzen.element.databinding.FragmentFtueAccountCreatedBinding
+import dev.getzen.element.features.onboarding.OnboardingAction
+import dev.getzen.element.features.onboarding.OnboardingViewEvents
+import dev.getzen.element.features.onboarding.OnboardingViewState
 
 @AndroidEntryPoint
 class FtueAuthAccountCreatedFragment :

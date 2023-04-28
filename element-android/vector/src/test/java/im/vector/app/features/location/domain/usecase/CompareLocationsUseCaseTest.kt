@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.location.domain.usecase
+package dev.getzen.element.features.location.domain.usecase
 
-import im.vector.app.features.location.LocationData
-import im.vector.app.test.fakes.FakeSession
+import dev.getzen.element.features.location.LocationData
+import dev.getzen.element.test.fakes.FakeSession
 import io.mockk.MockKAnnotations
 import io.mockk.impl.annotations.OverrideMockKs
 import kotlinx.coroutines.test.runTest

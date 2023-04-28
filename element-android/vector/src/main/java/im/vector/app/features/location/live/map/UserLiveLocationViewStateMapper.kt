@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.location.live.map
+package dev.getzen.element.features.location.live.map
 
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.features.home.room.detail.timeline.helper.LocationPinProvider
-import im.vector.app.features.location.toLocationData
+import dev.getzen.element.core.di.ActiveSessionHolder
+import dev.getzen.element.features.home.room.detail.timeline.helper.LocationPinProvider
+import dev.getzen.element.features.location.toLocationData
 import kotlinx.coroutines.suspendCancellableCoroutine
 import org.matrix.android.sdk.api.session.getUserOrDefault
 import org.matrix.android.sdk.api.session.room.model.livelocation.LiveLocationShareAggregatedSummary

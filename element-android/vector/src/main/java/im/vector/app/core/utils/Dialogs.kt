@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.utils
+package dev.getzen.element.core.utils
 
 import android.content.Context
 import android.text.method.LinkMovementMethod
@@ -22,8 +22,8 @@ import android.webkit.WebView
 import android.webkit.WebViewClient
 import android.widget.TextView
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.features.discovery.ServerAndPolicies
+import dev.getzen.element.R
+import dev.getzen.element.features.discovery.ServerAndPolicies
 import me.gujun.android.span.link
 import me.gujun.android.span.span
 

@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.home.room.detail
+package dev.getzen.element.features.home.room.detail
 
-import im.vector.app.core.platform.VectorSharedActionViewModel
+import dev.getzen.element.core.platform.VectorSharedActionViewModel
 import javax.inject.Inject
 
 /**

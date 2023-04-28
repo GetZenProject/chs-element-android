@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.explore
+package dev.getzen.element.features.spaces.explore
 
-import im.vector.app.core.platform.VectorViewModelAction
+import dev.getzen.element.core.platform.VectorViewModelAction
 import org.matrix.android.sdk.api.session.room.model.SpaceChildInfo
 
 sealed class SpaceDirectoryViewAction : VectorViewModelAction {

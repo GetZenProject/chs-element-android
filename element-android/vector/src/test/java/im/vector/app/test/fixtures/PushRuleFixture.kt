@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.test.fixtures
+package dev.getzen.element.test.fixtures
 
 import io.mockk.every
 import io.mockk.mockk

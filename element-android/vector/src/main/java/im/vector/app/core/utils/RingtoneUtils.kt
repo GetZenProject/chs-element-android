@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.utils
+package dev.getzen.element.core.utils
 
 import android.content.Context
 import android.content.SharedPreferences
@@ -22,8 +22,8 @@ import android.media.Ringtone
 import android.media.RingtoneManager
 import android.net.Uri
 import androidx.core.content.edit
-import im.vector.app.core.di.DefaultPreferences
-import im.vector.app.features.settings.VectorPreferences
+import dev.getzen.element.core.di.DefaultPreferences
+import dev.getzen.element.features.settings.VectorPreferences
 import javax.inject.Inject
 
 /**

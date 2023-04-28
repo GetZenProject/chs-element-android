@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.debug.analytics
+package dev.getzen.element.features.debug.analytics
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -22,10 +22,10 @@ import android.view.View
 import android.view.ViewGroup
 import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
-import im.vector.app.core.epoxy.onClick
-import im.vector.app.core.extensions.toOnOff
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.application.databinding.FragmentDebugAnalyticsBinding
+import dev.getzen.element.core.epoxy.onClick
+import dev.getzen.element.core.extensions.toOnOff
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.elementlication.databinding.FragmentDebugAnalyticsBinding
 import me.gujun.android.span.span
 
 class DebugAnalyticsFragment : VectorBaseFragment<FragmentDebugAnalyticsBinding>() {

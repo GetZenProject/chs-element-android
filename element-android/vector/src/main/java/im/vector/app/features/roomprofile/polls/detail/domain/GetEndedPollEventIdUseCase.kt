@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.polls.detail.domain
+package dev.getzen.element.features.roomprofile.polls.detail.domain
 
-import im.vector.app.core.di.ActiveSessionHolder
+import dev.getzen.element.core.di.ActiveSessionHolder
 import org.matrix.android.sdk.api.session.events.model.RelationType
 import org.matrix.android.sdk.api.session.events.model.isPollEnd
 import timber.log.Timber

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.location.option
+package dev.getzen.element.features.location.option
 
 enum class LocationSharingOption {
     /**

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2
+package dev.getzen.element.features.settings.devices.v2
 
 import android.content.Context
 import android.content.res.TypedArray
@@ -22,9 +22,9 @@ import android.util.AttributeSet
 import android.view.LayoutInflater
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.res.use
-import im.vector.app.R
-import im.vector.app.core.extensions.setTextWithColoredPart
-import im.vector.app.databinding.ViewSessionWarningInfoBinding
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.setTextWithColoredPart
+import dev.getzen.element.databinding.ViewSessionWarningInfoBinding
 
 class SessionWarningInfoView @JvmOverloads constructor(
         context: Context,

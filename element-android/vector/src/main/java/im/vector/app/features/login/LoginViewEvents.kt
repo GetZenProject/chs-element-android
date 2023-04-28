@@ -15,9 +15,9 @@
  *
  */
 
-package im.vector.app.features.login
+package dev.getzen.element.features.login
 
-import im.vector.app.core.platform.VectorViewEvents
+import dev.getzen.element.core.platform.VectorViewEvents
 import org.matrix.android.sdk.api.auth.registration.FlowResult
 
 /**

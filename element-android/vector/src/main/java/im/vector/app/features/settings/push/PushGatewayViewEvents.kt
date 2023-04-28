@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.push
+package dev.getzen.element.features.settings.push
 
-import im.vector.app.core.platform.VectorViewEvents
+import dev.getzen.element.core.platform.VectorViewEvents
 
 sealed class PushGatewayViewEvents : VectorViewEvents {
     data class RemovePusherFailed(val cause: Throwable) : PushGatewayViewEvents()

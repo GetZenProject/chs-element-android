@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.uploads
+package dev.getzen.element.features.roomprofile.uploads
 
-import im.vector.app.core.platform.VectorViewEvents
+import dev.getzen.element.core.platform.VectorViewEvents
 import java.io.File
 
 sealed class RoomUploadsViewEvents : VectorViewEvents {

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.leave
+package dev.getzen.element.features.spaces.leave
 
 import androidx.core.util.Predicate
 import com.airbnb.epoxy.TypedEpoxyController
@@ -22,12 +22,12 @@ import com.airbnb.mvrx.Fail
 import com.airbnb.mvrx.Loading
 import com.airbnb.mvrx.Success
 import com.airbnb.mvrx.Uninitialized
-import im.vector.app.R
-import im.vector.app.core.epoxy.loadingItem
-import im.vector.app.core.epoxy.noResultItem
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.spaces.manage.roomSelectionItem
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.loadingItem
+import dev.getzen.element.core.epoxy.noResultItem
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.features.home.AvatarRenderer
+import dev.getzen.element.features.spaces.manage.roomSelectionItem
 import org.matrix.android.sdk.api.extensions.orFalse
 import org.matrix.android.sdk.api.session.room.model.RoomSummary
 import org.matrix.android.sdk.api.util.toMatrixItem

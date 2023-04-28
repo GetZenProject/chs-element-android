@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.reactions
+package dev.getzen.element.features.reactions
 
 import android.app.Activity
 import android.content.Context
@@ -28,13 +28,13 @@ import androidx.lifecycle.lifecycleScope
 import com.airbnb.mvrx.viewModel
 import com.google.android.material.tabs.TabLayout
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.EmojiCompatFontProvider
-import im.vector.app.R
-import im.vector.app.core.extensions.observeEvent
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.core.platform.VectorMenuProvider
-import im.vector.app.databinding.ActivityEmojiReactionPickerBinding
-import im.vector.app.features.reactions.data.EmojiDataSource
+import dev.getzen.element.EmojiCompatFontProvider
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.observeEvent
+import dev.getzen.element.core.platform.VectorBaseActivity
+import dev.getzen.element.core.platform.VectorMenuProvider
+import dev.getzen.element.databinding.ActivityEmojiReactionPickerBinding
+import dev.getzen.element.features.reactions.data.EmojiDataSource
 import im.vector.lib.core.utils.flow.throttleFirst
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach

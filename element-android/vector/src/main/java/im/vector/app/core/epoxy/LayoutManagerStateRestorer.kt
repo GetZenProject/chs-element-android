@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.epoxy
+package dev.getzen.element.core.epoxy
 
 import android.os.Bundle
 import android.os.Parcelable
 import androidx.recyclerview.widget.RecyclerView
-import im.vector.app.core.platform.DefaultListUpdateCallback
-import im.vector.app.core.platform.Restorable
+import dev.getzen.element.core.platform.DefaultListUpdateCallback
+import dev.getzen.element.core.platform.Restorable
 import im.vector.lib.core.utils.compat.getParcelableCompat
 import java.util.concurrent.atomic.AtomicReference
 

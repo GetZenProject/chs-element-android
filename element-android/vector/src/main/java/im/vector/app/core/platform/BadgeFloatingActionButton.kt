@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.platform
+package dev.getzen.element.core.platform
 
 import android.content.Context
 import android.graphics.Canvas
@@ -28,7 +28,7 @@ import android.text.TextPaint
 import android.util.AttributeSet
 import androidx.core.content.res.use
 import com.google.android.material.floatingactionbutton.FloatingActionButton
-import im.vector.app.R
+import dev.getzen.element.R
 import kotlin.math.PI
 import kotlin.math.cos
 import kotlin.math.max

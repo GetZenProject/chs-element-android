@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.test
+package dev.getzen.element.test
 
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Job

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.epoxy
+package dev.getzen.element.core.epoxy
 
 import android.util.TypedValue
 import android.widget.CompoundButton
@@ -22,8 +22,8 @@ import android.widget.RadioButton
 import android.widget.TextView
 import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
-import im.vector.app.R
-import im.vector.app.features.settings.FontScaleValue
+import dev.getzen.element.R
+import dev.getzen.element.features.settings.FontScaleValue
 
 @EpoxyModelClass
 abstract class FontScaleItem : VectorEpoxyModel<FontScaleItem.Holder>(R.layout.item_font_scale) {

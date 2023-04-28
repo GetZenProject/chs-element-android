@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.style
+package dev.getzen.element.features.home.room.detail.timeline.style
 
 import com.bumptech.glide.load.resource.bitmap.GranularRoundedCorners
 import com.google.android.material.shape.CornerFamily

@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.location.live.map
+package dev.getzen.element.features.location.live.map
 
 import com.airbnb.epoxy.EpoxyController
-import im.vector.app.R
-import im.vector.app.core.date.DateFormatKind
-import im.vector.app.core.date.VectorDateFormatter
-import im.vector.app.core.resources.DateProvider
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.resources.toTimestamp
-import im.vector.app.features.home.AvatarRenderer
+import dev.getzen.element.R
+import dev.getzen.element.core.date.DateFormatKind
+import dev.getzen.element.core.date.VectorDateFormatter
+import dev.getzen.element.core.resources.DateProvider
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.core.resources.toTimestamp
+import dev.getzen.element.features.home.AvatarRenderer
 import im.vector.lib.core.utils.timer.Clock
 import javax.inject.Inject
 

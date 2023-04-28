@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.create
+package dev.getzen.element.features.spaces.create
 
-import im.vector.app.core.platform.VectorViewEvents
+import dev.getzen.element.core.platform.VectorViewEvents
 
 sealed class CreateSpaceEvents : VectorViewEvents {
     object NavigateToDetails : CreateSpaceEvents()

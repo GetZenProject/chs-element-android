@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.matrixto
+package dev.getzen.element.features.matrixto
 
-import im.vector.app.core.platform.VectorViewEvents
+import dev.getzen.element.core.platform.VectorViewEvents
 
 sealed class MatrixToViewEvents : VectorViewEvents {
     data class NavigateToRoom(val roomId: String) : MatrixToViewEvents()

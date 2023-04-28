@@ -14,7 +14,7 @@
  * limitations under the License.
  *
  */
-package im.vector.app.features.roommemberprofile.devices
+package dev.getzen.element.features.roommemberprofile.devices
 
 import android.content.DialogInterface
 import android.os.Bundle
@@ -27,11 +27,11 @@ import androidx.fragment.app.Fragment
 import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.commitTransaction
-import im.vector.app.core.platform.VectorBaseBottomSheetDialogFragment
-import im.vector.app.databinding.BottomSheetWithFragmentsBinding
-import im.vector.app.features.crypto.verification.VerificationBottomSheet
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.commitTransaction
+import dev.getzen.element.core.platform.VectorBaseBottomSheetDialogFragment
+import dev.getzen.element.databinding.BottomSheetWithFragmentsBinding
+import dev.getzen.element.features.crypto.verification.VerificationBottomSheet
 import kotlinx.parcelize.Parcelize
 import kotlin.reflect.KClass
 

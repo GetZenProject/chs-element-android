@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.crypto.recover
+package dev.getzen.element.features.crypto.recover
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -24,11 +24,11 @@ import androidx.core.text.toSpannable
 import com.airbnb.mvrx.parentFragmentViewModel
 import com.airbnb.mvrx.withState
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.utils.colorizeMatchingText
-import im.vector.app.databinding.FragmentBootstrapConclusionBinding
+import dev.getzen.element.R
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.core.resources.ColorProvider
+import dev.getzen.element.core.utils.colorizeMatchingText
+import dev.getzen.element.databinding.FragmentBootstrapConclusionBinding
 import javax.inject.Inject
 
 @AndroidEntryPoint

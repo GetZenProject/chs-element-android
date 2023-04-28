@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.explore
+package dev.getzen.element.features.spaces.explore
 
 import android.view.View
 import com.airbnb.epoxy.TypedEpoxyController
@@ -22,20 +22,20 @@ import com.airbnb.epoxy.VisibilityState
 import com.airbnb.mvrx.Fail
 import com.airbnb.mvrx.Incomplete
 import com.airbnb.mvrx.Uninitialized
-import im.vector.app.R
-import im.vector.app.core.epoxy.ClickListener
-import im.vector.app.core.epoxy.errorWithRetryItem
-import im.vector.app.core.epoxy.loadingItem
-import im.vector.app.core.error.ErrorFormatter
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.ui.list.Action
-import im.vector.app.core.ui.list.genericEmptyWithActionItem
-import im.vector.app.core.ui.list.genericPillItem
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.home.room.list.spaceChildInfoItem
-import im.vector.app.features.home.room.list.spaceDirectoryFilterNoResultsItem
-import im.vector.app.features.spaces.manage.SpaceChildInfoMatchFilter
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.ClickListener
+import dev.getzen.element.core.epoxy.errorWithRetryItem
+import dev.getzen.element.core.epoxy.loadingItem
+import dev.getzen.element.core.error.ErrorFormatter
+import dev.getzen.element.core.resources.ColorProvider
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.core.ui.list.Action
+import dev.getzen.element.core.ui.list.genericEmptyWithActionItem
+import dev.getzen.element.core.ui.list.genericPillItem
+import dev.getzen.element.features.home.AvatarRenderer
+import dev.getzen.element.features.home.room.list.spaceChildInfoItem
+import dev.getzen.element.features.home.room.list.spaceDirectoryFilterNoResultsItem
+import dev.getzen.element.features.spaces.manage.SpaceChildInfoMatchFilter
 import im.vector.lib.core.utils.epoxy.charsequence.toEpoxyCharSequence
 import me.gujun.android.span.span
 import org.matrix.android.sdk.api.extensions.orFalse

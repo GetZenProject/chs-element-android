@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.permissions
+package dev.getzen.element.features.roomprofile.permissions
 
-import im.vector.app.R
-import im.vector.app.core.resources.StringProvider
+import dev.getzen.element.R
+import dev.getzen.element.core.resources.StringProvider
 import org.matrix.android.sdk.api.session.room.powerlevels.Role
 import javax.inject.Inject
 

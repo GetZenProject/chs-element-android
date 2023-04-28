@@ -13,16 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.crypto.keysbackup.restore
+package dev.getzen.element.features.crypto.keysbackup.restore
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import im.vector.app.R
-import im.vector.app.core.platform.WaitingViewData
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.utils.LiveEvent
+import dev.getzen.element.R
+import dev.getzen.element.core.platform.WaitingViewData
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.core.utils.LiveEvent
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import org.matrix.android.sdk.api.Matrix

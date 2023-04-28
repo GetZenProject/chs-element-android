@@ -11,8 +11,8 @@ Element Android is an Android Matrix Client provided by [Element](https://elemen
 
 It is a total rewrite of [Riot-Android](https://github.com/vector-im/riot-android) with a new user experience.
 
-[<img src="resources/img/google-play-badge.png" alt="Get it on Google Play" height="60">](https://play.google.com/store/apps/details?id=im.vector.app)
-[<img src="resources/img/f-droid-badge.png" alt="Get it on F-Droid" height="60">](https://f-droid.org/app/im.vector.app)
+[<img src="resources/img/google-play-badge.png" alt="Get it on Google Play" height="60">](https://play.google.com/store/apps/details?id=dev.getzen.element)
+[<img src="resources/img/f-droid-badge.png" alt="Get it on F-Droid" height="60">](https://f-droid.org/app/dev.getzen.element)
 
 Build of develop branch: [![GitHub Action](https://github.com/vector-im/element-android/actions/workflows/build.yml/badge.svg?query=branch%3Adevelop)](https://github.com/vector-im/element-android/actions/workflows/build.yml?query=branch%3Adevelop) Nightly test status: [![allScreensTest](https://github.com/vector-im/element-android/actions/workflows/nightly.yml/badge.svg)](https://github.com/vector-im/element-android/actions/workflows/nightly.yml)
 
@@ -38,7 +38,7 @@ There is some delay between when a release is created and when it appears in the
 
 If you would like to receive releases more quickly (bearing in mind that they may not be stable) you have a number of options:
 
-1. [Sign up to receive beta releases](https://play.google.com/apps/testing/im.vector.app) via the Google Play Store.
+1. [Sign up to receive beta releases](https://play.google.com/apps/testing/dev.getzen.element) via the Google Play Store.
 2. Install a [release APK](https://github.com/vector-im/element-android/releases) directly - download the relevant .apk file and allow installing from untrusted sources in your device settings.  Note: these releases are the Google Play version, which depend on some Google services.  If you prefer to avoid that, try the latest dev builds, and choose the F-Droid version.
 3. If you're really brave, install the [very latest dev build](https://github.com/vector-im/element-android/actions/workflows/build.yml?query=branch%3Adevelop) - pick a build, then click on `Summary` to download the APKs from there: `vector-Fdroid-debug` and `vector-Gplay-debug` contains the APK for the desired store. Each file contains 5 APKs. 4 APKs for every supported specific architecture of device. In doubt you can install the `universal` APK.
 

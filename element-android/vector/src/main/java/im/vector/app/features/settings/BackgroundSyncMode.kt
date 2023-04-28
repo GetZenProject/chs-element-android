@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings
+package dev.getzen.element.features.settings
 
 /**
  * Different strategies for Background sync, only applicable to F-Droid version of the app.

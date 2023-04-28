@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.session.clientinfo
+package dev.getzen.element.core.session.clientinfo
 
-import im.vector.app.core.di.ActiveSessionHolder
+import dev.getzen.element.core.di.ActiveSessionHolder
 import org.matrix.android.sdk.api.session.crypto.model.DeviceInfo
 import javax.inject.Inject
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.raw.wellknown
+package dev.getzen.element.features.raw.wellknown
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
@@ -68,7 +68,7 @@ data class E2EWellKnownConfig(
         val secureBackupSetupMethods: List<String>? = null,
 
         /**
-         * Configuration for sharing keys strategy which should be used instead of [im.vector.app.config.Config.KEY_SHARING_STRATEGY].
+         * Configuration for sharing keys strategy which should be used instead of [dev.getzen.element.config.Config.KEY_SHARING_STRATEGY].
          * One of on_room_opening, on_typing or disabled.
          */
         @Json(name = "outbound_keys_pre_sharing_mode")

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.test.fakes
+package dev.getzen.element.test.fakes
 
-import im.vector.app.core.notification.NotificationsSettingUpdater
+import dev.getzen.element.core.notification.NotificationsSettingUpdater
 import io.mockk.justRun
 import io.mockk.mockk
 import org.matrix.android.sdk.api.session.Session

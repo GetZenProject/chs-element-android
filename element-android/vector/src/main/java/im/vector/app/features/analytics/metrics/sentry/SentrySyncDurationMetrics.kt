@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.analytics.metrics.sentry
+package dev.getzen.element.features.analytics.metrics.sentry
 
 import io.sentry.ISpan
 import io.sentry.ITransaction

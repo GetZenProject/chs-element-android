@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.extensions
+package dev.getzen.element.core.extensions
 
 import android.app.Activity
 import android.content.Intent
@@ -23,8 +23,8 @@ import androidx.activity.result.ActivityResult
 import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.fragment.app.Fragment
-import im.vector.app.R
-import im.vector.app.core.utils.selectTxtFileToWrite
+import dev.getzen.element.R
+import dev.getzen.element.core.utils.selectTxtFileToWrite
 import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale

@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.di
+package dev.getzen.element.core.di
 
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
-import im.vector.app.features.DefaultVectorFeatures
-import im.vector.app.features.DefaultVectorOverrides
-import im.vector.app.features.VectorFeatures
-import im.vector.app.features.VectorOverrides
+import dev.getzen.element.features.DefaultVectorFeatures
+import dev.getzen.element.features.DefaultVectorOverrides
+import dev.getzen.element.features.VectorFeatures
+import dev.getzen.element.features.VectorOverrides
 
 @InstallIn(SingletonComponent::class)
 @Module

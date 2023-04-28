@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.ui.views
+package dev.getzen.element.core.ui.views
 
 import android.content.Context
 import android.content.res.ColorStateList
 import android.util.AttributeSet
 import androidx.appcompat.widget.AppCompatImageView
 import androidx.core.view.isInvisible
-import im.vector.app.R
-import im.vector.app.features.home.room.detail.timeline.item.SendStateDecoration
-import im.vector.app.features.themes.ThemeUtils
+import dev.getzen.element.R
+import dev.getzen.element.features.home.room.detail.timeline.item.SendStateDecoration
+import dev.getzen.element.features.themes.ThemeUtils
 
 class SendStateImageView @JvmOverloads constructor(
         context: Context,

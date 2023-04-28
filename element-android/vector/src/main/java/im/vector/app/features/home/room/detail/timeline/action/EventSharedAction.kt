@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.action
+package dev.getzen.element.features.home.room.detail.timeline.action
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
-import im.vector.app.R
-import im.vector.app.core.platform.VectorSharedAction
-import im.vector.app.features.home.room.detail.timeline.item.MessageInformationData
+import dev.getzen.element.R
+import dev.getzen.element.core.platform.VectorSharedAction
+import dev.getzen.element.features.home.room.detail.timeline.item.MessageInformationData
 import org.matrix.android.sdk.api.session.room.model.message.MessageContent
 import org.matrix.android.sdk.api.session.room.model.message.MessageWithAttachmentContent
 

@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.notifications.other
+package dev.getzen.element.features.settings.notifications.other
 
-import im.vector.app.R
-import im.vector.app.core.preference.VectorPreferenceCategory
-import im.vector.app.features.settings.notifications.VectorSettingsPushRuleNotificationFragment
+import dev.getzen.element.R
+import dev.getzen.element.core.preference.VectorPreferenceCategory
+import dev.getzen.element.features.settings.notifications.VectorSettingsPushRuleNotificationFragment
 import org.matrix.android.sdk.api.session.pushrules.RuleIds
 
 class VectorSettingsOtherNotificationFragment :

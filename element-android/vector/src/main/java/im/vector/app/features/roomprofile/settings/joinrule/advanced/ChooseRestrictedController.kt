@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.settings.joinrule.advanced
+package dev.getzen.element.features.roomprofile.settings.joinrule.advanced
 
 import com.airbnb.epoxy.TypedEpoxyController
 import com.airbnb.mvrx.Fail
 import com.airbnb.mvrx.Loading
 import com.airbnb.mvrx.Success
 import com.airbnb.mvrx.Uninitialized
-import im.vector.app.R
-import im.vector.app.core.epoxy.loadingItem
-import im.vector.app.core.epoxy.noResultItem
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.ui.list.genericFooterItem
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.spaces.manage.roomSelectionItem
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.loadingItem
+import dev.getzen.element.core.epoxy.noResultItem
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.core.ui.list.genericFooterItem
+import dev.getzen.element.features.home.AvatarRenderer
+import dev.getzen.element.features.spaces.manage.roomSelectionItem
 import im.vector.lib.core.utils.epoxy.charsequence.toEpoxyCharSequence
 import org.matrix.android.sdk.api.util.MatrixItem
 import javax.inject.Inject

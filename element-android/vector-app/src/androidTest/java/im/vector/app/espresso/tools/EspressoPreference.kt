@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.espresso.tools
+package dev.getzen.element.espresso.tools
 
 import android.widget.Switch
 import androidx.annotation.StringRes
@@ -30,7 +30,7 @@ import androidx.test.espresso.matcher.ViewMatchers.isFocusable
 import androidx.test.espresso.matcher.ViewMatchers.withClassName
 import androidx.test.espresso.matcher.ViewMatchers.withId
 import androidx.test.espresso.matcher.ViewMatchers.withText
-import im.vector.app.R
+import dev.getzen.element.R
 import org.hamcrest.Matchers.allOf
 import org.hamcrest.Matchers.instanceOf
 import org.hamcrest.Matchers.`is`

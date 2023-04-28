@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.alias.detail
+package dev.getzen.element.features.roomprofile.alias.detail
 
 import com.airbnb.mvrx.MavericksState
 

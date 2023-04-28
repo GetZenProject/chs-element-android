@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.filtered
+package dev.getzen.element.features.home.room.filtered
 
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.widget.SearchView
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.core.extensions.replaceFragment
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.databinding.ActivityFilteredRoomsBinding
-import im.vector.app.features.analytics.plan.MobileScreen
-import im.vector.app.features.home.RoomListDisplayMode
-import im.vector.app.features.home.room.list.RoomListFragment
-import im.vector.app.features.home.room.list.RoomListParams
+import dev.getzen.element.core.extensions.replaceFragment
+import dev.getzen.element.core.platform.VectorBaseActivity
+import dev.getzen.element.databinding.ActivityFilteredRoomsBinding
+import dev.getzen.element.features.analytics.plan.MobileScreen
+import dev.getzen.element.features.home.RoomListDisplayMode
+import dev.getzen.element.features.home.room.list.RoomListFragment
+import dev.getzen.element.features.home.room.list.RoomListParams
 
 @AndroidEntryPoint
 class FilteredRoomsActivity : VectorBaseActivity<ActivityFilteredRoomsBinding>() {

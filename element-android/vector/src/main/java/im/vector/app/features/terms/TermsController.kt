@@ -13,18 +13,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.terms
+package dev.getzen.element.features.terms
 
 import com.airbnb.epoxy.TypedEpoxyController
 import com.airbnb.mvrx.Fail
 import com.airbnb.mvrx.Loading
 import com.airbnb.mvrx.Success
 import com.airbnb.mvrx.Uninitialized
-import im.vector.app.R
-import im.vector.app.core.epoxy.errorWithRetryItem
-import im.vector.app.core.epoxy.loadingItem
-import im.vector.app.core.error.ErrorFormatter
-import im.vector.app.features.discovery.settingsSectionTitleItem
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.errorWithRetryItem
+import dev.getzen.element.core.epoxy.loadingItem
+import dev.getzen.element.core.error.ErrorFormatter
+import dev.getzen.element.features.discovery.settingsSectionTitleItem
 import javax.inject.Inject
 
 class TermsController @Inject constructor(

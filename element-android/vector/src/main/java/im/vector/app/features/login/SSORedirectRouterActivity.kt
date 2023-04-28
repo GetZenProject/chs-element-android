@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.login
+package dev.getzen.element.features.login
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.features.navigation.Navigator
+import dev.getzen.element.features.navigation.Navigator
 import javax.inject.Inject
 
 @AndroidEntryPoint

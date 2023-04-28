@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.media
+package dev.getzen.element.features.media
 
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import androidx.core.net.toUri
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.databinding.ActivityBigImageViewerBinding
+import dev.getzen.element.core.di.ActiveSessionHolder
+import dev.getzen.element.core.platform.VectorBaseActivity
+import dev.getzen.element.databinding.ActivityBigImageViewerBinding
 import javax.inject.Inject
 
 /**

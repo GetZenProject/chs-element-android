@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.list.actions
+package dev.getzen.element.features.home.room.list.actions
 
 import android.os.Bundle
 import android.os.Parcelable
@@ -27,16 +27,16 @@ import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.error.ErrorFormatter
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.platform.VectorBaseBottomSheetDialogFragment
-import im.vector.app.databinding.BottomSheetGenericListBinding
-import im.vector.app.features.navigation.Navigator
-import im.vector.app.features.roomprofile.notifications.RoomNotificationSettingsAction
-import im.vector.app.features.roomprofile.notifications.RoomNotificationSettingsViewEvents
-import im.vector.app.features.roomprofile.notifications.RoomNotificationSettingsViewModel
+import dev.getzen.element.R
+import dev.getzen.element.core.error.ErrorFormatter
+import dev.getzen.element.core.extensions.cleanup
+import dev.getzen.element.core.extensions.configureWith
+import dev.getzen.element.core.platform.VectorBaseBottomSheetDialogFragment
+import dev.getzen.element.databinding.BottomSheetGenericListBinding
+import dev.getzen.element.features.navigation.Navigator
+import dev.getzen.element.features.roomprofile.notifications.RoomNotificationSettingsAction
+import dev.getzen.element.features.roomprofile.notifications.RoomNotificationSettingsViewEvents
+import dev.getzen.element.features.roomprofile.notifications.RoomNotificationSettingsViewModel
 import kotlinx.parcelize.Parcelize
 import org.matrix.android.sdk.api.session.room.notification.RoomNotificationState
 import javax.inject.Inject

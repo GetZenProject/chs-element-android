@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.members
+package dev.getzen.element.features.roomprofile.members
 
 import androidx.core.util.Predicate
 import org.matrix.android.sdk.api.extensions.orFalse

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.reactions
+package dev.getzen.element.features.reactions
 
 import android.annotation.SuppressLint
 import android.os.Build
@@ -30,8 +30,8 @@ import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.transition.AutoTransition
 import androidx.transition.TransitionManager
-import im.vector.app.R
-import im.vector.app.features.reactions.data.EmojiData
+import dev.getzen.element.R
+import dev.getzen.element.features.reactions.data.EmojiData
 import im.vector.lib.core.utils.compat.removeIfCompat
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

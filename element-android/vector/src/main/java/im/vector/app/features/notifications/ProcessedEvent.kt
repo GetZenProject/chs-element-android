@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.notifications
+package dev.getzen.element.features.notifications
 
 data class ProcessedEvent<T>(
         val type: Type,

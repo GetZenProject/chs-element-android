@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.settings
+package dev.getzen.element.features.settings
 
 import android.app.Activity
 import android.content.Context
@@ -25,15 +25,15 @@ import androidx.fragment.app.FragmentManager
 import androidx.preference.Preference
 import androidx.preference.PreferenceFragmentCompat
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.replaceFragment
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.databinding.ActivityVectorSettingsBinding
-import im.vector.app.features.discovery.DiscoverySettingsFragment
-import im.vector.app.features.navigation.SettingsActivityPayload
-import im.vector.app.features.settings.devices.VectorSettingsDevicesFragment
-import im.vector.app.features.settings.notifications.VectorSettingsNotificationFragment
-import im.vector.app.features.settings.threepids.ThreePidsSettingsFragment
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.replaceFragment
+import dev.getzen.element.core.platform.VectorBaseActivity
+import dev.getzen.element.databinding.ActivityVectorSettingsBinding
+import dev.getzen.element.features.discovery.DiscoverySettingsFragment
+import dev.getzen.element.features.navigation.SettingsActivityPayload
+import dev.getzen.element.features.settings.devices.VectorSettingsDevicesFragment
+import dev.getzen.element.features.settings.notifications.VectorSettingsNotificationFragment
+import dev.getzen.element.features.settings.threepids.ThreePidsSettingsFragment
 import im.vector.lib.core.utils.compat.getParcelableExtraCompat
 import org.matrix.android.sdk.api.failure.GlobalError
 import org.matrix.android.sdk.api.session.Session
@@ -79,7 +79,7 @@ class VectorSettingsActivity : VectorBaseActivity<ActivityVectorSettingsBinding>
                     replaceFragment(views.vectorSettingsPage, VectorSettingsSecurityPrivacyFragment::class.java, null, FRAGMENT_TAG)
                 SettingsActivityPayload.SecurityPrivacyManageSessions -> {
                     val fragmentClass = if (vectorPreferences.isNewSessionManagerEnabled()) {
-                        im.vector.app.features.settings.devices.v2.VectorSettingsDevicesFragment::class.java
+                        dev.getzen.element.features.settings.devices.v2.VectorSettingsDevicesFragment::class.java
                     } else {
                         VectorSettingsDevicesFragment::class.java
                     }

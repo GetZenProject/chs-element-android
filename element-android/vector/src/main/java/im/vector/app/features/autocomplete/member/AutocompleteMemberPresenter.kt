@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.autocomplete.member
+package dev.getzen.element.features.autocomplete.member
 
 import android.content.Context
 import androidx.recyclerview.widget.RecyclerView
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
-import im.vector.app.R
-import im.vector.app.features.autocomplete.AutocompleteClickListener
-import im.vector.app.features.autocomplete.RecyclerViewPresenter
+import dev.getzen.element.R
+import dev.getzen.element.features.autocomplete.AutocompleteClickListener
+import dev.getzen.element.features.autocomplete.RecyclerViewPresenter
 import org.matrix.android.sdk.api.query.QueryStringValue
 import org.matrix.android.sdk.api.session.Session
 import org.matrix.android.sdk.api.session.events.model.Event

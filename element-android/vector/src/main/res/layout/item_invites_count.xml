@@ -9,7 +9,7 @@
     android:focusable="true"
     tools:viewBindingIgnore="true">
 
-    <im.vector.app.features.home.room.list.UnreadCounterBadgeView
+    <dev.getzen.element.features.home.room.list.UnreadCounterBadgeView
         android:id="@+id/invites_count_badge"
         style="@style/Widget.Vector.TextView.Micro"
         android:layout_width="wrap_content"

@@ -14,25 +14,25 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.location.live.tracking
+package dev.getzen.element.features.location.live.tracking
 
 import android.app.Notification
 import android.app.PendingIntent
 import android.content.Context
 import androidx.core.app.NotificationCompat
 import androidx.core.app.TaskStackBuilder
-import im.vector.app.R
-import im.vector.app.core.extensions.createIgnoredUri
-import im.vector.app.core.platform.PendingIntentCompat
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.home.HomeActivity
-import im.vector.app.features.home.room.detail.RoomDetailActivity
-import im.vector.app.features.home.room.detail.arguments.TimelineArgs
-import im.vector.app.features.location.live.map.LiveLocationMapViewActivity
-import im.vector.app.features.location.live.map.LiveLocationMapViewArgs
-import im.vector.app.features.notifications.NotificationActionIds
-import im.vector.app.features.notifications.NotificationUtils
-import im.vector.app.features.themes.ThemeUtils
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.createIgnoredUri
+import dev.getzen.element.core.platform.PendingIntentCompat
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.features.home.HomeActivity
+import dev.getzen.element.features.home.room.detail.RoomDetailActivity
+import dev.getzen.element.features.home.room.detail.arguments.TimelineArgs
+import dev.getzen.element.features.location.live.map.LiveLocationMapViewActivity
+import dev.getzen.element.features.location.live.map.LiveLocationMapViewArgs
+import dev.getzen.element.features.notifications.NotificationActionIds
+import dev.getzen.element.features.notifications.NotificationUtils
+import dev.getzen.element.features.themes.ThemeUtils
 import im.vector.lib.core.utils.timer.Clock
 import javax.inject.Inject
 import javax.inject.Singleton

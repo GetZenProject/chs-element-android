@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.crypto.quads
+package dev.getzen.element.features.crypto.quads
 
 import android.app.Activity
 import android.content.Context
@@ -29,11 +29,11 @@ import com.airbnb.mvrx.Mavericks
 import com.airbnb.mvrx.viewModel
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.replaceFragment
-import im.vector.app.core.platform.SimpleFragmentActivity
-import im.vector.app.core.platform.VectorBaseBottomSheetDialogFragment
-import im.vector.app.features.crypto.recover.SetupMode
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.replaceFragment
+import dev.getzen.element.core.platform.SimpleFragmentActivity
+import dev.getzen.element.core.platform.VectorBaseBottomSheetDialogFragment
+import dev.getzen.element.features.crypto.recover.SetupMode
 import kotlinx.parcelize.Parcelize
 import kotlin.reflect.KClass
 

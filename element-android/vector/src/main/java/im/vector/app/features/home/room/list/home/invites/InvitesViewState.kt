@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.list.home.invites
+package dev.getzen.element.features.home.room.list.home.invites
 
 import android.graphics.drawable.Drawable
 import androidx.paging.PagedList

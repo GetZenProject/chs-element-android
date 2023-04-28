@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.breadcrumbs
+package dev.getzen.element.features.home.room.breadcrumbs
 
 import androidx.recyclerview.widget.DefaultItemAnimator
 

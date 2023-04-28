@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.onboarding.ftueauth
+package dev.getzen.element.features.onboarding.ftueauth
 
 import android.annotation.SuppressLint
 import android.content.DialogInterface
@@ -31,10 +31,10 @@ import android.webkit.WebViewClient
 import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.core.utils.AssetReader
-import im.vector.app.features.login.JavascriptResponse
-import im.vector.app.features.onboarding.OnboardingViewState
+import dev.getzen.element.R
+import dev.getzen.element.core.utils.AssetReader
+import dev.getzen.element.features.login.JavascriptResponse
+import dev.getzen.element.features.onboarding.OnboardingViewState
 import org.matrix.android.sdk.api.util.MatrixJsonParser
 import timber.log.Timber
 import java.net.URLDecoder

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.composer.voice
+package dev.getzen.element.features.home.room.detail.composer.voice
 
 data class VoiceMessageConfig(
         val lengthLimitMs: Long

@@ -14,10 +14,10 @@
  * limitations under the License.
  *
  */
-package im.vector.app.features.attachments
+package dev.getzen.element.features.attachments
 
-import im.vector.app.core.platform.VectorSharedAction
-import im.vector.app.core.platform.VectorSharedActionViewModel
+import dev.getzen.element.core.platform.VectorSharedAction
+import dev.getzen.element.core.platform.VectorSharedActionViewModel
 import javax.inject.Inject
 
 class AttachmentTypeSelectorSharedActionViewModel @Inject constructor() :

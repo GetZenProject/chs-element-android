@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.leakcanary
+package dev.getzen.element.leakcanary
 
-import im.vector.app.core.debug.LeakDetector
+import dev.getzen.element.core.debug.LeakDetector
 import leakcanary.LeakCanary
 import javax.inject.Inject
 

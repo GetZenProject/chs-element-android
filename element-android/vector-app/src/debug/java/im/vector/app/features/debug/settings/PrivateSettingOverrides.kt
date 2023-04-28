@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.debug.settings
+package dev.getzen.element.features.debug.settings
 
 sealed interface BooleanHomeserverCapabilitiesOverride : OverrideOption {
 

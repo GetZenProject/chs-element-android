@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.link
+package dev.getzen.element.features.link
 
 import android.content.Intent
 import android.net.Uri
@@ -23,16 +23,16 @@ import androidx.lifecycle.lifecycleScope
 import com.airbnb.mvrx.viewModel
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.registerStartForActivityResult
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.core.utils.toast
-import im.vector.app.databinding.ActivityProgressBinding
-import im.vector.app.features.MainActivity
-import im.vector.app.features.home.HomeActivity
-import im.vector.app.features.login.LoginConfig
-import im.vector.app.features.permalink.PermalinkHandler
-import im.vector.app.features.start.StartAppViewModel
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.registerStartForActivityResult
+import dev.getzen.element.core.platform.VectorBaseActivity
+import dev.getzen.element.core.utils.toast
+import dev.getzen.element.databinding.ActivityProgressBinding
+import dev.getzen.element.features.MainActivity
+import dev.getzen.element.features.home.HomeActivity
+import dev.getzen.element.features.login.LoginConfig
+import dev.getzen.element.features.permalink.PermalinkHandler
+import dev.getzen.element.features.start.StartAppViewModel
 import kotlinx.coroutines.launch
 import org.matrix.android.sdk.api.session.permalinks.PermalinkService
 import timber.log.Timber

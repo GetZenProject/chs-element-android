@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.pin.lockscreen.crypto
+package dev.getzen.element.features.pin.lockscreen.crypto
 
 import android.os.Build
 import android.security.keystore.KeyPermanentlyInvalidatedException
 import android.security.keystore.UserNotAuthenticatedException
 import androidx.test.platform.app.InstrumentationRegistry
-import im.vector.app.TestBuildVersionSdkIntProvider
+import dev.getzen.element.TestBuildVersionSdkIntProvider
 import io.mockk.every
 import io.mockk.spyk
 import io.mockk.verify

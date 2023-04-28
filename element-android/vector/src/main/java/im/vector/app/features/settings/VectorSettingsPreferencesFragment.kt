@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings
+package dev.getzen.element.features.settings
 
 import android.content.Context
 import android.content.Intent
@@ -23,18 +23,18 @@ import androidx.lifecycle.lifecycleScope
 import androidx.preference.Preference
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.dialogs.PhotoOrVideoDialog
-import im.vector.app.core.extensions.restart
-import im.vector.app.core.preference.VectorListPreference
-import im.vector.app.core.preference.VectorPreference
-import im.vector.app.core.preference.VectorSwitchPreference
-import im.vector.app.features.MainActivity
-import im.vector.app.features.MainActivityArgs
-import im.vector.app.features.VectorFeatures
-import im.vector.app.features.analytics.plan.MobileScreen
-import im.vector.app.features.settings.font.FontScaleSettingActivity
-import im.vector.app.features.themes.ThemeUtils
+import dev.getzen.element.R
+import dev.getzen.element.core.dialogs.PhotoOrVideoDialog
+import dev.getzen.element.core.extensions.restart
+import dev.getzen.element.core.preference.VectorListPreference
+import dev.getzen.element.core.preference.VectorPreference
+import dev.getzen.element.core.preference.VectorSwitchPreference
+import dev.getzen.element.features.MainActivity
+import dev.getzen.element.features.MainActivityArgs
+import dev.getzen.element.features.VectorFeatures
+import dev.getzen.element.features.analytics.plan.MobileScreen
+import dev.getzen.element.features.settings.font.FontScaleSettingActivity
+import dev.getzen.element.features.themes.ThemeUtils
 import kotlinx.coroutines.launch
 import org.matrix.android.sdk.api.session.presence.model.PresenceEnum
 import javax.inject.Inject

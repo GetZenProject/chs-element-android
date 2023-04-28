@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.location.option
+package dev.getzen.element.features.location.option
 
 import android.content.Context
 import android.util.AttributeSet
@@ -24,8 +24,8 @@ import android.view.View
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.ContextCompat
 import androidx.core.view.isVisible
-import im.vector.app.R
-import im.vector.app.databinding.ViewLocationSharingOptionPickerBinding
+import dev.getzen.element.R
+import dev.getzen.element.databinding.ViewLocationSharingOptionPickerBinding
 
 /**
  * Custom view to display the location sharing option picker.

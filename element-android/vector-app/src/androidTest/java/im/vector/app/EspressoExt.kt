@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app
+package dev.getzen.element
 
 import android.app.Activity
 import android.view.View
@@ -42,8 +42,8 @@ import com.adevinta.android.barista.interaction.BaristaClickInteractions
 import com.google.android.material.bottomsheet.BottomSheetBehavior
 import com.google.android.material.bottomsheet.BottomSheetDialog
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
-import im.vector.app.core.platform.VectorBaseBottomSheetDialogFragment
-import im.vector.app.espresso.tools.waitUntilViewVisible
+import dev.getzen.element.core.platform.VectorBaseBottomSheetDialogFragment
+import dev.getzen.element.espresso.tools.waitUntilViewVisible
 import im.vector.lib.core.utils.timer.DefaultClock
 import org.hamcrest.Matcher
 import org.hamcrest.Matchers

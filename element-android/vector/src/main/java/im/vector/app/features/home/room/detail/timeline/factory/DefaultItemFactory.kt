@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.factory
+package dev.getzen.element.features.home.room.detail.timeline.factory
 
-import im.vector.app.R
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.home.room.detail.timeline.TimelineEventController
-import im.vector.app.features.home.room.detail.timeline.helper.AvatarSizeProvider
-import im.vector.app.features.home.room.detail.timeline.helper.MessageInformationDataFactory
-import im.vector.app.features.home.room.detail.timeline.item.DefaultItem
-import im.vector.app.features.home.room.detail.timeline.item.DefaultItem_
-import im.vector.app.features.home.room.detail.timeline.item.MessageInformationData
+import dev.getzen.element.R
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.features.home.AvatarRenderer
+import dev.getzen.element.features.home.room.detail.timeline.TimelineEventController
+import dev.getzen.element.features.home.room.detail.timeline.helper.AvatarSizeProvider
+import dev.getzen.element.features.home.room.detail.timeline.helper.MessageInformationDataFactory
+import dev.getzen.element.features.home.room.detail.timeline.item.DefaultItem
+import dev.getzen.element.features.home.room.detail.timeline.item.DefaultItem_
+import dev.getzen.element.features.home.room.detail.timeline.item.MessageInformationData
 import javax.inject.Inject
 
 class DefaultItemFactory @Inject constructor(

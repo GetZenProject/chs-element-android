@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.polls.list.ui
+package dev.getzen.element.features.roomprofile.polls.list.ui
 
 import com.airbnb.epoxy.TypedEpoxyController
-import im.vector.app.R
-import im.vector.app.core.date.DateFormatKind
-import im.vector.app.core.date.VectorDateFormatter
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.roomprofile.polls.RoomPollsViewState
+import dev.getzen.element.R
+import dev.getzen.element.core.date.DateFormatKind
+import dev.getzen.element.core.date.VectorDateFormatter
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.features.roomprofile.polls.RoomPollsViewState
 import java.util.UUID
 import javax.inject.Inject
 

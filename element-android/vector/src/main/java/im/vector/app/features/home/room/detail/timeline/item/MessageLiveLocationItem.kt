@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.item
+package dev.getzen.element.features.home.room.detail.timeline.item
 
 import androidx.core.view.isVisible
 import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
-import im.vector.app.R
-import im.vector.app.core.date.DateFormatKind
-import im.vector.app.core.date.VectorDateFormatter
-import im.vector.app.core.resources.toTimestamp
-import im.vector.app.core.utils.DimensionConverter
-import im.vector.app.features.home.room.detail.RoomDetailAction
-import im.vector.app.features.home.room.detail.timeline.style.TimelineMessageLayout
-import im.vector.app.features.location.live.LiveLocationMessageBannerViewState
-import im.vector.app.features.location.live.LiveLocationRunningBannerView
+import dev.getzen.element.R
+import dev.getzen.element.core.date.DateFormatKind
+import dev.getzen.element.core.date.VectorDateFormatter
+import dev.getzen.element.core.resources.toTimestamp
+import dev.getzen.element.core.utils.DimensionConverter
+import dev.getzen.element.features.home.room.detail.RoomDetailAction
+import dev.getzen.element.features.home.room.detail.timeline.style.TimelineMessageLayout
+import dev.getzen.element.features.location.live.LiveLocationMessageBannerViewState
+import dev.getzen.element.features.location.live.LiveLocationRunningBannerView
 import org.threeten.bp.LocalDateTime
 
 @EpoxyModelClass

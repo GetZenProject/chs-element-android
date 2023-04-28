@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.reactions
+package dev.getzen.element.features.reactions
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -21,9 +21,9 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.lifecycle.lifecycleScope
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.databinding.EmojiChooserFragmentBinding
+import dev.getzen.element.core.extensions.cleanup
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.databinding.EmojiChooserFragmentBinding
 import javax.inject.Inject
 
 @AndroidEntryPoint

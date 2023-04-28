@@ -15,7 +15,7 @@
  *
  */
 
-package im.vector.app.features.attachments.preview
+package dev.getzen.element.features.attachments.preview
 
 import com.airbnb.mvrx.MavericksState
 import org.matrix.android.sdk.api.session.content.ContentAttachmentData

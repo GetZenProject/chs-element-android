@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2.notification
+package dev.getzen.element.features.settings.devices.v2.notification
 
 import androidx.lifecycle.asFlow
 import kotlinx.coroutines.flow.Flow

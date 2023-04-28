@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.utils
+package dev.getzen.element.core.utils
 
 import android.annotation.TargetApi
 import android.app.Activity
@@ -32,8 +32,8 @@ import androidx.annotation.RequiresApi
 import androidx.annotation.StringRes
 import androidx.core.content.getSystemService
 import androidx.fragment.app.Fragment
-import im.vector.app.R
-import im.vector.app.features.notifications.NotificationUtils
+import dev.getzen.element.R
+import dev.getzen.element.features.notifications.NotificationUtils
 import org.matrix.android.sdk.api.util.getApplicationInfoCompat
 
 /**

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.leave
+package dev.getzen.element.features.spaces.leave
 
-import im.vector.app.core.platform.VectorViewModelAction
+import dev.getzen.element.core.platform.VectorViewModelAction
 
 sealed class SpaceLeaveAdvanceViewAction : VectorViewModelAction {
     data class ToggleSelection(val roomId: String) : SpaceLeaveAdvanceViewAction()

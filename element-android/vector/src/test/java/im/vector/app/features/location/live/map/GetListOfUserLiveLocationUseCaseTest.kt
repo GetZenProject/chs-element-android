@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.location.live.map
+package dev.getzen.element.features.location.live.map
 
-import im.vector.app.features.location.LocationData
-import im.vector.app.test.fakes.FakeFlowLiveDataConversions
-import im.vector.app.test.fakes.FakeSession
-import im.vector.app.test.fakes.givenAsFlow
+import dev.getzen.element.features.location.LocationData
+import dev.getzen.element.test.fakes.FakeFlowLiveDataConversions
+import dev.getzen.element.test.fakes.FakeSession
+import dev.getzen.element.test.fakes.givenAsFlow
 import io.mockk.coEvery
 import io.mockk.mockk
 import io.mockk.unmockkAll

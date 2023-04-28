@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.location.live.map
+package dev.getzen.element.features.location.live.map
 
 import android.content.Context
 import android.view.View
 import android.view.ViewGroup
 import android.widget.PopupWindow
-import im.vector.app.R
-import im.vector.app.databinding.ViewLiveLocationMarkerPopupBinding
+import dev.getzen.element.R
+import dev.getzen.element.databinding.ViewLiveLocationMarkerPopupBinding
 
 class LiveLocationMapMarkerOptionsDialog(
         context: Context,

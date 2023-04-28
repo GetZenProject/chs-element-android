@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.action
+package dev.getzen.element.features.home.room.detail.timeline.action
 
 import android.os.Parcelable
-import im.vector.app.features.home.room.detail.timeline.item.MessageInformationData
+import dev.getzen.element.features.home.room.detail.timeline.item.MessageInformationData
 import kotlinx.parcelize.Parcelize
 
 @Parcelize

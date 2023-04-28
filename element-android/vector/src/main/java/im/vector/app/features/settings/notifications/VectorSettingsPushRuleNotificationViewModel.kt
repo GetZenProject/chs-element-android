@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.notifications
+package dev.getzen.element.features.settings.notifications
 
 import com.airbnb.mvrx.MavericksViewModelFactory
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
-import im.vector.app.core.di.MavericksAssistedViewModelFactory
-import im.vector.app.core.di.hiltMavericksViewModelFactory
-import im.vector.app.core.platform.VectorViewModel
-import im.vector.app.features.settings.notifications.VectorSettingsPushRuleNotificationViewEvent.Failure
-import im.vector.app.features.settings.notifications.VectorSettingsPushRuleNotificationViewEvent.PushRuleUpdated
-import im.vector.app.features.settings.notifications.usecase.GetPushRulesOnInvalidStateUseCase
+import dev.getzen.element.core.di.MavericksAssistedViewModelFactory
+import dev.getzen.element.core.di.hiltMavericksViewModelFactory
+import dev.getzen.element.core.platform.VectorViewModel
+import dev.getzen.element.features.settings.notifications.VectorSettingsPushRuleNotificationViewEvent.Failure
+import dev.getzen.element.features.settings.notifications.VectorSettingsPushRuleNotificationViewEvent.PushRuleUpdated
+import dev.getzen.element.features.settings.notifications.usecase.GetPushRulesOnInvalidStateUseCase
 import kotlinx.coroutines.launch
 import org.matrix.android.sdk.api.failure.Failure.ServerError
 import org.matrix.android.sdk.api.failure.MatrixError

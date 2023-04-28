@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.helper
+package dev.getzen.element.features.home.room.detail.timeline.helper
 
-import im.vector.app.core.date.DateFormatKind
-import im.vector.app.core.date.VectorDateFormatter
-import im.vector.app.core.extensions.getVectorLastMessageContent
-import im.vector.app.core.extensions.localDateTime
-import im.vector.app.features.home.room.detail.timeline.factory.TimelineItemFactoryParams
-import im.vector.app.features.home.room.detail.timeline.item.E2EDecoration
-import im.vector.app.features.home.room.detail.timeline.item.MessageInformationData
-import im.vector.app.features.home.room.detail.timeline.item.ReferencesInfoData
-import im.vector.app.features.home.room.detail.timeline.item.SendStateDecoration
-import im.vector.app.features.home.room.detail.timeline.style.TimelineMessageLayoutFactory
+import dev.getzen.element.core.date.DateFormatKind
+import dev.getzen.element.core.date.VectorDateFormatter
+import dev.getzen.element.core.extensions.getVectorLastMessageContent
+import dev.getzen.element.core.extensions.localDateTime
+import dev.getzen.element.features.home.room.detail.timeline.factory.TimelineItemFactoryParams
+import dev.getzen.element.features.home.room.detail.timeline.item.E2EDecoration
+import dev.getzen.element.features.home.room.detail.timeline.item.MessageInformationData
+import dev.getzen.element.features.home.room.detail.timeline.item.ReferencesInfoData
+import dev.getzen.element.features.home.room.detail.timeline.item.SendStateDecoration
+import dev.getzen.element.features.home.room.detail.timeline.style.TimelineMessageLayoutFactory
 import org.matrix.android.sdk.api.extensions.orFalse
 import org.matrix.android.sdk.api.session.Session
 import org.matrix.android.sdk.api.session.crypto.verification.VerificationState

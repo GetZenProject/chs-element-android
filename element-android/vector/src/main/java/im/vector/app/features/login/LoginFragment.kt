@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.login
+package dev.getzen.element.features.login
 
 import android.os.Build
 import android.os.Bundle
@@ -29,11 +29,11 @@ import androidx.lifecycle.lifecycleScope
 import com.airbnb.mvrx.Fail
 import com.airbnb.mvrx.Loading
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.hideKeyboard
-import im.vector.app.core.extensions.hidePassword
-import im.vector.app.core.extensions.toReducedUrl
-import im.vector.app.databinding.FragmentLoginBinding
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.hideKeyboard
+import dev.getzen.element.core.extensions.hidePassword
+import dev.getzen.element.core.extensions.toReducedUrl
+import dev.getzen.element.databinding.FragmentLoginBinding
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.map

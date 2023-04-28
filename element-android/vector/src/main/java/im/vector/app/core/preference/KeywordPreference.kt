@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.preference
+package dev.getzen.element.core.preference
 
 import android.content.Context
 import android.text.Editable
@@ -27,9 +27,9 @@ import androidx.preference.PreferenceViewHolder
 import com.google.android.material.chip.Chip
 import com.google.android.material.chip.ChipGroup
 import com.google.android.material.textfield.TextInputLayout
-import im.vector.app.R
-import im.vector.app.core.epoxy.addTextChangedListenerOnce
-import im.vector.app.core.platform.SimpleTextWatcher
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.addTextChangedListenerOnce
+import dev.getzen.element.core.platform.SimpleTextWatcher
 
 class KeywordPreference : VectorPreference {
 

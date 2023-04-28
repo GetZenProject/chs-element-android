@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.threads.list.views
+package dev.getzen.element.features.home.room.threads.list.views
 
 import android.graphics.drawable.Drawable
 import android.os.Bundle
@@ -25,12 +25,12 @@ import androidx.annotation.AttrRes
 import androidx.core.content.ContextCompat
 import androidx.core.graphics.drawable.DrawableCompat
 import com.airbnb.mvrx.parentFragmentViewModel
-import im.vector.app.R
-import im.vector.app.core.platform.VectorBaseBottomSheetDialogFragment
-import im.vector.app.databinding.BottomSheetThreadListBinding
-import im.vector.app.features.home.room.threads.list.viewmodel.ThreadListViewModel
-import im.vector.app.features.home.room.threads.list.viewmodel.ThreadListViewState
-import im.vector.app.features.themes.ThemeUtils
+import dev.getzen.element.R
+import dev.getzen.element.core.platform.VectorBaseBottomSheetDialogFragment
+import dev.getzen.element.databinding.BottomSheetThreadListBinding
+import dev.getzen.element.features.home.room.threads.list.viewmodel.ThreadListViewModel
+import dev.getzen.element.features.home.room.threads.list.viewmodel.ThreadListViewState
+import dev.getzen.element.features.themes.ThemeUtils
 
 class ThreadListBottomSheet : VectorBaseBottomSheetDialogFragment<BottomSheetThreadListBinding>() {
 

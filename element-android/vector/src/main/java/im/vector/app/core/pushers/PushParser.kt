@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.pushers
+package dev.getzen.element.core.pushers
 
-import im.vector.app.core.pushers.model.PushData
-import im.vector.app.core.pushers.model.PushDataFcm
-import im.vector.app.core.pushers.model.PushDataUnifiedPush
-import im.vector.app.core.pushers.model.toPushData
+import dev.getzen.element.core.pushers.model.PushData
+import dev.getzen.element.core.pushers.model.PushDataFcm
+import dev.getzen.element.core.pushers.model.PushDataUnifiedPush
+import dev.getzen.element.core.pushers.model.toPushData
 import org.matrix.android.sdk.api.extensions.tryOrNull
 import org.matrix.android.sdk.api.util.MatrixJsonParser
 import javax.inject.Inject

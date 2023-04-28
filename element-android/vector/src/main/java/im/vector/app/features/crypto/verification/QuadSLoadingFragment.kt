@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.crypto.verification
+package dev.getzen.element.features.crypto.verification
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.databinding.FragmentProgressBinding
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.databinding.FragmentProgressBinding
 
 @AndroidEntryPoint
 class QuadSLoadingFragment :

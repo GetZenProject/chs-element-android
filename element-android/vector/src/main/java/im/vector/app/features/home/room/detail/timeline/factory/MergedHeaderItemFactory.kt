@@ -14,23 +14,23 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.factory
+package dev.getzen.element.features.home.room.detail.timeline.factory
 
-import im.vector.app.R
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.extensions.prevOrNull
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.home.room.detail.timeline.TimelineEventController
-import im.vector.app.features.home.room.detail.timeline.helper.AvatarSizeProvider
-import im.vector.app.features.home.room.detail.timeline.helper.MergedTimelineEventVisibilityStateChangedListener
-import im.vector.app.features.home.room.detail.timeline.helper.TimelineEventVisibilityHelper
-import im.vector.app.features.home.room.detail.timeline.helper.isRoomConfiguration
-import im.vector.app.features.home.room.detail.timeline.item.BasedMergedItem
-import im.vector.app.features.home.room.detail.timeline.item.MergedRoomCreationItem
-import im.vector.app.features.home.room.detail.timeline.item.MergedRoomCreationItem_
-import im.vector.app.features.home.room.detail.timeline.item.MergedSimilarEventsItem
-import im.vector.app.features.home.room.detail.timeline.item.MergedSimilarEventsItem_
-import im.vector.app.features.home.room.detail.timeline.tools.createLinkMovementMethod
+import dev.getzen.element.R
+import dev.getzen.element.core.di.ActiveSessionHolder
+import dev.getzen.element.core.extensions.prevOrNull
+import dev.getzen.element.features.home.AvatarRenderer
+import dev.getzen.element.features.home.room.detail.timeline.TimelineEventController
+import dev.getzen.element.features.home.room.detail.timeline.helper.AvatarSizeProvider
+import dev.getzen.element.features.home.room.detail.timeline.helper.MergedTimelineEventVisibilityStateChangedListener
+import dev.getzen.element.features.home.room.detail.timeline.helper.TimelineEventVisibilityHelper
+import dev.getzen.element.features.home.room.detail.timeline.helper.isRoomConfiguration
+import dev.getzen.element.features.home.room.detail.timeline.item.BasedMergedItem
+import dev.getzen.element.features.home.room.detail.timeline.item.MergedRoomCreationItem
+import dev.getzen.element.features.home.room.detail.timeline.item.MergedRoomCreationItem_
+import dev.getzen.element.features.home.room.detail.timeline.item.MergedSimilarEventsItem
+import dev.getzen.element.features.home.room.detail.timeline.item.MergedSimilarEventsItem_
+import dev.getzen.element.features.home.room.detail.timeline.tools.createLinkMovementMethod
 import org.matrix.android.sdk.api.crypto.MXCRYPTO_ALGORITHM_MEGOLM
 import org.matrix.android.sdk.api.extensions.orFalse
 import org.matrix.android.sdk.api.query.QueryStringValue

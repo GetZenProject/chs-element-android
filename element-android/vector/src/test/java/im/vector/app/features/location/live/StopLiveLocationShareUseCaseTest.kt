@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.location.live
+package dev.getzen.element.features.location.live
 
-import im.vector.app.test.fakes.FakeActiveSessionHolder
+import dev.getzen.element.test.fakes.FakeActiveSessionHolder
 import io.mockk.unmockkAll
 import kotlinx.coroutines.test.runTest
 import org.amshove.kluent.shouldBeEqualTo

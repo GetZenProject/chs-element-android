@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2.rename
+package dev.getzen.element.features.settings.devices.v2.rename
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -25,11 +25,11 @@ import androidx.core.widget.doOnTextChanged
 import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.showKeyboard
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.databinding.FragmentSessionRenameBinding
-import im.vector.app.features.settings.devices.v2.more.SessionLearnMoreBottomSheet
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.showKeyboard
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.databinding.FragmentSessionRenameBinding
+import dev.getzen.element.features.settings.devices.v2.more.SessionLearnMoreBottomSheet
 import javax.inject.Inject
 
 /**

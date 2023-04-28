@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.uploads.media
+package dev.getzen.element.features.roomprofile.uploads.media
 
 // Min image size. Size will be adjusted at runtime
 const val IMAGE_SIZE_DP = 120

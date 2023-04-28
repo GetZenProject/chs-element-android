@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.polls
+package dev.getzen.element.features.roomprofile.polls
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -24,10 +24,10 @@ import com.airbnb.mvrx.args
 import com.airbnb.mvrx.fragmentViewModel
 import com.google.android.material.tabs.TabLayoutMediator
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.databinding.FragmentRoomPollsBinding
-import im.vector.app.features.roomprofile.RoomProfileArgs
+import dev.getzen.element.R
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.databinding.FragmentRoomPollsBinding
+import dev.getzen.element.features.roomprofile.RoomProfileArgs
 
 @AndroidEntryPoint
 class RoomPollsFragment : VectorBaseFragment<FragmentRoomPollsBinding>() {

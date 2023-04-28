@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.test.fakes
+package dev.getzen.element.test.fakes
 
-import im.vector.app.features.notifications.NotifiableEvent
-import im.vector.app.features.notifications.OutdatedEventDetector
+import dev.getzen.element.features.notifications.NotifiableEvent
+import dev.getzen.element.features.notifications.OutdatedEventDetector
 import io.mockk.every
 import io.mockk.mockk
 

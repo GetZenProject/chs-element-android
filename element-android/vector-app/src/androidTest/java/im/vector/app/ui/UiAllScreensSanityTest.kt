@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.ui
+package dev.getzen.element.ui
 
 import android.Manifest
 import androidx.test.espresso.IdlingPolicies
@@ -23,13 +23,13 @@ import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.filters.LargeTest
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.rule.GrantPermissionRule
-import im.vector.app.R
-import im.vector.app.espresso.tools.ScreenshotFailureRule
-import im.vector.app.features.MainActivity
-import im.vector.app.getString
-import im.vector.app.ui.robot.ElementRobot
-import im.vector.app.ui.robot.settings.labs.LabFeaturesPreferences
-import im.vector.app.ui.robot.withDeveloperMode
+import dev.getzen.element.R
+import dev.getzen.element.espresso.tools.ScreenshotFailureRule
+import dev.getzen.element.features.MainActivity
+import dev.getzen.element.getString
+import dev.getzen.element.ui.robot.ElementRobot
+import dev.getzen.element.ui.robot.settings.labs.LabFeaturesPreferences
+import dev.getzen.element.ui.robot.withDeveloperMode
 import org.junit.Rule
 import org.junit.Test
 import org.junit.rules.RuleChain

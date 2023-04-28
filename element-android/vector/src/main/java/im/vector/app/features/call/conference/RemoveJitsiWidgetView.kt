@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call.conference
+package dev.getzen.element.features.call.conference
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -25,9 +25,9 @@ import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.ContextCompat
 import androidx.core.view.isVisible
 import androidx.core.widget.ImageViewCompat
-import im.vector.app.R
-import im.vector.app.databinding.ViewRemoveJitsiWidgetBinding
-import im.vector.app.features.home.room.detail.RoomDetailViewState
+import dev.getzen.element.R
+import dev.getzen.element.databinding.ViewRemoveJitsiWidgetBinding
+import dev.getzen.element.features.home.room.detail.RoomDetailViewState
 import org.matrix.android.sdk.api.session.room.model.Membership
 import kotlin.math.absoluteValue
 

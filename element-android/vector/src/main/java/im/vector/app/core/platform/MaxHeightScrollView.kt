@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.platform
+package dev.getzen.element.core.platform
 
 import android.content.Context
 import android.util.AttributeSet
 import androidx.core.content.withStyledAttributes
 import androidx.core.widget.NestedScrollView
-import im.vector.app.R
+import dev.getzen.element.R
 
 private const val DEFAULT_MAX_HEIGHT = 200
 

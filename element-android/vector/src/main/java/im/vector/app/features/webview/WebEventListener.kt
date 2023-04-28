@@ -14,6 +14,6 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.webview
+package dev.getzen.element.features.webview
 
 interface WebEventListener : WebViewEventListener, WebChromeEventListener

@@ -258,7 +258,7 @@
             app:layout_constraintTop_toBottomOf="@id/ssoButtonsHeader"
             tools:visibility="visible" />
 
-        <im.vector.app.features.login.SocialLoginButtonsView
+        <dev.getzen.element.features.login.SocialLoginButtonsView
             android:id="@+id/ssoButtons"
             android:layout_width="0dp"
             android:layout_height="wrap_content"

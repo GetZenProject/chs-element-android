@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.debug.leak
+package dev.getzen.element.features.debug.leak
 
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.core.extensions.addFragment
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.databinding.ActivitySimpleBinding
+import dev.getzen.element.core.extensions.addFragment
+import dev.getzen.element.core.platform.VectorBaseActivity
+import dev.getzen.element.databinding.ActivitySimpleBinding
 
 @AndroidEntryPoint
 class DebugMemoryLeaksActivity : VectorBaseActivity<ActivitySimpleBinding>() {

@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings
+package dev.getzen.element.features.settings
 
 import android.os.Bundle
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.preference.VectorPreference
-import im.vector.app.features.analytics.plan.MobileScreen
+import dev.getzen.element.R
+import dev.getzen.element.core.preference.VectorPreference
+import dev.getzen.element.features.analytics.plan.MobileScreen
 
 @AndroidEntryPoint
 class VectorSettingsRootFragment :

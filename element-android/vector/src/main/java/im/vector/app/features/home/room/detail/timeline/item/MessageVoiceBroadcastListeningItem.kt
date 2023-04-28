@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.item
+package dev.getzen.element.features.home.room.detail.timeline.item
 
 import android.text.format.DateUtils
 import android.widget.ImageButton
@@ -24,16 +24,16 @@ import androidx.constraintlayout.widget.Group
 import androidx.core.view.isInvisible
 import androidx.core.view.isVisible
 import com.airbnb.epoxy.EpoxyModelClass
-import im.vector.app.R
-import im.vector.app.core.epoxy.onClick
-import im.vector.app.core.extensions.setTextOrHide
-import im.vector.app.features.home.room.detail.RoomDetailAction.VoiceBroadcastAction
-import im.vector.app.features.home.room.detail.timeline.helper.AudioMessagePlaybackTracker.Listener.State
-import im.vector.app.features.voicebroadcast.VoiceBroadcastFailure
-import im.vector.app.features.voicebroadcast.listening.VoiceBroadcastPlayer
-import im.vector.app.features.voicebroadcast.model.VoiceBroadcastState
-import im.vector.app.features.voicebroadcast.views.VoiceBroadcastBufferingView
-import im.vector.app.features.voicebroadcast.views.VoiceBroadcastMetadataView
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.onClick
+import dev.getzen.element.core.extensions.setTextOrHide
+import dev.getzen.element.features.home.room.detail.RoomDetailAction.VoiceBroadcastAction
+import dev.getzen.element.features.home.room.detail.timeline.helper.AudioMessagePlaybackTracker.Listener.State
+import dev.getzen.element.features.voicebroadcast.VoiceBroadcastFailure
+import dev.getzen.element.features.voicebroadcast.listening.VoiceBroadcastPlayer
+import dev.getzen.element.features.voicebroadcast.model.VoiceBroadcastState
+import dev.getzen.element.features.voicebroadcast.views.VoiceBroadcastBufferingView
+import dev.getzen.element.features.voicebroadcast.views.VoiceBroadcastMetadataView
 
 @EpoxyModelClass
 abstract class MessageVoiceBroadcastListeningItem : AbsMessageVoiceBroadcastItem<MessageVoiceBroadcastListeningItem.Holder>() {

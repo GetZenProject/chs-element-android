@@ -19,7 +19,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <im.vector.app.core.ui.views.BottomSheetActionButton
+    <dev.getzen.element.core.ui.views.BottomSheetActionButton
         android:id="@+id/threadListModalAllThreads"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -31,7 +31,7 @@
         app:tint="?vctr_content_primary"
         app:titleTextColor="?vctr_content_primary" />
 
-    <im.vector.app.core.ui.views.BottomSheetActionButton
+    <dev.getzen.element.core.ui.views.BottomSheetActionButton
         android:id="@+id/threadListModalMyThreads"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

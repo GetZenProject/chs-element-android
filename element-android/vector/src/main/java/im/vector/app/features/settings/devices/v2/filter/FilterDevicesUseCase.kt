@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2.filter
+package dev.getzen.element.features.settings.devices.v2.filter
 
-import im.vector.app.features.settings.devices.v2.DeviceFullInfo
-import im.vector.app.features.settings.devices.v2.verification.CurrentSessionCrossSigningInfo
+import dev.getzen.element.features.settings.devices.v2.DeviceFullInfo
+import dev.getzen.element.features.settings.devices.v2.verification.CurrentSessionCrossSigningInfo
 import org.matrix.android.sdk.api.extensions.orFalse
 import javax.inject.Inject
 

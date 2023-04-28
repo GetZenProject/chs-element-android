@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.signout.hard
+package dev.getzen.element.features.signout.hard
 
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.databinding.ActivitySignedOutBinding
-import im.vector.app.features.MainActivity
-import im.vector.app.features.MainActivityArgs
+import dev.getzen.element.core.platform.VectorBaseActivity
+import dev.getzen.element.databinding.ActivitySignedOutBinding
+import dev.getzen.element.features.MainActivity
+import dev.getzen.element.features.MainActivityArgs
 import org.matrix.android.sdk.api.failure.GlobalError
 import timber.log.Timber
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.helper
+package dev.getzen.element.features.home.room.detail.timeline.helper
 
 import android.annotation.SuppressLint
 import android.view.View
@@ -23,11 +23,11 @@ import android.widget.ProgressBar
 import android.widget.TextView
 import androidx.core.view.isVisible
 import dagger.hilt.android.scopes.ActivityScoped
-import im.vector.app.R
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.error.ErrorFormatter
-import im.vector.app.core.utils.TextUtils
-import im.vector.app.features.home.room.detail.timeline.MessageColorProvider
+import dev.getzen.element.R
+import dev.getzen.element.core.di.ActiveSessionHolder
+import dev.getzen.element.core.error.ErrorFormatter
+import dev.getzen.element.core.utils.TextUtils
+import dev.getzen.element.features.home.room.detail.timeline.MessageColorProvider
 import org.matrix.android.sdk.api.session.content.ContentUploadStateTracker
 import org.matrix.android.sdk.api.session.room.send.SendState
 import javax.inject.Inject

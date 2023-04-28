@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.test.fakes
+package dev.getzen.element.test.fakes
 
 import androidx.lifecycle.MutableLiveData
-import im.vector.app.test.fixtures.CryptoDeviceInfoFixture.aCryptoDeviceInfo
+import dev.getzen.element.test.fixtures.CryptoDeviceInfoFixture.aCryptoDeviceInfo
 import io.mockk.every
 import io.mockk.mockk
 import io.mockk.slot

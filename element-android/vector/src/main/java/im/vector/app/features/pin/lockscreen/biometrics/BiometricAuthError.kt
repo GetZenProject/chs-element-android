@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.pin.lockscreen.biometrics
+package dev.getzen.element.features.pin.lockscreen.biometrics
 
 import androidx.biometric.BiometricPrompt
 

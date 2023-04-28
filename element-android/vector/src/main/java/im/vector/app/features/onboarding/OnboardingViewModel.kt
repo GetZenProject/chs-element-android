@@ -14,40 +14,40 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.onboarding
+package dev.getzen.element.features.onboarding
 
 import android.content.Context
 import com.airbnb.mvrx.MavericksViewModelFactory
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
-import im.vector.app.R
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.di.MavericksAssistedViewModelFactory
-import im.vector.app.core.di.hiltMavericksViewModelFactory
-import im.vector.app.core.extensions.cancelCurrentOnSet
-import im.vector.app.core.extensions.inferNoConnectivity
-import im.vector.app.core.extensions.isMatrixId
-import im.vector.app.core.extensions.toReducedUrl
-import im.vector.app.core.extensions.vectorStore
-import im.vector.app.core.platform.VectorViewModel
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.session.ConfigureAndStartSessionUseCase
-import im.vector.app.core.utils.ensureProtocol
-import im.vector.app.core.utils.ensureTrailingSlash
-import im.vector.app.features.VectorFeatures
-import im.vector.app.features.VectorOverrides
-import im.vector.app.features.analytics.AnalyticsTracker
-import im.vector.app.features.analytics.extensions.toTrackingValue
-import im.vector.app.features.analytics.plan.UserProperties
-import im.vector.app.features.login.HomeServerConnectionConfigFactory
-import im.vector.app.features.login.LoginConfig
-import im.vector.app.features.login.LoginMode
-import im.vector.app.features.login.ReAuthHelper
-import im.vector.app.features.login.ServerType
-import im.vector.app.features.login.SignMode
-import im.vector.app.features.onboarding.OnboardingAction.AuthenticateAction
-import im.vector.app.features.onboarding.StartAuthenticationFlowUseCase.StartAuthenticationResult
+import dev.getzen.element.R
+import dev.getzen.element.core.di.ActiveSessionHolder
+import dev.getzen.element.core.di.MavericksAssistedViewModelFactory
+import dev.getzen.element.core.di.hiltMavericksViewModelFactory
+import dev.getzen.element.core.extensions.cancelCurrentOnSet
+import dev.getzen.element.core.extensions.inferNoConnectivity
+import dev.getzen.element.core.extensions.isMatrixId
+import dev.getzen.element.core.extensions.toReducedUrl
+import dev.getzen.element.core.extensions.vectorStore
+import dev.getzen.element.core.platform.VectorViewModel
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.core.session.ConfigureAndStartSessionUseCase
+import dev.getzen.element.core.utils.ensureProtocol
+import dev.getzen.element.core.utils.ensureTrailingSlash
+import dev.getzen.element.features.VectorFeatures
+import dev.getzen.element.features.VectorOverrides
+import dev.getzen.element.features.analytics.AnalyticsTracker
+import dev.getzen.element.features.analytics.extensions.toTrackingValue
+import dev.getzen.element.features.analytics.plan.UserProperties
+import dev.getzen.element.features.login.HomeServerConnectionConfigFactory
+import dev.getzen.element.features.login.LoginConfig
+import dev.getzen.element.features.login.LoginMode
+import dev.getzen.element.features.login.ReAuthHelper
+import dev.getzen.element.features.login.ServerType
+import dev.getzen.element.features.login.SignMode
+import dev.getzen.element.features.onboarding.OnboardingAction.AuthenticateAction
+import dev.getzen.element.features.onboarding.StartAuthenticationFlowUseCase.StartAuthenticationResult
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.firstOrNull
 import kotlinx.coroutines.launch
@@ -142,7 +142,7 @@ class OnboardingViewModel @AssistedInject constructor(
         }
     }
 
-    private val matrixOrgUrl = stringProvider.getString(R.string.matrix_org_server_url).ensureTrailingSlash()
+    private val matrixOrgUrl = stringProvider.getString(R.string.homeserver_url).ensureTrailingSlash()
     private val defaultHomeserverUrl = matrixOrgUrl
 
     private val registrationWizard: RegistrationWizard

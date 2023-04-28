@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.composer.images
+package dev.getzen.element.features.home.room.detail.composer.images
 
 import android.content.ClipData
 import android.net.Uri

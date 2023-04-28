@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package im.vector.app.ui.robot
+package dev.getzen.element.ui.robot
 
 import androidx.test.espresso.Espresso.pressBack
 import androidx.test.espresso.matcher.ViewMatchers.withId
 import com.adevinta.android.barista.interaction.BaristaClickInteractions.clickOn
-import im.vector.app.R
-import im.vector.app.espresso.tools.waitUntilViewVisible
-import im.vector.app.features.DefaultVectorFeatures
-import im.vector.app.features.VectorFeatures
-import im.vector.app.ui.robot.settings.labs.LabFeaturesPreferences
+import dev.getzen.element.R
+import dev.getzen.element.espresso.tools.waitUntilViewVisible
+import dev.getzen.element.features.DefaultVectorFeatures
+import dev.getzen.element.features.VectorFeatures
+import dev.getzen.element.ui.robot.settings.labs.LabFeaturesPreferences
 
 class NewRoomRobot(
         var createdRoom: Boolean = false,

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.devtools
+package dev.getzen.element.features.devtools
 
-import im.vector.app.core.platform.VectorViewModelAction
+import dev.getzen.element.core.platform.VectorViewModelAction
 import org.matrix.android.sdk.api.session.events.model.Event
 
 sealed class RoomDevToolAction : VectorViewModelAction {

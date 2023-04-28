@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.invite
+package dev.getzen.element.features.invite
 
 import android.content.Context
 import android.content.Intent
@@ -26,21 +26,21 @@ import com.airbnb.mvrx.Mavericks
 import com.airbnb.mvrx.viewModel
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.addFragment
-import im.vector.app.core.extensions.addFragmentToBackstack
-import im.vector.app.core.platform.SimpleFragmentActivity
-import im.vector.app.core.platform.WaitingViewData
-import im.vector.app.core.utils.PERMISSIONS_FOR_MEMBERS_SEARCH
-import im.vector.app.core.utils.checkPermissions
-import im.vector.app.core.utils.onPermissionDeniedSnackbar
-import im.vector.app.core.utils.registerForPermissionsResult
-import im.vector.app.core.utils.toast
-import im.vector.app.features.contactsbook.ContactsBookFragment
-import im.vector.app.features.userdirectory.UserListFragment
-import im.vector.app.features.userdirectory.UserListFragmentArgs
-import im.vector.app.features.userdirectory.UserListSharedAction
-import im.vector.app.features.userdirectory.UserListSharedActionViewModel
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.addFragment
+import dev.getzen.element.core.extensions.addFragmentToBackstack
+import dev.getzen.element.core.platform.SimpleFragmentActivity
+import dev.getzen.element.core.platform.WaitingViewData
+import dev.getzen.element.core.utils.PERMISSIONS_FOR_MEMBERS_SEARCH
+import dev.getzen.element.core.utils.checkPermissions
+import dev.getzen.element.core.utils.onPermissionDeniedSnackbar
+import dev.getzen.element.core.utils.registerForPermissionsResult
+import dev.getzen.element.core.utils.toast
+import dev.getzen.element.features.contactsbook.ContactsBookFragment
+import dev.getzen.element.features.userdirectory.UserListFragment
+import dev.getzen.element.features.userdirectory.UserListFragmentArgs
+import dev.getzen.element.features.userdirectory.UserListSharedAction
+import dev.getzen.element.features.userdirectory.UserListSharedActionViewModel
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import kotlinx.parcelize.Parcelize

@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package im.vector.app
+package dev.getzen.element
 
-import im.vector.app.test.fakes.FakeActiveSessionDataSource
-import im.vector.app.test.fakes.FakeActiveSessionHolder
-import im.vector.app.test.fakes.FakeAnalyticsTracker
-import im.vector.app.test.fakes.FakeSession
-import im.vector.app.test.fakes.FakeUiStateRepository
-import im.vector.app.test.fakes.FakeVectorPreferences
-import im.vector.app.test.fixtures.RoomSummaryFixture.aRoomSummary
+import dev.getzen.element.test.fakes.FakeActiveSessionDataSource
+import dev.getzen.element.test.fakes.FakeActiveSessionHolder
+import dev.getzen.element.test.fakes.FakeAnalyticsTracker
+import dev.getzen.element.test.fakes.FakeSession
+import dev.getzen.element.test.fakes.FakeUiStateRepository
+import dev.getzen.element.test.fakes.FakeVectorPreferences
+import dev.getzen.element.test.fixtures.RoomSummaryFixture.aRoomSummary
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.test.runTest
 import org.amshove.kluent.shouldBe

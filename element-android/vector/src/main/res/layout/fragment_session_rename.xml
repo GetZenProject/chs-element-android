@@ -59,7 +59,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/renameSessionInputLayout" />
 
-    <im.vector.app.features.settings.devices.v2.SessionWarningInfoView
+    <dev.getzen.element.features.settings.devices.v2.SessionWarningInfoView
         android:id="@+id/renameSessionInfo"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

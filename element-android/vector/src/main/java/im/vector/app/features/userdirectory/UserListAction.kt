@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.userdirectory
+package dev.getzen.element.features.userdirectory
 
-import im.vector.app.core.platform.VectorViewModelAction
+import dev.getzen.element.core.platform.VectorViewModelAction
 
 sealed class UserListAction : VectorViewModelAction {
     data class SearchUsers(val value: String) : UserListAction()

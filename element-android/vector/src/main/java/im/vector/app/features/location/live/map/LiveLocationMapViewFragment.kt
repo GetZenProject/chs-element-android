@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.location.live.map
+package dev.getzen.element.features.location.live.map
 
 import android.graphics.drawable.Drawable
 import android.os.Bundle
@@ -43,24 +43,24 @@ import com.mapbox.mapboxsdk.plugins.annotation.SymbolManager
 import com.mapbox.mapboxsdk.plugins.annotation.SymbolOptions
 import com.mapbox.mapboxsdk.style.layers.Property
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.addChildFragment
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.resources.DrawableProvider
-import im.vector.app.core.utils.DimensionConverter
-import im.vector.app.core.utils.PERMISSIONS_FOR_FOREGROUND_LOCATION_SHARING
-import im.vector.app.core.utils.checkPermissions
-import im.vector.app.core.utils.onPermissionDeniedDialog
-import im.vector.app.core.utils.openLocation
-import im.vector.app.core.utils.registerForPermissionsResult
-import im.vector.app.databinding.FragmentLiveLocationMapViewBinding
-import im.vector.app.features.location.LocationData
-import im.vector.app.features.location.UrlMapProvider
-import im.vector.app.features.location.showUserLocationNotAvailableErrorDialog
-import im.vector.app.features.location.zoomToBounds
-import im.vector.app.features.location.zoomToLocation
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.addChildFragment
+import dev.getzen.element.core.extensions.cleanup
+import dev.getzen.element.core.extensions.configureWith
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.core.resources.DrawableProvider
+import dev.getzen.element.core.utils.DimensionConverter
+import dev.getzen.element.core.utils.PERMISSIONS_FOR_FOREGROUND_LOCATION_SHARING
+import dev.getzen.element.core.utils.checkPermissions
+import dev.getzen.element.core.utils.onPermissionDeniedDialog
+import dev.getzen.element.core.utils.openLocation
+import dev.getzen.element.core.utils.registerForPermissionsResult
+import dev.getzen.element.databinding.FragmentLiveLocationMapViewBinding
+import dev.getzen.element.features.location.LocationData
+import dev.getzen.element.features.location.UrlMapProvider
+import dev.getzen.element.features.location.showUserLocationNotAvailableErrorDialog
+import dev.getzen.element.features.location.zoomToBounds
+import dev.getzen.element.features.location.zoomToLocation
 import kotlinx.coroutines.launch
 import timber.log.Timber
 import java.lang.ref.WeakReference
@@ -437,7 +437,7 @@ class LiveLocationMapViewFragment :
     }
 
     companion object {
-        private const val MAP_FRAGMENT_TAG = "im.vector.app.features.location.live.map"
+        private const val MAP_FRAGMENT_TAG = "dev.getzen.element.features.location.live.map"
         private const val COPYRIGHT_MARGIN_DP = 8
         private const val COPYRIGHT_ATTRIBUTION_MARGIN_DP = 96
     }

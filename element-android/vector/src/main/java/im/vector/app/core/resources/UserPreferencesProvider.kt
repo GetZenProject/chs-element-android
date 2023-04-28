@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.resources
+package dev.getzen.element.core.resources
 
-import im.vector.app.features.settings.VectorPreferences
+import dev.getzen.element.features.settings.VectorPreferences
 import javax.inject.Inject
 
 class UserPreferencesProvider @Inject constructor(private val vectorPreferences: VectorPreferences) {

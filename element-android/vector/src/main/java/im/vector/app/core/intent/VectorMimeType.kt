@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.intent
+package dev.getzen.element.core.intent
 
 import android.content.Context
 import android.net.Uri
 import android.webkit.MimeTypeMap
-import im.vector.app.core.utils.getFileExtension
+import dev.getzen.element.core.utils.getFileExtension
 import timber.log.Timber
 import java.util.Locale
 

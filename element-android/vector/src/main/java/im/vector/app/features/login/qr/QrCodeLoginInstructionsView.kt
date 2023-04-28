@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.login.qr
+package dev.getzen.element.features.login.qr
 
 import android.content.Context
 import android.content.res.TypedArray
@@ -25,8 +25,8 @@ import android.widget.TextView
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.res.use
 import androidx.core.view.isVisible
-import im.vector.app.R
-import im.vector.app.databinding.ViewQrCodeLoginInstructionsBinding
+import dev.getzen.element.R
+import dev.getzen.element.databinding.ViewQrCodeLoginInstructionsBinding
 
 class QrCodeLoginInstructionsView @JvmOverloads constructor(
         context: Context,

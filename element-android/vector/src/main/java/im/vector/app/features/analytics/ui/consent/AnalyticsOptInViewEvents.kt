@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.analytics.ui.consent
+package dev.getzen.element.features.analytics.ui.consent
 
-import im.vector.app.core.platform.VectorViewEvents
+import dev.getzen.element.core.platform.VectorViewEvents
 
 sealed interface AnalyticsOptInViewEvents : VectorViewEvents {
     object OnDataSaved : AnalyticsOptInViewEvents

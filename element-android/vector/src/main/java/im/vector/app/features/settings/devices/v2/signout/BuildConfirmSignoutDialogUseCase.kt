@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2.signout
+package dev.getzen.element.features.settings.devices.v2.signout
 
 import android.content.Context
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
+import dev.getzen.element.R
 import javax.inject.Inject
 
 class BuildConfirmSignoutDialogUseCase @Inject constructor() {

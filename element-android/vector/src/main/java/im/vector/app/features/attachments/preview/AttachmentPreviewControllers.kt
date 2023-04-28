@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.attachments.preview
+package dev.getzen.element.features.attachments.preview
 
 import com.airbnb.epoxy.TypedEpoxyController
 import org.matrix.android.sdk.api.session.content.ContentAttachmentData

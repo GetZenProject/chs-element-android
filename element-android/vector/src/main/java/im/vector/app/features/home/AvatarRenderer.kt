@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home
+package dev.getzen.element.features.home
 
 import android.graphics.Bitmap
 import android.graphics.drawable.Drawable
@@ -35,14 +35,14 @@ import com.bumptech.glide.request.RequestOptions
 import com.bumptech.glide.request.target.DrawableImageViewTarget
 import com.bumptech.glide.request.target.Target
 import com.bumptech.glide.signature.ObjectKey
-import im.vector.app.core.contacts.MappedContact
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.glide.AvatarPlaceholder
-import im.vector.app.core.glide.GlideApp
-import im.vector.app.core.glide.GlideRequest
-import im.vector.app.core.glide.GlideRequests
-import im.vector.app.core.utils.DimensionConverter
-import im.vector.app.features.home.room.detail.timeline.helper.MatrixItemColorProvider
+import dev.getzen.element.core.contacts.MappedContact
+import dev.getzen.element.core.di.ActiveSessionHolder
+import dev.getzen.element.core.glide.AvatarPlaceholder
+import dev.getzen.element.core.glide.GlideApp
+import dev.getzen.element.core.glide.GlideRequest
+import dev.getzen.element.core.glide.GlideRequests
+import dev.getzen.element.core.utils.DimensionConverter
+import dev.getzen.element.features.home.room.detail.timeline.helper.MatrixItemColorProvider
 import jp.wasabeef.glide.transformations.BlurTransformation
 import jp.wasabeef.glide.transformations.ColorFilterTransformation
 import org.matrix.android.sdk.api.auth.login.LoginProfileInfo

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.userdirectory
+package dev.getzen.element.features.userdirectory
 
-import im.vector.app.core.platform.VectorSharedAction
+import dev.getzen.element.core.platform.VectorSharedAction
 
 sealed class UserListSharedAction : VectorSharedAction {
     object Close : UserListSharedAction()

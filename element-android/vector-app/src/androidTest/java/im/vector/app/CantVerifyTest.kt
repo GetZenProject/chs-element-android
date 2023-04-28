@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app
+package dev.getzen.element
 
 import android.view.View
 import androidx.test.espresso.Espresso
@@ -24,8 +24,8 @@ import androidx.test.ext.junit.rules.ActivityScenarioRule
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.filters.LargeTest
 import com.adevinta.android.barista.internal.viewaction.SleepViewAction
-import im.vector.app.features.MainActivity
-import im.vector.app.ui.robot.ElementRobot
+import dev.getzen.element.features.MainActivity
+import dev.getzen.element.ui.robot.ElementRobot
 import org.junit.Rule
 import org.junit.Test
 import org.junit.rules.RuleChain

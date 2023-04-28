@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.crypto.verification.emoji
+package dev.getzen.element.features.crypto.verification.emoji
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -23,12 +23,12 @@ import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.parentFragmentViewModel
 import com.airbnb.mvrx.withState
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.databinding.BottomSheetVerificationChildFragmentBinding
-import im.vector.app.features.crypto.verification.VerificationAction
-import im.vector.app.features.crypto.verification.VerificationBottomSheetViewModel
+import dev.getzen.element.core.extensions.cleanup
+import dev.getzen.element.core.extensions.configureWith
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.databinding.BottomSheetVerificationChildFragmentBinding
+import dev.getzen.element.features.crypto.verification.VerificationAction
+import dev.getzen.element.features.crypto.verification.VerificationBottomSheetViewModel
 import javax.inject.Inject
 
 @AndroidEntryPoint

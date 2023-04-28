@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.onboarding.ftueauth.terms
+package dev.getzen.element.features.onboarding.ftueauth.terms
 
 import android.os.Bundle
 import android.os.Parcelable
@@ -23,18 +23,18 @@ import android.view.View
 import android.view.ViewGroup
 import com.airbnb.mvrx.args
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.extensions.toReducedUrl
-import im.vector.app.core.utils.openUrlInChromeCustomTab
-import im.vector.app.databinding.FragmentLoginTermsBinding
-import im.vector.app.features.login.terms.LocalizedFlowDataLoginTermsChecked
-import im.vector.app.features.login.terms.LoginTermsViewState
-import im.vector.app.features.login.terms.PolicyController
-import im.vector.app.features.onboarding.OnboardingAction
-import im.vector.app.features.onboarding.OnboardingViewState
-import im.vector.app.features.onboarding.RegisterAction
-import im.vector.app.features.onboarding.ftueauth.AbstractFtueAuthFragment
+import dev.getzen.element.core.extensions.cleanup
+import dev.getzen.element.core.extensions.configureWith
+import dev.getzen.element.core.extensions.toReducedUrl
+import dev.getzen.element.core.utils.openUrlInChromeCustomTab
+import dev.getzen.element.databinding.FragmentLoginTermsBinding
+import dev.getzen.element.features.login.terms.LocalizedFlowDataLoginTermsChecked
+import dev.getzen.element.features.login.terms.LoginTermsViewState
+import dev.getzen.element.features.login.terms.PolicyController
+import dev.getzen.element.features.onboarding.OnboardingAction
+import dev.getzen.element.features.onboarding.OnboardingViewState
+import dev.getzen.element.features.onboarding.RegisterAction
+import dev.getzen.element.features.onboarding.ftueauth.AbstractFtueAuthFragment
 import kotlinx.parcelize.Parcelize
 import org.matrix.android.sdk.api.auth.data.LocalizedFlowDataLoginTerms
 import javax.inject.Inject

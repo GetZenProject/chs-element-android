@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.composer.rainbow
+package dev.getzen.element.features.home.room.detail.composer.rainbow
 
-import im.vector.app.core.utils.splitEmoji
+import dev.getzen.element.core.utils.splitEmoji
 import javax.inject.Inject
 import kotlin.math.cos
 import kotlin.math.pow

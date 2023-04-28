@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings
+package dev.getzen.element.features.settings
 
 import android.os.Bundle
 import androidx.preference.Preference
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.orEmpty
-import im.vector.app.core.preference.VectorPreference
-import im.vector.app.core.resources.BuildMeta
-import im.vector.app.core.utils.FirstThrottler
-import im.vector.app.core.utils.copyToClipboard
-import im.vector.app.core.utils.openAppSettingsPage
-import im.vector.app.core.utils.openUrlInChromeCustomTab
-import im.vector.app.features.analytics.plan.MobileScreen
-import im.vector.app.features.version.VersionProvider
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.orEmpty
+import dev.getzen.element.core.preference.VectorPreference
+import dev.getzen.element.core.resources.BuildMeta
+import dev.getzen.element.core.utils.FirstThrottler
+import dev.getzen.element.core.utils.copyToClipboard
+import dev.getzen.element.core.utils.openAppSettingsPage
+import dev.getzen.element.core.utils.openUrlInChromeCustomTab
+import dev.getzen.element.features.analytics.plan.MobileScreen
+import dev.getzen.element.features.version.VersionProvider
 import org.matrix.android.sdk.api.Matrix
 import javax.inject.Inject
 

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.invite
+package dev.getzen.element.features.invite
 
-import im.vector.app.core.platform.VectorViewEvents
+import dev.getzen.element.core.platform.VectorViewEvents
 
 sealed class InviteUsersToRoomViewEvents : VectorViewEvents {
     object Loading : InviteUsersToRoomViewEvents()

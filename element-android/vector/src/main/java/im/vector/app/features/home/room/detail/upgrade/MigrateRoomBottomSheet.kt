@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.upgrade
+package dev.getzen.element.features.home.room.detail.upgrade
 
 import android.os.Bundle
 import android.os.Parcelable
@@ -28,11 +28,11 @@ import com.airbnb.mvrx.Success
 import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.error.ErrorFormatter
-import im.vector.app.core.extensions.setTextOrHide
-import im.vector.app.core.platform.VectorBaseBottomSheetDialogFragment
-import im.vector.app.databinding.BottomSheetRoomUpgradeBinding
+import dev.getzen.element.R
+import dev.getzen.element.core.error.ErrorFormatter
+import dev.getzen.element.core.extensions.setTextOrHide
+import dev.getzen.element.core.platform.VectorBaseBottomSheetDialogFragment
+import dev.getzen.element.databinding.BottomSheetRoomUpgradeBinding
 import kotlinx.parcelize.Parcelize
 import javax.inject.Inject
 

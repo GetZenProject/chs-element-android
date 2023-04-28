@@ -15,7 +15,7 @@
  *
  */
 
-package im.vector.app.features.attachments.preview
+package dev.getzen.element.features.attachments.preview
 
 import android.app.Activity.RESULT_CANCELED
 import android.app.Activity.RESULT_OK
@@ -40,18 +40,18 @@ import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
 import com.yalantis.ucrop.UCrop
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.insertBeforeLast
-import im.vector.app.core.extensions.registerStartForActivityResult
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.platform.VectorMenuProvider
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.utils.OnSnapPositionChangeListener
-import im.vector.app.core.utils.SnapOnScrollListener
-import im.vector.app.core.utils.attachSnapHelperWithListener
-import im.vector.app.databinding.FragmentAttachmentsPreviewBinding
-import im.vector.app.features.media.createUCropWithDefaultSettings
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.cleanup
+import dev.getzen.element.core.extensions.insertBeforeLast
+import dev.getzen.element.core.extensions.registerStartForActivityResult
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.core.platform.VectorMenuProvider
+import dev.getzen.element.core.resources.ColorProvider
+import dev.getzen.element.core.utils.OnSnapPositionChangeListener
+import dev.getzen.element.core.utils.SnapOnScrollListener
+import dev.getzen.element.core.utils.attachSnapHelperWithListener
+import dev.getzen.element.databinding.FragmentAttachmentsPreviewBinding
+import dev.getzen.element.features.media.createUCropWithDefaultSettings
 import im.vector.lib.core.utils.timer.Clock
 import kotlinx.parcelize.Parcelize
 import org.matrix.android.sdk.api.extensions.orFalse

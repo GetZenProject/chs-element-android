@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.location
+package dev.getzen.element.features.location
 
 import android.content.Context
 import android.content.res.TypedArray
@@ -23,10 +23,10 @@ import android.util.AttributeSet
 import android.view.LayoutInflater
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.res.use
-import im.vector.app.R
-import im.vector.app.core.glide.GlideApp
-import im.vector.app.databinding.ViewMapLoadingErrorBinding
-import im.vector.app.features.themes.ThemeUtils
+import dev.getzen.element.R
+import dev.getzen.element.core.glide.GlideApp
+import dev.getzen.element.databinding.ViewMapLoadingErrorBinding
+import dev.getzen.element.features.themes.ThemeUtils
 
 /**
  * Custom view to display an error when map fails to load.

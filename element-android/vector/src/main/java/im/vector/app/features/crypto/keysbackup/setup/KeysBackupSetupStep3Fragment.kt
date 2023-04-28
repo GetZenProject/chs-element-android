@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.crypto.keysbackup.setup
+package dev.getzen.element.features.crypto.keysbackup.setup
 
 import android.app.Activity
 import android.net.Uri
@@ -28,15 +28,15 @@ import androidx.lifecycle.lifecycleScope
 import com.google.android.material.bottomsheet.BottomSheetDialog
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.registerStartForActivityResult
-import im.vector.app.core.extensions.safeOpenOutputStream
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.utils.LiveEvent
-import im.vector.app.core.utils.copyToClipboard
-import im.vector.app.core.utils.selectTxtFileToWrite
-import im.vector.app.core.utils.startSharePlainTextIntent
-import im.vector.app.databinding.FragmentKeysBackupSetupStep3Binding
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.registerStartForActivityResult
+import dev.getzen.element.core.extensions.safeOpenOutputStream
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.core.utils.LiveEvent
+import dev.getzen.element.core.utils.copyToClipboard
+import dev.getzen.element.core.utils.selectTxtFileToWrite
+import dev.getzen.element.core.utils.startSharePlainTextIntent
+import dev.getzen.element.databinding.FragmentKeysBackupSetupStep3Binding
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.createdirect
+package dev.getzen.element.features.createdirect
 
-import im.vector.app.core.platform.VectorViewEvents
+import dev.getzen.element.core.platform.VectorViewEvents
 
 sealed class CreateDirectRoomViewEvents : VectorViewEvents {
     object InvalidCode : CreateDirectRoomViewEvents()

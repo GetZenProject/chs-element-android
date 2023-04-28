@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.location
+package dev.getzen.element.features.location
 
 import android.content.Context
 import android.content.Intent
 import android.os.Parcelable
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.core.extensions.addFragment
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.databinding.ActivityLocationSharingBinding
-import im.vector.app.features.location.preview.LocationPreviewFragment
+import dev.getzen.element.core.extensions.addFragment
+import dev.getzen.element.core.platform.VectorBaseActivity
+import dev.getzen.element.databinding.ActivityLocationSharingBinding
+import dev.getzen.element.features.location.preview.LocationPreviewFragment
 import im.vector.lib.core.utils.compat.getParcelableCompat
 import kotlinx.parcelize.Parcelize
 

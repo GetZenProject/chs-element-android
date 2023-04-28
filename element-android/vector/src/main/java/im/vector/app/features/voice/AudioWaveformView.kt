@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.voice
+package dev.getzen.element.features.voice
 
 import android.content.Context
 import android.content.res.Resources
@@ -22,7 +22,7 @@ import android.graphics.Canvas
 import android.graphics.Paint
 import android.util.AttributeSet
 import android.view.View
-import im.vector.app.R
+import dev.getzen.element.R
 import kotlin.math.max
 import kotlin.random.Random
 

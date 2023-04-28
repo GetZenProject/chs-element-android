@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2
+package dev.getzen.element.features.settings.devices.v2
 
 import android.app.Activity
 import android.content.Context
@@ -28,31 +28,31 @@ import com.airbnb.mvrx.Success
 import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.date.VectorDateFormatter
-import im.vector.app.core.dialogs.ManuallyVerifyDialog
-import im.vector.app.core.extensions.registerStartForActivityResult
-import im.vector.app.core.extensions.setTextColor
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.resources.DrawableProvider
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.databinding.FragmentSettingsDevicesBinding
-import im.vector.app.features.VectorFeatures
-import im.vector.app.features.auth.ReAuthActivity
-import im.vector.app.features.crypto.recover.SetupMode
-import im.vector.app.features.crypto.verification.VerificationBottomSheet
-import im.vector.app.features.login.qr.QrCodeLoginArgs
-import im.vector.app.features.login.qr.QrCodeLoginType
-import im.vector.app.features.settings.devices.v2.filter.DeviceManagerFilterType
-import im.vector.app.features.settings.devices.v2.list.NUMBER_OF_OTHER_DEVICES_TO_RENDER
-import im.vector.app.features.settings.devices.v2.list.OtherSessionsView
-import im.vector.app.features.settings.devices.v2.list.SESSION_IS_MARKED_AS_INACTIVE_AFTER_DAYS
-import im.vector.app.features.settings.devices.v2.list.SecurityRecommendationView
-import im.vector.app.features.settings.devices.v2.list.SecurityRecommendationViewState
-import im.vector.app.features.settings.devices.v2.list.SessionInfoViewState
-import im.vector.app.features.settings.devices.v2.signout.BuildConfirmSignoutDialogUseCase
-import im.vector.app.features.workers.signout.SignOutUiWorker
+import dev.getzen.element.R
+import dev.getzen.element.core.date.VectorDateFormatter
+import dev.getzen.element.core.dialogs.ManuallyVerifyDialog
+import dev.getzen.element.core.extensions.registerStartForActivityResult
+import dev.getzen.element.core.extensions.setTextColor
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.core.resources.ColorProvider
+import dev.getzen.element.core.resources.DrawableProvider
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.databinding.FragmentSettingsDevicesBinding
+import dev.getzen.element.features.VectorFeatures
+import dev.getzen.element.features.auth.ReAuthActivity
+import dev.getzen.element.features.crypto.recover.SetupMode
+import dev.getzen.element.features.crypto.verification.VerificationBottomSheet
+import dev.getzen.element.features.login.qr.QrCodeLoginArgs
+import dev.getzen.element.features.login.qr.QrCodeLoginType
+import dev.getzen.element.features.settings.devices.v2.filter.DeviceManagerFilterType
+import dev.getzen.element.features.settings.devices.v2.list.NUMBER_OF_OTHER_DEVICES_TO_RENDER
+import dev.getzen.element.features.settings.devices.v2.list.OtherSessionsView
+import dev.getzen.element.features.settings.devices.v2.list.SESSION_IS_MARKED_AS_INACTIVE_AFTER_DAYS
+import dev.getzen.element.features.settings.devices.v2.list.SecurityRecommendationView
+import dev.getzen.element.features.settings.devices.v2.list.SecurityRecommendationViewState
+import dev.getzen.element.features.settings.devices.v2.list.SessionInfoViewState
+import dev.getzen.element.features.settings.devices.v2.signout.BuildConfirmSignoutDialogUseCase
+import dev.getzen.element.features.workers.signout.SignOutUiWorker
 import org.matrix.android.sdk.api.auth.data.LoginFlowTypes
 import org.matrix.android.sdk.api.extensions.orFalse
 import javax.inject.Inject

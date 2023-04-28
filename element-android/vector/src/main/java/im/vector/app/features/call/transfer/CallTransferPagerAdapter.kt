@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call.transfer
+package dev.getzen.element.features.call.transfer
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import im.vector.app.core.extensions.toMvRxBundle
-import im.vector.app.features.call.dialpad.DialPadFragment
-import im.vector.app.features.settings.VectorLocaleProvider
-import im.vector.app.features.userdirectory.UserListFragment
-import im.vector.app.features.userdirectory.UserListFragmentArgs
+import dev.getzen.element.core.extensions.toMvRxBundle
+import dev.getzen.element.features.call.dialpad.DialPadFragment
+import dev.getzen.element.features.settings.VectorLocaleProvider
+import dev.getzen.element.features.userdirectory.UserListFragment
+import dev.getzen.element.features.userdirectory.UserListFragmentArgs
 
 class CallTransferPagerAdapter(
         private val fragmentActivity: FragmentActivity,

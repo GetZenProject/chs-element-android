@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.debug.leak
+package dev.getzen.element.features.debug.leak
 
 import com.airbnb.mvrx.MavericksState
 

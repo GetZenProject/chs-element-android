@@ -16,7 +16,7 @@
 
 @file:Suppress("UNUSED_VARIABLE", "UNUSED_ANONYMOUS_PARAMETER", "UNUSED_PARAMETER")
 
-package im.vector.app.features.settings
+package dev.getzen.element.features.settings
 
 import android.net.Uri
 import android.os.Bundle
@@ -35,28 +35,28 @@ import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.cache.DiskCache
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.dialogs.GalleryOrCameraDialogHelper
-import im.vector.app.core.dialogs.GalleryOrCameraDialogHelperFactory
-import im.vector.app.core.extensions.hideKeyboard
-import im.vector.app.core.extensions.hidePassword
-import im.vector.app.core.extensions.toMvRxBundle
-import im.vector.app.core.intent.getFilenameFromUri
-import im.vector.app.core.platform.SimpleTextWatcher
-import im.vector.app.core.preference.UserAvatarPreference
-import im.vector.app.core.preference.VectorPreference
-import im.vector.app.core.preference.VectorSwitchPreference
-import im.vector.app.core.utils.TextUtils
-import im.vector.app.core.utils.getSizeOfFiles
-import im.vector.app.core.utils.openUrlInExternalBrowser
-import im.vector.app.core.utils.toast
-import im.vector.app.databinding.DialogChangePasswordBinding
-import im.vector.app.features.MainActivity
-import im.vector.app.features.MainActivityArgs
-import im.vector.app.features.analytics.plan.MobileScreen
-import im.vector.app.features.discovery.DiscoverySettingsFragment
-import im.vector.app.features.navigation.SettingsActivityPayload
-import im.vector.app.features.workers.signout.SignOutUiWorker
+import dev.getzen.element.R
+import dev.getzen.element.core.dialogs.GalleryOrCameraDialogHelper
+import dev.getzen.element.core.dialogs.GalleryOrCameraDialogHelperFactory
+import dev.getzen.element.core.extensions.hideKeyboard
+import dev.getzen.element.core.extensions.hidePassword
+import dev.getzen.element.core.extensions.toMvRxBundle
+import dev.getzen.element.core.intent.getFilenameFromUri
+import dev.getzen.element.core.platform.SimpleTextWatcher
+import dev.getzen.element.core.preference.UserAvatarPreference
+import dev.getzen.element.core.preference.VectorPreference
+import dev.getzen.element.core.preference.VectorSwitchPreference
+import dev.getzen.element.core.utils.TextUtils
+import dev.getzen.element.core.utils.getSizeOfFiles
+import dev.getzen.element.core.utils.openUrlInExternalBrowser
+import dev.getzen.element.core.utils.toast
+import dev.getzen.element.databinding.DialogChangePasswordBinding
+import dev.getzen.element.features.MainActivity
+import dev.getzen.element.features.MainActivityArgs
+import dev.getzen.element.features.analytics.plan.MobileScreen
+import dev.getzen.element.features.discovery.DiscoverySettingsFragment
+import dev.getzen.element.features.navigation.SettingsActivityPayload
+import dev.getzen.element.features.workers.signout.SignOutUiWorker
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.distinctUntilChangedBy

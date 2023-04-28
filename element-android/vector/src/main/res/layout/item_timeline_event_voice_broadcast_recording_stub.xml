@@ -60,7 +60,7 @@
         app:layout_constraintStart_toEndOf="@id/avatarRightBarrier"
         app:layout_constraintTop_toBottomOf="@id/titleText">
 
-        <im.vector.app.features.voicebroadcast.views.VoiceBroadcastMetadataView
+        <dev.getzen.element.features.voicebroadcast.views.VoiceBroadcastMetadataView
             android:id="@+id/listenersCountMetadata"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -69,7 +69,7 @@
             app:metadataValue="@string/no_value_placeholder"
             tools:metadataValue="5 listening" />
 
-        <im.vector.app.features.voicebroadcast.views.VoiceBroadcastMetadataView
+        <dev.getzen.element.features.voicebroadcast.views.VoiceBroadcastMetadataView
             android:id="@+id/remainingTimeMetadata"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.analytics.impl
+package dev.getzen.element.features.analytics.impl
 
 import android.content.Context
-import im.vector.app.ActiveSessionDataSource
-import im.vector.app.core.extensions.vectorStore
-import im.vector.app.features.analytics.extensions.toTrackingValue
-import im.vector.app.features.analytics.plan.UserProperties
+import dev.getzen.element.ActiveSessionDataSource
+import dev.getzen.element.core.extensions.vectorStore
+import dev.getzen.element.features.analytics.extensions.toTrackingValue
+import dev.getzen.element.features.analytics.plan.UserProperties
 import javax.inject.Inject
 
 class LateInitUserPropertiesFactory @Inject constructor(

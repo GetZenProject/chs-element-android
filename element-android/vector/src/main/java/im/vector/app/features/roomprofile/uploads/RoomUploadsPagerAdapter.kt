@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.uploads
+package dev.getzen.element.features.roomprofile.uploads
 
 import androidx.fragment.app.Fragment
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import im.vector.app.features.roomprofile.uploads.files.RoomUploadsFilesFragment
-import im.vector.app.features.roomprofile.uploads.media.RoomUploadsMediaFragment
+import dev.getzen.element.features.roomprofile.uploads.files.RoomUploadsFilesFragment
+import dev.getzen.element.features.roomprofile.uploads.media.RoomUploadsMediaFragment
 
 class RoomUploadsPagerAdapter(
         private val fragment: Fragment

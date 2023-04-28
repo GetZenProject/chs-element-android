@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home
+package dev.getzen.element.features.home
 
 import androidx.lifecycle.asFlow
 import com.airbnb.mvrx.MavericksViewModelFactory
@@ -22,20 +22,20 @@ import com.airbnb.mvrx.ViewModelContext
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
-import im.vector.app.SpaceStateHandler
-import im.vector.app.core.di.MavericksAssistedViewModelFactory
-import im.vector.app.core.di.hiltMavericksViewModelFactory
-import im.vector.app.core.extensions.singletonEntryPoint
-import im.vector.app.core.platform.VectorViewModel
-import im.vector.app.features.VectorOverrides
-import im.vector.app.features.call.dialpad.DialPadLookup
-import im.vector.app.features.call.lookup.CallProtocolsChecker
-import im.vector.app.features.call.webrtc.WebRtcCallManager
-import im.vector.app.features.createdirect.DirectRoomHelper
-import im.vector.app.features.invite.AutoAcceptInvites
-import im.vector.app.features.invite.showInvites
-import im.vector.app.features.settings.VectorDataStore
-import im.vector.app.features.ui.UiStateRepository
+import dev.getzen.element.SpaceStateHandler
+import dev.getzen.element.core.di.MavericksAssistedViewModelFactory
+import dev.getzen.element.core.di.hiltMavericksViewModelFactory
+import dev.getzen.element.core.extensions.singletonEntryPoint
+import dev.getzen.element.core.platform.VectorViewModel
+import dev.getzen.element.features.VectorOverrides
+import dev.getzen.element.features.call.dialpad.DialPadLookup
+import dev.getzen.element.features.call.lookup.CallProtocolsChecker
+import dev.getzen.element.features.call.webrtc.WebRtcCallManager
+import dev.getzen.element.features.createdirect.DirectRoomHelper
+import dev.getzen.element.features.invite.AutoAcceptInvites
+import dev.getzen.element.features.invite.showInvites
+import dev.getzen.element.features.settings.VectorDataStore
+import dev.getzen.element.features.ui.UiStateRepository
 import im.vector.lib.core.utils.flow.throttleFirst
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.distinctUntilChanged

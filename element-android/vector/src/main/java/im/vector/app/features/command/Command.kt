@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.command
+package dev.getzen.element.features.command
 
 import androidx.annotation.StringRes
-import im.vector.app.R
+import dev.getzen.element.R
 
 /**
  * Defines the command line operations.

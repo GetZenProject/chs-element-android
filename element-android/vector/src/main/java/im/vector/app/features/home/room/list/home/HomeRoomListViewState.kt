@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.list.home
+package dev.getzen.element.features.home.room.list.home
 
 import com.airbnb.mvrx.MavericksState
-import im.vector.app.core.platform.StateView
-import im.vector.app.features.home.room.list.home.header.RoomsHeadersData
+import dev.getzen.element.core.platform.StateView
+import dev.getzen.element.features.home.room.list.home.header.RoomsHeadersData
 
 data class HomeRoomListViewState(
         val emptyState: StateView.State.Empty? = null,

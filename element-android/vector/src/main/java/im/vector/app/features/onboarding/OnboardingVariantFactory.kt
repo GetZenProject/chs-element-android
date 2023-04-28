@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.onboarding
+package dev.getzen.element.features.onboarding
 
-import im.vector.app.config.OnboardingVariant
-import im.vector.app.core.platform.ScreenOrientationLocker
-import im.vector.app.databinding.ActivityLoginBinding
-import im.vector.app.features.VectorFeatures
-import im.vector.app.features.onboarding.ftueauth.FtueAuthVariant
+import dev.getzen.element.config.OnboardingVariant
+import dev.getzen.element.core.platform.ScreenOrientationLocker
+import dev.getzen.element.databinding.ActivityLoginBinding
+import dev.getzen.element.features.VectorFeatures
+import dev.getzen.element.features.onboarding.ftueauth.FtueAuthVariant
 import javax.inject.Inject
 
 class OnboardingVariantFactory @Inject constructor(

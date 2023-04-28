@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.analytics.metrics
+package dev.getzen.element.features.analytics.metrics
 
-import im.vector.app.features.analytics.metrics.sentry.SentryDownloadDeviceKeysMetrics
-import im.vector.app.features.analytics.metrics.sentry.SentrySyncDurationMetrics
+import dev.getzen.element.features.analytics.metrics.sentry.SentryDownloadDeviceKeysMetrics
+import dev.getzen.element.features.analytics.metrics.sentry.SentrySyncDurationMetrics
 import org.matrix.android.sdk.api.metrics.MetricPlugin
 import javax.inject.Inject
 import javax.inject.Singleton

@@ -3,10 +3,10 @@ package ${escapeKotlinIdentifiers(packageName)}
 import android.content.Context
 import android.content.Intent
 import com.google.android.material.appbar.MaterialToolbar
-import im.vector.app.R
-import im.vector.app.core.extensions.addFragment
-import im.vector.app.core.platform.ToolbarConfigurable
-import im.vector.app.core.platform.VectorBaseActivity
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.addFragment
+import dev.getzen.element.core.platform.ToolbarConfigurable
+import dev.getzen.element.core.platform.VectorBaseActivity
 
 //TODO add this activity to manifest
 class ${activityClass} : VectorBaseActivity(), ToolbarConfigurable {

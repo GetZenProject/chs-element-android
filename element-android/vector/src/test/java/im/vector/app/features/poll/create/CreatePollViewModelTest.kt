@@ -14,26 +14,26 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.poll.create
+package dev.getzen.element.features.poll.create
 
 import com.airbnb.mvrx.test.MavericksTestRule
-import im.vector.app.features.poll.PollMode
-import im.vector.app.test.fakes.FakeCreatePollViewStates.A_FAKE_OPTIONS
-import im.vector.app.test.fakes.FakeCreatePollViewStates.A_FAKE_QUESTION
-import im.vector.app.test.fakes.FakeCreatePollViewStates.A_FAKE_ROOM_ID
-import im.vector.app.test.fakes.FakeCreatePollViewStates.A_POLL_START_TIMELINE_EVENT
-import im.vector.app.test.fakes.FakeCreatePollViewStates.createPollArgs
-import im.vector.app.test.fakes.FakeCreatePollViewStates.editPollArgs
-import im.vector.app.test.fakes.FakeCreatePollViewStates.editedPollViewState
-import im.vector.app.test.fakes.FakeCreatePollViewStates.initialCreatePollViewState
-import im.vector.app.test.fakes.FakeCreatePollViewStates.pollViewStateWithOnlyQuestion
-import im.vector.app.test.fakes.FakeCreatePollViewStates.pollViewStateWithQuestionAndEnoughOptions
-import im.vector.app.test.fakes.FakeCreatePollViewStates.pollViewStateWithQuestionAndEnoughOptionsButDeletedLastOption
-import im.vector.app.test.fakes.FakeCreatePollViewStates.pollViewStateWithQuestionAndMaxOptions
-import im.vector.app.test.fakes.FakeCreatePollViewStates.pollViewStateWithQuestionAndNotEnoughOptions
-import im.vector.app.test.fakes.FakeCreatePollViewStates.pollViewStateWithoutQuestionAndEnoughOptions
-import im.vector.app.test.fakes.FakeSession
-import im.vector.app.test.test
+import dev.getzen.element.features.poll.PollMode
+import dev.getzen.element.test.fakes.FakeCreatePollViewStates.A_FAKE_OPTIONS
+import dev.getzen.element.test.fakes.FakeCreatePollViewStates.A_FAKE_QUESTION
+import dev.getzen.element.test.fakes.FakeCreatePollViewStates.A_FAKE_ROOM_ID
+import dev.getzen.element.test.fakes.FakeCreatePollViewStates.A_POLL_START_TIMELINE_EVENT
+import dev.getzen.element.test.fakes.FakeCreatePollViewStates.createPollArgs
+import dev.getzen.element.test.fakes.FakeCreatePollViewStates.editPollArgs
+import dev.getzen.element.test.fakes.FakeCreatePollViewStates.editedPollViewState
+import dev.getzen.element.test.fakes.FakeCreatePollViewStates.initialCreatePollViewState
+import dev.getzen.element.test.fakes.FakeCreatePollViewStates.pollViewStateWithOnlyQuestion
+import dev.getzen.element.test.fakes.FakeCreatePollViewStates.pollViewStateWithQuestionAndEnoughOptions
+import dev.getzen.element.test.fakes.FakeCreatePollViewStates.pollViewStateWithQuestionAndEnoughOptionsButDeletedLastOption
+import dev.getzen.element.test.fakes.FakeCreatePollViewStates.pollViewStateWithQuestionAndMaxOptions
+import dev.getzen.element.test.fakes.FakeCreatePollViewStates.pollViewStateWithQuestionAndNotEnoughOptions
+import dev.getzen.element.test.fakes.FakeCreatePollViewStates.pollViewStateWithoutQuestionAndEnoughOptions
+import dev.getzen.element.test.fakes.FakeSession
+import dev.getzen.element.test.test
 import io.mockk.unmockkAll
 import kotlinx.coroutines.test.UnconfinedTestDispatcher
 import kotlinx.coroutines.test.runTest

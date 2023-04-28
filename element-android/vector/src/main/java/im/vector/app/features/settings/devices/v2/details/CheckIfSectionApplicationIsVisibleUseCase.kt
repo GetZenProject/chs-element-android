@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2.details
+package dev.getzen.element.features.settings.devices.v2.details
 
-import im.vector.app.core.session.clientinfo.MatrixClientInfoContent
+import dev.getzen.element.core.session.clientinfo.MatrixClientInfoContent
 import org.matrix.android.sdk.api.extensions.orFalse
 import javax.inject.Inject
 

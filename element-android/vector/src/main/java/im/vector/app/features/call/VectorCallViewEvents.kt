@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call
+package dev.getzen.element.features.call
 
-import im.vector.app.core.platform.VectorViewEvents
-import im.vector.app.features.call.audio.CallAudioManager
+import dev.getzen.element.core.platform.VectorViewEvents
+import dev.getzen.element.features.call.audio.CallAudioManager
 import org.matrix.android.sdk.api.session.call.TurnServerResponse
 
 sealed class VectorCallViewEvents : VectorViewEvents {

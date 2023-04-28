@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.pin
+package dev.getzen.element.features.pin
 
 import android.content.Context
 import android.content.Intent
 import com.airbnb.mvrx.Mavericks
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.core.extensions.addFragment
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.databinding.ActivitySimpleBinding
+import dev.getzen.element.core.extensions.addFragment
+import dev.getzen.element.core.platform.VectorBaseActivity
+import dev.getzen.element.databinding.ActivitySimpleBinding
 import im.vector.lib.core.utils.compat.getParcelableCompat
 
 @AndroidEntryPoint

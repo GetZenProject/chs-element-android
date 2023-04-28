@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.utils
+package dev.getzen.element.core.utils
 
 import androidx.test.platform.app.InstrumentationRegistry
-import im.vector.app.features.room.VectorRoomDisplayNameFallbackProvider
+import dev.getzen.element.features.room.VectorRoomDisplayNameFallbackProvider
 import org.matrix.android.sdk.api.Matrix
 import org.matrix.android.sdk.api.MatrixConfiguration
 import org.matrix.android.sdk.api.SyncConfig

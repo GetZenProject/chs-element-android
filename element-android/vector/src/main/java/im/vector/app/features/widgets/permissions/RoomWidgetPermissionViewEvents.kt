@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.widgets.permissions
+package dev.getzen.element.features.widgets.permissions
 
-import im.vector.app.core.platform.VectorViewEvents
+import dev.getzen.element.core.platform.VectorViewEvents
 
 sealed class RoomWidgetPermissionViewEvents : VectorViewEvents {
     object Close : RoomWidgetPermissionViewEvents()

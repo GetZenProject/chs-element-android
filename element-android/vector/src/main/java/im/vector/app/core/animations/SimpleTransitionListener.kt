@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.animations
+package dev.getzen.element.core.animations
 
 import androidx.transition.Transition
 

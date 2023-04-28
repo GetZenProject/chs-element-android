@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.discovery
+package dev.getzen.element.features.discovery
 
 import com.airbnb.epoxy.TypedEpoxyController
 import com.airbnb.mvrx.Async
@@ -22,16 +22,16 @@ import com.airbnb.mvrx.Incomplete
 import com.airbnb.mvrx.Loading
 import com.airbnb.mvrx.Success
 import com.airbnb.mvrx.Uninitialized
-import im.vector.app.R
-import im.vector.app.core.epoxy.attributes.ButtonStyle
-import im.vector.app.core.epoxy.attributes.ButtonType
-import im.vector.app.core.epoxy.attributes.IconMode
-import im.vector.app.core.epoxy.loadingItem
-import im.vector.app.core.error.ErrorFormatter
-import im.vector.app.core.extensions.getFormattedValue
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.form.formAdvancedToggleItem
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.attributes.ButtonStyle
+import dev.getzen.element.core.epoxy.attributes.ButtonType
+import dev.getzen.element.core.epoxy.attributes.IconMode
+import dev.getzen.element.core.epoxy.loadingItem
+import dev.getzen.element.core.error.ErrorFormatter
+import dev.getzen.element.core.extensions.getFormattedValue
+import dev.getzen.element.core.resources.ColorProvider
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.features.form.formAdvancedToggleItem
 import org.matrix.android.sdk.api.failure.Failure
 import org.matrix.android.sdk.api.session.identity.SharedState
 import org.matrix.android.sdk.api.session.identity.ThreePid

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.pin.lockscreen.ui
+package dev.getzen.element.features.pin.lockscreen.ui
 
 import android.app.KeyguardManager
 import android.os.Build
@@ -24,14 +24,14 @@ import com.airbnb.mvrx.MavericksViewModelFactory
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
-import im.vector.app.core.di.MavericksAssistedViewModelFactory
-import im.vector.app.core.di.hiltMavericksViewModelFactory
-import im.vector.app.core.platform.VectorViewModel
-import im.vector.app.features.pin.lockscreen.biometrics.BiometricAuthError
-import im.vector.app.features.pin.lockscreen.biometrics.BiometricHelper
-import im.vector.app.features.pin.lockscreen.configuration.LockScreenMode
-import im.vector.app.features.pin.lockscreen.crypto.LockScreenKeysMigrator
-import im.vector.app.features.pin.lockscreen.pincode.PinCodeHelper
+import dev.getzen.element.core.di.MavericksAssistedViewModelFactory
+import dev.getzen.element.core.di.hiltMavericksViewModelFactory
+import dev.getzen.element.core.platform.VectorViewModel
+import dev.getzen.element.features.pin.lockscreen.biometrics.BiometricAuthError
+import dev.getzen.element.features.pin.lockscreen.biometrics.BiometricHelper
+import dev.getzen.element.features.pin.lockscreen.configuration.LockScreenMode
+import dev.getzen.element.features.pin.lockscreen.crypto.LockScreenKeysMigrator
+import dev.getzen.element.features.pin.lockscreen.pincode.PinCodeHelper
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.catch
 import kotlinx.coroutines.flow.emitAll

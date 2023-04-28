@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.create
+package dev.getzen.element.features.spaces.create
 
 import android.net.Uri
 import android.os.Bundle
@@ -23,13 +23,13 @@ import android.view.View
 import android.view.ViewGroup
 import com.airbnb.mvrx.activityViewModel
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.core.dialogs.GalleryOrCameraDialogHelper
-import im.vector.app.core.dialogs.GalleryOrCameraDialogHelperFactory
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.extensions.hideKeyboard
-import im.vector.app.core.platform.OnBackPressed
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.databinding.FragmentSpaceCreateGenericEpoxyFormBinding
+import dev.getzen.element.core.dialogs.GalleryOrCameraDialogHelper
+import dev.getzen.element.core.dialogs.GalleryOrCameraDialogHelperFactory
+import dev.getzen.element.core.extensions.configureWith
+import dev.getzen.element.core.extensions.hideKeyboard
+import dev.getzen.element.core.platform.OnBackPressed
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.databinding.FragmentSpaceCreateGenericEpoxyFormBinding
 import javax.inject.Inject
 
 @AndroidEntryPoint

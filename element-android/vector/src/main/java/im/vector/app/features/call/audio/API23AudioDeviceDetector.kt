@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.call.audio
+package dev.getzen.element.features.call.audio
 
 import android.media.AudioDeviceCallback
 import android.media.AudioDeviceInfo

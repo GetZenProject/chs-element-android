@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail
+package dev.getzen.element.features.home.room.detail
 
 sealed class RoomDetailPendingAction {
     object DoNothing : RoomDetailPendingAction()

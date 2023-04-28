@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.devtools
+package dev.getzen.element.features.devtools
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -24,9 +24,9 @@ import androidx.lifecycle.lifecycleScope
 import com.airbnb.mvrx.activityViewModel
 import com.airbnb.mvrx.withState
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.core.extensions.hideKeyboard
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.databinding.FragmentDevtoolsEditorBinding
+import dev.getzen.element.core.extensions.hideKeyboard
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.databinding.FragmentDevtoolsEditorBinding
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import reactivecircus.flowbinding.android.widget.textChanges

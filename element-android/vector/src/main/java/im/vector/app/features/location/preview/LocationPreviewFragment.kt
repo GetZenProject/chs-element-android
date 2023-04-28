@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.location.preview
+package dev.getzen.element.features.location.preview
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -30,20 +30,20 @@ import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
 import com.mapbox.mapboxsdk.maps.MapView
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.platform.VectorMenuProvider
-import im.vector.app.core.utils.PERMISSIONS_FOR_FOREGROUND_LOCATION_SHARING
-import im.vector.app.core.utils.checkPermissions
-import im.vector.app.core.utils.onPermissionDeniedDialog
-import im.vector.app.core.utils.openLocation
-import im.vector.app.core.utils.registerForPermissionsResult
-import im.vector.app.databinding.FragmentLocationPreviewBinding
-import im.vector.app.features.location.DEFAULT_PIN_ID
-import im.vector.app.features.location.LocationSharingArgs
-import im.vector.app.features.location.MapState
-import im.vector.app.features.location.UrlMapProvider
-import im.vector.app.features.location.showUserLocationNotAvailableErrorDialog
+import dev.getzen.element.R
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.core.platform.VectorMenuProvider
+import dev.getzen.element.core.utils.PERMISSIONS_FOR_FOREGROUND_LOCATION_SHARING
+import dev.getzen.element.core.utils.checkPermissions
+import dev.getzen.element.core.utils.onPermissionDeniedDialog
+import dev.getzen.element.core.utils.openLocation
+import dev.getzen.element.core.utils.registerForPermissionsResult
+import dev.getzen.element.databinding.FragmentLocationPreviewBinding
+import dev.getzen.element.features.location.DEFAULT_PIN_ID
+import dev.getzen.element.features.location.LocationSharingArgs
+import dev.getzen.element.features.location.MapState
+import dev.getzen.element.features.location.UrlMapProvider
+import dev.getzen.element.features.location.showUserLocationNotAvailableErrorDialog
 import kotlinx.coroutines.launch
 import java.lang.ref.WeakReference
 import javax.inject.Inject

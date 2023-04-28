@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.pushers
+package dev.getzen.element.core.pushers
 
 import android.content.Context
 import android.widget.Toast
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.services.GuardServiceStarter
-import im.vector.app.features.settings.BackgroundSyncMode
-import im.vector.app.features.settings.VectorPreferences
+import dev.getzen.element.core.di.ActiveSessionHolder
+import dev.getzen.element.core.services.GuardServiceStarter
+import dev.getzen.element.features.settings.BackgroundSyncMode
+import dev.getzen.element.features.settings.VectorPreferences
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.launch

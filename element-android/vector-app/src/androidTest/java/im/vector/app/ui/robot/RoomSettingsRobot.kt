@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.ui.robot
+package dev.getzen.element.ui.robot
 
 import androidx.test.espresso.Espresso.pressBack
 import androidx.test.espresso.action.ViewActions
@@ -24,11 +24,11 @@ import com.adevinta.android.barista.assertion.BaristaVisibilityAssertions.assert
 import com.adevinta.android.barista.interaction.BaristaClickInteractions.clickOn
 import com.adevinta.android.barista.interaction.BaristaDialogInteractions.clickDialogNegativeButton
 import com.adevinta.android.barista.interaction.BaristaListInteractions.clickListItem
-import im.vector.app.R
-import im.vector.app.espresso.tools.waitUntilActivityVisible
-import im.vector.app.espresso.tools.waitUntilDialogVisible
-import im.vector.app.espresso.tools.waitUntilViewVisible
-import im.vector.app.features.roommemberprofile.RoomMemberProfileActivity
+import dev.getzen.element.R
+import dev.getzen.element.espresso.tools.waitUntilActivityVisible
+import dev.getzen.element.espresso.tools.waitUntilDialogVisible
+import dev.getzen.element.espresso.tools.waitUntilViewVisible
+import dev.getzen.element.features.roommemberprofile.RoomMemberProfileActivity
 
 class RoomSettingsRobot {
 

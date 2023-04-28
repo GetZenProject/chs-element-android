@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.navigation
+package dev.getzen.element.features.navigation
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize

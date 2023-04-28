@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.platform
+package dev.getzen.element.core.platform
 
 import com.airbnb.mvrx.MavericksState
 import com.airbnb.mvrx.MavericksViewModel
-import im.vector.app.core.utils.EventQueue
-import im.vector.app.core.utils.SharedEvents
+import dev.getzen.element.core.utils.EventQueue
+import dev.getzen.element.core.utils.SharedEvents
 
 abstract class VectorViewModel<S : MavericksState, VA : VectorViewModelAction, VE : VectorViewEvents>(initialState: S) :
         MavericksViewModel<S>(initialState) {

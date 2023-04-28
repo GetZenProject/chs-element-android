@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2
+package dev.getzen.element.features.settings.devices.v2
 
 import android.content.Intent
-import im.vector.app.features.settings.devices.v2.filter.DeviceManagerFilterType
-import im.vector.app.features.settings.devices.v2.othersessions.OtherSessionsActivity
-import im.vector.app.features.settings.devices.v2.overview.SessionOverviewActivity
-import im.vector.app.features.settings.devices.v2.rename.RenameSessionActivity
-import im.vector.app.test.fakes.FakeContext
+import dev.getzen.element.features.settings.devices.v2.filter.DeviceManagerFilterType
+import dev.getzen.element.features.settings.devices.v2.othersessions.OtherSessionsActivity
+import dev.getzen.element.features.settings.devices.v2.overview.SessionOverviewActivity
+import dev.getzen.element.features.settings.devices.v2.rename.RenameSessionActivity
+import dev.getzen.element.test.fakes.FakeContext
 import io.mockk.every
 import io.mockk.mockk
 import io.mockk.mockkObject

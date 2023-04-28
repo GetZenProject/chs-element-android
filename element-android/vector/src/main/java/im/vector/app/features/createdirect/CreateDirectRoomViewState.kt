@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.createdirect
+package dev.getzen.element.features.createdirect
 
 import com.airbnb.mvrx.Async
 import com.airbnb.mvrx.MavericksState
 import com.airbnb.mvrx.Uninitialized
-import im.vector.app.features.userdirectory.PendingSelection
+import dev.getzen.element.features.userdirectory.PendingSelection
 
 data class CreateDirectRoomViewState(
         val pendingSelections: Set<PendingSelection> = emptySet(),

@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.screenshot
+package dev.getzen.element.screenshot
 
 import android.view.View
 import android.widget.TextView
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.view.isVisible
-import im.vector.app.R
-import im.vector.app.features.home.room.list.UnreadCounterBadgeView
+import dev.getzen.element.R
+import dev.getzen.element.features.home.room.list.UnreadCounterBadgeView
 import org.junit.Rule
 import org.junit.Test
 

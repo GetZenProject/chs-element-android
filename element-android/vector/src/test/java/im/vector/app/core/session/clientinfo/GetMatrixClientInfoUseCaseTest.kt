@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.session.clientinfo
+package dev.getzen.element.core.session.clientinfo
 
-import im.vector.app.test.fakes.FakeSession
+import dev.getzen.element.test.fakes.FakeSession
 import org.amshove.kluent.shouldBeEqualTo
 import org.junit.Test
 

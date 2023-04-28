@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.threepids
+package dev.getzen.element.features.settings.threepids
 
 import com.airbnb.mvrx.Async
 import com.airbnb.mvrx.MavericksState
 import com.airbnb.mvrx.Uninitialized
-import im.vector.app.core.utils.ReadOnceTrue
+import dev.getzen.element.core.utils.ReadOnceTrue
 import org.matrix.android.sdk.api.session.identity.ThreePid
 
 data class ThreePidsSettingsViewState(

@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.html
+package dev.getzen.element.features.html
 
-import im.vector.app.core.utils.DimensionConverter
-import im.vector.app.features.settings.VectorPreferences
+import dev.getzen.element.core.utils.DimensionConverter
+import dev.getzen.element.features.settings.VectorPreferences
 import io.element.android.wysiwyg.spans.CodeBlockSpan
 import io.element.android.wysiwyg.spans.InlineCodeSpan
 import io.noties.markwon.MarkwonVisitor

@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.contactsbook
+package dev.getzen.element.features.contactsbook
 
-import im.vector.app.core.platform.VectorViewEvents
-import im.vector.app.features.discovery.ServerAndPolicies
+import dev.getzen.element.core.platform.VectorViewEvents
+import dev.getzen.element.features.discovery.ServerAndPolicies
 
 sealed class ContactsBookViewEvents : VectorViewEvents {
     data class Failure(val throwable: Throwable) : ContactsBookViewEvents()

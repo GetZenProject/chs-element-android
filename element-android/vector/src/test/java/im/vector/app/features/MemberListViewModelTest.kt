@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package im.vector.app.features
+package dev.getzen.element.features
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.lifecycle.MutableLiveData
 import com.airbnb.mvrx.test.MavericksTestRule
-import im.vector.app.features.roomprofile.RoomProfileArgs
-import im.vector.app.features.roomprofile.members.RoomMemberListViewModel
-import im.vector.app.features.roomprofile.members.RoomMemberListViewState
-import im.vector.app.features.roomprofile.members.RoomMemberSummaryComparator
-import im.vector.app.test.test
-import im.vector.app.test.testCoroutineDispatchers
+import dev.getzen.element.features.roomprofile.RoomProfileArgs
+import dev.getzen.element.features.roomprofile.members.RoomMemberListViewModel
+import dev.getzen.element.features.roomprofile.members.RoomMemberListViewState
+import dev.getzen.element.features.roomprofile.members.RoomMemberSummaryComparator
+import dev.getzen.element.test.test
+import dev.getzen.element.test.testCoroutineDispatchers
 import io.mockk.coEvery
 import io.mockk.every
 import io.mockk.mockk

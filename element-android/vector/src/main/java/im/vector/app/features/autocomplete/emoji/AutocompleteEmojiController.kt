@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.autocomplete.emoji
+package dev.getzen.element.features.autocomplete.emoji
 
 import android.graphics.Typeface
 import androidx.recyclerview.widget.RecyclerView
 import com.airbnb.epoxy.TypedEpoxyController
-import im.vector.app.EmojiCompatFontProvider
-import im.vector.app.features.autocomplete.AutocompleteClickListener
-import im.vector.app.features.reactions.data.EmojiItem
+import dev.getzen.element.EmojiCompatFontProvider
+import dev.getzen.element.features.autocomplete.AutocompleteClickListener
+import dev.getzen.element.features.reactions.data.EmojiItem
 import javax.inject.Inject
 
 class AutocompleteEmojiController @Inject constructor(

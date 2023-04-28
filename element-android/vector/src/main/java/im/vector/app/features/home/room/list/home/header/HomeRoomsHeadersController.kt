@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.list.home.header
+package dev.getzen.element.features.home.room.list.home.header
 
 import android.content.res.Resources
 import android.util.TypedValue
@@ -25,12 +25,12 @@ import com.airbnb.epoxy.EpoxyController
 import com.airbnb.epoxy.EpoxyModel
 import com.airbnb.epoxy.carousel
 import com.google.android.material.color.MaterialColors
-import im.vector.app.R
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.utils.FirstItemUpdatedObserver
-import im.vector.app.features.analytics.AnalyticsTracker
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.home.room.list.RoomListListener
+import dev.getzen.element.R
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.core.utils.FirstItemUpdatedObserver
+import dev.getzen.element.features.analytics.AnalyticsTracker
+import dev.getzen.element.features.home.AvatarRenderer
+import dev.getzen.element.features.home.room.list.RoomListListener
 import org.matrix.android.sdk.api.session.room.model.RoomSummary
 import org.matrix.android.sdk.api.util.toMatrixItem
 import javax.inject.Inject

@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:paddingHorizontal="16dp">
 
-    <im.vector.app.features.login.qr.QrCodeLoginHeaderView
+    <dev.getzen.element.features.login.qr.QrCodeLoginHeaderView
         android:id="@+id/qrCodeLoginInstructionsHeaderView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -17,7 +17,7 @@
         app:qrCodeLoginHeaderImageResource="@drawable/ic_camera"
         app:qrCodeLoginHeaderTitle="@string/qr_code_login_header_scan_qr_code_title" />
 
-    <im.vector.app.features.login.qr.QrCodeLoginInstructionsView
+    <dev.getzen.element.features.login.qr.QrCodeLoginInstructionsView
         android:id="@+id/qrCodeLoginInstructionsView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

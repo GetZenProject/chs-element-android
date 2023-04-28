@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.core.ui.bottomsheet
+package dev.getzen.element.core.ui.bottomsheet
 
 import com.airbnb.epoxy.TypedEpoxyController
 

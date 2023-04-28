@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.threads.list.viewmodel
+package dev.getzen.element.features.home.room.threads.list.viewmodel
 
-import im.vector.app.core.platform.VectorViewModelAction
+import dev.getzen.element.core.platform.VectorViewModelAction
 
 sealed interface ThreadListViewActions : VectorViewModelAction {
     object TryAgain : ThreadListViewActions

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.crypto.recover
+package dev.getzen.element.features.crypto.recover
 
-import im.vector.app.R
-import im.vector.app.core.platform.ViewModelTask
-import im.vector.app.core.platform.WaitingViewData
-import im.vector.app.core.resources.StringProvider
+import dev.getzen.element.R
+import dev.getzen.element.core.platform.ViewModelTask
+import dev.getzen.element.core.platform.WaitingViewData
+import dev.getzen.element.core.resources.StringProvider
 import org.matrix.android.sdk.api.auth.UserInteractiveAuthInterceptor
 import org.matrix.android.sdk.api.failure.Failure
 import org.matrix.android.sdk.api.failure.MatrixError

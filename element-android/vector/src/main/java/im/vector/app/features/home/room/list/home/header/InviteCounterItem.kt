@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.list.home.header
+package dev.getzen.element.features.home.room.list.home.header
 
 import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
-import im.vector.app.R
-import im.vector.app.core.epoxy.ClickListener
-import im.vector.app.core.epoxy.VectorEpoxyHolder
-import im.vector.app.core.epoxy.VectorEpoxyModel
-import im.vector.app.features.home.room.list.UnreadCounterBadgeView
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.ClickListener
+import dev.getzen.element.core.epoxy.VectorEpoxyHolder
+import dev.getzen.element.core.epoxy.VectorEpoxyModel
+import dev.getzen.element.features.home.room.list.UnreadCounterBadgeView
 
 @EpoxyModelClass
 abstract class InviteCounterItem : VectorEpoxyModel<InviteCounterItem.Holder>(R.layout.item_invites_count) {

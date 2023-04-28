@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.item
+package dev.getzen.element.features.home.room.detail.timeline.item
 
 import android.graphics.drawable.Drawable
 import android.widget.ImageView
@@ -30,14 +30,14 @@ import com.bumptech.glide.load.resource.bitmap.RoundedCorners
 import com.bumptech.glide.request.RequestListener
 import com.bumptech.glide.request.RequestOptions
 import com.bumptech.glide.request.target.Target
-import im.vector.app.R
-import im.vector.app.core.glide.GlideApp
-import im.vector.app.core.utils.DimensionConverter
-import im.vector.app.features.home.room.detail.timeline.helper.LocationPinProvider
-import im.vector.app.features.home.room.detail.timeline.style.TimelineMessageLayout
-import im.vector.app.features.home.room.detail.timeline.style.granularRoundedCorners
-import im.vector.app.features.location.MapLoadingErrorView
-import im.vector.app.features.location.MapLoadingErrorViewState
+import dev.getzen.element.R
+import dev.getzen.element.core.glide.GlideApp
+import dev.getzen.element.core.utils.DimensionConverter
+import dev.getzen.element.features.home.room.detail.timeline.helper.LocationPinProvider
+import dev.getzen.element.features.home.room.detail.timeline.style.TimelineMessageLayout
+import dev.getzen.element.features.home.room.detail.timeline.style.granularRoundedCorners
+import dev.getzen.element.features.location.MapLoadingErrorView
+import dev.getzen.element.features.location.MapLoadingErrorViewState
 
 abstract class AbsMessageLocationItem<H : AbsMessageLocationItem.Holder>(
         @LayoutRes layoutId: Int = R.layout.item_timeline_event_base

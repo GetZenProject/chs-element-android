@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.login
+package dev.getzen.element.features.login
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -23,10 +23,10 @@ import android.view.ViewGroup
 import androidx.core.view.isVisible
 import com.airbnb.mvrx.withState
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.toReducedUrl
-import im.vector.app.databinding.FragmentLoginSignupSigninSelectionBinding
-import im.vector.app.features.login.SocialLoginButtonsView.Mode
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.toReducedUrl
+import dev.getzen.element.databinding.FragmentLoginSignupSigninSelectionBinding
+import dev.getzen.element.features.login.SocialLoginButtonsView.Mode
 import org.matrix.android.sdk.api.auth.SSOAction
 
 /**

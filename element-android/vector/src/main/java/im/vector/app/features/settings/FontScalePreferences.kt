@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings
+package dev.getzen.element.features.settings
 
 import android.content.SharedPreferences
 import androidx.annotation.StringRes
 import androidx.core.content.edit
-import im.vector.app.R
-import im.vector.app.core.di.DefaultPreferences
-import im.vector.app.core.utils.SystemSettingsProvider
+import dev.getzen.element.R
+import dev.getzen.element.core.di.DefaultPreferences
+import dev.getzen.element.core.utils.SystemSettingsProvider
 import javax.inject.Inject
 
 /**

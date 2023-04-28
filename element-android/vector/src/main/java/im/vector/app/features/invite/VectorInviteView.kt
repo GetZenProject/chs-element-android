@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.invite
+package dev.getzen.element.features.invite
 
 import android.content.Context
 import android.util.AttributeSet
@@ -22,9 +22,9 @@ import android.view.View
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.view.updateLayoutParams
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.databinding.VectorInviteViewBinding
-import im.vector.app.features.home.AvatarRenderer
+import dev.getzen.element.R
+import dev.getzen.element.databinding.VectorInviteViewBinding
+import dev.getzen.element.features.home.AvatarRenderer
 import org.matrix.android.sdk.api.session.room.members.ChangeMembershipState
 import org.matrix.android.sdk.api.session.room.model.RoomMemberSummary
 import org.matrix.android.sdk.api.util.toMatrixItem

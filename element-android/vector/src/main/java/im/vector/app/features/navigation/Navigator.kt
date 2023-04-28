@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.navigation
+package dev.getzen.element.features.navigation
 
 import android.app.Activity
 import android.content.Context
@@ -24,22 +24,22 @@ import android.view.View
 import androidx.activity.result.ActivityResultLauncher
 import androidx.core.util.Pair
 import androidx.fragment.app.FragmentActivity
-import im.vector.app.features.analytics.plan.ViewRoom
-import im.vector.app.features.crypto.recover.SetupMode
-import im.vector.app.features.displayname.getBestName
-import im.vector.app.features.home.room.threads.arguments.ThreadTimelineArgs
-import im.vector.app.features.location.LocationData
-import im.vector.app.features.location.LocationSharingMode
-import im.vector.app.features.login.LoginConfig
-import im.vector.app.features.login.qr.QrCodeLoginArgs
-import im.vector.app.features.matrixto.OriginOfMatrixTo
-import im.vector.app.features.media.AttachmentData
-import im.vector.app.features.pin.PinMode
-import im.vector.app.features.poll.PollMode
-import im.vector.app.features.roomdirectory.RoomDirectoryData
-import im.vector.app.features.roomdirectory.roompreview.RoomPreviewData
-import im.vector.app.features.settings.VectorSettingsActivity
-import im.vector.app.features.share.SharedData
+import dev.getzen.element.features.analytics.plan.ViewRoom
+import dev.getzen.element.features.crypto.recover.SetupMode
+import dev.getzen.element.features.displayname.getBestName
+import dev.getzen.element.features.home.room.threads.arguments.ThreadTimelineArgs
+import dev.getzen.element.features.location.LocationData
+import dev.getzen.element.features.location.LocationSharingMode
+import dev.getzen.element.features.login.LoginConfig
+import dev.getzen.element.features.login.qr.QrCodeLoginArgs
+import dev.getzen.element.features.matrixto.OriginOfMatrixTo
+import dev.getzen.element.features.media.AttachmentData
+import dev.getzen.element.features.pin.PinMode
+import dev.getzen.element.features.poll.PollMode
+import dev.getzen.element.features.roomdirectory.RoomDirectoryData
+import dev.getzen.element.features.roomdirectory.roompreview.RoomPreviewData
+import dev.getzen.element.features.settings.VectorSettingsActivity
+import dev.getzen.element.features.share.SharedData
 import org.matrix.android.sdk.api.session.permalinks.PermalinkData
 import org.matrix.android.sdk.api.session.room.model.roomdirectory.PublicRoom
 import org.matrix.android.sdk.api.session.terms.TermsService

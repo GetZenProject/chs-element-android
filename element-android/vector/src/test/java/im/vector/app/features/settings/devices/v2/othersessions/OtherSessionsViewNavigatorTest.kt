@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2.othersessions
+package dev.getzen.element.features.settings.devices.v2.othersessions
 
 import android.content.Intent
-import im.vector.app.features.settings.devices.v2.overview.SessionOverviewActivity
-import im.vector.app.test.fakes.FakeContext
+import dev.getzen.element.features.settings.devices.v2.overview.SessionOverviewActivity
+import dev.getzen.element.test.fakes.FakeContext
 import io.mockk.every
 import io.mockk.mockk
 import io.mockk.mockkObject

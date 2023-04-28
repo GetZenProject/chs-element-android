@@ -168,7 +168,7 @@
         android:visibility="visible"
         app:constraint_referenced_ids="participantNameText, otherMemberAvatar" />
 
-    <im.vector.app.features.call.CallControlsView
+    <dev.getzen.element.features.call.CallControlsView
         android:id="@+id/callControlsView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

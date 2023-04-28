@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.pin.lockscreen.ui
+package dev.getzen.element.features.pin.lockscreen.ui
 
 import androidx.fragment.app.FragmentActivity
-import im.vector.app.core.platform.VectorViewModelAction
+import dev.getzen.element.core.platform.VectorViewModelAction
 
 sealed class LockScreenAction : VectorViewModelAction {
     data class PinCodeEntered(val value: String) : LockScreenAction()

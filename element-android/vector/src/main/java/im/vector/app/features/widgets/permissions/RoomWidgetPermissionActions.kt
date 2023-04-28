@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.widgets.permissions
+package dev.getzen.element.features.widgets.permissions
 
-import im.vector.app.core.platform.VectorViewModelAction
+import dev.getzen.element.core.platform.VectorViewModelAction
 
 sealed class RoomWidgetPermissionActions : VectorViewModelAction {
     object AllowWidget : RoomWidgetPermissionActions()

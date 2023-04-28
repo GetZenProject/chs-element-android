@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.search
+package dev.getzen.element.features.home.room.detail.search
 
 import android.os.Bundle
 import android.os.Parcelable
@@ -30,16 +30,16 @@ import com.airbnb.mvrx.args
 import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.extensions.hideKeyboard
-import im.vector.app.core.extensions.trackItemsVisibilityChange
-import im.vector.app.core.platform.StateView
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.databinding.FragmentSearchBinding
-import im.vector.app.features.analytics.plan.ViewRoom
-import im.vector.app.features.home.room.threads.arguments.ThreadTimelineArgs
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.cleanup
+import dev.getzen.element.core.extensions.configureWith
+import dev.getzen.element.core.extensions.hideKeyboard
+import dev.getzen.element.core.extensions.trackItemsVisibilityChange
+import dev.getzen.element.core.platform.StateView
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.databinding.FragmentSearchBinding
+import dev.getzen.element.features.analytics.plan.ViewRoom
+import dev.getzen.element.features.home.room.threads.arguments.ThreadTimelineArgs
 import kotlinx.parcelize.Parcelize
 import org.matrix.android.sdk.api.session.events.model.Event
 import org.matrix.android.sdk.api.session.events.model.getRootThreadEventId

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.session.clientinfo
+package dev.getzen.element.core.session.clientinfo
 
 /**
  * Prefix for the key account data event which holds client info.

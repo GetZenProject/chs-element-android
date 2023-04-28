@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.attachments
+package dev.getzen.element.features.attachments
 
 import android.app.Activity
 import android.content.ActivityNotFoundException
@@ -22,10 +22,10 @@ import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import androidx.activity.result.ActivityResultLauncher
-import im.vector.app.core.dialogs.PhotoOrVideoDialog
-import im.vector.app.core.platform.Restorable
-import im.vector.app.core.resources.BuildMeta
-import im.vector.app.features.settings.VectorPreferences
+import dev.getzen.element.core.dialogs.PhotoOrVideoDialog
+import dev.getzen.element.core.platform.Restorable
+import dev.getzen.element.core.resources.BuildMeta
+import dev.getzen.element.features.settings.VectorPreferences
 import im.vector.lib.core.utils.compat.getParcelableCompat
 import im.vector.lib.core.utils.compat.getSerializableCompat
 import im.vector.lib.multipicker.MultiPicker

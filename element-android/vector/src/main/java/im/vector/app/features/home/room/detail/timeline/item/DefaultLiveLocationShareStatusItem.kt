@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.item
+package dev.getzen.element.features.home.room.detail.timeline.item
 
 import android.content.res.Resources
 import android.graphics.drawable.ColorDrawable
@@ -25,12 +25,12 @@ import com.bumptech.glide.load.MultiTransformation
 import com.bumptech.glide.load.resource.bitmap.CenterCrop
 import com.bumptech.glide.load.resource.bitmap.GranularRoundedCorners
 import com.bumptech.glide.load.resource.bitmap.RoundedCorners
-import im.vector.app.R
-import im.vector.app.core.glide.GlideApp
-import im.vector.app.core.utils.DimensionConverter
-import im.vector.app.features.home.room.detail.timeline.style.TimelineMessageLayout
-import im.vector.app.features.home.room.detail.timeline.style.granularRoundedCorners
-import im.vector.app.features.themes.ThemeUtils
+import dev.getzen.element.R
+import dev.getzen.element.core.glide.GlideApp
+import dev.getzen.element.core.utils.DimensionConverter
+import dev.getzen.element.features.home.room.detail.timeline.style.TimelineMessageLayout
+import dev.getzen.element.features.home.room.detail.timeline.style.granularRoundedCorners
+import dev.getzen.element.features.themes.ThemeUtils
 
 /**
  * Default implementation of common methods for item representing the status of a live location share.

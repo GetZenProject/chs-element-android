@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices
+package dev.getzen.element.features.settings.devices
 
 import com.airbnb.mvrx.Async
 import com.airbnb.mvrx.MavericksState

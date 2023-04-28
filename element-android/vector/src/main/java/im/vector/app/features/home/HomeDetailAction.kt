@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home
+package dev.getzen.element.features.home
 
-import im.vector.app.core.platform.VectorViewModelAction
+import dev.getzen.element.core.platform.VectorViewModelAction
 
 sealed class HomeDetailAction : VectorViewModelAction {
     data class SwitchTab(val tab: HomeTab) : HomeDetailAction()

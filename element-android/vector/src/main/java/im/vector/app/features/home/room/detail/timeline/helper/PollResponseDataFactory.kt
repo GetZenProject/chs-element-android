@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.helper
+package dev.getzen.element.features.home.room.detail.timeline.helper
 
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.features.home.room.detail.timeline.item.PollResponseData
-import im.vector.app.features.home.room.detail.timeline.item.PollVoteSummaryData
+import dev.getzen.element.core.di.ActiveSessionHolder
+import dev.getzen.element.features.home.room.detail.timeline.item.PollResponseData
+import dev.getzen.element.features.home.room.detail.timeline.item.PollVoteSummaryData
 import org.matrix.android.sdk.api.session.events.model.getRelationContent
 import org.matrix.android.sdk.api.session.events.model.isPollEnd
 import org.matrix.android.sdk.api.session.room.getTimelineEvent

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.auth
+package dev.getzen.element.features.auth
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -23,9 +23,9 @@ import android.view.ViewGroup
 import androidx.core.view.isVisible
 import com.airbnb.mvrx.activityViewModel
 import com.airbnb.mvrx.withState
-import im.vector.app.R
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.databinding.FragmentReauthConfirmBinding
+import dev.getzen.element.R
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.databinding.FragmentReauthConfirmBinding
 import org.matrix.android.sdk.api.auth.data.LoginFlowTypes
 
 class PromptFragment : VectorBaseFragment<FragmentReauthConfirmBinding>() {

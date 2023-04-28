@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.test.fakes
+package dev.getzen.element.test.fakes
 
-import im.vector.app.features.DefaultVectorFeatures
-import im.vector.app.features.VectorFeatures
+import dev.getzen.element.features.DefaultVectorFeatures
+import dev.getzen.element.features.VectorFeatures
 import io.mockk.every
 import io.mockk.spyk
 

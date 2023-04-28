@@ -14,25 +14,25 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2
+package dev.getzen.element.features.settings.devices.v2
 
 import android.os.SystemClock
 import com.airbnb.mvrx.Success
 import com.airbnb.mvrx.test.MavericksTestRule
-import im.vector.app.core.session.clientinfo.MatrixClientInfoContent
-import im.vector.app.features.settings.devices.v2.details.extended.DeviceExtendedInfo
-import im.vector.app.features.settings.devices.v2.filter.DeviceManagerFilterType
-import im.vector.app.features.settings.devices.v2.list.DeviceType
-import im.vector.app.features.settings.devices.v2.verification.CheckIfCurrentSessionCanBeVerifiedUseCase
-import im.vector.app.features.settings.devices.v2.verification.CurrentSessionCrossSigningInfo
-import im.vector.app.features.settings.devices.v2.verification.GetCurrentSessionCrossSigningInfoUseCase
-import im.vector.app.test.fakes.FakeActiveSessionHolder
-import im.vector.app.test.fakes.FakePendingAuthHandler
-import im.vector.app.test.fakes.FakeSignoutSessionsUseCase
-import im.vector.app.test.fakes.FakeVectorPreferences
-import im.vector.app.test.fakes.FakeVerificationService
-import im.vector.app.test.test
-import im.vector.app.test.testDispatcher
+import dev.getzen.element.core.session.clientinfo.MatrixClientInfoContent
+import dev.getzen.element.features.settings.devices.v2.details.extended.DeviceExtendedInfo
+import dev.getzen.element.features.settings.devices.v2.filter.DeviceManagerFilterType
+import dev.getzen.element.features.settings.devices.v2.list.DeviceType
+import dev.getzen.element.features.settings.devices.v2.verification.CheckIfCurrentSessionCanBeVerifiedUseCase
+import dev.getzen.element.features.settings.devices.v2.verification.CurrentSessionCrossSigningInfo
+import dev.getzen.element.features.settings.devices.v2.verification.GetCurrentSessionCrossSigningInfoUseCase
+import dev.getzen.element.test.fakes.FakeActiveSessionHolder
+import dev.getzen.element.test.fakes.FakePendingAuthHandler
+import dev.getzen.element.test.fakes.FakeSignoutSessionsUseCase
+import dev.getzen.element.test.fakes.FakeVectorPreferences
+import dev.getzen.element.test.fakes.FakeVerificationService
+import dev.getzen.element.test.test
+import dev.getzen.element.test.testDispatcher
 import io.mockk.coEvery
 import io.mockk.coVerify
 import io.mockk.every

@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.media
+package dev.getzen.element.features.media
 
 import com.airbnb.mvrx.MavericksViewModelFactory
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
-import im.vector.app.core.di.MavericksAssistedViewModelFactory
-import im.vector.app.core.di.hiltMavericksViewModelFactory
-import im.vector.app.core.platform.VectorDummyViewState
-import im.vector.app.core.platform.VectorViewModel
-import im.vector.app.features.media.domain.usecase.DownloadMediaUseCase
-import im.vector.app.features.session.coroutineScope
+import dev.getzen.element.core.di.MavericksAssistedViewModelFactory
+import dev.getzen.element.core.di.hiltMavericksViewModelFactory
+import dev.getzen.element.core.platform.VectorDummyViewState
+import dev.getzen.element.core.platform.VectorViewModel
+import dev.getzen.element.features.media.domain.usecase.DownloadMediaUseCase
+import dev.getzen.element.features.session.coroutineScope
 import kotlinx.coroutines.launch
 import org.matrix.android.sdk.api.session.Session
 

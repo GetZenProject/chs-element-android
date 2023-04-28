@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.preference
+package dev.getzen.element.core.preference
 
 import android.content.Context
 import android.util.AttributeSet
 import android.view.View
 import android.widget.RadioGroup
 import androidx.preference.PreferenceViewHolder
-import im.vector.app.R
-import im.vector.app.features.settings.notifications.NotificationIndex
+import dev.getzen.element.R
+import dev.getzen.element.features.settings.notifications.NotificationIndex
 
 class PushRulePreference : VectorPreference {
 

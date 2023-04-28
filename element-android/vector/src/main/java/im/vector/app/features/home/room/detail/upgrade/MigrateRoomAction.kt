@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.upgrade
+package dev.getzen.element.features.home.room.detail.upgrade
 
-import im.vector.app.core.platform.VectorViewModelAction
+import dev.getzen.element.core.platform.VectorViewModelAction
 
 sealed class MigrateRoomAction : VectorViewModelAction {
     data class SetAutoInvite(val autoInvite: Boolean) : MigrateRoomAction()

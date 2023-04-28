@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.notifications
+package dev.getzen.element.features.settings.notifications
 
 import android.content.SharedPreferences
 import androidx.annotation.VisibleForTesting
@@ -22,18 +22,18 @@ import com.airbnb.mvrx.MavericksViewModelFactory
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
-import im.vector.app.core.di.MavericksAssistedViewModelFactory
-import im.vector.app.core.di.hiltMavericksViewModelFactory
-import im.vector.app.core.platform.VectorDummyViewState
-import im.vector.app.core.platform.VectorViewModel
-import im.vector.app.core.pushers.EnsureFcmTokenIsRetrievedUseCase
-import im.vector.app.core.pushers.PushersManager
-import im.vector.app.core.pushers.RegisterUnifiedPushUseCase
-import im.vector.app.core.pushers.UnregisterUnifiedPushUseCase
-import im.vector.app.features.settings.VectorPreferences
-import im.vector.app.features.settings.notifications.usecase.DisableNotificationsForCurrentSessionUseCase
-import im.vector.app.features.settings.notifications.usecase.EnableNotificationsForCurrentSessionUseCase
-import im.vector.app.features.settings.notifications.usecase.ToggleNotificationsForCurrentSessionUseCase
+import dev.getzen.element.core.di.MavericksAssistedViewModelFactory
+import dev.getzen.element.core.di.hiltMavericksViewModelFactory
+import dev.getzen.element.core.platform.VectorDummyViewState
+import dev.getzen.element.core.platform.VectorViewModel
+import dev.getzen.element.core.pushers.EnsureFcmTokenIsRetrievedUseCase
+import dev.getzen.element.core.pushers.PushersManager
+import dev.getzen.element.core.pushers.RegisterUnifiedPushUseCase
+import dev.getzen.element.core.pushers.UnregisterUnifiedPushUseCase
+import dev.getzen.element.features.settings.VectorPreferences
+import dev.getzen.element.features.settings.notifications.usecase.DisableNotificationsForCurrentSessionUseCase
+import dev.getzen.element.features.settings.notifications.usecase.EnableNotificationsForCurrentSessionUseCase
+import dev.getzen.element.features.settings.notifications.usecase.ToggleNotificationsForCurrentSessionUseCase
 import kotlinx.coroutines.launch
 
 class VectorSettingsNotificationViewModel @AssistedInject constructor(

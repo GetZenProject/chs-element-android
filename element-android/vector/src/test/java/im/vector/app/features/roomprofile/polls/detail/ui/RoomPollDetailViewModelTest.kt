@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.polls.detail.ui
+package dev.getzen.element.features.roomprofile.polls.detail.ui
 
 import com.airbnb.mvrx.test.MavericksTestRule
-import im.vector.app.core.event.GetTimelineEventUseCase
-import im.vector.app.features.home.room.detail.poll.VoteToPollUseCase
-import im.vector.app.test.test
-import im.vector.app.test.testDispatcher
+import dev.getzen.element.core.event.GetTimelineEventUseCase
+import dev.getzen.element.features.home.room.detail.poll.VoteToPollUseCase
+import dev.getzen.element.test.test
+import dev.getzen.element.test.testDispatcher
 import io.mockk.every
 import io.mockk.justRun
 import io.mockk.mockk

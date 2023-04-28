@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces
+package dev.getzen.element.features.spaces
 
 import android.os.Bundle
 import android.os.Parcelable
@@ -27,17 +27,17 @@ import com.airbnb.mvrx.args
 import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.core.extensions.setTextOrHide
-import im.vector.app.core.platform.VectorBaseBottomSheetDialogFragment
-import im.vector.app.databinding.BottomSheetSpaceSettingsBinding
-import im.vector.app.features.analytics.plan.MobileScreen
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.navigation.Navigator
-import im.vector.app.features.rageshake.BugReporter
-import im.vector.app.features.roomprofile.RoomProfileActivity
-import im.vector.app.features.spaces.leave.SpaceLeaveAdvancedActivity
-import im.vector.app.features.spaces.manage.ManageType
-import im.vector.app.features.spaces.manage.SpaceManageActivity
+import dev.getzen.element.core.extensions.setTextOrHide
+import dev.getzen.element.core.platform.VectorBaseBottomSheetDialogFragment
+import dev.getzen.element.databinding.BottomSheetSpaceSettingsBinding
+import dev.getzen.element.features.analytics.plan.MobileScreen
+import dev.getzen.element.features.home.AvatarRenderer
+import dev.getzen.element.features.navigation.Navigator
+import dev.getzen.element.features.rageshake.BugReporter
+import dev.getzen.element.features.roomprofile.RoomProfileActivity
+import dev.getzen.element.features.spaces.leave.SpaceLeaveAdvancedActivity
+import dev.getzen.element.features.spaces.manage.ManageType
+import dev.getzen.element.features.spaces.manage.SpaceManageActivity
 import kotlinx.parcelize.Parcelize
 import org.matrix.android.sdk.api.extensions.orFalse
 import org.matrix.android.sdk.api.util.toMatrixItem

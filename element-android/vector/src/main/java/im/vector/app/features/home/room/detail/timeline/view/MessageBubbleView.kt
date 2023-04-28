@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.view
+package dev.getzen.element.features.home.room.detail.timeline.view
 
 import android.content.Context
 import android.content.res.ColorStateList
@@ -32,14 +32,14 @@ import androidx.core.graphics.drawable.DrawableCompat
 import androidx.core.view.isVisible
 import androidx.core.view.updateLayoutParams
 import com.google.android.material.shape.MaterialShapeDrawable
-import im.vector.app.R
-import im.vector.app.core.resources.DefaultLocaleProvider
-import im.vector.app.core.resources.getLayoutDirectionFromCurrentLocale
-import im.vector.app.core.utils.DimensionConverter
-import im.vector.app.databinding.ViewMessageBubbleBinding
-import im.vector.app.features.home.room.detail.timeline.style.TimelineMessageLayout
-import im.vector.app.features.home.room.detail.timeline.style.shapeAppearanceModel
-import im.vector.app.features.themes.ThemeUtils
+import dev.getzen.element.R
+import dev.getzen.element.core.resources.DefaultLocaleProvider
+import dev.getzen.element.core.resources.getLayoutDirectionFromCurrentLocale
+import dev.getzen.element.core.utils.DimensionConverter
+import dev.getzen.element.databinding.ViewMessageBubbleBinding
+import dev.getzen.element.features.home.room.detail.timeline.style.TimelineMessageLayout
+import dev.getzen.element.features.home.room.detail.timeline.style.shapeAppearanceModel
+import dev.getzen.element.features.themes.ThemeUtils
 import timber.log.Timber
 
 class MessageBubbleView @JvmOverloads constructor(

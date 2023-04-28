@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.analytics.store
+package dev.getzen.element.features.analytics.store
 
 import android.content.Context
 import androidx.datastore.core.DataStore
@@ -30,7 +30,7 @@ import org.matrix.android.sdk.api.extensions.orFalse
 import javax.inject.Inject
 
 /**
- * Also accessed via reflection by the instrumentation tests @see [im.vector.app.ClearCurrentSessionRule].
+ * Also accessed via reflection by the instrumentation tests @see [dev.getzen.element.ClearCurrentSessionRule].
  */
 private val Context.dataStore: DataStore<Preferences> by preferencesDataStore(name = "vector_analytics")
 

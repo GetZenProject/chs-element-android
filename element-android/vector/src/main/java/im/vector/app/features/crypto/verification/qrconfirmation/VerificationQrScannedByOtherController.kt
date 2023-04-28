@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.crypto.verification.qrconfirmation
+package dev.getzen.element.features.crypto.verification.qrconfirmation
 
 import com.airbnb.epoxy.EpoxyController
-import im.vector.app.R
-import im.vector.app.core.epoxy.bottomSheetDividerItem
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.crypto.verification.VerificationBottomSheetViewState
-import im.vector.app.features.crypto.verification.epoxy.bottomSheetVerificationActionItem
-import im.vector.app.features.crypto.verification.epoxy.bottomSheetVerificationBigImageItem
-import im.vector.app.features.crypto.verification.epoxy.bottomSheetVerificationNoticeItem
-import im.vector.app.features.displayname.getBestName
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.bottomSheetDividerItem
+import dev.getzen.element.core.resources.ColorProvider
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.features.crypto.verification.VerificationBottomSheetViewState
+import dev.getzen.element.features.crypto.verification.epoxy.bottomSheetVerificationActionItem
+import dev.getzen.element.features.crypto.verification.epoxy.bottomSheetVerificationBigImageItem
+import dev.getzen.element.features.crypto.verification.epoxy.bottomSheetVerificationNoticeItem
+import dev.getzen.element.features.displayname.getBestName
 import im.vector.lib.core.utils.epoxy.charsequence.toEpoxyCharSequence
 import org.matrix.android.sdk.api.session.crypto.model.RoomEncryptionTrustLevel
 import javax.inject.Inject

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.devtools
+package dev.getzen.element.features.devtools
 
 interface DevToolsInteractionListener {
     fun processAction(action: RoomDevToolAction)

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.glide
+package dev.getzen.element.core.glide
 
 import android.content.Context
 import android.graphics.drawable.Drawable
@@ -26,7 +26,7 @@ import com.bumptech.glide.load.model.ModelLoader
 import com.bumptech.glide.load.model.ModelLoaderFactory
 import com.bumptech.glide.load.model.MultiModelLoaderFactory
 import com.bumptech.glide.signature.ObjectKey
-import im.vector.app.core.extensions.singletonEntryPoint
+import dev.getzen.element.core.extensions.singletonEntryPoint
 import org.matrix.android.sdk.api.util.MatrixItem
 
 data class AvatarPlaceholder(val matrixItem: MatrixItem)

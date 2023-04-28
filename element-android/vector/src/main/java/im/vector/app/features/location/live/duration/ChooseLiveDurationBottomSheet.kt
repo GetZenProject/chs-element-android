@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.location.live.duration
+package dev.getzen.element.features.location.live.duration
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.platform.VectorBaseBottomSheetDialogFragment
-import im.vector.app.core.platform.VectorBaseBottomSheetDialogFragment.ResultListener.Companion.RESULT_OK
-import im.vector.app.databinding.BottomSheetChooseLiveLocationShareDurationBinding
+import dev.getzen.element.R
+import dev.getzen.element.core.platform.VectorBaseBottomSheetDialogFragment
+import dev.getzen.element.core.platform.VectorBaseBottomSheetDialogFragment.ResultListener.Companion.RESULT_OK
+import dev.getzen.element.databinding.BottomSheetChooseLiveLocationShareDurationBinding
 
 /**
  * 15 minutes.

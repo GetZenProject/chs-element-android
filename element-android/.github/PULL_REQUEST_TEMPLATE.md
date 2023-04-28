@@ -55,4 +55,4 @@ Uncomment this markdown table below and edit the last line `|||`:
 - [ ] Pull request includes screenshots or videos if containing UI changes
 - [ ] Pull request includes a [sign off](https://matrix-org.github.io/synapse/latest/development/contributing_guide.html#sign-off)
 - [ ] You've made a self review of your PR
-- [ ] If you have modified the screen flow, or added new screens to the application, you have updated the test [UiAllScreensSanityTest.allScreensTest()](https://github.com/vector-im/element-android/blob/main/vector/src/androidTest/java/im/vector/app/ui/UiAllScreensSanityTest.kt#L73)
+- [ ] If you have modified the screen flow, or added new screens to the application, you have updated the test [UiAllScreensSanityTest.allScreensTest()](https://github.com/vector-im/element-android/blob/main/vector/src/androidTest/java/dev.getzen.element/ui/UiAllScreensSanityTest.kt#L73)

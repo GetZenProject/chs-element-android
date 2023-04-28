@@ -15,14 +15,14 @@
  *
  */
 
-package im.vector.app.features.roommemberprofile
+package dev.getzen.element.features.roommemberprofile
 
 import com.airbnb.epoxy.TypedEpoxyController
-import im.vector.app.R
-import im.vector.app.core.epoxy.profiles.buildProfileAction
-import im.vector.app.core.epoxy.profiles.buildProfileSection
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.ui.list.genericFooterItem
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.profiles.buildProfileAction
+import dev.getzen.element.core.epoxy.profiles.buildProfileSection
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.core.ui.list.genericFooterItem
 import im.vector.lib.core.utils.epoxy.charsequence.toEpoxyCharSequence
 import org.matrix.android.sdk.api.session.Session
 import org.matrix.android.sdk.api.session.room.model.Membership

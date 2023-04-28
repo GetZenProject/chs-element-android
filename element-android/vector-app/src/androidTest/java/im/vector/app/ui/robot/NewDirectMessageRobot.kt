@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.ui.robot
+package dev.getzen.element.ui.robot
 
 import androidx.test.espresso.Espresso
 import androidx.test.espresso.matcher.ViewMatchers
-import im.vector.app.R
-import im.vector.app.waitForView
+import dev.getzen.element.R
+import dev.getzen.element.waitForView
 
 class NewDirectMessageRobot {
 

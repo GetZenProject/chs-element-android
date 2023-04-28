@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.extensions
+package dev.getzen.element.core.extensions
 
 import android.graphics.drawable.Drawable
 import android.text.InputType
@@ -34,9 +34,9 @@ import androidx.transition.Fade
 import androidx.transition.Transition
 import androidx.transition.TransitionManager
 import androidx.transition.TransitionSet
-import im.vector.app.R
-import im.vector.app.core.animations.SimpleTransitionListener
-import im.vector.app.features.themes.ThemeUtils
+import dev.getzen.element.R
+import dev.getzen.element.core.animations.SimpleTransitionListener
+import dev.getzen.element.features.themes.ThemeUtils
 
 /**
  * Remove left margin of a SearchView.

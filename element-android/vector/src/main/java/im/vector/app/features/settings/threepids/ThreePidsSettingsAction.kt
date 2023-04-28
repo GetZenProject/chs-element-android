@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.threepids
+package dev.getzen.element.features.settings.threepids
 
-import im.vector.app.core.platform.VectorViewModelAction
+import dev.getzen.element.core.platform.VectorViewModelAction
 import org.matrix.android.sdk.api.session.identity.ThreePid
 
 sealed class ThreePidsSettingsAction : VectorViewModelAction {

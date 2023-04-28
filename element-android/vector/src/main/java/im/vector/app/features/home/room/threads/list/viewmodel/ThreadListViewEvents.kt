@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.threads.list.viewmodel
+package dev.getzen.element.features.home.room.threads.list.viewmodel
 
-import im.vector.app.core.platform.VectorViewEvents
+import dev.getzen.element.core.platform.VectorViewEvents
 
 sealed interface ThreadListViewEvents : VectorViewEvents {
     data class ShowError(val throwable: Throwable) : ThreadListViewEvents

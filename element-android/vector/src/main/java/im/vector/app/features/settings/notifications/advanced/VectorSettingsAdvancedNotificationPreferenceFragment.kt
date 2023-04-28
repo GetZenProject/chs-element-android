@@ -13,20 +13,20 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.settings.notifications.advanced
+package dev.getzen.element.features.settings.notifications.advanced
 
 import androidx.lifecycle.lifecycleScope
 import androidx.preference.Preference
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.preference.PushRulePreference
-import im.vector.app.core.preference.VectorPreference
-import im.vector.app.core.utils.toast
-import im.vector.app.features.settings.VectorSettingsBaseFragment
-import im.vector.app.features.settings.notifications.NotificationIndex
-import im.vector.app.features.settings.notifications.StandardActions
-import im.vector.app.features.settings.notifications.getStandardAction
-import im.vector.app.features.settings.notifications.notificationIndex
+import dev.getzen.element.R
+import dev.getzen.element.core.preference.PushRulePreference
+import dev.getzen.element.core.preference.VectorPreference
+import dev.getzen.element.core.utils.toast
+import dev.getzen.element.features.settings.VectorSettingsBaseFragment
+import dev.getzen.element.features.settings.notifications.NotificationIndex
+import dev.getzen.element.features.settings.notifications.StandardActions
+import dev.getzen.element.features.settings.notifications.getStandardAction
+import dev.getzen.element.features.settings.notifications.notificationIndex
 import kotlinx.coroutines.launch
 import org.matrix.android.sdk.api.session.pushrules.RuleIds
 import org.matrix.android.sdk.api.session.pushrules.rest.PushRuleAndKind

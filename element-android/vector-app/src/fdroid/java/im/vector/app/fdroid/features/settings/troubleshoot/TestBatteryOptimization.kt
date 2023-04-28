@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.fdroid.features.settings.troubleshoot
+package dev.getzen.element.fdroid.features.settings.troubleshoot
 
 import androidx.fragment.app.FragmentActivity
-import im.vector.app.R
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.utils.isIgnoringBatteryOptimizations
-import im.vector.app.core.utils.requestDisablingBatteryOptimization
-import im.vector.app.features.settings.troubleshoot.TroubleshootTest
+import dev.getzen.element.R
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.core.utils.isIgnoringBatteryOptimizations
+import dev.getzen.element.core.utils.requestDisablingBatteryOptimization
+import dev.getzen.element.features.settings.troubleshoot.TroubleshootTest
 import javax.inject.Inject
 
 class TestBatteryOptimization @Inject constructor(

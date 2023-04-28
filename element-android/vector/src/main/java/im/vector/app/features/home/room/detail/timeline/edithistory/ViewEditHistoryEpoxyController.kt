@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.home.room.detail.timeline.edithistory
+package dev.getzen.element.features.home.room.detail.timeline.edithistory
 
 import android.text.Spannable
 import com.airbnb.epoxy.TypedEpoxyController
@@ -21,16 +21,16 @@ import com.airbnb.mvrx.Fail
 import com.airbnb.mvrx.Loading
 import com.airbnb.mvrx.Success
 import com.airbnb.mvrx.Uninitialized
-import im.vector.app.R
-import im.vector.app.core.date.DateFormatKind
-import im.vector.app.core.date.VectorDateFormatter
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.ui.list.genericFooterItem
-import im.vector.app.core.ui.list.genericHeaderItem
-import im.vector.app.core.ui.list.genericItem
-import im.vector.app.core.ui.list.genericLoaderItem
-import im.vector.app.features.html.EventHtmlRenderer
+import dev.getzen.element.R
+import dev.getzen.element.core.date.DateFormatKind
+import dev.getzen.element.core.date.VectorDateFormatter
+import dev.getzen.element.core.resources.ColorProvider
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.core.ui.list.genericFooterItem
+import dev.getzen.element.core.ui.list.genericHeaderItem
+import dev.getzen.element.core.ui.list.genericItem
+import dev.getzen.element.core.ui.list.genericLoaderItem
+import dev.getzen.element.features.html.EventHtmlRenderer
 import im.vector.lib.core.utils.epoxy.charsequence.toEpoxyCharSequence
 import im.vector.lib.core.utils.timer.Clock
 import me.gujun.android.span.span

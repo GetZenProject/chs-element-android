@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.image
+package dev.getzen.element.features.home.room.detail.timeline.image
 
-import im.vector.app.features.media.ImageContentRenderer
+import dev.getzen.element.features.media.ImageContentRenderer
 import org.matrix.android.sdk.api.session.crypto.attachments.toElementToDecrypt
 import org.matrix.android.sdk.api.session.events.model.isImageMessage
 import org.matrix.android.sdk.api.session.events.model.isVideoMessage

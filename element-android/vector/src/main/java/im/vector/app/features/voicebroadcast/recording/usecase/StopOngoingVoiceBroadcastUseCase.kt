@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.voicebroadcast.recording.usecase
+package dev.getzen.element.features.voicebroadcast.recording.usecase
 
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.features.voicebroadcast.VoiceBroadcastHelper
-import im.vector.app.features.voicebroadcast.model.asVoiceBroadcastEvent
-import im.vector.app.features.voicebroadcast.usecase.GetRoomLiveVoiceBroadcastsUseCase
+import dev.getzen.element.core.di.ActiveSessionHolder
+import dev.getzen.element.features.voicebroadcast.VoiceBroadcastHelper
+import dev.getzen.element.features.voicebroadcast.model.asVoiceBroadcastEvent
+import dev.getzen.element.features.voicebroadcast.usecase.GetRoomLiveVoiceBroadcastsUseCase
 import org.matrix.android.sdk.api.query.QueryStringValue
 import org.matrix.android.sdk.api.session.getRoom
 import org.matrix.android.sdk.api.session.room.model.Membership

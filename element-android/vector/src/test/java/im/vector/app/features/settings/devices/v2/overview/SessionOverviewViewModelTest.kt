@@ -14,26 +14,26 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2.overview
+package dev.getzen.element.features.settings.devices.v2.overview
 
 import android.os.SystemClock
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import com.airbnb.mvrx.Success
 import com.airbnb.mvrx.test.MavericksTestRule
-import im.vector.app.features.settings.devices.v2.DeviceFullInfo
-import im.vector.app.features.settings.devices.v2.RefreshDevicesUseCase
-import im.vector.app.features.settings.devices.v2.ToggleIpAddressVisibilityUseCase
-import im.vector.app.features.settings.devices.v2.notification.NotificationsStatus
-import im.vector.app.features.settings.devices.v2.verification.CheckIfCurrentSessionCanBeVerifiedUseCase
-import im.vector.app.test.fakes.FakeActiveSessionHolder
-import im.vector.app.test.fakes.FakeGetNotificationsStatusUseCase
-import im.vector.app.test.fakes.FakePendingAuthHandler
-import im.vector.app.test.fakes.FakeSignoutSessionsUseCase
-import im.vector.app.test.fakes.FakeToggleNotificationUseCase
-import im.vector.app.test.fakes.FakeVectorPreferences
-import im.vector.app.test.fakes.FakeVerificationService
-import im.vector.app.test.test
-import im.vector.app.test.testDispatcher
+import dev.getzen.element.features.settings.devices.v2.DeviceFullInfo
+import dev.getzen.element.features.settings.devices.v2.RefreshDevicesUseCase
+import dev.getzen.element.features.settings.devices.v2.ToggleIpAddressVisibilityUseCase
+import dev.getzen.element.features.settings.devices.v2.notification.NotificationsStatus
+import dev.getzen.element.features.settings.devices.v2.verification.CheckIfCurrentSessionCanBeVerifiedUseCase
+import dev.getzen.element.test.fakes.FakeActiveSessionHolder
+import dev.getzen.element.test.fakes.FakeGetNotificationsStatusUseCase
+import dev.getzen.element.test.fakes.FakePendingAuthHandler
+import dev.getzen.element.test.fakes.FakeSignoutSessionsUseCase
+import dev.getzen.element.test.fakes.FakeToggleNotificationUseCase
+import dev.getzen.element.test.fakes.FakeVectorPreferences
+import dev.getzen.element.test.fakes.FakeVerificationService
+import dev.getzen.element.test.test
+import dev.getzen.element.test.testDispatcher
 import io.mockk.coEvery
 import io.mockk.coVerify
 import io.mockk.every

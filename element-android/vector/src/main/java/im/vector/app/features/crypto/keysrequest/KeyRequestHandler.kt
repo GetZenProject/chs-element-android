@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.crypto.keysrequest
+package dev.getzen.element.features.crypto.keysrequest
 
 import android.content.Context
-import im.vector.app.R
-import im.vector.app.core.date.DateFormatKind
-import im.vector.app.core.date.VectorDateFormatter
-import im.vector.app.features.popup.DefaultVectorAlert
-import im.vector.app.features.popup.PopupAlertManager
-import im.vector.app.features.session.coroutineScope
+import dev.getzen.element.R
+import dev.getzen.element.core.date.DateFormatKind
+import dev.getzen.element.core.date.VectorDateFormatter
+import dev.getzen.element.features.popup.DefaultVectorAlert
+import dev.getzen.element.features.popup.PopupAlertManager
+import dev.getzen.element.features.session.coroutineScope
 import kotlinx.coroutines.launch
 import org.matrix.android.sdk.api.MatrixCallback
 import org.matrix.android.sdk.api.session.Session

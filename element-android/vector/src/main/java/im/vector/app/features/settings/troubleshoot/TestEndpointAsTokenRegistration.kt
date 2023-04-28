@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.troubleshoot
+package dev.getzen.element.features.settings.troubleshoot
 
 import androidx.fragment.app.FragmentActivity
 import androidx.work.WorkInfo
 import androidx.work.WorkManager
-import im.vector.app.R
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.pushers.PushersManager
-import im.vector.app.core.pushers.RegisterUnifiedPushUseCase
-import im.vector.app.core.pushers.UnifiedPushHelper
-import im.vector.app.core.pushers.UnregisterUnifiedPushUseCase
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.session.coroutineScope
+import dev.getzen.element.R
+import dev.getzen.element.core.di.ActiveSessionHolder
+import dev.getzen.element.core.pushers.PushersManager
+import dev.getzen.element.core.pushers.RegisterUnifiedPushUseCase
+import dev.getzen.element.core.pushers.UnifiedPushHelper
+import dev.getzen.element.core.pushers.UnregisterUnifiedPushUseCase
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.features.session.coroutineScope
 import kotlinx.coroutines.launch
 import org.matrix.android.sdk.api.session.pushers.PusherState
 import javax.inject.Inject

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.matrixto
+package dev.getzen.element.features.matrixto
 
-import im.vector.app.core.platform.VectorViewModelAction
+import dev.getzen.element.core.platform.VectorViewModelAction
 import org.matrix.android.sdk.api.util.MatrixItem
 
 sealed class MatrixToAction : VectorViewModelAction {

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.login.terms
+package dev.getzen.element.features.login.terms
 
 import org.matrix.android.sdk.api.auth.data.LocalizedFlowDataLoginTerms
 

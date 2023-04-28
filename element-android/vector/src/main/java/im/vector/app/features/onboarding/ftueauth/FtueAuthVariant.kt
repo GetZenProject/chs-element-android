@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.onboarding.ftueauth
+package dev.getzen.element.features.onboarding.ftueauth
 
 import android.content.Intent
 import android.os.Parcelable
@@ -29,31 +29,31 @@ import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
 import com.airbnb.mvrx.withState
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.core.extensions.addFragment
-import im.vector.app.core.extensions.addFragmentToBackstack
-import im.vector.app.core.extensions.popBackstack
-import im.vector.app.core.extensions.replaceFragment
-import im.vector.app.core.platform.ScreenOrientationLocker
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.databinding.ActivityLoginBinding
-import im.vector.app.features.VectorFeatures
-import im.vector.app.features.home.HomeActivity
-import im.vector.app.features.login.LoginConfig
-import im.vector.app.features.login.LoginMode
-import im.vector.app.features.login.ServerType
-import im.vector.app.features.login.SignMode
-import im.vector.app.features.login.TextInputFormFragmentMode
-import im.vector.app.features.onboarding.OnboardingAction
-import im.vector.app.features.onboarding.OnboardingActivity
-import im.vector.app.features.onboarding.OnboardingFlow
-import im.vector.app.features.onboarding.OnboardingVariant
-import im.vector.app.features.onboarding.OnboardingViewEvents
-import im.vector.app.features.onboarding.OnboardingViewModel
-import im.vector.app.features.onboarding.OnboardingViewState
-import im.vector.app.features.onboarding.ftueauth.terms.FtueAuthLegacyStyleTermsFragment
-import im.vector.app.features.onboarding.ftueauth.terms.FtueAuthTermsFragment
-import im.vector.app.features.onboarding.ftueauth.terms.FtueAuthTermsLegacyStyleFragmentArgument
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.addFragment
+import dev.getzen.element.core.extensions.addFragmentToBackstack
+import dev.getzen.element.core.extensions.popBackstack
+import dev.getzen.element.core.extensions.replaceFragment
+import dev.getzen.element.core.platform.ScreenOrientationLocker
+import dev.getzen.element.core.platform.VectorBaseActivity
+import dev.getzen.element.databinding.ActivityLoginBinding
+import dev.getzen.element.features.VectorFeatures
+import dev.getzen.element.features.home.HomeActivity
+import dev.getzen.element.features.login.LoginConfig
+import dev.getzen.element.features.login.LoginMode
+import dev.getzen.element.features.login.ServerType
+import dev.getzen.element.features.login.SignMode
+import dev.getzen.element.features.login.TextInputFormFragmentMode
+import dev.getzen.element.features.onboarding.OnboardingAction
+import dev.getzen.element.features.onboarding.OnboardingActivity
+import dev.getzen.element.features.onboarding.OnboardingFlow
+import dev.getzen.element.features.onboarding.OnboardingVariant
+import dev.getzen.element.features.onboarding.OnboardingViewEvents
+import dev.getzen.element.features.onboarding.OnboardingViewModel
+import dev.getzen.element.features.onboarding.OnboardingViewState
+import dev.getzen.element.features.onboarding.ftueauth.terms.FtueAuthLegacyStyleTermsFragment
+import dev.getzen.element.features.onboarding.ftueauth.terms.FtueAuthTermsFragment
+import dev.getzen.element.features.onboarding.ftueauth.terms.FtueAuthTermsLegacyStyleFragmentArgument
 import im.vector.lib.core.utils.compat.getParcelableExtraCompat
 import org.matrix.android.sdk.api.auth.registration.Stage
 import org.matrix.android.sdk.api.auth.toLocalizedLoginTerms

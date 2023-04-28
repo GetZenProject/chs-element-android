@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomdirectory.roompreview
+package dev.getzen.element.features.roomdirectory.roompreview
 
 enum class PeekingState {
     FOUND,

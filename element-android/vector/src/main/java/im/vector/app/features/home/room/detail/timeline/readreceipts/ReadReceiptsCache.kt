@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.readreceipts
+package dev.getzen.element.features.home.room.detail.timeline.readreceipts
 
 import im.vector.lib.core.utils.compat.removeIfCompat
 import org.matrix.android.sdk.api.session.room.model.ReadReceipt

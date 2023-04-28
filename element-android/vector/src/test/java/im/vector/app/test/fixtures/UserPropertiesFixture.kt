@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.test.fixtures
+package dev.getzen.element.test.fixtures
 
-import im.vector.app.features.analytics.plan.UserProperties
-import im.vector.app.features.analytics.plan.UserProperties.FtueUseCaseSelection
+import dev.getzen.element.features.analytics.plan.UserProperties
+import dev.getzen.element.features.analytics.plan.UserProperties.FtueUseCaseSelection
 
 fun aUserProperties(
         ftueUseCase: FtueUseCaseSelection? = FtueUseCaseSelection.Skip

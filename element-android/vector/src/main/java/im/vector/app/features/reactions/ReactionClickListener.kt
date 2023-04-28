@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.reactions
+package dev.getzen.element.features.reactions
 
 interface ReactionClickListener {
     fun onReactionSelected(reaction: String)

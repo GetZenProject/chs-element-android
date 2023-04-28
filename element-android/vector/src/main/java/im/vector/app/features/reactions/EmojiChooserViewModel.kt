@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.reactions
+package dev.getzen.element.features.reactions
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import im.vector.app.core.utils.LiveEvent
-import im.vector.app.features.reactions.data.EmojiData
-import im.vector.app.features.reactions.data.EmojiDataSource
+import dev.getzen.element.core.utils.LiveEvent
+import dev.getzen.element.features.reactions.data.EmojiData
+import dev.getzen.element.features.reactions.data.EmojiDataSource
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.share
+package dev.getzen.element.features.share
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize

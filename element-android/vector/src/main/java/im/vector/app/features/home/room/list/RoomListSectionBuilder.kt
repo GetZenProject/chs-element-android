@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.list
+package dev.getzen.element.features.home.room.list
 
 import androidx.annotation.StringRes
 import androidx.lifecycle.LiveData
@@ -23,12 +23,12 @@ import androidx.lifecycle.asFlow
 import androidx.lifecycle.liveData
 import androidx.paging.PagedList
 import com.airbnb.mvrx.Async
-import im.vector.app.R
-import im.vector.app.SpaceStateHandler
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.home.RoomListDisplayMode
-import im.vector.app.features.invite.AutoAcceptInvites
-import im.vector.app.features.invite.showInvites
+import dev.getzen.element.R
+import dev.getzen.element.SpaceStateHandler
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.features.home.RoomListDisplayMode
+import dev.getzen.element.features.invite.AutoAcceptInvites
+import dev.getzen.element.features.invite.showInvites
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow

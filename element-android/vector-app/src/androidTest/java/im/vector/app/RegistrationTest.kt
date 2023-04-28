@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app
+package dev.getzen.element
 
 import androidx.test.espresso.Espresso.onView
 import androidx.test.espresso.action.ViewActions.click
@@ -28,9 +28,9 @@ import androidx.test.espresso.matcher.ViewMatchers.withText
 import androidx.test.ext.junit.rules.ActivityScenarioRule
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.filters.LargeTest
-import im.vector.app.features.MainActivity
-import im.vector.app.features.analytics.ui.consent.AnalyticsOptInActivity
-import im.vector.app.features.home.HomeActivity
+import dev.getzen.element.features.MainActivity
+import dev.getzen.element.features.analytics.ui.consent.AnalyticsOptInActivity
+import dev.getzen.element.features.home.HomeActivity
 import org.hamcrest.CoreMatchers.not
 import org.junit.Ignore
 import org.junit.Rule

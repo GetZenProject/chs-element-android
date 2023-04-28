@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.ui.views
+package dev.getzen.element.core.ui.views
 
 import android.content.Context
 import android.util.AttributeSet
 import androidx.constraintlayout.widget.ConstraintLayout
-import im.vector.app.R
-import im.vector.app.databinding.ViewFailedMessagesWarningBinding
+import dev.getzen.element.R
+import dev.getzen.element.databinding.ViewFailedMessagesWarningBinding
 
 class FailedMessagesWarningView @JvmOverloads constructor(
         context: Context,

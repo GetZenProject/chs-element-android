@@ -16,7 +16,7 @@
 
 @file:Suppress("DEPRECATION")
 
-package im.vector.app.features.html
+package dev.getzen.element.features.html
 
 import android.content.Context
 import android.content.res.ColorStateList
@@ -32,12 +32,12 @@ import androidx.core.content.ContextCompat
 import com.bumptech.glide.request.target.SimpleTarget
 import com.bumptech.glide.request.transition.Transition
 import com.google.android.material.chip.ChipDrawable
-import im.vector.app.R
-import im.vector.app.core.extensions.isMatrixId
-import im.vector.app.core.glide.GlideRequests
-import im.vector.app.features.displayname.getBestName
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.themes.ThemeUtils
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.isMatrixId
+import dev.getzen.element.core.glide.GlideRequests
+import dev.getzen.element.features.displayname.getBestName
+import dev.getzen.element.features.home.AvatarRenderer
+import dev.getzen.element.features.themes.ThemeUtils
 import org.matrix.android.sdk.api.extensions.orTrue
 import org.matrix.android.sdk.api.session.room.send.MatrixItemSpan
 import org.matrix.android.sdk.api.util.MatrixItem

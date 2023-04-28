@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.extensions
+package dev.getzen.element.core.extensions
 
 import android.content.Context
 import android.graphics.drawable.Drawable
@@ -34,8 +34,8 @@ import androidx.core.content.getSystemService
 import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.core.Preferences
 import dagger.hilt.EntryPoints
-import im.vector.app.core.datastore.dataStoreProvider
-import im.vector.app.core.di.SingletonEntryPoint
+import dev.getzen.element.core.datastore.dataStoreProvider
+import dev.getzen.element.core.di.SingletonEntryPoint
 import org.matrix.android.sdk.api.util.BuildVersionSdkIntProvider
 import java.io.OutputStream
 import kotlin.math.roundToInt

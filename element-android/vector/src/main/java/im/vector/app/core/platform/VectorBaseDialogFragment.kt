@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.core.platform
+package dev.getzen.element.core.platform
 
 import android.content.Context
 import android.os.Bundle
@@ -30,13 +30,13 @@ import androidx.lifecycle.repeatOnLifecycle
 import androidx.viewbinding.ViewBinding
 import com.airbnb.mvrx.MavericksView
 import dagger.hilt.android.EntryPointAccessors
-import im.vector.app.R
-import im.vector.app.core.di.ActivityEntryPoint
-import im.vector.app.core.extensions.singletonEntryPoint
-import im.vector.app.core.extensions.toMvRxBundle
-import im.vector.app.features.analytics.AnalyticsTracker
-import im.vector.app.features.analytics.plan.MobileScreen
-import im.vector.app.features.themes.ThemeUtils
+import dev.getzen.element.R
+import dev.getzen.element.core.di.ActivityEntryPoint
+import dev.getzen.element.core.extensions.singletonEntryPoint
+import dev.getzen.element.core.extensions.toMvRxBundle
+import dev.getzen.element.features.analytics.AnalyticsTracker
+import dev.getzen.element.features.analytics.plan.MobileScreen
+import dev.getzen.element.features.themes.ThemeUtils
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.launch

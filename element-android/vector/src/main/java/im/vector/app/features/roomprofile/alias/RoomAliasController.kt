@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.alias
+package dev.getzen.element.features.roomprofile.alias
 
 import android.text.InputType
 import com.airbnb.epoxy.TypedEpoxyController
@@ -22,20 +22,20 @@ import com.airbnb.mvrx.Fail
 import com.airbnb.mvrx.Loading
 import com.airbnb.mvrx.Success
 import com.airbnb.mvrx.Uninitialized
-import im.vector.app.R
-import im.vector.app.core.epoxy.errorWithRetryItem
-import im.vector.app.core.epoxy.loadingItem
-import im.vector.app.core.epoxy.profiles.buildProfileSection
-import im.vector.app.core.epoxy.profiles.profileActionItem
-import im.vector.app.core.error.ErrorFormatter
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.discovery.settingsButtonItem
-import im.vector.app.features.discovery.settingsContinueCancelItem
-import im.vector.app.features.discovery.settingsInfoItem
-import im.vector.app.features.form.formEditTextItem
-import im.vector.app.features.form.formSwitchItem
-import im.vector.app.features.roomdirectory.createroom.RoomAliasErrorFormatter
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.errorWithRetryItem
+import dev.getzen.element.core.epoxy.loadingItem
+import dev.getzen.element.core.epoxy.profiles.buildProfileSection
+import dev.getzen.element.core.epoxy.profiles.profileActionItem
+import dev.getzen.element.core.error.ErrorFormatter
+import dev.getzen.element.core.resources.ColorProvider
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.features.discovery.settingsButtonItem
+import dev.getzen.element.features.discovery.settingsContinueCancelItem
+import dev.getzen.element.features.discovery.settingsInfoItem
+import dev.getzen.element.features.form.formEditTextItem
+import dev.getzen.element.features.form.formSwitchItem
+import dev.getzen.element.features.roomdirectory.createroom.RoomAliasErrorFormatter
 import org.matrix.android.sdk.api.MatrixConstants
 import org.matrix.android.sdk.api.session.room.alias.RoomAliasError
 import org.matrix.android.sdk.api.session.room.model.RoomDirectoryVisibility

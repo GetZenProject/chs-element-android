@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.settings.legals
+package dev.getzen.element.features.settings.legals
 
 import android.content.res.Resources
 import com.airbnb.epoxy.TypedEpoxyController
@@ -22,16 +22,16 @@ import com.airbnb.mvrx.Fail
 import com.airbnb.mvrx.Loading
 import com.airbnb.mvrx.Success
 import com.airbnb.mvrx.Uninitialized
-import im.vector.app.R
-import im.vector.app.core.epoxy.errorWithRetryItem
-import im.vector.app.core.epoxy.loadingItem
-import im.vector.app.core.error.ErrorFormatter
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.discovery.ServerAndPolicies
-import im.vector.app.features.discovery.ServerPolicy
-import im.vector.app.features.discovery.discoveryPolicyItem
-import im.vector.app.features.discovery.settingsInfoItem
-import im.vector.app.features.discovery.settingsSectionTitleItem
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.errorWithRetryItem
+import dev.getzen.element.core.epoxy.loadingItem
+import dev.getzen.element.core.error.ErrorFormatter
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.features.discovery.ServerAndPolicies
+import dev.getzen.element.features.discovery.ServerPolicy
+import dev.getzen.element.features.discovery.discoveryPolicyItem
+import dev.getzen.element.features.discovery.settingsInfoItem
+import dev.getzen.element.features.discovery.settingsSectionTitleItem
 import javax.inject.Inject
 
 class LegalsController @Inject constructor(

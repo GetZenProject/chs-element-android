@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.utils
+package dev.getzen.element.core.utils
 
 import android.content.ClipData
-import im.vector.app.test.fakes.FakeContext
+import dev.getzen.element.test.fakes.FakeContext
 import io.mockk.every
 import io.mockk.mockk
 import io.mockk.mockkStatic

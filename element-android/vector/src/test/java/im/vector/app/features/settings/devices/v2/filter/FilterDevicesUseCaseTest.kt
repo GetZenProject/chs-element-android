@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2.filter
+package dev.getzen.element.features.settings.devices.v2.filter
 
-import im.vector.app.core.session.clientinfo.MatrixClientInfoContent
-import im.vector.app.features.settings.devices.v2.DeviceFullInfo
-import im.vector.app.features.settings.devices.v2.details.extended.DeviceExtendedInfo
-import im.vector.app.features.settings.devices.v2.list.DeviceType
-import im.vector.app.features.settings.devices.v2.verification.CurrentSessionCrossSigningInfo
+import dev.getzen.element.core.session.clientinfo.MatrixClientInfoContent
+import dev.getzen.element.features.settings.devices.v2.DeviceFullInfo
+import dev.getzen.element.features.settings.devices.v2.details.extended.DeviceExtendedInfo
+import dev.getzen.element.features.settings.devices.v2.list.DeviceType
+import dev.getzen.element.features.settings.devices.v2.verification.CurrentSessionCrossSigningInfo
 import org.amshove.kluent.shouldBeEqualTo
 import org.amshove.kluent.shouldContain
 import org.amshove.kluent.shouldContainAll

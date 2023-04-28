@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.dialogs
+package dev.getzen.element.core.dialogs
 
 import android.app.Activity
 import android.text.Editable
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.core.platform.SimpleTextWatcher
-import im.vector.app.databinding.DialogExportE2eKeysBinding
+import dev.getzen.element.R
+import dev.getzen.element.core.platform.SimpleTextWatcher
+import dev.getzen.element.databinding.DialogExportE2eKeysBinding
 
 class ExportKeysDialog {
 

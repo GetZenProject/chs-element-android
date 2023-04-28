@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.onboarding
+package dev.getzen.element.features.onboarding
 
 import android.net.Uri
 import android.os.Parcelable
 import com.airbnb.mvrx.MavericksState
 import com.airbnb.mvrx.PersistState
-import im.vector.app.features.login.LoginMode
-import im.vector.app.features.login.ServerType
-import im.vector.app.features.login.SignMode
+import dev.getzen.element.features.login.LoginMode
+import dev.getzen.element.features.login.ServerType
+import dev.getzen.element.features.login.SignMode
 import kotlinx.parcelize.Parcelize
 
 data class OnboardingViewState(

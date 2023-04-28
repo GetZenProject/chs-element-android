@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.debug.di
+package dev.getzen.element.features.debug.di
 
 import android.content.Context
 import android.content.Intent
@@ -23,14 +23,14 @@ import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
-import im.vector.app.core.debug.DebugNavigator
-import im.vector.app.core.debug.DebugReceiver
-import im.vector.app.core.debug.FlipperProxy
-import im.vector.app.core.debug.LeakDetector
-import im.vector.app.features.debug.DebugMenuActivity
-import im.vector.app.flipper.VectorFlipperProxy
-import im.vector.app.leakcanary.LeakCanaryLeakDetector
-import im.vector.app.receivers.VectorDebugReceiver
+import dev.getzen.element.core.debug.DebugNavigator
+import dev.getzen.element.core.debug.DebugReceiver
+import dev.getzen.element.core.debug.FlipperProxy
+import dev.getzen.element.core.debug.LeakDetector
+import dev.getzen.element.features.debug.DebugMenuActivity
+import dev.getzen.element.flipper.VectorFlipperProxy
+import dev.getzen.element.leakcanary.LeakCanaryLeakDetector
+import dev.getzen.element.receivers.VectorDebugReceiver
 
 @InstallIn(SingletonComponent::class)
 @Module

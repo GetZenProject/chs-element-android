@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.pin.lockscreen.biometrics
+package dev.getzen.element.features.pin.lockscreen.biometrics
 
 import android.content.Intent
 import android.os.Build
@@ -29,14 +29,14 @@ import androidx.lifecycle.lifecycleScope
 import androidx.test.core.app.ActivityScenario
 import androidx.test.filters.SdkSuppress
 import androidx.test.platform.app.InstrumentationRegistry
-import im.vector.app.TestBuildVersionSdkIntProvider
-import im.vector.app.features.pin.lockscreen.configuration.LockScreenConfiguration
-import im.vector.app.features.pin.lockscreen.configuration.LockScreenMode
-import im.vector.app.features.pin.lockscreen.crypto.LockScreenCryptoConstants
-import im.vector.app.features.pin.lockscreen.crypto.LockScreenKeyRepository
-import im.vector.app.features.pin.lockscreen.tests.LockScreenTestActivity
-import im.vector.app.features.pin.lockscreen.ui.fallbackprompt.FallbackBiometricDialogFragment
-import im.vector.app.features.pin.lockscreen.utils.DevicePromptCheck
+import dev.getzen.element.TestBuildVersionSdkIntProvider
+import dev.getzen.element.features.pin.lockscreen.configuration.LockScreenConfiguration
+import dev.getzen.element.features.pin.lockscreen.configuration.LockScreenMode
+import dev.getzen.element.features.pin.lockscreen.crypto.LockScreenCryptoConstants
+import dev.getzen.element.features.pin.lockscreen.crypto.LockScreenKeyRepository
+import dev.getzen.element.features.pin.lockscreen.tests.LockScreenTestActivity
+import dev.getzen.element.features.pin.lockscreen.ui.fallbackprompt.FallbackBiometricDialogFragment
+import dev.getzen.element.features.pin.lockscreen.utils.DevicePromptCheck
 import io.mockk.clearAllMocks
 import io.mockk.every
 import io.mockk.justRun

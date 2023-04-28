@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.error
+package dev.getzen.element.core.error
 
 import timber.log.Timber
 

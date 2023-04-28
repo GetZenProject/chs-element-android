@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home
+package dev.getzen.element.features.home
 
 import com.airbnb.mvrx.Mavericks
 import com.airbnb.mvrx.MavericksViewModelFactory
@@ -22,30 +22,30 @@ import com.airbnb.mvrx.ViewModelContext
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.di.MavericksAssistedViewModelFactory
-import im.vector.app.core.di.hiltMavericksViewModelFactory
-import im.vector.app.core.platform.VectorViewModel
-import im.vector.app.core.pushers.EnsureFcmTokenIsRetrievedUseCase
-import im.vector.app.core.pushers.PushersManager
-import im.vector.app.core.pushers.RegisterUnifiedPushUseCase
-import im.vector.app.core.pushers.UnregisterUnifiedPushUseCase
-import im.vector.app.core.session.EnsureSessionSyncingUseCase
-import im.vector.app.features.analytics.AnalyticsConfig
-import im.vector.app.features.analytics.AnalyticsTracker
-import im.vector.app.features.analytics.extensions.toAnalyticsType
-import im.vector.app.features.analytics.plan.Signup
-import im.vector.app.features.analytics.store.AnalyticsStore
-import im.vector.app.features.home.room.list.home.release.ReleaseNotesPreferencesStore
-import im.vector.app.features.login.ReAuthHelper
-import im.vector.app.features.onboarding.AuthenticationDescription
-import im.vector.app.features.raw.wellknown.ElementWellKnown
-import im.vector.app.features.raw.wellknown.getElementWellknown
-import im.vector.app.features.raw.wellknown.isSecureBackupRequired
-import im.vector.app.features.raw.wellknown.withElementWellKnown
-import im.vector.app.features.session.coroutineScope
-import im.vector.app.features.settings.VectorPreferences
-import im.vector.app.features.voicebroadcast.recording.usecase.StopOngoingVoiceBroadcastUseCase
+import dev.getzen.element.core.di.ActiveSessionHolder
+import dev.getzen.element.core.di.MavericksAssistedViewModelFactory
+import dev.getzen.element.core.di.hiltMavericksViewModelFactory
+import dev.getzen.element.core.platform.VectorViewModel
+import dev.getzen.element.core.pushers.EnsureFcmTokenIsRetrievedUseCase
+import dev.getzen.element.core.pushers.PushersManager
+import dev.getzen.element.core.pushers.RegisterUnifiedPushUseCase
+import dev.getzen.element.core.pushers.UnregisterUnifiedPushUseCase
+import dev.getzen.element.core.session.EnsureSessionSyncingUseCase
+import dev.getzen.element.features.analytics.AnalyticsConfig
+import dev.getzen.element.features.analytics.AnalyticsTracker
+import dev.getzen.element.features.analytics.extensions.toAnalyticsType
+import dev.getzen.element.features.analytics.plan.Signup
+import dev.getzen.element.features.analytics.store.AnalyticsStore
+import dev.getzen.element.features.home.room.list.home.release.ReleaseNotesPreferencesStore
+import dev.getzen.element.features.login.ReAuthHelper
+import dev.getzen.element.features.onboarding.AuthenticationDescription
+import dev.getzen.element.features.raw.wellknown.ElementWellKnown
+import dev.getzen.element.features.raw.wellknown.getElementWellknown
+import dev.getzen.element.features.raw.wellknown.isSecureBackupRequired
+import dev.getzen.element.features.raw.wellknown.withElementWellKnown
+import dev.getzen.element.features.session.coroutineScope
+import dev.getzen.element.features.settings.VectorPreferences
+import dev.getzen.element.features.voicebroadcast.recording.usecase.StopOngoingVoiceBroadcastUseCase
 import im.vector.lib.core.utils.compat.getParcelableExtraCompat
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay

@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices
+package dev.getzen.element.features.settings.devices
 
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.features.settings.devices.v2.verification.CurrentSessionCrossSigningInfo
+import dev.getzen.element.core.di.ActiveSessionHolder
+import dev.getzen.element.features.settings.devices.v2.verification.CurrentSessionCrossSigningInfo
 import javax.inject.Inject
 
 class GetCurrentSessionCrossSigningInfoUseCase @Inject constructor(

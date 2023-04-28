@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings
+package dev.getzen.element.features.settings
 
 object VectorSettingsUrls {
     const val HELP = "https://element.io/help"

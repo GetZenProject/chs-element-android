@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.polls
+package dev.getzen.element.features.roomprofile.polls
 
-import im.vector.app.core.platform.VectorViewModelAction
+import dev.getzen.element.core.platform.VectorViewModelAction
 
 sealed interface RoomPollsAction : VectorViewModelAction {
     object LoadMorePolls : RoomPollsAction

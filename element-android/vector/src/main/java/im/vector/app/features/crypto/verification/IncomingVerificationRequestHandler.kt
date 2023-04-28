@@ -13,18 +13,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.crypto.verification
+package dev.getzen.element.features.crypto.verification
 
 import android.content.Context
-import im.vector.app.R
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.features.analytics.plan.ViewRoom
-import im.vector.app.features.displayname.getBestName
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.home.room.detail.RoomDetailActivity
-import im.vector.app.features.home.room.detail.arguments.TimelineArgs
-import im.vector.app.features.popup.PopupAlertManager
-import im.vector.app.features.popup.VerificationVectorAlert
+import dev.getzen.element.R
+import dev.getzen.element.core.platform.VectorBaseActivity
+import dev.getzen.element.features.analytics.plan.ViewRoom
+import dev.getzen.element.features.displayname.getBestName
+import dev.getzen.element.features.home.AvatarRenderer
+import dev.getzen.element.features.home.room.detail.RoomDetailActivity
+import dev.getzen.element.features.home.room.detail.arguments.TimelineArgs
+import dev.getzen.element.features.popup.PopupAlertManager
+import dev.getzen.element.features.popup.VerificationVectorAlert
 import im.vector.lib.core.utils.compat.getParcelableCompat
 import im.vector.lib.core.utils.timer.Clock
 import org.matrix.android.sdk.api.session.Session

@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.analytics.extensions
+package dev.getzen.element.features.analytics.extensions
 
-import im.vector.app.features.analytics.plan.Composer
-import im.vector.app.features.home.room.detail.composer.MessageComposerViewState
-import im.vector.app.features.home.room.detail.composer.SendMode
+import dev.getzen.element.features.analytics.plan.Composer
+import dev.getzen.element.features.home.room.detail.composer.MessageComposerViewState
+import dev.getzen.element.features.home.room.detail.composer.SendMode
 
 fun MessageComposerViewState.toAnalyticsComposer(): Composer =
         Composer(

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.pin.lockscreen.biometrics
+package dev.getzen.element.features.pin.lockscreen.biometrics
 
 import android.content.Context
 import android.os.Build
@@ -34,12 +34,12 @@ import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
 import dagger.hilt.android.qualifiers.ApplicationContext
-import im.vector.app.R
-import im.vector.app.features.pin.lockscreen.configuration.LockScreenConfiguration
-import im.vector.app.features.pin.lockscreen.crypto.LockScreenKeyRepository
-import im.vector.app.features.pin.lockscreen.ui.fallbackprompt.FallbackBiometricDialogFragment
-import im.vector.app.features.pin.lockscreen.utils.DevicePromptCheck
-import im.vector.app.features.pin.lockscreen.utils.hasFlag
+import dev.getzen.element.R
+import dev.getzen.element.features.pin.lockscreen.configuration.LockScreenConfiguration
+import dev.getzen.element.features.pin.lockscreen.crypto.LockScreenKeyRepository
+import dev.getzen.element.features.pin.lockscreen.ui.fallbackprompt.FallbackBiometricDialogFragment
+import dev.getzen.element.features.pin.lockscreen.utils.DevicePromptCheck
+import dev.getzen.element.features.pin.lockscreen.utils.hasFlag
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.asCoroutineDispatcher

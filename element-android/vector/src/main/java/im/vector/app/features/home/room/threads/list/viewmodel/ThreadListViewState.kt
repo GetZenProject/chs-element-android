@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.threads.list.viewmodel
+package dev.getzen.element.features.home.room.threads.list.viewmodel
 
 import com.airbnb.mvrx.Async
 import com.airbnb.mvrx.MavericksState
 import com.airbnb.mvrx.Uninitialized
-import im.vector.app.features.home.room.threads.arguments.ThreadListArgs
+import dev.getzen.element.features.home.room.threads.arguments.ThreadListArgs
 import org.matrix.android.sdk.api.session.threads.ThreadTimelineEvent
 
 data class ThreadListViewState(

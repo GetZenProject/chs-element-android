@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.poll.create
+package dev.getzen.element.features.poll.create
 
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.core.extensions.addFragment
-import im.vector.app.core.platform.SimpleFragmentActivity
+import dev.getzen.element.core.extensions.addFragment
+import dev.getzen.element.core.platform.SimpleFragmentActivity
 import im.vector.lib.core.utils.compat.getParcelableCompat
 
 @AndroidEntryPoint

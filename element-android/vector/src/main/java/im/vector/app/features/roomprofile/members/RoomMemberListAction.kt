@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.members
+package dev.getzen.element.features.roomprofile.members
 
-import im.vector.app.core.platform.VectorViewModelAction
+import dev.getzen.element.core.platform.VectorViewModelAction
 
 sealed class RoomMemberListAction : VectorViewModelAction {
     data class RevokeThreePidInvite(val stateKey: String) : RoomMemberListAction()

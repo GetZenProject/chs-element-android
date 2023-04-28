@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.push
+package dev.getzen.element.features.settings.push
 
-import im.vector.app.core.platform.VectorViewModelAction
+import dev.getzen.element.core.platform.VectorViewModelAction
 import org.matrix.android.sdk.api.session.pushers.Pusher
 
 sealed class PushGatewayAction : VectorViewModelAction {

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.location
+package dev.getzen.element.features.location
 
 import android.content.Intent
 import android.graphics.drawable.Drawable
@@ -34,21 +34,21 @@ import com.airbnb.mvrx.withState
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.mapbox.mapboxsdk.maps.MapView
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.platform.VectorBaseBottomSheetDialogFragment
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.utils.PERMISSIONS_FOR_FOREGROUND_LOCATION_SHARING
-import im.vector.app.core.utils.checkPermissions
-import im.vector.app.core.utils.onPermissionDeniedDialog
-import im.vector.app.core.utils.registerForPermissionsResult
-import im.vector.app.databinding.FragmentLocationSharingBinding
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.home.room.detail.timeline.helper.MatrixItemColorProvider
-import im.vector.app.features.location.live.LiveLocationLabsFlagPromotionBottomSheet
-import im.vector.app.features.location.live.duration.ChooseLiveDurationBottomSheet
-import im.vector.app.features.location.live.tracking.LocationSharingAndroidService
-import im.vector.app.features.location.option.LocationSharingOption
-import im.vector.app.features.settings.VectorPreferences
+import dev.getzen.element.R
+import dev.getzen.element.core.platform.VectorBaseBottomSheetDialogFragment
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.core.utils.PERMISSIONS_FOR_FOREGROUND_LOCATION_SHARING
+import dev.getzen.element.core.utils.checkPermissions
+import dev.getzen.element.core.utils.onPermissionDeniedDialog
+import dev.getzen.element.core.utils.registerForPermissionsResult
+import dev.getzen.element.databinding.FragmentLocationSharingBinding
+import dev.getzen.element.features.home.AvatarRenderer
+import dev.getzen.element.features.home.room.detail.timeline.helper.MatrixItemColorProvider
+import dev.getzen.element.features.location.live.LiveLocationLabsFlagPromotionBottomSheet
+import dev.getzen.element.features.location.live.duration.ChooseLiveDurationBottomSheet
+import dev.getzen.element.features.location.live.tracking.LocationSharingAndroidService
+import dev.getzen.element.features.location.option.LocationSharingOption
+import dev.getzen.element.features.settings.VectorPreferences
 import kotlinx.coroutines.launch
 import org.matrix.android.sdk.api.util.MatrixItem
 import java.lang.ref.WeakReference

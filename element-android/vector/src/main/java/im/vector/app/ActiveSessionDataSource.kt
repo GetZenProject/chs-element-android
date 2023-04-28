@@ -15,9 +15,9 @@
  *
  */
 
-package im.vector.app
+package dev.getzen.element
 
-import im.vector.app.core.utils.BehaviorDataSource
+import dev.getzen.element.core.utils.BehaviorDataSource
 import org.matrix.android.sdk.api.session.Session
 import org.matrix.android.sdk.api.util.Optional
 import javax.inject.Inject

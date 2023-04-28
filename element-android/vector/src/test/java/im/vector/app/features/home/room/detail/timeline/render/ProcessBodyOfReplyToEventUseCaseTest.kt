@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.render
+package dev.getzen.element.features.home.room.detail.timeline.render
 
 import androidx.annotation.StringRes
-import im.vector.app.R
-import im.vector.app.test.fakes.FakeActiveSessionHolder
-import im.vector.app.test.fakes.FakeStringProvider
+import dev.getzen.element.R
+import dev.getzen.element.test.fakes.FakeActiveSessionHolder
+import dev.getzen.element.test.fakes.FakeStringProvider
 import io.mockk.every
 import io.mockk.mockk
 import io.mockk.mockkStatic

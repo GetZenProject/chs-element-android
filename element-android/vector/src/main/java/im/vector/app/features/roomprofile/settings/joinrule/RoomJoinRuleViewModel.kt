@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.settings.joinrule
+package dev.getzen.element.features.roomprofile.settings.joinrule
 
-import im.vector.app.core.ui.bottomsheet.BottomSheetGenericViewModel
+import dev.getzen.element.core.ui.bottomsheet.BottomSheetGenericViewModel
 
 class RoomJoinRuleViewModel(initialState: RoomJoinRuleState) :
         BottomSheetGenericViewModel<RoomJoinRuleState>(initialState)

@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app
+package dev.getzen.element
 
 import android.content.SharedPreferences
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.features.rageshake.BugReporter
-import im.vector.app.features.rageshake.ReportType
-import im.vector.app.features.session.coroutineScope
-import im.vector.app.features.settings.VectorPreferences
+import dev.getzen.element.core.di.ActiveSessionHolder
+import dev.getzen.element.features.rageshake.BugReporter
+import dev.getzen.element.features.rageshake.ReportType
+import dev.getzen.element.features.session.coroutineScope
+import dev.getzen.element.features.settings.VectorPreferences
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob

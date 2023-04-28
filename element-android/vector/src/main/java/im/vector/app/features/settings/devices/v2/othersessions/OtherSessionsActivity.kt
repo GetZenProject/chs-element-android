@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2.othersessions
+package dev.getzen.element.features.settings.devices.v2.othersessions
 
 import android.content.Context
 import android.content.Intent
@@ -22,9 +22,9 @@ import android.os.Bundle
 import android.view.View
 import com.airbnb.mvrx.Mavericks
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.core.extensions.addFragment
-import im.vector.app.core.platform.SimpleFragmentActivity
-import im.vector.app.features.settings.devices.v2.filter.DeviceManagerFilterType
+import dev.getzen.element.core.extensions.addFragment
+import dev.getzen.element.core.platform.SimpleFragmentActivity
+import dev.getzen.element.features.settings.devices.v2.filter.DeviceManagerFilterType
 import im.vector.lib.core.utils.compat.getParcelableExtraCompat
 
 @AndroidEntryPoint

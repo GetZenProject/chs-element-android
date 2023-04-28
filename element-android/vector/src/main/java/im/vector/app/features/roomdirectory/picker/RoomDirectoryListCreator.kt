@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomdirectory.picker
+package dev.getzen.element.features.roomdirectory.picker
 
-import im.vector.app.R
-import im.vector.app.core.resources.StringArrayProvider
-import im.vector.app.features.roomdirectory.RoomDirectoryData
-import im.vector.app.features.roomdirectory.RoomDirectoryServer
+import dev.getzen.element.R
+import dev.getzen.element.core.resources.StringArrayProvider
+import dev.getzen.element.features.roomdirectory.RoomDirectoryData
+import dev.getzen.element.features.roomdirectory.RoomDirectoryServer
 import org.matrix.android.sdk.api.MatrixPatterns.getServerName
 import org.matrix.android.sdk.api.session.Session
 import org.matrix.android.sdk.api.session.room.model.thirdparty.ThirdPartyProtocol

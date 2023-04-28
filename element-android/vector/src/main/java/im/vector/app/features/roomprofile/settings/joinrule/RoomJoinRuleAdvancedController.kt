@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.settings.joinrule
+package dev.getzen.element.features.roomprofile.settings.joinrule
 
 import com.airbnb.epoxy.TypedEpoxyController
-import im.vector.app.R
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.ui.list.ItemStyle
-import im.vector.app.core.ui.list.genericButtonItem
-import im.vector.app.core.ui.list.genericFooterItem
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.roomprofile.settings.joinrule.advanced.RoomJoinRuleChooseRestrictedState
+import dev.getzen.element.R
+import dev.getzen.element.core.resources.ColorProvider
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.core.ui.list.ItemStyle
+import dev.getzen.element.core.ui.list.genericButtonItem
+import dev.getzen.element.core.ui.list.genericFooterItem
+import dev.getzen.element.features.home.AvatarRenderer
+import dev.getzen.element.features.roomprofile.settings.joinrule.advanced.RoomJoinRuleChooseRestrictedState
 import im.vector.lib.core.utils.epoxy.charsequence.toEpoxyCharSequence
 import org.matrix.android.sdk.api.session.room.model.RoomJoinRules
 import timber.log.Timber

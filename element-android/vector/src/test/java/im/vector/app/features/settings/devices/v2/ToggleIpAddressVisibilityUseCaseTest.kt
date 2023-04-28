@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2
+package dev.getzen.element.features.settings.devices.v2
 
-import im.vector.app.test.fakes.FakeVectorPreferences
+import dev.getzen.element.test.fakes.FakeVectorPreferences
 import org.junit.Test
 
 class ToggleIpAddressVisibilityUseCaseTest {

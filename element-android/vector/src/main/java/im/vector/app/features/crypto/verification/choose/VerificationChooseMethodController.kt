@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.crypto.verification.choose
+package dev.getzen.element.features.crypto.verification.choose
 
 import com.airbnb.epoxy.EpoxyController
-import im.vector.app.R
-import im.vector.app.core.epoxy.bottomSheetDividerItem
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.ui.list.buttonPositiveDestructiveButtonBarItem
-import im.vector.app.features.crypto.verification.epoxy.bottomSheetVerificationActionItem
-import im.vector.app.features.crypto.verification.epoxy.bottomSheetVerificationNoticeItem
-import im.vector.app.features.crypto.verification.epoxy.bottomSheetVerificationQrCodeItem
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.bottomSheetDividerItem
+import dev.getzen.element.core.resources.ColorProvider
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.core.ui.list.buttonPositiveDestructiveButtonBarItem
+import dev.getzen.element.features.crypto.verification.epoxy.bottomSheetVerificationActionItem
+import dev.getzen.element.features.crypto.verification.epoxy.bottomSheetVerificationNoticeItem
+import dev.getzen.element.features.crypto.verification.epoxy.bottomSheetVerificationQrCodeItem
 import im.vector.lib.core.utils.epoxy.charsequence.toEpoxyCharSequence
 import javax.inject.Inject
 

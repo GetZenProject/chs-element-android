@@ -116,7 +116,7 @@ project.android.buildTypes.all { buildType ->
 ext.abiVersionCodes = ["armeabi-v7a": 1, "arm64-v8a": 2, "x86": 3, "x86_64": 4].withDefault { 0 }
 
 android {
-    namespace "im.vector.application"
+    namespace "dev.getzen.elementlication"
     // Due to a bug introduced in Android gradle plugin 3.6.0, we have to specify the ndk version to use
     // Ref: https://issuetracker.google.com/issues/144111441
     ndkVersion "21.3.6528147"
@@ -124,7 +124,7 @@ android {
     compileSdk versions.compileSdk
 
     defaultConfig {
-        applicationId "im.vector.app"
+        applicationId "dev.getzen.element"
         // Set to API 21: see #405
         minSdk versions.minSdk
         targetSdk versions.targetSdk

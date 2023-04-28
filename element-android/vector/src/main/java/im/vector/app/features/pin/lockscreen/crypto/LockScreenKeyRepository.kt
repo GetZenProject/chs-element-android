@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.pin.lockscreen.crypto
+package dev.getzen.element.features.pin.lockscreen.crypto
 
 import android.os.Build
 import android.security.keystore.KeyPermanentlyInvalidatedException
 import androidx.annotation.RequiresApi
 import androidx.biometric.BiometricPrompt
-import im.vector.app.features.pin.lockscreen.di.BiometricKeyAlias
-import im.vector.app.features.pin.lockscreen.di.PinCodeKeyAlias
+import dev.getzen.element.features.pin.lockscreen.di.BiometricKeyAlias
+import dev.getzen.element.features.pin.lockscreen.di.PinCodeKeyAlias
 import javax.inject.Inject
 import javax.inject.Singleton
 

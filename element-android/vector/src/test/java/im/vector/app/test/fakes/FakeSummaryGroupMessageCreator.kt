@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.test.fakes
+package dev.getzen.element.test.fakes
 
-import im.vector.app.features.notifications.SummaryGroupMessageCreator
+import dev.getzen.element.features.notifications.SummaryGroupMessageCreator
 import io.mockk.mockk
 
 class FakeSummaryGroupMessageCreator {

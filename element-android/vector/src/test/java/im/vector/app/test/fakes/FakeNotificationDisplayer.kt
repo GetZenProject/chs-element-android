@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.test.fakes
+package dev.getzen.element.test.fakes
 
-import im.vector.app.features.notifications.NotificationDisplayer
-import im.vector.app.features.notifications.NotificationDrawerManager
+import dev.getzen.element.features.notifications.NotificationDisplayer
+import dev.getzen.element.features.notifications.NotificationDrawerManager
 import io.mockk.confirmVerified
 import io.mockk.mockk
 import io.mockk.verify

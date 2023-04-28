@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.list.usecase
+package dev.getzen.element.features.home.room.list.usecase
 
-import im.vector.app.features.voicebroadcast.VoiceBroadcastConstants
-import im.vector.app.features.voicebroadcast.VoiceBroadcastConstants.VOICE_BROADCAST_CHUNK_KEY
-import im.vector.app.features.voicebroadcast.model.VoiceBroadcastState
-import im.vector.app.features.voicebroadcast.model.asVoiceBroadcastEvent
-import im.vector.app.features.voicebroadcast.usecase.GetRoomLiveVoiceBroadcastsUseCase
-import im.vector.app.test.fakes.FakeActiveSessionHolder
-import im.vector.app.test.fakes.FakeRoom
-import im.vector.app.test.fakes.FakeVectorPreferences
+import dev.getzen.element.features.voicebroadcast.VoiceBroadcastConstants
+import dev.getzen.element.features.voicebroadcast.VoiceBroadcastConstants.VOICE_BROADCAST_CHUNK_KEY
+import dev.getzen.element.features.voicebroadcast.model.VoiceBroadcastState
+import dev.getzen.element.features.voicebroadcast.model.asVoiceBroadcastEvent
+import dev.getzen.element.features.voicebroadcast.usecase.GetRoomLiveVoiceBroadcastsUseCase
+import dev.getzen.element.test.fakes.FakeActiveSessionHolder
+import dev.getzen.element.test.fakes.FakeRoom
+import dev.getzen.element.test.fakes.FakeVectorPreferences
 import io.mockk.every
 import io.mockk.mockk
 import org.amshove.kluent.shouldBe

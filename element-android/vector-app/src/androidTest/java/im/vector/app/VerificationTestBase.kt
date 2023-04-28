@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app
+package dev.getzen.element
 
 import android.net.Uri
 import androidx.lifecycle.Observer
-import im.vector.app.ui.robot.OnboardingRobot
+import dev.getzen.element.ui.robot.OnboardingRobot
 import kotlinx.coroutines.DelicateCoroutinesApi
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope

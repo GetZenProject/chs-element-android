@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.discovery.change
+package dev.getzen.element.features.discovery.change
 
 import androidx.annotation.StringRes
-import im.vector.app.core.platform.VectorViewEvents
+import dev.getzen.element.core.platform.VectorViewEvents
 
 sealed class SetIdentityServerViewEvents : VectorViewEvents {
     data class Loading(val message: CharSequence? = null) : SetIdentityServerViewEvents()

@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.list
+package dev.getzen.element.features.home.room.list
 
-import im.vector.app.features.home.RoomListDisplayMode
-import im.vector.app.features.settings.FontScalePreferences
+import dev.getzen.element.features.home.RoomListDisplayMode
+import dev.getzen.element.features.settings.FontScalePreferences
 import javax.inject.Inject
 
 class RoomSummaryPagedControllerFactory @Inject constructor(

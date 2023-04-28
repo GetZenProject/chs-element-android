@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.onboarding.ftueauth
+package dev.getzen.element.features.onboarding.ftueauth
 
 import android.os.Build
 import android.os.Bundle
@@ -26,27 +26,27 @@ import androidx.core.view.isVisible
 import androidx.lifecycle.flowWithLifecycle
 import androidx.lifecycle.lifecycleScope
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.clearErrorOnChange
-import im.vector.app.core.extensions.content
-import im.vector.app.core.extensions.editText
-import im.vector.app.core.extensions.hideKeyboard
-import im.vector.app.core.extensions.hidePassword
-import im.vector.app.core.extensions.realignPercentagesToParent
-import im.vector.app.core.extensions.setOnFocusLostListener
-import im.vector.app.core.extensions.setOnImeDoneListener
-import im.vector.app.core.extensions.toReducedUrl
-import im.vector.app.databinding.FragmentFtueCombinedLoginBinding
-import im.vector.app.features.VectorFeatures
-import im.vector.app.features.login.LoginMode
-import im.vector.app.features.login.SSORedirectRouterActivity
-import im.vector.app.features.login.SocialLoginButtonsView
-import im.vector.app.features.login.qr.QrCodeLoginArgs
-import im.vector.app.features.login.qr.QrCodeLoginType
-import im.vector.app.features.login.render
-import im.vector.app.features.onboarding.OnboardingAction
-import im.vector.app.features.onboarding.OnboardingViewEvents
-import im.vector.app.features.onboarding.OnboardingViewState
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.clearErrorOnChange
+import dev.getzen.element.core.extensions.content
+import dev.getzen.element.core.extensions.editText
+import dev.getzen.element.core.extensions.hideKeyboard
+import dev.getzen.element.core.extensions.hidePassword
+import dev.getzen.element.core.extensions.realignPercentagesToParent
+import dev.getzen.element.core.extensions.setOnFocusLostListener
+import dev.getzen.element.core.extensions.setOnImeDoneListener
+import dev.getzen.element.core.extensions.toReducedUrl
+import dev.getzen.element.databinding.FragmentFtueCombinedLoginBinding
+import dev.getzen.element.features.VectorFeatures
+import dev.getzen.element.features.login.LoginMode
+import dev.getzen.element.features.login.SSORedirectRouterActivity
+import dev.getzen.element.features.login.SocialLoginButtonsView
+import dev.getzen.element.features.login.qr.QrCodeLoginArgs
+import dev.getzen.element.features.login.qr.QrCodeLoginType
+import dev.getzen.element.features.login.render
+import dev.getzen.element.features.onboarding.OnboardingAction
+import dev.getzen.element.features.onboarding.OnboardingViewEvents
+import dev.getzen.element.features.onboarding.OnboardingViewState
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.launchIn
 import org.matrix.android.sdk.api.auth.SSOAction

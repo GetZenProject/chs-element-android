@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.notifications
+package dev.getzen.element.features.settings.notifications
 
 import android.os.Bundle
 import android.view.View
 import androidx.preference.Preference
 import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
-import im.vector.app.R
-import im.vector.app.core.preference.VectorCheckboxPreference
-import im.vector.app.features.settings.VectorSettingsBaseFragment
-import im.vector.app.features.themes.ThemeUtils
+import dev.getzen.element.R
+import dev.getzen.element.core.preference.VectorCheckboxPreference
+import dev.getzen.element.features.settings.VectorSettingsBaseFragment
+import dev.getzen.element.features.themes.ThemeUtils
 
 abstract class VectorSettingsPushRuleNotificationFragment :
         VectorSettingsBaseFragment() {

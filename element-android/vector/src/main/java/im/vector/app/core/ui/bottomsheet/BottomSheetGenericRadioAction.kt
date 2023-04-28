@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.ui.bottomsheet
+package dev.getzen.element.core.ui.bottomsheet
 
-import im.vector.app.core.epoxy.bottomsheet.BottomSheetRadioActionItem_
-import im.vector.app.core.platform.VectorSharedAction
+import dev.getzen.element.core.epoxy.bottomsheet.BottomSheetRadioActionItem_
+import dev.getzen.element.core.platform.VectorSharedAction
 
 /**
  * Parent class for a bottom sheet action.

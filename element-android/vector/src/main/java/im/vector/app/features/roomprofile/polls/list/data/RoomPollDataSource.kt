@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.polls.list.data
+package dev.getzen.element.features.roomprofile.polls.list.data
 
 import androidx.lifecycle.asFlow
-import im.vector.app.core.di.ActiveSessionHolder
+import dev.getzen.element.core.di.ActiveSessionHolder
 import kotlinx.coroutines.flow.Flow
 import org.matrix.android.sdk.api.session.getRoom
 import org.matrix.android.sdk.api.session.room.poll.LoadedPollsStatus

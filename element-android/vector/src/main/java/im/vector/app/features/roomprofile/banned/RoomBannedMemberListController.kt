@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.banned
+package dev.getzen.element.features.roomprofile.banned
 
 import com.airbnb.epoxy.TypedEpoxyController
-import im.vector.app.R
-import im.vector.app.core.epoxy.dividerItem
-import im.vector.app.core.epoxy.profiles.buildProfileSection
-import im.vector.app.core.epoxy.profiles.profileMatrixItemWithProgress
-import im.vector.app.core.extensions.join
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.ui.list.genericFooterItem
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.roomprofile.members.RoomMemberSummaryFilter
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.dividerItem
+import dev.getzen.element.core.epoxy.profiles.buildProfileSection
+import dev.getzen.element.core.epoxy.profiles.profileMatrixItemWithProgress
+import dev.getzen.element.core.extensions.join
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.core.ui.list.genericFooterItem
+import dev.getzen.element.features.home.AvatarRenderer
+import dev.getzen.element.features.roomprofile.members.RoomMemberSummaryFilter
 import im.vector.lib.core.utils.epoxy.charsequence.toEpoxyCharSequence
 import org.matrix.android.sdk.api.session.room.model.RoomMemberSummary
 import org.matrix.android.sdk.api.util.toMatrixItem

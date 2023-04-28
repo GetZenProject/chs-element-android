@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app
+package dev.getzen.element
 
 import android.graphics.Typeface
 import androidx.core.provider.FontsContractCompat

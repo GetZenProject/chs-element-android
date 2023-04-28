@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.factory
+package dev.getzen.element.features.home.room.detail.timeline.factory
 
-import im.vector.app.features.home.room.detail.timeline.item.PollOptionViewState
-import im.vector.app.features.home.room.detail.timeline.item.PollVoteSummaryData
-import im.vector.app.test.fixtures.PollFixture.A_POLL_CONTENT
-import im.vector.app.test.fixtures.PollFixture.A_POLL_OPTION_IDS
-import im.vector.app.test.fixtures.PollFixture.A_POLL_RESPONSE_DATA
+import dev.getzen.element.features.home.room.detail.timeline.item.PollOptionViewState
+import dev.getzen.element.features.home.room.detail.timeline.item.PollVoteSummaryData
+import dev.getzen.element.test.fixtures.PollFixture.A_POLL_CONTENT
+import dev.getzen.element.test.fixtures.PollFixture.A_POLL_OPTION_IDS
+import dev.getzen.element.test.fixtures.PollFixture.A_POLL_RESPONSE_DATA
 import org.amshove.kluent.shouldBeEqualTo
 import org.junit.Test
 import org.matrix.android.sdk.api.session.room.model.message.PollType

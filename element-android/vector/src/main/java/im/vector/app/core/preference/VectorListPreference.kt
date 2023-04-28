@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.preference
+package dev.getzen.element.core.preference
 
 import android.content.Context
 import android.util.AttributeSet
@@ -22,7 +22,7 @@ import android.view.View
 import androidx.preference.ListPreference
 import androidx.preference.Preference
 import androidx.preference.PreferenceViewHolder
-import im.vector.app.R
+import dev.getzen.element.R
 
 /**
  * Customize ListPreference class to add a warning icon to the right side of the list.

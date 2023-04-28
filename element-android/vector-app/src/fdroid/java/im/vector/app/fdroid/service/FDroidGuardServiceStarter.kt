@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.fdroid.service
+package dev.getzen.element.fdroid.service
 
 import android.content.Context
 import android.content.Intent
 import androidx.core.content.ContextCompat
-import im.vector.app.core.services.GuardServiceStarter
-import im.vector.app.features.settings.VectorPreferences
+import dev.getzen.element.core.services.GuardServiceStarter
+import dev.getzen.element.features.settings.VectorPreferences
 import timber.log.Timber
 import javax.inject.Inject
 

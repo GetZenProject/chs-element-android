@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2.notification
+package dev.getzen.element.features.settings.devices.v2.notification
 
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map

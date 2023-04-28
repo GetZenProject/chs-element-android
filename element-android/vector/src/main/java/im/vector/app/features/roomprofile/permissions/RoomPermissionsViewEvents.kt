@@ -15,9 +15,9 @@
  *
  */
 
-package im.vector.app.features.roomprofile.permissions
+package dev.getzen.element.features.roomprofile.permissions
 
-import im.vector.app.core.platform.VectorViewEvents
+import dev.getzen.element.core.platform.VectorViewEvents
 
 /**
  * Transient events for room settings screen.

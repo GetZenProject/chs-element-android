@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.reactions.widget
+package dev.getzen.element.features.reactions.widget
 
 import android.content.Context
 import android.graphics.drawable.Drawable
@@ -23,10 +23,10 @@ import android.widget.LinearLayout
 import androidx.core.content.ContextCompat
 import androidx.core.content.withStyledAttributes
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.EmojiSpanify
-import im.vector.app.R
-import im.vector.app.core.utils.TextUtils
-import im.vector.app.databinding.ReactionButtonBinding
+import dev.getzen.element.EmojiSpanify
+import dev.getzen.element.R
+import dev.getzen.element.core.utils.TextUtils
+import dev.getzen.element.databinding.ReactionButtonBinding
 import javax.inject.Inject
 
 /**

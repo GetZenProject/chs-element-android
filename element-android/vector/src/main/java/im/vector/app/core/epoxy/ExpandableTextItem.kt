@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.epoxy
+package dev.getzen.element.core.epoxy
 
 import android.animation.ObjectAnimator
 import android.text.TextUtils
@@ -25,8 +25,8 @@ import androidx.core.view.doOnPreDraw
 import androidx.core.view.isVisible
 import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
-import im.vector.app.R
-import im.vector.app.core.extensions.copyOnLongClick
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.copyOnLongClick
 
 @EpoxyModelClass
 abstract class ExpandableTextItem : VectorEpoxyModel<ExpandableTextItem.Holder>(R.layout.item_expandable_textview) {

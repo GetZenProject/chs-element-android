@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.view
+package dev.getzen.element.features.home.room.detail.timeline.view
 
 import android.content.Context
 import android.util.AttributeSet
@@ -26,9 +26,9 @@ import androidx.core.view.marginBottom
 import androidx.core.view.marginEnd
 import androidx.core.view.marginStart
 import androidx.core.view.marginTop
-import im.vector.app.R
-import im.vector.app.core.resources.DefaultLocaleProvider
-import im.vector.app.core.resources.getLayoutDirectionFromCurrentLocale
+import dev.getzen.element.R
+import dev.getzen.element.core.resources.DefaultLocaleProvider
+import dev.getzen.element.core.resources.getLayoutDirectionFromCurrentLocale
 
 class MessageBubbleContentLayout @JvmOverloads constructor(context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0) :
         ConstraintLayout(context, attrs, defStyleAttr) {

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features
+package dev.getzen.element.features
 
 import android.app.Activity
 import android.content.Context
@@ -29,30 +29,30 @@ import com.airbnb.mvrx.viewModel
 import com.bumptech.glide.Glide
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.startSyncing
-import im.vector.app.core.extensions.vectorStore
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.core.utils.deleteAllFiles
-import im.vector.app.databinding.ActivityMainBinding
-import im.vector.app.features.analytics.VectorAnalytics
-import im.vector.app.features.analytics.plan.ViewRoom
-import im.vector.app.features.home.HomeActivity
-import im.vector.app.features.home.ShortcutsHandler
-import im.vector.app.features.notifications.NotificationDrawerManager
-import im.vector.app.features.pin.UnlockedActivity
-import im.vector.app.features.pin.lockscreen.crypto.LockScreenKeyRepository
-import im.vector.app.features.pin.lockscreen.pincode.PinCodeHelper
-import im.vector.app.features.popup.PopupAlertManager
-import im.vector.app.features.session.VectorSessionStore
-import im.vector.app.features.signout.hard.SignedOutActivity
-import im.vector.app.features.start.StartAppAction
-import im.vector.app.features.start.StartAppAndroidService
-import im.vector.app.features.start.StartAppViewEvent
-import im.vector.app.features.start.StartAppViewModel
-import im.vector.app.features.start.StartAppViewState
-import im.vector.app.features.themes.ActivityOtherThemes
-import im.vector.app.features.ui.UiStateRepository
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.startSyncing
+import dev.getzen.element.core.extensions.vectorStore
+import dev.getzen.element.core.platform.VectorBaseActivity
+import dev.getzen.element.core.utils.deleteAllFiles
+import dev.getzen.element.databinding.ActivityMainBinding
+import dev.getzen.element.features.analytics.VectorAnalytics
+import dev.getzen.element.features.analytics.plan.ViewRoom
+import dev.getzen.element.features.home.HomeActivity
+import dev.getzen.element.features.home.ShortcutsHandler
+import dev.getzen.element.features.notifications.NotificationDrawerManager
+import dev.getzen.element.features.pin.UnlockedActivity
+import dev.getzen.element.features.pin.lockscreen.crypto.LockScreenKeyRepository
+import dev.getzen.element.features.pin.lockscreen.pincode.PinCodeHelper
+import dev.getzen.element.features.popup.PopupAlertManager
+import dev.getzen.element.features.session.VectorSessionStore
+import dev.getzen.element.features.signout.hard.SignedOutActivity
+import dev.getzen.element.features.start.StartAppAction
+import dev.getzen.element.features.start.StartAppAndroidService
+import dev.getzen.element.features.start.StartAppViewEvent
+import dev.getzen.element.features.start.StartAppViewModel
+import dev.getzen.element.features.start.StartAppViewState
+import dev.getzen.element.features.themes.ActivityOtherThemes
+import dev.getzen.element.features.ui.UiStateRepository
 import im.vector.lib.core.utils.compat.getParcelableExtraCompat
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

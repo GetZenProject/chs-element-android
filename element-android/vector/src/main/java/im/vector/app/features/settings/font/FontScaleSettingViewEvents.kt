@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.font
+package dev.getzen.element.features.settings.font
 
-import im.vector.app.core.platform.VectorViewEvents
+import dev.getzen.element.core.platform.VectorViewEvents
 
 sealed class FontScaleSettingViewEvents : VectorViewEvents {
     object RestartActivity : FontScaleSettingViewEvents()

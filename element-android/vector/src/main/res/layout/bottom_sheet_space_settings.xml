@@ -70,7 +70,7 @@
         android:layout_height="1dp"
         android:background="?vctr_list_separator_on_surface" />
 
-    <im.vector.app.core.ui.views.BottomSheetActionButton
+    <dev.getzen.element.core.ui.views.BottomSheetActionButton
         android:id="@+id/invitePeople"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -79,7 +79,7 @@
         app:tint="?vctr_content_secondary"
         app:titleTextColor="?vctr_content_primary" />
 
-    <im.vector.app.core.ui.views.BottomSheetActionButton
+    <dev.getzen.element.core.ui.views.BottomSheetActionButton
         android:id="@+id/exploreRooms"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -90,7 +90,7 @@
         tools:actionDescription="" />
 
 
-    <im.vector.app.core.ui.views.BottomSheetActionButton
+    <dev.getzen.element.core.ui.views.BottomSheetActionButton
         android:id="@+id/showMemberList"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -100,7 +100,7 @@
         app:titleTextColor="?vctr_content_primary" />
 
     <!-- Only visible when in developer mode -->
-    <im.vector.app.core.ui.views.BottomSheetActionButton
+    <dev.getzen.element.core.ui.views.BottomSheetActionButton
         android:id="@+id/spaceSettings"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -109,7 +109,7 @@
         app:tint="?vctr_content_secondary"
         app:titleTextColor="?vctr_content_primary" />
 
-    <im.vector.app.core.ui.views.BottomSheetActionButton
+    <dev.getzen.element.core.ui.views.BottomSheetActionButton
         android:id="@+id/addRooms"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -119,7 +119,7 @@
         app:titleTextColor="?vctr_content_primary"
         tools:actionDescription="" />
 
-    <im.vector.app.core.ui.views.BottomSheetActionButton
+    <dev.getzen.element.core.ui.views.BottomSheetActionButton
         android:id="@+id/addSpaces"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -130,7 +130,7 @@
         app:betaAction="true"
         tools:actionDescription="" />
 
-    <im.vector.app.core.ui.views.BottomSheetActionButton
+    <dev.getzen.element.core.ui.views.BottomSheetActionButton
         android:id="@+id/leaveSpace"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

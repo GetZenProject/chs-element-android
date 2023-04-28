@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home
+package dev.getzen.element.features.home
 
 import com.airbnb.mvrx.MavericksState
-import im.vector.app.features.onboarding.AuthenticationDescription
+import dev.getzen.element.features.onboarding.AuthenticationDescription
 import org.matrix.android.sdk.api.session.sync.SyncRequestState
 
 data class HomeActivityViewState(

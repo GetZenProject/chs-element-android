@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.analytics.ui.consent
+package dev.getzen.element.features.analytics.ui.consent
 
 import com.airbnb.mvrx.MavericksState
 

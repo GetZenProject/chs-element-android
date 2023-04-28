@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <application
-        android:name="im.vector.app.VectorApplication"
+        android:name="dev.getzen.element.VectorApplication"
         android:allowBackup="false"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -25,7 +25,7 @@
         <activity-alias
             android:name=".features.Alias"
             android:exported="true"
-            android:targetActivity="im.vector.app.features.MainActivity">
+            android:targetActivity="dev.getzen.element.features.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

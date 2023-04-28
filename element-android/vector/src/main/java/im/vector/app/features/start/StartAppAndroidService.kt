@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.start
+package dev.getzen.element.features.start
 
 import android.content.Intent
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.di.NamedGlobalScope
-import im.vector.app.core.extensions.startForegroundCompat
-import im.vector.app.core.services.VectorAndroidService
-import im.vector.app.features.notifications.NotificationUtils
+import dev.getzen.element.core.di.ActiveSessionHolder
+import dev.getzen.element.core.di.NamedGlobalScope
+import dev.getzen.element.core.extensions.startForegroundCompat
+import dev.getzen.element.core.services.VectorAndroidService
+import dev.getzen.element.features.notifications.NotificationUtils
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch

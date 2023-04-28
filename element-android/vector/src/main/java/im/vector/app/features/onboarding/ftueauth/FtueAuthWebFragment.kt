@@ -16,7 +16,7 @@
 
 @file:Suppress("DEPRECATION")
 
-package im.vector.app.features.onboarding.ftueauth
+package dev.getzen.element.features.onboarding.ftueauth
 
 import android.annotation.SuppressLint
 import android.content.DialogInterface
@@ -32,14 +32,14 @@ import android.webkit.WebView
 import android.webkit.WebViewClient
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.utils.AssetReader
-import im.vector.app.databinding.FragmentLoginWebBinding
-import im.vector.app.features.login.JavascriptResponse
-import im.vector.app.features.login.SignMode
-import im.vector.app.features.onboarding.OnboardingAction
-import im.vector.app.features.onboarding.OnboardingViewEvents
-import im.vector.app.features.onboarding.OnboardingViewState
+import dev.getzen.element.R
+import dev.getzen.element.core.utils.AssetReader
+import dev.getzen.element.databinding.FragmentLoginWebBinding
+import dev.getzen.element.features.login.JavascriptResponse
+import dev.getzen.element.features.login.SignMode
+import dev.getzen.element.features.onboarding.OnboardingAction
+import dev.getzen.element.features.onboarding.OnboardingViewEvents
+import dev.getzen.element.features.onboarding.OnboardingViewState
 import org.matrix.android.sdk.api.auth.data.Credentials
 import org.matrix.android.sdk.api.util.MatrixJsonParser
 import timber.log.Timber

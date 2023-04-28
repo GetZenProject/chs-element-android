@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.debug
+package dev.getzen.element.features.debug
 
 import android.app.Activity
 import android.app.NotificationChannel
@@ -25,21 +25,21 @@ import androidx.core.app.NotificationCompat
 import androidx.core.app.Person
 import androidx.core.content.getSystemService
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.registerStartForActivityResult
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.core.utils.PERMISSIONS_FOR_TAKING_PHOTO
-import im.vector.app.core.utils.checkPermissions
-import im.vector.app.core.utils.registerForPermissionsResult
-import im.vector.app.core.utils.toast
-import im.vector.app.features.debug.analytics.DebugAnalyticsActivity
-import im.vector.app.features.debug.features.DebugFeaturesSettingsActivity
-import im.vector.app.features.debug.jitsi.DebugJitsiActivity
-import im.vector.app.features.debug.leak.DebugMemoryLeaksActivity
-import im.vector.app.features.debug.sas.DebugSasEmojiActivity
-import im.vector.app.features.debug.settings.DebugPrivateSettingsActivity
-import im.vector.app.features.qrcode.QrCodeScannerActivity
-import im.vector.application.databinding.ActivityDebugMenuBinding
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.registerStartForActivityResult
+import dev.getzen.element.core.platform.VectorBaseActivity
+import dev.getzen.element.core.utils.PERMISSIONS_FOR_TAKING_PHOTO
+import dev.getzen.element.core.utils.checkPermissions
+import dev.getzen.element.core.utils.registerForPermissionsResult
+import dev.getzen.element.core.utils.toast
+import dev.getzen.element.features.debug.analytics.DebugAnalyticsActivity
+import dev.getzen.element.features.debug.features.DebugFeaturesSettingsActivity
+import dev.getzen.element.features.debug.jitsi.DebugJitsiActivity
+import dev.getzen.element.features.debug.leak.DebugMemoryLeaksActivity
+import dev.getzen.element.features.debug.sas.DebugSasEmojiActivity
+import dev.getzen.element.features.debug.settings.DebugPrivateSettingsActivity
+import dev.getzen.element.features.qrcode.QrCodeScannerActivity
+import dev.getzen.elementlication.databinding.ActivityDebugMenuBinding
 import im.vector.lib.core.utils.timer.Clock
 import im.vector.lib.ui.styles.debug.DebugMaterialThemeDarkDefaultActivity
 import im.vector.lib.ui.styles.debug.DebugMaterialThemeDarkTestActivity

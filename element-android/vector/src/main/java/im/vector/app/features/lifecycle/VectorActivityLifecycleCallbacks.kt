@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.lifecycle
+package dev.getzen.element.features.lifecycle
 
 import android.app.Activity
 import android.app.ActivityManager
@@ -25,9 +25,9 @@ import android.content.pm.PackageManager
 import android.os.Build
 import android.os.Bundle
 import androidx.core.content.getSystemService
-import im.vector.app.features.MainActivity
-import im.vector.app.features.MainActivityArgs
-import im.vector.app.features.popup.PopupAlertManager
+import dev.getzen.element.features.MainActivity
+import dev.getzen.element.features.MainActivityArgs
+import dev.getzen.element.features.popup.PopupAlertManager
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob

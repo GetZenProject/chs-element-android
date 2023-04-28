@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.settings.troubleshoot
+package dev.getzen.element.features.settings.troubleshoot
 
 import android.content.Context
-import im.vector.app.R
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.utils.startNotificationSettingsIntent
-import im.vector.app.features.notifications.NotificationUtils
+import dev.getzen.element.R
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.core.utils.startNotificationSettingsIntent
+import dev.getzen.element.features.notifications.NotificationUtils
 import javax.inject.Inject
 
 /**

@@ -14,25 +14,25 @@
  * limitations under the License.
  *
  */
-package im.vector.app.features.roommemberprofile.devices
+package dev.getzen.element.features.roommemberprofile.devices
 
 import com.airbnb.epoxy.TypedEpoxyController
 import com.airbnb.mvrx.Fail
 import com.airbnb.mvrx.Loading
 import com.airbnb.mvrx.Success
 import com.airbnb.mvrx.Uninitialized
-import im.vector.app.R
-import im.vector.app.core.epoxy.errorWithRetryItem
-import im.vector.app.core.epoxy.loadingItem
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.ui.list.ItemStyle
-import im.vector.app.core.ui.list.genericFooterItem
-import im.vector.app.core.ui.list.genericItem
-import im.vector.app.core.ui.list.genericWithValueItem
-import im.vector.app.core.utils.DimensionConverter
-import im.vector.app.features.settings.VectorPreferences
-import im.vector.app.features.settings.devices.TrustUtils
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.errorWithRetryItem
+import dev.getzen.element.core.epoxy.loadingItem
+import dev.getzen.element.core.resources.ColorProvider
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.core.ui.list.ItemStyle
+import dev.getzen.element.core.ui.list.genericFooterItem
+import dev.getzen.element.core.ui.list.genericItem
+import dev.getzen.element.core.ui.list.genericWithValueItem
+import dev.getzen.element.core.utils.DimensionConverter
+import dev.getzen.element.features.settings.VectorPreferences
+import dev.getzen.element.features.settings.devices.TrustUtils
 import im.vector.lib.core.utils.epoxy.charsequence.toEpoxyCharSequence
 import me.gujun.android.span.span
 import org.matrix.android.sdk.api.extensions.orFalse

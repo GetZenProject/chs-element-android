@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.onboarding
+package dev.getzen.element.features.onboarding
 
 enum class FtueUseCase(val persistableValue: String) {
     FRIENDS_FAMILY("friends_family"),

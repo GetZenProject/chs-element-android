@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.onboarding.ftueauth
+package dev.getzen.element.features.onboarding.ftueauth
 
-import im.vector.app.test.fakes.FakePhoneNumberUtil
+import dev.getzen.element.test.fakes.FakePhoneNumberUtil
 import org.amshove.kluent.shouldBeEqualTo
 import org.junit.Test
 

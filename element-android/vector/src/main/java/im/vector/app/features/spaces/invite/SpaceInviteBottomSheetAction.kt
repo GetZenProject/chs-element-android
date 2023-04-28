@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.invite
+package dev.getzen.element.features.spaces.invite
 
-import im.vector.app.core.platform.VectorViewModelAction
+import dev.getzen.element.core.platform.VectorViewModelAction
 
 sealed class SpaceInviteBottomSheetAction : VectorViewModelAction {
     object DoJoin : SpaceInviteBottomSheetAction()

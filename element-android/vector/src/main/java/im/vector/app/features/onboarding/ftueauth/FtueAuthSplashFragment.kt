@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.onboarding.ftueauth
+package dev.getzen.element.features.onboarding.ftueauth
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -23,13 +23,13 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.core.view.isVisible
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.resources.BuildMeta
-import im.vector.app.databinding.FragmentFtueAuthSplashBinding
-import im.vector.app.features.VectorFeatures
-import im.vector.app.features.onboarding.OnboardingAction
-import im.vector.app.features.onboarding.OnboardingFlow
-import im.vector.app.features.settings.VectorPreferences
+import dev.getzen.element.R
+import dev.getzen.element.core.resources.BuildMeta
+import dev.getzen.element.databinding.FragmentFtueAuthSplashBinding
+import dev.getzen.element.features.VectorFeatures
+import dev.getzen.element.features.onboarding.OnboardingAction
+import dev.getzen.element.features.onboarding.OnboardingFlow
+import dev.getzen.element.features.settings.VectorPreferences
 import javax.inject.Inject
 
 /**

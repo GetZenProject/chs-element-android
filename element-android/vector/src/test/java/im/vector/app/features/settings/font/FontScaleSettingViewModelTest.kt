@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.font
+package dev.getzen.element.features.settings.font
 
 import com.airbnb.mvrx.test.MavericksTestRule
-import im.vector.app.features.settings.FontScaleValue
-import im.vector.app.test.fakes.FakeConfiguration
-import im.vector.app.test.fakes.FakeFontScalePreferences
-import im.vector.app.test.test
+import dev.getzen.element.features.settings.FontScaleValue
+import dev.getzen.element.test.fakes.FakeConfiguration
+import dev.getzen.element.test.fakes.FakeFontScalePreferences
+import dev.getzen.element.test.test
 import kotlinx.coroutines.test.runTest
 import org.junit.Before
 import org.junit.Rule

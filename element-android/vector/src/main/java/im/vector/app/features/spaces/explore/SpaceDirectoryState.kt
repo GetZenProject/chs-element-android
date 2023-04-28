@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.explore
+package dev.getzen.element.features.spaces.explore
 
 import com.airbnb.mvrx.Async
 import com.airbnb.mvrx.MavericksState

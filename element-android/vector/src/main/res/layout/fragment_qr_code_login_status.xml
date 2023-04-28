@@ -32,7 +32,7 @@
 
     </LinearLayout>
 
-    <im.vector.app.features.login.qr.QrCodeLoginHeaderView
+    <dev.getzen.element.features.login.qr.QrCodeLoginHeaderView
         android:id="@+id/qrCodeLoginStatusHeaderView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

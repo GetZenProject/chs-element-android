@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.crypto.keysbackup.settings
+package dev.getzen.element.features.crypto.keysbackup.settings
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -23,12 +23,12 @@ import com.airbnb.mvrx.activityViewModel
 import com.airbnb.mvrx.withState
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.databinding.FragmentKeysBackupSettingsBinding
-import im.vector.app.features.crypto.keysbackup.restore.KeysBackupRestoreActivity
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.cleanup
+import dev.getzen.element.core.extensions.configureWith
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.databinding.FragmentKeysBackupSettingsBinding
+import dev.getzen.element.features.crypto.keysbackup.restore.KeysBackupRestoreActivity
 import javax.inject.Inject
 
 @AndroidEntryPoint

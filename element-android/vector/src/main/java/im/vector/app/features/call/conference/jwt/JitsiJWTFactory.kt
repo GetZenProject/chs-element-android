@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call.conference.jwt
+package dev.getzen.element.features.call.conference.jwt
 
-import im.vector.app.core.utils.ensureProtocol
+import dev.getzen.element.core.utils.ensureProtocol
 import io.jsonwebtoken.Jwts
 import io.jsonwebtoken.SignatureAlgorithm
 import io.jsonwebtoken.security.Keys

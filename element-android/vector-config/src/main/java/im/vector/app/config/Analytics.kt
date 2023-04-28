@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.config
+package dev.getzen.element.config
 
 /**
  * The types of analytics Element currently supports.

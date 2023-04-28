@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.font
+package dev.getzen.element.features.settings.font
 
 import com.airbnb.mvrx.MavericksState
-import im.vector.app.features.settings.FontScaleValue
+import dev.getzen.element.features.settings.FontScaleValue
 
 data class FontScaleSettingViewState(
         val availableScaleOptions: List<FontScaleValue> = emptyList(),

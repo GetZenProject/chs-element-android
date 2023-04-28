@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.session
+package dev.getzen.element.core.session
 
-import im.vector.app.core.extensions.startSyncing
-import im.vector.app.core.session.clientinfo.UpdateMatrixClientInfoUseCase
-import im.vector.app.features.session.coroutineScope
-import im.vector.app.features.settings.devices.v2.notification.UpdateNotificationSettingsAccountDataUseCase
-import im.vector.app.test.fakes.FakeContext
-import im.vector.app.test.fakes.FakeNotificationsSettingUpdater
-import im.vector.app.test.fakes.FakePushRulesUpdater
-import im.vector.app.test.fakes.FakeSession
-import im.vector.app.test.fakes.FakeVectorPreferences
-import im.vector.app.test.fakes.FakeWebRtcCallManager
+import dev.getzen.element.core.extensions.startSyncing
+import dev.getzen.element.core.session.clientinfo.UpdateMatrixClientInfoUseCase
+import dev.getzen.element.features.session.coroutineScope
+import dev.getzen.element.features.settings.devices.v2.notification.UpdateNotificationSettingsAccountDataUseCase
+import dev.getzen.element.test.fakes.FakeContext
+import dev.getzen.element.test.fakes.FakeNotificationsSettingUpdater
+import dev.getzen.element.test.fakes.FakePushRulesUpdater
+import dev.getzen.element.test.fakes.FakeSession
+import dev.getzen.element.test.fakes.FakeVectorPreferences
+import dev.getzen.element.test.fakes.FakeWebRtcCallManager
 import io.mockk.coJustRun
 import io.mockk.coVerify
 import io.mockk.every
@@ -63,8 +63,8 @@ class ConfigureAndStartSessionUseCaseTest {
 
     @Before
     fun setup() {
-        mockkStatic("im.vector.app.core.extensions.SessionKt")
-        mockkStatic("im.vector.app.features.session.SessionCoroutineScopesKt")
+        mockkStatic("dev.getzen.element.core.extensions.SessionKt")
+        mockkStatic("dev.getzen.element.features.session.SessionCoroutineScopesKt")
     }
 
     @After

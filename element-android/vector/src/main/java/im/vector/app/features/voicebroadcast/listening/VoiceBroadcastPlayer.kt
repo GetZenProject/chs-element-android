@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.voicebroadcast.listening
+package dev.getzen.element.features.voicebroadcast.listening
 
-import im.vector.app.features.voicebroadcast.VoiceBroadcastFailure
-import im.vector.app.features.voicebroadcast.model.VoiceBroadcast
+import dev.getzen.element.features.voicebroadcast.VoiceBroadcastFailure
+import dev.getzen.element.features.voicebroadcast.model.VoiceBroadcast
 
 interface VoiceBroadcastPlayer {
 

@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.matrixto
+package dev.getzen.element.features.matrixto
 
-import im.vector.app.features.analytics.plan.JoinedRoom
-import im.vector.app.features.analytics.plan.ViewRoom
+import dev.getzen.element.features.analytics.plan.JoinedRoom
+import dev.getzen.element.features.analytics.plan.ViewRoom
 
 enum class OriginOfMatrixTo {
     LINK,

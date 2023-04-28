@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.test.fakes
+package dev.getzen.element.test.fakes
 
-import im.vector.app.core.extensions.startSyncing
-import im.vector.app.core.extensions.vectorStore
-import im.vector.app.core.session.ConfigureAndStartSessionUseCase
-import im.vector.app.features.session.VectorSessionStore
-import im.vector.app.test.testCoroutineDispatchers
+import dev.getzen.element.core.extensions.startSyncing
+import dev.getzen.element.core.extensions.vectorStore
+import dev.getzen.element.core.session.ConfigureAndStartSessionUseCase
+import dev.getzen.element.features.session.VectorSessionStore
+import dev.getzen.element.test.testCoroutineDispatchers
 import io.mockk.coEvery
 import io.mockk.coJustRun
 import io.mockk.every
@@ -50,7 +50,7 @@ class FakeSession(
 ) : Session by mockk(relaxed = true) {
 
     init {
-        mockkStatic("im.vector.app.core.extensions.SessionKt")
+        mockkStatic("dev.getzen.element.core.extensions.SessionKt")
     }
 
     override val myUserId: String = "@fake:server.fake"

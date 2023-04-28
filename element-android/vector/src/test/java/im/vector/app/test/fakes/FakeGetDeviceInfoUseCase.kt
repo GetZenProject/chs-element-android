@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.test.fakes
+package dev.getzen.element.test.fakes
 
-import im.vector.app.core.device.GetDeviceInfoUseCase
+import dev.getzen.element.core.device.GetDeviceInfoUseCase
 import io.mockk.every
 import io.mockk.mockk
 import org.matrix.android.sdk.api.session.crypto.model.CryptoDeviceInfo

@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.html
+package dev.getzen.element.features.html
 
 import android.text.Spanned
 import android.text.style.MetricAffectingSpan
 import android.text.style.StrikethroughSpan
 import android.text.style.UnderlineSpan
-import im.vector.app.EmojiSpanify
-import im.vector.app.features.home.room.detail.timeline.item.BindingOptions
+import dev.getzen.element.EmojiSpanify
+import dev.getzen.element.features.home.room.detail.timeline.item.BindingOptions
 import javax.inject.Inject
 
 class SpanUtils @Inject constructor(

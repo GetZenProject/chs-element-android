@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.factory
+package dev.getzen.element.features.home.room.detail.timeline.factory
 
-import im.vector.app.R
-import im.vector.app.features.home.room.detail.timeline.item.PollOptionViewState
-import im.vector.app.features.home.room.detail.timeline.item.PollVoteSummaryData
-import im.vector.app.features.poll.PollItemViewState
-import im.vector.app.test.fakes.FakeStringProvider
-import im.vector.app.test.fixtures.PollFixture.A_POLL_CONTENT
-import im.vector.app.test.fixtures.PollFixture.A_POLL_OPTION_IDS
-import im.vector.app.test.fixtures.PollFixture.A_POLL_RESPONSE_DATA
+import dev.getzen.element.R
+import dev.getzen.element.features.home.room.detail.timeline.item.PollOptionViewState
+import dev.getzen.element.features.home.room.detail.timeline.item.PollVoteSummaryData
+import dev.getzen.element.features.poll.PollItemViewState
+import dev.getzen.element.test.fakes.FakeStringProvider
+import dev.getzen.element.test.fixtures.PollFixture.A_POLL_CONTENT
+import dev.getzen.element.test.fixtures.PollFixture.A_POLL_OPTION_IDS
+import dev.getzen.element.test.fixtures.PollFixture.A_POLL_RESPONSE_DATA
 import io.mockk.every
 import io.mockk.mockk
 import io.mockk.verify

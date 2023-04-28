@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.onboarding.ftueauth
+package dev.getzen.element.features.onboarding.ftueauth
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.utils.openUrlInChromeCustomTab
-import im.vector.app.databinding.FragmentLoginServerSelectionBinding
-import im.vector.app.features.login.EMS_LINK
-import im.vector.app.features.login.ServerType
-import im.vector.app.features.login.SignMode
-import im.vector.app.features.onboarding.OnboardingAction
-import im.vector.app.features.onboarding.OnboardingViewState
+import dev.getzen.element.R
+import dev.getzen.element.core.utils.openUrlInChromeCustomTab
+import dev.getzen.element.databinding.FragmentLoginServerSelectionBinding
+import dev.getzen.element.features.login.EMS_LINK
+import dev.getzen.element.features.login.ServerType
+import dev.getzen.element.features.login.SignMode
+import dev.getzen.element.features.onboarding.OnboardingAction
+import dev.getzen.element.features.onboarding.OnboardingViewState
 import me.gujun.android.span.span
 
 /**

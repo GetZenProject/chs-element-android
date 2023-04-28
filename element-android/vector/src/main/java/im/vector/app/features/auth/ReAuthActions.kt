@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.auth
+package dev.getzen.element.features.auth
 
-import im.vector.app.core.platform.VectorViewModelAction
+import dev.getzen.element.core.platform.VectorViewModelAction
 
 sealed class ReAuthActions : VectorViewModelAction {
     object StartSSOFallback : ReAuthActions()

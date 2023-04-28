@@ -7,11 +7,11 @@ import com.airbnb.mvrx.ViewModelContext
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedInject
 import dagger.assisted.AssistedFactory
-import im.vector.app.core.platform.VectorViewModel
+import dev.getzen.element.core.platform.VectorViewModel
 
 <#if createViewEvents>
 <#else>
-import im.vector.app.core.platform.EmptyViewEvents
+import dev.getzen.element.core.platform.EmptyViewEvents
 </#if>
 
 class ${viewModelClass} @AssistedInject constructor(@Assisted initialState: ${viewStateClass})

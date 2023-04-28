@@ -13,27 +13,27 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.home.room.detail.timeline.factory
+package dev.getzen.element.features.home.room.detail.timeline.factory
 
-import im.vector.app.core.error.ErrorFormatter
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.resources.DrawableProvider
-import im.vector.app.features.home.room.detail.timeline.helper.AudioMessagePlaybackTracker
-import im.vector.app.features.home.room.detail.timeline.helper.AvatarSizeProvider
-import im.vector.app.features.home.room.detail.timeline.helper.VoiceBroadcastEventsGroup
-import im.vector.app.features.home.room.detail.timeline.item.AbsMessageItem
-import im.vector.app.features.home.room.detail.timeline.item.AbsMessageVoiceBroadcastItem
-import im.vector.app.features.home.room.detail.timeline.item.BaseEventItem
-import im.vector.app.features.home.room.detail.timeline.item.MessageVoiceBroadcastListeningItem
-import im.vector.app.features.home.room.detail.timeline.item.MessageVoiceBroadcastListeningItem_
-import im.vector.app.features.home.room.detail.timeline.item.MessageVoiceBroadcastRecordingItem
-import im.vector.app.features.home.room.detail.timeline.item.MessageVoiceBroadcastRecordingItem_
-import im.vector.app.features.voicebroadcast.listening.VoiceBroadcastPlayer
-import im.vector.app.features.voicebroadcast.model.MessageVoiceBroadcastInfoContent
-import im.vector.app.features.voicebroadcast.model.VoiceBroadcast
-import im.vector.app.features.voicebroadcast.model.VoiceBroadcastState
-import im.vector.app.features.voicebroadcast.model.asVoiceBroadcastEvent
-import im.vector.app.features.voicebroadcast.recording.VoiceBroadcastRecorder
+import dev.getzen.element.core.error.ErrorFormatter
+import dev.getzen.element.core.resources.ColorProvider
+import dev.getzen.element.core.resources.DrawableProvider
+import dev.getzen.element.features.home.room.detail.timeline.helper.AudioMessagePlaybackTracker
+import dev.getzen.element.features.home.room.detail.timeline.helper.AvatarSizeProvider
+import dev.getzen.element.features.home.room.detail.timeline.helper.VoiceBroadcastEventsGroup
+import dev.getzen.element.features.home.room.detail.timeline.item.AbsMessageItem
+import dev.getzen.element.features.home.room.detail.timeline.item.AbsMessageVoiceBroadcastItem
+import dev.getzen.element.features.home.room.detail.timeline.item.BaseEventItem
+import dev.getzen.element.features.home.room.detail.timeline.item.MessageVoiceBroadcastListeningItem
+import dev.getzen.element.features.home.room.detail.timeline.item.MessageVoiceBroadcastListeningItem_
+import dev.getzen.element.features.home.room.detail.timeline.item.MessageVoiceBroadcastRecordingItem
+import dev.getzen.element.features.home.room.detail.timeline.item.MessageVoiceBroadcastRecordingItem_
+import dev.getzen.element.features.voicebroadcast.listening.VoiceBroadcastPlayer
+import dev.getzen.element.features.voicebroadcast.model.MessageVoiceBroadcastInfoContent
+import dev.getzen.element.features.voicebroadcast.model.VoiceBroadcast
+import dev.getzen.element.features.voicebroadcast.model.VoiceBroadcastState
+import dev.getzen.element.features.voicebroadcast.model.asVoiceBroadcastEvent
+import dev.getzen.element.features.voicebroadcast.recording.VoiceBroadcastRecorder
 import org.matrix.android.sdk.api.session.Session
 import org.matrix.android.sdk.api.session.getRoom
 import org.matrix.android.sdk.api.util.toMatrixItem

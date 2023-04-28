@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.list.home.release
+package dev.getzen.element.features.home.room.list.home.release
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes

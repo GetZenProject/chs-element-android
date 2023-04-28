@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.threads
+package dev.getzen.element.features.home.room.threads
 
 import android.app.Activity
 import android.text.Spanned
 import androidx.annotation.StringRes
 import androidx.core.text.HtmlCompat
-import im.vector.app.R
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.MainActivity
-import im.vector.app.features.MainActivityArgs
-import im.vector.app.features.settings.VectorPreferences
+import dev.getzen.element.R
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.features.MainActivity
+import dev.getzen.element.features.MainActivityArgs
+import dev.getzen.element.features.settings.VectorPreferences
 import org.matrix.android.sdk.api.settings.LightweightSettingsStorage
 import javax.inject.Inject
 

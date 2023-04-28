@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2.verification
+package dev.getzen.element.features.settings.devices.v2.verification
 
-import im.vector.app.core.di.ActiveSessionHolder
+import dev.getzen.element.core.di.ActiveSessionHolder
 import kotlinx.coroutines.flow.firstOrNull
 import org.matrix.android.sdk.api.extensions.orFalse
 import org.matrix.android.sdk.flow.flow

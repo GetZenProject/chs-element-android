@@ -15,14 +15,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.fdroid.receiver
+package dev.getzen.element.fdroid.receiver
 
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.fdroid.BackgroundSyncStarter
+import dev.getzen.element.core.di.ActiveSessionHolder
+import dev.getzen.element.fdroid.BackgroundSyncStarter
 import timber.log.Timber
 import javax.inject.Inject
 

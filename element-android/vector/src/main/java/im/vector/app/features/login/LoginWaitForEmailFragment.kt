@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.login
+package dev.getzen.element.features.login
 
 import android.os.Bundle
 import android.os.Parcelable
@@ -23,8 +23,8 @@ import android.view.View
 import android.view.ViewGroup
 import com.airbnb.mvrx.args
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.databinding.FragmentLoginWaitForEmailBinding
+import dev.getzen.element.R
+import dev.getzen.element.databinding.FragmentLoginWaitForEmailBinding
 import kotlinx.parcelize.Parcelize
 import org.matrix.android.sdk.api.failure.is401
 

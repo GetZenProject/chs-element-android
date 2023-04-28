@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call
+package dev.getzen.element.features.call
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -22,12 +22,12 @@ import android.view.View
 import android.view.ViewGroup
 import com.airbnb.epoxy.SimpleEpoxyController
 import com.airbnb.mvrx.activityViewModel
-import im.vector.app.core.epoxy.bottomsheet.BottomSheetActionItem_
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.platform.VectorBaseBottomSheetDialogFragment
-import im.vector.app.databinding.BottomSheetGenericListBinding
-import im.vector.app.features.call.audio.CallAudioManager
-import im.vector.app.features.home.room.list.actions.RoomListQuickActionsBottomSheet
+import dev.getzen.element.core.epoxy.bottomsheet.BottomSheetActionItem_
+import dev.getzen.element.core.extensions.configureWith
+import dev.getzen.element.core.platform.VectorBaseBottomSheetDialogFragment
+import dev.getzen.element.databinding.BottomSheetGenericListBinding
+import dev.getzen.element.features.call.audio.CallAudioManager
+import dev.getzen.element.features.home.room.list.actions.RoomListQuickActionsBottomSheet
 
 class CallSoundDeviceChooserBottomSheet : VectorBaseBottomSheetDialogFragment<BottomSheetGenericListBinding>() {
     override fun getBinding(inflater: LayoutInflater, container: ViewGroup?): BottomSheetGenericListBinding {

@@ -143,14 +143,14 @@ The main difference is about using Firebase on `Gplay` variant, to have Push fro
 
 [Maverick](https://airbnb.io/mavericks/#/README) (or MvRx) is an Android MVI framework that helps to develop Reactive application on Android.
 
-- Activity: holder for Fragment. See the parent [VectorBaseActivity](../vector/src/main/java/im/vector/app/core/platform/VectorBaseActivity.kt);
-- Fragment: manage screen of the application. See the parent [VectorBaseFragment](../vector/src/main/java/im/vector/app/core/platform/VectorBaseFragment.kt);
-- BottomSheet: see the parent [VectorBaseBottomSheetDialogFragment](../vector/src/main/java/im/vector/app/core/platform/VectorBaseBottomSheetDialogFragment.kt);
-- ViewModel: this is where the logic is placed. All our ViewModel has a `handle()` which takes action as parameter. See the parent [VectorViewModel](../vector/src/main/java/im/vector/app/core/platform/VectorViewModel.kt);
-- VectorSharedActionViewModel: Specific ViewModel that can be used to communicate between Fragment(s) and the host Activity. See the parent [VectorSharedActionViewModel](../vector/src/main/java/im/vector/app/core/platform/VectorSharedActionViewModel.kt);
+- Activity: holder for Fragment. See the parent [VectorBaseActivity](../vector/src/main/java/dev.getzen.element/core/platform/VectorBaseActivity.kt);
+- Fragment: manage screen of the application. See the parent [VectorBaseFragment](../vector/src/main/java/dev.getzen.element/core/platform/VectorBaseFragment.kt);
+- BottomSheet: see the parent [VectorBaseBottomSheetDialogFragment](../vector/src/main/java/dev.getzen.element/core/platform/VectorBaseBottomSheetDialogFragment.kt);
+- ViewModel: this is where the logic is placed. All our ViewModel has a `handle()` which takes action as parameter. See the parent [VectorViewModel](../vector/src/main/java/dev.getzen.element/core/platform/VectorViewModel.kt);
+- VectorSharedActionViewModel: Specific ViewModel that can be used to communicate between Fragment(s) and the host Activity. See the parent [VectorSharedActionViewModel](../vector/src/main/java/dev.getzen.element/core/platform/VectorSharedActionViewModel.kt);
 - ViewState: this are `data class`, and this represent the state of the View. Has to be copied and set to be updated. Fragment will update the UI regarding the current state (`invalidate()` method). `Async` class from MvRx can be used in the ViewState, especially for asynchronous data loading. Nullability can also be used for optional data. ViewStates have to implement `MavericksState`;
-- ViewEvents: useful when the ViewModel asks the View to trigger a specific action: navigation, show dialog, etc. See the parent [VectorViewEvents](../vector/src/main/java/im/vector/app/core/platform/VectorViewEvents.kt);
-- ViewAction (`VectorViewModelAction`): useful when the UI (generally the Fragment) asks the ViewModel to do something. See the parent [VectorViewModelAction](../vector/src/main/java/im/vector/app/core/platform/VectorViewModelAction.kt);
+- ViewEvents: useful when the ViewModel asks the View to trigger a specific action: navigation, show dialog, etc. See the parent [VectorViewEvents](../vector/src/main/java/dev.getzen.element/core/platform/VectorViewEvents.kt);
+- ViewAction (`VectorViewModelAction`): useful when the UI (generally the Fragment) asks the ViewModel to do something. See the parent [VectorViewModelAction](../vector/src/main/java/dev.getzen.element/core/platform/VectorViewModelAction.kt);
 - Controller: see the `Epoxy` section just below.
 
 ##### Behavior
@@ -173,7 +173,7 @@ When ViewModel is instantiated, it can subscribe using the SDK Services to get l
 
 Epoxy does the diffing, and handle many other thing for us, like handling item type, etc.
 
-See for instance the controller [AccountDataEpoxyController](../vector/src/main/java/im/vector/app/features/settings/devtools/AccountDataEpoxyController.kt)) for a simple example.
+See for instance the controller [AccountDataEpoxyController](../vector/src/main/java/dev.getzen.element/features/settings/devtools/AccountDataEpoxyController.kt)) for a simple example.
 
 Warning: do not use twice the same item `id` or it will crash.
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.userdirectory
+package dev.getzen.element.features.userdirectory
 
 import androidx.lifecycle.asFlow
 import com.airbnb.mvrx.Fail
@@ -23,16 +23,16 @@ import com.airbnb.mvrx.Uninitialized
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
-import im.vector.app.R
-import im.vector.app.core.di.MavericksAssistedViewModelFactory
-import im.vector.app.core.di.hiltMavericksViewModelFactory
-import im.vector.app.core.extensions.isEmail
-import im.vector.app.core.extensions.toggle
-import im.vector.app.core.platform.VectorViewModel
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.discovery.fetchIdentityServerWithTerms
-import im.vector.app.features.raw.wellknown.getElementWellknown
-import im.vector.app.features.raw.wellknown.isE2EByDefault
+import dev.getzen.element.R
+import dev.getzen.element.core.di.MavericksAssistedViewModelFactory
+import dev.getzen.element.core.di.hiltMavericksViewModelFactory
+import dev.getzen.element.core.extensions.isEmail
+import dev.getzen.element.core.extensions.toggle
+import dev.getzen.element.core.platform.VectorViewModel
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.features.discovery.fetchIdentityServerWithTerms
+import dev.getzen.element.features.raw.wellknown.getElementWellknown
+import dev.getzen.element.features.raw.wellknown.isE2EByDefault
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.debounce

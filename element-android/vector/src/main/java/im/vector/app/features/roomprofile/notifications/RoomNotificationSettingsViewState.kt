@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.notifications
+package dev.getzen.element.features.roomprofile.notifications
 
 import com.airbnb.mvrx.Async
 import com.airbnb.mvrx.MavericksState
 import com.airbnb.mvrx.Success
 import com.airbnb.mvrx.Uninitialized
-import im.vector.app.features.home.room.list.actions.RoomListActionsArgs
-import im.vector.app.features.roomprofile.RoomProfileArgs
+import dev.getzen.element.features.home.room.list.actions.RoomListActionsArgs
+import dev.getzen.element.features.roomprofile.RoomProfileArgs
 import org.matrix.android.sdk.api.session.room.model.RoomSummary
 import org.matrix.android.sdk.api.session.room.notification.RoomNotificationState
 

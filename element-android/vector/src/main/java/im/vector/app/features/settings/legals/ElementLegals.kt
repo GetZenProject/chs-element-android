@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.legals
+package dev.getzen.element.features.settings.legals
 
-import im.vector.app.R
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.discovery.ServerPolicy
-import im.vector.app.features.settings.VectorSettingsUrls
+import dev.getzen.element.R
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.features.discovery.ServerPolicy
+import dev.getzen.element.features.settings.VectorSettingsUrls
 import javax.inject.Inject
 
 class ElementLegals @Inject constructor(

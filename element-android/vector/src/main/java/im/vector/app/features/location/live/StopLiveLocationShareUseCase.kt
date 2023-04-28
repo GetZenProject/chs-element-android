@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.location.live
+package dev.getzen.element.features.location.live
 
-import im.vector.app.core.di.ActiveSessionHolder
+import dev.getzen.element.core.di.ActiveSessionHolder
 import org.matrix.android.sdk.api.session.getRoom
 import org.matrix.android.sdk.api.session.room.location.UpdateLiveLocationShareResult
 import javax.inject.Inject

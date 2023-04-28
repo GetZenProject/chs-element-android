@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.extensions
+package dev.getzen.element.core.extensions
 
 import com.google.i18n.phonenumbers.PhoneNumberUtil
 import org.matrix.android.sdk.api.extensions.ensurePrefix

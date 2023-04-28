@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.media
+package dev.getzen.element.features.media
 
-import im.vector.app.core.platform.VectorViewEvents
+import dev.getzen.element.core.platform.VectorViewEvents
 
 sealed class VectorAttachmentViewerViewEvents : VectorViewEvents {
     data class ErrorDownloadingMedia(val error: Throwable) : VectorAttachmentViewerViewEvents()

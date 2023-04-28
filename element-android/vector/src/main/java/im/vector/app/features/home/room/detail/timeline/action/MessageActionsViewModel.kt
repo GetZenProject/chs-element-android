@@ -13,29 +13,29 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.home.room.detail.timeline.action
+package dev.getzen.element.features.home.room.detail.timeline.action
 
 import com.airbnb.mvrx.MavericksViewModelFactory
 import dagger.Lazy
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
-import im.vector.app.R
-import im.vector.app.core.di.MavericksAssistedViewModelFactory
-import im.vector.app.core.di.hiltMavericksViewModelFactory
-import im.vector.app.core.error.ErrorFormatter
-import im.vector.app.core.extensions.canReact
-import im.vector.app.core.extensions.getVectorLastMessageContent
-import im.vector.app.core.platform.EmptyViewEvents
-import im.vector.app.core.platform.VectorViewModel
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.home.room.detail.timeline.format.NoticeEventFormatter
-import im.vector.app.features.html.EventHtmlRenderer
-import im.vector.app.features.html.PillsPostProcessor
-import im.vector.app.features.html.VectorHtmlCompressor
-import im.vector.app.features.powerlevel.PowerLevelsFlowFactory
-import im.vector.app.features.reactions.data.EmojiDataSource
-import im.vector.app.features.settings.VectorPreferences
+import dev.getzen.element.R
+import dev.getzen.element.core.di.MavericksAssistedViewModelFactory
+import dev.getzen.element.core.di.hiltMavericksViewModelFactory
+import dev.getzen.element.core.error.ErrorFormatter
+import dev.getzen.element.core.extensions.canReact
+import dev.getzen.element.core.extensions.getVectorLastMessageContent
+import dev.getzen.element.core.platform.EmptyViewEvents
+import dev.getzen.element.core.platform.VectorViewModel
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.features.home.room.detail.timeline.format.NoticeEventFormatter
+import dev.getzen.element.features.html.EventHtmlRenderer
+import dev.getzen.element.features.html.PillsPostProcessor
+import dev.getzen.element.features.html.VectorHtmlCompressor
+import dev.getzen.element.features.powerlevel.PowerLevelsFlowFactory
+import dev.getzen.element.features.reactions.data.EmojiDataSource
+import dev.getzen.element.features.settings.VectorPreferences
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.flatMapLatest
 import kotlinx.coroutines.flow.launchIn

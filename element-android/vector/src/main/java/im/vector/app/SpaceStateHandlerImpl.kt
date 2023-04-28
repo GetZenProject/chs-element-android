@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package im.vector.app
+package dev.getzen.element
 
 import androidx.lifecycle.LifecycleOwner
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.utils.BehaviorDataSource
-import im.vector.app.features.analytics.AnalyticsTracker
-import im.vector.app.features.analytics.plan.UserProperties
-import im.vector.app.features.analytics.plan.ViewRoom
-import im.vector.app.features.session.coroutineScope
-import im.vector.app.features.settings.VectorPreferences
-import im.vector.app.features.ui.UiStateRepository
+import dev.getzen.element.core.di.ActiveSessionHolder
+import dev.getzen.element.core.utils.BehaviorDataSource
+import dev.getzen.element.features.analytics.AnalyticsTracker
+import dev.getzen.element.features.analytics.plan.UserProperties
+import dev.getzen.element.features.analytics.plan.ViewRoom
+import dev.getzen.element.features.session.coroutineScope
+import dev.getzen.element.features.settings.VectorPreferences
+import dev.getzen.element.features.ui.UiStateRepository
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob

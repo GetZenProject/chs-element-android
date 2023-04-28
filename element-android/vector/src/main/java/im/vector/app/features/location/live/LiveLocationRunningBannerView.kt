@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.location.live
+package dev.getzen.element.features.location.live
 
 import android.content.Context
 import android.graphics.drawable.ColorDrawable
@@ -28,11 +28,11 @@ import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.constraintlayout.widget.ConstraintSet
 import androidx.core.view.isVisible
 import com.bumptech.glide.load.resource.bitmap.GranularRoundedCorners
-import im.vector.app.R
-import im.vector.app.core.glide.GlideApp
-import im.vector.app.core.utils.TextUtils
-import im.vector.app.databinding.ViewLiveLocationRunningBannerBinding
-import im.vector.app.features.themes.ThemeUtils
+import dev.getzen.element.R
+import dev.getzen.element.core.glide.GlideApp
+import dev.getzen.element.core.utils.TextUtils
+import dev.getzen.element.databinding.ViewLiveLocationRunningBannerBinding
+import dev.getzen.element.features.themes.ThemeUtils
 import org.threeten.bp.Duration
 
 private const val REMAINING_TIME_COUNTER_INTERVAL_IN_MS = 1000L

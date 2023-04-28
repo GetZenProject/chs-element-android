@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.html
+package dev.getzen.element.features.html
 
 import android.graphics.Color
 import android.text.TextPaint
 import android.text.style.ClickableSpan
 import android.view.View
-import im.vector.app.R
-import im.vector.app.core.resources.ColorProvider
+import dev.getzen.element.R
+import dev.getzen.element.core.resources.ColorProvider
 
 class SpoilerSpan(private val colorProvider: ColorProvider) : ClickableSpan() {
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.leave
+package dev.getzen.element.features.spaces.leave
 
 import android.content.Context
 import android.content.Intent
@@ -28,13 +28,13 @@ import com.airbnb.mvrx.Success
 import com.airbnb.mvrx.viewModel
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.hideKeyboard
-import im.vector.app.core.extensions.replaceFragment
-import im.vector.app.core.extensions.setTextOrHide
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.databinding.ActivitySimpleLoadingBinding
-import im.vector.app.features.spaces.SpaceBottomSheetSettingsArgs
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.hideKeyboard
+import dev.getzen.element.core.extensions.replaceFragment
+import dev.getzen.element.core.extensions.setTextOrHide
+import dev.getzen.element.core.platform.VectorBaseActivity
+import dev.getzen.element.databinding.ActivitySimpleLoadingBinding
+import dev.getzen.element.features.spaces.SpaceBottomSheetSettingsArgs
 import im.vector.lib.core.utils.compat.getParcelableExtraCompat
 
 @AndroidEntryPoint

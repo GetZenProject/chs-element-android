@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.invite
+package dev.getzen.element.features.invite
 
 import androidx.core.view.isGone
-import im.vector.app.core.platform.ButtonStateView
+import dev.getzen.element.core.platform.ButtonStateView
 import org.matrix.android.sdk.api.session.room.members.ChangeMembershipState
 
 object InviteButtonStateBinder {

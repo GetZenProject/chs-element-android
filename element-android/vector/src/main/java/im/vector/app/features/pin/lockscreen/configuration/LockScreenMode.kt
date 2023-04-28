@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.pin.lockscreen.configuration
+package dev.getzen.element.features.pin.lockscreen.configuration
 
 import android.os.Parcelable
-import im.vector.app.features.pin.lockscreen.ui.LockScreenViewModel
+import dev.getzen.element.features.pin.lockscreen.ui.LockScreenViewModel
 import kotlinx.parcelize.Parcelize
 
 /**

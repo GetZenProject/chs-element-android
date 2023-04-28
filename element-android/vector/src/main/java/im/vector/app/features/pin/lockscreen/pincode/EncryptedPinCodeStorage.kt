@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.pin.lockscreen.pincode
+package dev.getzen.element.features.pin.lockscreen.pincode
 
 /**
  * Should be implemented by any class that provides access to the encrypted PIN code.

@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.factory
+package dev.getzen.element.features.home.room.detail.timeline.factory
 
-import im.vector.app.core.epoxy.TimelineEmptyItem
-import im.vector.app.core.epoxy.TimelineEmptyItem_
-import im.vector.app.core.epoxy.VectorEpoxyModel
-import im.vector.app.features.analytics.DecryptionFailureTracker
-import im.vector.app.features.home.room.detail.timeline.helper.TimelineEventVisibilityHelper
-import im.vector.app.features.voicebroadcast.VoiceBroadcastConstants
-import im.vector.app.features.voicebroadcast.model.isVoiceBroadcast
+import dev.getzen.element.core.epoxy.TimelineEmptyItem
+import dev.getzen.element.core.epoxy.TimelineEmptyItem_
+import dev.getzen.element.core.epoxy.VectorEpoxyModel
+import dev.getzen.element.features.analytics.DecryptionFailureTracker
+import dev.getzen.element.features.home.room.detail.timeline.helper.TimelineEventVisibilityHelper
+import dev.getzen.element.features.voicebroadcast.VoiceBroadcastConstants
+import dev.getzen.element.features.voicebroadcast.model.isVoiceBroadcast
 import org.matrix.android.sdk.api.session.Session
 import org.matrix.android.sdk.api.session.events.model.EventType
 import org.matrix.android.sdk.api.session.events.model.RelationType

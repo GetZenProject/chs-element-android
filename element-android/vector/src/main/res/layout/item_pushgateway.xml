@@ -32,7 +32,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        tools:text="im.vector.app.android" />
+        tools:text="dev.getzen.element.android" />
 
     <TextView
         android:id="@+id/pushGatewayKey"

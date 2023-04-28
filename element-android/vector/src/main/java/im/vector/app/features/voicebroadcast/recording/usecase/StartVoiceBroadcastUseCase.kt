@@ -14,22 +14,22 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.voicebroadcast.recording.usecase
+package dev.getzen.element.features.voicebroadcast.recording.usecase
 
 import android.content.Context
 import androidx.core.content.FileProvider
-import im.vector.app.core.resources.BuildMeta
-import im.vector.app.features.attachments.toContentAttachmentData
-import im.vector.app.features.home.room.detail.timeline.helper.AudioMessagePlaybackTracker
-import im.vector.app.features.session.coroutineScope
-import im.vector.app.features.voicebroadcast.VoiceBroadcastConstants
-import im.vector.app.features.voicebroadcast.VoiceBroadcastFailure
-import im.vector.app.features.voicebroadcast.model.MessageVoiceBroadcastInfoContent
-import im.vector.app.features.voicebroadcast.model.VoiceBroadcast
-import im.vector.app.features.voicebroadcast.model.VoiceBroadcastChunk
-import im.vector.app.features.voicebroadcast.model.VoiceBroadcastState
-import im.vector.app.features.voicebroadcast.recording.VoiceBroadcastRecorder
-import im.vector.app.features.voicebroadcast.usecase.GetRoomLiveVoiceBroadcastsUseCase
+import dev.getzen.element.core.resources.BuildMeta
+import dev.getzen.element.features.attachments.toContentAttachmentData
+import dev.getzen.element.features.home.room.detail.timeline.helper.AudioMessagePlaybackTracker
+import dev.getzen.element.features.session.coroutineScope
+import dev.getzen.element.features.voicebroadcast.VoiceBroadcastConstants
+import dev.getzen.element.features.voicebroadcast.VoiceBroadcastFailure
+import dev.getzen.element.features.voicebroadcast.model.MessageVoiceBroadcastInfoContent
+import dev.getzen.element.features.voicebroadcast.model.VoiceBroadcast
+import dev.getzen.element.features.voicebroadcast.model.VoiceBroadcastChunk
+import dev.getzen.element.features.voicebroadcast.model.VoiceBroadcastState
+import dev.getzen.element.features.voicebroadcast.recording.VoiceBroadcastRecorder
+import dev.getzen.element.features.voicebroadcast.usecase.GetRoomLiveVoiceBroadcastsUseCase
 import im.vector.lib.multipicker.utils.toMultiPickerAudioType
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch

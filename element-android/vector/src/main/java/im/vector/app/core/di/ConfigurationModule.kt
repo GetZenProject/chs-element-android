@@ -14,22 +14,22 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.di
+package dev.getzen.element.core.di
 
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
-import im.vector.app.BuildConfig
-import im.vector.app.config.Analytics
-import im.vector.app.config.Config
-import im.vector.app.config.KeySharingStrategy
-import im.vector.app.features.analytics.AnalyticsConfig
-import im.vector.app.features.call.webrtc.VoipConfig
-import im.vector.app.features.crypto.keysrequest.OutboundSessionKeySharingStrategy
-import im.vector.app.features.home.room.detail.composer.voice.VoiceMessageConfig
-import im.vector.app.features.location.LocationSharingConfig
-import im.vector.app.features.raw.wellknown.CryptoConfig
+import dev.getzen.element.BuildConfig
+import dev.getzen.element.config.Analytics
+import dev.getzen.element.config.Config
+import dev.getzen.element.config.KeySharingStrategy
+import dev.getzen.element.features.analytics.AnalyticsConfig
+import dev.getzen.element.features.call.webrtc.VoipConfig
+import dev.getzen.element.features.crypto.keysrequest.OutboundSessionKeySharingStrategy
+import dev.getzen.element.features.home.room.detail.composer.voice.VoiceMessageConfig
+import dev.getzen.element.features.location.LocationSharingConfig
+import dev.getzen.element.features.raw.wellknown.CryptoConfig
 
 @InstallIn(SingletonComponent::class)
 @Module

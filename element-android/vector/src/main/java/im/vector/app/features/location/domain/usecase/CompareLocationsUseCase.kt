@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.location.domain.usecase
+package dev.getzen.element.features.location.domain.usecase
 
 import com.mapbox.mapboxsdk.geometry.LatLng
-import im.vector.app.features.location.LocationData
+import dev.getzen.element.features.location.LocationData
 import kotlinx.coroutines.withContext
 import org.matrix.android.sdk.api.session.Session
 import javax.inject.Inject

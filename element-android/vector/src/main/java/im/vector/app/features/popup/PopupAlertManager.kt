@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.popup
+package dev.getzen.element.features.popup
 
 import android.app.Activity
 import android.os.Build
@@ -22,15 +22,15 @@ import android.os.Looper
 import android.view.View
 import android.view.WindowInsetsController.APPEARANCE_LIGHT_STATUS_BARS
 import com.tapadoo.alerter.Alerter
-import im.vector.app.R
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.core.utils.isAnimationEnabled
-import im.vector.app.features.MainActivity
-import im.vector.app.features.analytics.ui.consent.AnalyticsOptInActivity
-import im.vector.app.features.home.room.list.home.release.ReleaseNotesActivity
-import im.vector.app.features.pin.PinActivity
-import im.vector.app.features.signout.hard.SignedOutActivity
-import im.vector.app.features.themes.ThemeUtils
+import dev.getzen.element.R
+import dev.getzen.element.core.platform.VectorBaseActivity
+import dev.getzen.element.core.utils.isAnimationEnabled
+import dev.getzen.element.features.MainActivity
+import dev.getzen.element.features.analytics.ui.consent.AnalyticsOptInActivity
+import dev.getzen.element.features.home.room.list.home.release.ReleaseNotesActivity
+import dev.getzen.element.features.pin.PinActivity
+import dev.getzen.element.features.signout.hard.SignedOutActivity
+import dev.getzen.element.features.themes.ThemeUtils
 import im.vector.lib.core.utils.timer.Clock
 import timber.log.Timber
 import java.lang.ref.WeakReference

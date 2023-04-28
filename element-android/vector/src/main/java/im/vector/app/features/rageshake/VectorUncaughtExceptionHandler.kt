@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.rageshake
+package dev.getzen.element.features.rageshake
 
 import android.content.SharedPreferences
 import android.os.Build
 import androidx.core.content.edit
-import im.vector.app.core.di.DefaultPreferences
-import im.vector.app.core.resources.VersionCodeProvider
-import im.vector.app.features.version.VersionProvider
+import dev.getzen.element.core.di.DefaultPreferences
+import dev.getzen.element.core.resources.VersionCodeProvider
+import dev.getzen.element.features.version.VersionProvider
 import org.matrix.android.sdk.api.Matrix
 import timber.log.Timber
 import java.io.PrintWriter

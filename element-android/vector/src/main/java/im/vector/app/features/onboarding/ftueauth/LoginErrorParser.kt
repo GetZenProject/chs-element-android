@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.onboarding.ftueauth
+package dev.getzen.element.features.onboarding.ftueauth
 
-import im.vector.app.R
-import im.vector.app.core.error.ErrorFormatter
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.onboarding.ftueauth.LoginErrorParser.LoginErrorResult
+import dev.getzen.element.R
+import dev.getzen.element.core.error.ErrorFormatter
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.features.onboarding.ftueauth.LoginErrorParser.LoginErrorResult
 import org.matrix.android.sdk.api.failure.isHomeserverUnavailable
 import org.matrix.android.sdk.api.failure.isInvalidPassword
 import org.matrix.android.sdk.api.failure.isInvalidUsername

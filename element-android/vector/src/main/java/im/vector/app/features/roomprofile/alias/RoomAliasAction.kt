@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.alias
+package dev.getzen.element.features.roomprofile.alias
 
-import im.vector.app.core.platform.VectorViewModelAction
+import dev.getzen.element.core.platform.VectorViewModelAction
 import org.matrix.android.sdk.api.session.room.model.RoomDirectoryVisibility
 
 sealed class RoomAliasAction : VectorViewModelAction {

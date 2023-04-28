@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.test.fakes
+package dev.getzen.element.test.fakes
 
-import im.vector.app.core.pushers.UnifiedPushStore
+import dev.getzen.element.core.pushers.UnifiedPushStore
 import io.mockk.justRun
 import io.mockk.mockk
 import io.mockk.verify

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.item
+package dev.getzen.element.features.home.room.detail.timeline.item
 
 import android.view.View
 import android.view.ViewGroup
@@ -24,16 +24,16 @@ import androidx.core.view.isVisible
 import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
 import com.bumptech.glide.load.resource.bitmap.RoundedCorners
-import im.vector.app.R
-import im.vector.app.core.epoxy.ClickListener
-import im.vector.app.core.epoxy.onClick
-import im.vector.app.core.files.LocalFilesHelper
-import im.vector.app.core.glide.GlideApp
-import im.vector.app.core.utils.DimensionConverter
-import im.vector.app.features.home.room.detail.timeline.helper.ContentUploadStateTrackerBinder
-import im.vector.app.features.home.room.detail.timeline.style.TimelineMessageLayout
-import im.vector.app.features.home.room.detail.timeline.style.granularRoundedCorners
-import im.vector.app.features.media.ImageContentRenderer
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.ClickListener
+import dev.getzen.element.core.epoxy.onClick
+import dev.getzen.element.core.files.LocalFilesHelper
+import dev.getzen.element.core.glide.GlideApp
+import dev.getzen.element.core.utils.DimensionConverter
+import dev.getzen.element.features.home.room.detail.timeline.helper.ContentUploadStateTrackerBinder
+import dev.getzen.element.features.home.room.detail.timeline.style.TimelineMessageLayout
+import dev.getzen.element.features.home.room.detail.timeline.style.granularRoundedCorners
+import dev.getzen.element.features.media.ImageContentRenderer
 import org.matrix.android.sdk.api.session.room.model.message.MessageType
 
 @EpoxyModelClass

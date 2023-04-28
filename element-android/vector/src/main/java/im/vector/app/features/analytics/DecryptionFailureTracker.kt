@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.analytics
+package dev.getzen.element.features.analytics
 
-import im.vector.app.features.analytics.plan.Error
+import dev.getzen.element.features.analytics.plan.Error
 import im.vector.lib.core.utils.compat.removeIfCompat
 import im.vector.lib.core.utils.flow.tickerFlow
 import im.vector.lib.core.utils.timer.Clock

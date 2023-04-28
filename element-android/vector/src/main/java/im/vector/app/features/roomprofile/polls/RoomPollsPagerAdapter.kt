@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.polls
+package dev.getzen.element.features.roomprofile.polls
 
 import androidx.fragment.app.Fragment
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import im.vector.app.features.roomprofile.polls.active.RoomActivePollsFragment
-import im.vector.app.features.roomprofile.polls.ended.RoomEndedPollsFragment
+import dev.getzen.element.features.roomprofile.polls.active.RoomActivePollsFragment
+import dev.getzen.element.features.roomprofile.polls.ended.RoomEndedPollsFragment
 
 class RoomPollsPagerAdapter(
         private val fragment: Fragment

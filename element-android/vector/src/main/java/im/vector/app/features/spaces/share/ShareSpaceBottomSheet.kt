@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.share
+package dev.getzen.element.features.spaces.share
 
 import android.os.Bundle
 import android.os.Parcelable
@@ -26,12 +26,12 @@ import androidx.fragment.app.FragmentManager
 import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.setTextOrHide
-import im.vector.app.core.platform.VectorBaseBottomSheetDialogFragment
-import im.vector.app.core.utils.startSharePlainTextIntent
-import im.vector.app.databinding.BottomSheetSpaceInviteBinding
-import im.vector.app.features.invite.InviteUsersToRoomActivity
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.setTextOrHide
+import dev.getzen.element.core.platform.VectorBaseBottomSheetDialogFragment
+import dev.getzen.element.core.utils.startSharePlainTextIntent
+import dev.getzen.element.databinding.BottomSheetSpaceInviteBinding
+import dev.getzen.element.features.invite.InviteUsersToRoomActivity
 import kotlinx.parcelize.Parcelize
 
 @AndroidEntryPoint

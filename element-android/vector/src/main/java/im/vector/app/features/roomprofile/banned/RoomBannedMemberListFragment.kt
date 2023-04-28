@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.banned
+package dev.getzen.element.features.roomprofile.banned
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -27,14 +27,14 @@ import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.utils.toast
-import im.vector.app.databinding.FragmentRoomSettingGenericBinding
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.roomprofile.RoomProfileArgs
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.cleanup
+import dev.getzen.element.core.extensions.configureWith
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.core.utils.toast
+import dev.getzen.element.databinding.FragmentRoomSettingGenericBinding
+import dev.getzen.element.features.home.AvatarRenderer
+import dev.getzen.element.features.roomprofile.RoomProfileArgs
 import org.matrix.android.sdk.api.session.room.model.RoomMemberSummary
 import org.matrix.android.sdk.api.util.toMatrixItem
 import javax.inject.Inject

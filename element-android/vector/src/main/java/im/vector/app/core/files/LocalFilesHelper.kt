@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.files
+package dev.getzen.element.core.files
 
 import android.content.Context
 import android.net.Uri

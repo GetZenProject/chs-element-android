@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.style
+package dev.getzen.element.features.home.room.detail.timeline.style
 
-import im.vector.app.features.settings.VectorPreferences
+import dev.getzen.element.features.settings.VectorPreferences
 import javax.inject.Inject
 
 class TimelineLayoutSettingsProvider @Inject constructor(private val vectorPreferences: VectorPreferences) {

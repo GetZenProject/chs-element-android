@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.test.fakes
+package dev.getzen.element.test.fakes
 
-import im.vector.app.features.analytics.store.AnalyticsStore
+import dev.getzen.element.features.analytics.store.AnalyticsStore
 import io.mockk.coEvery
 import io.mockk.coVerify
 import io.mockk.every

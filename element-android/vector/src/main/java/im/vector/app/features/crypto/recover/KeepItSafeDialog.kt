@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.crypto.recover
+package dev.getzen.element.features.crypto.recover
 
 import android.app.Activity
 import android.content.DialogInterface
 import android.view.KeyEvent
 import androidx.core.content.ContextCompat
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.databinding.DialogRecoveryKeySavedInfoBinding
+import dev.getzen.element.R
+import dev.getzen.element.databinding.DialogRecoveryKeySavedInfoBinding
 import me.gujun.android.span.image
 import me.gujun.android.span.span
 

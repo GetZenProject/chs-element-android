@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.features
+package dev.getzen.element.features
 
-import im.vector.app.config.Config
-import im.vector.app.config.OnboardingVariant
-import im.vector.app.features.settings.VectorPreferences
+import dev.getzen.element.config.Config
+import dev.getzen.element.config.OnboardingVariant
+import dev.getzen.element.features.settings.VectorPreferences
 
 interface VectorFeatures {
 

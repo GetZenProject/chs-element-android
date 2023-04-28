@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.location.preview
+package dev.getzen.element.features.location.preview
 
-import im.vector.app.core.platform.VectorViewModelAction
+import dev.getzen.element.core.platform.VectorViewModelAction
 
 sealed class LocationPreviewAction : VectorViewModelAction {
     object ShowMapLoadingError : LocationPreviewAction()

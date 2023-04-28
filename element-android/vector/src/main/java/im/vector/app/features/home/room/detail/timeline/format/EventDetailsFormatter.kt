@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.format
+package dev.getzen.element.features.home.room.detail.timeline.format
 
 import android.content.Context
-import im.vector.app.R
-import im.vector.app.core.utils.TextUtils
+import dev.getzen.element.R
+import dev.getzen.element.core.utils.TextUtils
 import org.matrix.android.sdk.api.session.events.model.Event
 import org.matrix.android.sdk.api.session.events.model.isAudioMessage
 import org.matrix.android.sdk.api.session.events.model.isFileMessage

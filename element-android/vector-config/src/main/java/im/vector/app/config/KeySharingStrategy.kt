@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.config
+package dev.getzen.element.config
 
 enum class KeySharingStrategy {
     /**

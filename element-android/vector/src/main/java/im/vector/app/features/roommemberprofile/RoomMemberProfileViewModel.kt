@@ -15,7 +15,7 @@
  *
  */
 
-package im.vector.app.features.roommemberprofile
+package dev.getzen.element.features.roommemberprofile
 
 import com.airbnb.mvrx.Fail
 import com.airbnb.mvrx.Loading
@@ -25,16 +25,16 @@ import com.airbnb.mvrx.Uninitialized
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
-import im.vector.app.R
-import im.vector.app.core.di.MavericksAssistedViewModelFactory
-import im.vector.app.core.di.hiltMavericksViewModelFactory
-import im.vector.app.core.mvrx.runCatchingToAsync
-import im.vector.app.core.platform.VectorViewModel
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.createdirect.DirectRoomHelper
-import im.vector.app.features.displayname.getBestName
-import im.vector.app.features.home.room.detail.timeline.helper.MatrixItemColorProvider
-import im.vector.app.features.powerlevel.PowerLevelsFlowFactory
+import dev.getzen.element.R
+import dev.getzen.element.core.di.MavericksAssistedViewModelFactory
+import dev.getzen.element.core.di.hiltMavericksViewModelFactory
+import dev.getzen.element.core.mvrx.runCatchingToAsync
+import dev.getzen.element.core.platform.VectorViewModel
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.features.createdirect.DirectRoomHelper
+import dev.getzen.element.features.displayname.getBestName
+import dev.getzen.element.features.home.room.detail.timeline.helper.MatrixItemColorProvider
+import dev.getzen.element.features.powerlevel.PowerLevelsFlowFactory
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.launchIn

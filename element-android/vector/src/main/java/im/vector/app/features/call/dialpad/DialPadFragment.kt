@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call.dialpad
+package dev.getzen.element.features.call.dialpad
 
 import android.content.ClipboardManager
 import android.content.Context
@@ -37,11 +37,11 @@ import androidx.core.widget.ImageViewCompat
 import androidx.fragment.app.Fragment
 import com.android.dialer.dialpadview.DialpadView
 import com.android.dialer.dialpadview.DigitsEditText
-import im.vector.app.R
-import im.vector.app.core.extensions.singletonEntryPoint
-import im.vector.app.features.analytics.AnalyticsTracker
-import im.vector.app.features.analytics.plan.MobileScreen
-import im.vector.app.features.themes.ThemeUtils
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.singletonEntryPoint
+import dev.getzen.element.features.analytics.AnalyticsTracker
+import dev.getzen.element.features.analytics.plan.MobileScreen
+import dev.getzen.element.features.themes.ThemeUtils
 
 class DialPadFragment : Fragment(), TextWatcher {
 

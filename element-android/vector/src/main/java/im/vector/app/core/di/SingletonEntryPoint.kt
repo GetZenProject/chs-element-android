@@ -14,22 +14,22 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.di
+package dev.getzen.element.core.di
 
 import dagger.hilt.EntryPoint
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
-import im.vector.app.core.dialogs.UnrecognizedCertificateDialog
-import im.vector.app.core.error.ErrorFormatter
-import im.vector.app.features.analytics.AnalyticsTracker
-import im.vector.app.features.call.webrtc.WebRtcCallManager
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.navigation.Navigator
-import im.vector.app.features.pin.PinLocker
-import im.vector.app.features.rageshake.BugReporter
-import im.vector.app.features.session.SessionListener
-import im.vector.app.features.settings.VectorPreferences
-import im.vector.app.features.ui.UiStateRepository
+import dev.getzen.element.core.dialogs.UnrecognizedCertificateDialog
+import dev.getzen.element.core.error.ErrorFormatter
+import dev.getzen.element.features.analytics.AnalyticsTracker
+import dev.getzen.element.features.call.webrtc.WebRtcCallManager
+import dev.getzen.element.features.home.AvatarRenderer
+import dev.getzen.element.features.navigation.Navigator
+import dev.getzen.element.features.pin.PinLocker
+import dev.getzen.element.features.rageshake.BugReporter
+import dev.getzen.element.features.session.SessionListener
+import dev.getzen.element.features.settings.VectorPreferences
+import dev.getzen.element.features.ui.UiStateRepository
 import im.vector.lib.core.utils.timer.Clock
 import kotlinx.coroutines.CoroutineScope
 

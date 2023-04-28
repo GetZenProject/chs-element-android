@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.test.fakes
+package dev.getzen.element.test.fakes
 
-import im.vector.app.features.widgets.WidgetArgsBuilder
+import dev.getzen.element.features.widgets.WidgetArgsBuilder
 import io.mockk.mockk
 
 class FakeWidgetArgsBuilder {

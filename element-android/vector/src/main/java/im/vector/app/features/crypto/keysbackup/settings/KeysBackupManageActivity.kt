@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.crypto.keysbackup.settings
+package dev.getzen.element.features.crypto.keysbackup.settings
 
 import android.app.Activity
 import android.content.Context
@@ -23,13 +23,13 @@ import com.airbnb.mvrx.Loading
 import com.airbnb.mvrx.viewModel
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.registerStartForActivityResult
-import im.vector.app.core.extensions.replaceFragment
-import im.vector.app.core.platform.SimpleFragmentActivity
-import im.vector.app.core.platform.WaitingViewData
-import im.vector.app.features.crypto.keysbackup.setup.KeysBackupSetupActivity
-import im.vector.app.features.crypto.quads.SharedSecureStorageActivity
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.registerStartForActivityResult
+import dev.getzen.element.core.extensions.replaceFragment
+import dev.getzen.element.core.platform.SimpleFragmentActivity
+import dev.getzen.element.core.platform.WaitingViewData
+import dev.getzen.element.features.crypto.keysbackup.setup.KeysBackupSetupActivity
+import dev.getzen.element.features.crypto.quads.SharedSecureStorageActivity
 import org.matrix.android.sdk.api.session.crypto.crosssigning.KEYBACKUP_SECRET_SSSS_NAME
 
 @AndroidEntryPoint

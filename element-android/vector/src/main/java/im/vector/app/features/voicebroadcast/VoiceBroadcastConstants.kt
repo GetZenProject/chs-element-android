@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.voicebroadcast
+package dev.getzen.element.features.voicebroadcast
 
 import org.matrix.android.sdk.api.session.room.model.message.MessageAudioContent
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.login
+package dev.getzen.element.features.login
 
 import android.content.Context
 import android.content.Intent
@@ -31,20 +31,20 @@ import com.airbnb.mvrx.viewModel
 import com.airbnb.mvrx.withState
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.POP_BACK_STACK_EXCLUSIVE
-import im.vector.app.core.extensions.addFragment
-import im.vector.app.core.extensions.addFragmentToBackstack
-import im.vector.app.core.extensions.validateBackPressed
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.core.utils.openUrlInChromeCustomTab
-import im.vector.app.databinding.ActivityLoginBinding
-import im.vector.app.features.analytics.plan.MobileScreen
-import im.vector.app.features.home.HomeActivity
-import im.vector.app.features.login.terms.LoginTermsFragment
-import im.vector.app.features.login.terms.LoginTermsFragmentArgument
-import im.vector.app.features.onboarding.AuthenticationDescription
-import im.vector.app.features.pin.UnlockedActivity
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.POP_BACK_STACK_EXCLUSIVE
+import dev.getzen.element.core.extensions.addFragment
+import dev.getzen.element.core.extensions.addFragmentToBackstack
+import dev.getzen.element.core.extensions.validateBackPressed
+import dev.getzen.element.core.platform.VectorBaseActivity
+import dev.getzen.element.core.utils.openUrlInChromeCustomTab
+import dev.getzen.element.databinding.ActivityLoginBinding
+import dev.getzen.element.features.analytics.plan.MobileScreen
+import dev.getzen.element.features.home.HomeActivity
+import dev.getzen.element.features.login.terms.LoginTermsFragment
+import dev.getzen.element.features.login.terms.LoginTermsFragmentArgument
+import dev.getzen.element.features.onboarding.AuthenticationDescription
+import dev.getzen.element.features.pin.UnlockedActivity
 import im.vector.lib.core.utils.compat.getParcelableExtraCompat
 import org.matrix.android.sdk.api.auth.SSOAction
 import org.matrix.android.sdk.api.auth.registration.FlowResult

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.crypto.keysbackup.setup
+package dev.getzen.element.features.crypto.keysbackup.setup
 
 import android.app.Activity
 import android.content.Context
@@ -24,15 +24,15 @@ import androidx.fragment.app.FragmentManager
 import androidx.lifecycle.lifecycleScope
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.dialogs.ExportKeysDialog
-import im.vector.app.core.extensions.observeEvent
-import im.vector.app.core.extensions.queryExportKeys
-import im.vector.app.core.extensions.registerStartForActivityResult
-import im.vector.app.core.extensions.replaceFragment
-import im.vector.app.core.platform.SimpleFragmentActivity
-import im.vector.app.core.utils.toast
-import im.vector.app.features.crypto.keys.KeysExporter
+import dev.getzen.element.R
+import dev.getzen.element.core.dialogs.ExportKeysDialog
+import dev.getzen.element.core.extensions.observeEvent
+import dev.getzen.element.core.extensions.queryExportKeys
+import dev.getzen.element.core.extensions.registerStartForActivityResult
+import dev.getzen.element.core.extensions.replaceFragment
+import dev.getzen.element.core.platform.SimpleFragmentActivity
+import dev.getzen.element.core.utils.toast
+import dev.getzen.element.features.crypto.keys.KeysExporter
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 

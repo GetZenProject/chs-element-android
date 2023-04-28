@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.login.terms
+package dev.getzen.element.features.login.terms
 
 import android.os.Bundle
 import android.os.Parcelable
@@ -22,14 +22,14 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.airbnb.mvrx.args
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.extensions.toReducedUrl
-import im.vector.app.core.utils.openUrlInChromeCustomTab
-import im.vector.app.databinding.FragmentLoginTermsBinding
-import im.vector.app.features.login.AbstractLoginFragment
-import im.vector.app.features.login.LoginAction
-import im.vector.app.features.login.LoginViewState
+import dev.getzen.element.core.extensions.cleanup
+import dev.getzen.element.core.extensions.configureWith
+import dev.getzen.element.core.extensions.toReducedUrl
+import dev.getzen.element.core.utils.openUrlInChromeCustomTab
+import dev.getzen.element.databinding.FragmentLoginTermsBinding
+import dev.getzen.element.features.login.AbstractLoginFragment
+import dev.getzen.element.features.login.LoginAction
+import dev.getzen.element.features.login.LoginViewState
 import kotlinx.parcelize.Parcelize
 import org.matrix.android.sdk.api.auth.data.LocalizedFlowDataLoginTerms
 import javax.inject.Inject

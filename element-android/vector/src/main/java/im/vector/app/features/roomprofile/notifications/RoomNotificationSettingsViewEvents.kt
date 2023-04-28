@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.notifications
+package dev.getzen.element.features.roomprofile.notifications
 
-import im.vector.app.core.platform.VectorViewEvents
+import dev.getzen.element.core.platform.VectorViewEvents
 
 sealed class RoomNotificationSettingsViewEvents : VectorViewEvents {
     data class Failure(val throwable: Throwable) : RoomNotificationSettingsViewEvents()

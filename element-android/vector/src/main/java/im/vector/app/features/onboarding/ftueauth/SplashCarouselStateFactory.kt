@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.onboarding.ftueauth
+package dev.getzen.element.features.onboarding.ftueauth
 
 import android.content.Context
 import androidx.annotation.AttrRes
 import androidx.annotation.DrawableRes
-import im.vector.app.R
-import im.vector.app.core.resources.LocaleProvider
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.resources.isEnglishSpeaking
-import im.vector.app.core.utils.colorTerminatingFullStop
-import im.vector.app.features.themes.ThemeProvider
-import im.vector.app.features.themes.ThemeUtils
+import dev.getzen.element.R
+import dev.getzen.element.core.resources.LocaleProvider
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.core.resources.isEnglishSpeaking
+import dev.getzen.element.core.utils.colorTerminatingFullStop
+import dev.getzen.element.features.themes.ThemeProvider
+import dev.getzen.element.features.themes.ThemeUtils
 import im.vector.lib.core.utils.epoxy.charsequence.EpoxyCharSequence
 import im.vector.lib.core.utils.epoxy.charsequence.toEpoxyCharSequence
 import javax.inject.Inject

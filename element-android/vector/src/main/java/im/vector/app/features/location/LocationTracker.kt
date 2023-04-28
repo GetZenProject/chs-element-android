@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.location
+package dev.getzen.element.features.location
 
 import android.Manifest
 import android.content.Context
@@ -24,9 +24,9 @@ import androidx.annotation.RequiresPermission
 import androidx.annotation.VisibleForTesting
 import androidx.core.content.getSystemService
 import androidx.core.location.LocationListenerCompat
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.resources.BuildMeta
-import im.vector.app.features.session.coroutineScope
+import dev.getzen.element.core.di.ActiveSessionHolder
+import dev.getzen.element.core.resources.BuildMeta
+import dev.getzen.element.features.session.coroutineScope
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.asSharedFlow
 import kotlinx.coroutines.flow.debounce

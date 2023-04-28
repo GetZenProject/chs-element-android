@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.pin.lockscreen.crypto
+package dev.getzen.element.features.pin.lockscreen.crypto
 
 import androidx.test.platform.app.InstrumentationRegistry
 import io.mockk.clearAllMocks

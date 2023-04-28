@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.ui.robot
+package dev.getzen.element.ui.robot
 
 import android.view.View
 import androidx.test.core.app.ApplicationProvider
@@ -33,22 +33,22 @@ import com.adevinta.android.barista.interaction.BaristaClickInteractions.clickOn
 import com.adevinta.android.barista.interaction.BaristaDialogInteractions.clickDialogNegativeButton
 import com.adevinta.android.barista.interaction.BaristaDialogInteractions.clickDialogPositiveButton
 import com.adevinta.android.barista.interaction.BaristaDrawerInteractions.openDrawer
-import im.vector.app.EspressoHelper
-import im.vector.app.R
-import im.vector.app.espresso.tools.clickOnPreference
-import im.vector.app.espresso.tools.waitUntilActivityVisible
-import im.vector.app.espresso.tools.waitUntilDialogVisible
-import im.vector.app.espresso.tools.waitUntilViewVisible
-import im.vector.app.features.createdirect.CreateDirectRoomActivity
-import im.vector.app.features.home.HomeActivity
-import im.vector.app.features.onboarding.OnboardingActivity
-import im.vector.app.features.settings.VectorSettingsActivity
-import im.vector.app.initialSyncIdlingResource
-import im.vector.app.ui.robot.settings.SettingsRobot
-import im.vector.app.ui.robot.settings.labs.LabFeature
-import im.vector.app.ui.robot.settings.labs.LabFeaturesPreferences
-import im.vector.app.ui.robot.space.SpaceRobot
-import im.vector.app.withIdlingResource
+import dev.getzen.element.EspressoHelper
+import dev.getzen.element.R
+import dev.getzen.element.espresso.tools.clickOnPreference
+import dev.getzen.element.espresso.tools.waitUntilActivityVisible
+import dev.getzen.element.espresso.tools.waitUntilDialogVisible
+import dev.getzen.element.espresso.tools.waitUntilViewVisible
+import dev.getzen.element.features.createdirect.CreateDirectRoomActivity
+import dev.getzen.element.features.home.HomeActivity
+import dev.getzen.element.features.onboarding.OnboardingActivity
+import dev.getzen.element.features.settings.VectorSettingsActivity
+import dev.getzen.element.initialSyncIdlingResource
+import dev.getzen.element.ui.robot.settings.SettingsRobot
+import dev.getzen.element.ui.robot.settings.labs.LabFeature
+import dev.getzen.element.ui.robot.settings.labs.LabFeaturesPreferences
+import dev.getzen.element.ui.robot.space.SpaceRobot
+import dev.getzen.element.withIdlingResource
 import timber.log.Timber
 
 class ElementRobot(

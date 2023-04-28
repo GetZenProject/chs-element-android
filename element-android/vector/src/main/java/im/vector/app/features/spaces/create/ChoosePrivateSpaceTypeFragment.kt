@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.create
+package dev.getzen.element.features.spaces.create
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -22,12 +22,12 @@ import android.view.View
 import android.view.ViewGroup
 import com.airbnb.mvrx.activityViewModel
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.epoxy.onClick
-import im.vector.app.core.platform.OnBackPressed
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.databinding.FragmentSpaceCreateChoosePrivateModelBinding
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.onClick
+import dev.getzen.element.core.platform.OnBackPressed
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.databinding.FragmentSpaceCreateChoosePrivateModelBinding
 import javax.inject.Inject
 
 @AndroidEntryPoint

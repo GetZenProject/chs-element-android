@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.url
+package dev.getzen.element.features.home.room.detail.timeline.url
 
 import android.content.Context
 import android.content.res.ColorStateList
@@ -23,15 +23,15 @@ import android.util.AttributeSet
 import android.view.View
 import androidx.core.view.isVisible
 import com.google.android.material.card.MaterialCardView
-import im.vector.app.R
-import im.vector.app.core.extensions.setTextOrHide
-import im.vector.app.core.utils.DimensionConverter
-import im.vector.app.databinding.ViewUrlPreviewBinding
-import im.vector.app.features.home.room.detail.timeline.TimelineEventController
-import im.vector.app.features.home.room.detail.timeline.style.TimelineMessageLayout
-import im.vector.app.features.home.room.detail.timeline.view.TimelineMessageLayoutRenderer
-import im.vector.app.features.media.ImageContentRenderer
-import im.vector.app.features.themes.ThemeUtils
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.setTextOrHide
+import dev.getzen.element.core.utils.DimensionConverter
+import dev.getzen.element.databinding.ViewUrlPreviewBinding
+import dev.getzen.element.features.home.room.detail.timeline.TimelineEventController
+import dev.getzen.element.features.home.room.detail.timeline.style.TimelineMessageLayout
+import dev.getzen.element.features.home.room.detail.timeline.view.TimelineMessageLayoutRenderer
+import dev.getzen.element.features.media.ImageContentRenderer
+import dev.getzen.element.features.themes.ThemeUtils
 import org.matrix.android.sdk.api.session.media.PreviewUrlData
 
 /**

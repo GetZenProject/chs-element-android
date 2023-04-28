@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.ui.views
+package dev.getzen.element.core.ui.views
 
 import android.content.Context
 import android.util.AttributeSet
 import android.util.TypedValue
 import android.widget.FrameLayout
 import androidx.appcompat.content.res.AppCompatResources
-import im.vector.app.R
-import im.vector.app.databinding.ViewCurrentCallsBinding
-import im.vector.app.features.call.webrtc.WebRtcCall
-import im.vector.app.features.themes.ThemeUtils
+import dev.getzen.element.R
+import dev.getzen.element.databinding.ViewCurrentCallsBinding
+import dev.getzen.element.features.call.webrtc.WebRtcCall
+import dev.getzen.element.features.themes.ThemeUtils
 import org.matrix.android.sdk.api.session.call.CallState
 
 class CurrentCallsView @JvmOverloads constructor(

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.devtools
+package dev.getzen.element.features.devtools
 
 import com.airbnb.epoxy.EpoxyController
-import im.vector.app.R
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.ui.list.genericButtonItem
+import dev.getzen.element.R
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.core.ui.list.genericButtonItem
 import javax.inject.Inject
 
 class RoomDevToolRootController @Inject constructor(

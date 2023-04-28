@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.style
+package dev.getzen.element.features.home.room.detail.timeline.style
 
 import android.content.res.Resources
-import im.vector.app.R
-import im.vector.app.core.extensions.getVectorLastMessageContent
-import im.vector.app.core.extensions.localDateTime
-import im.vector.app.core.resources.LocaleProvider
-import im.vector.app.core.resources.isRTL
-import im.vector.app.features.home.room.detail.timeline.factory.TimelineItemFactoryParams
-import im.vector.app.features.settings.VectorPreferences
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.getVectorLastMessageContent
+import dev.getzen.element.core.extensions.localDateTime
+import dev.getzen.element.core.resources.LocaleProvider
+import dev.getzen.element.core.resources.isRTL
+import dev.getzen.element.features.home.room.detail.timeline.factory.TimelineItemFactoryParams
+import dev.getzen.element.features.settings.VectorPreferences
 import org.matrix.android.sdk.api.session.Session
 import org.matrix.android.sdk.api.session.events.model.EventType
 import org.matrix.android.sdk.api.session.room.model.message.MessageContent

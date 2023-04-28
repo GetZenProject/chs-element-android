@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2.overview
+package dev.getzen.element.features.settings.devices.v2.overview
 
 import android.content.Context
 import android.content.res.TypedArray
@@ -23,9 +23,9 @@ import android.view.LayoutInflater
 import android.widget.CompoundButton
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.res.use
-import im.vector.app.R
-import im.vector.app.core.extensions.setAttributeBackground
-import im.vector.app.databinding.ViewSessionOverviewEntrySwitchBinding
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.setAttributeBackground
+import dev.getzen.element.databinding.ViewSessionOverviewEntrySwitchBinding
 
 class SessionOverviewEntrySwitchView @JvmOverloads constructor(
         context: Context,

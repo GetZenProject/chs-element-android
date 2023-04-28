@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.test.fakes
+package dev.getzen.element.test.fakes
 
-import im.vector.app.features.crypto.verification.SupportedVerificationMethodsProvider
+import dev.getzen.element.features.crypto.verification.SupportedVerificationMethodsProvider
 import io.mockk.mockk
 
 class FakeSupportedVerificationMethodsProvider {

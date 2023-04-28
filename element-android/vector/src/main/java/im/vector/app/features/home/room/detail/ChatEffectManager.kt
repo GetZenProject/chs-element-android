@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail
+package dev.getzen.element.features.home.room.detail
 
 import im.vector.lib.core.utils.timer.Clock
 import org.matrix.android.sdk.api.session.events.model.toModel

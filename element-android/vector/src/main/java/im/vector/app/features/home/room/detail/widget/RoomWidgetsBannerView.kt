@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.widget
+package dev.getzen.element.features.home.room.detail.widget
 
 import android.content.Context
 import android.util.AttributeSet
 import android.view.View
 import android.widget.RelativeLayout
-import im.vector.app.R
-import im.vector.app.databinding.ViewRoomWidgetsBannerBinding
+import dev.getzen.element.R
+import dev.getzen.element.databinding.ViewRoomWidgetsBannerBinding
 import org.matrix.android.sdk.api.session.widgets.model.Widget
 
 class RoomWidgetsBannerView @JvmOverloads constructor(

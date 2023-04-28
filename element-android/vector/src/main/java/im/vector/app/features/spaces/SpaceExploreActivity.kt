@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces
+package dev.getzen.element.features.spaces
 
 import android.app.Activity
 import android.content.Context
@@ -25,21 +25,21 @@ import androidx.fragment.app.FragmentManager
 import com.airbnb.mvrx.Mavericks
 import com.airbnb.mvrx.viewModel
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.registerStartForActivityResult
-import im.vector.app.core.extensions.replaceFragment
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.databinding.ActivitySimpleBinding
-import im.vector.app.features.analytics.plan.ViewRoom
-import im.vector.app.features.matrixto.MatrixToBottomSheet
-import im.vector.app.features.matrixto.OriginOfMatrixTo
-import im.vector.app.features.navigation.Navigator
-import im.vector.app.features.roomdirectory.createroom.CreateRoomActivity
-import im.vector.app.features.spaces.explore.SpaceDirectoryArgs
-import im.vector.app.features.spaces.explore.SpaceDirectoryFragment
-import im.vector.app.features.spaces.explore.SpaceDirectoryViewAction
-import im.vector.app.features.spaces.explore.SpaceDirectoryViewEvents
-import im.vector.app.features.spaces.explore.SpaceDirectoryViewModel
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.registerStartForActivityResult
+import dev.getzen.element.core.extensions.replaceFragment
+import dev.getzen.element.core.platform.VectorBaseActivity
+import dev.getzen.element.databinding.ActivitySimpleBinding
+import dev.getzen.element.features.analytics.plan.ViewRoom
+import dev.getzen.element.features.matrixto.MatrixToBottomSheet
+import dev.getzen.element.features.matrixto.OriginOfMatrixTo
+import dev.getzen.element.features.navigation.Navigator
+import dev.getzen.element.features.roomdirectory.createroom.CreateRoomActivity
+import dev.getzen.element.features.spaces.explore.SpaceDirectoryArgs
+import dev.getzen.element.features.spaces.explore.SpaceDirectoryFragment
+import dev.getzen.element.features.spaces.explore.SpaceDirectoryViewAction
+import dev.getzen.element.features.spaces.explore.SpaceDirectoryViewEvents
+import dev.getzen.element.features.spaces.explore.SpaceDirectoryViewModel
 import im.vector.lib.core.utils.compat.getParcelableExtraCompat
 
 @AndroidEntryPoint

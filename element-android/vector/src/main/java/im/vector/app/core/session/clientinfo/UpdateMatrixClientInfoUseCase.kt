@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.session.clientinfo
+package dev.getzen.element.core.session.clientinfo
 
-import im.vector.app.core.resources.AppNameProvider
-import im.vector.app.core.resources.BuildMeta
+import dev.getzen.element.core.resources.AppNameProvider
+import dev.getzen.element.core.resources.BuildMeta
 import org.matrix.android.sdk.api.session.Session
 import timber.log.Timber
 import javax.inject.Inject

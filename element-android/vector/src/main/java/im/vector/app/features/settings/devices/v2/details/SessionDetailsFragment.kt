@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2.details
+package dev.getzen.element.features.settings.devices.v2.details
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -27,13 +27,13 @@ import com.airbnb.mvrx.Success
 import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.platform.showOptimizedSnackbar
-import im.vector.app.databinding.FragmentSessionDetailsBinding
-import im.vector.app.features.settings.devices.v2.DeviceFullInfo
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.cleanup
+import dev.getzen.element.core.extensions.configureWith
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.core.platform.showOptimizedSnackbar
+import dev.getzen.element.databinding.FragmentSessionDetailsBinding
+import dev.getzen.element.features.settings.devices.v2.DeviceFullInfo
 import javax.inject.Inject
 
 /**

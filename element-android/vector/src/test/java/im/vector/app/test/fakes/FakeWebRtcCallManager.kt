@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.test.fakes
+package dev.getzen.element.test.fakes
 
-import im.vector.app.features.call.webrtc.WebRtcCallManager
+import dev.getzen.element.features.call.webrtc.WebRtcCallManager
 import io.mockk.every
 import io.mockk.just
 import io.mockk.mockk

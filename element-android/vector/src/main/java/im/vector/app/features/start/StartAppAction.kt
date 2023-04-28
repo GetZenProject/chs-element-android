@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.start
+package dev.getzen.element.features.start
 
-import im.vector.app.core.platform.VectorViewModelAction
+import dev.getzen.element.core.platform.VectorViewModelAction
 
 sealed interface StartAppAction : VectorViewModelAction {
     object StartApp : StartAppAction

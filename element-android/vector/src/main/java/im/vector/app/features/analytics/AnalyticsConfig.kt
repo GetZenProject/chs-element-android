@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.analytics
+package dev.getzen.element.features.analytics
 
 data class AnalyticsConfig(
         val isEnabled: Boolean,

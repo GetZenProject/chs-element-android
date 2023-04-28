@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2.list
+package dev.getzen.element.features.settings.devices.v2.list
 
 import android.content.Context
 import android.content.res.TypedArray
@@ -27,10 +27,10 @@ import androidx.appcompat.widget.ActionMenuView.OnMenuItemClickListener
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.res.use
 import androidx.core.view.isVisible
-import im.vector.app.R
-import im.vector.app.core.extensions.setTextOrHide
-import im.vector.app.core.extensions.setTextWithColoredPart
-import im.vector.app.databinding.ViewSessionsListHeaderBinding
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.setTextOrHide
+import dev.getzen.element.core.extensions.setTextWithColoredPart
+import dev.getzen.element.databinding.ViewSessionsListHeaderBinding
 
 class SessionsListHeaderView @JvmOverloads constructor(
         context: Context,

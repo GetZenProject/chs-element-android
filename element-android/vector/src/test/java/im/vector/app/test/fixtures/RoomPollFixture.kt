@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.test.fixtures
+package dev.getzen.element.test.fixtures
 
-import im.vector.app.core.extensions.getVectorLastMessageContent
-import im.vector.app.features.home.room.detail.timeline.item.PollResponseData
+import dev.getzen.element.core.extensions.getVectorLastMessageContent
+import dev.getzen.element.features.home.room.detail.timeline.item.PollResponseData
 import io.mockk.every
 import io.mockk.mockk
 import org.matrix.android.sdk.api.session.room.model.message.MessageContent

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.debug
+package dev.getzen.element.features.debug
 
 import android.Manifest
 import android.content.pm.PackageManager
@@ -24,13 +24,13 @@ import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.core.view.isVisible
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.core.utils.checkPermissions
-import im.vector.app.core.utils.onPermissionDeniedDialog
-import im.vector.app.core.utils.onPermissionDeniedSnackbar
-import im.vector.app.core.utils.registerForPermissionsResult
-import im.vector.application.R
-import im.vector.application.databinding.ActivityDebugPermissionBinding
+import dev.getzen.element.core.platform.VectorBaseActivity
+import dev.getzen.element.core.utils.checkPermissions
+import dev.getzen.element.core.utils.onPermissionDeniedDialog
+import dev.getzen.element.core.utils.onPermissionDeniedSnackbar
+import dev.getzen.element.core.utils.registerForPermissionsResult
+import dev.getzen.elementlication.R
+import dev.getzen.elementlication.databinding.ActivityDebugPermissionBinding
 import timber.log.Timber
 
 @AndroidEntryPoint

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.settings.joinrule
+package dev.getzen.element.features.roomprofile.settings.joinrule
 
-import im.vector.app.core.ui.bottomsheet.BottomSheetGenericRadioAction
+import dev.getzen.element.core.ui.bottomsheet.BottomSheetGenericRadioAction
 import org.matrix.android.sdk.api.session.room.model.RoomJoinRules
 
 class RoomJoinRuleRadioAction(

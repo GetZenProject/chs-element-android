@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.preference
+package dev.getzen.element.core.preference
 
 import android.content.Context
 import android.util.AttributeSet
@@ -22,9 +22,9 @@ import android.widget.ImageView
 import android.widget.ProgressBar
 import androidx.preference.Preference
 import androidx.preference.PreferenceViewHolder
-import im.vector.app.R
-import im.vector.app.core.extensions.singletonEntryPoint
-import im.vector.app.features.home.AvatarRenderer
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.singletonEntryPoint
+import dev.getzen.element.features.home.AvatarRenderer
 import org.matrix.android.sdk.api.session.user.model.User
 import org.matrix.android.sdk.api.util.MatrixItem
 import org.matrix.android.sdk.api.util.toMatrixItem

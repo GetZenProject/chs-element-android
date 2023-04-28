@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2.overview
+package dev.getzen.element.features.settings.devices.v2.overview
 
 import android.content.Context
 import androidx.fragment.app.FragmentActivity
-import im.vector.app.features.settings.devices.v2.details.SessionDetailsActivity
-import im.vector.app.features.settings.devices.v2.rename.RenameSessionActivity
+import dev.getzen.element.features.settings.devices.v2.details.SessionDetailsActivity
+import dev.getzen.element.features.settings.devices.v2.rename.RenameSessionActivity
 import javax.inject.Inject
 
 class SessionOverviewViewNavigator @Inject constructor() {

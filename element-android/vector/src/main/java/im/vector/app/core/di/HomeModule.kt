@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.di
+package dev.getzen.element.core.di
 
 import android.os.Handler
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.android.components.ActivityComponent
-import im.vector.app.features.home.room.detail.timeline.TimelineEventControllerHandler
-import im.vector.app.features.home.room.detail.timeline.helper.TimelineAsyncHelper
+import dev.getzen.element.features.home.room.detail.timeline.TimelineEventControllerHandler
+import dev.getzen.element.features.home.room.detail.timeline.helper.TimelineAsyncHelper
 
 @Module
 @InstallIn(ActivityComponent::class)

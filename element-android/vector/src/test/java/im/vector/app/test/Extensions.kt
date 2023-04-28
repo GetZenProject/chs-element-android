@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.test
+package dev.getzen.element.test
 
 import com.airbnb.mvrx.MavericksState
-import im.vector.app.core.platform.VectorViewEvents
-import im.vector.app.core.platform.VectorViewModel
-import im.vector.app.core.platform.VectorViewModelAction
+import dev.getzen.element.core.platform.VectorViewEvents
+import dev.getzen.element.core.platform.VectorViewModel
+import dev.getzen.element.core.platform.VectorViewModelAction
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 

@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.onboarding
+package dev.getzen.element.features.onboarding
 
 import android.os.Parcelable
-import im.vector.app.features.onboarding.AuthenticationDescription.AuthenticationType
+import dev.getzen.element.features.onboarding.AuthenticationDescription.AuthenticationType
 import kotlinx.parcelize.Parcelize
 import org.matrix.android.sdk.api.auth.data.SsoIdentityProvider
 

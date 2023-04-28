@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.test.fakes
+package dev.getzen.element.test.fakes
 
-import im.vector.app.features.ui.UiStateRepository
+import dev.getzen.element.features.ui.UiStateRepository
 import io.mockk.justRun
 import io.mockk.mockk
 import io.mockk.verify

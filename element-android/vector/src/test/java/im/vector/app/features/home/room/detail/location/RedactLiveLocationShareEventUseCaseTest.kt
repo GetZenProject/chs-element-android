@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.location
+package dev.getzen.element.features.home.room.detail.location
 
-import im.vector.app.test.fakes.FakeRoom
+import dev.getzen.element.test.fakes.FakeRoom
 import kotlinx.coroutines.test.runTest
 import org.junit.Test
 import org.matrix.android.sdk.api.session.events.model.Event

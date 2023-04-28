@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.test.fakes
+package dev.getzen.element.test.fakes
 
 import android.content.Context
-import im.vector.app.features.analytics.plan.ViewRoom
-import im.vector.app.features.navigation.Navigator
+import dev.getzen.element.features.analytics.plan.ViewRoom
+import dev.getzen.element.features.navigation.Navigator
 import io.mockk.justRun
 import io.mockk.mockk
 import io.mockk.verify

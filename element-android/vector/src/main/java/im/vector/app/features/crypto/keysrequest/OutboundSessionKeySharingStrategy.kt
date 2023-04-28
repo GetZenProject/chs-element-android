@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.crypto.keysrequest
+package dev.getzen.element.features.crypto.keysrequest
 
 enum class OutboundSessionKeySharingStrategy {
     /**

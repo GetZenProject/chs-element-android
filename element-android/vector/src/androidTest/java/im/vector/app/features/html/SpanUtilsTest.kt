@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.html
+package dev.getzen.element.features.html
 
 import android.graphics.Color
 import android.os.Build
@@ -26,7 +26,7 @@ import android.text.style.StrikethroughSpan
 import android.text.style.UnderlineSpan
 import androidx.emoji2.text.EmojiCompat
 import androidx.test.platform.app.InstrumentationRegistry
-import im.vector.app.InstrumentedTest
+import dev.getzen.element.InstrumentedTest
 import org.amshove.kluent.shouldBeEqualTo
 import org.amshove.kluent.shouldBeTrue
 import org.junit.BeforeClass

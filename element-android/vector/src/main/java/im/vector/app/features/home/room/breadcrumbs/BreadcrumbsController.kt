@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.breadcrumbs
+package dev.getzen.element.features.home.room.breadcrumbs
 
 import com.airbnb.epoxy.EpoxyController
-import im.vector.app.core.epoxy.zeroItem
-import im.vector.app.features.home.AvatarRenderer
+import dev.getzen.element.core.epoxy.zeroItem
+import dev.getzen.element.features.home.AvatarRenderer
 import org.matrix.android.sdk.api.util.toMatrixItem
 import javax.inject.Inject
 

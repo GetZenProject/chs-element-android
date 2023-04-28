@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.media.domain.usecase
+package dev.getzen.element.features.media.domain.usecase
 
 import android.content.Context
 import android.net.Uri
 import androidx.core.net.toUri
-import im.vector.app.core.intent.getMimeTypeFromUri
-import im.vector.app.core.utils.saveMedia
-import im.vector.app.features.notifications.NotificationUtils
-import im.vector.app.test.fakes.FakeClock
-import im.vector.app.test.fakes.FakeFile
-import im.vector.app.test.fakes.FakeSession
+import dev.getzen.element.core.intent.getMimeTypeFromUri
+import dev.getzen.element.core.utils.saveMedia
+import dev.getzen.element.features.notifications.NotificationUtils
+import dev.getzen.element.test.fakes.FakeClock
+import dev.getzen.element.test.fakes.FakeFile
+import dev.getzen.element.test.fakes.FakeSession
 import io.mockk.MockKAnnotations
 import io.mockk.coEvery
 import io.mockk.coVerify
@@ -63,14 +63,14 @@ class DownloadMediaUseCaseTest {
     @Before
     fun setUp() {
         MockKAnnotations.init(this)
-        mockkStatic("im.vector.app.core.utils.ExternalApplicationsUtilKt")
-        mockkStatic("im.vector.app.core.intent.VectorMimeTypeKt")
+        mockkStatic("dev.getzen.element.core.utils.ExternalApplicationsUtilKt")
+        mockkStatic("dev.getzen.element.core.intent.VectorMimeTypeKt")
     }
 
     @After
     fun tearDown() {
-        unmockkStatic("im.vector.app.core.utils.ExternalApplicationsUtilKt")
-        unmockkStatic("im.vector.app.core.intent.VectorMimeTypeKt")
+        unmockkStatic("dev.getzen.element.core.utils.ExternalApplicationsUtilKt")
+        unmockkStatic("dev.getzen.element.core.intent.VectorMimeTypeKt")
         file.tearDown()
     }
 

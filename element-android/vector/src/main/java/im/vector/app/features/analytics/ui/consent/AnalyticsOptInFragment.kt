@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.analytics.ui.consent
+package dev.getzen.element.features.analytics.ui.consent
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -22,13 +22,13 @@ import android.view.View
 import android.view.ViewGroup
 import com.airbnb.mvrx.activityViewModel
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.setTextWithColoredPart
-import im.vector.app.core.platform.OnBackPressed
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.utils.openUrlInChromeCustomTab
-import im.vector.app.databinding.FragmentAnalyticsOptinBinding
-import im.vector.app.features.analytics.AnalyticsConfig
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.setTextWithColoredPart
+import dev.getzen.element.core.platform.OnBackPressed
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.core.utils.openUrlInChromeCustomTab
+import dev.getzen.element.databinding.FragmentAnalyticsOptinBinding
+import dev.getzen.element.features.analytics.AnalyticsConfig
 import javax.inject.Inject
 
 @AndroidEntryPoint

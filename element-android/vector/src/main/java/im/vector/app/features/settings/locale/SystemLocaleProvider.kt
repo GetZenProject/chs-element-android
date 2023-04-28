@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.locale
+package dev.getzen.element.features.settings.locale
 
 import android.content.Context
 import timber.log.Timber

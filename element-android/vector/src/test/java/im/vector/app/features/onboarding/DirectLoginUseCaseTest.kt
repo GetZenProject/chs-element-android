@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.onboarding
+package dev.getzen.element.features.onboarding
 
-import im.vector.app.R
-import im.vector.app.test.fakes.FakeAuthenticationService
-import im.vector.app.test.fakes.FakeSession
-import im.vector.app.test.fakes.FakeStringProvider
-import im.vector.app.test.fakes.FakeUri
-import im.vector.app.test.fakes.FakeUriFactory
-import im.vector.app.test.fakes.toTestString
+import dev.getzen.element.R
+import dev.getzen.element.test.fakes.FakeAuthenticationService
+import dev.getzen.element.test.fakes.FakeSession
+import dev.getzen.element.test.fakes.FakeStringProvider
+import dev.getzen.element.test.fakes.FakeUri
+import dev.getzen.element.test.fakes.FakeUriFactory
+import dev.getzen.element.test.fakes.toTestString
 import kotlinx.coroutines.test.runTest
 import org.amshove.kluent.should
 import org.amshove.kluent.shouldBeEqualTo

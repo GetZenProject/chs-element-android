@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.search
+package dev.getzen.element.features.home.room.detail.search
 
-import im.vector.app.core.platform.VectorViewModelAction
+import dev.getzen.element.core.platform.VectorViewModelAction
 
 sealed class SearchAction : VectorViewModelAction {
     data class SearchWith(val searchTerm: String) : SearchAction()

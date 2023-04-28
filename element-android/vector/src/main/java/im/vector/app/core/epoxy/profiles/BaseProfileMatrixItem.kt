@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.epoxy.profiles
+package dev.getzen.element.core.epoxy.profiles
 
 import androidx.annotation.CallSuper
 import androidx.annotation.LayoutRes
 import androidx.core.view.isVisible
 import com.airbnb.epoxy.EpoxyAttribute
-import im.vector.app.core.epoxy.ClickListener
-import im.vector.app.core.epoxy.VectorEpoxyModel
-import im.vector.app.core.epoxy.onClick
-import im.vector.app.core.extensions.setTextOrHide
-import im.vector.app.features.displayname.getBestName
-import im.vector.app.features.home.AvatarRenderer
+import dev.getzen.element.core.epoxy.ClickListener
+import dev.getzen.element.core.epoxy.VectorEpoxyModel
+import dev.getzen.element.core.epoxy.onClick
+import dev.getzen.element.core.extensions.setTextOrHide
+import dev.getzen.element.features.displayname.getBestName
+import dev.getzen.element.features.home.AvatarRenderer
 import org.matrix.android.sdk.api.session.crypto.model.UserVerificationLevel
 import org.matrix.android.sdk.api.util.MatrixItem
 

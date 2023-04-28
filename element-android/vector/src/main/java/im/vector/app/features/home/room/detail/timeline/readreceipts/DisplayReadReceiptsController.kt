@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.readreceipts
+package dev.getzen.element.features.home.room.detail.timeline.readreceipts
 
 import com.airbnb.epoxy.TypedEpoxyController
-import im.vector.app.core.date.DateFormatKind
-import im.vector.app.core.date.VectorDateFormatter
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.home.room.detail.timeline.item.ReadReceiptData
-import im.vector.app.features.home.room.detail.timeline.item.toMatrixItem
+import dev.getzen.element.core.date.DateFormatKind
+import dev.getzen.element.core.date.VectorDateFormatter
+import dev.getzen.element.features.home.AvatarRenderer
+import dev.getzen.element.features.home.room.detail.timeline.item.ReadReceiptData
+import dev.getzen.element.features.home.room.detail.timeline.item.toMatrixItem
 import org.matrix.android.sdk.api.session.Session
 import javax.inject.Inject
 

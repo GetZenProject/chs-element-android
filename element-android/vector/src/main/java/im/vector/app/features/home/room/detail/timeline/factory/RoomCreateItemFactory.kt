@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.factory
+package dev.getzen.element.features.home.room.detail.timeline.factory
 
-import im.vector.app.R
-import im.vector.app.core.epoxy.VectorEpoxyModel
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.resources.UserPreferencesProvider
-import im.vector.app.features.home.room.detail.timeline.item.RoomCreateItem_
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.VectorEpoxyModel
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.core.resources.UserPreferencesProvider
+import dev.getzen.element.features.home.room.detail.timeline.item.RoomCreateItem_
 import im.vector.lib.core.utils.epoxy.charsequence.toEpoxyCharSequence
 import me.gujun.android.span.span
 import org.matrix.android.sdk.api.session.Session

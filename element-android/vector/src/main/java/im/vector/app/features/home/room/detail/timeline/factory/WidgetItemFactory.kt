@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.factory
+package dev.getzen.element.features.home.room.detail.timeline.factory
 
-import im.vector.app.core.epoxy.VectorEpoxyModel
-import im.vector.app.core.resources.UserPreferencesProvider
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.home.room.detail.timeline.MessageColorProvider
-import im.vector.app.features.home.room.detail.timeline.helper.AvatarSizeProvider
-import im.vector.app.features.home.room.detail.timeline.helper.JitsiWidgetEventsGroup
-import im.vector.app.features.home.room.detail.timeline.helper.MessageInformationDataFactory
-import im.vector.app.features.home.room.detail.timeline.item.CallTileTimelineItem
-import im.vector.app.features.home.room.detail.timeline.item.CallTileTimelineItem_
+import dev.getzen.element.core.epoxy.VectorEpoxyModel
+import dev.getzen.element.core.resources.UserPreferencesProvider
+import dev.getzen.element.features.home.AvatarRenderer
+import dev.getzen.element.features.home.room.detail.timeline.MessageColorProvider
+import dev.getzen.element.features.home.room.detail.timeline.helper.AvatarSizeProvider
+import dev.getzen.element.features.home.room.detail.timeline.helper.JitsiWidgetEventsGroup
+import dev.getzen.element.features.home.room.detail.timeline.helper.MessageInformationDataFactory
+import dev.getzen.element.features.home.room.detail.timeline.item.CallTileTimelineItem
+import dev.getzen.element.features.home.room.detail.timeline.item.CallTileTimelineItem_
 import org.matrix.android.sdk.api.session.events.model.toModel
 import org.matrix.android.sdk.api.session.widgets.model.WidgetContent
 import org.matrix.android.sdk.api.session.widgets.model.WidgetType

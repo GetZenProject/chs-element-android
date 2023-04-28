@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.helper
+package dev.getzen.element.features.home.room.detail.timeline.helper
 
 import com.airbnb.epoxy.EpoxyModel
 import com.airbnb.epoxy.VisibilityState
-import im.vector.app.core.epoxy.LoadingItem_
-import im.vector.app.features.home.room.detail.UnreadState
-import im.vector.app.features.home.room.detail.timeline.TimelineEventController
-import im.vector.app.features.home.room.detail.timeline.item.DaySeparatorItem
-import im.vector.app.features.home.room.detail.timeline.item.ItemWithEvents
-import im.vector.app.features.home.room.detail.timeline.item.TimelineReadMarkerItem_
+import dev.getzen.element.core.epoxy.LoadingItem_
+import dev.getzen.element.features.home.room.detail.UnreadState
+import dev.getzen.element.features.home.room.detail.timeline.TimelineEventController
+import dev.getzen.element.features.home.room.detail.timeline.item.DaySeparatorItem
+import dev.getzen.element.features.home.room.detail.timeline.item.ItemWithEvents
+import dev.getzen.element.features.home.room.detail.timeline.item.TimelineReadMarkerItem_
 import org.matrix.android.sdk.api.session.room.timeline.Timeline
 import kotlin.random.Random
 import kotlin.reflect.KMutableProperty0

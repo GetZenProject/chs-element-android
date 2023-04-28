@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.composer.link
+package dev.getzen.element.features.home.room.detail.composer.link
 
-import im.vector.app.core.platform.VectorViewEvents
+import dev.getzen.element.core.platform.VectorViewEvents
 
 sealed class SetLinkViewEvents : VectorViewEvents {
 

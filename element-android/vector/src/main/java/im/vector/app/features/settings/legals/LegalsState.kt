@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.legals
+package dev.getzen.element.features.settings.legals
 
 import com.airbnb.mvrx.Async
 import com.airbnb.mvrx.MavericksState
 import com.airbnb.mvrx.Uninitialized
-import im.vector.app.features.discovery.ServerAndPolicies
+import dev.getzen.element.features.discovery.ServerAndPolicies
 
 data class LegalsState(
         val homeServer: Async<ServerAndPolicies?> = Uninitialized,

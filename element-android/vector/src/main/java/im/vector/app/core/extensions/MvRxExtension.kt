@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.extensions
+package dev.getzen.element.core.extensions
 
 import com.airbnb.mvrx.Async
 import com.airbnb.mvrx.Fail

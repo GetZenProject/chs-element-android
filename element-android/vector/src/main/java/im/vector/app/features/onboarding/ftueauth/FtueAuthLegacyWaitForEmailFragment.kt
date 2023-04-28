@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.onboarding.ftueauth
+package dev.getzen.element.features.onboarding.ftueauth
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -22,10 +22,10 @@ import android.view.View
 import android.view.ViewGroup
 import com.airbnb.mvrx.args
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.databinding.FragmentLoginWaitForEmailBinding
-import im.vector.app.features.onboarding.OnboardingAction
-import im.vector.app.features.onboarding.RegisterAction
+import dev.getzen.element.R
+import dev.getzen.element.databinding.FragmentLoginWaitForEmailBinding
+import dev.getzen.element.features.onboarding.OnboardingAction
+import dev.getzen.element.features.onboarding.RegisterAction
 
 /**
  * In this screen, the user is asked to check their emails.

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.extensions
+package dev.getzen.element.core.extensions
 
 import android.view.MenuItem
 import androidx.annotation.ColorInt
 import androidx.core.text.toSpannable
-import im.vector.app.core.utils.colorizeMatchingText
+import dev.getzen.element.core.utils.colorizeMatchingText
 
 fun MenuItem.setTextColor(@ColorInt color: Int) {
     val currentTitle = title.orEmpty().toString()

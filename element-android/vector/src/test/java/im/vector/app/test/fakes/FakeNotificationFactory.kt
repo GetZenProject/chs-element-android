@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.test.fakes
+package dev.getzen.element.test.fakes
 
-import im.vector.app.features.notifications.GroupedNotificationEvents
-import im.vector.app.features.notifications.NotificationFactory
-import im.vector.app.features.notifications.OneShotNotification
-import im.vector.app.features.notifications.RoomNotification
-import im.vector.app.features.notifications.SummaryNotification
+import dev.getzen.element.features.notifications.GroupedNotificationEvents
+import dev.getzen.element.features.notifications.NotificationFactory
+import dev.getzen.element.features.notifications.OneShotNotification
+import dev.getzen.element.features.notifications.RoomNotification
+import dev.getzen.element.features.notifications.SummaryNotification
 import io.mockk.every
 import io.mockk.mockk
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.composer.voice
+package dev.getzen.element.features.home.room.detail.composer.voice
 
 import android.annotation.SuppressLint
 import android.content.res.Resources
@@ -27,17 +27,17 @@ import androidx.core.view.doOnLayout
 import androidx.core.view.isInvisible
 import androidx.core.view.isVisible
 import androidx.core.view.updateLayoutParams
-import im.vector.app.R
-import im.vector.app.core.extensions.setAttributeBackground
-import im.vector.app.core.extensions.setAttributeTintedBackground
-import im.vector.app.core.extensions.setAttributeTintedImageResource
-import im.vector.app.core.utils.DimensionConverter
-import im.vector.app.databinding.ViewVoiceMessageRecorderBinding
-import im.vector.app.features.home.room.detail.composer.voice.VoiceMessageRecorderView.DraggingState
-import im.vector.app.features.home.room.detail.composer.voice.VoiceMessageRecorderView.RecordingUiState
-import im.vector.app.features.home.room.detail.timeline.helper.AudioMessagePlaybackTracker
-import im.vector.app.features.themes.ThemeUtils
-import im.vector.app.features.voice.AudioWaveformView
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.setAttributeBackground
+import dev.getzen.element.core.extensions.setAttributeTintedBackground
+import dev.getzen.element.core.extensions.setAttributeTintedImageResource
+import dev.getzen.element.core.utils.DimensionConverter
+import dev.getzen.element.databinding.ViewVoiceMessageRecorderBinding
+import dev.getzen.element.features.home.room.detail.composer.voice.VoiceMessageRecorderView.DraggingState
+import dev.getzen.element.features.home.room.detail.composer.voice.VoiceMessageRecorderView.RecordingUiState
+import dev.getzen.element.features.home.room.detail.timeline.helper.AudioMessagePlaybackTracker
+import dev.getzen.element.features.themes.ThemeUtils
+import dev.getzen.element.features.voice.AudioWaveformView
 
 class VoiceMessageViews(
         private val resources: Resources,

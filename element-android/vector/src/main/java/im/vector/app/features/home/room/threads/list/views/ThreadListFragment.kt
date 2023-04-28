@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.threads.list.views
+package dev.getzen.element.features.home.room.threads.list.views
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -28,26 +28,26 @@ import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.platform.VectorMenuProvider
-import im.vector.app.databinding.FragmentThreadListBinding
-import im.vector.app.features.analytics.plan.MobileScreen
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.home.room.detail.timeline.animation.TimelineItemAnimator
-import im.vector.app.features.home.room.threads.ThreadsActivity
-import im.vector.app.features.home.room.threads.arguments.ThreadListArgs
-import im.vector.app.features.home.room.threads.arguments.ThreadTimelineArgs
-import im.vector.app.features.home.room.threads.list.viewmodel.ThreadListController
-import im.vector.app.features.home.room.threads.list.viewmodel.ThreadListPagedController
-import im.vector.app.features.home.room.threads.list.viewmodel.ThreadListViewActions
-import im.vector.app.features.home.room.threads.list.viewmodel.ThreadListViewEvents
-import im.vector.app.features.home.room.threads.list.viewmodel.ThreadListViewModel
-import im.vector.app.features.home.room.threads.list.viewmodel.ThreadListViewState
-import im.vector.app.features.rageshake.BugReporter
-import im.vector.app.features.rageshake.ReportType
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.cleanup
+import dev.getzen.element.core.extensions.configureWith
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.core.platform.VectorMenuProvider
+import dev.getzen.element.databinding.FragmentThreadListBinding
+import dev.getzen.element.features.analytics.plan.MobileScreen
+import dev.getzen.element.features.home.AvatarRenderer
+import dev.getzen.element.features.home.room.detail.timeline.animation.TimelineItemAnimator
+import dev.getzen.element.features.home.room.threads.ThreadsActivity
+import dev.getzen.element.features.home.room.threads.arguments.ThreadListArgs
+import dev.getzen.element.features.home.room.threads.arguments.ThreadTimelineArgs
+import dev.getzen.element.features.home.room.threads.list.viewmodel.ThreadListController
+import dev.getzen.element.features.home.room.threads.list.viewmodel.ThreadListPagedController
+import dev.getzen.element.features.home.room.threads.list.viewmodel.ThreadListViewActions
+import dev.getzen.element.features.home.room.threads.list.viewmodel.ThreadListViewEvents
+import dev.getzen.element.features.home.room.threads.list.viewmodel.ThreadListViewModel
+import dev.getzen.element.features.home.room.threads.list.viewmodel.ThreadListViewState
+import dev.getzen.element.features.rageshake.BugReporter
+import dev.getzen.element.features.rageshake.ReportType
 import org.matrix.android.sdk.api.failure.is400
 import org.matrix.android.sdk.api.failure.is404
 import org.matrix.android.sdk.api.session.room.threads.model.ThreadSummary

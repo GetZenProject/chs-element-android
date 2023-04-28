@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call.audio
+package dev.getzen.element.features.call.audio
 
 import android.content.Context
 import android.media.AudioManager
@@ -22,7 +22,7 @@ import android.os.Build
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
 import androidx.core.content.getSystemService
-import im.vector.app.R
+import dev.getzen.element.R
 import org.matrix.android.sdk.api.extensions.orFalse
 import timber.log.Timber
 import java.util.concurrent.Executors

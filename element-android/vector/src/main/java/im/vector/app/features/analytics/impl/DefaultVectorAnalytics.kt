@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.analytics.impl
+package dev.getzen.element.features.analytics.impl
 
 import com.posthog.android.Options
 import com.posthog.android.PostHog
 import com.posthog.android.Properties
-import im.vector.app.core.di.NamedGlobalScope
-import im.vector.app.features.analytics.AnalyticsConfig
-import im.vector.app.features.analytics.VectorAnalytics
-import im.vector.app.features.analytics.itf.VectorAnalyticsEvent
-import im.vector.app.features.analytics.itf.VectorAnalyticsScreen
-import im.vector.app.features.analytics.log.analyticsTag
-import im.vector.app.features.analytics.plan.UserProperties
-import im.vector.app.features.analytics.store.AnalyticsStore
+import dev.getzen.element.core.di.NamedGlobalScope
+import dev.getzen.element.features.analytics.AnalyticsConfig
+import dev.getzen.element.features.analytics.VectorAnalytics
+import dev.getzen.element.features.analytics.itf.VectorAnalyticsEvent
+import dev.getzen.element.features.analytics.itf.VectorAnalyticsScreen
+import dev.getzen.element.features.analytics.log.analyticsTag
+import dev.getzen.element.features.analytics.plan.UserProperties
+import dev.getzen.element.features.analytics.store.AnalyticsStore
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.launchIn

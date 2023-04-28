@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.labs
+package dev.getzen.element.features.settings.labs
 
 import com.airbnb.mvrx.test.MavericksTestRule
-import im.vector.app.core.session.clientinfo.DeleteMatrixClientInfoUseCase
-import im.vector.app.core.session.clientinfo.UpdateMatrixClientInfoUseCase
-import im.vector.app.test.fakes.FakeActiveSessionHolder
-import im.vector.app.test.test
-import im.vector.app.test.testDispatcher
+import dev.getzen.element.core.session.clientinfo.DeleteMatrixClientInfoUseCase
+import dev.getzen.element.core.session.clientinfo.UpdateMatrixClientInfoUseCase
+import dev.getzen.element.test.fakes.FakeActiveSessionHolder
+import dev.getzen.element.test.test
+import dev.getzen.element.test.testDispatcher
 import io.mockk.coEvery
 import io.mockk.coVerify
 import io.mockk.mockk

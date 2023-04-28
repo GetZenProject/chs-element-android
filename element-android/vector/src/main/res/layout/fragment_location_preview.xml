@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <im.vector.app.features.location.MapTilerMapView
+    <dev.getzen.element.features.location.MapTilerMapView
         android:id="@+id/mapView"
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -15,7 +15,7 @@
         app:maplibre_renderTextureMode="true"
         app:showLocateButton="true" />
 
-    <im.vector.app.features.location.MapLoadingErrorView
+    <dev.getzen.element.features.location.MapLoadingErrorView
         android:id="@+id/mapPreviewLoadingError"
         android:layout_width="0dp"
         android:layout_height="0dp"

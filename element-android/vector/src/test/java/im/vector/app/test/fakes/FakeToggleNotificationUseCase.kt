@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.test.fakes
+package dev.getzen.element.test.fakes
 
-import im.vector.app.features.settings.devices.v2.notification.ToggleNotificationsUseCase
+import dev.getzen.element.features.settings.devices.v2.notification.ToggleNotificationsUseCase
 import io.mockk.coJustRun
 import io.mockk.coVerify
 import io.mockk.mockk

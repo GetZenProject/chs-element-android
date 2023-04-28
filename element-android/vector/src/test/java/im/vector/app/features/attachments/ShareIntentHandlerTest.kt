@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.attachments
+package dev.getzen.element.features.attachments
 
 import android.content.Intent
-import im.vector.app.test.fakes.FakeContext
-import im.vector.app.test.fakes.FakeFunction1
-import im.vector.app.test.fakes.FakeIntent
-import im.vector.app.test.fakes.FakeMultiPickerIncomingFiles
-import im.vector.app.test.fixtures.ContentAttachmentDataFixture.aContentAttachmentData
+import dev.getzen.element.test.fakes.FakeContext
+import dev.getzen.element.test.fakes.FakeFunction1
+import dev.getzen.element.test.fakes.FakeIntent
+import dev.getzen.element.test.fakes.FakeMultiPickerIncomingFiles
+import dev.getzen.element.test.fixtures.ContentAttachmentDataFixture.aContentAttachmentData
 import org.amshove.kluent.shouldBeEqualTo
 import org.junit.Test
 import org.matrix.android.sdk.api.session.content.ContentAttachmentData

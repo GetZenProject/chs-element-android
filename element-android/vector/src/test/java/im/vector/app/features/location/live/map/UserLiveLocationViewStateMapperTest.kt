@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.location.live.map
+package dev.getzen.element.features.location.live.map
 
 import android.graphics.drawable.Drawable
-import im.vector.app.features.location.LocationData
-import im.vector.app.test.fakes.FakeActiveSessionHolder
-import im.vector.app.test.fakes.FakeLocationPinProvider
-import im.vector.app.test.fakes.FakeSession
+import dev.getzen.element.features.location.LocationData
+import dev.getzen.element.test.fakes.FakeActiveSessionHolder
+import dev.getzen.element.test.fakes.FakeLocationPinProvider
+import dev.getzen.element.test.fakes.FakeSession
 import io.mockk.every
 import io.mockk.mockk
 import io.mockk.mockkStatic

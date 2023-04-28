@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.test.fakes
+package dev.getzen.element.test.fakes
 
-import im.vector.app.R
-import im.vector.app.features.settings.FontScalePreferences
-import im.vector.app.features.settings.FontScaleValue
+import dev.getzen.element.R
+import dev.getzen.element.features.settings.FontScalePreferences
+import dev.getzen.element.features.settings.FontScaleValue
 import io.mockk.every
 import io.mockk.mockk
 import io.mockk.verify

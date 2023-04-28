@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.dialogs
+package dev.getzen.element.core.dialogs
 
 import android.app.Activity
 import android.net.Uri
@@ -22,16 +22,16 @@ import androidx.core.net.toUri
 import androidx.fragment.app.Fragment
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.yalantis.ucrop.UCrop
-import im.vector.app.R
-import im.vector.app.core.dialogs.GalleryOrCameraDialogHelper.Listener
-import im.vector.app.core.extensions.insertBeforeLast
-import im.vector.app.core.extensions.registerStartForActivityResult
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.utils.PERMISSIONS_FOR_TAKING_PHOTO
-import im.vector.app.core.utils.checkPermissions
-import im.vector.app.core.utils.onPermissionDeniedDialog
-import im.vector.app.core.utils.registerForPermissionsResult
-import im.vector.app.features.media.createUCropWithDefaultSettings
+import dev.getzen.element.R
+import dev.getzen.element.core.dialogs.GalleryOrCameraDialogHelper.Listener
+import dev.getzen.element.core.extensions.insertBeforeLast
+import dev.getzen.element.core.extensions.registerStartForActivityResult
+import dev.getzen.element.core.resources.ColorProvider
+import dev.getzen.element.core.utils.PERMISSIONS_FOR_TAKING_PHOTO
+import dev.getzen.element.core.utils.checkPermissions
+import dev.getzen.element.core.utils.onPermissionDeniedDialog
+import dev.getzen.element.core.utils.registerForPermissionsResult
+import dev.getzen.element.features.media.createUCropWithDefaultSettings
 import im.vector.lib.core.utils.timer.Clock
 import im.vector.lib.multipicker.MultiPicker
 import im.vector.lib.multipicker.entity.MultiPickerImageType

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.contactsbook
+package dev.getzen.element.features.contactsbook
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -25,17 +25,17 @@ import androidx.lifecycle.lifecycleScope
 import com.airbnb.mvrx.activityViewModel
 import com.airbnb.mvrx.withState
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.extensions.hideKeyboard
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.utils.showIdentityServerConsentDialog
-import im.vector.app.databinding.FragmentContactsBookBinding
-import im.vector.app.features.userdirectory.PendingSelection
-import im.vector.app.features.userdirectory.UserListAction
-import im.vector.app.features.userdirectory.UserListSharedAction
-import im.vector.app.features.userdirectory.UserListSharedActionViewModel
-import im.vector.app.features.userdirectory.UserListViewModel
+import dev.getzen.element.core.extensions.cleanup
+import dev.getzen.element.core.extensions.configureWith
+import dev.getzen.element.core.extensions.hideKeyboard
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.core.utils.showIdentityServerConsentDialog
+import dev.getzen.element.databinding.FragmentContactsBookBinding
+import dev.getzen.element.features.userdirectory.PendingSelection
+import dev.getzen.element.features.userdirectory.UserListAction
+import dev.getzen.element.features.userdirectory.UserListSharedAction
+import dev.getzen.element.features.userdirectory.UserListSharedActionViewModel
+import dev.getzen.element.features.userdirectory.UserListViewModel
 import kotlinx.coroutines.flow.debounce
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach

@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.voicebroadcast.recording
+package dev.getzen.element.features.voicebroadcast.recording
 
 import androidx.annotation.IntRange
-import im.vector.app.features.voice.VoiceRecorder
-import im.vector.app.features.voicebroadcast.model.VoiceBroadcast
+import dev.getzen.element.features.voice.VoiceRecorder
+import dev.getzen.element.features.voicebroadcast.model.VoiceBroadcast
 import java.io.File
 
 interface VoiceBroadcastRecorder : VoiceRecorder {

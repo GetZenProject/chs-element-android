@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.list
+package dev.getzen.element.features.home.room.list
 
 import android.os.Bundle
 import android.os.Parcelable
@@ -36,24 +36,24 @@ import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.epoxy.LayoutManagerStateRestorer
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.platform.OnBackPressed
-import im.vector.app.core.platform.StateView
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.resources.UserPreferencesProvider
-import im.vector.app.databinding.FragmentRoomListBinding
-import im.vector.app.features.analytics.plan.MobileScreen
-import im.vector.app.features.analytics.plan.ViewRoom
-import im.vector.app.features.home.RoomListDisplayMode
-import im.vector.app.features.home.room.filtered.FilteredRoomFooterItem
-import im.vector.app.features.home.room.list.actions.RoomListQuickActionsBottomSheet
-import im.vector.app.features.home.room.list.actions.RoomListQuickActionsSharedAction
-import im.vector.app.features.home.room.list.actions.RoomListQuickActionsSharedActionViewModel
-import im.vector.app.features.home.room.list.widget.NotifsFabMenuView
-import im.vector.app.features.matrixto.OriginOfMatrixTo
-import im.vector.app.features.notifications.NotificationDrawerManager
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.LayoutManagerStateRestorer
+import dev.getzen.element.core.extensions.cleanup
+import dev.getzen.element.core.platform.OnBackPressed
+import dev.getzen.element.core.platform.StateView
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.core.resources.UserPreferencesProvider
+import dev.getzen.element.databinding.FragmentRoomListBinding
+import dev.getzen.element.features.analytics.plan.MobileScreen
+import dev.getzen.element.features.analytics.plan.ViewRoom
+import dev.getzen.element.features.home.RoomListDisplayMode
+import dev.getzen.element.features.home.room.filtered.FilteredRoomFooterItem
+import dev.getzen.element.features.home.room.list.actions.RoomListQuickActionsBottomSheet
+import dev.getzen.element.features.home.room.list.actions.RoomListQuickActionsSharedAction
+import dev.getzen.element.features.home.room.list.actions.RoomListQuickActionsSharedActionViewModel
+import dev.getzen.element.features.home.room.list.widget.NotifsFabMenuView
+import dev.getzen.element.features.matrixto.OriginOfMatrixTo
+import dev.getzen.element.features.notifications.NotificationDrawerManager
 import kotlinx.coroutines.flow.filter
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach

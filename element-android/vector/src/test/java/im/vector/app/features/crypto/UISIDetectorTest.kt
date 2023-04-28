@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.crypto
+package dev.getzen.element.features.crypto
 
-import im.vector.app.E2EMessageDetected
-import im.vector.app.UISIDetector
+import dev.getzen.element.E2EMessageDetected
+import dev.getzen.element.UISIDetector
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.ui.list
+package dev.getzen.element.core.ui.list
 
-import im.vector.app.core.epoxy.ClickListener
+import dev.getzen.element.core.epoxy.ClickListener
 
 data class Action(
         val title: String,

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.extensions
+package dev.getzen.element.core.extensions
 
-import im.vector.app.core.resources.DateProvider
+import dev.getzen.element.core.resources.DateProvider
 import org.matrix.android.sdk.api.session.events.model.Event
 import org.threeten.bp.LocalDateTime
 

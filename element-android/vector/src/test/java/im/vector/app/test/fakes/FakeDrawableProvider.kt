@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.test.fakes
+package dev.getzen.element.test.fakes
 
-import im.vector.app.core.resources.DrawableProvider
+import dev.getzen.element.core.resources.DrawableProvider
 import io.mockk.every
 import io.mockk.mockk
 

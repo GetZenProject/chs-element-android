@@ -15,13 +15,13 @@
  *
  */
 
-package im.vector.app.core.epoxy.profiles
+package dev.getzen.element.core.epoxy.profiles
 
 import androidx.annotation.DrawableRes
 import com.airbnb.epoxy.EpoxyController
-import im.vector.app.core.epoxy.ClickListener
-import im.vector.app.core.epoxy.dividerItem
-import im.vector.app.features.home.AvatarRenderer
+import dev.getzen.element.core.epoxy.ClickListener
+import dev.getzen.element.core.epoxy.dividerItem
+import dev.getzen.element.features.home.AvatarRenderer
 import org.matrix.android.sdk.api.util.MatrixItem
 
 fun EpoxyController.buildProfileSection(title: String) {

@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call.dialpad
+package dev.getzen.element.features.call.dialpad
 
-import im.vector.app.features.call.lookup.pstnLookup
-import im.vector.app.features.call.lookup.sipNativeLookup
-import im.vector.app.features.call.vectorCallService
-import im.vector.app.features.call.webrtc.WebRtcCallManager
-import im.vector.app.features.createdirect.DirectRoomHelper
+import dev.getzen.element.features.call.lookup.pstnLookup
+import dev.getzen.element.features.call.lookup.sipNativeLookup
+import dev.getzen.element.features.call.vectorCallService
+import dev.getzen.element.features.call.webrtc.WebRtcCallManager
+import dev.getzen.element.features.createdirect.DirectRoomHelper
 import org.matrix.android.sdk.api.session.Session
 import timber.log.Timber
 import javax.inject.Inject

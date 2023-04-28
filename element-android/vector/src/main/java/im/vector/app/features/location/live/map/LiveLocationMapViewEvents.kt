@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.location.live.map
+package dev.getzen.element.features.location.live.map
 
-import im.vector.app.core.platform.VectorViewEvents
-import im.vector.app.features.location.LocationData
+import dev.getzen.element.core.platform.VectorViewEvents
+import dev.getzen.element.features.location.LocationData
 
 sealed interface LiveLocationMapViewEvents : VectorViewEvents {
     data class LiveLocationError(val error: Throwable) : LiveLocationMapViewEvents

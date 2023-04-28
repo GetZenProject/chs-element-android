@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app
+package dev.getzen.element
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
@@ -34,14 +34,14 @@ import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.filters.LargeTest
 import androidx.test.platform.app.InstrumentationRegistry
 import com.adevinta.android.barista.internal.viewaction.SleepViewAction
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.utils.getMatrixInstance
-import im.vector.app.features.MainActivity
-import im.vector.app.features.crypto.quads.SharedSecureStorageActivity
-import im.vector.app.features.crypto.recover.BootstrapCrossSigningTask
-import im.vector.app.features.crypto.recover.Params
-import im.vector.app.features.crypto.recover.SetupMode
-import im.vector.app.features.home.HomeActivity
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.core.utils.getMatrixInstance
+import dev.getzen.element.features.MainActivity
+import dev.getzen.element.features.crypto.quads.SharedSecureStorageActivity
+import dev.getzen.element.features.crypto.recover.BootstrapCrossSigningTask
+import dev.getzen.element.features.crypto.recover.Params
+import dev.getzen.element.features.crypto.recover.SetupMode
+import dev.getzen.element.features.home.HomeActivity
 import kotlinx.coroutines.runBlocking
 import org.junit.Before
 import org.junit.Ignore

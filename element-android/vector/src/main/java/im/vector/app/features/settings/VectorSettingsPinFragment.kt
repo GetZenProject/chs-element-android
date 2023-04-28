@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings
+package dev.getzen.element.features.settings
 
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
@@ -22,17 +22,17 @@ import androidx.lifecycle.repeatOnLifecycle
 import androidx.preference.Preference
 import androidx.preference.SwitchPreference
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.registerStartForActivityResult
-import im.vector.app.core.preference.VectorPreference
-import im.vector.app.core.utils.toast
-import im.vector.app.features.navigation.Navigator
-import im.vector.app.features.notifications.NotificationDrawerManager
-import im.vector.app.features.pin.PinCodeStore
-import im.vector.app.features.pin.PinMode
-import im.vector.app.features.pin.lockscreen.biometrics.BiometricHelper
-import im.vector.app.features.pin.lockscreen.configuration.LockScreenConfiguration
-import im.vector.app.features.pin.lockscreen.configuration.LockScreenMode
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.registerStartForActivityResult
+import dev.getzen.element.core.preference.VectorPreference
+import dev.getzen.element.core.utils.toast
+import dev.getzen.element.features.navigation.Navigator
+import dev.getzen.element.features.notifications.NotificationDrawerManager
+import dev.getzen.element.features.pin.PinCodeStore
+import dev.getzen.element.features.pin.PinMode
+import dev.getzen.element.features.pin.lockscreen.biometrics.BiometricHelper
+import dev.getzen.element.features.pin.lockscreen.configuration.LockScreenConfiguration
+import dev.getzen.element.features.pin.lockscreen.configuration.LockScreenMode
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
 import org.matrix.android.sdk.api.extensions.orFalse

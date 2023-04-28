@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.ui.bottomsheet
+package dev.getzen.element.core.ui.bottomsheet
 
 import com.airbnb.mvrx.MavericksState
-import im.vector.app.core.platform.EmptyAction
-import im.vector.app.core.platform.EmptyViewEvents
-import im.vector.app.core.platform.VectorViewModel
+import dev.getzen.element.core.platform.EmptyAction
+import dev.getzen.element.core.platform.EmptyViewEvents
+import dev.getzen.element.core.platform.VectorViewModel
 
 abstract class BottomSheetGenericViewModel<State : MavericksState>(initialState: State) :
         VectorViewModel<State, EmptyAction, EmptyViewEvents>(initialState) {

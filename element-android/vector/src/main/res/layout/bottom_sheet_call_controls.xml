@@ -7,7 +7,7 @@
     android:background="?colorSurface"
     android:orientation="vertical">
 
-    <im.vector.app.core.ui.views.BottomSheetActionButton
+    <dev.getzen.element.core.ui.views.BottomSheetActionButton
         android:id="@+id/callControlsShareScreen"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -16,7 +16,7 @@
         app:tint="?vctr_content_primary"
         app:titleTextColor="?vctr_content_primary" />
 
-    <im.vector.app.core.ui.views.BottomSheetActionButton
+    <dev.getzen.element.core.ui.views.BottomSheetActionButton
         android:id="@+id/callControlsSwitchCamera"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -26,7 +26,7 @@
         app:titleTextColor="?vctr_content_primary"
         tools:actionDescription="Front" />
 
-    <im.vector.app.core.ui.views.BottomSheetActionButton
+    <dev.getzen.element.core.ui.views.BottomSheetActionButton
         android:id="@+id/callControlsOpenDialPad"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -36,7 +36,7 @@
         app:titleTextColor="?vctr_content_primary"
         tools:actionDescription="" />
 
-    <im.vector.app.core.ui.views.BottomSheetActionButton
+    <dev.getzen.element.core.ui.views.BottomSheetActionButton
         android:id="@+id/callControlsToggleSDHD"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -46,7 +46,7 @@
         app:titleTextColor="?vctr_content_primary"
         tools:actionDescription="Front" />
 
-    <im.vector.app.core.ui.views.BottomSheetActionButton
+    <dev.getzen.element.core.ui.views.BottomSheetActionButton
         android:id="@+id/callControlsToggleHoldResume"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -56,7 +56,7 @@
         app:titleTextColor="?vctr_content_primary"
         tools:actionDescription="" />
 
-    <im.vector.app.core.ui.views.BottomSheetActionButton
+    <dev.getzen.element.core.ui.views.BottomSheetActionButton
         android:id="@+id/callControlsTransfer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

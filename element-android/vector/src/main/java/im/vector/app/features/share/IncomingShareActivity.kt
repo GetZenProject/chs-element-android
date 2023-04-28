@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.share
+package dev.getzen.element.features.share
 
 import android.content.Intent
 import android.os.Bundle
 import com.airbnb.mvrx.viewModel
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.core.extensions.addFragment
-import im.vector.app.core.extensions.registerStartForActivityResult
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.databinding.ActivitySimpleBinding
-import im.vector.app.features.MainActivity
-import im.vector.app.features.start.StartAppViewModel
+import dev.getzen.element.core.extensions.addFragment
+import dev.getzen.element.core.extensions.registerStartForActivityResult
+import dev.getzen.element.core.platform.VectorBaseActivity
+import dev.getzen.element.databinding.ActivitySimpleBinding
+import dev.getzen.element.features.MainActivity
+import dev.getzen.element.features.start.StartAppViewModel
 
 @AndroidEntryPoint
 class IncomingShareActivity : VectorBaseActivity<ActivitySimpleBinding>() {

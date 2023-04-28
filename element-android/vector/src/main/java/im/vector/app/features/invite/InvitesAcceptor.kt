@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.invite
+package dev.getzen.element.features.invite
 
-import im.vector.app.ActiveSessionDataSource
-import im.vector.app.features.session.coroutineScope
+import dev.getzen.element.ActiveSessionDataSource
+import dev.getzen.element.features.session.coroutineScope
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob

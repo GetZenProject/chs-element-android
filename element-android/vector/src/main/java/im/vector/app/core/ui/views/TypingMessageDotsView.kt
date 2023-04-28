@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.ui.views
+package dev.getzen.element.core.ui.views
 
 import android.animation.ObjectAnimator
 import android.animation.ValueAnimator
@@ -27,7 +27,7 @@ import android.widget.LinearLayout
 import androidx.annotation.DrawableRes
 import androidx.appcompat.widget.AppCompatImageView
 import androidx.core.view.setMargins
-import im.vector.app.R
+import dev.getzen.element.R
 
 class TypingMessageDotsView(context: Context, attrs: AttributeSet) :
         LinearLayout(context, attrs) {

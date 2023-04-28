@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.media
+package dev.getzen.element.features.media
 
 import android.graphics.Color
 import android.net.Uri
 import com.yalantis.ucrop.UCrop
 import com.yalantis.ucrop.UCropActivity
-import im.vector.app.R
-import im.vector.app.core.resources.ColorProvider
+import dev.getzen.element.R
+import dev.getzen.element.core.resources.ColorProvider
 
 fun createUCropWithDefaultSettings(
         colorProvider: ColorProvider,

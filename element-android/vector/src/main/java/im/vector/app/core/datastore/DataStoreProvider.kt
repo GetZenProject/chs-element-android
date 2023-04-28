@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.datastore
+package dev.getzen.element.core.datastore
 
 import android.content.Context
 import androidx.datastore.core.DataStore

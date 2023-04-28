@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.auth
+package dev.getzen.element.features.auth
 
 import android.content.ComponentName
 import android.content.Context
@@ -30,10 +30,10 @@ import com.airbnb.mvrx.Mavericks
 import com.airbnb.mvrx.viewModel
 import com.airbnb.mvrx.withState
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.addFragment
-import im.vector.app.core.platform.SimpleFragmentActivity
-import im.vector.app.core.utils.openUrlInChromeCustomTab
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.addFragment
+import dev.getzen.element.core.platform.SimpleFragmentActivity
+import dev.getzen.element.core.utils.openUrlInChromeCustomTab
 import kotlinx.parcelize.Parcelize
 import org.matrix.android.sdk.api.auth.AuthenticationService
 import org.matrix.android.sdk.api.auth.data.LoginFlowTypes

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.device
+package dev.getzen.element.core.device
 
-import im.vector.app.core.di.ActiveSessionHolder
+import dev.getzen.element.core.di.ActiveSessionHolder
 import org.matrix.android.sdk.api.session.crypto.model.CryptoDeviceInfo
 import javax.inject.Inject
 

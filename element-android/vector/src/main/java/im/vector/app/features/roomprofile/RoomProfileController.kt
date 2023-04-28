@@ -15,23 +15,23 @@
  *
  */
 
-package im.vector.app.features.roomprofile
+package dev.getzen.element.features.roomprofile
 
 import com.airbnb.epoxy.TypedEpoxyController
-import im.vector.app.R
-import im.vector.app.core.epoxy.expandableTextItem
-import im.vector.app.core.epoxy.profiles.buildProfileAction
-import im.vector.app.core.epoxy.profiles.buildProfileSection
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.resources.DrawableProvider
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.ui.list.genericFooterItem
-import im.vector.app.core.ui.list.genericPositiveButtonItem
-import im.vector.app.features.form.formSwitchItem
-import im.vector.app.features.home.ShortcutCreator
-import im.vector.app.features.home.room.detail.timeline.TimelineEventController
-import im.vector.app.features.home.room.detail.timeline.tools.createLinkMovementMethod
-import im.vector.app.features.settings.VectorPreferences
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.expandableTextItem
+import dev.getzen.element.core.epoxy.profiles.buildProfileAction
+import dev.getzen.element.core.epoxy.profiles.buildProfileSection
+import dev.getzen.element.core.resources.ColorProvider
+import dev.getzen.element.core.resources.DrawableProvider
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.core.ui.list.genericFooterItem
+import dev.getzen.element.core.ui.list.genericPositiveButtonItem
+import dev.getzen.element.features.form.formSwitchItem
+import dev.getzen.element.features.home.ShortcutCreator
+import dev.getzen.element.features.home.room.detail.timeline.TimelineEventController
+import dev.getzen.element.features.home.room.detail.timeline.tools.createLinkMovementMethod
+import dev.getzen.element.features.settings.VectorPreferences
 import im.vector.lib.core.utils.epoxy.charsequence.toEpoxyCharSequence
 import me.gujun.android.span.image
 import me.gujun.android.span.span

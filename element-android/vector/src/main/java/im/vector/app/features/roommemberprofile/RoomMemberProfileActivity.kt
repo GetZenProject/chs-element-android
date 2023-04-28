@@ -15,7 +15,7 @@
  *
  */
 
-package im.vector.app.features.roommemberprofile
+package dev.getzen.element.features.roommemberprofile
 
 import android.content.Context
 import android.content.Intent
@@ -23,11 +23,11 @@ import android.widget.Toast
 import com.airbnb.mvrx.Mavericks
 import com.airbnb.mvrx.viewModel
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.core.extensions.addFragment
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.databinding.ActivitySimpleBinding
-import im.vector.app.features.room.RequireActiveMembershipViewEvents
-import im.vector.app.features.room.RequireActiveMembershipViewModel
+import dev.getzen.element.core.extensions.addFragment
+import dev.getzen.element.core.platform.VectorBaseActivity
+import dev.getzen.element.databinding.ActivitySimpleBinding
+import dev.getzen.element.features.room.RequireActiveMembershipViewEvents
+import dev.getzen.element.features.room.RequireActiveMembershipViewModel
 import im.vector.lib.core.utils.compat.getParcelableCompat
 
 @AndroidEntryPoint

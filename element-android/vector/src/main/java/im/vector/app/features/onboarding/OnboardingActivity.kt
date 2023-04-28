@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.onboarding
+package dev.getzen.element.features.onboarding
 
 import android.content.Context
 import android.content.Intent
 import android.net.Uri
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.core.extensions.lazyViewModel
-import im.vector.app.core.extensions.validateBackPressed
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.core.platform.lifecycleAwareLazy
-import im.vector.app.databinding.ActivityLoginBinding
-import im.vector.app.features.login.LoginConfig
-import im.vector.app.features.pin.UnlockedActivity
+import dev.getzen.element.core.extensions.lazyViewModel
+import dev.getzen.element.core.extensions.validateBackPressed
+import dev.getzen.element.core.platform.VectorBaseActivity
+import dev.getzen.element.core.platform.lifecycleAwareLazy
+import dev.getzen.element.databinding.ActivityLoginBinding
+import dev.getzen.element.features.login.LoginConfig
+import dev.getzen.element.features.pin.UnlockedActivity
 import javax.inject.Inject
 
 @AndroidEntryPoint

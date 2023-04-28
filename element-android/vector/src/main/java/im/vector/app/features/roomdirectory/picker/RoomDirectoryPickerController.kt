@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomdirectory.picker
+package dev.getzen.element.features.roomdirectory.picker
 
 import android.text.InputType
 import android.view.KeyEvent
@@ -25,22 +25,22 @@ import com.airbnb.mvrx.Fail
 import com.airbnb.mvrx.Loading
 import com.airbnb.mvrx.Success
 import com.airbnb.mvrx.Uninitialized
-import im.vector.app.R
-import im.vector.app.core.epoxy.dividerItem
-import im.vector.app.core.epoxy.errorWithRetryItem
-import im.vector.app.core.epoxy.loadingItem
-import im.vector.app.core.error.ErrorFormatter
-import im.vector.app.core.extensions.join
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.ui.list.genericButtonItem
-import im.vector.app.core.ui.list.verticalMarginItem
-import im.vector.app.core.utils.DimensionConverter
-import im.vector.app.features.discovery.settingsContinueCancelItem
-import im.vector.app.features.discovery.settingsInformationItem
-import im.vector.app.features.form.formEditTextItem
-import im.vector.app.features.roomdirectory.RoomDirectoryData
-import im.vector.app.features.roomdirectory.RoomDirectoryServer
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.dividerItem
+import dev.getzen.element.core.epoxy.errorWithRetryItem
+import dev.getzen.element.core.epoxy.loadingItem
+import dev.getzen.element.core.error.ErrorFormatter
+import dev.getzen.element.core.extensions.join
+import dev.getzen.element.core.resources.ColorProvider
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.core.ui.list.genericButtonItem
+import dev.getzen.element.core.ui.list.verticalMarginItem
+import dev.getzen.element.core.utils.DimensionConverter
+import dev.getzen.element.features.discovery.settingsContinueCancelItem
+import dev.getzen.element.features.discovery.settingsInformationItem
+import dev.getzen.element.features.form.formEditTextItem
+import dev.getzen.element.features.roomdirectory.RoomDirectoryData
+import dev.getzen.element.features.roomdirectory.RoomDirectoryServer
 import org.matrix.android.sdk.api.failure.Failure
 import javax.inject.Inject
 import javax.net.ssl.HttpsURLConnection

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roommemberprofile.devices
+package dev.getzen.element.features.roommemberprofile.devices
 
-import im.vector.app.core.platform.VectorViewModelAction
+import dev.getzen.element.core.platform.VectorViewModelAction
 import org.matrix.android.sdk.api.session.crypto.model.CryptoDeviceInfo
 
 sealed class DeviceListAction : VectorViewModelAction {

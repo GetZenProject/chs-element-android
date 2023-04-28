@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.ui.views
+package dev.getzen.element.core.ui.views
 
 import android.animation.Animator
 import android.animation.ArgbEvaluator
@@ -24,8 +24,8 @@ import android.content.Context
 import android.util.AttributeSet
 import android.widget.FrameLayout
 import androidx.core.content.ContextCompat
-import im.vector.app.R
-import im.vector.app.databinding.ViewJoinConferenceBinding
+import dev.getzen.element.R
+import dev.getzen.element.databinding.ViewJoinConferenceBinding
 
 class JoinConferenceView @JvmOverloads constructor(
         context: Context,

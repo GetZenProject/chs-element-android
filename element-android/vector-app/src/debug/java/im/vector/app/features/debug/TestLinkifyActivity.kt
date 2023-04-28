@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.debug
+package dev.getzen.element.features.debug
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
-import im.vector.application.R
-import im.vector.application.databinding.ActivityTestLinkifyBinding
-import im.vector.application.databinding.ItemTestLinkifyBinding
+import dev.getzen.elementlication.R
+import dev.getzen.elementlication.databinding.ActivityTestLinkifyBinding
+import dev.getzen.elementlication.databinding.ItemTestLinkifyBinding
 
 class TestLinkifyActivity : AppCompatActivity() {
 

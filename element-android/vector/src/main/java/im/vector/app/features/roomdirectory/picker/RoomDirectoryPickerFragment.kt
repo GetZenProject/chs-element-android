@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomdirectory.picker
+package dev.getzen.element.features.roomdirectory.picker
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -24,19 +24,19 @@ import com.airbnb.mvrx.activityViewModel
 import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.platform.OnBackPressed
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.databinding.FragmentRoomDirectoryPickerBinding
-import im.vector.app.features.analytics.plan.MobileScreen
-import im.vector.app.features.roomdirectory.RoomDirectoryAction
-import im.vector.app.features.roomdirectory.RoomDirectoryData
-import im.vector.app.features.roomdirectory.RoomDirectoryServer
-import im.vector.app.features.roomdirectory.RoomDirectorySharedAction
-import im.vector.app.features.roomdirectory.RoomDirectorySharedActionViewModel
-import im.vector.app.features.roomdirectory.RoomDirectoryViewModel
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.cleanup
+import dev.getzen.element.core.extensions.configureWith
+import dev.getzen.element.core.platform.OnBackPressed
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.databinding.FragmentRoomDirectoryPickerBinding
+import dev.getzen.element.features.analytics.plan.MobileScreen
+import dev.getzen.element.features.roomdirectory.RoomDirectoryAction
+import dev.getzen.element.features.roomdirectory.RoomDirectoryData
+import dev.getzen.element.features.roomdirectory.RoomDirectoryServer
+import dev.getzen.element.features.roomdirectory.RoomDirectorySharedAction
+import dev.getzen.element.features.roomdirectory.RoomDirectorySharedActionViewModel
+import dev.getzen.element.features.roomdirectory.RoomDirectoryViewModel
 import timber.log.Timber
 import javax.inject.Inject
 

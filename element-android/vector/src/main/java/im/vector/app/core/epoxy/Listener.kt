@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.epoxy
+package dev.getzen.element.core.epoxy
 
 import android.view.View
 import android.widget.TextView
-import im.vector.app.core.utils.DebouncedClickListener
+import dev.getzen.element.core.utils.DebouncedClickListener
 
 /**
  * View.OnClickListener lambda.

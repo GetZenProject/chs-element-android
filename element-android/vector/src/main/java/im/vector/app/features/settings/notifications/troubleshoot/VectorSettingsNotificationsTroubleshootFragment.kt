@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.settings.notifications.troubleshoot
+package dev.getzen.element.features.settings.notifications.troubleshoot
 
 import android.app.Activity
 import android.content.BroadcastReceiver
@@ -30,19 +30,19 @@ import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.transition.TransitionManager
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.registerStartForActivityResult
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.utils.registerForPermissionsResult
-import im.vector.app.core.utils.startNotificationSettingsIntent
-import im.vector.app.databinding.FragmentSettingsNotificationsTroubleshootBinding
-import im.vector.app.features.notifications.NotificationActionIds
-import im.vector.app.features.push.NotificationTroubleshootTestManagerFactory
-import im.vector.app.features.rageshake.BugReporter
-import im.vector.app.features.settings.VectorSettingsFragmentInteractionListener
-import im.vector.app.features.settings.troubleshoot.NotificationTroubleshootTestManager
-import im.vector.app.features.settings.troubleshoot.TroubleshootTest
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.cleanup
+import dev.getzen.element.core.extensions.registerStartForActivityResult
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.core.utils.registerForPermissionsResult
+import dev.getzen.element.core.utils.startNotificationSettingsIntent
+import dev.getzen.element.databinding.FragmentSettingsNotificationsTroubleshootBinding
+import dev.getzen.element.features.notifications.NotificationActionIds
+import dev.getzen.element.features.push.NotificationTroubleshootTestManagerFactory
+import dev.getzen.element.features.rageshake.BugReporter
+import dev.getzen.element.features.settings.VectorSettingsFragmentInteractionListener
+import dev.getzen.element.features.settings.troubleshoot.NotificationTroubleshootTestManager
+import dev.getzen.element.features.settings.troubleshoot.TroubleshootTest
 import org.matrix.android.sdk.api.extensions.orFalse
 import org.matrix.android.sdk.api.extensions.tryOrNull
 import javax.inject.Inject

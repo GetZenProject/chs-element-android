@@ -14,6 +14,6 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.error
+package dev.getzen.element.features.home.room.detail.error
 
 class RoomNotFound : Throwable()

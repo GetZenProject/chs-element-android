@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.html
+package dev.getzen.element.features.html
 
-import im.vector.app.core.resources.ColorProvider
+import dev.getzen.element.core.resources.ColorProvider
 import io.noties.markwon.MarkwonVisitor
 import io.noties.markwon.SpannableBuilder
 import io.noties.markwon.html.HtmlTag

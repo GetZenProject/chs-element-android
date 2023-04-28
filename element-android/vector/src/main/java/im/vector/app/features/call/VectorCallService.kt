@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call
+package dev.getzen.element.features.call
 
-import im.vector.app.features.call.lookup.CallProtocolsChecker
-import im.vector.app.features.call.lookup.CallUserMapper
-import im.vector.app.features.session.SessionScopedProperty
+import dev.getzen.element.features.call.lookup.CallProtocolsChecker
+import dev.getzen.element.features.call.lookup.CallUserMapper
+import dev.getzen.element.features.session.SessionScopedProperty
 import org.matrix.android.sdk.api.session.Session
 
 interface VectorCallService {

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.polls.detail.ui
+package dev.getzen.element.features.roomprofile.polls.detail.ui
 
-import im.vector.app.features.poll.PollItemViewState
+import dev.getzen.element.features.poll.PollItemViewState
 
 data class RoomPollDetail(
         val creationTimestamp: Long,

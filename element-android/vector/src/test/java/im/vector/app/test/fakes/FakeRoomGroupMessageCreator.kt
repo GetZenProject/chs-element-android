@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.test.fakes
+package dev.getzen.element.test.fakes
 
-import im.vector.app.features.notifications.NotifiableMessageEvent
-import im.vector.app.features.notifications.RoomGroupMessageCreator
-import im.vector.app.features.notifications.RoomNotification
+import dev.getzen.element.features.notifications.NotifiableMessageEvent
+import dev.getzen.element.features.notifications.RoomGroupMessageCreator
+import dev.getzen.element.features.notifications.RoomNotification
 import io.mockk.every
 import io.mockk.mockk
 

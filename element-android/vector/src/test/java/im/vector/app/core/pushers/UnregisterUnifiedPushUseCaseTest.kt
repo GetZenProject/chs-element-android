@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.pushers
+package dev.getzen.element.core.pushers
 
-import im.vector.app.features.settings.BackgroundSyncMode
-import im.vector.app.test.fakes.FakeContext
-import im.vector.app.test.fakes.FakePushersManager
-import im.vector.app.test.fakes.FakeUnifiedPushHelper
-import im.vector.app.test.fakes.FakeUnifiedPushStore
-import im.vector.app.test.fakes.FakeVectorPreferences
+import dev.getzen.element.features.settings.BackgroundSyncMode
+import dev.getzen.element.test.fakes.FakeContext
+import dev.getzen.element.test.fakes.FakePushersManager
+import dev.getzen.element.test.fakes.FakeUnifiedPushHelper
+import dev.getzen.element.test.fakes.FakeUnifiedPushStore
+import dev.getzen.element.test.fakes.FakeVectorPreferences
 import io.mockk.justRun
 import io.mockk.mockkStatic
 import io.mockk.unmockkAll

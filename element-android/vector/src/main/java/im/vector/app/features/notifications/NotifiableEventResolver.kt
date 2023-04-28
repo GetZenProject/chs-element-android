@@ -13,17 +13,17 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.notifications
+package dev.getzen.element.features.notifications
 
 import android.net.Uri
-import im.vector.app.R
-import im.vector.app.core.extensions.getVectorLastMessageContent
-import im.vector.app.core.extensions.takeAs
-import im.vector.app.core.resources.BuildMeta
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.displayname.getBestName
-import im.vector.app.features.home.room.detail.timeline.format.DisplayableEventFormatter
-import im.vector.app.features.home.room.detail.timeline.format.NoticeEventFormatter
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.getVectorLastMessageContent
+import dev.getzen.element.core.extensions.takeAs
+import dev.getzen.element.core.resources.BuildMeta
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.features.displayname.getBestName
+import dev.getzen.element.features.home.room.detail.timeline.format.DisplayableEventFormatter
+import dev.getzen.element.features.home.room.detail.timeline.format.NoticeEventFormatter
 import im.vector.lib.core.utils.timer.Clock
 import org.matrix.android.sdk.api.extensions.orFalse
 import org.matrix.android.sdk.api.session.Session

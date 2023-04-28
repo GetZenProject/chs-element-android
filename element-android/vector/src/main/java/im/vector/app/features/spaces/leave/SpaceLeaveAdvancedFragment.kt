@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.leave
+package dev.getzen.element.features.spaces.leave
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -29,13 +29,13 @@ import com.airbnb.mvrx.Success
 import com.airbnb.mvrx.activityViewModel
 import com.airbnb.mvrx.withState
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.platform.VectorMenuProvider
-import im.vector.app.core.utils.ToggleableAppBarLayoutBehavior
-import im.vector.app.databinding.FragmentSpaceLeaveAdvancedBinding
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.cleanup
+import dev.getzen.element.core.extensions.configureWith
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.core.platform.VectorMenuProvider
+import dev.getzen.element.core.utils.ToggleableAppBarLayoutBehavior
+import dev.getzen.element.databinding.FragmentSpaceLeaveAdvancedBinding
 import org.matrix.android.sdk.api.session.room.model.RoomSummary
 import javax.inject.Inject
 

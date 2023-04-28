@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.analytics.ui.consent
+package dev.getzen.element.features.analytics.ui.consent
 
 import com.airbnb.mvrx.viewModel
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.core.extensions.addFragment
-import im.vector.app.core.platform.ScreenOrientationLocker
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.databinding.ActivitySimpleBinding
+import dev.getzen.element.core.extensions.addFragment
+import dev.getzen.element.core.platform.ScreenOrientationLocker
+import dev.getzen.element.core.platform.VectorBaseActivity
+import dev.getzen.element.databinding.ActivitySimpleBinding
 import javax.inject.Inject
 
 /**

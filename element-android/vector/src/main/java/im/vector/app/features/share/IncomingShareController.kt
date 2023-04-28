@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.share
+package dev.getzen.element.features.share
 
 import com.airbnb.epoxy.TypedEpoxyController
 import com.airbnb.mvrx.Incomplete
-import im.vector.app.R
-import im.vector.app.core.epoxy.loadingItem
-import im.vector.app.core.epoxy.noResultItem
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.home.RoomListDisplayMode
-import im.vector.app.features.home.room.list.RoomSummaryItemFactory
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.loadingItem
+import dev.getzen.element.core.epoxy.noResultItem
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.features.home.RoomListDisplayMode
+import dev.getzen.element.features.home.room.list.RoomSummaryItemFactory
 import org.matrix.android.sdk.api.session.room.model.RoomSummary
 import javax.inject.Inject
 

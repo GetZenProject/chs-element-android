@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.people
+package dev.getzen.element.features.spaces.people
 
-import im.vector.app.core.platform.VectorSharedAction
+import dev.getzen.element.core.platform.VectorSharedAction
 
 sealed class SpacePeopleSharedAction : VectorSharedAction {
     object Dismiss : SpacePeopleSharedAction()

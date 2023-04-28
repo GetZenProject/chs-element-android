@@ -14,24 +14,24 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.list
+package dev.getzen.element.features.home.room.list
 
 import com.airbnb.mvrx.Async
 import com.airbnb.mvrx.Fail
 import com.airbnb.mvrx.Loading
-import im.vector.app.R
-import im.vector.app.core.date.DateFormatKind
-import im.vector.app.core.date.VectorDateFormatter
-import im.vector.app.core.epoxy.VectorEpoxyModel
-import im.vector.app.core.error.ErrorFormatter
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.home.RoomListDisplayMode
-import im.vector.app.features.home.room.detail.timeline.format.DisplayableEventFormatter
-import im.vector.app.features.home.room.list.usecase.GetLatestPreviewableEventUseCase
-import im.vector.app.features.home.room.typing.TypingHelper
-import im.vector.app.features.voicebroadcast.isLive
-import im.vector.app.features.voicebroadcast.model.asVoiceBroadcastEvent
+import dev.getzen.element.R
+import dev.getzen.element.core.date.DateFormatKind
+import dev.getzen.element.core.date.VectorDateFormatter
+import dev.getzen.element.core.epoxy.VectorEpoxyModel
+import dev.getzen.element.core.error.ErrorFormatter
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.features.home.AvatarRenderer
+import dev.getzen.element.features.home.RoomListDisplayMode
+import dev.getzen.element.features.home.room.detail.timeline.format.DisplayableEventFormatter
+import dev.getzen.element.features.home.room.list.usecase.GetLatestPreviewableEventUseCase
+import dev.getzen.element.features.home.room.typing.TypingHelper
+import dev.getzen.element.features.voicebroadcast.isLive
+import dev.getzen.element.features.voicebroadcast.model.asVoiceBroadcastEvent
 import im.vector.lib.core.utils.epoxy.charsequence.toEpoxyCharSequence
 import org.matrix.android.sdk.api.extensions.orFalse
 import org.matrix.android.sdk.api.session.room.members.ChangeMembershipState

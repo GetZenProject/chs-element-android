@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.workers.signout
+package dev.getzen.element.features.workers.signout
 
 import androidx.fragment.app.FragmentActivity
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.core.extensions.cannotLogoutSafely
-import im.vector.app.core.extensions.singletonEntryPoint
-import im.vector.app.features.MainActivity
-import im.vector.app.features.MainActivityArgs
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.cannotLogoutSafely
+import dev.getzen.element.core.extensions.singletonEntryPoint
+import dev.getzen.element.features.MainActivity
+import dev.getzen.element.features.MainActivityArgs
 
 class SignOutUiWorker(private val activity: FragmentActivity) {
 

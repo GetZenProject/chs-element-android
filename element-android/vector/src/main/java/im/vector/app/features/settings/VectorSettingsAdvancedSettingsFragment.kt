@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings
+package dev.getzen.element.features.settings
 
 import android.os.Bundle
 import androidx.preference.Preference
 import androidx.preference.SeekBarPreference
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.core.preference.VectorPreference
-import im.vector.app.core.preference.VectorPreferenceCategory
-import im.vector.app.core.preference.VectorSwitchPreference
-import im.vector.app.core.utils.copyToClipboard
-import im.vector.app.features.analytics.plan.MobileScreen
-import im.vector.app.features.home.NightlyProxy
-import im.vector.app.features.rageshake.RageShake
+import dev.getzen.element.R
+import dev.getzen.element.core.platform.VectorBaseActivity
+import dev.getzen.element.core.preference.VectorPreference
+import dev.getzen.element.core.preference.VectorPreferenceCategory
+import dev.getzen.element.core.preference.VectorSwitchPreference
+import dev.getzen.element.core.utils.copyToClipboard
+import dev.getzen.element.features.analytics.plan.MobileScreen
+import dev.getzen.element.features.home.NightlyProxy
+import dev.getzen.element.features.rageshake.RageShake
 import javax.inject.Inject
 
 @AndroidEntryPoint

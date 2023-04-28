@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.sticker
+package dev.getzen.element.features.home.room.detail.sticker
 
-import im.vector.app.features.home.room.detail.RoomDetailViewEvents
+import dev.getzen.element.features.home.room.detail.RoomDetailViewEvents
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import org.matrix.android.sdk.api.session.Session

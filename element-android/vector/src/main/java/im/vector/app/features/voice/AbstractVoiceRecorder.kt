@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.voice
+package dev.getzen.element.features.voice
 
 import android.content.Context
 import org.matrix.android.sdk.api.session.content.ContentAttachmentData

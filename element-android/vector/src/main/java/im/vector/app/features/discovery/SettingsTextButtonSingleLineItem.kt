@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.discovery
+package dev.getzen.element.features.discovery
 
 import android.widget.Button
 import android.widget.CompoundButton
@@ -26,18 +26,18 @@ import androidx.core.view.isVisible
 import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
 import com.google.android.material.switchmaterial.SwitchMaterial
-import im.vector.app.R
-import im.vector.app.core.epoxy.ClickListener
-import im.vector.app.core.epoxy.VectorEpoxyHolder
-import im.vector.app.core.epoxy.VectorEpoxyModel
-import im.vector.app.core.epoxy.attributes.ButtonStyle
-import im.vector.app.core.epoxy.attributes.ButtonType
-import im.vector.app.core.epoxy.attributes.IconMode
-import im.vector.app.core.epoxy.onClick
-import im.vector.app.core.extensions.setTextOrHide
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.themes.ThemeUtils
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.ClickListener
+import dev.getzen.element.core.epoxy.VectorEpoxyHolder
+import dev.getzen.element.core.epoxy.VectorEpoxyModel
+import dev.getzen.element.core.epoxy.attributes.ButtonStyle
+import dev.getzen.element.core.epoxy.attributes.ButtonType
+import dev.getzen.element.core.epoxy.attributes.IconMode
+import dev.getzen.element.core.epoxy.onClick
+import dev.getzen.element.core.extensions.setTextOrHide
+import dev.getzen.element.core.resources.ColorProvider
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.features.themes.ThemeUtils
 
 @EpoxyModelClass
 abstract class SettingsTextButtonSingleLineItem : VectorEpoxyModel<SettingsTextButtonSingleLineItem.Holder>(R.layout.item_settings_button_single_line) {

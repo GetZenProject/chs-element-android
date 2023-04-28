@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.voice
+package dev.getzen.element.features.voice
 
 import android.content.Context
 import android.media.MediaCodecList
@@ -22,7 +22,7 @@ import android.media.MediaFormat
 import android.os.Build
 import androidx.annotation.ChecksSdkIntAtLeast
 import androidx.annotation.VisibleForTesting
-import im.vector.app.features.VectorFeatures
+import dev.getzen.element.features.VectorFeatures
 import io.element.android.opusencoder.OggOpusEncoder
 import kotlinx.coroutines.Dispatchers
 import org.matrix.android.sdk.api.util.BuildVersionSdkIntProvider

@@ -14,22 +14,22 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.people
+package dev.getzen.element.features.spaces.people
 
 import com.airbnb.epoxy.TypedEpoxyController
-import im.vector.app.R
-import im.vector.app.core.epoxy.dividerItem
-import im.vector.app.core.epoxy.loadingItem
-import im.vector.app.core.epoxy.profiles.profileMatrixItemWithPowerLevel
-import im.vector.app.core.extensions.join
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.ui.list.genericItem
-import im.vector.app.core.utils.DimensionConverter
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.roomprofile.members.RoomMemberListCategories
-import im.vector.app.features.roomprofile.members.RoomMemberListViewState
-import im.vector.app.features.roomprofile.members.RoomMemberSummaryFilter
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.dividerItem
+import dev.getzen.element.core.epoxy.loadingItem
+import dev.getzen.element.core.epoxy.profiles.profileMatrixItemWithPowerLevel
+import dev.getzen.element.core.extensions.join
+import dev.getzen.element.core.resources.ColorProvider
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.core.ui.list.genericItem
+import dev.getzen.element.core.utils.DimensionConverter
+import dev.getzen.element.features.home.AvatarRenderer
+import dev.getzen.element.features.roomprofile.members.RoomMemberListCategories
+import dev.getzen.element.features.roomprofile.members.RoomMemberListViewState
+import dev.getzen.element.features.roomprofile.members.RoomMemberSummaryFilter
 import im.vector.lib.core.utils.epoxy.charsequence.toEpoxyCharSequence
 import me.gujun.android.span.span
 import org.matrix.android.sdk.api.session.room.model.RoomMemberSummary

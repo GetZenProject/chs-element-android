@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.pushers
+package dev.getzen.element.core.pushers
 
 import android.content.BroadcastReceiver
 import android.content.Context

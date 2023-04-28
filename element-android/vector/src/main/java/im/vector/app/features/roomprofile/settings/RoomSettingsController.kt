@@ -14,22 +14,22 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.settings
+package dev.getzen.element.features.roomprofile.settings
 
 import com.airbnb.epoxy.TypedEpoxyController
-import im.vector.app.R
-import im.vector.app.core.epoxy.dividerItem
-import im.vector.app.core.epoxy.profiles.buildProfileAction
-import im.vector.app.core.epoxy.profiles.buildProfileSection
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.ui.list.verticalMarginItem
-import im.vector.app.core.utils.DimensionConverter
-import im.vector.app.features.form.formEditTextItem
-import im.vector.app.features.form.formEditableAvatarItem
-import im.vector.app.features.form.formSwitchItem
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.home.room.detail.timeline.format.RoomHistoryVisibilityFormatter
-import im.vector.app.features.settings.VectorPreferences
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.dividerItem
+import dev.getzen.element.core.epoxy.profiles.buildProfileAction
+import dev.getzen.element.core.epoxy.profiles.buildProfileSection
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.core.ui.list.verticalMarginItem
+import dev.getzen.element.core.utils.DimensionConverter
+import dev.getzen.element.features.form.formEditTextItem
+import dev.getzen.element.features.form.formEditableAvatarItem
+import dev.getzen.element.features.form.formSwitchItem
+import dev.getzen.element.features.home.AvatarRenderer
+import dev.getzen.element.features.home.room.detail.timeline.format.RoomHistoryVisibilityFormatter
+import dev.getzen.element.features.settings.VectorPreferences
 import org.matrix.android.sdk.api.session.room.model.GuestAccess
 import org.matrix.android.sdk.api.session.room.model.RoomJoinRules
 import org.matrix.android.sdk.api.util.toMatrixItem

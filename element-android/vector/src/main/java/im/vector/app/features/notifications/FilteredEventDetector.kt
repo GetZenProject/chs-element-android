@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.notifications
+package dev.getzen.element.features.notifications
 
-import im.vector.app.ActiveSessionDataSource
-import im.vector.app.features.voicebroadcast.isVoiceBroadcast
-import im.vector.app.features.voicebroadcast.sequence
+import dev.getzen.element.ActiveSessionDataSource
+import dev.getzen.element.features.voicebroadcast.isVoiceBroadcast
+import dev.getzen.element.features.voicebroadcast.sequence
 import org.matrix.android.sdk.api.session.events.model.isVoiceMessage
 import org.matrix.android.sdk.api.session.getRoom
 import org.matrix.android.sdk.api.session.room.getTimelineEvent

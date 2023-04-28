@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.pin.lockscreen
+package dev.getzen.element.features.pin.lockscreen
 
 object LockScreenTestConstants {
     const val ALIAS = "some_alias"

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.location
+package dev.getzen.element.features.location
 
 interface LocationTargetChangeListener {
     fun onLocationTargetChange(target: LocationData)

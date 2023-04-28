@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.settings.joinrule
+package dev.getzen.element.features.roomprofile.settings.joinrule
 
 import android.content.Context
 import android.content.Intent
@@ -28,20 +28,20 @@ import com.airbnb.mvrx.Uninitialized
 import com.airbnb.mvrx.viewModel
 import com.airbnb.mvrx.withState
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.addFragment
-import im.vector.app.core.extensions.commitTransaction
-import im.vector.app.core.extensions.toMvRxBundle
-import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.app.core.utils.toast
-import im.vector.app.databinding.ActivitySimpleBinding
-import im.vector.app.features.home.room.detail.upgrade.MigrateRoomBottomSheet
-import im.vector.app.features.roomprofile.RoomProfileArgs
-import im.vector.app.features.roomprofile.settings.joinrule.advanced.RoomJoinRuleChooseRestrictedActions
-import im.vector.app.features.roomprofile.settings.joinrule.advanced.RoomJoinRuleChooseRestrictedEvents
-import im.vector.app.features.roomprofile.settings.joinrule.advanced.RoomJoinRuleChooseRestrictedFragment
-import im.vector.app.features.roomprofile.settings.joinrule.advanced.RoomJoinRuleChooseRestrictedState
-import im.vector.app.features.roomprofile.settings.joinrule.advanced.RoomJoinRuleChooseRestrictedViewModel
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.addFragment
+import dev.getzen.element.core.extensions.commitTransaction
+import dev.getzen.element.core.extensions.toMvRxBundle
+import dev.getzen.element.core.platform.VectorBaseActivity
+import dev.getzen.element.core.utils.toast
+import dev.getzen.element.databinding.ActivitySimpleBinding
+import dev.getzen.element.features.home.room.detail.upgrade.MigrateRoomBottomSheet
+import dev.getzen.element.features.roomprofile.RoomProfileArgs
+import dev.getzen.element.features.roomprofile.settings.joinrule.advanced.RoomJoinRuleChooseRestrictedActions
+import dev.getzen.element.features.roomprofile.settings.joinrule.advanced.RoomJoinRuleChooseRestrictedEvents
+import dev.getzen.element.features.roomprofile.settings.joinrule.advanced.RoomJoinRuleChooseRestrictedFragment
+import dev.getzen.element.features.roomprofile.settings.joinrule.advanced.RoomJoinRuleChooseRestrictedState
+import dev.getzen.element.features.roomprofile.settings.joinrule.advanced.RoomJoinRuleChooseRestrictedViewModel
 import im.vector.lib.core.utils.compat.getParcelableCompat
 
 @AndroidEntryPoint

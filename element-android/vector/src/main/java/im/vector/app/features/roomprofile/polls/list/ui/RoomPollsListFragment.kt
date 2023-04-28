@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.polls.list.ui
+package dev.getzen.element.features.roomprofile.polls.list.ui
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -23,18 +23,18 @@ import android.view.ViewGroup
 import androidx.core.view.isVisible
 import com.airbnb.mvrx.parentFragmentViewModel
 import com.airbnb.mvrx.withState
-import im.vector.app.core.epoxy.onClick
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.databinding.FragmentRoomPollsListBinding
-import im.vector.app.features.roomprofile.polls.RoomPollsAction
-import im.vector.app.features.roomprofile.polls.RoomPollsLoadingError
-import im.vector.app.features.roomprofile.polls.RoomPollsType
-import im.vector.app.features.roomprofile.polls.RoomPollsViewEvent
-import im.vector.app.features.roomprofile.polls.RoomPollsViewModel
-import im.vector.app.features.roomprofile.polls.RoomPollsViewState
+import dev.getzen.element.core.epoxy.onClick
+import dev.getzen.element.core.extensions.cleanup
+import dev.getzen.element.core.extensions.configureWith
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.databinding.FragmentRoomPollsListBinding
+import dev.getzen.element.features.roomprofile.polls.RoomPollsAction
+import dev.getzen.element.features.roomprofile.polls.RoomPollsLoadingError
+import dev.getzen.element.features.roomprofile.polls.RoomPollsType
+import dev.getzen.element.features.roomprofile.polls.RoomPollsViewEvent
+import dev.getzen.element.features.roomprofile.polls.RoomPollsViewModel
+import dev.getzen.element.features.roomprofile.polls.RoomPollsViewState
 import javax.inject.Inject
 
 abstract class RoomPollsListFragment :

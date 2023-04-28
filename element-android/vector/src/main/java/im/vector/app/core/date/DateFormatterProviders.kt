@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.date
+package dev.getzen.element.core.date
 
 import javax.inject.Inject
 

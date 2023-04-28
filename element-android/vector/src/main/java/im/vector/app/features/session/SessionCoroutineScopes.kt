@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.session
+package dev.getzen.element.features.session
 
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

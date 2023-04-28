@@ -16,7 +16,7 @@
 
 @file:Suppress("DEPRECATION")
 
-package im.vector.app.core.hardware
+package dev.getzen.element.core.hardware
 
 import android.content.Context
 import android.hardware.Camera

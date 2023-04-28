@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.userdirectory
+package dev.getzen.element.features.userdirectory
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -32,18 +32,18 @@ import com.airbnb.mvrx.args
 import com.airbnb.mvrx.withState
 import com.google.android.material.chip.Chip
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.extensions.hideKeyboard
-import im.vector.app.core.extensions.setupAsSearch
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.platform.VectorMenuProvider
-import im.vector.app.core.utils.DimensionConverter
-import im.vector.app.core.utils.showIdentityServerConsentDialog
-import im.vector.app.core.utils.startSharePlainTextIntent
-import im.vector.app.databinding.FragmentUserListBinding
-import im.vector.app.features.settings.VectorSettingsActivity
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.cleanup
+import dev.getzen.element.core.extensions.configureWith
+import dev.getzen.element.core.extensions.hideKeyboard
+import dev.getzen.element.core.extensions.setupAsSearch
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.core.platform.VectorMenuProvider
+import dev.getzen.element.core.utils.DimensionConverter
+import dev.getzen.element.core.utils.showIdentityServerConsentDialog
+import dev.getzen.element.core.utils.startSharePlainTextIntent
+import dev.getzen.element.databinding.FragmentUserListBinding
+import dev.getzen.element.features.settings.VectorSettingsActivity
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.flow.onStart

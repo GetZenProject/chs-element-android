@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.voicebroadcast.model
+package dev.getzen.element.features.voicebroadcast.model
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
-import im.vector.app.features.voicebroadcast.VoiceBroadcastConstants
+import dev.getzen.element.features.voicebroadcast.VoiceBroadcastConstants
 import org.matrix.android.sdk.api.session.events.model.Content
 import org.matrix.android.sdk.api.session.room.model.message.MessageContent
 import org.matrix.android.sdk.api.session.room.model.message.MessageType.MSGTYPE_VOICE_BROADCAST_INFO

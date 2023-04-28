@@ -23,7 +23,7 @@
  * Effectively, this is used in the chat messages view and the room list message previews.
  */
 
-package im.vector.app.features.html
+package dev.getzen.element.features.html
 
 import android.content.Context
 import android.content.res.Resources
@@ -39,10 +39,10 @@ import androidx.core.text.toSpannable
 import com.bumptech.glide.Glide
 import com.bumptech.glide.RequestBuilder
 import com.bumptech.glide.request.target.Target
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.utils.DimensionConverter
-import im.vector.app.features.settings.VectorPreferences
+import dev.getzen.element.core.di.ActiveSessionHolder
+import dev.getzen.element.core.resources.ColorProvider
+import dev.getzen.element.core.utils.DimensionConverter
+import dev.getzen.element.features.settings.VectorPreferences
 import io.element.android.wysiwyg.spans.InlineCodeSpan
 import io.noties.markwon.AbstractMarkwonPlugin
 import io.noties.markwon.Markwon

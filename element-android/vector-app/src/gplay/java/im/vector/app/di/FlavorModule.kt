@@ -14,24 +14,24 @@
  * limitations under the License.
  */
 
-package im.vector.app.di
+package dev.getzen.element.di
 
 import dagger.Binds
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
-import im.vector.app.GoogleFlavorLegals
-import im.vector.app.core.pushers.FcmHelper
-import im.vector.app.core.resources.AppNameProvider
-import im.vector.app.core.resources.DefaultAppNameProvider
-import im.vector.app.core.resources.DefaultLocaleProvider
-import im.vector.app.core.resources.LocaleProvider
-import im.vector.app.core.services.GuardServiceStarter
-import im.vector.app.features.home.NightlyProxy
-import im.vector.app.features.settings.legals.FlavorLegals
-import im.vector.app.nightly.FirebaseNightlyProxy
-import im.vector.app.push.fcm.GoogleFcmHelper
+import dev.getzen.element.GoogleFlavorLegals
+import dev.getzen.element.core.pushers.FcmHelper
+import dev.getzen.element.core.resources.AppNameProvider
+import dev.getzen.element.core.resources.DefaultAppNameProvider
+import dev.getzen.element.core.resources.DefaultLocaleProvider
+import dev.getzen.element.core.resources.LocaleProvider
+import dev.getzen.element.core.services.GuardServiceStarter
+import dev.getzen.element.features.home.NightlyProxy
+import dev.getzen.element.features.settings.legals.FlavorLegals
+import dev.getzen.element.nightly.FirebaseNightlyProxy
+import dev.getzen.element.push.fcm.GoogleFcmHelper
 
 @InstallIn(SingletonComponent::class)
 @Module

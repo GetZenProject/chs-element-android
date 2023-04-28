@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.action
+package dev.getzen.element.features.home.room.detail.timeline.action
 
 import com.airbnb.mvrx.Async
 import com.airbnb.mvrx.MavericksState
 import com.airbnb.mvrx.Uninitialized
-import im.vector.app.core.extensions.canReact
-import im.vector.app.features.home.room.detail.timeline.item.MessageInformationData
+import dev.getzen.element.core.extensions.canReact
+import dev.getzen.element.features.home.room.detail.timeline.item.MessageInformationData
 import org.matrix.android.sdk.api.session.room.send.SendState
 import org.matrix.android.sdk.api.session.room.timeline.TimelineEvent
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.powerlevel
+package dev.getzen.element.features.powerlevel
 
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow

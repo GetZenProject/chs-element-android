@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.composer
+package dev.getzen.element.features.home.room.detail.composer
 
 import android.content.Context
 import android.net.Uri
@@ -28,18 +28,18 @@ import androidx.core.content.ContextCompat
 import androidx.core.text.toSpannable
 import androidx.core.view.isVisible
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.getVectorLastMessageContent
-import im.vector.app.core.extensions.setTextIfDifferent
-import im.vector.app.core.extensions.showKeyboard
-import im.vector.app.core.utils.DimensionConverter
-import im.vector.app.databinding.ComposerLayoutBinding
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.home.room.detail.timeline.helper.MatrixItemColorProvider
-import im.vector.app.features.home.room.detail.timeline.image.buildImageContentRendererData
-import im.vector.app.features.html.EventHtmlRenderer
-import im.vector.app.features.html.PillsPostProcessor
-import im.vector.app.features.media.ImageContentRenderer
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.getVectorLastMessageContent
+import dev.getzen.element.core.extensions.setTextIfDifferent
+import dev.getzen.element.core.extensions.showKeyboard
+import dev.getzen.element.core.utils.DimensionConverter
+import dev.getzen.element.databinding.ComposerLayoutBinding
+import dev.getzen.element.features.home.AvatarRenderer
+import dev.getzen.element.features.home.room.detail.timeline.helper.MatrixItemColorProvider
+import dev.getzen.element.features.home.room.detail.timeline.image.buildImageContentRendererData
+import dev.getzen.element.features.html.EventHtmlRenderer
+import dev.getzen.element.features.html.PillsPostProcessor
+import dev.getzen.element.features.media.ImageContentRenderer
 import org.commonmark.parser.Parser
 import org.matrix.android.sdk.api.session.room.model.message.MessageAudioContent
 import org.matrix.android.sdk.api.session.room.model.message.MessageBeaconInfoContent

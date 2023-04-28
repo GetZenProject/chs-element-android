@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.analytics.ui.consent
+package dev.getzen.element.features.analytics.ui.consent
 
-import im.vector.app.core.platform.VectorViewModelAction
+import dev.getzen.element.core.platform.VectorViewModelAction
 
 sealed class AnalyticsConsentViewActions : VectorViewModelAction {
     data class SetUserConsent(val userConsent: Boolean) : AnalyticsConsentViewActions()

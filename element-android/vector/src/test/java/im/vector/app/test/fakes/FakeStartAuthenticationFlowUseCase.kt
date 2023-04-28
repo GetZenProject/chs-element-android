@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.test.fakes
+package dev.getzen.element.test.fakes
 
-import im.vector.app.features.onboarding.StartAuthenticationFlowUseCase
-import im.vector.app.features.onboarding.StartAuthenticationFlowUseCase.StartAuthenticationResult
-import im.vector.app.test.fixtures.aHomeserverUnavailableError
+import dev.getzen.element.features.onboarding.StartAuthenticationFlowUseCase
+import dev.getzen.element.features.onboarding.StartAuthenticationFlowUseCase.StartAuthenticationResult
+import dev.getzen.element.test.fixtures.aHomeserverUnavailableError
 import io.mockk.coEvery
 import io.mockk.mockk
 import org.matrix.android.sdk.api.auth.data.HomeServerConnectionConfig

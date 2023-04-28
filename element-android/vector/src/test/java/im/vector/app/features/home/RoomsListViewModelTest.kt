@@ -14,26 +14,26 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home
+package dev.getzen.element.features.home
 
 import android.widget.ImageView
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import com.airbnb.mvrx.test.MavericksTestRule
-import im.vector.app.R
-import im.vector.app.core.platform.StateView
-import im.vector.app.features.displayname.getBestName
-import im.vector.app.features.home.room.list.home.HomeRoomListAction
-import im.vector.app.features.home.room.list.home.HomeRoomListViewModel
-import im.vector.app.features.home.room.list.home.HomeRoomListViewState
-import im.vector.app.features.home.room.list.home.header.HomeRoomFilter
-import im.vector.app.test.fakes.FakeAnalyticsTracker
-import im.vector.app.test.fakes.FakeDrawableProvider
-import im.vector.app.test.fakes.FakeHomeLayoutPreferencesStore
-import im.vector.app.test.fakes.FakeSession
-import im.vector.app.test.fakes.FakeSpaceStateHandler
-import im.vector.app.test.fakes.FakeStringProvider
-import im.vector.app.test.fixtures.RoomSummaryFixture.aRoomSummary
-import im.vector.app.test.test
+import dev.getzen.element.R
+import dev.getzen.element.core.platform.StateView
+import dev.getzen.element.features.displayname.getBestName
+import dev.getzen.element.features.home.room.list.home.HomeRoomListAction
+import dev.getzen.element.features.home.room.list.home.HomeRoomListViewModel
+import dev.getzen.element.features.home.room.list.home.HomeRoomListViewState
+import dev.getzen.element.features.home.room.list.home.header.HomeRoomFilter
+import dev.getzen.element.test.fakes.FakeAnalyticsTracker
+import dev.getzen.element.test.fakes.FakeDrawableProvider
+import dev.getzen.element.test.fakes.FakeHomeLayoutPreferencesStore
+import dev.getzen.element.test.fakes.FakeSession
+import dev.getzen.element.test.fakes.FakeSpaceStateHandler
+import dev.getzen.element.test.fakes.FakeStringProvider
+import dev.getzen.element.test.fixtures.RoomSummaryFixture.aRoomSummary
+import dev.getzen.element.test.test
 import io.mockk.every
 import io.mockk.mockkStatic
 import kotlinx.coroutines.flow.flowOf

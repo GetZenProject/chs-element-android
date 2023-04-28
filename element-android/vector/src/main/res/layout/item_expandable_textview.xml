@@ -8,7 +8,7 @@
     android:padding="16dp"
     tools:viewBindingIgnore="true">
 
-    <im.vector.app.core.ui.views.NonScrollingTextView
+    <dev.getzen.element.core.ui.views.NonScrollingTextView
         android:id="@+id/expandableContent"
         style="@style/Widget.Vector.TextView.Body"
         android:layout_width="match_parent"

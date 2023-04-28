@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.test.fakes
+package dev.getzen.element.test.fakes
 
-import im.vector.app.features.analytics.impl.LateInitUserPropertiesFactory
-import im.vector.app.features.analytics.plan.UserProperties
+import dev.getzen.element.features.analytics.impl.LateInitUserPropertiesFactory
+import dev.getzen.element.features.analytics.plan.UserProperties
 import io.mockk.coEvery
 import io.mockk.mockk
 

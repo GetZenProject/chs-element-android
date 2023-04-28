@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.merged
+package dev.getzen.element.features.home.room.detail.timeline.merged
 
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

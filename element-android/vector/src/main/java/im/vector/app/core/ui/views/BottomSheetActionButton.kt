@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.ui.views
+package dev.getzen.element.core.ui.views
 
 import android.content.Context
 import android.content.res.ColorStateList
@@ -25,11 +25,11 @@ import androidx.core.content.withStyledAttributes
 import androidx.core.view.isGone
 import androidx.core.view.isInvisible
 import androidx.core.view.isVisible
-import im.vector.app.R
-import im.vector.app.core.extensions.setDrawableOrHide
-import im.vector.app.core.extensions.setTextOrHide
-import im.vector.app.databinding.ViewBottomSheetActionButtonBinding
-import im.vector.app.features.themes.ThemeUtils
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.setDrawableOrHide
+import dev.getzen.element.core.extensions.setTextOrHide
+import dev.getzen.element.databinding.ViewBottomSheetActionButtonBinding
+import dev.getzen.element.features.themes.ThemeUtils
 
 class BottomSheetActionButton @JvmOverloads constructor(
         context: Context,

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.invite
+package dev.getzen.element.features.spaces.invite
 
 import android.content.Context
 import android.os.Bundle
@@ -31,14 +31,14 @@ import com.airbnb.mvrx.args
 import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.platform.ButtonStateView
-import im.vector.app.core.platform.VectorBaseBottomSheetDialogFragment
-import im.vector.app.core.utils.toast
-import im.vector.app.databinding.BottomSheetInvitedToSpaceBinding
-import im.vector.app.features.displayname.getBestName
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.matrixto.SpaceCardRenderer
+import dev.getzen.element.R
+import dev.getzen.element.core.platform.ButtonStateView
+import dev.getzen.element.core.platform.VectorBaseBottomSheetDialogFragment
+import dev.getzen.element.core.utils.toast
+import dev.getzen.element.databinding.BottomSheetInvitedToSpaceBinding
+import dev.getzen.element.features.displayname.getBestName
+import dev.getzen.element.features.home.AvatarRenderer
+import dev.getzen.element.features.matrixto.SpaceCardRenderer
 import kotlinx.parcelize.Parcelize
 import org.matrix.android.sdk.api.util.toMatrixItem
 import javax.inject.Inject

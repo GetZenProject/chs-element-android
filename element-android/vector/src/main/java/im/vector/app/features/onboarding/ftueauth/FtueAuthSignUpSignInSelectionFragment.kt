@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.onboarding.ftueauth
+package dev.getzen.element.features.onboarding.ftueauth
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -24,18 +24,18 @@ import androidx.annotation.DrawableRes
 import androidx.core.view.isVisible
 import com.airbnb.mvrx.withState
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.toReducedUrl
-import im.vector.app.databinding.FragmentLoginSignupSigninSelectionBinding
-import im.vector.app.features.login.LoginMode
-import im.vector.app.features.login.SSORedirectRouterActivity
-import im.vector.app.features.login.ServerType
-import im.vector.app.features.login.SignMode
-import im.vector.app.features.login.SocialLoginButtonsView.Mode
-import im.vector.app.features.login.render
-import im.vector.app.features.onboarding.OnboardingAction
-import im.vector.app.features.onboarding.OnboardingFlow
-import im.vector.app.features.onboarding.OnboardingViewState
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.toReducedUrl
+import dev.getzen.element.databinding.FragmentLoginSignupSigninSelectionBinding
+import dev.getzen.element.features.login.LoginMode
+import dev.getzen.element.features.login.SSORedirectRouterActivity
+import dev.getzen.element.features.login.ServerType
+import dev.getzen.element.features.login.SignMode
+import dev.getzen.element.features.login.SocialLoginButtonsView.Mode
+import dev.getzen.element.features.login.render
+import dev.getzen.element.features.onboarding.OnboardingAction
+import dev.getzen.element.features.onboarding.OnboardingFlow
+import dev.getzen.element.features.onboarding.OnboardingViewState
 import org.matrix.android.sdk.api.auth.SSOAction
 
 /**

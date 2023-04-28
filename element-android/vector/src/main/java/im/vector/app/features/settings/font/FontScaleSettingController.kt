@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.font
+package dev.getzen.element.features.settings.font
 
 import com.airbnb.epoxy.TypedEpoxyController
-import im.vector.app.R
-import im.vector.app.core.epoxy.fontScaleItem
-import im.vector.app.core.epoxy.fontScaleSectionItem
-import im.vector.app.core.epoxy.fontScaleUseSystemSettingsItem
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.settings.FontScaleValue
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.fontScaleItem
+import dev.getzen.element.core.epoxy.fontScaleSectionItem
+import dev.getzen.element.core.epoxy.fontScaleUseSystemSettingsItem
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.features.settings.FontScaleValue
 import javax.inject.Inject
 
 class FontScaleSettingController @Inject constructor(

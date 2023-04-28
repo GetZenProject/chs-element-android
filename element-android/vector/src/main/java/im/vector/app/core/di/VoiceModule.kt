@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.di
+package dev.getzen.element.core.di
 
 import android.content.Context
 import android.os.Build
@@ -23,11 +23,11 @@ import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
-import im.vector.app.features.voicebroadcast.listening.VoiceBroadcastPlayer
-import im.vector.app.features.voicebroadcast.listening.VoiceBroadcastPlayerImpl
-import im.vector.app.features.voicebroadcast.recording.VoiceBroadcastRecorder
-import im.vector.app.features.voicebroadcast.recording.VoiceBroadcastRecorderQ
-import im.vector.app.features.voicebroadcast.usecase.GetVoiceBroadcastStateEventLiveUseCase
+import dev.getzen.element.features.voicebroadcast.listening.VoiceBroadcastPlayer
+import dev.getzen.element.features.voicebroadcast.listening.VoiceBroadcastPlayerImpl
+import dev.getzen.element.features.voicebroadcast.recording.VoiceBroadcastRecorder
+import dev.getzen.element.features.voicebroadcast.recording.VoiceBroadcastRecorderQ
+import dev.getzen.element.features.voicebroadcast.usecase.GetVoiceBroadcastStateEventLiveUseCase
 import javax.inject.Singleton
 
 @InstallIn(SingletonComponent::class)

@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.format
+package dev.getzen.element.features.home.room.detail.timeline.format
 
 import dagger.Lazy
-import im.vector.app.EmojiSpanify
-import im.vector.app.R
-import im.vector.app.core.extensions.getVectorLastMessageContent
-import im.vector.app.core.extensions.orEmpty
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.resources.DrawableProvider
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.html.EventHtmlRenderer
-import im.vector.app.features.voicebroadcast.VoiceBroadcastConstants
-import im.vector.app.features.voicebroadcast.isLive
-import im.vector.app.features.voicebroadcast.isVoiceBroadcast
-import im.vector.app.features.voicebroadcast.model.asVoiceBroadcastEvent
+import dev.getzen.element.EmojiSpanify
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.getVectorLastMessageContent
+import dev.getzen.element.core.extensions.orEmpty
+import dev.getzen.element.core.resources.ColorProvider
+import dev.getzen.element.core.resources.DrawableProvider
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.features.html.EventHtmlRenderer
+import dev.getzen.element.features.voicebroadcast.VoiceBroadcastConstants
+import dev.getzen.element.features.voicebroadcast.isLive
+import dev.getzen.element.features.voicebroadcast.isVoiceBroadcast
+import dev.getzen.element.features.voicebroadcast.model.asVoiceBroadcastEvent
 import me.gujun.android.span.image
 import me.gujun.android.span.span
 import org.commonmark.node.Document

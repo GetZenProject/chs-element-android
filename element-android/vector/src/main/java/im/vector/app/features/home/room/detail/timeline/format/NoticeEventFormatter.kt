@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.format
+package dev.getzen.element.features.home.room.detail.timeline.format
 
-import im.vector.app.ActiveSessionDataSource
-import im.vector.app.R
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.roomprofile.permissions.RoleFormatter
-import im.vector.app.features.settings.VectorPreferences
-import im.vector.app.features.voicebroadcast.VoiceBroadcastConstants
-import im.vector.app.features.voicebroadcast.model.VoiceBroadcastState
-import im.vector.app.features.voicebroadcast.model.asVoiceBroadcastEvent
+import dev.getzen.element.ActiveSessionDataSource
+import dev.getzen.element.R
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.features.roomprofile.permissions.RoleFormatter
+import dev.getzen.element.features.settings.VectorPreferences
+import dev.getzen.element.features.voicebroadcast.VoiceBroadcastConstants
+import dev.getzen.element.features.voicebroadcast.model.VoiceBroadcastState
+import dev.getzen.element.features.voicebroadcast.model.asVoiceBroadcastEvent
 import org.matrix.android.sdk.api.crypto.MXCRYPTO_ALGORITHM_MEGOLM
 import org.matrix.android.sdk.api.extensions.appendNl
 import org.matrix.android.sdk.api.extensions.orFalse

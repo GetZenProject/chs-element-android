@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.item
+package dev.getzen.element.features.home.room.detail.timeline.item
 
 import android.content.Context
 import android.os.Build
@@ -22,10 +22,10 @@ import android.util.AttributeSet
 import androidx.appcompat.content.res.AppCompatResources
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.view.isVisible
-import im.vector.app.R
-import im.vector.app.core.extensions.setAttributeTintedImageResource
-import im.vector.app.databinding.ItemPollOptionBinding
-import im.vector.app.features.themes.ThemeUtils
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.setAttributeTintedImageResource
+import dev.getzen.element.databinding.ItemPollOptionBinding
+import dev.getzen.element.features.themes.ThemeUtils
 
 class PollOptionView @JvmOverloads constructor(
         context: Context,

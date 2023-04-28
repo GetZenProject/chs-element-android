@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces
+package dev.getzen.element.features.spaces
 
 import android.os.Bundle
 import android.view.HapticFeedbackConstants
@@ -29,22 +29,22 @@ import com.airbnb.mvrx.Uninitialized
 import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.core.epoxy.onClick
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.core.platform.StateView
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.databinding.FragmentSpaceListBinding
-import im.vector.app.features.home.HomeActivitySharedAction
-import im.vector.app.features.home.HomeSharedActionViewModel
-import im.vector.app.features.home.room.list.actions.RoomListSharedAction
-import im.vector.app.features.home.room.list.actions.RoomListSharedActionViewModel
-import im.vector.app.features.settings.VectorPreferences
+import dev.getzen.element.core.epoxy.onClick
+import dev.getzen.element.core.extensions.cleanup
+import dev.getzen.element.core.extensions.configureWith
+import dev.getzen.element.core.platform.StateView
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.databinding.FragmentSpaceListBinding
+import dev.getzen.element.features.home.HomeActivitySharedAction
+import dev.getzen.element.features.home.HomeSharedActionViewModel
+import dev.getzen.element.features.home.room.list.actions.RoomListSharedAction
+import dev.getzen.element.features.home.room.list.actions.RoomListSharedActionViewModel
+import dev.getzen.element.features.settings.VectorPreferences
 import org.matrix.android.sdk.api.session.room.model.RoomSummary
 import javax.inject.Inject
 
 /**
- * This Fragment is displayed in the navigation drawer [im.vector.app.features.home.HomeDrawerFragment] and
+ * This Fragment is displayed in the navigation drawer [dev.getzen.element.features.home.HomeDrawerFragment] and
  * is displaying the space hierarchy, with some actions on Spaces.
  *
  * In the New App Layout this fragment will instead be displayed in a Bottom Sheet [SpaceListBottomSheet]

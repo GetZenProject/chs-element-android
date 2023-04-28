@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.upgrade
+package dev.getzen.element.features.home.room.detail.upgrade
 
-import im.vector.app.core.platform.ViewModelTask
-import im.vector.app.core.resources.StringProvider
+import dev.getzen.element.core.platform.ViewModelTask
+import dev.getzen.element.core.resources.StringProvider
 import org.matrix.android.sdk.api.extensions.tryOrNull
 import org.matrix.android.sdk.api.session.Session
 import org.matrix.android.sdk.api.session.getRoom

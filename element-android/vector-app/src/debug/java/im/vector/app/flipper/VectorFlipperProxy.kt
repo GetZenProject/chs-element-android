@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.flipper
+package dev.getzen.element.flipper
 
 import android.content.Context
 import android.os.Build
@@ -30,7 +30,7 @@ import com.facebook.flipper.plugins.sharedpreferences.SharedPreferencesFlipperPl
 import com.facebook.soloader.SoLoader
 import com.kgurgul.flipper.RealmDatabaseDriver
 import com.kgurgul.flipper.RealmDatabaseProvider
-import im.vector.app.core.debug.FlipperProxy
+import dev.getzen.element.core.debug.FlipperProxy
 import io.realm.RealmConfiguration
 import okhttp3.Interceptor
 import org.matrix.android.sdk.api.Matrix

@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings
+package dev.getzen.element.features.settings
 
 import android.content.SharedPreferences
-import im.vector.app.core.di.DefaultPreferences
+import dev.getzen.element.core.di.DefaultPreferences
 import java.util.Locale
 import javax.inject.Inject
 

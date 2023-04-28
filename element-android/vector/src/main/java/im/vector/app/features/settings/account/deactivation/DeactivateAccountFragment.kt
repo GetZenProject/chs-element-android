@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.account.deactivation
+package dev.getzen.element.features.settings.account.deactivation
 
 import android.app.Activity
 import android.content.Context
@@ -25,15 +25,15 @@ import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import com.airbnb.mvrx.fragmentViewModel
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.registerStartForActivityResult
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.databinding.FragmentDeactivateAccountBinding
-import im.vector.app.features.MainActivity
-import im.vector.app.features.MainActivityArgs
-import im.vector.app.features.analytics.plan.MobileScreen
-import im.vector.app.features.auth.ReAuthActivity
-import im.vector.app.features.settings.VectorSettingsActivity
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.registerStartForActivityResult
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.databinding.FragmentDeactivateAccountBinding
+import dev.getzen.element.features.MainActivity
+import dev.getzen.element.features.MainActivityArgs
+import dev.getzen.element.features.analytics.plan.MobileScreen
+import dev.getzen.element.features.auth.ReAuthActivity
+import dev.getzen.element.features.settings.VectorSettingsActivity
 import org.matrix.android.sdk.api.auth.data.LoginFlowTypes
 import org.matrix.android.sdk.api.session.uia.exceptions.UiaCancelledException
 

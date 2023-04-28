@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.services
+package dev.getzen.element.core.services
 
 import android.content.Context
 import android.content.Intent
@@ -27,19 +27,19 @@ import androidx.core.content.ContextCompat
 import androidx.media.session.MediaButtonReceiver
 import com.airbnb.mvrx.Mavericks
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.core.extensions.singletonEntryPoint
-import im.vector.app.core.extensions.startForegroundCompat
-import im.vector.app.features.call.CallArgs
-import im.vector.app.features.call.VectorCallActivity
-import im.vector.app.features.call.telecom.CallConnection
-import im.vector.app.features.call.webrtc.WebRtcCall
-import im.vector.app.features.call.webrtc.WebRtcCallManager
-import im.vector.app.features.call.webrtc.getOpponentAsMatrixItem
-import im.vector.app.features.displayname.getBestName
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.notifications.NotificationUtils
-import im.vector.app.features.popup.IncomingCallAlert
-import im.vector.app.features.popup.PopupAlertManager
+import dev.getzen.element.core.extensions.singletonEntryPoint
+import dev.getzen.element.core.extensions.startForegroundCompat
+import dev.getzen.element.features.call.CallArgs
+import dev.getzen.element.features.call.VectorCallActivity
+import dev.getzen.element.features.call.telecom.CallConnection
+import dev.getzen.element.features.call.webrtc.WebRtcCall
+import dev.getzen.element.features.call.webrtc.WebRtcCallManager
+import dev.getzen.element.features.call.webrtc.getOpponentAsMatrixItem
+import dev.getzen.element.features.displayname.getBestName
+import dev.getzen.element.features.home.AvatarRenderer
+import dev.getzen.element.features.notifications.NotificationUtils
+import dev.getzen.element.features.popup.IncomingCallAlert
+import dev.getzen.element.features.popup.PopupAlertManager
 import im.vector.lib.core.utils.compat.getParcelableExtraCompat
 import im.vector.lib.core.utils.compat.getSerializableExtraCompat
 import org.matrix.android.sdk.api.logger.LoggerTag
@@ -314,10 +314,10 @@ class CallAndroidService : VectorAndroidService() {
         private const val DEFAULT_NOTIFICATION_ID = 6480
         private const val MISSED_CALL_TAG = "MISSED_CALL_TAG"
 
-        private const val ACTION_INCOMING_RINGING_CALL = "im.vector.app.core.services.CallService.ACTION_INCOMING_RINGING_CALL"
-        private const val ACTION_OUTGOING_RINGING_CALL = "im.vector.app.core.services.CallService.ACTION_OUTGOING_RINGING_CALL"
-        private const val ACTION_ONGOING_CALL = "im.vector.app.core.services.CallService.ACTION_ONGOING_CALL"
-        private const val ACTION_CALL_TERMINATED = "im.vector.app.core.services.CallService.ACTION_CALL_TERMINATED"
+        private const val ACTION_INCOMING_RINGING_CALL = "dev.getzen.element.core.services.CallService.ACTION_INCOMING_RINGING_CALL"
+        private const val ACTION_OUTGOING_RINGING_CALL = "dev.getzen.element.core.services.CallService.ACTION_OUTGOING_RINGING_CALL"
+        private const val ACTION_ONGOING_CALL = "dev.getzen.element.core.services.CallService.ACTION_ONGOING_CALL"
+        private const val ACTION_CALL_TERMINATED = "dev.getzen.element.core.services.CallService.ACTION_CALL_TERMINATED"
 
         private const val EXTRA_CALL_ID = "EXTRA_CALL_ID"
         private const val EXTRA_IS_IN_BG = "EXTRA_IS_IN_BG"

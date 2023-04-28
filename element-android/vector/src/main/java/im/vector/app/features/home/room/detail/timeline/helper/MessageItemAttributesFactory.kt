@@ -13,19 +13,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.home.room.detail.timeline.helper
+package dev.getzen.element.features.home.room.detail.timeline.helper
 
-import im.vector.app.EmojiCompatFontProvider
-import im.vector.app.R
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.resources.UserPreferencesProvider
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.home.room.detail.timeline.MessageColorProvider
-import im.vector.app.features.home.room.detail.timeline.TimelineEventController
-import im.vector.app.features.home.room.detail.timeline.format.DisplayableEventFormatter
-import im.vector.app.features.home.room.detail.timeline.item.AbsMessageItem
-import im.vector.app.features.home.room.detail.timeline.item.MessageInformationData
-import im.vector.app.features.home.room.detail.timeline.item.ReactionsSummaryEvents
+import dev.getzen.element.EmojiCompatFontProvider
+import dev.getzen.element.R
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.core.resources.UserPreferencesProvider
+import dev.getzen.element.features.home.AvatarRenderer
+import dev.getzen.element.features.home.room.detail.timeline.MessageColorProvider
+import dev.getzen.element.features.home.room.detail.timeline.TimelineEventController
+import dev.getzen.element.features.home.room.detail.timeline.format.DisplayableEventFormatter
+import dev.getzen.element.features.home.room.detail.timeline.item.AbsMessageItem
+import dev.getzen.element.features.home.room.detail.timeline.item.MessageInformationData
+import dev.getzen.element.features.home.room.detail.timeline.item.ReactionsSummaryEvents
 import org.matrix.android.sdk.api.session.threads.ThreadDetails
 import javax.inject.Inject
 

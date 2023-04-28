@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home
+package dev.getzen.element.features.home
 
-import im.vector.app.core.utils.BehaviorDataSource
+import dev.getzen.element.core.utils.BehaviorDataSource
 import org.matrix.android.sdk.api.session.room.model.SpaceChildInfo
 import javax.inject.Inject
 import javax.inject.Singleton

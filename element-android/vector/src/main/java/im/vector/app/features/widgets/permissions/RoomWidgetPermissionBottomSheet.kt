@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.widgets.permissions
+package dev.getzen.element.features.widgets.permissions
 
 import android.content.DialogInterface
 import android.os.Bundle
@@ -26,11 +26,11 @@ import android.view.ViewGroup
 import com.airbnb.mvrx.activityViewModel
 import com.airbnb.mvrx.withState
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.platform.VectorBaseBottomSheetDialogFragment
-import im.vector.app.databinding.BottomSheetRoomWidgetPermissionBinding
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.widgets.WidgetArgs
+import dev.getzen.element.R
+import dev.getzen.element.core.platform.VectorBaseBottomSheetDialogFragment
+import dev.getzen.element.databinding.BottomSheetRoomWidgetPermissionBinding
+import dev.getzen.element.features.home.AvatarRenderer
+import dev.getzen.element.features.widgets.WidgetArgs
 import org.matrix.android.sdk.api.util.toMatrixItem
 import javax.inject.Inject
 

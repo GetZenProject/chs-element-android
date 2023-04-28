@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.polls
+package dev.getzen.element.features.roomprofile.polls
 
 import com.airbnb.mvrx.test.MavericksTestRule
-import im.vector.app.features.roomprofile.polls.list.domain.DisposePollHistoryUseCase
-import im.vector.app.features.roomprofile.polls.list.domain.GetPollsUseCase
-import im.vector.app.features.roomprofile.polls.list.domain.LoadMorePollsUseCase
-import im.vector.app.features.roomprofile.polls.list.domain.SyncPollsUseCase
-import im.vector.app.features.roomprofile.polls.list.ui.PollSummary
-import im.vector.app.features.roomprofile.polls.list.ui.PollSummaryMapper
-import im.vector.app.test.test
-import im.vector.app.test.testDispatcher
+import dev.getzen.element.features.roomprofile.polls.list.domain.DisposePollHistoryUseCase
+import dev.getzen.element.features.roomprofile.polls.list.domain.GetPollsUseCase
+import dev.getzen.element.features.roomprofile.polls.list.domain.LoadMorePollsUseCase
+import dev.getzen.element.features.roomprofile.polls.list.domain.SyncPollsUseCase
+import dev.getzen.element.features.roomprofile.polls.list.ui.PollSummary
+import dev.getzen.element.features.roomprofile.polls.list.ui.PollSummaryMapper
+import dev.getzen.element.test.test
+import dev.getzen.element.test.testDispatcher
 import io.mockk.coEvery
 import io.mockk.coVerify
 import io.mockk.every

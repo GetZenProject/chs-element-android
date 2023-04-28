@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app
+package dev.getzen.element
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
@@ -34,9 +34,9 @@ import androidx.test.ext.junit.rules.ActivityScenarioRule
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.filters.LargeTest
 import com.adevinta.android.barista.internal.viewaction.SleepViewAction
-import im.vector.app.core.utils.getMatrixInstance
-import im.vector.app.features.MainActivity
-import im.vector.app.features.home.HomeActivity
+import dev.getzen.element.core.utils.getMatrixInstance
+import dev.getzen.element.features.MainActivity
+import dev.getzen.element.features.home.HomeActivity
 import org.hamcrest.CoreMatchers.not
 import org.junit.Before
 import org.junit.Ignore

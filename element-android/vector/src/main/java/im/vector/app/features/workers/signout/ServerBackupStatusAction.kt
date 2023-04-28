@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.workers.signout
+package dev.getzen.element.features.workers.signout
 
-import im.vector.app.core.platform.VectorViewModelAction
+import dev.getzen.element.core.platform.VectorViewModelAction
 
 sealed interface ServerBackupStatusAction : VectorViewModelAction {
     data class OnRecoverDoneForVersion(val version: String) : ServerBackupStatusAction

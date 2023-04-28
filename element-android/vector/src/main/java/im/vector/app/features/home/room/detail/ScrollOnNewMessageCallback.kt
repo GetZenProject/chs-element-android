@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail
+package dev.getzen.element.features.home.room.detail
 
 import androidx.recyclerview.widget.LinearLayoutManager
-import im.vector.app.core.platform.DefaultListUpdateCallback
-import im.vector.app.features.home.room.detail.timeline.TimelineEventController
-import im.vector.app.features.home.room.detail.timeline.item.ItemWithEvents
+import dev.getzen.element.core.platform.DefaultListUpdateCallback
+import dev.getzen.element.features.home.room.detail.timeline.TimelineEventController
+import dev.getzen.element.features.home.room.detail.timeline.item.ItemWithEvents
 import org.matrix.android.sdk.api.extensions.tryOrNull
 import java.util.concurrent.CopyOnWriteArrayList
 

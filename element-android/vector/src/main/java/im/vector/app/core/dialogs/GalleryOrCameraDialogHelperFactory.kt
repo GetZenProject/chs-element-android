@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.dialogs
+package dev.getzen.element.core.dialogs
 
 import androidx.fragment.app.Fragment
-import im.vector.app.core.resources.ColorProvider
+import dev.getzen.element.core.resources.ColorProvider
 import im.vector.lib.core.utils.timer.Clock
 import javax.inject.Inject
 

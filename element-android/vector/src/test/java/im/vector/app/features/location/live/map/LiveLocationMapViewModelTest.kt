@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.location.live.map
+package dev.getzen.element.features.location.live.map
 
 import com.airbnb.mvrx.test.MavericksTestRule
-import im.vector.app.features.location.LocationData
-import im.vector.app.features.location.live.StopLiveLocationShareUseCase
-import im.vector.app.test.fakes.FakeLocationSharingServiceConnection
-import im.vector.app.test.fakes.FakeLocationTracker
-import im.vector.app.test.fakes.FakeSession
-import im.vector.app.test.test
+import dev.getzen.element.features.location.LocationData
+import dev.getzen.element.features.location.live.StopLiveLocationShareUseCase
+import dev.getzen.element.test.fakes.FakeLocationSharingServiceConnection
+import dev.getzen.element.test.fakes.FakeLocationTracker
+import dev.getzen.element.test.fakes.FakeSession
+import dev.getzen.element.test.test
 import io.mockk.every
 import io.mockk.mockk
 import io.mockk.unmockkAll

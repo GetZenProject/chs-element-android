@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.themes
+package dev.getzen.element.features.themes
 
 import androidx.annotation.StyleRes
-import im.vector.app.R
+import dev.getzen.element.R
 
 /**
  * Class to manage Activity other possible themes.

@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.crypto.keysbackup.setup
+package dev.getzen.element.features.crypto.keysbackup.setup
 
 import android.content.Context
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.nulabinc.zxcvbn.Strength
-import im.vector.app.R
-import im.vector.app.core.platform.WaitingViewData
-import im.vector.app.core.utils.LiveEvent
+import dev.getzen.element.R
+import dev.getzen.element.core.platform.WaitingViewData
+import dev.getzen.element.core.utils.LiveEvent
 import im.vector.lib.core.utils.timer.Clock
 import org.matrix.android.sdk.api.MatrixCallback
 import org.matrix.android.sdk.api.listeners.ProgressListener

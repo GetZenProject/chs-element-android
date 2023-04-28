@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.dialogs
+package dev.getzen.element.core.dialogs
 
 import android.app.Activity
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.databinding.DialogDeviceVerifyBinding
+import dev.getzen.element.R
+import dev.getzen.element.databinding.DialogDeviceVerifyBinding
 import org.matrix.android.sdk.api.extensions.getFingerprintHumanReadable
 import org.matrix.android.sdk.api.session.crypto.model.CryptoDeviceInfo
 

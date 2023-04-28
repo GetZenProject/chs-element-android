@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.ui.list
+package dev.getzen.element.core.ui.list
 
 import android.graphics.Typeface
 

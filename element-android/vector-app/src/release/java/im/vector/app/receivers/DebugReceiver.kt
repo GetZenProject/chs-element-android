@@ -16,7 +16,7 @@
 
 @file:Suppress("UNUSED_PARAMETER")
 
-package im.vector.app.receivers
+package dev.getzen.element.receivers
 
 import android.content.BroadcastReceiver
 import android.content.Context

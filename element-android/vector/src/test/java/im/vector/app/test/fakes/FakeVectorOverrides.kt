@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.test.fakes
+package dev.getzen.element.test.fakes
 
-import im.vector.app.features.DefaultVectorOverrides
-import im.vector.app.features.VectorOverrides
+import dev.getzen.element.features.DefaultVectorOverrides
+import dev.getzen.element.features.VectorOverrides
 
 class FakeVectorOverrides : VectorOverrides by DefaultVectorOverrides()

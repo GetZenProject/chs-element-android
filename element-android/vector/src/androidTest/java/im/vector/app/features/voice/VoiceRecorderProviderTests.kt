@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.voice
+package dev.getzen.element.features.voice
 
 import android.os.Build
 import androidx.test.platform.app.InstrumentationRegistry
-import im.vector.app.TestBuildVersionSdkIntProvider
-import im.vector.app.features.DefaultVectorFeatures
+import dev.getzen.element.TestBuildVersionSdkIntProvider
+import dev.getzen.element.features.DefaultVectorFeatures
 import io.mockk.every
 import io.mockk.spyk
 import org.amshove.kluent.shouldBeInstanceOf

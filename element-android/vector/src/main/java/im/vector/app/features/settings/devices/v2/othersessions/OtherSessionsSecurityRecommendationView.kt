@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2.othersessions
+package dev.getzen.element.features.settings.devices.v2.othersessions
 
 import android.content.Context
 import android.content.res.ColorStateList
@@ -23,9 +23,9 @@ import android.util.AttributeSet
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.res.use
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.setTextWithColoredPart
-import im.vector.app.databinding.ViewOtherSessionSecurityRecommendationBinding
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.setTextWithColoredPart
+import dev.getzen.element.databinding.ViewOtherSessionSecurityRecommendationBinding
 
 @AndroidEntryPoint
 class OtherSessionsSecurityRecommendationView @JvmOverloads constructor(

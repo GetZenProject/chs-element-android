@@ -19,7 +19,7 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:src="@sample/room_round_avatars" />
 
-    <im.vector.app.core.ui.views.PresenceStateImageView
+    <dev.getzen.element.core.ui.views.PresenceStateImageView
         android:id="@+id/roomToolbarPresenceImageView"
         android:layout_width="11dp"
         android:layout_height="12dp"
@@ -48,7 +48,7 @@
         tools:ignore="MissingConstraints"
         tools:visibility="invisible" />
 
-    <im.vector.app.core.ui.views.ShieldImageView
+    <dev.getzen.element.core.ui.views.ShieldImageView
         android:id="@+id/roomToolbarAvatarShield"
         android:layout_width="11dp"
         android:layout_height="13dp"
@@ -66,7 +66,7 @@
         app:barrierDirection="end"
         app:constraint_referenced_ids="roomToolbarAvatarImageView,roomToolbarAvatarShield,roomToolbarPresenceImageView,roomToolbarPublicImageView" />
 
-    <im.vector.app.core.ui.views.ShieldImageView
+    <dev.getzen.element.core.ui.views.ShieldImageView
         android:id="@+id/roomToolbarTitleShield"
         android:layout_width="11dp"
         android:layout_height="13dp"

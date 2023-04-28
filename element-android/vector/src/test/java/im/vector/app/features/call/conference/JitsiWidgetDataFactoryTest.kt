@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call.conference
+package dev.getzen.element.features.call.conference
 
 import org.amshove.kluent.internal.assertFails
 import org.junit.Assert.assertEquals

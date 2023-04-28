@@ -15,12 +15,12 @@
  *
  */
 
-package im.vector.app.core.epoxy.profiles
+package dev.getzen.element.core.epoxy.profiles
 
 import androidx.core.view.isVisible
 import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
-import im.vector.app.core.extensions.setTextOrHide
+import dev.getzen.element.core.extensions.setTextOrHide
 
 @EpoxyModelClass
 abstract class ProfileMatrixItemWithPowerLevel : ProfileMatrixItem() {

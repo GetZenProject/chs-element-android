@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.create
+package dev.getzen.element.features.spaces.create
 
 import android.net.Uri
-import im.vector.app.core.platform.ViewModelTask
-import im.vector.app.features.raw.wellknown.getElementWellknown
-import im.vector.app.features.raw.wellknown.isE2EByDefault
-import im.vector.app.features.settings.VectorPreferences
+import dev.getzen.element.core.platform.ViewModelTask
+import dev.getzen.element.features.raw.wellknown.getElementWellknown
+import dev.getzen.element.features.raw.wellknown.isE2EByDefault
+import dev.getzen.element.features.settings.VectorPreferences
 import org.matrix.android.sdk.api.extensions.tryOrNull
 import org.matrix.android.sdk.api.raw.RawService
 import org.matrix.android.sdk.api.session.Session

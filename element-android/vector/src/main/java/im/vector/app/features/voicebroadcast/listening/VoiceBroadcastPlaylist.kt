@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.voicebroadcast.listening
+package dev.getzen.element.features.voicebroadcast.listening
 
-import im.vector.app.features.voicebroadcast.duration
-import im.vector.app.features.voicebroadcast.sequence
+import dev.getzen.element.features.voicebroadcast.duration
+import dev.getzen.element.features.voicebroadcast.sequence
 import org.matrix.android.sdk.api.session.room.model.message.MessageAudioEvent
 
 class VoiceBroadcastPlaylist(

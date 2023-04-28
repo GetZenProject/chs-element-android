@@ -35,7 +35,7 @@
         app:layout_constraintTop_toBottomOf="@id/roomToolbarThreadTitleTextView"
         tools:src="@sample/room_round_avatars" />
 
-    <im.vector.app.core.ui.views.ShieldImageView
+    <dev.getzen.element.core.ui.views.ShieldImageView
         android:id="@+id/roomToolbarThreadShieldImageView"
         android:layout_width="10dp"
         android:layout_height="10dp"

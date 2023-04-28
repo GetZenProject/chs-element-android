@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-package im.vector.app.ui.robot.space
+package dev.getzen.element.ui.robot.space
 
 import androidx.test.espresso.Espresso
 import androidx.test.espresso.matcher.ViewMatchers
 import com.adevinta.android.barista.interaction.BaristaClickInteractions.clickOn
-import im.vector.app.R
-import im.vector.app.clickOnSheet
-import im.vector.app.espresso.tools.waitUntilActivityVisible
-import im.vector.app.espresso.tools.waitUntilDialogVisible
-import im.vector.app.espresso.tools.waitUntilViewVisible
-import im.vector.app.features.invite.InviteUsersToRoomActivity
-import im.vector.app.features.roomprofile.RoomProfileActivity
-import im.vector.app.features.spaces.SpaceExploreActivity
-import im.vector.app.features.spaces.leave.SpaceLeaveAdvancedActivity
-import im.vector.app.features.spaces.manage.SpaceManageActivity
+import dev.getzen.element.R
+import dev.getzen.element.clickOnSheet
+import dev.getzen.element.espresso.tools.waitUntilActivityVisible
+import dev.getzen.element.espresso.tools.waitUntilDialogVisible
+import dev.getzen.element.espresso.tools.waitUntilViewVisible
+import dev.getzen.element.features.invite.InviteUsersToRoomActivity
+import dev.getzen.element.features.roomprofile.RoomProfileActivity
+import dev.getzen.element.features.spaces.SpaceExploreActivity
+import dev.getzen.element.features.spaces.leave.SpaceLeaveAdvancedActivity
+import dev.getzen.element.features.spaces.manage.SpaceManageActivity
 
 class SpaceMenuRobot {
 

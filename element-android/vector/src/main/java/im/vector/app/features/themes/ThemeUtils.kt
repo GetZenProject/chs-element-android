@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.themes
+package dev.getzen.element.features.themes
 
 import android.app.Activity
 import android.content.Context
@@ -29,7 +29,7 @@ import androidx.core.content.ContextCompat
 import androidx.core.content.edit
 import androidx.core.graphics.drawable.DrawableCompat
 import androidx.preference.PreferenceManager
-import im.vector.app.R
+import dev.getzen.element.R
 import timber.log.Timber
 import java.util.concurrent.atomic.AtomicReference
 

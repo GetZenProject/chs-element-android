@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.edithistory
+package dev.getzen.element.features.home.room.detail.timeline.edithistory
 
 import com.airbnb.mvrx.Async
 import com.airbnb.mvrx.MavericksState
 import com.airbnb.mvrx.Uninitialized
-import im.vector.app.features.home.room.detail.timeline.action.TimelineEventFragmentArgs
+import dev.getzen.element.features.home.room.detail.timeline.action.TimelineEventFragmentArgs
 import org.matrix.android.sdk.api.session.events.model.Event
 
 data class ViewEditHistoryViewState(

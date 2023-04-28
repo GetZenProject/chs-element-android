@@ -15,7 +15,7 @@
  *
  */
 
-package im.vector.app.features.home.room.detail.composer
+package dev.getzen.element.features.home.room.detail.composer
 
 import android.content.Context
 import android.net.Uri
@@ -29,10 +29,10 @@ import androidx.appcompat.widget.AppCompatEditText
 import androidx.core.view.ViewCompat
 import androidx.core.view.inputmethod.EditorInfoCompat
 import androidx.core.view.inputmethod.InputConnectionCompat
-import im.vector.app.core.extensions.ooi
-import im.vector.app.core.platform.SimpleTextWatcher
-import im.vector.app.features.home.room.detail.composer.images.UriContentListener
-import im.vector.app.features.html.PillImageSpan
+import dev.getzen.element.core.extensions.ooi
+import dev.getzen.element.core.platform.SimpleTextWatcher
+import dev.getzen.element.features.home.room.detail.composer.images.UriContentListener
+import dev.getzen.element.features.html.PillImageSpan
 import timber.log.Timber
 
 class ComposerEditText @JvmOverloads constructor(

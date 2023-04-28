@@ -14,25 +14,25 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.detail.timeline.factory
+package dev.getzen.element.features.home.room.detail.timeline.factory
 
-import im.vector.app.core.date.VectorDateFormatter
-import im.vector.app.core.epoxy.VectorEpoxyModel
-import im.vector.app.core.resources.DateProvider
-import im.vector.app.core.utils.DimensionConverter
-import im.vector.app.features.home.room.detail.timeline.helper.AvatarSizeProvider
-import im.vector.app.features.home.room.detail.timeline.helper.LocationPinProvider
-import im.vector.app.features.home.room.detail.timeline.helper.TimelineMediaSizeProvider
-import im.vector.app.features.home.room.detail.timeline.item.AbsMessageItem
-import im.vector.app.features.home.room.detail.timeline.item.MessageLiveLocationInactiveItem
-import im.vector.app.features.home.room.detail.timeline.item.MessageLiveLocationInactiveItem_
-import im.vector.app.features.home.room.detail.timeline.item.MessageLiveLocationItem
-import im.vector.app.features.home.room.detail.timeline.item.MessageLiveLocationItem_
-import im.vector.app.features.home.room.detail.timeline.item.MessageLiveLocationStartItem
-import im.vector.app.features.home.room.detail.timeline.item.MessageLiveLocationStartItem_
-import im.vector.app.features.location.INITIAL_MAP_ZOOM_IN_TIMELINE
-import im.vector.app.features.location.UrlMapProvider
-import im.vector.app.features.location.toLocationData
+import dev.getzen.element.core.date.VectorDateFormatter
+import dev.getzen.element.core.epoxy.VectorEpoxyModel
+import dev.getzen.element.core.resources.DateProvider
+import dev.getzen.element.core.utils.DimensionConverter
+import dev.getzen.element.features.home.room.detail.timeline.helper.AvatarSizeProvider
+import dev.getzen.element.features.home.room.detail.timeline.helper.LocationPinProvider
+import dev.getzen.element.features.home.room.detail.timeline.helper.TimelineMediaSizeProvider
+import dev.getzen.element.features.home.room.detail.timeline.item.AbsMessageItem
+import dev.getzen.element.features.home.room.detail.timeline.item.MessageLiveLocationInactiveItem
+import dev.getzen.element.features.home.room.detail.timeline.item.MessageLiveLocationInactiveItem_
+import dev.getzen.element.features.home.room.detail.timeline.item.MessageLiveLocationItem
+import dev.getzen.element.features.home.room.detail.timeline.item.MessageLiveLocationItem_
+import dev.getzen.element.features.home.room.detail.timeline.item.MessageLiveLocationStartItem
+import dev.getzen.element.features.home.room.detail.timeline.item.MessageLiveLocationStartItem_
+import dev.getzen.element.features.location.INITIAL_MAP_ZOOM_IN_TIMELINE
+import dev.getzen.element.features.location.UrlMapProvider
+import dev.getzen.element.features.location.toLocationData
 import org.matrix.android.sdk.api.session.Session
 import org.matrix.android.sdk.api.session.room.timeline.TimelineEvent
 import org.threeten.bp.LocalDateTime

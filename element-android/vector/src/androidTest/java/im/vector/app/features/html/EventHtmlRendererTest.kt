@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.html
+package dev.getzen.element.features.html
 
 import android.widget.TextView
 import androidx.core.text.toSpanned
 import androidx.test.platform.app.InstrumentationRegistry
-import im.vector.app.core.di.ActiveSessionHolder
-import im.vector.app.core.resources.ColorProvider
-import im.vector.app.core.utils.DimensionConverter
-import im.vector.app.core.utils.toTestSpan
-import im.vector.app.features.settings.VectorPreferences
+import dev.getzen.element.core.di.ActiveSessionHolder
+import dev.getzen.element.core.resources.ColorProvider
+import dev.getzen.element.core.utils.DimensionConverter
+import dev.getzen.element.core.utils.toTestSpan
+import dev.getzen.element.features.settings.VectorPreferences
 import io.mockk.every
 import io.mockk.mockk
 import org.amshove.kluent.shouldBeEqualTo

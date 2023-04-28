@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.list.home.header
+package dev.getzen.element.features.home.room.list.home.header
 
 import org.matrix.android.sdk.api.session.room.model.RoomSummary
 

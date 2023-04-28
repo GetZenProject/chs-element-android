@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.test.fixtures
+package dev.getzen.element.test.fixtures
 
-import im.vector.app.features.analytics.AnalyticsConfig
+import dev.getzen.element.features.analytics.AnalyticsConfig
 
 object AnalyticsConfigFixture {
     fun anAnalyticsConfig(

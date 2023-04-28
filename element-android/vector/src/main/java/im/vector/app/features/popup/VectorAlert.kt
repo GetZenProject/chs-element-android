@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.popup
+package dev.getzen.element.features.popup
 
 import android.app.Activity
 import android.view.View
@@ -23,7 +23,7 @@ import androidx.annotation.ColorInt
 import androidx.annotation.ColorRes
 import androidx.annotation.DrawableRes
 import androidx.annotation.LayoutRes
-import im.vector.app.R
+import dev.getzen.element.R
 import java.lang.ref.WeakReference
 
 interface VectorAlert {

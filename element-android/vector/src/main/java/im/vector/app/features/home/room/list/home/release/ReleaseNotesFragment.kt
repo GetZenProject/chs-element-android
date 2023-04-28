@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.home.room.list.home.release
+package dev.getzen.element.features.home.room.list.home.release
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -26,10 +26,10 @@ import androidx.viewpager2.widget.ViewPager2
 import com.airbnb.mvrx.fragmentViewModel
 import com.google.android.material.tabs.TabLayoutMediator
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.epoxy.onClick
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.databinding.BottomSheetReleaseNotesBinding
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.onClick
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.databinding.BottomSheetReleaseNotesBinding
 import javax.inject.Inject
 
 @AndroidEntryPoint

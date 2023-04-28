@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.debug.settings
+package dev.getzen.element.features.debug.settings
 
 import com.airbnb.mvrx.MavericksState
-import im.vector.app.features.debug.settings.OverrideDropdownView.OverrideDropdown
+import dev.getzen.element.features.debug.settings.OverrideDropdownView.OverrideDropdown
 
 data class DebugPrivateSettingsViewState(
         val dialPadVisible: Boolean = false,

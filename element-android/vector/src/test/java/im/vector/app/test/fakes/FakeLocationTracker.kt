@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.test.fakes
+package dev.getzen.element.test.fakes
 
-import im.vector.app.features.location.LocationTracker
+import dev.getzen.element.features.location.LocationTracker
 import io.mockk.mockk
 import io.mockk.verify
 

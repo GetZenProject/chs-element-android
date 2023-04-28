@@ -14,24 +14,24 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call.webrtc
+package dev.getzen.element.features.call.webrtc
 
 import android.content.Context
 import androidx.lifecycle.DefaultLifecycleObserver
 import androidx.lifecycle.LifecycleOwner
-import im.vector.app.ActiveSessionDataSource
-import im.vector.app.core.pushers.UnifiedPushHelper
-import im.vector.app.core.services.CallAndroidService
-import im.vector.app.features.analytics.AnalyticsTracker
-import im.vector.app.features.analytics.plan.CallEnded
-import im.vector.app.features.analytics.plan.CallStarted
-import im.vector.app.features.call.VectorCallActivity
-import im.vector.app.features.call.audio.CallAudioManager
-import im.vector.app.features.call.lookup.CallProtocolsChecker
-import im.vector.app.features.call.lookup.CallUserMapper
-import im.vector.app.features.call.utils.EglUtils
-import im.vector.app.features.call.vectorCallService
-import im.vector.app.features.session.coroutineScope
+import dev.getzen.element.ActiveSessionDataSource
+import dev.getzen.element.core.pushers.UnifiedPushHelper
+import dev.getzen.element.core.services.CallAndroidService
+import dev.getzen.element.features.analytics.AnalyticsTracker
+import dev.getzen.element.features.analytics.plan.CallEnded
+import dev.getzen.element.features.analytics.plan.CallStarted
+import dev.getzen.element.features.call.VectorCallActivity
+import dev.getzen.element.features.call.audio.CallAudioManager
+import dev.getzen.element.features.call.lookup.CallProtocolsChecker
+import dev.getzen.element.features.call.lookup.CallUserMapper
+import dev.getzen.element.features.call.utils.EglUtils
+import dev.getzen.element.features.call.vectorCallService
+import dev.getzen.element.features.session.coroutineScope
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.asCoroutineDispatcher
 import org.matrix.android.sdk.api.extensions.orFalse

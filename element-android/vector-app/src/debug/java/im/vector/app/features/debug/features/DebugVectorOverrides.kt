@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.debug.features
+package dev.getzen.element.features.debug.features
 
 import android.content.Context
 import androidx.datastore.core.DataStore
@@ -22,8 +22,8 @@ import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.core.booleanPreferencesKey
 import androidx.datastore.preferences.core.edit
 import androidx.datastore.preferences.preferencesDataStore
-import im.vector.app.features.HomeserverCapabilitiesOverride
-import im.vector.app.features.VectorOverrides
+import dev.getzen.element.features.HomeserverCapabilitiesOverride
+import dev.getzen.element.features.VectorOverrides
 import kotlinx.coroutines.flow.firstOrNull
 import kotlinx.coroutines.flow.map
 import org.matrix.android.sdk.api.extensions.orFalse

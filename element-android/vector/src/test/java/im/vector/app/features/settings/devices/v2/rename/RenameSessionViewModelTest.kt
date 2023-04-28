@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices.v2.rename
+package dev.getzen.element.features.settings.devices.v2.rename
 
 import com.airbnb.mvrx.test.MavericksTestRule
-import im.vector.app.features.settings.devices.v2.DeviceFullInfo
-import im.vector.app.features.settings.devices.v2.overview.GetDeviceFullInfoUseCase
-import im.vector.app.test.test
-import im.vector.app.test.testDispatcher
+import dev.getzen.element.features.settings.devices.v2.DeviceFullInfo
+import dev.getzen.element.features.settings.devices.v2.overview.GetDeviceFullInfoUseCase
+import dev.getzen.element.test.test
+import dev.getzen.element.test.testDispatcher
 import io.mockk.coEvery
 import io.mockk.every
 import io.mockk.mockk

@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.font
+package dev.getzen.element.features.settings.font
 
-import im.vector.app.core.platform.VectorViewModelAction
-import im.vector.app.features.settings.FontScaleValue
+import dev.getzen.element.core.platform.VectorViewModelAction
+import dev.getzen.element.features.settings.FontScaleValue
 
 sealed class FontScaleSettingAction : VectorViewModelAction {
     data class UseSystemSettingChangedAction(val useSystemSettings: Boolean) : FontScaleSettingAction()

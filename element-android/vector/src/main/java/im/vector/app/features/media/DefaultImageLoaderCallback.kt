@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.media
+package dev.getzen.element.features.media
 
 import com.github.piasy.biv.loader.ImageLoader
 import java.io.File

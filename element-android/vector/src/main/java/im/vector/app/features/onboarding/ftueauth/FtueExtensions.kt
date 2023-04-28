@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.onboarding.ftueauth
+package dev.getzen.element.features.onboarding.ftueauth
 
-import im.vector.app.R
-import im.vector.app.features.login.SignMode
-import im.vector.app.features.onboarding.OnboardingAction
-import im.vector.app.features.themes.ThemeProvider
+import dev.getzen.element.R
+import dev.getzen.element.features.login.SignMode
+import dev.getzen.element.features.onboarding.OnboardingAction
+import dev.getzen.element.features.themes.ThemeProvider
 
 fun SignMode.toAuthenticateAction(login: String, password: String, initialDeviceName: String): OnboardingAction.AuthenticateAction {
     return when (this) {

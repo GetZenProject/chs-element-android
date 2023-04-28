@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.device
+package dev.getzen.element.core.device
 
-import im.vector.app.test.fakes.FakeActiveSessionHolder
-import im.vector.app.test.fakes.FakeCryptoService
-import im.vector.app.test.fakes.FakeSession
+import dev.getzen.element.test.fakes.FakeActiveSessionHolder
+import dev.getzen.element.test.fakes.FakeCryptoService
+import dev.getzen.element.test.fakes.FakeSession
 import org.amshove.kluent.shouldBeEqualTo
 import org.junit.Test
 

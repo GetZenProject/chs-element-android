@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.location.option
+package dev.getzen.element.features.location.option
 
 import android.content.Context
 import android.content.res.TypedArray
@@ -26,9 +26,9 @@ import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.ContextCompat
 import androidx.core.content.res.use
 import androidx.core.view.setPadding
-import im.vector.app.R
-import im.vector.app.core.extensions.tintBackground
-import im.vector.app.databinding.ViewLocationSharingOptionBinding
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.tintBackground
+import dev.getzen.element.databinding.ViewLocationSharingOptionBinding
 
 /**
  * Custom view to display a location sharing option.

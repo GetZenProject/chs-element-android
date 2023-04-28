@@ -14,7 +14,7 @@
  * limitations under the License.
  *
  */
-package im.vector.app.features.roommemberprofile.devices
+package dev.getzen.element.features.roommemberprofile.devices
 
 import com.airbnb.mvrx.Async
 import com.airbnb.mvrx.Loading
@@ -25,10 +25,10 @@ import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
 import dagger.hilt.EntryPoints
-import im.vector.app.core.di.MavericksAssistedViewModelFactory
-import im.vector.app.core.di.SingletonEntryPoint
-import im.vector.app.core.di.hiltMavericksViewModelFactory
-import im.vector.app.core.platform.VectorViewModel
+import dev.getzen.element.core.di.MavericksAssistedViewModelFactory
+import dev.getzen.element.core.di.SingletonEntryPoint
+import dev.getzen.element.core.di.hiltMavericksViewModelFactory
+import dev.getzen.element.core.platform.VectorViewModel
 import kotlinx.coroutines.launch
 import org.matrix.android.sdk.api.extensions.tryOrNull
 import org.matrix.android.sdk.api.session.Session

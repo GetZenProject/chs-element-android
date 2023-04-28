@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.preference
+package dev.getzen.element.core.preference
 
 import android.animation.Animator
 import android.animation.ArgbEvaluator
@@ -26,8 +26,8 @@ import android.widget.TextView
 import androidx.core.animation.doOnEnd
 import androidx.preference.PreferenceViewHolder
 import androidx.preference.SwitchPreference
-import im.vector.app.R
-import im.vector.app.features.themes.ThemeUtils
+import dev.getzen.element.R
+import dev.getzen.element.features.themes.ThemeUtils
 
 /**
  * Switch preference with title on multiline (only used in XML).

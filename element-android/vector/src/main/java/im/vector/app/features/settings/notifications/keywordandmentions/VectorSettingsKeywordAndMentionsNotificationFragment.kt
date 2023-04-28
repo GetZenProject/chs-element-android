@@ -14,22 +14,22 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.notifications.keywordandmentions
+package dev.getzen.element.features.settings.notifications.keywordandmentions
 
 import android.os.Bundle
 import android.view.View
 import androidx.lifecycle.lifecycleScope
 import androidx.preference.Preference
-import im.vector.app.R
-import im.vector.app.core.preference.KeywordPreference
-import im.vector.app.core.preference.VectorCheckboxPreference
-import im.vector.app.core.preference.VectorPreference
-import im.vector.app.core.preference.VectorPreferenceCategory
-import im.vector.app.features.analytics.plan.MobileScreen
-import im.vector.app.features.settings.notifications.NotificationIndex
-import im.vector.app.features.settings.notifications.StandardActions
-import im.vector.app.features.settings.notifications.VectorSettingsPushRuleNotificationFragment
-import im.vector.app.features.settings.notifications.getStandardAction
+import dev.getzen.element.R
+import dev.getzen.element.core.preference.KeywordPreference
+import dev.getzen.element.core.preference.VectorCheckboxPreference
+import dev.getzen.element.core.preference.VectorPreference
+import dev.getzen.element.core.preference.VectorPreferenceCategory
+import dev.getzen.element.features.analytics.plan.MobileScreen
+import dev.getzen.element.features.settings.notifications.NotificationIndex
+import dev.getzen.element.features.settings.notifications.StandardActions
+import dev.getzen.element.features.settings.notifications.VectorSettingsPushRuleNotificationFragment
+import dev.getzen.element.features.settings.notifications.getStandardAction
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

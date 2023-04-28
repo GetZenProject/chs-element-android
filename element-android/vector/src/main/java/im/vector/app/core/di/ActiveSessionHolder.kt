@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.di
+package dev.getzen.element.core.di
 
 import android.content.Context
-import im.vector.app.ActiveSessionDataSource
-import im.vector.app.core.pushers.UnregisterUnifiedPushUseCase
-import im.vector.app.core.services.GuardServiceStarter
-import im.vector.app.core.session.ConfigureAndStartSessionUseCase
-import im.vector.app.features.call.webrtc.WebRtcCallManager
-import im.vector.app.features.crypto.keysrequest.KeyRequestHandler
-import im.vector.app.features.crypto.verification.IncomingVerificationRequestHandler
-import im.vector.app.features.notifications.PushRuleTriggerListener
-import im.vector.app.features.session.SessionListener
+import dev.getzen.element.ActiveSessionDataSource
+import dev.getzen.element.core.pushers.UnregisterUnifiedPushUseCase
+import dev.getzen.element.core.services.GuardServiceStarter
+import dev.getzen.element.core.session.ConfigureAndStartSessionUseCase
+import dev.getzen.element.features.call.webrtc.WebRtcCallManager
+import dev.getzen.element.features.crypto.keysrequest.KeyRequestHandler
+import dev.getzen.element.features.crypto.verification.IncomingVerificationRequestHandler
+import dev.getzen.element.features.notifications.PushRuleTriggerListener
+import dev.getzen.element.features.session.SessionListener
 import kotlinx.coroutines.runBlocking
 import org.matrix.android.sdk.api.auth.AuthenticationService
 import org.matrix.android.sdk.api.session.Session

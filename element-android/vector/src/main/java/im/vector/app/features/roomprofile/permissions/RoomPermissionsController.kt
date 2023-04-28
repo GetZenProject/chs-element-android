@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.permissions
+package dev.getzen.element.features.roomprofile.permissions
 
 import com.airbnb.epoxy.TypedEpoxyController
 import com.airbnb.mvrx.Success
-import im.vector.app.R
-import im.vector.app.core.epoxy.loadingItem
-import im.vector.app.core.epoxy.profiles.buildProfileAction
-import im.vector.app.core.epoxy.profiles.buildProfileSection
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.features.discovery.settingsInfoItem
-import im.vector.app.features.form.formAdvancedToggleItem
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.loadingItem
+import dev.getzen.element.core.epoxy.profiles.buildProfileAction
+import dev.getzen.element.core.epoxy.profiles.buildProfileSection
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.features.discovery.settingsInfoItem
+import dev.getzen.element.features.form.formAdvancedToggleItem
 import org.matrix.android.sdk.api.session.room.model.PowerLevelsContent
 import org.matrix.android.sdk.api.session.room.model.RoomType
 import org.matrix.android.sdk.api.session.room.model.banOrDefault

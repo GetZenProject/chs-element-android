@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.call
+package dev.getzen.element.features.call
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import im.vector.app.features.call.webrtc.WebRtcCall
-import im.vector.app.features.call.webrtc.WebRtcCallManager
+import dev.getzen.element.features.call.webrtc.WebRtcCall
+import dev.getzen.element.features.call.webrtc.WebRtcCallManager
 import org.matrix.android.sdk.api.session.call.MxCall
 import javax.inject.Inject
 

@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.polls
+package dev.getzen.element.features.roomprofile.polls
 
 import com.airbnb.mvrx.MavericksViewModelFactory
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
-import im.vector.app.core.di.MavericksAssistedViewModelFactory
-import im.vector.app.core.di.hiltMavericksViewModelFactory
-import im.vector.app.core.platform.VectorViewModel
-import im.vector.app.features.roomprofile.polls.list.domain.DisposePollHistoryUseCase
-import im.vector.app.features.roomprofile.polls.list.domain.GetPollsUseCase
-import im.vector.app.features.roomprofile.polls.list.domain.LoadMorePollsUseCase
-import im.vector.app.features.roomprofile.polls.list.domain.SyncPollsUseCase
-import im.vector.app.features.roomprofile.polls.list.ui.PollSummaryMapper
+import dev.getzen.element.core.di.MavericksAssistedViewModelFactory
+import dev.getzen.element.core.di.hiltMavericksViewModelFactory
+import dev.getzen.element.core.platform.VectorViewModel
+import dev.getzen.element.features.roomprofile.polls.list.domain.DisposePollHistoryUseCase
+import dev.getzen.element.features.roomprofile.polls.list.domain.GetPollsUseCase
+import dev.getzen.element.features.roomprofile.polls.list.domain.LoadMorePollsUseCase
+import dev.getzen.element.features.roomprofile.polls.list.domain.SyncPollsUseCase
+import dev.getzen.element.features.roomprofile.polls.list.ui.PollSummaryMapper
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.onEach

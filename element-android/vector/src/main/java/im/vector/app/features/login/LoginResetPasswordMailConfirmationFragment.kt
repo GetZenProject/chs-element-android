@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.login
+package dev.getzen.element.features.login
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -23,8 +23,8 @@ import android.view.ViewGroup
 import com.airbnb.mvrx.Fail
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.databinding.FragmentLoginResetPasswordMailConfirmationBinding
+import dev.getzen.element.R
+import dev.getzen.element.databinding.FragmentLoginResetPasswordMailConfirmationBinding
 import org.matrix.android.sdk.api.failure.is401
 
 /**

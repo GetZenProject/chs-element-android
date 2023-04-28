@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomdirectory.roompreview
+package dev.getzen.element.features.roomdirectory.roompreview
 
 import android.graphics.Typeface
 import android.os.Bundle
@@ -31,20 +31,20 @@ import com.airbnb.mvrx.args
 import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.setTextOrHide
-import im.vector.app.core.platform.ButtonStateView
-import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.app.core.utils.styleMatchingText
-import im.vector.app.core.utils.tappableMatchingText
-import im.vector.app.databinding.FragmentRoomPreviewNoPreviewBinding
-import im.vector.app.features.analytics.plan.MobileScreen
-import im.vector.app.features.analytics.plan.ViewRoom
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.navigation.Navigator
-import im.vector.app.features.roomdirectory.JoinState
-import im.vector.app.features.settings.VectorSettingsActivity
-import im.vector.app.features.themes.ThemeUtils
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.setTextOrHide
+import dev.getzen.element.core.platform.ButtonStateView
+import dev.getzen.element.core.platform.VectorBaseFragment
+import dev.getzen.element.core.utils.styleMatchingText
+import dev.getzen.element.core.utils.tappableMatchingText
+import dev.getzen.element.databinding.FragmentRoomPreviewNoPreviewBinding
+import dev.getzen.element.features.analytics.plan.MobileScreen
+import dev.getzen.element.features.analytics.plan.ViewRoom
+import dev.getzen.element.features.home.AvatarRenderer
+import dev.getzen.element.features.navigation.Navigator
+import dev.getzen.element.features.roomdirectory.JoinState
+import dev.getzen.element.features.settings.VectorSettingsActivity
+import dev.getzen.element.features.themes.ThemeUtils
 import me.gujun.android.span.span
 import org.matrix.android.sdk.api.session.room.model.RoomType
 import org.matrix.android.sdk.api.util.MatrixItem

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.autocomplete.member
+package dev.getzen.element.features.autocomplete.member
 
 import org.matrix.android.sdk.api.session.room.model.RoomMemberSummary
 import org.matrix.android.sdk.api.session.room.model.RoomSummary

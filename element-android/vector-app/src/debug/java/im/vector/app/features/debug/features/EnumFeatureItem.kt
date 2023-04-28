@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.debug.features
+package dev.getzen.element.features.debug.features
 
 import android.view.View
 import android.widget.AdapterView
@@ -23,9 +23,9 @@ import android.widget.Spinner
 import android.widget.TextView
 import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
-import im.vector.app.core.epoxy.VectorEpoxyHolder
-import im.vector.app.core.epoxy.VectorEpoxyModel
-import im.vector.application.R
+import dev.getzen.element.core.epoxy.VectorEpoxyHolder
+import dev.getzen.element.core.epoxy.VectorEpoxyModel
+import dev.getzen.elementlication.R
 
 @EpoxyModelClass
 abstract class EnumFeatureItem : VectorEpoxyModel<EnumFeatureItem.Holder>(R.layout.item_feature) {

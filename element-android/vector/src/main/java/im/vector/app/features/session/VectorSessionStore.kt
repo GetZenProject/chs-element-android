@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.session
+package dev.getzen.element.features.session
 
 import android.content.Context
 import androidx.datastore.preferences.core.edit
 import androidx.datastore.preferences.core.stringPreferencesKey
-import im.vector.app.core.extensions.dataStoreProvider
-import im.vector.app.features.onboarding.FtueUseCase
+import dev.getzen.element.core.extensions.dataStoreProvider
+import dev.getzen.element.features.onboarding.FtueUseCase
 import kotlinx.coroutines.flow.first
 import org.matrix.android.sdk.api.util.md5
 

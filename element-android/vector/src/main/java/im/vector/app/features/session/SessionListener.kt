@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.session
+package dev.getzen.element.features.session
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import im.vector.app.core.extensions.postLiveEvent
-import im.vector.app.core.utils.LiveEvent
-import im.vector.app.features.analytics.AnalyticsTracker
-import im.vector.app.features.analytics.extensions.toListOfPerformanceTimer
-import im.vector.app.features.call.vectorCallService
+import dev.getzen.element.core.extensions.postLiveEvent
+import dev.getzen.element.core.utils.LiveEvent
+import dev.getzen.element.features.analytics.AnalyticsTracker
+import dev.getzen.element.features.analytics.extensions.toListOfPerformanceTimer
+import dev.getzen.element.features.call.vectorCallService
 import kotlinx.coroutines.cancelChildren
 import kotlinx.coroutines.launch
 import org.matrix.android.sdk.api.failure.GlobalError

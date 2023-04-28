@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.network
+package dev.getzen.element.core.network
 
 import kotlinx.coroutines.suspendCancellableCoroutine
 import okhttp3.Call

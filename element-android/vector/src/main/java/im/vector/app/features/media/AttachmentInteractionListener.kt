@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.media
+package dev.getzen.element.features.media
 
 interface AttachmentInteractionListener {
     fun onDismiss()

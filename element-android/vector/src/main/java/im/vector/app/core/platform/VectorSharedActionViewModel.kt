@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.platform
+package dev.getzen.element.core.platform
 
 import androidx.lifecycle.ViewModel
-import im.vector.app.core.utils.MutableDataSource
-import im.vector.app.core.utils.PublishDataSource
+import dev.getzen.element.core.utils.MutableDataSource
+import dev.getzen.element.core.utils.PublishDataSource
 
 interface VectorSharedAction
 

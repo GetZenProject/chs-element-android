@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <im.vector.app.core.platform.StateView
+    <dev.getzen.element.core.platform.StateView
         android:id="@+id/stateView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -19,7 +19,7 @@
             tools:itemCount="5"
             tools:listitem="@layout/item_room" />
 
-        <im.vector.app.features.home.room.list.widget.NotifsFabMenuView
+        <dev.getzen.element.features.home.room.list.widget.NotifsFabMenuView
             android:id="@+id/createChatFabMenu"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -59,6 +59,6 @@
             tools:layout_marginEnd="144dp"
             tools:visibility="visible" />
 
-    </im.vector.app.core.platform.StateView>
+    </dev.getzen.element.core.platform.StateView>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

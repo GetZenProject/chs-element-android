@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.version
+package dev.getzen.element.features.version
 
-import im.vector.app.core.resources.BuildMeta
-import im.vector.app.core.resources.VersionCodeProvider
+import dev.getzen.element.core.resources.BuildMeta
+import dev.getzen.element.core.resources.VersionCodeProvider
 import javax.inject.Inject
 
 class VersionProvider @Inject constructor(

@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.notifications
+package dev.getzen.element.features.notifications
 
-import im.vector.app.test.fixtures.aNotifiableMessageEvent
-import im.vector.app.test.fixtures.aSimpleNotifiableEvent
-import im.vector.app.test.fixtures.anInviteNotifiableEvent
+import dev.getzen.element.test.fixtures.aNotifiableMessageEvent
+import dev.getzen.element.test.fixtures.aSimpleNotifiableEvent
+import dev.getzen.element.test.fixtures.anInviteNotifiableEvent
 import org.amshove.kluent.shouldBeEqualTo
 import org.junit.Test
 

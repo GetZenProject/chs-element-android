@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.locale
+package dev.getzen.element.features.settings.locale
 
-import im.vector.app.core.platform.VectorViewEvents
+import dev.getzen.element.core.platform.VectorViewEvents
 
 sealed class LocalePickerViewEvents : VectorViewEvents {
     object RestartActivity : LocalePickerViewEvents()

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings
+package dev.getzen.element.features.settings
 
 import android.app.Activity
 import android.content.Intent
@@ -24,11 +24,11 @@ import android.os.Bundle
 import androidx.preference.Preference
 import androidx.preference.SwitchPreference
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.extensions.registerStartForActivityResult
-import im.vector.app.core.preference.VectorPreference
-import im.vector.app.core.utils.RingtoneUtils
-import im.vector.app.features.analytics.plan.MobileScreen
+import dev.getzen.element.R
+import dev.getzen.element.core.extensions.registerStartForActivityResult
+import dev.getzen.element.core.preference.VectorPreference
+import dev.getzen.element.core.utils.RingtoneUtils
+import dev.getzen.element.features.analytics.plan.MobileScreen
 import im.vector.lib.core.utils.compat.getParcelableExtraCompat
 import javax.inject.Inject
 

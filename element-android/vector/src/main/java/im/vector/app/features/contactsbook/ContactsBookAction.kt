@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.contactsbook
+package dev.getzen.element.features.contactsbook
 
-import im.vector.app.core.platform.VectorViewModelAction
+import dev.getzen.element.core.platform.VectorViewModelAction
 
 sealed class ContactsBookAction : VectorViewModelAction {
     data class FilterWith(val filter: String) : ContactsBookAction()

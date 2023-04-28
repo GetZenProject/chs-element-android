@@ -14,23 +14,23 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.homeserver
+package dev.getzen.element.features.settings.homeserver
 
 import com.airbnb.epoxy.TypedEpoxyController
 import com.airbnb.mvrx.Fail
 import com.airbnb.mvrx.Loading
 import com.airbnb.mvrx.Success
 import com.airbnb.mvrx.Uninitialized
-import im.vector.app.R
-import im.vector.app.core.epoxy.errorWithRetryItem
-import im.vector.app.core.epoxy.loadingItem
-import im.vector.app.core.error.ErrorFormatter
-import im.vector.app.core.resources.StringProvider
-import im.vector.app.core.ui.list.genericWithValueItem
-import im.vector.app.features.discovery.settingsCenteredImageItem
-import im.vector.app.features.discovery.settingsInfoItem
-import im.vector.app.features.discovery.settingsSectionTitleItem
-import im.vector.app.features.settings.VectorPreferences
+import dev.getzen.element.R
+import dev.getzen.element.core.epoxy.errorWithRetryItem
+import dev.getzen.element.core.epoxy.loadingItem
+import dev.getzen.element.core.error.ErrorFormatter
+import dev.getzen.element.core.resources.StringProvider
+import dev.getzen.element.core.ui.list.genericWithValueItem
+import dev.getzen.element.features.discovery.settingsCenteredImageItem
+import dev.getzen.element.features.discovery.settingsInfoItem
+import dev.getzen.element.features.discovery.settingsSectionTitleItem
+import dev.getzen.element.features.settings.VectorPreferences
 import im.vector.lib.core.utils.epoxy.charsequence.toEpoxyCharSequence
 import org.matrix.android.sdk.api.federation.FederationVersion
 import org.matrix.android.sdk.api.session.homeserver.HomeServerCapabilities

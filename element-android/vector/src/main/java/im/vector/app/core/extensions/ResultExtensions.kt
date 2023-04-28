@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.extensions
+package dev.getzen.element.core.extensions
 
 @Suppress("UNCHECKED_CAST") // We're casting null failure results to R
 inline fun <T, R> Result<T>.andThen(block: (T) -> Result<R>): Result<R> {

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.pushers.model
+package dev.getzen.element.core.pushers.model
 
 import org.matrix.android.sdk.api.MatrixPatterns
 

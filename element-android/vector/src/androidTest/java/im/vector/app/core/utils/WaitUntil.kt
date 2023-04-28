@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.utils
+package dev.getzen.element.core.utils
 
 import kotlinx.coroutines.delay
 import org.amshove.kluent.fail

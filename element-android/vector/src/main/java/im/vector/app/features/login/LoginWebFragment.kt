@@ -16,7 +16,7 @@
 
 @file:Suppress("DEPRECATION")
 
-package im.vector.app.features.login
+package dev.getzen.element.features.login
 
 import android.annotation.SuppressLint
 import android.content.DialogInterface
@@ -33,11 +33,11 @@ import android.webkit.WebViewClient
 import com.airbnb.mvrx.activityViewModel
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import dagger.hilt.android.AndroidEntryPoint
-import im.vector.app.R
-import im.vector.app.core.utils.AssetReader
-import im.vector.app.databinding.FragmentLoginWebBinding
-import im.vector.app.features.signout.soft.SoftLogoutAction
-import im.vector.app.features.signout.soft.SoftLogoutViewModel
+import dev.getzen.element.R
+import dev.getzen.element.core.utils.AssetReader
+import dev.getzen.element.databinding.FragmentLoginWebBinding
+import dev.getzen.element.features.signout.soft.SoftLogoutAction
+import dev.getzen.element.features.signout.soft.SoftLogoutViewModel
 import org.matrix.android.sdk.api.auth.data.Credentials
 import org.matrix.android.sdk.api.util.MatrixJsonParser
 import timber.log.Timber

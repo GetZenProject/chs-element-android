@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.roomprofile.members
+package dev.getzen.element.features.roomprofile.members
 
 import androidx.annotation.StringRes
 import com.airbnb.mvrx.Async
 import com.airbnb.mvrx.MavericksState
 import com.airbnb.mvrx.Uninitialized
-import im.vector.app.R
-import im.vector.app.core.platform.GenericIdArgs
-import im.vector.app.features.roomprofile.RoomProfileArgs
+import dev.getzen.element.R
+import dev.getzen.element.core.platform.GenericIdArgs
+import dev.getzen.element.features.roomprofile.RoomProfileArgs
 import org.matrix.android.sdk.api.session.crypto.model.UserVerificationLevel
 import org.matrix.android.sdk.api.session.events.model.Event
 import org.matrix.android.sdk.api.session.room.model.RoomMemberSummary

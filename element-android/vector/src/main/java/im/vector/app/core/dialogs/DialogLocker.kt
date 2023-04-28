@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.dialogs
+package dev.getzen.element.core.dialogs
 
 import android.os.Bundle
 import androidx.appcompat.app.AlertDialog
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.core.platform.Restorable
+import dev.getzen.element.core.platform.Restorable
 import timber.log.Timber
 
 private const val KEY_DIALOG_IS_DISPLAYED = "DialogLocker.KEY_DIALOG_IS_DISPLAYED"

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.test.fixtures
+package dev.getzen.element.test.fixtures
 
-import im.vector.app.core.resources.BuildMeta
+import dev.getzen.element.core.resources.BuildMeta
 
 fun aBuildMeta() = BuildMeta(
         isDebug = false,

@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.spaces.manage
+package dev.getzen.element.features.spaces.manage
 
 import androidx.recyclerview.widget.DiffUtil
 import com.airbnb.epoxy.EpoxyModel
 import com.airbnb.epoxy.paging.PagedListEpoxyController
-import im.vector.app.R
-import im.vector.app.core.ui.list.GenericPillItem_
-import im.vector.app.core.utils.createUIHandler
-import im.vector.app.features.home.AvatarRenderer
-import im.vector.app.features.home.room.list.RoomCategoryItem_
+import dev.getzen.element.R
+import dev.getzen.element.core.ui.list.GenericPillItem_
+import dev.getzen.element.core.utils.createUIHandler
+import dev.getzen.element.features.home.AvatarRenderer
+import dev.getzen.element.features.home.room.list.RoomCategoryItem_
 import im.vector.lib.core.utils.epoxy.charsequence.toEpoxyCharSequence
 import org.matrix.android.sdk.api.session.room.ResultBoundaries
 import org.matrix.android.sdk.api.session.room.model.RoomSummary

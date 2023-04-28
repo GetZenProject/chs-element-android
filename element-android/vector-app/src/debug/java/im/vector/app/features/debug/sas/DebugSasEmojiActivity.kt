@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.debug.sas
+package dev.getzen.element.features.debug.sas
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import im.vector.app.core.extensions.cleanup
-import im.vector.app.core.extensions.configureWith
-import im.vector.app.databinding.FragmentGenericRecyclerBinding
+import dev.getzen.element.core.extensions.cleanup
+import dev.getzen.element.core.extensions.configureWith
+import dev.getzen.element.databinding.FragmentGenericRecyclerBinding
 import org.matrix.android.sdk.api.crypto.getAllVerificationEmojis
 
 class DebugSasEmojiActivity : AppCompatActivity() {

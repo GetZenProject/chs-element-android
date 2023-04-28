@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package im.vector.app.features.widgets.webview
+package dev.getzen.element.features.widgets.webview
 
 import android.Manifest
 import android.content.Context
@@ -23,10 +23,10 @@ import androidx.annotation.StringRes
 import androidx.annotation.VisibleForTesting
 import androidx.fragment.app.FragmentActivity
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.vector.app.R
-import im.vector.app.core.error.fatalError
-import im.vector.app.core.utils.checkPermissions
-import im.vector.app.features.settings.VectorPreferences
+import dev.getzen.element.R
+import dev.getzen.element.core.error.fatalError
+import dev.getzen.element.core.utils.checkPermissions
+import dev.getzen.element.features.settings.VectorPreferences
 import javax.inject.Inject
 
 class WebviewPermissionUtils @Inject constructor(

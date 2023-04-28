@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.devices
+package dev.getzen.element.features.settings.devices
 
-import im.vector.app.features.settings.devices.v2.verification.CurrentSessionCrossSigningInfo
-import im.vector.app.test.fakes.FakeActiveSessionHolder
+import dev.getzen.element.features.settings.devices.v2.verification.CurrentSessionCrossSigningInfo
+import dev.getzen.element.test.fakes.FakeActiveSessionHolder
 import org.amshove.kluent.shouldBeEqualTo
 import org.junit.Test
 

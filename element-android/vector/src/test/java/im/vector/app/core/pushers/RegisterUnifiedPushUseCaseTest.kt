@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.core.pushers
+package dev.getzen.element.core.pushers
 
-import im.vector.app.test.fakes.FakeContext
-import im.vector.app.test.fakes.FakeVectorFeatures
+import dev.getzen.element.test.fakes.FakeContext
+import dev.getzen.element.test.fakes.FakeVectorFeatures
 import io.mockk.every
 import io.mockk.justRun
 import io.mockk.mockkStatic

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.analytics.extensions
+package dev.getzen.element.features.analytics.extensions
 
-import im.vector.app.features.analytics.plan.PerformanceTimer
+import dev.getzen.element.features.analytics.plan.PerformanceTimer
 import org.matrix.android.sdk.api.session.statistics.StatisticEvent
 
 fun StatisticEvent.toListOfPerformanceTimer(): List<PerformanceTimer> {

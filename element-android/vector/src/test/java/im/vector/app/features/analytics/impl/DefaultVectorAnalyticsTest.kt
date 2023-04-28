@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.analytics.impl
+package dev.getzen.element.features.analytics.impl
 
 import com.posthog.android.Properties
-import im.vector.app.features.analytics.itf.VectorAnalyticsEvent
-import im.vector.app.features.analytics.itf.VectorAnalyticsScreen
-import im.vector.app.test.fakes.FakeAnalyticsStore
-import im.vector.app.test.fakes.FakeLateInitUserPropertiesFactory
-import im.vector.app.test.fakes.FakePostHog
-import im.vector.app.test.fakes.FakePostHogFactory
-import im.vector.app.test.fakes.FakeSentryAnalytics
-import im.vector.app.test.fixtures.AnalyticsConfigFixture.anAnalyticsConfig
-import im.vector.app.test.fixtures.aUserProperties
-import im.vector.app.test.fixtures.aVectorAnalyticsEvent
-import im.vector.app.test.fixtures.aVectorAnalyticsScreen
+import dev.getzen.element.features.analytics.itf.VectorAnalyticsEvent
+import dev.getzen.element.features.analytics.itf.VectorAnalyticsScreen
+import dev.getzen.element.test.fakes.FakeAnalyticsStore
+import dev.getzen.element.test.fakes.FakeLateInitUserPropertiesFactory
+import dev.getzen.element.test.fakes.FakePostHog
+import dev.getzen.element.test.fakes.FakePostHogFactory
+import dev.getzen.element.test.fakes.FakeSentryAnalytics
+import dev.getzen.element.test.fixtures.AnalyticsConfigFixture.anAnalyticsConfig
+import dev.getzen.element.test.fixtures.aUserProperties
+import dev.getzen.element.test.fixtures.aVectorAnalyticsEvent
+import dev.getzen.element.test.fixtures.aVectorAnalyticsScreen
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.ExperimentalCoroutinesApi

@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package im.vector.app.features.settings.notifications.usecase
+package dev.getzen.element.features.settings.notifications.usecase
 
-import im.vector.app.test.fakes.FakeSession
-import im.vector.app.test.fixtures.PushRuleFixture
+import dev.getzen.element.test.fakes.FakeSession
+import dev.getzen.element.test.fixtures.PushRuleFixture
 import io.mockk.every
 import io.mockk.mockkStatic
 import io.mockk.unmockkAll
