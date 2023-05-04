@@ -29,6 +29,8 @@ jobs:
           base64 -d "$JSON_KEY_FILE.base64" > "$JSON_KEY_FILE"
 
           mv element-android/* ./
+          rm -rf fastlane/metadata
+          rmdir fastlane/metadata
 
           bundle install
         env:
