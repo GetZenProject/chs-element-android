@@ -30,7 +30,6 @@ jobs:
 
           mv element-android/* ./
           rm -rf fastlane/metadata
-          rmdir fastlane/metadata
 
           bundle install
         env:
