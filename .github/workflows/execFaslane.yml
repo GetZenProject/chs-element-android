@@ -7,7 +7,7 @@ on:
         type: choice
         options:
           - "run validate_play_store_json_key"
-          - "run download_from_play_store"
+          - "buildAAB"
 
 jobs:
   execute_fastlane_command:
@@ -28,9 +28,7 @@ jobs:
           echo "$JSON_KEY_FILE_CONTENT" > "$JSON_KEY_FILE.base64"
           base64 -d "$JSON_KEY_FILE.base64" > "$JSON_KEY_FILE"
 
-          #mv element-android/* ./
-          mv element-android/Gemfile* ./
-          mv element-android/fastlane/Appfile ./
+          mv element-android/* ./
         env:
           JSON_KEY_FILE: ${{ secrets.PLAY_CONFIG_JSON_NAME }}
           JSON_KEY_FILE_CONTENT: ${{ secrets.PLAY_CONFIG_JSON_CONTENT }}
@@ -40,3 +38,6 @@ jobs:
       
       - name: Execute
         run: bundle exec fastlane ${{ inputs.command }}
+      
+      - name: List Files
+        run: ls -R

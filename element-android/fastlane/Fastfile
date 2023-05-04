@@ -57,4 +57,9 @@ platform :android do
     version_code = versions[0]
     puts(version_code)
   end
+
+  desc "Build AAB Release File"
+  lane :buildAAB do
+    gradle(task: "vector-app:bundleGplayRelease")
+  end
 end
