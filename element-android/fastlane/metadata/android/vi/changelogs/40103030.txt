@@ -1,2 +1,0 @@
-Những thay đổi chính trong phiên bản này: Hiển thị (các) chính sách máy chủ xác thực trong phần cài đặt. Tạm thời bỏ hỗ trợ Android Auto.
-Log thay đổi đầy đủ: https://github.com/vector-im/element-android/releases/tag/v1.3.3

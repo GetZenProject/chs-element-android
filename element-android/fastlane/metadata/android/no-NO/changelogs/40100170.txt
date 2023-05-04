@@ -1,2 +1,0 @@
-Hovedendringene i denne versjonen: Feilrettinger!
-Full endringslogg: https://github.com/vector-im/element-android/releases/tag/v1.0.17

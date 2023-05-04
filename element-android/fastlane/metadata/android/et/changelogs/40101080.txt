@@ -1,2 +1,0 @@
-Põhilised muutused selles versioonis: kogukonnakeskuste täiendused
-Kogu ingliskeelne muudatuste logi: https://github.com/vector-im/element-android/releases/tag/v1.1.8
