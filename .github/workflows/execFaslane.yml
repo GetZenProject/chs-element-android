@@ -41,3 +41,8 @@ jobs:
       
       - name: List Files
         run: ls -R
+      
+      - uses: actions/upload-artifact@v3
+        with:
+          name: bundle.aab
+          path: vector-app/build/outputs/bundle/gplayRelease/vector-app-gplay-release.aab
