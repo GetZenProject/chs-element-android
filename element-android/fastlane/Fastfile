@@ -60,7 +60,9 @@ platform :android do
 
   desc "Build AAB Release File"
   lane :buildAAB do
-    gradle(task: "vector-app:bundleGplayRelease",
+    gradle(task: "bundle",
+      flavor: "Gplay",
+      build_type: "Release",
       # print_command = false,
       properties: {
         "signing.element.storePath" => "./SUBSTITUTE_KEYSTORE_NAME",
