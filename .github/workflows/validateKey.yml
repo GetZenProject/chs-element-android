@@ -1,0 +1,33 @@
+name: Validate Key
+
+on:
+  workflow_dispatch:
+
+jobs:
+  validate_key:
+    name: Validate Key
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2.2'
+
+      - name: Prepare Repo
+        run: |
+          sed -i -E "s#json_key_file(.*)#json_key_file(\"./${JSON_KEY_FILE}\")#g" element-android/fastlane/Appfile
+
+          echo "$JSON_KEY_FILE_CONTENT" > "$JSON_KEY_FILE.base64"
+          base64 -d "$JSON_KEY_FILE.base64" > "$JSON_KEY_FILE"
+
+          mv element-android/* ./
+
+          bundle install
+        env:
+          JSON_KEY_FILE: ${{ secrets.PLAY_CONFIG_JSON_NAME }}
+          JSON_KEY_FILE_CONTENT: ${{ secrets.PLAY_CONFIG_JSON_CONTENT }}
+      
+      - name: Validate Key
+        run: fastlane run validate_play_store_json_key 
