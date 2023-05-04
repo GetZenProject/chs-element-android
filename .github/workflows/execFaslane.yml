@@ -7,7 +7,7 @@ on:
         type: choice
         options:
           - "run validate_play_store_json_key"
-          - "supply init"
+          - "run download_from_play_store"
 
 jobs:
   execute_fastlane_command:
@@ -28,13 +28,13 @@ jobs:
           echo "$JSON_KEY_FILE_CONTENT" > "$JSON_KEY_FILE.base64"
           base64 -d "$JSON_KEY_FILE.base64" > "$JSON_KEY_FILE"
 
-          mv element-android/* ./
-          rm -rf fastlane/metadata
-
-          bundle install
+          #mv element-android/* ./
         env:
           JSON_KEY_FILE: ${{ secrets.PLAY_CONFIG_JSON_NAME }}
           JSON_KEY_FILE_CONTENT: ${{ secrets.PLAY_CONFIG_JSON_CONTENT }}
+      
+      - name: Bundle Install
+        run: bundle install
       
       - name: Execute
         run: bundle exec fastlane ${{ inputs.command }}
