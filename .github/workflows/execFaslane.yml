@@ -30,6 +30,7 @@ jobs:
 
           #mv element-android/* ./
           mv element-android/Gemfile* ./
+          mv element-android/fastlane/Appfile ./
         env:
           JSON_KEY_FILE: ${{ secrets.PLAY_CONFIG_JSON_NAME }}
           JSON_KEY_FILE_CONTENT: ${{ secrets.PLAY_CONFIG_JSON_CONTENT }}
