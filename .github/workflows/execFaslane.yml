@@ -28,10 +28,26 @@ jobs:
           echo "$JSON_KEY_FILE_CONTENT" > "$JSON_KEY_FILE.base64"
           base64 -d "$JSON_KEY_FILE.base64" > "$JSON_KEY_FILE"
 
+          echo "$KEYSTORE_CONTENT" > "$KEYSTORE_NAME.base64"
+          base64 -d "$KEYSTORE_NAME.base64" > "$KEYSTORE_NAME"
+
+          sed -i "s#SUBSTITUTE_KEYSTORE_NAME#$KEYSTORE_NAME#g" element-android/fastlane/Fastfile
+          sed -i "s#SUBSTITUTE_KEYSTORE_PASSWORD#$KEYSTORE_PASSWORD#g" element-android/fastlane/Fastfile
+
+          sed -i "s#SUBSTITUTE_KEY_ID#$KEY_ID#g" element-android/fastlane/Fastfile
+          sed -i "s#SUBSTITUTE_KEY_PASSWORD#$KEY_PASSWORD#g" element-android/fastlane/Fastfile
+
+          sed -i "s#4_000_000#5_000_000#g" element-android/vector-app/build.gradle
+
           mv element-android/* ./
         env:
           JSON_KEY_FILE: ${{ secrets.PLAY_CONFIG_JSON_NAME }}
           JSON_KEY_FILE_CONTENT: ${{ secrets.PLAY_CONFIG_JSON_CONTENT }}
+          KEYSTORE_NAME: ${{ secrets.KEYSTORE_NAME }}
+          KEYSTORE_CONTENT: ${{ secrets.KEYSTORE_CONTENT }}
+          KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
+          KEY_ID: ${{ secrets.KEY_ID }}
+          KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
       
       - name: Bundle Install
         run: bundle install
