@@ -1,11 +1,16 @@
-name: Validate Key
+name: Execute Fastlane Command
 
 on:
   workflow_dispatch:
+    inputs:
+      command:
+        type: choise
+        options:
+          - "run validate_play_store_json_key"
 
 jobs:
-  validate_key:
-    name: Validate Key
+  execute_fastlane_command:
+    name: Execute Fastlane Command
     runs-on: ubuntu-latest
 
     steps:
@@ -29,5 +34,5 @@ jobs:
           JSON_KEY_FILE: ${{ secrets.PLAY_CONFIG_JSON_NAME }}
           JSON_KEY_FILE_CONTENT: ${{ secrets.PLAY_CONFIG_JSON_CONTENT }}
       
-      - name: Validate Key
-        run: fastlane run validate_play_store_json_key 
+      - name: Execute
+        run: bundle exec fastlane ${{ inputs.command }}
