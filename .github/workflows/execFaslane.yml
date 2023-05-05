@@ -32,7 +32,7 @@ jobs:
           git clone https://github.com/vector-im/element-android.git
           cd element-android
           git checkout main
-          git checkout "Merge branch \'release/$VERSION\' into main"
+          git checkout "Merge branch 'release/$VERSION' into main"
           cd ..
 
           rm -rf element-android/.git
