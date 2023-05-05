@@ -16,5 +16,10 @@ platform :android do
       }
     )
   end
+
+  desc "Download from Gplay"
+  lane :download do
+    download_from_play_store
+  end
 	
 end

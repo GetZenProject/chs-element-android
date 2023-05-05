@@ -8,6 +8,7 @@ on:
         options:
           - "run validate_play_store_json_key"
           - "buildAAB"
+          - "download"
       upload_artifact:
         type: boolean
         default: true
