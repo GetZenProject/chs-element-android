@@ -47,7 +47,7 @@ jobs:
         env:
           VERSION: ${{ inputs.version }}
           APP_ID: ${{ secrets.APP_ID }}
-          HOMESERVER: ${{ secrets.HOMSERVER }}
+          HOMESERVER: ${{ secrets.HOMESERVER }}
       
       - name: Prepare Keystore
         run: |
