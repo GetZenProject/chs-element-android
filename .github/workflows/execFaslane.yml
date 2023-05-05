@@ -8,7 +8,7 @@ on:
         options:
           - "validateKey"
           - "buildAAB"
-          - "download"
+          - "downloadFromGplay"
       upload_artifact:
         type: boolean
         default: true
@@ -79,7 +79,10 @@ jobs:
 
           # Use our json_key_file
           #sed -i -E "s#json_key_file(.*)#json_key_file(\"./${JSON_KEY_FILE}\")#g" element-android/fastlane/Appfile
-          sed -i "s#SUBSTITUTE_JSON_KEY_FILE#JSON_KEY_FILE#g" ./Fastfile
+          sed -i "s#SUBSTITUTE_JSON_KEY_FILE#$JSON_KEY_FILE#g" ./Fastfile
+
+          # Substiture App ID
+          sed -i "s#SUBSTITUTE_APP_ID#$APP_ID#g" ./Fastfile
 
           # Change Gplay version
           sed -i "s#4_000_000#5_000_000#g" element-android/vector-app/build.gradle
@@ -100,6 +103,7 @@ jobs:
           KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
           KEY_ID: ${{ secrets.KEY_ID }}
           KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
+          APP_ID: ${{ secrets.APP_ID }}
       
       - name: Bundle Install
         run: bundle install
