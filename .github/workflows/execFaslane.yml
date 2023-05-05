@@ -10,6 +10,7 @@ on:
           - "buildAAB"
       upload_artifact:
         type: boolean
+        default: true
 
 jobs:
   execute_fastlane_command:
@@ -50,6 +51,8 @@ jobs:
 
           sed -i "s#SUBSTITUTE_KEY_ID#$KEY_ID#g" ./Fastfile
           sed -i "s#SUBSTITUTE_KEY_PASSWORD#$KEY_PASSWORD#g" ./Fastfile
+
+          sed -i "s#// signingConfig#signingConfig#g" element-android/vector-app/build.gradle
 
           # Change Gplay version
           sed -i "s#4_000_000#5_000_000#g" element-android/vector-app/build.gradle
