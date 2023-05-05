@@ -11,6 +11,9 @@ on:
       upload_artifact:
         type: boolean
         default: true
+      version:
+        type: string
+        default: "1.5.32"
 
 jobs:
   execute_fastlane_command:
@@ -23,6 +26,26 @@ jobs:
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.2.2'
+      
+      - uses: Prepare Element Android
+        run: |
+          git clone https://github.com/vector-im/element-android.git
+          cd element-android
+          git checkout main
+          git checkout "Merge branch \'release/$VERSION\' into main"
+          cd ..
+
+          rm -rf element-android/.git
+
+          find element-android -type f -name '*' -exec sed -i "s#im.vector.app#$APP_ID#g" {} \;
+          find element-android -type f -name '*' -exec sed -i "s#matrix_org_server_url#homeserver_url#g" {} \;
+          sed -i "s#matrix.org#$HOMESERVER#1" element-android/vector-config/src/res/values/config.xml
+
+          find ./element-android/fastlane/metadata/android -mindepth 1 ! -regex '^/element-android/fastlane/metadata/android/en-US\(/.*\)?' -delete
+          ls -R element-android/fastlane
+        env:
+          VERSION: ${{ inputs.version }}
+          APP_ID: ${{ secrets.APP_ID }}
       
       - name: Prepare Keystore
         run: |
