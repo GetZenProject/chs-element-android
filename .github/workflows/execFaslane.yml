@@ -8,7 +8,7 @@ on:
         options:
           - "validateKey"
           - "buildAAB"
-          - "downloadFromGplay"
+          - "deployMeta"
       upload_artifact:
         type: boolean
         default: true
@@ -42,8 +42,7 @@ jobs:
           find element-android -type f -name '*' -exec sed -i "s#matrix_org_server_url#homeserver_url#g" {} \;
           sed -i "s#matrix.org#$HOMESERVER#1" element-android/vector-config/src/main/res/values/config.xml
 
-          #find ./element-android/fastlane/metadata/android -mindepth 1 ! -regex '^./element-android/fastlane/metadata/android/en-US\(/.*\)?' -delete
-          rm -rf element-android/fastlane/metadata
+          find ./element-android/fastlane/metadata/android -mindepth 1 ! -regex '^./element-android/fastlane/metadata/android/en-US\(/.*\)?' -delete
           ls -R element-android/fastlane
         env:
           VERSION: ${{ inputs.version }}

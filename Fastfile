@@ -13,16 +13,23 @@ platform :android do
         "signing.element.storePassword" => "SUBSTITUTE_KEYSTORE_PASSWORD",
         "signing.element.keyId" => "SUBSTITUTE_KEY_ID",
         "signing.element.keyPassword" => "SUBSTITUTE_KEY_PASSWORD",
-      }
+      },
+      package_name: "SUBSTITUTE_APP_ID",
     )
   end
 
-  desc "Download from Gplay"
-  lane :downloadFromGplay do
-    download_from_play_store(
+  desc "Deploy Metadata"
+  lane :deployMeta do
+    upload_to_play_store(
       json_key: "./SUBSTITUTE_JSON_KEY_FILE",
       track: "internal",
       package_name: "SUBSTITUTE_APP_ID",
+      skip_upload_apk: true,
+      skip_upload_aab: true,
+      skip_upload_images: true,
+      skip_upload_screenshots: true,
+      skip_upload_changelogs: true,
+      validate_only: false,
     )
   end
 
