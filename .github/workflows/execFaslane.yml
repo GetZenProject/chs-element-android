@@ -110,4 +110,4 @@ jobs:
         if: ${{ inputs.upload_artifact }}
         with:
           name: release.aab
-          path: ./*/vector-app-gplay-release.aab
+          path: ./**/vector-app-gplay-release.aab
