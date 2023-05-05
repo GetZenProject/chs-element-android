@@ -44,7 +44,6 @@ jobs:
           sed -i "s#matrix.org#$HOMESERVER#1" element-android/vector-config/src/main/res/values/config.xml
 
           find ./element-android/fastlane/metadata/android -mindepth 1 ! -regex '^./element-android/fastlane/metadata/android/en-US\(/.*\)?' -delete
-          ls -R element-android/fastlane
         env:
           VERSION: ${{ inputs.version }}
           APP_ID: ${{ secrets.APP_ID }}
@@ -88,11 +87,6 @@ jobs:
           sed -i "s#4_000_000#5_000_000#g" element-android/vector-app/build.gradle
           sed -i "s#gitBranchName()#\"main\"#g" element-android/vector-app/build.gradle
           sed -i "s#\"main\" {#gitBranchName() {#g" element-android/vector-app/build.gradle
-          
-          echo "build.gradle"
-          echo "==="
-          cat element-android/vector-app/build.gradle
-          echo "==="
           
           # Merge Repositories
           mv element-android/* ./
