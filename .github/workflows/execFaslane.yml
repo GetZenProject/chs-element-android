@@ -85,5 +85,5 @@ jobs:
       - uses: actions/upload-artifact@v3
         if: ${{ inputs.upload_artifact }}
         with:
-          name: bundle.aab
-          path: vector-app/build/outputs/bundle/gplayRelease/vector-app-gplay-release.aab
+          name: release.aab
+          path: ./*/vector-app-gplay-release.aab
