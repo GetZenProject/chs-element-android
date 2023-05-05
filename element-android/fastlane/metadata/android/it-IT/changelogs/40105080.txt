@@ -1,2 +1,0 @@
-Modifiche principali in questa versione: correzione di errori e miglioramenti.
-Cronologia completa: https://github.com/vector-im/element-android/releases

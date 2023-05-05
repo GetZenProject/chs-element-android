@@ -1,2 +1,0 @@
-Fő változás ebben a verzióban: Leginkább hibajavítások.
-Teljes változásnapló: https://github.com/vector-im/element-android/releases

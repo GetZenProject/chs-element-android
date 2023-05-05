@@ -7,6 +7,13 @@ on:
         type: choice
         options:
           - "run validate_play_store_json_key"
+          - "buildAAB"
+      upload_artifact:
+        type: boolean
+        default: true
+      version:
+        type: string
+        default: "1.5.32"
 
 jobs:
   execute_fastlane_command:
@@ -19,20 +26,88 @@ jobs:
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.2.2'
-
-      - name: Prepare Repo
+      
+      - name: Prepare Element Android
         run: |
-          sed -i -E "s#json_key_file(.*)#json_key_file(\"./${JSON_KEY_FILE}\")#g" element-android/fastlane/Appfile
+          git clone https://github.com/vector-im/element-android.git
+          cd element-android
+          git checkout main
+          git checkout "v$VERSION"
+          cd ..
 
+          rm -rf element-android/.git
+
+          find element-android -type f -name '*' -exec sed -i "s#im.vector.app#$APP_ID#g" {} \;
+          find element-android -type f -name '*' -exec sed -i "s#matrix_org_server_url#homeserver_url#g" {} \;
+          sed -i "s#matrix.org#$HOMESERVER#1" element-android/vector-config/src/main/res/values/config.xml
+
+          find ./element-android/fastlane/metadata/android -mindepth 1 ! -regex '^./element-android/fastlane/metadata/android/en-US\(/.*\)?' -delete
+          ls -R element-android/fastlane
+        env:
+          VERSION: ${{ inputs.version }}
+          APP_ID: ${{ secrets.APP_ID }}
+          HOMESERVER: ${{ secrets.HOMSERVER }}
+      
+      - name: Prepare Keystore
+        run: |
+          echo "$KEYSTORE_CONTENT" > "$KEYSTORE_NAME.base64"
+          base64 -d "$KEYSTORE_NAME.base64" > "$KEYSTORE_NAME"
+        env:
+          KEYSTORE_NAME: ${{ secrets.KEYSTORE_NAME }}
+          KEYSTORE_CONTENT: ${{ secrets.KEYSTORE_CONTENT }}
+      
+      - name: Prepare Gplay Config Json
+        run: |
           echo "$JSON_KEY_FILE_CONTENT" > "$JSON_KEY_FILE.base64"
           base64 -d "$JSON_KEY_FILE.base64" > "$JSON_KEY_FILE"
-
-          mv element-android/* ./
-
-          bundle install
         env:
           JSON_KEY_FILE: ${{ secrets.PLAY_CONFIG_JSON_NAME }}
           JSON_KEY_FILE_CONTENT: ${{ secrets.PLAY_CONFIG_JSON_CONTENT }}
+
+      - name: Prepare Repo
+        run: |
+          # Use our json_key_file
+          sed -i -E "s#json_key_file(.*)#json_key_file(\"./${JSON_KEY_FILE}\")#g" element-android/fastlane/Appfile
+
+          # Use our keystore
+          sed -i "s#SUBSTITUTE_KEYSTORE_NAME#$KEYSTORE_NAME#g" ./Fastfile
+          sed -i "s#SUBSTITUTE_KEYSTORE_PASSWORD#$KEYSTORE_PASSWORD#g" ./Fastfile
+
+          sed -i "s#SUBSTITUTE_KEY_ID#$KEY_ID#g" ./Fastfile
+          sed -i "s#SUBSTITUTE_KEY_PASSWORD#$KEY_PASSWORD#g" ./Fastfile
+
+          sed -i "s#// signingConfig#signingConfig#g" element-android/vector-app/build.gradle
+
+          # Change Gplay version
+          sed -i "s#4_000_000#5_000_000#g" element-android/vector-app/build.gradle
+
+          # Merge Repositories
+          mv element-android/* ./
+
+          # Place just created keystore to the correct folder
+          mv "$KEYSTORE_NAME" "vector-app/$KEYSTORE_NAME"
+
+          # Place our Fastfile to the correct folder
+          rm fastlane/Fastfile
+          mv Fastfile fastlane/Fastfile
+        env:
+          JSON_KEY_FILE: ${{ secrets.PLAY_CONFIG_JSON_NAME }}
+          KEYSTORE_NAME: ${{ secrets.KEYSTORE_NAME }}
+          KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
+          KEY_ID: ${{ secrets.KEY_ID }}
+          KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
+      
+      - name: Bundle Install
+        run: bundle install
       
       - name: Execute
         run: bundle exec fastlane ${{ inputs.command }}
+      
+      - name: List Files
+        run: ls -R
+      
+      - uses: actions/upload-artifact@v3
+        if: ${{ inputs.upload_artifact }}
+        with:
+          name: release.aab
+          path: ./**/vector-app-gplay-release.aab

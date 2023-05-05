@@ -1,2 +1,0 @@
-Principais mudanças nesta versão: DM diferida habilitada por default.
-Changelog completo: https://github.com/vector-im/element-android/releases
