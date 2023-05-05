@@ -27,7 +27,7 @@ jobs:
         with:
           ruby-version: '3.2.2'
       
-      - uses: Prepare Element Android
+      - name: Prepare Element Android
         run: |
           git clone https://github.com/vector-im/element-android.git
           cd element-android
