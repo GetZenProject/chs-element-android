@@ -69,7 +69,7 @@ jobs:
       - name: Prepare Repo
         run: |
           # Use our json_key_file
-          sed -i -E "s#json_key_file(.*)#json_key_file(\"./${JSON_KEY_FILE}\")#g" element-android/fastlane/Appfile
+          sed -i -E "s#json_key_file(.*)#json_key(\"./${JSON_KEY_FILE}\")#g" element-android/fastlane/Appfile
 
           # Use our keystore
           sed -i "s#SUBSTITUTE_KEYSTORE_NAME#$KEYSTORE_NAME#g" ./Fastfile
