@@ -14,7 +14,6 @@ platform :android do
         "signing.element.keyId" => "SUBSTITUTE_KEY_ID",
         "signing.element.keyPassword" => "SUBSTITUTE_KEY_PASSWORD",
       },
-      package_name: "SUBSTITUTE_APP_ID",
     )
   end
 
@@ -30,7 +29,6 @@ platform :android do
         "signing.element.keyId" => "SUBSTITUTE_KEY_ID",
         "signing.element.keyPassword" => "SUBSTITUTE_KEY_PASSWORD",
       },
-      package_name: "SUBSTITUTE_APP_ID",
     )
 
     upload_to_play_store(
@@ -67,5 +65,5 @@ platform :android do
       json_key: "./SUBSTITUTE_JSON_KEY_FILE",
     )
   end
-	
+
 end
