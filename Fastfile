@@ -16,5 +16,4 @@ platform :android do
       }
 		)
 	end
-	
 end
