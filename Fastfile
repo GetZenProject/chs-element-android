@@ -19,7 +19,14 @@ platform :android do
 
   desc "Download from Gplay"
   lane :download do
-    download_from_play_store
+    download_from_play_store()
+  end
+
+  desc "Validate Key"
+  lane :validateKey do
+    validate_play_store_json_key(
+      json_key_path: './SUBSTITUTE_JSON_KEY_FILE',
+    )
   end
 	
 end

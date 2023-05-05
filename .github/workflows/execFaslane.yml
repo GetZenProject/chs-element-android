@@ -68,9 +68,6 @@ jobs:
 
       - name: Prepare Repo
         run: |
-          # Use our json_key_file
-          sed -i -E "s#json_key_file(.*)#json_key(\"./${JSON_KEY_FILE}\")#g" element-android/fastlane/Appfile
-
           # Use our keystore
           sed -i "s#SUBSTITUTE_KEYSTORE_NAME#$KEYSTORE_NAME#g" ./Fastfile
           sed -i "s#SUBSTITUTE_KEYSTORE_PASSWORD#$KEYSTORE_PASSWORD#g" ./Fastfile
@@ -79,6 +76,10 @@ jobs:
           sed -i "s#SUBSTITUTE_KEY_PASSWORD#$KEY_PASSWORD#g" ./Fastfile
 
           sed -i "s#// signingConfig#signingConfig#g" element-android/vector-app/build.gradle
+
+          # Use our json_key_file
+          #sed -i -E "s#json_key_file(.*)#json_key_file(\"./${JSON_KEY_FILE}\")#g" element-android/fastlane/Appfile
+          sed -i "s#SUBSTITUTE_JSON_KEY_FILE#JSON_KEY_FILE#g" ./Fastfile
 
           # Change Gplay version
           sed -i "s#4_000_000#5_000_000#g" element-android/vector-app/build.gradle
@@ -91,6 +92,7 @@ jobs:
 
           # Place our Fastfile to the correct folder
           rm fastlane/Fastfile
+          rm fastlane/Appfile
           mv Fastfile fastlane/Fastfile
         env:
           JSON_KEY_FILE: ${{ secrets.PLAY_CONFIG_JSON_NAME }}
