@@ -2,7 +2,7 @@ default_platform(:android)
 
 platform :android do
 
-	desc "Build AAB Release File"
+  desc "Build AAB Release File"
   lane :buildAAB do
     gradle(task: "bundle",
       flavor: "Gplay",
