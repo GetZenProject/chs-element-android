@@ -9,6 +9,7 @@ on:
           - "validateKey"
           - "buildAAB"
           - "deployMeta"
+          - "deployAAB"
       upload_artifact:
         type: boolean
         default: true
@@ -84,7 +85,7 @@ jobs:
           sed -i "s#SUBSTITUTE_APP_ID#$APP_ID#g" ./Fastfile
 
           # Change Gplay version
-          sed -i "s#4_000_000#5_000_000#g" element-android/vector-app/build.gradle
+          sed -i "s#4_000_000#6_000_000#g" element-android/vector-app/build.gradle
 
           # Merge Repositories
           mv element-android/* ./
