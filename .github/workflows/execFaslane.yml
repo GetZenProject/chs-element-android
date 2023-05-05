@@ -86,7 +86,7 @@ jobs:
 
           # Change Gplay version
           sed -i "s#4_000_000#5_000_000#g" element-android/vector-app/build.gradle
-          sed -i "s#def cmd = \"git rev-parse --abbrev-ref HEAD\"#return \"main\"#g" element-android/vector-app/build.gradle
+          sed -i "s#def cmd = \"git rev-parse --abbrev-ref HEAD\"\n    return cmd.execute().text.trim()#return \"main\"#g" element-android/vector-app/build.gradle
           
           echo "build.gradle"
           echo "==="
