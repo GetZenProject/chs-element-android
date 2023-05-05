@@ -1,1 +1,0 @@
-javascript:window.sendObjectMessage = function(parameters) { var iframe = document.createElement('iframe'); iframe.setAttribute('src', 'js:' + JSON.stringify(parameters)); document.documentElement.appendChild(iframe); iframe.parentNode.removeChild(iframe); iframe = null;};

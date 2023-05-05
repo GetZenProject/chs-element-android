@@ -1,1 +1,0 @@
-javascript:window.matrixRegistration.onRegistered = function(homeserverUrl, userId, accessToken) { sendObjectMessage({ 'action': 'onRegistered', 'homeServer': homeserverUrl, 'userId': userId, 'accessToken': accessToken }); }
