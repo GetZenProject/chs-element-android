@@ -63,7 +63,7 @@ platform :android do
     gradle(task: "bundle",
       flavor: "Gplay",
       build_type: "Release",
-      # print_command = false,
+      print_command = false,
       properties: {
         "signing.element.storePath" => "./SUBSTITUTE_KEYSTORE_NAME",
         "signing.element.storePassword" => "SUBSTITUTE_KEYSTORE_PASSWORD",
