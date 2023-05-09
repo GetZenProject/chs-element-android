@@ -53,6 +53,7 @@ platform :android do
       package_name: "SUBSTITUTE_APP_ID",
       skip_upload_apk: true,
       skip_upload_aab: true,
+      skip_upload_changelogs: true,
       validate_only: false,
     )
   end
