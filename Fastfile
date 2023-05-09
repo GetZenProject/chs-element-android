@@ -49,6 +49,7 @@ platform :android do
     upload_to_play_store(
       json_key: "./SUBSTITUTE_JSON_KEY_FILE",
       track: "internal",
+      release_status: "draft",
       track_promote_release_status: "draft",
       package_name: "SUBSTITUTE_APP_ID",
       skip_upload_apk: true,
