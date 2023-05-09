@@ -55,6 +55,7 @@ platform :android do
       skip_upload_aab: true,
       skip_upload_changelogs: true,
       validate_only: false,
+      changes_not_sent_for_review: true,
     )
   end
 
