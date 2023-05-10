@@ -33,30 +33,13 @@ platform :android do
 
     upload_to_play_store(
       json_key: "./SUBSTITUTE_JSON_KEY_FILE",
-      track: "alpha",
-      release_status: "draft",
-      track_promote_release_status: "draft",
+      track: "production",
       package_name: "SUBSTITUTE_APP_ID",
       skip_upload_apk: true,
       skip_upload_images: true,
       skip_upload_screenshots: true,
       skip_upload_changelogs: true,
       skip_upload_metadata: true,
-      validate_only: false,
-    )
-  end
-
-  desc "Deploy Metadata"
-  lane :deployMeta do
-    upload_to_play_store(
-      json_key: "./SUBSTITUTE_JSON_KEY_FILE",
-      track: "internal",
-      release_status: "draft",
-      track_promote_release_status: "draft",
-      package_name: "SUBSTITUTE_APP_ID",
-      skip_upload_apk: true,
-      skip_upload_aab: true,
-      skip_upload_changelogs: true,
       validate_only: false,
     )
   end

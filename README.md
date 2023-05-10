@@ -10,7 +10,7 @@ Below is a step-by-step guide to create your mirror of [Element Android](https:/
 
 At first, you should have a Google Play Console account. You can create it [here](https://play.google.com/console/u/0/signup).
 
-Once you have a Google Play Console account, open the main page of Google Play Console (All Apps) and create an app in the right top corner. Follow the instructions there to create an app draft there.
+Once you have a Google Play Console account, open the main page of Google Play Console (All apps) and create an app in the right top corner. Follow the instructions there to create an app draft there.
 
 Now copy/fork this repository to your GitHub account and follow the steps below to build a first version of your app.
 
@@ -61,6 +61,8 @@ Before building the first release, you should select app id for your app. Recomm
 
 Add it to the repository secrets in your copy of this repository with name `APP_ID`.
 
+Also add your home server as secret named `HOMESERVER`.
+
 Now you should make your copy of this repository private in order to safely create the first version of this app.
 
 1. Open your copy of this repository
@@ -86,22 +88,41 @@ Once you have `.aab` file on your device but not in artifacts, you can make your
 2. Open repository settings
 3. In the "Danger Zone" section, change repository visibility to public
 
-Now you should this file to Google Play Console.
+Now you should upload this file to Google Play Console.
+
+Element can be used in cars, but doing so requires a special agreement (you won't be able to upload the generated `.aab` without confirming it).
+
+1. Open Google Play Console
+2. Select your newly created app
+3. In "Release" section, open "Advanced settings" - "Form factors"
+4. Click "Add form factor"
+5. Select "Android Auto"
+6. Follow the instructions on the Google Play Console
+
+To upload the app to the internal testing, follow the following steps.
 
 1. Open Google Play Console
 2. Select your newly created app
 3. Open "Testing" - "Internal testing"
 4. Click "Create new release"
-5. Create new signing key, prefer default options (this is a key on your Google Play Console account for this app, not related to the key you created above)
+5. Create new signing key, prefer default options (this is a key on your Google Play Console account for this app, not related to the key you created earlier)
 6. Upload `.aab` file you created before to the section that asks you to upload `.aab` files
-7. Click `Continue` in the right bottom corner
+7. Click "Continue" in the right bottom corner
 8. Do the actions Google Play Console requires you to do (if it does) and confirm an internal tesing release
 
-How open the main page of the app in the Google Play Console and follow the steps Google requires you to do.
+Now open the main page of the app in the Google Play Console and follow the steps Google requires you to do (like specifying target audience, apps info and so on). You will have to provide an account for testers. It can be an account on "matrix.org", not on your server.
 
-Once you are done with it, move the app from the internal testing to releases and wait for Google to confirm your app.
+Once you are done with it, move the app from the internal testing to production and wait for Google to confirm your app.
 
 ## Creating a service account
 
+If you would like to update your app automatically when new version of Element comes out, you should create a service account.
+
+1. Open Google Play Console
+2. ...
+
 ## Configuring updates
 
+## Other
+
+You can change other [config setting](https://github.com/vector-im/element-android/blob/develop/vector-config/src/main/res/values/config.xml) (like changing the preffered Jitsi domain) in the step `Edit Config` of the `.github/workflows/execFastlane.yml`.
