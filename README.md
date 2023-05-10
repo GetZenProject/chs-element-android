@@ -123,6 +123,8 @@ If you would like to update your app automatically when new version of Element c
 
 ## Configuring updates
 
+Not supported yet.
+
 ## Other
 
 You can change other [config setting](https://github.com/vector-im/element-android/blob/develop/vector-config/src/main/res/values/config.xml) (like changing the preffered Jitsi domain) in the step `Edit Config` of the `.github/workflows/execFastlane.yml`.
