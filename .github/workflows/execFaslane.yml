@@ -16,6 +16,9 @@ on:
       version:
         type: string
         default: "1.5.32"
+      version_code_prefix:
+        type: string
+        default: "1"
 
 jobs:
   execute_fastlane_command:
@@ -41,6 +44,8 @@ jobs:
 
           find element-android -type f -name '*' -exec sed -i "s#im.vector.app#$APP_ID#g" {} \;
           find element-android -type f -name '*' -exec sed -i "s#matrix_org_server_url#homeserver_url#g" {} \;
+          
+          # Change homeserver
           sed -i "s#matrix.org#$HOMESERVER#1" element-android/vector-config/src/main/res/values/config.xml
 
           find ./element-android/fastlane/metadata/android -mindepth 1 ! -regex '^./element-android/fastlane/metadata/android/en-US\(/.*\)?' -delete
@@ -84,7 +89,7 @@ jobs:
           sed -i "s#SUBSTITUTE_APP_ID#$APP_ID#g" ./Fastfile
 
           # Change Gplay version
-          sed -i "s#4_000_000#5_000_000#g" element-android/vector-app/build.gradle
+          sed -i "s#4_000_000#${{ inputs.version_code_prefix }}_000_000#g" element-android/vector-app/build.gradle
           sed -i "s#gitBranchName()#\"main\"#g" element-android/vector-app/build.gradle
           sed -i "s#\"main\" {#gitBranchName() {#g" element-android/vector-app/build.gradle
           
