@@ -119,7 +119,26 @@ Once you are done with it, move the app from the internal testing to production 
 If you would like to update your app automatically when new version of Element comes out, you should create a service account.
 
 1. Open Google Play Console
-2. ...
+2. Click **Setup → API access**
+3. Click the **Create new service account** button
+4. Follow the **Google Cloud Platform** link in the dialog, which opens a new tab/window:
+   1. Click the **CREATE SERVICE ACCOUNT** button at the top of the **Google Cloud Platform Console**
+   2. Provide a `Service account name` and click **Create**
+   3. Click **Select a role**, then find and select **Service Account User**, and proceed
+   4. Click the **Done** button
+   5. Click on the **Actions** vertical three-dot icon of the service account you just created
+   6. Select **Manage keys** on the menu
+   7. Click **ADD KEY -> Create New Key**
+   8. Make sure **JSON** is selected as the Key type, and click **CREATE**
+   9. Save the file on your computer when prompted and remember where it was saved to
+5. Return to the **Google Play Console** tab, and click **DONE** to close the dialog
+6. Click on **Grant Access** for the newly added service account at the bottom of the screen
+7. Choose the permissions: *“create and edit draft apps”* and all from **RELEASE MANAGEMENT**: *“manage production releases”*, *“manage alpha&beta releases”*, *“manage alpha and beta test configuration”*
+8. Click **Invite user**, then **Send invite** buttons
+9. Select the **Users and permissions** on the left, your service account should be in the list of users, to the right of it you need to click the **Manage** button 
+10. Click **Add app** and select `Element` from list, 
+11. Click **Apply**
+11. Click **Save changes** in the lower right corner and **Yes** in the window that opens
 
 ## Configuring updates
 
