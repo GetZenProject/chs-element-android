@@ -28,9 +28,6 @@ To create an upload key with Android Studio you need to have a buildable project
 6. Select "Generate Signed Bundle / APK"
 7. Click "Next" on the first page
 8. Click "Create new" under "Key Store Path"
-
-![keystore](https://github.com/GetZenProject/chs-element-android/assets/54836310/e6fc1a28-95a3-48ce-8073-567259d4b19d)
-
 9. In the field "Key store path" select a path to some folder + add your keystore name ("keystore.jks")
 10. In the fields "Password" and "Confirm" under "Key store path" create a password to your key store consisting of latin letters and digits (do not use special symbols)
 11. In the field "Alias" select a key alias (something like "upload1" should be fine)
