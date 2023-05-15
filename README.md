@@ -222,8 +222,8 @@ Now provide the service account info to GitHub runner:
 2. Open repository settings
 3. Open "Secrets and variables" - "Actions"
 4. Set the following 2 secrets by clicking on "New repository secret" for each secret:
-    1. `PLAY_CONFIG_JSON_CONTENT` - to get this, run `base64 path_to_json.json -w 0`, where `path_to_json.json` is a path to json you created in step 5.9 above
-    2. `PLAY_CONFIG_JSON_NAME` - name of this json file
+    1. `PLAY_CONFIG_JSON_CONTENT` - to get this, run `base64 path_to_json.json -w 0`, where `path_to_json.json` is a path to json you created in step 4.9 above
+    2. `PLAY_CONFIG_JSON_NAME` - name of this json file as you saved it
 
 ## Configuring updates
 
