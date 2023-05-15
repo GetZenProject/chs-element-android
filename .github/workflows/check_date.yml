@@ -24,7 +24,7 @@ jobs:
         run: |
           git clone https://github.com/vector-im/element-android.git
           cd element-android
-
+          
           usince=$(date -Iminutes -d "$((days+1)) days ago")
           uuntil=$(date -Iminutes -d "$days days ago")
 
@@ -36,7 +36,7 @@ jobs:
           echo $usince
           echo $uuntil
 
-          lst="$(git log --tags --oneline -max-count=1 --no-decorate --since="$usince" --until="$uuntil")"
+          lst="$(git log --tags --oneline --max-count=1 --no-decorate --since="$usince" --until="$uuntil")"
           if [[ "$lst" == "" ]]; then
             # echo "needs-rebuild=false" >> "$GITHUB_OUTPUT";
           else
