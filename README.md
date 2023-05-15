@@ -232,7 +232,7 @@ Now provide the service account info to GitHub runner:
 3. Open "Secrets and variables" - "Actions"
 4. Open "Variables"
 5. Click "New repository variable"
-6. Create variable "days" with value "4" (it is the number of days since the latest Element update your repository will wait to release new version)
+6. Create variable `days' with value `4' (once new Element version is released, your version would be generated `days` days after the official one - we don't want to publish our app before the official one)
 7. Open Actions in your repository
 8. Run "Check New Versions" with "Build the latest version anyway" on to verify that everything works as expected
 
