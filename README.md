@@ -85,7 +85,7 @@ cd upload_key_for_element
 keytool -genkey -v -keystore keystore.jks -storetype jks -alias UPLOAD1 -keyalg RSA -keysize 2048 -validity 10000 -storepass PASSWORD1 -keypass PASSWORD2
 ```
 
-with`PASSWORD1` and `PASSWORD2` replaced by arbitrary strings, consisting of latin letters and digits (you can change `UPLOAD1` as well, but it is not necessary)
+with `PASSWORD1` and `PASSWORD2` replaced by arbitrary strings, consisting of latin letters and digits (you can change `UPLOAD1` as well, but it is not necessary)
 
 3. Provide the information that is asked of you ("First & Last Name", "Organizational Unit", "Organization", "City / Locality", "State / Province", "Country Code")
 4. Type "Yes" to confirm it (when you are asked "Is ... correct?")
@@ -113,13 +113,13 @@ cd upload_key_for_element
 keytool -genkey -v -keystore keystore.jks -storetype jks -alias UPLOAD1 -keyalg RSA -keysize 2048 -validity 10000 -storepass PASSWORD1 -keypass PASSWORD2
 ```
 
-with`PASSWORD1` and `PASSWORD2` replaced by arbitrary strings, consisting of latin letters and digits (you can change `UPLOAD1` as well, but it is not necessary)
+with `PASSWORD1` and `PASSWORD2` replaced by arbitrary strings, consisting of latin letters and digits (you can change `UPLOAD1` as well, but it is not necessary)
 
 5. Provide the information that is asked of you ("First & Last Name", "Organizational Unit", "Organization", "City / Locality", "State / Province", "Country Code")
 6. Type "Yes" to confirm it (when you are asked "Is ... correct?")
 7. Run the command `base64 keystore.jks -w 0`
 
-**All OS:**
+**All OS (after the steps above):**
 
 1. Open your copy of this repository in browser
 2. Open repository settings
