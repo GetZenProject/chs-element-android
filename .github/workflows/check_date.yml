@@ -51,7 +51,7 @@ jobs:
   build:
     needs: check-date
     if: needs.check-date.outputs.needs-rebuild == 'true'
-    uses: ./.github/workflows/build_and_deploy.yaml
+    uses: ./.github/workflows/execFaslane.yml
     secrets: inherit
     with:
       command: "deployAAB"
