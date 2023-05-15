@@ -38,9 +38,9 @@ jobs:
 
           lst="$(git log --tags --oneline --max-count=1 --no-decorate --since="$usince" --until="$uuntil")"
           if [[ "$lst" == "" ]]; then
-            # echo "needs-rebuild=false" >> "$GITHUB_OUTPUT";
+            echo "needs-rebuild=false" >> "$GITHUB_OUTPUT";
           else
-            # echo "needs-rebuild=true" >> "$GITHUB_OUTPUT";
+            echo "needs-rebuild=true" >> "$GITHUB_OUTPUT";
             tag=$(git describe --tags ${lst:0:10})
             echo "element-version=${tag:1}" >> "$GITHUB_OUTPUT";
             echo ${tag:1}
