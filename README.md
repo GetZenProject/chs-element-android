@@ -18,10 +18,14 @@ Now copy/fork this repository to your GitHub account and follow the steps below 
 
 To upload aps to Google Play Console, you should sign them with the upload key.
 
+Two of the ways to create an upload key (select any of these):
+
+### With Android Studio
+
 To create an upload key with Android Studio you need to have a buildable project.
 
 1. Open Android Studio
-2. Select "Create a project"
+2. Select "Create a project" / "New project" (or open any existing project, if you have any - skip the next step then)
 3. Create a project with default settings
 4. Wait for Gradle + indexing to complete (status bar at the bottom of Android Studio should disappear, takes several minutes)
 5. Select "Build" on the top panel
@@ -38,19 +42,49 @@ To create an upload key with Android Studio you need to have a buildable project
 16. If everything is done correctly, you have created a key store and a key
 17. Now you can exit Android Studio and remove just created project. Note: do not remove your keystore (created in step 9) if you created it in this project.
 
-There are other ways to create a key store and a key, but we recommend to use this one.
-
 Now provide the key store and the key to the GitHub runners. To do this:
 
-1. Open your copy of this repository
+1. Open your copy of this repository in browser
 2. Open repository settings
 3. Open "Secrets and variables" - "Actions"
 4. Set the following 5 secrets by clicking on "New repository secret" for each secret:
-   - `KEYSTORE_CONTENT` - to generate this, run command `base64 path_to_your_keystore.jks` where `path_to_your_keystore.jks" is a path to keystore created in step 9 of the instrucion above
-   - `KEYSTORE_PASSWORD` - the password you created in the step 10 of the instruction above
-   - `KEYSTORE_NAME` - how you would like to name your keystore on runner ("keystore.jks" for example) - any name consisting of latin letters and digits with ".jks" file format
-   - `KEY_ID` - the key alias you created in step 11 of the instruction above
-   - `KEY_PASSWORD` - the password you created in the step 12 of the instruction above
+   1. `KEYSTORE_CONTENT` - to generate this, run command `base64 path_to_your_keystore.jks -w 0` where `path_to_your_keystore.jks` is a path to keystore created in step 9 of the instrucion above
+   2. `KEYSTORE_PASSWORD` - the password you created in the step 10 of the instruction above
+   3. `KEYSTORE_NAME` - just set it to "keystore.jks"
+   4. `KEY_ID` - the key alias you created in step 11 of the instruction above
+   5. `KEY_PASSWORD` - the password you created in the step 12 of the instruction above
+
+### With Keytool
+
+1. Open Terminal
+2. Check that you have Keytool installed by running `keytool`
+3. If you don't have it, install it:
+     1. On Linux you will be suggested to install it by running command in Terminal (on the step above suggested command will appear in Terminal)
+     2. Keytool is a part of JDK, so you need to install JDK
+     3. Download JDK [here](https://www.oracle.com/cis/java/technologies/downloads/) and install it
+     4. Try running keytool from Terminal again
+     5. If you still cannot run Keytool, find Keytool on your device in jdk installation directory and run it using the full path (for example, this path on Windows can be `C:\"Program Files"\Java\jdk-19\bin\keytool.exe`)
+5. Run the following commands in Terminal (with `keytool` replaced by path to Keytool if necessary)
+   ```
+   mkdir upload_key_for_element
+   cd upload_key_for_element
+   keytool -genkey -v -keystore keystore.jks -storetype jks -alias UPLOAD1 \
+   -keyalg RSA -keysize 2048 -validity 10000 \
+   -storepass PASSWORD1 -keypass PASSWORD2
+   ```
+   with `PASSWORD1` and `PASSWORD2` replaced by arbitrary strings, consisting of latin letters and digits (you can change `UPLOAD1` as well, but it is not necessary)
+5. Enter the required information in Terminal
+6. On the last step (Is ... correct?) type "yes"
+7. Run the command `base64 keystore.jks -w 0` in Terminal
+8. Open your copy of this repository in browser
+9. Open repository settings
+10. Open "Secrets and variables" - "Actions"
+11. Set the following 5 secrets by clicking on "New repository secret" for each secret:
+    1. `KEYSTORE_CONTENT` - output of step 7 above in Terminal
+    2. `KEYSTORE_PASSWORD` - the string you that you used to replace "PASSWORD1" above
+    3. `KEYSTORE_NAME` - just set it to "keystore.jks"
+    4. `KEY_ID` - "UPLOAD1" or the string you that you used to replace "UPLOAD1" above
+    5. `KEY_PASSWORD` - the string you that you used to replace "PASSWORD2" above
 
 ## Creating a first release
 
@@ -62,26 +96,26 @@ Also add your home server as secret named `HOMESERVER`.
 
 Now you should make your copy of this repository private in order to safely create the first version of this app.
 
-1. Open your copy of this repository
+1. Open your copy of this repository in browser
 2. Open repository settings
 3. In the "Danger Zone" section, change repository visibility to private (don't do anything if repository is already private)
 
 To build the first version of your custom Element build do the following:
 
-1. Open your copy of this repository
+1. Open your copy of this repository in browser
 2. Open actions
 3. Select action "Execute Fastlane Command" on the left
 4. Click "Run workflow"
 5. Select command "BuildAAB"
 6. "upload_artifact" should be selected
 7. "version" should be the version of Element you would like to use as a first version of your Element mirror (for example, "1.5.30")
-8. Run the workflow, it will take 20-30 minutes to complete
+8. Run the workflow, it will take 20-30 minutes to complete (**It is possible that workflow will terminate with error "fastlane finished with errors", but with no errors generated. In this case, just rerun the whole workflow.**)
 9. In the main page of the action (click on the action name to get there) you will find artifact `release.aab`
 10. Download it to your device, unzip it (it can be wrapped in several folders) and remove it from artifacts
 
 Once you have `.aab` file on your device but not in artifacts, you can make your copy of this repository public.
 
-1. Open your copy of this repository
+1. Open your copy of this repository in browser
 2. Open repository settings
 3. In the "Danger Zone" section, change repository visibility to public
 
@@ -89,7 +123,7 @@ Now you should upload this file to Google Play Console.
 
 Element can be used in cars, but doing so requires a special agreement (you won't be able to upload the generated `.aab` without confirming it).
 
-1. Open Google Play Console
+1. Open Google Play Console in browser
 2. Select your newly created app
 3. In "Release" section, open "Advanced settings" - "Form factors"
 4. Click "Add form factor"
@@ -98,7 +132,7 @@ Element can be used in cars, but doing so requires a special agreement (you won'
 
 To upload the app to the internal testing, follow the following steps.
 
-1. Open Google Play Console
+1. Open Google Play Console in browser
 2. Select your newly created app
 3. Open "Testing" - "Internal testing"
 4. Click "Create new release"
@@ -115,7 +149,7 @@ Once you are done with it, move the app from the internal testing to production 
 
 If you would like to update your app automatically when new version of Element comes out, you should create a service account.
 
-1. Open Google Play Console
+1. Open Google Play Console in browser
 2. Click **Setup → API access**
 3. Click the **Create new service account** button
 4. Follow the **Google Cloud Platform** link in the dialog, which opens a new tab/window:
@@ -135,7 +169,16 @@ If you would like to update your app automatically when new version of Element c
 9. Select the **Users and permissions** on the left, your service account should be in the list of users, to the right of it you need to click the **Manage** button 
 10. Click **Add app** and select `Element` from list, 
 11. Click **Apply**
-11. Click **Save changes** in the lower right corner and **Yes** in the window that opens
+12. Click **Save changes** in the lower right corner and **Yes** in the window that opens
+
+Now provide the service account info to GitHub runner:
+
+1. Open your copy of this repository in browser
+2. Open repository settings
+3. Open "Secrets and variables" - "Actions"
+4. Set the following 2 secrets by clicking on "New repository secret" for each secret:
+    1. `PLAY_CONFIG_JSON_CONTENT` - to get this, run `base64 path_to_json.json -w 0`, where `path_to_json.json` is a path to json you created in step 5.9 above
+    2. `PLAY_CONFIG_JSON_NAME` - name of this json file
 
 ## Configuring updates
 
