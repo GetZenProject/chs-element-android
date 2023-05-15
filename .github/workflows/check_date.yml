@@ -24,13 +24,13 @@ jobs:
         run: |
           git clone https://github.com/vector-im/element-android.git
           cd element-android
-          
+
           usince=$(date -Iminutes -d "$((days+1)) days ago")
           uuntil=$(date -Iminutes -d "$days days ago")
 
           if [[ "${{ inputs.always-build }}" == "true" ]]; then
             usince="2023-01-01T00:00+00:00";
-            uuntil=$(date);
+            uuntil=$(date -Iminutes);
           fi
 
           echo $usince
