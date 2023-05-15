@@ -50,7 +50,7 @@ Now provide the key store and the key to the GitHub runners. To do this:
 4. Set the following 5 secrets by clicking on "New repository secret" for each secret:
    1. `KEYSTORE_CONTENT` - to generate this, run command `base64 path_to_your_keystore.jks -w 0` where `path_to_your_keystore.jks` is a path to keystore created in step 9 of the instrucion above
    2. `KEYSTORE_PASSWORD` - the password you created in the step 10 of the instruction above
-   3. `KEYSTORE_NAME` - just set it to "keystore.jks"
+   3. `KEYSTORE_NAME` - just set it to `keystore.jks`
    4. `KEY_ID` - the key alias you created in step 11 of the instruction above
    5. `KEY_PASSWORD` - the password you created in the step 12 of the instruction above
 
@@ -81,10 +81,10 @@ Now provide the key store and the key to the GitHub runners. To do this:
 10. Open "Secrets and variables" - "Actions"
 11. Set the following 5 secrets by clicking on "New repository secret" for each secret:
     1. `KEYSTORE_CONTENT` - output of step 7 above in Terminal
-    2. `KEYSTORE_PASSWORD` - the string you that you used to replace "PASSWORD1" above
-    3. `KEYSTORE_NAME` - just set it to "keystore.jks"
-    4. `KEY_ID` - "UPLOAD1" or the string you that you used to replace "UPLOAD1" above
-    5. `KEY_PASSWORD` - the string you that you used to replace "PASSWORD2" above
+    2. `KEYSTORE_PASSWORD` - the string you that you used to replace `PASSWORD1` above
+    3. `KEYSTORE_NAME` - just set it to `keystore.jks`
+    4. `KEY_ID` - `UPLOAD1` or the string you that you used to replace `UPLOAD1` above
+    5. `KEY_PASSWORD` - the string you that you used to replace `PASSWORD2` above
 
 ## Creating a first release
 
