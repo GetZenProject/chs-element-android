@@ -45,7 +45,7 @@ jobs:
             echo "element-version=${tag:1}" >> "$GITHUB_OUTPUT";
             echo ${tag:1}
           fi
-        with:
+        env:
           days: ${{ vars.days }}
 
   build:
