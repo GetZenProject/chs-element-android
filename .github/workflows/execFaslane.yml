@@ -17,7 +17,7 @@ on:
         default: "1.5.32"
       version_code_prefix:
         type: string
-        default: "1"
+        default: "99"
   workflow_call:
     secrets:
       APP_ID:
