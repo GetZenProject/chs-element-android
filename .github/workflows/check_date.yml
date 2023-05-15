@@ -1,0 +1,59 @@
+name: Check New Versions
+
+on:
+  workflow_dispatch:
+    inputs:
+      always-build:
+        required: true
+        type: boolean
+        default: true
+        description: "Build the latest version anyway"
+  schedule:
+    - cron: "0 2 * * *"
+
+jobs:
+  check-date:
+    runs-on: ubuntu-latest
+    outputs:
+      needs-rebuild: ${{ steps.check.outputs.needs-rebuild }}
+      element-version: ${{ steps.check.outputs.element-version }}
+    steps:
+      - uses: actions/checkout@v3
+      - name: Check
+        id: check
+        run: |
+          git clone https://github.com/vector-im/element-android.git
+          cd element-android
+
+          usince=$(date -Iminutes -d "$((days+1)) days ago")
+          uuntil=$(date -Iminutes -d "$days days ago")
+
+          if [[ "${{ inputs.always-build }}" == "true" ]]; then
+            usince="2023-01-01T00:00+00:00";
+            uuntil=$(date);
+          fi
+
+          echo $usince
+          echo $uuntil
+
+          lst="$(git log --tags --oneline -max-count=1 --no-decorate --since="$usince" --until="$uuntil")"
+          if [[ "$lst" == "" ]]; then
+            # echo "needs-rebuild=false" >> "$GITHUB_OUTPUT";
+          else
+            # echo "needs-rebuild=true" >> "$GITHUB_OUTPUT";
+            tag=$(git describe --tags ${lst:0:10})
+            echo "element-version=${tag:1}" >> "$GITHUB_OUTPUT";
+            echo ${tag:1}
+          fi
+        with:
+          days: ${{ vars.days }}
+
+  build:
+    needs: check-date
+    if: needs.check-date.outputs.needs-rebuild == 'true'
+    uses: ./.github/workflows/build_and_deploy.yaml
+    secrets: inherit
+    with:
+      command: "deployAAB"
+      version: ${{ needs.check-date.outputs.element-version }}
+      version_code_prefix: "101"
