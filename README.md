@@ -56,31 +56,76 @@ Now provide the key store and the key to the GitHub runners. To do this:
 
 ### With Keytool
 
-1. Open Terminal
-2. Check that you have Keytool installed by running `keytool`
-3. If you don't have it, install it:
-     1. On Linux you will be suggested to install it by running command in Terminal (on the step above suggested command will appear in Terminal)
-     2. Keytool is a part of JDK, so you need to install JDK
-     3. Download JDK [here](https://www.oracle.com/cis/java/technologies/downloads/) and install it
-     4. Try running keytool from Terminal again
-     5. If you still cannot run Keytool, find Keytool on your device in jdk installation directory and run it using the full path (for example, this path on Windows can be `C:\"Program Files"\Java\jdk-19\bin\keytool.exe`)
-5. Run the following commands in Terminal (with `keytool` replaced by path to Keytool if necessary)
-   ```
-   mkdir upload_key_for_element
-   cd upload_key_for_element
-   keytool -genkey -v -keystore keystore.jks -storetype jks -alias UPLOAD1 \
-   -keyalg RSA -keysize 2048 -validity 10000 \
-   -storepass PASSWORD1 -keypass PASSWORD2
-   ```
-   with `PASSWORD1` and `PASSWORD2` replaced by arbitrary strings, consisting of latin letters and digits (you can change `UPLOAD1` as well, but it is not necessary)
-5. Enter the required information in Terminal
-6. On the last step (Is ... correct?) type "yes"
-7. Run the command `base64 keystore.jks -w 0` in Terminal
-8. Open your copy of this repository in browser
-9. Open repository settings
-10. Open "Secrets and variables" - "Actions"
-11. Set the following 5 secrets by clicking on "New repository secret" for each secret:
-    1. `KEYSTORE_CONTENT` - output of step 7 above in Terminal
+**On Linux:**
+
+1. Run the following commands in Terminal:
+
+```
+sudo apt install openjdk-19-jre-headless
+mkdir upload_key_for_element
+cd upload_key_for_element
+keytool -genkey -v -keystore keystore.jks -storetype jks -alias UPLOAD1 -keyalg RSA -keysize 2048 -validity 10000 -storepass PASSWORD1 -keypass PASSWORD2
+```
+
+with `PASSWORD1` and `PASSWORD2` replaced by arbitrary strings, consisting of latin letters and digits (you can change `UPLOAD1` as well, but it is not necessary)
+
+2. Provide the information that is asked of you ("First & Last Name", "Organizational Unit", "Organization", "City / Locality", "State / Province", "Country Code")
+3. Type "Yes" to confirm it (when you are asked "Is ... correct?")
+4. Run the command `base64 keystore.jks -w 0`
+
+**On MacOS:**
+
+1. If you don't have homebrew, run `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"` in Terminal and follow the instrutions there. You will have to copy several commands and reopen Terminal.
+2. Run the following commands in Terminal:
+
+```
+brew install openjdk
+mkdir upload_key_for_element
+cd upload_key_for_element
+keytool -genkey -v -keystore keystore.jks -storetype jks -alias UPLOAD1 -keyalg RSA -keysize 2048 -validity 10000 -storepass PASSWORD1 -keypass PASSWORD2
+```
+
+with`PASSWORD1` and `PASSWORD2` replaced by arbitrary strings, consisting of latin letters and digits (you can change `UPLOAD1` as well, but it is not necessary)
+
+3. Provide the information that is asked of you ("First & Last Name", "Organizational Unit", "Organization", "City / Locality", "State / Province", "Country Code")
+4. Type "Yes" to confirm it (when you are asked "Is ... correct?")
+5. Run the command `base64 keystore.jks -w 0`
+
+**On Windows:**
+
+1. If you don't have Chocolatey installed:
+    1. Open Administrative Power Shell
+    2. Run `Set-ExecutionPolicy AllSigned`
+    3. Run
+    `Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))`
+2. Run the following command in Administrative Power Shell:
+
+```
+choco install openjdk
+```
+
+3. Close Administrative Power Shell
+4. Run this commands in any Terminal:
+
+```
+mkdir upload_key_for_element
+cd upload_key_for_element
+keytool -genkey -v -keystore keystore.jks -storetype jks -alias UPLOAD1 -keyalg RSA -keysize 2048 -validity 10000 -storepass PASSWORD1 -keypass PASSWORD2
+```
+
+with`PASSWORD1` and `PASSWORD2` replaced by arbitrary strings, consisting of latin letters and digits (you can change `UPLOAD1` as well, but it is not necessary)
+
+5. Provide the information that is asked of you ("First & Last Name", "Organizational Unit", "Organization", "City / Locality", "State / Province", "Country Code")
+6. Type "Yes" to confirm it (when you are asked "Is ... correct?")
+7. Run the command `base64 keystore.jks -w 0`
+
+**All OS:**
+
+1. Open your copy of this repository in browser
+2. Open repository settings
+3. Open "Secrets and variables" - "Actions"
+4. Set the following 5 secrets by clicking on "New repository secret" for each secret:
+    1. `KEYSTORE_CONTENT` - output of the last step above in Terminal (in instruction for your OS)
     2. `KEYSTORE_PASSWORD` - the string you that you used to replace `PASSWORD1` above
     3. `KEYSTORE_NAME` - just set it to `keystore.jks`
     4. `KEY_ID` - `UPLOAD1` or the string you that you used to replace `UPLOAD1` above
