@@ -75,7 +75,7 @@ with `PASSWORD1` and `PASSWORD2` replaced by arbitrary strings, consisting of la
 
 **On MacOS:**
 
-1. If you don't have homebrew, run `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"` in Terminal and follow the instrutions there. You will have to copy several commands and reopen Terminal.
+1. If you don't have homebrew, run ```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"```` in Terminal and follow the instrutions there. You will have to copy several commands and reopen Terminal.
 2. Run the following commands in Terminal:
 
 ```
@@ -97,7 +97,7 @@ with `PASSWORD1` and `PASSWORD2` replaced by arbitrary strings, consisting of la
     1. Open Administrative Power Shell
     2. Run `Set-ExecutionPolicy AllSigned`
     3. Run
-    `Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))`
+    ```Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))```
 2. Run the following command in Administrative Power Shell:
 
 ```
@@ -132,6 +132,8 @@ with `PASSWORD1` and `PASSWORD2` replaced by arbitrary strings, consisting of la
     5. `KEY_PASSWORD` - the string you that you used to replace `PASSWORD2` above
 
 ## Creating a first release
+
+*You cannot create first release automatically, because it requires more actions then just building an app. Mainly it is creating an app id (which requires new app to be uploaded to Google Play Console by hands) and providing some information about app to Google.*
 
 Before building the first release, you should select app id for your app. Recommended one is your reversed domain name + ".element" (for example, "com.mycomp.element").
 
