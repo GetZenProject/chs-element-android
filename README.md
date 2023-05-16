@@ -236,6 +236,8 @@ Now provide the service account info to GitHub runner:
 7. Open Actions in your repository
 8. Run "Check New Versions" with "Build the latest version anyway" on to verify that everything works as expected
 
+You can enable/disable update checking on the action page of action "Check New Versions". 
+
 ## Other
 
 You can change other [config setting](https://github.com/vector-im/element-android/blob/develop/vector-config/src/main/res/values/config.xml) (like changing the preffered Jitsi domain) in the step `Edit Config` of the `.github/workflows/execFastlane.yml`.
