@@ -75,7 +75,7 @@ with `PASSWORD1` and `PASSWORD2` replaced by arbitrary strings, consisting of la
 
 **On MacOS:**
 
-1. If you don't have homebrew, run ```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"```` in Terminal and follow the instrutions there. You will have to copy several commands and reopen Terminal.
+1. If you don't have homebrew, run ```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"``` in Terminal and follow the instrutions there. You will have to copy several commands and reopen Terminal.
 2. Run the following commands in Terminal:
 
 ```
