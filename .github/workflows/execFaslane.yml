@@ -85,7 +85,7 @@ jobs:
         env:
           HOMESERVER: ${{ secrets.HOMESERVER }}
           
-       - name: Display config file
+      - name: Display config file
         run: cat element-android/vector-config/src/main/res/values/config.xml
       
       - name: Prepare Keystore
