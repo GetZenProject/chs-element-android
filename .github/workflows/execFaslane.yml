@@ -84,9 +84,6 @@ jobs:
           sed -i "s#matrix.org#$HOMESERVER#1" element-android/vector-config/src/main/res/values/config.xml
         env:
           HOMESERVER: ${{ secrets.HOMESERVER }}
-          
-      - name: Display config file
-        run: cat element-android/vector-config/src/main/res/values/config.xml
       
       - name: Prepare Keystore
         run: |
