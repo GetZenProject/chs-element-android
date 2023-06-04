@@ -56,4 +56,4 @@ jobs:
     with:
       command: "deployAAB"
       version: ${{ needs.check-date.outputs.element-version }}
-      version_code_prefix: "101"
+      version_code_prefix: "102"

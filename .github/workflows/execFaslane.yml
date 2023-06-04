@@ -17,7 +17,7 @@ on:
         default: "1.5.32"
       version_code_prefix:
         type: string
-        default: "100"
+        default: "101"
   workflow_call:
     secrets:
       APP_ID:
@@ -146,9 +146,6 @@ jobs:
           KEY_ID: ${{ secrets.KEY_ID }}
           KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
           APP_ID: ${{ secrets.APP_ID }}
-      
-      - name: Verify Manifest
-        run: cat vector/src/main/AndroidManifest.xml
       
       - name: Bundle Install
         run: bundle install
