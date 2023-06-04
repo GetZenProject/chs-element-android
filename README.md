@@ -75,7 +75,14 @@ with `PASSWORD1` and `PASSWORD2` replaced by arbitrary strings, consisting of la
 
 **On MacOS:**
 
-1. If you don't have homebrew, run ```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"``` in Terminal and follow the instrutions there. You will have to copy several commands and reopen Terminal.
+1. If you don't have homebrew, run
+
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+in Terminal and follow the instrutions there. You will have to copy several commands and reopen Terminal.
+
 2. Run the following commands in Terminal:
 
 ```
@@ -97,7 +104,9 @@ with `PASSWORD1` and `PASSWORD2` replaced by arbitrary strings, consisting of la
     1. Open Administrative Power Shell
     2. Run `Set-ExecutionPolicy AllSigned`
     3. Run
-    ```Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))```
+    ```
+    Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+    ```
 2. Run the following command in Administrative Power Shell:
 
 ```
