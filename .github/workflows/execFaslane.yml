@@ -147,14 +147,14 @@ jobs:
           KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
           APP_ID: ${{ secrets.APP_ID }}
       
+      - name: Verify Manifest
+        run: cat vector/src/main/AndroidManifest.xml
+      
       - name: Bundle Install
         run: bundle install
       
       - name: Execute
         run: bundle exec fastlane ${{ inputs.command }}
-      
-      - name: List Files
-        run: ls -R
       
       - uses: actions/upload-artifact@v3
         if: ${{ inputs.upload_artifact != '' }}
