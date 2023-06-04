@@ -127,7 +127,7 @@ jobs:
           
           # Remove REQUEST_INSTALL_PACKAGES
           sed -i "s#<!-- To be able to install APK from the application -->##g" element-android/vector/src/main/AndroidManifest.xml
-          sed -i "s#<uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />##g" element-android/vector/src/main/AndroidManifest.xml
+          sed -i "s#<uses-permission android:name=\"android.permission.REQUEST_INSTALL_PACKAGES\" />##g" element-android/vector/src/main/AndroidManifest.xml
 
           # Merge Repositories
           mv element-android/* ./
